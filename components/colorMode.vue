@@ -17,15 +17,15 @@
 
 <script setup>
 const colorMode = useColorMode()
-const checked=ref(colorMode.preference=='dark')
-function toggle(){
-  if(checked.value){
- colorMode.preference='light';
-}
-  else{
-    colorMode.preference='dark'
-  }
-}
+// const checked=ref(colorMode.value=='dark')
+// function toggle(){
+//   if(checked.value){
+//  colorMode.preference='light';
+// }
+//   else{
+//     colorMode.preference='dark'
+//   }
+// }
 </script>
 
 <style lang="postcss">

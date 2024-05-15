@@ -20,7 +20,7 @@
           <img
             :src="item.avatar.src"
             :alt="item.name"
-            class="h-96 mx-auto"
+            class="h-72 md:h-96 mx-auto"
             draggable="false"
             arrows
           />
