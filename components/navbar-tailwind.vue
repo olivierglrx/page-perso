@@ -23,11 +23,12 @@
       <!-- Navbar -->
       <div class="hidden md:block">
         <ul class="flex space-x-8 text-sm font-sans">
-          <li><NuxtLink href="/" class="">Mathématiques</NuxtLink></li>
+          <li><NuxtLink href="/" class="">Cours</NuxtLink></li>
           <li><NuxtLink href="/colles" class="">Colles</NuxtLink></li>
-          <li><NuxtLink href="/devoirs" class="">Informatique</NuxtLink></li>
+          <li><NuxtLink href="/devoirs" class="">Devoirs</NuxtLink></li>
+          <li><NuxtLink href="/informatique" class="">Informatique</NuxtLink></li>
           <li class="">
-            <NuxtLink href="/publications" class="">Research</NuxtLink>
+            <NuxtLink href="/publications" class="">Publications</NuxtLink>
           </li>
         </ul>
       </div>
@@ -81,24 +82,11 @@
         </span>
 
         <ul class="divide-y font-sans">
-          <li>
-            <NuxtLink href="/" @click="isOpen = false" class="my-4 inline-block"
-              >Home</NuxtLink
-            >
-          </li>
-          <li>
-            <NuxtLink href="about" @click="isOpen = false" class="my-4 inline-block"
-              >About</NuxtLink
-            >
-          </li>
-          <li>
-            <NuxtLink
-              href="publications"
-              @click="isOpen = false"
-              class="my-4 inline-block"
-              >Publications</NuxtLink
-            >
-          </li>
+          <li><NuxtLink href="/" @click="isOpen = false" class="my-4 inline-block">Cours</NuxtLink></li>
+          <li><NuxtLink href="/colles" @click="isOpen = false" class="my-4 inline-block">Colles</NuxtLink></li>
+          <li><NuxtLink href="/devoirs" @click="isOpen = false" class="my-4 inline-block">Devoirs</NuxtLink></li>
+          <li><NuxtLink href="/informatique" @click="isOpen = false" class="my-4 inline-block">Informatique</NuxtLink></li>
+          <li> <NuxtLink href="/publications" @click="isOpen = false" class="my-4 inline-block">Publications</NuxtLink> </li>
         </ul>
       </aside>
     </div>

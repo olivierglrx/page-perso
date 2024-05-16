@@ -1,4 +1,5 @@
 <template>
+  <Hero/>
   <section id="cours">
     <h1
       class="mt-2 mb-4 text-2xl text-center font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-4xl dark:text-white"
@@ -48,7 +49,7 @@ const allItems = [
     toCorrection: "CH5/CH5.3-correctionTD.pdf",
     showCorrection:false,
     avatar: { src: "CH5/CH5.3-meme.jpg" },
-    published : true,
+    published : false,
   },  
   {
     name: "Chapitre 5.2 - Suites réelles",
@@ -57,7 +58,7 @@ const allItems = [
     toCorrection: "CH5/CH5.2-correctionTD.pdf",
     showCorrection:false,
     avatar: { src: "CH5/CH5.2-meme.jpg" },
-    published : true,
+    published : false,
   },
   {
     name: "Chapitre 5.1 - Suites usuelles",
@@ -66,7 +67,7 @@ const allItems = [
     toCorrection: "CH5/CH5.1-correctionTD.pdf",
     showCorrection:false,
     avatar: { src: "CH5/CH5.1-meme.jpg" },
-    published : true,
+    published : false,
   },
   {
     name: "Chapitre 4 - Complexe",
@@ -75,7 +76,7 @@ const allItems = [
     toCorrection: "CH4/CH4-correctionTD.pdf",
     showCorrection:false,
     avatar: { src: "CH4/CH4-meme.jpg" },
-    published : true,
+    published : false,
 
   },
   {
@@ -85,7 +86,7 @@ const allItems = [
     toCorrection: "CH3/CH3-correctionTD.pdf",
     showCorrection:false,
     avatar: { src: "CH3/CH3-meme.jpg" },
-    published : true,
+    published : false,
   },
   {
     name: "Chapitre 2 - Trigonométrie",
@@ -93,8 +94,8 @@ const allItems = [
     toTD: "CH2/CH2-TD.pdf",
     toCorrection: "CH2/CH2-correctionTD.pdf",
     showCorrection:false,
-    avatar: { src: "CH2/CH2-meme.jpg" },
-    published : true,
+    avatar: { src: "CH2/CH2-meme.png" },
+    published : false,
 
   },
   {
@@ -104,14 +105,14 @@ const allItems = [
     toCorrection: "",
     showCorrection:false,
     avatar: { src: "CH1/CH1-meme.jpg" },
-    published : true,
+    published : false,
   },
   {
     name: "Chapitre 0 - Résolution d'équations",
     toCours: "CH0/CH0-cours.pdf",
     toTD: "CH0/CH0-TD.pdf",
     toCorrection: "CH0/CH0-correctionTD.pdf",
-    showCorrection:true,
+    showCorrection:false,
     avatar: { src: "CH0/CH0-meme.jpg" },
     published : true,
 
