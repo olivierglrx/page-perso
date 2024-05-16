@@ -3,7 +3,7 @@
 
   </div>
     <div>
-    <input type="checkbox" class="checkbox" id="checkbox"  v-model="checked" @click="toggle" />
+    <input type="checkbox" class="checkbox" id="checkbox"   v-model="isDark" @click="toggle" />
     <label for="checkbox" class="checkbox-label">
       <Icon id="moon" name="material-symbols:nightlight" />
       <Icon id="sun" name="mdi:white-balance-sunny" />
@@ -12,20 +12,26 @@
     </label>
    
   </div>
+
+
 </template>
 
 
 <script setup>
 const colorMode = useColorMode()
+const isDark=ref(colorMode.preference=='dark')
+console.log(colorMode.preference)
+
+// const colorMode = useColorMode()
 // const checked=ref(colorMode.value=='dark')
-// function toggle(){
-//   if(checked.value){
-//  colorMode.preference='light';
-// }
-//   else{
-//     colorMode.preference='dark'
-//   }
-// }
+function toggle(){
+  if(isDark.value){
+ colorMode.preference='light';
+}
+  else{
+    colorMode.preference='dark'
+  }
+}
 </script>
 
 <style lang="postcss">

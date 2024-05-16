@@ -1,5 +1,5 @@
 <template>
-  <nav class="w-full p-6 bg-transparent bg-slate-100  dark:bg-gray-700">
+  <nav class="w-full p-6 bg-transparent bg-slate-200 dark:bg-gray-700">
     <div class="flex items-center justify-between">
       <!-- Header logo -->
 
@@ -22,16 +22,16 @@
 
       <!-- Navbar -->
       <div class="hidden md:block">
-        <ul class="flex space-x-8 text-sm font-sans" >
+        <ul class="flex space-x-8 text-sm font-sans">
           <li><NuxtLink href="/" class="">Mathématiques</NuxtLink></li>
           <li><NuxtLink href="/colles" class="">Colles</NuxtLink></li>
           <li><NuxtLink href="/devoirs" class="">Informatique</NuxtLink></li>
-          <li>
+          <li class="">
             <NuxtLink href="/publications" class="">Research</NuxtLink>
           </li>
         </ul>
       </div>
-      <div><ColorMode /></div>
+      <div> <ColorMode /></div>
 
       <!-- Dark Background Transition -->
       <transition
@@ -61,10 +61,7 @@
         :class="isOpen ? 'translate-x-0' : '-translate-x-full'"
       >
         <div class="close">
-          <button
-            class="absolute top-0 right-0 mt-4 mr-4"
-            @click="isOpen = false"
-          >
+          <button class="absolute top-0 right-0 mt-4 mr-4" @click="isOpen = false">
             <svg
               class="w-6 h-6"
               fill="none"
@@ -79,10 +76,7 @@
           </button>
         </div>
 
-        <span
-          @click="isOpen = false"
-          class="flex w-full items-center p-4 border-b"
-        >
+        <span @click="isOpen = false" class="flex w-full items-center p-4 border-b">
           <!-- <Tailwind /> -->
         </span>
 
@@ -93,10 +87,7 @@
             >
           </li>
           <li>
-            <NuxtLink
-              href="about"
-              @click="isOpen = false"
-              class="my-4 inline-block"
+            <NuxtLink href="about" @click="isOpen = false" class="my-4 inline-block"
               >About</NuxtLink
             >
           </li>
