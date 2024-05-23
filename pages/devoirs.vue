@@ -1,26 +1,26 @@
 <template>
   <Titleheader title="Devoirs" />
 
-  <div v-if="store.logged">
-    <div class="flex h-screen mx-10">
-      <ul class="">
-        <li v-for="item in DS" class="">
-          <div
-            class="shadow p-3 gap-2 items-center hover:shadow-lg transition delay-150 duration-300 ease-in-out hover:scale-105 transform"
-          >
-            <div class="flex justify-between">
-              <div>
-                <Icon
-                  name="mdi:file-document"
-                  color="black dark:white"
-                /><nuxt-link
-                  :to="item.to"
-                  external
-                  class="text-blue-600 font-semibold"
-                  >{{ item.name }}
-                </nuxt-link>
-                {{ item.date }}
-              </div>
+  <div class="flex h-screen mx-10">
+    <ul class="md:w-1/2 w-11/12">
+      <li v-for="item in DS" class="">
+        <div
+          class="shadow p-3 gap-2 items-center hover:shadow-lg transition delay-150 duration-300 ease-in-out hover:scale-105 transform"
+        >
+          <div class="flex justify-between">
+            <div>
+              <Icon
+                name="mdi:file-document"
+                color="black dark:white"
+              /><nuxt-link
+                :to="item.to"
+                external
+                class="text-blue-600 font-semibold"
+                >{{ item.name }}
+              </nuxt-link>
+              {{ item.date }}
+            </div>
+            <div v-if="store.logged">
               <p v-if="item.toNotes">
                 <Icon
                   name="mdi:file-document"
@@ -32,34 +32,41 @@
                   >Notes
                 </nuxt-link>
               </p>
+              <p v-else>Notes à venir</p>
             </div>
-            <div>
-              <span v-for="key in item.keywords.slice(0, -1)">
-                {{ key + ", " }}</span
+            <div v-else>
+              <button
+                label="Open"
+                @click="isOpen = true"
+                class="text-blue-600 font-semibold"
               >
-              <span> {{ item.keywords.slice(-1)[0] }}.</span>
+                Notes
+              </button>
+
+              <UModal v-model="isOpen">
+                <div class="p-4">
+                  <label> Connectez vous pour accéder aux notes</label>
+                  <UInput v-model="pass" />
+                  <UButton
+                    class="bg-blue-500 hover:bg-blue-600 dark:bg-blue-500"
+                    size="sm"
+                    @click="validate(pass)"
+                    >OK</UButton
+                  >
+                  <p>{{ message }}</p>
+                </div>
+              </UModal>
             </div>
           </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div v-else>
-    <button label="Open" @click="isOpen = true">Notes</button>
-
-    <UModal v-model="isOpen">
-      <div class="p-4">
-        <label> Connectez vous pour accéder aux notes</label>
-        <UInput v-model="pass" />
-        <UButton
-          class="bg-blue-500 hover:bg-blue-600 dark:bg-blue-500"
-          size="sm"
-          @click="validate(pass)"
-          >OK</UButton
-        >
-        <p>{{ message }}</p>
-      </div>
-    </UModal>
+          <div>
+            <span v-for="key in item.keywords.slice(0, -1)">
+              {{ key + ", " }}</span
+            >
+            <span> {{ item.keywords.slice(-1)[0] }}.</span>
+          </div>
+        </div>
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -67,7 +74,7 @@
 const DS = [
   {
     name: "DS2",
-    to: "devoirs/2023/DS2.pdf",
+    to: "/2023/DS2.pdf",
     toNotes: "",
     showCorrection: true,
     date: "",
@@ -75,7 +82,7 @@ const DS = [
   },
   {
     name: "DS1",
-    to: "devoirs/2023/DS1.pdf",
+    to: "2023/DS1.pdf",
     toNotes: "",
     showCorrection: true,
     keywords: ["equations", "fonctions"],

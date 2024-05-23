@@ -1,11 +1,12 @@
 <template>
-  <div id="container">
+  <div id="container" class="mt-1 flex">
     <div class="flex">
-      <p class="hidden md:block">Bienvenue sur le site personnel d'Olivier Glorieux   <UAvatar
-        src="olivier.png"
-        alt="Avatar"
-      />. 
+      <p class="hidden md:block p-2 mb-10">
         <ul>
+          <li class="p-2"> Bienvenue sur le site personnel d'Olivier Glorieux   <UAvatar
+            src="olivier.png"
+            alt="Avatar"
+          />.  </li>
           <li> <Icon name="ph:student-fill" color="black dark:white" /> Etudiants,  vous trouverez ici les documents de cours de la BCPST1 
             du lycée Chaptal.  </li>
             <li> <Icon name="uil:github" color="black dark:white"  /> Enseignants, vous avez accés aux fichiers .tex de ces documents sur 
@@ -23,12 +24,12 @@
 
 <style scoped>
 #container {
-  margin-top: 1%;
+  
   margin-bottom: 1%;
   margin-left: 20%;
-  margin-right: 20%;
+ 
 
-  display: flex;
+  
 }
 
 img {
@@ -37,6 +38,6 @@ img {
 }
 
 p {
-  margin-right: 10%;
+  
 }
 </style>

@@ -1,13 +1,11 @@
 <template>
   <div></div>
   <div>
-    {{ store.isDark }}
     <input
       type="checkbox"
       class="checkbox"
       id="checkbox"
       v-model="store.isDark"
-      @click="toggle()"
     />
     <label for="checkbox" class="checkbox-label">
       <Icon id="moon" name="material-symbols:nightlight" />
@@ -20,30 +18,15 @@
 
 <script setup>
 const colorMode = useColorMode();
-// const isDark = ref(colorMode.preference == "dark");
-// console.log(colorMode.preference);
-
 import { useLogginStore } from "~/stores/loggin";
-
 const store = useLogginStore();
-const message = ref("");
-if (store.isDark.value) {
-  colorMode.preference = "dark";
-} else {
-  colorMode.preference = "light";
-}
-// const colorMode = useColorMode()
-// const checked=ref(colorMode.value=='dark')
-function toggle() {
-  store.isDark.value = !store.isDark.value;
-
+watch(store, () => {
   if (store.isDark) {
-    console.log(store.isDark);
-    colorMode.value = "light";
+    colorMode.preference = "dark";
   } else {
-    colorMode.value = "dark";
+    colorMode.preference = "light";
   }
-}
+});
 </script>
 
 <style lang="postcss">

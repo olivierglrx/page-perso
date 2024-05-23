@@ -1,19 +1,19 @@
 <template>
   <Titleheader title="Publications" />
-  $$p$$
+
   <p class="m-10">
     Probability percolation is a concept often encountered in statistical
     physics and probability theory, particularly in the study of random systems,
     such as networks, lattices, or graphs. Percolation theory deals with the
     behavior of connected clusters in random systems. In probability
     percolation, the system is typically represented as a lattice or a network
-    where each site or edge is occupied with some probability \(p\),$$p$$
-    independently of other sites or edges. The term "percolation" refers to the
-    phenomenon of connectivity in such systems. In other words, one examines
-    whether a path of connected occupied sites or edges spans the entire system,
-    from one side to another. There are different types of percolation models,
-    such as site percolation (where sites are occupied with probability ) and
-    bond percolation (where edges are occupied with probability ). The critical
+    where each site or edge is occupied with some probability independently of
+    other sites or edges. The term "percolation" refers to the phenomenon of
+    connectivity in such systems. In other words, one examines whether a path of
+    connected occupied sites or edges spans the entire system, from one side to
+    another. There are different types of percolation models, such as site
+    percolation (where sites are occupied with probability ) and bond
+    percolation (where edges are occupied with probability ). The critical
     probability is of particular interest, as it represents the threshold
     probability at which percolation behavior undergoes a phase transition.
     Probability percolation models are used to study a wide range of phenomena,

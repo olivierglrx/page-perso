@@ -12,7 +12,7 @@
         arrows
       >
         <div class="text-center mx-auto">
-          <div class="mt-5 mb-10">
+          <div class="mt-1 mb-5">
             <h2 class="text-xl text-center font-bold">{{ item.name }}</h2>
           </div>
           <img
@@ -22,7 +22,7 @@
             draggable="false"
             arrows
           />
-          <div class="mt-5 mb-10 flex justify-evenly">
+          <div class="mt-1 mb-10 flex justify-evenly">
             <NuxtLink :to="item.toCours" external class=""> Cours </NuxtLink>
             <NuxtLink :to="item.toTD" external class=""> TD </NuxtLink>
             <NuxtLink
