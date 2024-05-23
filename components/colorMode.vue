@@ -1,35 +1,47 @@
 <template>
+  <div></div>
   <div>
-
-  </div>
-    <div>
-    <input type="checkbox" class="checkbox" id="checkbox"   v-model="isDark" @click="toggle" />
+    {{ store.isDark }}
+    <input
+      type="checkbox"
+      class="checkbox"
+      id="checkbox"
+      v-model="store.isDark"
+      @click="toggle()"
+    />
     <label for="checkbox" class="checkbox-label">
       <Icon id="moon" name="material-symbols:nightlight" />
       <Icon id="sun" name="mdi:white-balance-sunny" />
 
       <span class="ball"></span>
     </label>
-   
   </div>
-
-
 </template>
 
-
 <script setup>
-const colorMode = useColorMode()
-const isDark=ref(colorMode.preference=='dark')
-console.log(colorMode.preference)
+const colorMode = useColorMode();
+// const isDark = ref(colorMode.preference == "dark");
+// console.log(colorMode.preference);
 
+import { useLogginStore } from "~/stores/loggin";
+
+const store = useLogginStore();
+const message = ref("");
+if (store.isDark.value) {
+  colorMode.preference = "dark";
+} else {
+  colorMode.preference = "light";
+}
 // const colorMode = useColorMode()
 // const checked=ref(colorMode.value=='dark')
-function toggle(){
-  if(isDark.value){
- colorMode.preference='light';
-}
-  else{
-    colorMode.preference='dark'
+function toggle() {
+  store.isDark.value = !store.isDark.value;
+
+  if (store.isDark) {
+    console.log(store.isDark);
+    colorMode.value = "light";
+  } else {
+    colorMode.value = "dark";
   }
 }
 </script>
@@ -59,7 +71,6 @@ body {
 
 #moon {
   color: #f39c12;
-  
 }
 
 #sun {
@@ -99,6 +110,4 @@ body {
 .support a:hover {
   transform: scale(1.1);
 }
-
-
 </style>
