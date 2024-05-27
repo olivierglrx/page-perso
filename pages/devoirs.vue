@@ -5,7 +5,7 @@
     <ul class="md:w-1/2 w-11/12">
       <li v-for="item in DS" class="">
         <div
-          class="shadow p-3 gap-2 items-center hover:shadow-lg transition delay-150 duration-300 ease-in-out hover:scale-105 transform"
+          class="dark:bg-gray-700 m-3 shadow p-3 gap-2 items-center hover:shadow-lg transition delay-150 duration-300 ease-in-out hover:scale-105 transform"
         >
           <div class="flex justify-between">
             <div>

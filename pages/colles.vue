@@ -5,7 +5,7 @@
       <li v-for="item in programmes" class="">
         <div
           v-if="item.published"
-          class="shadow p-3 gap-2 items-center hover:shadow-lg transition delay-150 duration-300 ease-in-out hover:scale-105 transform"
+          class="dark:bg-gray-700 m-3 shadow p-3 gap-2 items-center hover:shadow-lg transition delay-150 duration-300 ease-in-out hover:scale-105 transform"
         >
           <Icon name="mdi:file-document" color="black dark:white" /><nuxt-link
             :to="item.to"
