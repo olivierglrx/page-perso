@@ -7,14 +7,14 @@
     option-attribute="label"
     @change="onChange(this.name)"
   />
-  {{ selected }}
-  <ArchivesAnnes :data="DM2020" :date="'2020'"></ArchivesAnnes>
-  <ArchivesAnnes :data="D2021" :date="'2021'"></ArchivesAnnes>
-  <ArchivesAnnes :data="DS2023" :date="'2023'"></ArchivesAnnes>
+
+  <ArchivesAnnes :data="dref2020" :date="'2020'"></ArchivesAnnes>
+  <ArchivesAnnes :data="dref2021" :date="'2021'"></ArchivesAnnes>
+  <ArchivesAnnes :data="dref2023" :date="'2023'"></ArchivesAnnes>
 </template>
 
 <script setup>
-var DS2023 = [
+var D2023 = [
   {
     name: "DS1",
     keywords: [
@@ -32,7 +32,7 @@ var DS2023 = [
 
   {
     name: "DS3",
-    keywords: ["Systèmes linéaires", "Suites AG", "Complexes", "Sommes"],
+    keywords: ["Systèmes linéaires", "Suite AG", "Complexes", "Sommes"],
   },
   {
     name: "DS4",
@@ -61,11 +61,11 @@ var DS2023 = [
   },
   {
     name: "DSrevision",
-    keywords: ["Probabilite", "Sommes", "Ecricome2022"],
+    keywords: ["Probabilités", "Sommes", "Ecricome2022"],
   },
 ];
 
-var DM2020 = [
+var D2020 = [
   {
     name: "DM1",
     keywords: [
@@ -145,7 +145,7 @@ const DM2021 = [
   },
   {
     name: "DM14",
-    keywords: ["Probabilité", "Matrices", "Continuité"],
+    keywords: ["Probabilités", "Matrices", "Continuité"],
   },
   {
     name: "DM15",
@@ -224,9 +224,13 @@ const DS2021 = [
 
 const D2021 = DS2021.concat(DM2021);
 
+const dref2020 = ref(D2020);
+const dref2021 = ref(D2021);
+const dref2023 = ref(D2023);
+
 var keywordsD = {};
-DS2023.forEach((x) => callbackFct(x.keywords, keywordsD));
-DM2020.forEach((x) => callbackFct(x.keywords, keywordsD));
+D2023.forEach((x) => callbackFct(x.keywords, keywordsD));
+D2020.forEach((x) => callbackFct(x.keywords, keywordsD));
 D2021.forEach((x) => callbackFct(x.keywords, keywordsD));
 function callbackFct(x, dict) {
   x.forEach((item) => {
@@ -246,14 +250,28 @@ const ordered = Object.keys(keywordsD)
     return obj;
   }, {});
 
-var k = [];
+var k = ["Tous"];
 for (var item in ordered) {
-  k.push({ label: item + " (" + ordered[item] + ")", name: item });
+  k.push({ label: item });
 }
 
 const selected = ref(k[0]);
 
 function onChange() {
-  console.log(DM2020);
+  if (selected.value != "Tous") {
+    dref2020.value = D2020.filter(
+      (x) => x["keywords"].indexOf(selected.value) > -1
+    );
+    dref2021.value = D2021.filter(
+      (x) => x["keywords"].indexOf(selected.value) > -1
+    );
+    dref2023.value = D2023.filter(
+      (x) => x["keywords"].indexOf(selected.value) > -1
+    );
+  } else {
+    dref2020.value = D2020;
+    dref2021.value = D2021;
+    dref2023.value = D2023;
+  }
 }
 </script>
