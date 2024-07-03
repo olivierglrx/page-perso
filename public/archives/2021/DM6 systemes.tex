@@ -1,0 +1,226 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\newif\ifshow
+\showfalse
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+\geometry{hmargin=1.0cm,vmargin=2.5cm }
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{DM6 \\
+\small{Copie acceptée jusqu'au mercredi 17 Novembre} \\
+A faire avant le vendredi 19 novembre
+}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{exercice}
+Soit $\lambda \in \R$. On considère le système suivant 
+$$(S_\lambda)\quad  \left\{ \begin{array}{ccc}
+2x +2y & =& \lambda x\\
+x +3y  & =& \lambda y 
+\end{array}\right. $$
+
+\begin{enumerate}
+\item Déterminer $\Sigma$ l'ensemble des réels $\lambda$ pour lequel ce système \underline{n'est pas} de Cramer. 
+\item Pour $\lambda \in \Sigma$, résoudre $S_\lambda$
+\item Quelle est la solution si $\lambda \notin \Sigma$. 
+\end{enumerate}
+\end{exercice}
+
+
+\begin{correction}
+\begin{enumerate}
+\item  On met le système sous forme échelonné
+$$(S_\lambda)\equivaut  \left\{ \begin{array}{ccc}
+(2-\lambda)x +2y & =& 0\\
+x +(3-\lambda)y  & =& 0
+\end{array}\right.
+\equivaut 
+\left\{ \begin{array}{ccc}
+x +(3-\lambda)y  & =& 0\\
+(2-\lambda)x +2y & =& 0
+\end{array}\right.
+\equivaut 
+\left\{ \begin{array}{rcc}
+x +(3-\lambda)y  & =& 0\\
++2y -  (3-\lambda) (2-\lambda) y& =& 0
+\end{array}\right.
+ $$
+ D'où 
+ 
+ $$(S_\lambda)\equivaut  \left\{ \begin{array}{rcc}
+x +(3-\lambda)y  & =& 0\\
+  (-\lambda^2 +5\lambda -4) y& =& 0
+\end{array}\right.$$
+ 
+Le système n'est pas de Cramer si  $ (\lambda^2 +5\lambda -4) =0$, soit 
+$$\Sigma =\{ 1, 4\}$$
+\item \begin{itemize}
+\item $\underline{\lambda=1}$
+On obtient $S_1 \equivaut x+ 2y =0$
+$$\cS_1 =\{ (-2y, y) | y \in \R\}$$
+
+\item $\underline{\lambda=4}$
+On obtient $S_4 \equivaut x-y =0$
+$$\cS_4 =\{ (x, x) | x \in \R\}$$
+\end{itemize}
+
+\item Si $\lambda$ n'est pas dans $ \Sigma$, le système est de Cramer, il admet donc une unique solution. Comme $(0,0)$ est solution, c'est la seule. 
+$$\cS_\lambda =\{ (0,0)\}$$
+\end{enumerate}
+\end{correction}
+
+
+
+
+\begin{exercice}
+Résoudre le système suivant où $x,y,z$ sont des réels positifs (on pourra utiliser une fonction qui transforme les $\times$ en $+$.... ): 
+$$\left\{ \begin{array}{ccc}
+x^2y^2z^6 & =& 1\\
+x^4y^5z^{13}& =& 2 \\
+x^2yz^7 & =& 3
+\end{array}\right. $$
+\end{exercice}
+
+
+
+
+\begin{correction}
+Comme tous les éléments sont positifs on peut prendre le logartihme. 
+On note $X= \ln(x), Y=\ln(y)$ et $Z=\ln(z)$ on obtient : 
+$$\left\{ \begin{array}{ccc}
+2X +2Y+6Z& =& 0\\
+4X+5Y+13Z& =& \ln(2) \\
+2X+Y+7Z & =& \ln(3)
+\end{array}\right. $$
+On résout ensuite le système en $(X,Y,Z)$. Tout d'abord on échelonne le système : 
+$$\left\{ \begin{array}{rcl}
+2X +2Y+6Z& =& 0\\
+4X+5Y+13Z& =& \ln(2) \\
+2X+Y+7Z & =& \ln(3)
+\end{array}\right. \equivaut 
+\left\{ \begin{array}{rcl}
+2X +2Y+6Z& =& 0\\
+0+Y+Z& =& \ln(2) \\
+-Y+Z & =& \ln(3)
+\end{array}\right. \equivaut 
+\left\{ \begin{array}{rcl}
+2X +2Y+6Z& =& 0\\
+Y+Z& =& \ln(2) \\
+2 Z & =& \ln(3) +\ln(2)
+\end{array}\right.$$
+Une fois que le système est échelonné, on résout en remontant les lignes. 
+On obtient : 
+$$\left\{ \begin{array}{rcl}
+2X +2Y+6Z& =& 0\\
+Y+Z& =& \ln(2) \\
+Z & =& \ln(\sqrt{6})
+\end{array}\right. \equivaut 
+\left\{ \begin{array}{rcl}
+2X +2Y+6Z& =& 0\\
+Y& =& \ln(\frac{2}{\sqrt{6}}) \\
+Z & =& \ln(\sqrt{6})
+\end{array}\right. \equivaut 
+\left\{ \begin{array}{rcl}
+2X & =& -\ln(\frac{4}{6})  -\ln(6^3)\\
+Y& =& \ln(\frac{2}{\sqrt{6}}) \\
+Z & =& \ln(\sqrt{6})
+\end{array}\right.
+$$
+
+
+Soit encore  $X= \ln( \sqrt{\frac{1}{6^2 4}}) $ , $Y = \ln(\frac{2}{\sqrt{6}}) $ et $Z= \ln(\sqrt{6})$. 
+D'où $$x= \frac{1}{12}, \quad  y = \frac{2}{\sqrt{6}}  \quadet z= \sqrt{6}$$
+
+
+
+
+
+
+
+\end{correction}
+
+\begin{exercice}
+Soient $\suite{u}$ et $\suite{v}$ deux suites réelles définies par 
+$$\left\{ 
+\begin{array}{rl}
+u_0&=0\\
+\forall n\geq 0,\, u_{n+1} &= 2u_n +v_n
+\end{array}\right. \quad \left\{ 
+\begin{array}{rl}
+v_0&=1\\
+\forall n\geq 0,\,v_{n+1} &= u_n +v_n
+\end{array}\right.$$
+\end{exercice}
+
+\begin{enumerate}
+\item Ecrire une fonction Python qui prend en argument $n$  et retourne la valeur de $u_n$ et $v_n$. 
+\item Montrer que pour tout $n\in \N$ :
+$$u_{n+2} = 3u_{n+1} -u_n$$
+\item En déduire la valeur de $u_n$ en fonction de $n\in \N$.  (Il va y avoir des $\frac{3\pm \sqrt{5}}{2}$ qui trainent mais c'est faisable)
+\end{enumerate}
+
+\begin{correction}
+\begin{itemize}
+\item Fonction prenant $n$ et $u_0, v_0 $ en paramètre. Pour calculer $u_10$ on peut faire par $\texttt{suite(10,1,0)}$ 
+\begin{lstlisting}
+def suite(n,u0,v0):
+    u,v=u0,v0 \# affection simultanee
+    for i in range(n):
+        u,v=2*u+v, u+v \# affection simultanee
+    return(u,v)
+\end{lstlisting}
+
+\item D'après la définition de $\suite{u}$ on a :
+$$u_{n+2} = 2u_{n+1}+v_{n+1}$$
+D'après la définition de $\suite{v}$ on a :
+$$v_{n+1} = u_n +v_n$$
+Donc 
+$$u_{n+2} = 2u_{n+1}+ u_n +v_n$$
+et en reprenant la définition de $\suite{u}$ on a :
+$$v_n = u_{n+1}-2u_n.$$
+Donc 
+\begin{align*}
+u_{n+2}& = 2u_{n+1}+ u_n +u_{n+1}-2u_n\\
+			&= 3u_{n+1}- u_n
+\end{align*}
+\item On applique la méthode du cours. La suite $\suite{u}$ est une suite linéaire récurrente d'ordre deux à coefficients constant. L'équation caractéristique de $\suite{u}$ est 
+$X^2-3X+1=0$ dont les solutions sont 
+$$r_1 = \frac{3+\sqrt{5}}{2} \quadet r_2 =\frac{3-\sqrt{5}}{2}$$
+Ainsi il existe $(A,B)\in \R^2$ tel que pour tout $n\in\N$:
+$$u_n = A \left(\frac{3+\sqrt{5}}{2} \right)^n+B\left(\frac{3-\sqrt{5}}{2} \right)^n$$
+Les conditions initiales donnent : 
+$$u_ 0  = 0=A+B$$
+et 
+$$u_1 = 2u_0+v_0= 1=  A \left(\frac{3+\sqrt{5}}{2} \right)+B\left(\frac{3-\sqrt{5}}{2} \right)$$
+
+Le système à résoudre est donc 
+$$\left\{\begin{array}{cccc}
+A&+&B&=0\\
+ \left(\frac{3+\sqrt{5}}{2} \right)A&+&\left(\frac{3-\sqrt{5}}{2} \right)B&=1
+\end{array}\right.$$
+on fait $L_2\leftarrow L_2- \left(\frac{3+\sqrt{5}}{2} \right)L_1$ On obtient : 
+$$\left\{\begin{array}{cccc}
+A&+&B&=0\\
+ & -&\sqrt{5}B&=1
+\end{array}\right.$$
+
+Donc $$A=\frac{1}{\sqrt{5}} \quadet B=-\frac{1}{\sqrt{5}}$$
+Finalement 
+\conclusion{ $\forall n\in \N,\, u_n= \frac{1}{\sqrt{5}} \left(\frac{3+\sqrt{5}}{2} \right)^n-\frac{1}{\sqrt{5}}\left(\frac{3-\sqrt{5}}{2} \right)^n$}
+
+\end{itemize}
+
+\end{correction}
+
+
+
+\end{document}

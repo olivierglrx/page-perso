@@ -1,0 +1,428 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\usepackage{enumitem}
+\geometry{hmargin=2.0cm, vmargin=2.5cm}
+\lstset{basicstyle=\ttfamily, keywordstyle=\rmfamily\bfseries}
+\newif\ifshow
+\showfalse
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{DS 1\\
+\Large{Durée 3h00}
+}
+
+\vspace{1cm}
+\begin{center}
+
+\begin{description}
+\item$\bullet$ Les calculatrices sont \underline{interdites} durant les cours, TD et \emph{a fortiori} durant les DS de mathématiques. \\
+
+\item $\bullet $ Si vous pensez avoir découvert une erreur, indiquez-le clairement sur la copie et justifiez les initiatives que vous êtes amenés à prendre. \\
+
+\item $\bullet$ Une grande attention sera apportée à la clarté de la rédaction et à la présentations des solutions. (Inscrivez clairement en titre le numéro de l'exercice, vous pouvez aussi encadrer les réponses finales.)  \\
+
+\item $\bullet$ Vérifiez vos résultats. \\
+
+\item $\bullet$ Le résultat d'une question peut être admis et utilisé pour traiter les questions suivantes en le signalant explicitement sur la copie. 
+\end{description}
+
+\end{center} 
+
+\newpage
+
+\begin{exercice}
+\begin{enumerate}
+\item Résoudre $e^{x}-2e^{-x}\geq -1$ (On pourra faire un changement de variable)
+\item Résoudre $2x-\sqrt{3x+1} >0$
+\item Résoudre $2x-\sqrt{3x+1} =1$
+\item En déduire le domaine de définition de la fonction 
+$$f(x) =\frac{\sqrt{e^x-2e^{-x}+1\,}}{\ln\left(2x-\sqrt{3x+1\,} \,\right)}$$
+\end{enumerate}
+\end{exercice}
+
+\begin{correction}
+\begin{enumerate}
+\item On note $(1)$ l'inéquation $e^{x}-2e^{-x}\geq -1$
+
+Comme pour tout $x\in \R$, $\exp(x)>0$ l'inéquation $(1)$ est équivalente à 
+$$e^{2x} -2\geq -e^x$$
+On effectue ensuite le changement de variable $X=e^{x}$ on obtient alors l'inéquation 
+$$X^2 -2 +X\geq 0$$
+Le membre de gauche se factorise en $(X-1)(X+2)$ on obtient donc
+$$(X-1)(X+2) \geq 0$$ dont les solutions sont 
+$$\cS_X= ]-\infty,-2] \cup [1,+\infty[$$
+Les réels $x$ solutions de $(1)$ vérifient donc $e^x \in \cS_X$ c'est-à-dire 
+$$e^x\in  [1,+\infty[$$
+car  pour tout $x\in \R$, $\exp(x)>0$. Les solutions de $(1)$ sont donc 
+\conclusion{ $\cS_1= [0,+\infty[$}
+
+\item  On note $(2)$ l'inéquation $2x-\sqrt{3x+1} >0$. Son ensemble de définition est $[-\frac{1}{3}, +\infty[$ et on a 
+\begin{align*}
+(2) \equivaut & 2x > \sqrt{3x+1} 
+\end{align*}
+
+Si $x<0$, comme $\sqrt{3x+1} \geq 0$ l'inéquation n'a pas de solution. 
+
+Si $x\geq 0$, alors l'inéquation est équivalente à 
+$$4x^2 > 3x+1$$
+Que l'on résout en trouvant les racines de $4x^2-3x-1$ :
+$$r_1 = 1 \quadet r_2 = -\frac{1}{4}.$$
+Ainsi
+$4x^2-3x-1 = 4(x-1)(x+\frac{1}{4}$ et donc 
+\begin{align*}
+(2) \equivaut & 4(x-1)(x+\frac{1}{4}> 0
+\end{align*}
+Dont les solutions sont $]-\infty, 0[\cup ]1,+\infty[$ Or, $x\geq 0$ donc les solutions  sur $[0,+\infty[$ sont $]1,+\infty[$. 
+Les solutions de $(2)$ sont donc 
+\conclusion{ $\cS_2= ]1,+\infty[$}
+
+\item On note $(3)$ l'équation $2x-\sqrt{3x+1} =1$. Son ensemble de définition est $[-\frac{1}{3}, +\infty[$ et on a 
+\begin{align*}
+(3) \equivaut & 2x -1= \sqrt{3x+1} 
+\end{align*}
+Si $2x-1<0$, comme $\sqrt{3x+1} \geq 0$ l'équation n'a pas de solution. 
+
+Si $2x-1\geq 0$, alors 
+\begin{align*}
+(3) \equivaut & 4x^2 -4x+1= 3x+1\\
+	\equivaut & 4x^2-7x=0\\
+	\equivaut & x (4x-7)=0
+\end{align*}
+dont les solutions sont  $\{ 0, \frac{7}{4}\}$. Or, $x\geq \frac{1}{2}$ donc il y a une unique solution sur $[\frac{1}{2}, +\infty[$ à savoir $\{ \frac{7}{4}\}$
+Les solutions de $(3)$ sont donc 
+\conclusion{ $\cS_3=\{ \frac{7}{4}\}$}
+
+
+\item $x\tv \sqrt{x}$ est définie sur $[0,+\infty[$, $ln$ est définie sur $]0,+\infty[$ et  enfin $x\tv\frac{1}{x} $ est définie sur $\R^*$. La fonction $f$ est donc définie pour tout $x$ tel que 
+\begin{itemize}
+\item $e^{x}-2e^{-x}+1\geq 0$
+\item $2x-\sqrt{3x+1} >0$
+\item $\ln(2x-\sqrt{3x+1} ) \neq 1$
+\end{itemize}
+On reconnait l'inéquation $(1)$ et $(2)$. Enfin, remarquons que 
+$\ln(2x-\sqrt{3x+1} ) \neq 1 \equivaut 2x-\sqrt{3x+1} \neq1$  
+
+Ainsi $f$ est définie pour $x$ tel que 
+\begin{itemize}
+\item $x\in \cS_1$
+\item $x\in \cS_2$ 
+\item $x\notin \cS_3$
+\end{itemize}
+
+L'ensemble de définition de $f$ est donc 
+$$D_f =(\cS_1 \cap \cS_2) \setminus \cS_3$$
+
+\conclusion{ $D_f = ]1,\frac{7}{4}[ \cup ]\frac{7}{4},+\infty[$}
+
+\end{enumerate}
+\end{correction}
+
+
+\begin{exercice}
+Soit $n\in \N$. En intervertissant les deux sommes, calculer : 
+$$\sum_{k=0}^n \sum_{l=k}^n \frac{k}{l+1}$$
+\end{exercice}
+
+
+\begin{correction}
+On a :
+$$\ddp \sum\limits_{k=0}^n\ddp \sum\limits_{l=k}^n \ddp\frac{k}{l+1} \; = \; \sum_{0\leq k \leq l \leq n} \ddp\frac{k}{l+1}  \; = \;  \ddp \sum\limits_{l=0}^n\ddp \sum\limits_{k=0}^l \ddp\frac{k}{l+1}$$
+On peut \'egalement d\'etailler les calculs : $\left\lbrace \begin{array}{lllll}
+0 & \leq & k & \leq & n\\
+k & \leq & l & \leq & n
+\end{array}\right.
+\Longleftrightarrow
+\left\lbrace \begin{array}{lllll}
+0 & \leq &l & \leq & n\\
+0 & \leq & k & \leq & l.
+\end{array}\right.
+$
+Ainsi on obtient que: $$\begin{array}{lll}
+\ddp \sum\limits_{l=0}^n\ddp \sum\limits_{k=0}^l \ddp\frac{k}{l+1}&=& \ddp \sum\limits_{l=0}^n\left\lbrack \ddp\frac{1}{l+1}
+ \ddp \sum\limits_{k=0}^l k\right\rbrack
+=  \ddp \sum\limits_{l=0}^n\left\lbrack   \ddp\frac{1}{l+1}  \times \ddp\frac{l(l+1)}{2} \right\rbrack
+=\ddp\demi  \ddp \sum\limits_{l=0}^n l=\fbox{ $\ddp\frac{n(n+1)}{4}$.}
+\end{array}$$
+\end{correction}
+\vspace{1cm}
+
+\paragraph{Relation coefficients-racines}
+Pour les exercices 3 et 4, on pourra utiliser le résultat suivant, appelé "relation coefficients-racines": 
+\begin{itemize}
+\item Soient $(s, p )\in \bC^2$ et soient $r_1 $ et $r_2$ les racines du polynôme : $x^2 -sx +p.$ On a alors : 
+ $$r_1 r_2 = p \quadet r_1+r_2 =s$$
+ \item Réciproquement, soient $r_1$ et $r_2$ deux réels tels que $r_1 r_2 = p $ et $r_1+r_2 =s$  alors $r_1$ et $r_2$ sont les racines du polynôme : 
+$$x^2 -sx +p.$$
+
+\end{itemize}
+
+
+\begin{exercice}
+On propose de résoudre l'équation suivante d'inconnue $z \in \mathbb{C}:$
+$$
+z^3-6 z+4=0 \quad (E)
+$$
+\begin{enumerate}
+\item  On considère $z \in \mathbb{C}$ une solution de (E). Soient $(u, v) \in \mathbb{C}^2$ tel que $u+v=z$ et $u v=2$.
+\begin{enumerate}
+\item Calculer $(u+v)^3$ de deux manières différentes.
+\item En déduire que $u^3+v^3=-4$.
+\item  Calculer $u^3 v^3$.
+\item Montrer que $u^3$ et $v^3$ sont solutions de l'équation $Z^2+4 Z+8=0$ d'inconnue $Z \in \mathbb{C}$.
+\item Résoudre dans $\bC$ l'équation $Z^2+4 Z+8=0$.
+\end{enumerate}
+\item On pose $w=-2+2 i$.
+\begin{enumerate}
+\item Ecrire $w$ sous la forme exponentielle.
+\item Résoudre l'équation $Z^3=w$ d'inconnue $Z \in \mathbb{C}$ en exprimant les solutions sous forme exponentielle.
+\item  On pose $j=e^{2 i \pi / 3}$. Montrer que l'ensemble des solutions de l'équation $Z^3=w$ est $\{1+i,(1+$ i) $\left.j,(1+i) j^2\right\}$.
+\end{enumerate}
+\item En utilisant les questions précédentes, déterminer les valeurs possibles de $u$ et $v$, puis de $z$.
+\item En déduire les solutions de (E).
+\end{enumerate}
+
+\end{exercice}
+\begin{correction}
+\begin{enumerate}
+\item 
+\begin{enumerate}
+\item A l'aide du binome de Newton on obtient : 
+$$(u+v)^3= u^3 +3u^2v+3uv^2 +v^3$$
+Or $uv=2$ on a alors : 
+\conclusion{ $(u+v)^3= u^3 +6u+6v +v^3$}
+Puis à l'aide de l'équation $(E)$ on obtient 
+\conclusion{ $(u+v)^3 = 6(u+v)-4$}
+
+\item D'après la question précédente  on a : 
+$$ u^3 +6u+6v +v^3 = 6(u+v) -4$$
+en simplifiant on obtient 
+\conclusion{ $u^3+v^3 =-4$}
+
+\item 
+$uv=2$ donc 
+\conclusion{ $u^3v^3 =2^3=8$}
+
+\item Soit $z_1, z_2$ les solutions  de $Z^2+4Z+8=0$. Ce sont donc les racines de $Z^2+4Z+8$. On  a alors 
+$Z^2+4Z+8 =(Z-z_1)(Z-z_2)= Z^2 -(z_1+z_2)Z +z_1z_2$. En identifiant on obtient 
+$$-(z_1+z_2) = 4 \quadet z_1z_2=8$$
+Ce sont exacemetn les relations satisfaites par $u^3$ et $v^3$. Ainsi 
+\conclusion{ $u^3$ et $v^3$ sont les solutions de $Z^2+4Z+8=0$. }
+
+\item Le discriminant de $Z^2+4Z+8$ est 
+$$\Delta = 16-32 =-16$$
+$Z^2+4Z+8$ admet donc deux racines complexes :
+$$z_1 = \frac{-4+4i}{2}= -2+2i \quadet z_2 = -2-2i$$
+
+Les solutions sont donc 
+\conclusion{ $\cS=\{ -2+2i , -2-2i\}$ }
+\end{enumerate}
+\item 
+\begin{enumerate}
+\item Le module de $w$ est $|w| = \sqrt{4+4} = 2\sqrt{2}$. Ainsi 
+$$w=2\sqrt{2}(-\frac{1}{\sqrt{2}} +\frac{1}{\sqrt{2}} i) $$
+On cherche ensuite $\theta \in [0,2\pi[$ tel que 
+$$\cos(\theta) =-\frac{1}{\sqrt{2}}  \quadet \sin(\theta)=\frac{1}{\sqrt{2}} $$
+On peut prendre $\theta =\frac{3\pi}{4}$
+Finalement 
+\conclusion{ $w=2\sqrt{2} e^{\frac{3i\pi}{4}}$}
+
+\item D'après la question précédente 
+$$Z^3 = w \equivaut Z^3 = 2\sqrt{2} e^{\frac{3i\pi}{4}}$$
+En notant $Z= \rho e^{i\theta}$ on obtient 
+$$\rho^3 e^{3i\theta} = 2\sqrt{2} e^{\frac{3i\pi}{4}}$$
+
+On a donc $\rho^3= 2\sqrt{2} =\sqrt{8} = \sqrt{2^3}=\sqrt{2}^3$ et 
+$$3\theta \in \{ \frac{3\pi }{4} +2k\pi |k\in \Z\}$$
+
+On obtient donc $\rho =\sqrt{2}$ et 
+$$\theta \in \{ \frac{\pi }{4} +\frac{2k\pi}{3} |k\in \Z\}$$
+Finalement les solutions sont 
+\conclusion{ $\cS_b= \{ \sqrt{2} e^{i\frac{\pi}{4}},\sqrt{2} e^{i\frac{\pi}{4} 
+i\frac{2\pi}{3}},\sqrt{2} e^{i\frac{\pi}{4}+i\frac{4\pi}{3}}\}$}
+(On laisse les solutions sous cette forme non simplifiée afin de répondre plus efficacement à la question suivante) 
+\item  On  a d'une part 
+$$\sqrt{2} e^{i\frac{\pi}{4}} = \sqrt{2} (\cos(\frac{\pi}{4} +i \sin(\frac{\pi}{4}) = \sqrt{2} (\frac{1}{\sqrt{2}}+i \frac{1}{\sqrt{2}}) = 1+i$$
+Ainsi : 
+$$(1+i)j= (1+i) e^{2i\pi/3} =\sqrt{2} e^{i\frac{\pi}{4} 
+i\frac{2\pi}{3}} \quadet (1+i)j^2= (1+i) e^{4i\pi/3}=\sqrt{2} e^{i\frac{\pi}{4}+i\frac{4\pi}{3}}$$
+On retrouve bien 
+\conclusion{ $\cS_b=\{1+i,(1+i) j,(1+i) j^2\}$.}
+\end{enumerate}
+\item D'après 1e. (quitte à échanger $u$ et $v$) 
+$$u^3 =w \quadet v^3 =\overline{w}$$
+On obtient alors 
+$$u \in  \{1+i,(1+i) j,(1+i) j^2\} \quadet v\in \{1-i,(1-i)\overline{ j},(1-i) \overline{j}^2\}$$
+Or $uv=2$ donc les seules couples de solutions possibles sont 
+$$(u,v) \in \{(1+i, 1-i), ((1+i)j, (1-i)j^2), ((1+i)j^2, (1-i)j)\}$$
+On obtient alors les valeurs de  $z=u+v$ correspondantes : 
+
+$$z\in \{ 2, -1-\sqrt{3}, -1+\sqrt{3}\}$$
+\item 
+Les solutions de $(E)$ sont donc
+\conclusion{ $\cS_E  = \{2, -1-\sqrt{3}, -1+\sqrt{3}\}$}
+
+\end{enumerate}
+\end{correction}
+
+
+
+\begin{exercice}
+Soit $\omega =e^{\frac{2i\pi}{7}}$. On considère $A=\omega+\omega^2 +\omega^4$ et $B =\omega^3+\omega^5 +\omega^6$
+
+\begin{enumerate}
+\item Calculer $\frac{1}{\omega}$ en fonction de $\overline{\omega}$
+\item Montrer que pour tout $k\in \intent{0,7}$ on a 
+$$\omega^k =\overline{\omega}^{7-k}.$$
+\item En déduire que $\overline{A}=B$.
+\item Montrer que la partie imaginaire de $A$ est strictement positive. (On pourra montrer que $\sin\left( \frac{2\pi}{7}\right)-\sin\left( \frac{\pi}{7}\right)>0$.)
+\item Montrer par récurrence que $\forall q\neq 1, \, \forall n\in \N : $
+$$\sum_{k=0}^n q^k =\frac{1-q^{n+1}}{1-q\, }.$$
+\item Montrer alors que $\ddp \sum_{k=0}^6 \omega^k =0$. En déduire que $A+B=-1$.
+\item Montrer que $AB=2$. 
+
+\item En déduire la valeur exacte de $A$.
+
+
+\end{enumerate}
+\end{exercice}
+\begin{correction}
+\begin{enumerate}
+\item $$\frac{1}{\omega} = e^{\frac{-2i\pi}{7}} =\overline{\omega}$$
+\item On a $\omega^7 = e^{7\frac{2i\pi}{7}}=e^{2i\pi}=1 $ donc pour tout $k\in \intent{0,7}$ on a 
+$$\omega^{7-k}\omega^{k}=1$$
+D'où 
+$$\omega^k=\frac{1}{\omega^{7-k}}=\overline{\omega}^{7-k}$$
+\item On  a d'après la question précédente : 
+$$\overline{\omega} =\omega^{6}$$
+$$\overline{\omega^2} =\omega^{5}$$
+$$\overline{\omega^4} =\omega^{3}$$
+Ainsi on a : 
+\begin{align*}
+\overline{A}&=\overline{\omega+\omega^2+\omega^4} \\
+					&=\overline{\omega}+\overline{\omega^2}+\overline{\omega^4} \\
+					&=\omega^6+\omega^5+\omega^3\\
+					&= B. 
+\end{align*}
+
+
+\item $$\Im(A) =\sin(\frac{2\pi}{7})+\sin(\frac{4\pi}{7})+\sin(\frac{8\pi}{7})=\sin(\frac{2\pi}{7}) +\sin(\frac{4\pi}{7}) -\sin(\frac{\pi}{7})$$
+
+Comme $\sin$ est croissante sur $[0, \frac{\pi}{2}[$ 
+$$\sin(\frac{\pi}{7}) \leq \sin(\frac{2\pi}{7})$$
+Donc 
+$$\Im(A) \geq \sin(\frac{4\pi}{7})>0$$
+
+
+\item On a 
+$$\sum_{k=0}^6 \omega^k = \frac{1-\omega^7}{1-\omega} = 0$$
+
+Or $$A+B= \sum_{k=1}^6 \omega^k =  \sum_{k=0}^6 \omega^k-1=-1$$
+
+
+
+\item  $AB = \omega^{4}+\omega^{6}+\omega^{7}+\omega^{5}+\omega^{7}+\omega^{8}+\omega^{7}+\omega^{9}+\omega^{10}$ 
+D'où 
+$$AB= 2\omega^7 + \omega^4(1+\omega^{1}+\omega^{2}+\omega^{3}+\omega^{4}+\omega^{5}+\omega^{6})=2\omega^7=2$$
+
+\item $A$ et $B$ sont donc les racines du polynome du second degré $X^2+X+2$. Son discriminant vaut $\Delta  =1-8 = -7$ donc 
+$$A\in \{\frac{-1 \pm i\sqrt{7}}{2}\}$$
+
+D'après la question 4, $\Im(A)>0$ donc 
+
+$$A= \frac{-1+ i\sqrt{7}}{2}$$
+
+\end{enumerate}
+
+
+\end{correction}
+
+\begin{exercice}
+Pour chaque script, dire ce qu'affiche la console : 
+
+
+\begin{minipage}{0.45\textwidth}   %left column
+\begin{enumerate}
+\item  \texttt{Script1.py}
+
+\begin{lstlisting}[language=Python]
+a=0
+n=100
+for i in range(n):
+  a=a+i
+print(a/50)
+\end{lstlisting}
+
+\vspace{1cm}
+
+
+\item \texttt{Script2.py}
+\begin{lstlisting}[language=Python]
+a=1
+n=100
+for i in range(n):
+  a=a*i
+print(a)
+\end{lstlisting}
+
+
+
+\vspace{1cm}
+\item \texttt{Script3.py}
+\begin{lstlisting}[language=Python]
+a=0
+n=100
+for i in range(0,n,2):
+  a=a+i
+print(a/50)
+\end{lstlisting}
+
+
+\end{enumerate}
+\end{minipage}
+\hfill\vline\hfill
+\begin{minipage}{0.44\textwidth} %right column
+
+\begin{enumerate} \setcounter{enumi}{3}
+\item \texttt{Script4.py}
+\begin{lstlisting}[language=Python]
+s=10
+n=100
+for i in range(n):
+  s=s+2
+print(s)
+\end{lstlisting}
+\vspace{0.4cm}
+ \item \texttt{Script5.py}
+\begin{lstlisting}[language=Python]
+a=10
+for i in range(3):
+  if a%2==0:
+    a=a/2+i
+  else:
+    a=a+3
+print(a)
+\end{lstlisting}
+\vspace{0.4cm}
+\item \texttt{Script6.py} (On pourra s'aider de l'exercice 2) 
+\begin{lstlisting}[language=Python]
+s=0
+n=100
+for k in range(n+1):
+  for l in range(k,n+1):
+    s=s+k/(l+1)
+print(s)
+\end{lstlisting}
+
+
+\end{enumerate}
+\end{minipage}
+
+\end{exercice}
+
+
+\end{document}

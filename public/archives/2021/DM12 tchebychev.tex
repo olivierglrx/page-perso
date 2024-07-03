@@ -1,0 +1,61 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\geometry{hmargin=2.0cm, vmargin=3.5cm}
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{DM 12}
+
+
+
+\begin{exercice}
+Pour tout réel $t>0, $ on note $P_t$ le polynôme $X^5 +tX-1 \in \R_5[X]$. Le but de ce problème est d'étudier les racines de $P_t$ en fonction de $t>0$. 
+\begin{enumerate}
+\item On fixe $t>0$ pour cette question. Prouver que $P_t$ admet une unique racine notée $f(t)$. 
+\item Montrer que $f(t) \in ]0,1[$ pour tout $t>0.$
+\item Montrer que $f$ est strictement décroissante sur $]0,+\infty[$ (On pourra considérer deux réels $t_1,t_2$ tel que $t_1<t_2$ et essayer de faire la même chose que pour les suites définies implicitement).
+\item En déduire que $f$ admet des limites finies en $0^+$ et en $+\infty$.
+
+\item Déterminer $\lim_{t\tv 0^+} f(t)$.  (Attention, $f $ n'est pas définie en $0$ et a fortiori n'est pas continue en $0$)
+
+\item Déterminer $\lim_{t\tv+\infty} f(t)$. 
+\item En déduire  $\lim_{t\tv +\infty} tf(t)= 1$. (Comment noter ce résultat avec le signe équivalent : $\sim$) 
+
+\item Justifier que $f$ est la bijection réciproque de $g : ]0,1[\tv ]0,+\infty[$ 
+$x \mapsto\frac{1-x^5}{x}$
+\item \begin{enumerate}
+\item Justifier que $f$ est dérivale sur $]0,+\infty[ $ et exprimer $f'(t)$ en fonction de $f(t)$ pour tout $t>0$.
+\item En déduire la limite de $f'(t)$ en $0$ et calculer la limite de $t^2 f'(t)$ (Comment noter ce résultat avec le signe équivalent : $\sim$) 
+\end{enumerate}
+\end{enumerate}
+\end{exercice}
+
+
+\begin{exercice}
+On considère la suite de polynômes $(T_n)_{n\in \N}$ définie par 
+$$ T_0=1 \quadet T_1=X \quadet \forall n\in \N,\, T_{n+2}=2X T_{n+1}-T_n$$
+\begin{enumerate}
+\item \begin{enumerate}
+\item Calculer $T_2$, $T_3$ et $T_4$.
+\item Calculer le degré et le coefficient de $T_n$ pour tout $n\in\N$. 
+\item Calculer le coefficient constant de $T_n$. 
+\end{enumerate}
+\item \begin{enumerate}
+\item Soit $\theta \in \R$. Montrer que pour tout $n\in \N$ on  a  $T_n(\cos(\theta)) =\cos(n\theta)$.
+\item En déduire que $\forall x\in [-1,1], $ on a $T_n(x) =\cos(n \arccos(x))$. 
+\end{enumerate}
+\item \begin{enumerate}
+\item En utilisant la question 2a), déterminer les racines de $T_n$ sur $[-1,1]$. 
+\item Combien de racines distinctes a-t-on ainsi obtenues ? Que peut on en déduire ? 
+\item Donner la factorisaiton de $T_n$ pour tout $n\in \N^*$. 
+\end{enumerate}
+\end{enumerate}
+
+
+\end{exercice}
+
+
+\end{document}

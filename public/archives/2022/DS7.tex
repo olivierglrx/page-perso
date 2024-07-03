@@ -1,0 +1,559 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\usepackage{enumitem}
+\geometry{hmargin=2.5cm, vmargin=2.5cm}
+\lstset{basicstyle=\ttfamily, keywordstyle=\rmfamily\bfseries}
+\newif\ifshow
+\showtrue
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{Correction : DS 7
+}
+
+
+%
+%
+%\vspace{1cm}
+%\begin{center}
+%
+%\begin{description}
+%\item$\bullet$ Les calculatrices sont \underline{interdites} durant les cours, TD et \emph{a fortiori} durant les DS de mathématiques. \\
+%
+%\item $\bullet $ Si vous pensez avoir découvert une erreur, indiquez-le clairement sur la copie et justifiez les initiatives que vous êtes amenés à prendre. \\
+%
+%\item $\bullet$ Une grande attention sera apportée à la clarté de la rédaction et à la présentations des solutions. (Inscrivez clairement en titre le numéro de l'exercice, vous pouvez aussi encadrer les réponses finales.)  \\
+%
+%\item $\bullet$ Vérifiez vos résultats. \\
+%
+%\item $\bullet$ Le résultat d'une question peut être admis et utilisé pour traiter les questions suivantes en le signalant explicitement sur la copie. 
+%\end{description}
+%
+%\end{center} 
+%
+%\newpage
+%\begin{exercice}
+%Calculer les limites suivantes : 
+%
+%
+%$$1) \lim\limits_{x\to 0} \ddp\frac{\tan{x}-\sin{x}}{x^3} \quad \hspace{1.5cm }2) \lim\limits_{x\to +\infty} \ddp\frac{x\sin{x}}{x^2+1} \quad \hspace{1.5cm } 3)  \ddp \lim_{x \tv 1} \frac{\ln(x)}{ \sqrt{(3x-2)}-1}$$
+%
+%\end{exercice}
+%
+%\begin{correction}
+%\begin{enumerate}
+%\item TD 17 , EX 5.6
+%\item TD 17, EX 5.3
+%\item On fait un changement de variable $y=x-1$ on obtient 
+%$$\lim_{x\tv 1} \frac{\ln(x)}{ \sqrt{3x-2}-1}=\lim_{y\tv 0} \frac{\ln(y+1)}{ \sqrt{3(y+1)-2}-1}$$
+%
+%On étudie maintenant la limite de droite  :
+%
+%\begin{align*}
+%\frac{\ln(y+1)}{ \sqrt{2(y-1)-1}-1} &= \frac{\ln(y+1)}{ \sqrt{3y+1}-1}
+%\end{align*}
+%Or $\ln(1+y)\sim_{0} y$ et $\sqrt{3y+1}-1\sim_0 \frac{1}{2} 3y \sim_0 y$ 
+%Donc 
+%$$\frac{\ln(y+1)}{ \sqrt{3y+1}-1} \sim_0 \frac{y}{\frac{3}{2}y} \sim_0 \frac{2}{3}$$
+%
+%Finalement \conclusion{ $\ddp \lim_{x\tv 1} \frac{\ln(x)}{ \sqrt{3x-2}-1}= \frac{2}{3}$}
+%\end{enumerate}
+%\end{correction}
+
+\begin{exercice}
+Soit $f$ la fonction définie par 
+$$f(x) = \frac{(x-1) \sin(x)}{x\ln(x)}$$
+\begin{enumerate}
+\item Déterminer l'ensemble de définition de $f$. 
+\item Déterminer les limites de $f$ au bord de cet ensemble. 
+\item $f$ est-elle prolongeable par continuité en $0$ ? 
+\end{enumerate}
+\end{exercice}
+
+\begin{correction}
+\begin{enumerate}
+\item $f$ est définie pour tout $x$ tel que $\ln(x)$ soit défini et $x\ln(x) \neq 0$ c'est à dire pour $x>0$ et $x\neq 1$. 
+
+\conclusion{ $D_f = ]0,1[\cup ]1,+\infty[$}
+
+\item 
+\underline{ En $+\infty$ : } Pour tout $x\in \R$ :
+$$-1 \leq \sin(x) \leq 1$$
+
+Donc pour tout $x>1$ 
+
+$$ \frac{-(x-1)}{x\ln(x)} \leq f(x) \leq \frac{(x-1)}{x\ln(x)}$$
+(attention au signe de $\ln(x)$ entre $0 $ et $1$)
+
+Or $\ddp  \frac{(x-1)}{x\ln(x)} \ddp  \sim_{+\infty} \ddp \frac{1}{\ln(x)}$
+et $\ddp \lim_{x\tv +\infty } \frac{1}{\ln(x)} = 0$
+Donc
+
+$$\lim_{x\tv +\infty } \frac{-(x-1)}{x\ln(x)} = \lim_{x\tv +\infty } \frac{(x-1)}{x\ln(x)}= 0$$
+
+Ainsi par le théorème d'encadrement, on a 
+\conclusion{$\ddp \lim_{x\tv +\infty } f(x) =0$}
+
+\underline{En $1$ :} On se propose de faire le changement de variable $y =x-1$ 
+On obtient 
+$$\lim_{x\tv 1} f(x) =\lim_{y\tv 0} \frac{y \sin(y+1)}{(y+1) \ln(y+1)}$$
+Or 
+$$\ln(y+1)\sim_0 y $$
+d'où
+$$\frac{y \sin(y+1)}{(y+1) \ln(y+1)} \sim_0  \frac{\sin(y+1)}{y+1)}$$
+
+Ainsi 
+\conclusion{$\ddp \lim_{x\tv 1} f(x) = \sin(1)$}
+
+
+
+\underline{En $0$}
+
+On a 
+$\sin(x) \sim_0 x$ et $x-1\sim -1$
+Donc 
+$$f(x) \sim \frac{-x}{x\ln(x)}\sim \frac{-1}{\ln(x)}$$
+
+Or $\lim_{x\tv 0} \ln(x) = -\infty$, donc 
+\conclusion{ $\lim_{x\tv 0} f(x) =0$}
+
+\item 
+\conclusion{  Ainsi $f$  est prolongeable par continuité en 0}
+
+
+
+\end{enumerate}
+\end{correction}
+
+\vspace{1.8cm}
+
+
+\begin{exercice}
+\begin{enumerate}
+\item Montrer que $\ddp \int_0^1 \ln(x+1) dx = 2\ln(2)-1$
+\item Soit $P_n =  \ddp \frac1{\sqrt{n}}\ddp\left( \prod\limits_{k=1}^n (n+k)  \right)^{\frac{1}{2n}}$. Montrer que pour otut $n\geq 1$ on a :
+$$\ln(P_n) = \frac{1}{2n}\sum_{k=1}^n\ln\left(1+\frac{k}{n}\right)$$
+\item En déduire la valeur de la limite de $P_n$ quand $n\tv +\infty$.
+\end{enumerate}
+\end{exercice}
+
+\begin{correction}
+\begin{enumerate}
+\item On fait une intégration par parties avec $u(x)=\ln(x+1) $ d'où $u'(x)=\frac{1}{x+1}$ et $v(x) =(x+1)$ une primitive de $v'(x) =1$
+On obtient 
+\begin{align*}
+ \int_0^1 \ln(x+1) dx&=[(x+1)\ln(x+1)]_0^1 -\int_0^1 1dx\\
+ 									&= 2\ln(2) -1\ln(1) -[x]_0^1\\
+ 									&= 2\ln2 -1
+\end{align*}
+
+\item 
+Soit $P_n=\frac1{\sqrt{n}}\ddp\left( \prod\limits_{k=1}^n (n+k)  \right)^{\frac{1}{2n}}$ on a donc
+\begin{align*}
+\ln(P_n) & =\ln(\frac1{\sqrt{n}})  +\sum_{k=1}^n \frac{1}{2n}\ln(n+k)\\
+				&= \ln(\frac1{\sqrt{n}})  + \frac{1}{2n} \sum_{k=1}^n \ln\left(n(1+\frac{k}{n})\right)\\
+				&=-\frac{1}{2}\ln(n)  +\frac{1}{2n} n\ln(n)  +\frac{1}{2n}  \sum_{k=1}^n  \ln \left(1+\frac{k}{n}\right)\\
+				&=\frac{1}{2}\frac{1}{n} \sum_{k=1}^n  \ln\left(1+\frac{k}{n}\right)
+\end{align*}
+
+Ainsi on reconnait une somme de Riemann et on obtient que 
+\begin{align*}
+\lim_{n\tv +\infty} \ln(P_n)  &=  \frac{1}{2 }\int_0^1 \ln(1+x)dx\\
+											&= \ln(2)-\frac{1}{2}
+\end{align*}
+Et donc en revenant à  $P_n$ par la fonction exponentielle, continue sur $\R$, on a : 
+\conclusion{ $\ddp \lim_{n\tv +\infty} P_n = \exp(\ln(2)-\frac{1}{2}) = \frac{2}{\exp(1/2)}$}
+
+
+\end{enumerate}
+\end{correction}
+
+\vspace{1.5cm}
+
+
+
+
+
+\begin{exercice}  \;
+\noindent On suppose que $f$ est une fonction d\'efinie sur $\lbrack 0,1\rbrack$ \`a valeurs dans $\lbrack 0,1\rbrack$ et qu'il existe $k\in\rbrack 0,1\lbrack$ tel que
+$$\forall (x,y)\in\lbrack 0,1\rbrack^2,\ |f(x)-f(y)|\leq k|x-y|.$$
+Une telle fonction s'appelle une fonction $k$-contractante.
+\begin{enumerate}
+\item Montrer que $f$ est continue sur $[0,1]$. 
+\item On appelle point fixe de  $f$,  un réel  $x \in \lbrack 0,1\rbrack$ tel que 
+$f(x)=x$
+
+Déduire de la question précédente que  $f$ admet au moins un point fixe.
+
+\item Montrer par l'absurde que ce point fixe est unique. On le note $c$ dans le reste de l'énoncé.  
+
+\item 
+On consid\`ere alors une suite $(c_n)_{n\in\N}$ d\'efinie par son premier terme $c_0\in\lbrack 0,1\rbrack$ et par la relation de r\'ecurrence  : $\forall n\in\N,\ c_{n+1}=f(c_n).$
+\begin{enumerate}
+%\item Montrer que la suite $(c_n)_{n\in\N}$ est bien d\'efinie.
+\item Montrer que pour tout $n\in\N$, $|c_n-c|\leq k^n|c_0-c|$.  (On rappelle que $c$ désigne l'unique point fixe de $f$)
+\item En d\'eduire la limite de la suite $(c_n)_{n\in\N}$.
+\end{enumerate}
+\end{enumerate}
+\end{exercice}
+
+
+
+
+
+
+\begin{correction}  \;
+\begin{enumerate}
+\item 
+\begin{itemize}
+\item[$\bullet$] On cherche \`{a} \'etudier la continuit\'e de $f$ sur $\lbrack 0,1\rbrack$. On repasse pour cela par la d\'efinition de la continuit\'e en montrant que pour tout $x_0\in\lbrack 0,1\rbrack$, $f$ est continue en $x_0$. Pour cela il faut donc montrer que pour tout $x_0\in\lbrack 0,1\rbrack$: $\lim\limits_{x\to x_0} f(x)=f(x_0)$.\\
+\noindent Soit donc $x_0\in\lbrack 0,1\rbrack$ fix\'e. On cherche donc \`{a} montrer que $f(x)-f(x_0)$ tend vers 0 lorsque $x$ tend vers $x_0$. Mais par d\'efinition d'une fonction $k$-contractante, on sait que:
+$$\forall x\in\lbrack 0,1\rbrack,\ |f(x)-f(x_0)|\leq k|x-x_0|.$$
+On va donc obtenir le r\'esultat voulu en utilisant le corollaire du th\'eor\`{e}me des gendarmes. En effet, on a:
+\begin{itemize}
+\item[$\star$] $\lim\limits_{x\to x_0} k |x-x_0|=0$ par propri\'et\'e sur les somme, compos\'ee et produit de limites.
+\item[$\star$] $\forall x\in\lbrack 0,1\rbrack$, $|f(x)-f(x_0)|\leq k |x-x_0|$.
+\end{itemize}
+Ainsi d'apr\`{e}s le corollaire du th\'eor\`{e}me des gendarmes, on a: $\lim\limits_{x\to x_0} f(x)-f(x_0)=0\Leftrightarrow \lim\limits_{x\to x_0} f(x)=f(x_0)$. Ainsi on a montr\'e que la fonction $f$ est continue en $x_0$ et comme cela est vraie pour tout $x_0\in\lbrack 0,1\rbrack$, on a la continuit\'e de $f$ sur $\lbrack 0,1\rbrack$. 
+
+\end{itemize}
+\item ( TD 17 EX21.1 )
+\item Pour obtenir l'unicit\'e du point fixe, on suppose par l'absurde qu'il existe deux points fixes $(c,d)\in\lbrack 0,1\rbrack^2$ de $f$ diff\'erents. Ainsi, on a: 
+$|f(c)-f(d)|\leq k|c-d|\Leftrightarrow |c-d|\leq k|c-d|$. Or $0<k<1$ et ainsi, on a: $|c-d|<|c-d|$: absurde. Ainsi $c=d$ et $f$ admet bien un unique point fixe.
+
+
+\item
+\begin{enumerate}
+
+\item
+\begin{itemize}
+\item[$\bullet$] On montre par r\'ecurrence sur $n\in\N$ la propri\'et\'e $\mathcal{P}(n):\ |c_n-c|\leq k^n |c_0-c|$.
+\item[$\bullet$] Initialisation: pour $n=0$: d'un c\^{o}t\'e, on a: $|c_0-c|$ et de l'autre c\^{o}t\'e, on a: $k^0|c_0-c|=|c_0-c|$. Donc $\mathcal{P}(0)$ est vraie.
+\item[$\bullet$] H\'er\'edit\'e: soit $n\in\N$ fix\'e, on suppose la propri\'et\'e vraie au rang $n$, montrons que $\mathcal{P}(n+1)$ est vraie. D'apr\`{e}s la d\'efinition de la fonction $f$, on sait que: $|f(c_n)-f(c)|\leq k|c_n-c|\Leftrightarrow |c_{n+1}-c|\leq k|c_n-c|$ car $c$ est le point fixe de $f$. Puis par hypoth\`{e}se de r\'ecurrence, on sait aussi que $|c_n-c|\leq k^n |c_0-c|$. Ainsi comme $k>0$, on a: $k|c_n-c|\leq k^{n+1}|c_0-c|$. Puis: $|c_{n+1}-c|\leq k^{n+1}|c_0-c|$. Donc $\mathcal{P}(n+1)$ est vraie.
+\item[$\bullet$] Conclusion: il r\'esulte du principe de r\'ecurrence que pour tout $n\in\N$, on a: $|c_n-c|\leq k^n |c_0-c|$.
+\end{itemize}
+\item On peut alors utiliser le corollaire du th\'eor\`{e}me des gendarmes et on obtient que:
+\begin{itemize}
+\item[$\bullet$] $\forall n\in\N,\ |c_n-c|\leq k^n |c_0-c|$.
+\item[$\bullet$] $\lim\limits_{n\to +\infty} k^n|c_0-c|=0$ car $-1<k<1$.
+\end{itemize}
+Ainsi d'apr\`{e}s le corollaire du th\'eor\`{e}me des gendarmes, on a: $\lim\limits_{n\to +\infty} c_n=c$.
+\end{enumerate}
+\end{enumerate}
+\end{correction}
+
+
+
+
+
+\newpage
+
+
+\begin{exercice}
+Le petit Tchoupi fait des nuits de longueur différentes. %Il dort moins de 4 heures avec probalité $\frac{1}{10}$, entre 4 et 6 heures avec probalité $\frac{2}{5}$ ou parfois même plus de 6 heures ! 
+Il dort moins de 6 heures avec probabilité $p\in ]0,1[$ et plus de 6 heures avec une probabilité $1-p$. 
+En fonction de la durée de sommeil du petit Tchoupi, M G. fait parfois des erreurs de signes dans ses calculs... A chaque nouveau calcul, il a une probabilité $\frac{1}{10} $ de faire une faute si il a bien dormi et $\frac{1}{2}$ si la nuit a été  courte... A une journée fixée, les calculs sont supposés indépendants entre eux. On note $E_k$ l'événement $\{$ M G. fait une erreur au calcul $k\}$.
+\begin{enumerate}
+\item Calculer, en fonction de $p$, $P(E_1)$. 
+\item M. G fait une faute à son premier calcul. Quelle est la probabilité qu'il ait bien dormi.  (On exprimera le résultat en fonction de $p$) 
+\item Soit $T$ l'événement $\{ $ Tchoupi a bien dormi $\} $.
+A-t-on $P_T(E_1\cap E_2)=P_T(E_1) P_T(E_2)$ ? A-t-on $P( E_1\cap E_2)=P(E_1)P(E_2)$ ? (Attention le fait d'être indépendant dépend fortement de la probabilité considérée, cette question doit être réfléchie...) 
+\item M. G fait une faute à son premier calcul. Quelle est la probabilité qu'il fasse une faute au deuxième calcul. 
+%\item M.G a fait des fautes aux $n-1$ premiers (décidément c'est pas son jour...) quel est la probabilité qu'il fasse une faute au $n$-éme calcul ? On note $p_n$ cette valeur.
+%\item Calculer la $\lim_{n\tv +\infty} p_n$. 
+\end{enumerate}
+\end{exercice}
+
+\begin{correction}
+\begin{enumerate}
+\item Comme indiqué plus loin dans le sujet appelons T l'événement $\{ $ Tchoupi a bien dormi $\} $. Remarquons qu'il dort bien si il dort plus de 6h et qu'une conséquence directe est la bonne nuit de M. G. En appliquant la formule des probabilités totales aux SCE $(T,\overline{T})$ on obtient 
+\begin{align*}
+ P(E_1) &=P_T(E_1)P(T) +P_{\overline{T}} (E_1) P(\overline{T} )\\
+ 			&= \frac{1}{10}(1-p) +\frac{1}{2}p\\
+ 			&=\frac{1}{10} +\frac{2}{5}p
+\end{align*} 
+
+ \item On utilise la formule de Bayes on obtient : 
+ 
+\begin{align*}
+P_{E_1} (T) & =\frac{P_T(E_1) P(T)}{P(E_1)}\\
+				&= \frac{\frac{1}{10}(1-p)}{\frac{1}{10} +\frac{2}{5}p}\\
+				&=\frac{1-p}{1+4p}
+\end{align*}
+
+\item L'énoncé nous annonce qu'à un jour donné les calculs sont indépendants entre eux. Donc on a $P_T(E_1\cap E_2)=P_T(E_1) P_T(E_2)$. En revanche, le fait de faire une erreur n'est pas du tout indépendant du fait d'en faire une deuxieme... En effet si une premiere erreur a été commise, il y a beaucoup plus de chance d'en refaire une ensuite.  Il n'y a donc aucune raison d'avoir 
+$P(E_1 \cap E_2) =P(E_1) P(E_2)$
+
+\item On cherche $P_{E_1}(E_2)$
+\begin{align*}
+P_{E_1}(E_2) &= \frac{P(E_1 \cap E_2) }{P(E_1)}\\
+					&= \frac{P_T(E_1 \cap E_2)P(T) + P_{\overline{T}}(E_1 \cap E_2)P(\overline{T}) }{P(E_1)}\\
+					&= \frac{P_T(E_1) P_T(E_2)P(T) + P_{\overline{T}}(E_1 ) P_{\overline{T}}(E_2)P(\overline{T}) }{P(E_1)}\\
+					&= \frac{\frac{1}{10^2}(1- p) + \frac{1}{2^2} p}{ \frac{1}{10} +\frac{2}{5}p}
+\end{align*}
+
+\end{enumerate}
+\end{correction}
+\vspace{1cm}
+\begin{exercice}
+Roudoudou le hamster vit une vie paisible de hamster. Il a deux activités : manger et  dormir... 
+On va voir Roudoudou à 00h00 ($n=0$). Il est en train de dormir. 
+\begin{itemize}
+\item Quand Roudoudou dort à l'heure $n$, il y a 7 chances sur 10 qu'il dorme à l'heure suivante. %et 3 chances sur 10 qu'il mange à l'heure suivante. 
+\item Quand Roudoudou mange à l'heure $n$, il y a 2 chances sur 10 qu'il dorme à l'heure suivante.% et 8 chances sur 10 qu'il mange à l'heure suivante. 
+\end{itemize}
+
+
+On note $D_n$ l'événement 'Roudoudou dort à l'heure $n$' et $M_n$ 'Roudoudou mange à l'heure $n$'. On note $d_n =P(D_n)$ et $m_n=P(M_n)$ les probabilités respectives. 
+
+
+\begin{enumerate}
+\item Justifier que $d_n+m_n=1$. 
+\item Montrer rigoureusement que $$d_{n+1} =  0,7d_n+0,2m_n$$
+\item Exprimer de manière similaire $m_{n+1} $ en fonction de $d_n$ et $m_n$. 
+
+\item Soit $A$ la matrice $$A=\frac{1}{10}\left(\begin{array}{ccc}
+7 & 2\\
+3 & 8
+\end{array}
+\right).$$
+et $X_n =\begin{pmatrix}
+d_n\\
+m_n
+\end{pmatrix}$. 
+Exprimer $X_{n+1}$ en fonction de $A$ et 
+$X_n$. Puis en déduire - et la prouver- une expression de $X_n$ en fonction de $n, X_0$ et $A$.
+
+%\item 
+%Résoudre en fonction de $\lambda \in \R$ l'équation $AX = \lambda X$ d'inconnue $\ddp X =\left(\begin{array}{c}
+%x \\
+%y 
+%\end{array}
+%\right)$. 
+%\item Soit $P = 
+%\left(\begin{array}{cc}
+%1 & 2\\	
+%-1 & 3
+%\end{array}
+%\right)$ Montrer que $P$ est inversible et calculer $P^{-1}$. 
+%\item Montrer que $P^{-1} A P =\frac{1}{5} \left(\begin{array}{cc}
+% \frac{1}{2}& 0\\
+%0 &  1 
+%\end{array}
+%\right)$
+%\item Calculer $D^n$ où $D=\left(\begin{array}{cc}
+% \frac{1}{2}& 0\\
+%0 &  1 
+%\end{array}
+%\right)$
+
+%\item En déduire une expression de $A^n$ en fonction de $n,P,P^{-1}$ et $D$. (On demande ici de faire la récurrence) 
+
+On admet que $\forall n\in \N$, $\ddp A^n=\frac{1}{5}\left(\begin{array}{ccc}
+3\left( 1/2\right)^n +2 & -2\left( 1/2\right)^n +2\\
+-3\left( 1/2\right)^n +3& 2\left( 1/2\right)^n +3
+\end{array}
+\right)$.
+\item  En déduire la valeur de $d_n$ en fonction de $n$. 
+\end{enumerate}
+\end{exercice}
+
+
+
+\begin{correction}
+\begin{enumerate}
+\item $D_n$ et $M_n$ forment un système complet d'événements donc $
+d_n+m_n=1$. 
+\item On cherche à calculer $d_{n+1} =P(D_{n+1})$ 
+On applique la formule des probabilités totales avec le SCE $(M_N,D_N)$
+\begin{align*}
+d_{n+1} &= P(D_{n+1}\, |\, M_n) P(M_n) +P(D_{n+1}\, |\, D_n) P(D_n)\\
+			&= P(D_{n+1}\, |\, M_n) m_n +P(D_{n+1}\, |\, D_n) d_n
+\end{align*}
+L'énoncé donne : $ P(D_{n+1}\, |\, M_n) = \frac{2}{10}$ et  $ P(D_{n+1}\, |\, D_n) = \frac{7}{10}$
+et donc 
+$$d_{n+1} = 0,7 d_n  +0,2 m_n$$
+
+\item On cherche à calculer $m_{n+1} =P(M_{n+1})$ 
+On applique la formule des probabilités totales avec le SCE $(M_N,D_N)$
+\begin{align*}
+m_{n+1} &= P(M_{n+1}\, |\, M_n) P(M_n) +P(M_{n+1}\, |\, D_n) P(D_n)\\
+			&= P(M_{n+1}\, |\, M_n) m_n +P(M_{n+1}\, |\, D_n) d_n
+\end{align*}
+L'énoncé donne : $ P(M_{n+1}\, |\, M_n) = \frac{8}{10}$ et  $ P(M_{n+1}\, |\, D_n) = \frac{3}{10}$
+et donc 
+$$m_{n+1} = 0,3 d_n  +0,8 m_n$$
+
+\item 
+On  a d'après la question précédente :
+$$\begin{pmatrix}
+ d_{n+1}\\m_{n+1}\end{pmatrix}= A \begin{pmatrix}d_n\\m_n\end{pmatrix} $$
+ C'est-à-dire \conclusion{$X_{n+1}  =A X_n$}
+On montre par récurrence la propriété P(n) : $X_n =A^n X_0$
+
+\begin{itemize}
+\item \underline{Initialisation} 
+$P(0)$ est vraie en effet, $A^0 = I_2 $ donc $A^0 X_0 = X_0$
+
+\item \underline{Heredite}
+On suppose la propriété vraie à un certain rang $n\in \N$ et on souhaite prouver $P(n+1)$. On a 
+$X_{n+1} = AX_n = A (A^n X_0)$ par hypothése de récurrence. 
+Donc\\
+ $$X_{n+1} =A^{n+1} X_0$$ et donc $P(n+1)$ est  vraie. 
+ 
+ \item \underline{Conclusion}
+\conclusion{  Pour tout $n\in \N$, $X_n =A^n X_0$}
+
+\item On obtient donc 
+$$X_n =\frac{1}{5}\left(\begin{array}{ccc}
+3\left( 1/2\right)^n +2 & -2\left( 1/2\right)^n +2\\
+-3\left( 1/2\right)^n +3& 2\left( 1/2\right)^n +3
+\end{array}
+\right) \begin{pmatrix}
+d_0\\
+m_0
+\end{pmatrix}$$
+Or d'après l'énoncé $d_0=1$ et $m_0=0$ donc 
+\conclusion{$d_n= \frac{1}{5} (3\left( 1/2\right)^n +2) $}
+\end{itemize}
+
+\end{enumerate}
+\end{correction}
+
+
+
+
+\newpage
+
+
+\begin{exercice}
+
+On modélise une carte d'un jeu de 52 cartes par une liste de deux éléments le premier sera sa couleur (on dispose d'une liste \texttt{couleur=['Pique', 'Coeur', 'Carreau' , 'Trefle']}  que l'on pourra utiliser dans les fonctions) et la deuxième valeur son numéro. Pour simplifier le valet sera 11, la dame 12 et le roi 13. Ainsi la dame de carreau sera modélisé par \texttt{['Carreau', 12]} et le 6 de coeur par  \texttt{['Coeur', 6]}.
+
+On modélise le jeu de carte par une liste contenant toutes les cartes. 
+
+Afin de répondre aux différentes questions, on pourra utiliser les fonctions des questions précédentes même si elles n'ont pas été codées.
+
+\begin{enumerate}
+\item Ecrire une fonction Python \texttt{paquet} qui retourne une liste correspondant à la modélisation décrite d'un jeu de cartes. 
+%\item Ecrire une fonction Python  \texttt{tirage\_avec\_remise}  qui prend en argument un entier \texttt{n} qui retourne une liste de  \texttt{n} cartes tirées aux hasard et avec remise du paquet. 
+\item 
+Remplir la ligne suivante afin que la liste \texttt{L} soit affectée à la même liste mais sans le terme d'indice \texttt{i}. \begin{lstlisting} 
+L=L[...:...] + L[...:...] 
+\end{lstlisting}
+\item Ecrire une fonction Python  \texttt{tirage\_sans\_remise}  qui prend en argument un entier \texttt{n} qui retourne une liste de  \texttt{n} cartes tirées aux hasard et sans remise du paquet. (On n'utilisera pas la fonction \texttt{.pop})
+\item Dans la question précédente quelle condition doit on imposer sur \texttt{n} ? Que faudrait il ajouter pour vérifier cette condition ?  
+\item Que fait la fonction suivante : 
+\begin{lstlisting}
+def mystere(n):
+  J=tirage_sans_remise(n)
+  C=[c[0] for c in J]
+  return(C)
+\end{lstlisting}
+
+\item Ecrire une fonction Python  \texttt{check\_couleur}  qui prend en argument un entier \texttt{n}, selectionne \texttt{n} cartes sans remises  et retourne \texttt{True} si on obtient \texttt{n}   cartes de la même couleur et \texttt{False} sinon.
+
+\item On se propose d'écrire une fonction qui permet de  vérifier si les cartes tirées forment une suite. Pour cela il faut trier la liste des valeurs des cartes. Compléter la fonction suivante qui prend en argument un entier \texttt{n} et retourne la liste des cartes triées dans l'ordre croissant 
+
+\begin{lstlisting}
+def tri_carte(n):
+   J=tirage_sans_remise(n)
+   T= [J[0]]  #on place la premiere carte dans une liste 
+   for i in .......... : # on regarde toutes les cartes de J
+      val_carte= .... # on regarde la valeur de la carte 
+      k=..... # On initialise le compteur 
+      while  k<len(T) and val_carte<T[k][1] : #on compare avec 
+      					#les cartes deja tries 
+        k=..... #on augmente le compteur
+      T = T[... : ...] + [J[i]] +T[ ... : ...]  #on  place la carte 
+      					#au bon endroit dans T
+   return(T) 
+\end{lstlisting}
+
+\item Ecrire une fonction Python  \texttt{check\_suite} qui  prend en argument un entier \texttt{n}, selectionne \texttt{n} cartes sans remises  et retourne \texttt{True} si on obtient \texttt{n}   cartes dont les valeurs se suivent et \texttt{False} sinon. 
+
+
+
+\end{enumerate}
+\end{exercice}
+
+\begin{correction}
+\begin{enumerate}
+\item 
+\begin{lstlisting}
+def paquet():
+  P=[]
+  for i in range(1,14):
+    for c in couleur:
+      P.append([c,i])
+  return(P)
+\end{lstlisting}
+\item  
+\begin{lstlisting}
+L=L[:i]+L[i+1:]
+\end{lstlisting}
+\item 
+\begin{lstlisting}
+import random as rd
+def tirage_sans_remise(n):
+  M=[]
+  J=paquet()
+  for i in range(n):
+    x=randint(0,len(J)-1)
+    M.append(x)
+    J=J[:x]+J[x+1:]
+  return(M)  
+\end{lstlisting}
+\item 
+Nécessairement $n\leq52$, donc il faudrait rajouter une condition du type 
+\texttt{if n<=52} avant la boucle 
+
+\item Retourne les couleurs d'un tirage de $n$ cartes. 
+\item 
+\begin{lstlisting}
+def check_couleur(n):
+  C=mystere(n)
+  c0=C[0]
+  for c in C:
+    if c!=c0:
+      return False
+  return True
+\end{lstlisting}
+
+\item 
+
+
+\begin{lstlisting}
+def tri_carte(n):
+   J=tirage_sans_remise(n)
+   T= [J[0]]  #on place la premiere carte dans une liste 
+   for i in range(len(J)) : # on regarde toutes les cartes de J
+      val_carte= J[i][1] # on regarde la valeur de la carte 
+      k=0 # On initialise le compteur 
+      while val_carte<T[k][1]  and k<len(T): #on compare avec 
+      					#les cartes deja tries 
+        k=k+1 #on augmente le compteur
+      T = T[ : k] + J[i] +T[ k+1 : ]  #on  place la carte 
+      					#au bon endroit dans T
+   return(T) 
+\end{lstlisting}
+
+\item 
+\begin{lstlisting}
+def check_suite(n):
+  L=tri_carte(n)
+  for i in range(1,len(L)):
+    if L[i-1]!= L[i]:
+      return( False)
+  return(True)
+\end{lstlisting}
+
+\end{enumerate}
+\end{correction}
+
+
+\end{document}

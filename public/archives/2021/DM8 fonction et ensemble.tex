@@ -1,0 +1,141 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\newif\ifshow
+\showfalse
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+
+
+
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{DM8  \\
+\small{à rendre pour le } 
+}
+
+\begin{exercice}
+Soit $f$ la fonction de $\R$ dans $\bC$ définie par 
+$$f(x) =\frac{1+ix}{1-ix}$$
+\begin{enumerate}
+\item $f$ est elle injective ? surjective ? bijective ? 
+\item Soit $\bU= \{ z\in \bC\, |\,  |z|=1\} $. 
+Montrer que $f(\R) \subset \bU$
+\item Calculer $\lim_{x\tv \infty } Re(f(x))$ et  $\lim_{x\tv \infty } Im(f(x))$.
+\item A-t-on $f(\R) = \bU$ ?
+\end{enumerate}
+\end{exercice}
+
+\begin{exercice}
+Soit $z_1 $ et $z_2$ deux complexes tel que $|z_1|<1 $ et $|z_2|<1$. A l'aide d'un raisonement par l'absurde montrer que $z_1+z_2\neq 2$
+\end{exercice}
+
+\begin{exercice}
+Soit $E$ un ensemble et $A,B$ deux sous-ensembles de $E$. On appelle \emph{différence symétrique } de $A$ et $B$, notée $A\Delta B$ le sous-ensemble de $E$ définie par :
+$$A \Delta  B =  (A\cap \bar{B})\cup \left(\bar{A}\cap B\right).$$
+\begin{enumerate}
+\item Calculer $A\Delta A$, $A\Delta \emptyset$, $A\Delta E$ et $A\Delta \overline{A}$.
+\item Montrer que $A\Delta B= A$ si et seulement si $B=\emptyset.$
+\item Montrer que pour tout $A,B,C$ sous-ensemble de $E$ on a :
+$$(A\Delta B) \cap C = (A\cap C)\Delta (B\cap C).$$
+\end{enumerate}
+\end{exercice}
+
+
+
+
+
+\begin{correction}  \; \textbf{Exercice 3 : Tirage de jetons dans une urne}
+\begin{enumerate}
+ \item On est dans un cas o\`u l'ordre et la r\'ep\'etition interviennent puisque les jetons sont tir\'es successivement et avec remise. 
+\begin{enumerate}
+\item A chaque tirage, on a 13 choix: 13 choix pour le premier tirage, 13 choix pour le second... Ainsi, on obtient $13^6$ r\'esultats possibles.
+\item 
+\begin{enumerate}
+\item Pour obtenir exactement un jeton noir, on doit: choisir \`a quel tirage on va tirer le jeton noir: il y a 6 choix possibles. Ensuite pour chaque choix de num\'ero de tirage, on a: 8 choix possibles de jetons noirs et pour les 5 autres tirages, on a 5 possibilit\'es \`a chaque fois (5 jetons blancs). Ainsi, on obtient: $6\times 8\times 5^5$ r\'esultats possibles.
+\item On passe \`a l'ensemble compl\'ementaire. Si on note $A$ l'ensemble des tirages avec au moins un jeton noir et $E$ l'ensemble des tirages possibles, on a: $\card (A)=\card (E)-\card (\overline{A})$. Et $\overline{A}$ est l'ensemble des tirages sans aucun jeton noir. On a donc $\card (\overline{A})=5^6$: \`a chaque tirage, on a 5 choix de jetons (les 5 jetons blancs) et il y a 6 tirages ordonn\'es. Ainsi, on obtient $\card (A)=13^6-5^6$.
+\item On note $A$ l'ensemble des tirages avec au plus un jeton noir. C'est l'union disjointe de $B$ l'ensemble des tirages avec exactement aucun jeton noir et de $C$ l'ensemble des tirages avec exactement un jeton noir. Or on a d\'ej\`a vu que: $\card (B)=5^6$ et $\card C=6\times 8\times 5^5$. Ainsi, on obtient que: $\card (A)=\card (B)+\card (C)= 5^6 + 6\times 8\times 5^5$.
+\item Pour avoir 2 fois plus de jetons noirs que de blancs avec 6 tirages, la seule solution est de tirer 2 jetons blancs et 4 jetons noirs. On commence par fixer la place des 2 jetons blancs parmi les 6 tirages: $\ddp \binom{6}{2}$. Les jetons noirs \'etant alors plac\'es dans les places restantes. Puis il y a $5^2$ choix pour les jetons blancs et $8^4$ choix possibles pour les jetons noirs. On obtient au final $\ddp \binom{6}{2}\times 5^2\times 8^4$ r\'esultats possibles.
+\end{enumerate}
+\end{enumerate}
+\item On est dans un cas o\`u l'ordre intervient mais o\`u il n'y a pas r\'ep\'etition puisque les jetons sont tir\'es successivement et sans remise. 
+\begin{enumerate}
+\item Il s'agit donc ici de choisir 6 jetons parmi 13 jetons avec ordre et sans remise, on obtient donc des $6$ listes sans r\'ep\'etition, soit $\ddp \frac{13!}{(13-6)!} = \frac{13!}{7!}$. Une autre fa\c{c}on de le voir est de dire: pour le premier tirage, j'ai 13 choix, pour le deuxi\`eme tirage, j'ai 12 choix... et pour le dernier tirage, j'ai 8 choix. Ainsi, on a: $13\times 12\times 11\times 10\times 9\times 8=\ddp\frac{13!}{7!}$ r\'esultats possibles.
+\item 
+\begin{enumerate}
+\item Pour obtenir exactement un jeton noir, on doit: choisir \`a quel tirage on va tirer le jeton noir: il y a 6 choix possibles. Ensuite pour chaque choix de num\'ero de tirage, on a: 8 choix possibles de jetons noirs et pour les 5 autres tirages, on doit choisir 5 jetons parmi 5 sans remise mais avec ordre: $5\times 4\times 3\times 2\times 1=5!$. Ainsi, on obtient: $6\times 8\times 5!$ r\'esultats possibles.
+\item On passe \`a l'ensemble compl\'ementaire. Si on note $A$ l'ensemble des tirages avec au moins un jeton noir et $E$ l'ensemble des tirages possibles, on a: $\card (A)=\card (E)-\card (\overline{A})$. Et $\overline{A}$ est l'ensemble des tirages sans aucun jeton noir. On a donc $\card (\overline{A})=0$. En effet, comme il n'y a pas de remise et que l'on fait 6 tirages alors qu'il n'y a que 5 jetons blancs, il n'y a aucun tirage sans jeton noir. Ainsi, on obtient $\card (A)=\card (E)=\ddp\frac{13!}{7!}$.
+\item On note $A$ l'ensemble des tirages avec au plus un jeton noir. C'est l'union disjointe de $B$ l'ensemble des tirages avec exactement aucun jeton noir et de $C$ l'ensemble des tirages avec exactement un jeton noir. Or on a d\'ej\`a vu que: $\card (B)=0$ et $\card C=6\times 8\times 5!$. Ainsi, on obtient que: $\card (A)=\card (C)= 6\times 8\times 5!$.
+\item Pour avoir 2 fois plus de jetons noirs que de blancs avec 6 tirages, la seule solution est de tirer 2 jetons blancs et 4 jetons noirs. On commence par fixer la place des 2 jetons blancs parmi les 6 tirages: $\ddp \binom{6}{2}$. Les jetons noirs \'etant plac\'es dans les places restantes. Puis il y a $5\times 4$ choix pour les jetons blancs et $8\times 7\times 6\times 5$ choix possibles pour les jetons noirs. On obtient au final $\ddp \binom{6}{2}\times 5\times 4 \times 8\times 7\times 6\times 5$ r\'esultats possibles.
+\end{enumerate}
+\end{enumerate}
+\item On est alors dans un cas o\`u il n'y a ni ordre ni r\'ep\'etition car les jetons sont tir\'es simultan\'ement.
+\begin{enumerate}
+\item Il s'agit donc de choisir 6 jetons parmi 13 jetons sans ordre et sans r\'ep\'etition. On obtient donc $\ddp \binom{13}{6}$ r\'esultats possibles.
+\item 
+\begin{enumerate}
+\item On doit choisir 1 jeton noir parmi les 8 et 5 jetons blancs parmi les 5. En fait la poign\'ee de jetons que vous devez obtenir doit contenir les 5 jetons blancs et un jeton noir. On a donc $8$ r\'esultats possibles ce qui est bien \'egal \`a $\ddp \binom{8}{1}\times \ddp \binom{5}{5}$.
+\item On passe \`a l'ensemble compl\'ementaire. Si on note $A$ l'ensemble des tirages avec au moins un jeton noir et $E$ l'ensemble des tirages possibles, on a: $\card (A)=\card (E)-\card (\overline{A})$. Et $\overline{A}$ est l'ensemble des tirages sans aucun jeton noir.  On a donc $\card (\overline{A})=0$. En effet, comme il n'y a pas de remise et que l'on tire 6 jetons alors qu'il n'y a que 5 jetons blancs, il n'y a aucun tirage sans jeton noir. Ainsi, on obtient $\card (A)=\card (E)=\ddp \binom{13}{6}$.
+\item On note $A$ l'ensemble des tirages avec au plus un jeton noir. C'est l'union disjointe de $B$ l'ensemble des tirages avec exactement aucun jeton noir et de $C$ l'ensemble des tirages avec exactement un jeton noir. Or on a d\'ej\`a vu que: $\card (B)=0$ et $\card C=8$. Ainsi, on obtient que: $\card (A)=\card (C)= 8$.
+\item Pour avoir 2 fois plus de jetons noirs que de blancs avec 6 tirages, la seule solution est de tirer 2 jetons blancs et 4 jetons noirs. On obtient donc $\ddp \binom{5}{2} \times \ddp \binom{8}{4}$ r\'esultats possibles.
+\end{enumerate}
+\end{enumerate}
+\end{enumerate}
+\end{correction}
+
+
+
+
+\begin{correction}  \; \textbf{Exercice 6 : Jeu de cartes:}
+\begin{enumerate}
+ \item On est dans un cas o\`u il n'y a pas d'ordre ni de r\'ep\'etition. Il s'agit donc de choisir 8 cartes parmi 52 sans ordre ni r\'ep\'etition. 
+On obtient donc $\ddp \binom{52}{8}$ mains diff\'erentes.
+\item Une solution est de passer par le compl\'ementaire. Si on pose $A:$ ensemble des mains possibles avec au moins un as et $E:$ ensemble des mains possibles. On obtient: $\card (A)=\card (E)-\card (\overline{A})$. De plus, on a: $\overline{A}:$ ensemble des mains possibles sans aucun as et ainsi il s'agit de choisir 8 cartes non plus parmi 52 mais parmi 48 car on enl\`eve les 4 as. On obtient ainsi: $\card (A)=\ddp \binom{52}{8}-\binom{48}{8}$. 
+\item L\`a encore on peut passer par l'ensemble compl\'ementaire. Si on pose $B:$ ensemble des mains possibles avec au moins (un coeur ou une dame) et $E:$ ensemble des mains possibles. On obtient: $\card (B)=\card (E)-\card (\overline{B})$. De plus, on a: $\overline{B}:$ ensemble des mains possibles sans coeur et sans dame et ainsi il s'agit de choisir 8 cartes non plus parmi 52 mais parmi 36 car on enl\`eve les 13 coeurs et les 3 dames restantes. On obtient ainsi: $\card (A)=\ddp \binom{52}{8}-\binom{36}{8}$. 
+\item Il faut faire attention \`a l'as de coeur. On note $C:$ l'ensemble des mains possibles avec exactement un as et exactement un coeur mais sans l'as de coeur, $D$ l'ensemble des mains possibles avec l'as de coeur et aucun coeur et as pour les autres cartes et $E$ l'ensemble des mains possibles avec exactement un as et un coeur. On a bien $E=C\cup D$ et les deux ensembles $C$ et $D$ sont bien disjoints. Ainsi, on obtient $\card (E)=\card (C)+\card (D)$. Le cardinal de $C$ s'obtient en choisisant une carte parmi les 3 as ne contenant pas l'as de coeur, une carte parmi les 12 cartes de coeur sans l'as de coeur et les 6 cartes restantes parmi les 36 cartes restantes n'\'etant ni des coeur ni des as. On a donc: $\card (C)=\ddp \binom{3}{1}\binom{12}{1}\binom{36}{6}$. Pour $D$, il faut prendre l'as de coeur, soit une seule possibilit\'e, puis il faut prendre les 7 cartes restantes parmi les $36$ autres cartes n'\'etant ni des coeurs ni des as. On obtient ainsi $\card (D)=1\times \ddp \binom{36}{7}$. Ainsi, on a: 
+$\card (E)=\ddp\binom{3}{1}\binom{12}{1}\binom{36}{6} + \binom{36}{7}$.
+\item On commence par faire le choix de la couleur, on a donc 2 choix parmi 4 sans ordre et sans r\'ep\'etition: $\ddp \binom{4}{2}$. Une fois le choix de la couleur fait, il faut prendre nos 8 cartes parmi les cartes de ces deux couleurs \`a savoir on doit prendre 8 cartes parmi les 26 cartes des deux couleurs choisies. On a compt\'e en trop le cas o\`u nos 8 cartes \'etaient en fait toutes prises de la m\^eme couleur. Il faut donc retirer \`a $\ddp \binom{26}{8}$ le nombre de possibilit\'es que l'on a d'avoir pris en fait 8 cartes de la m\^eme couleur, \`a savoir: $2\times\ddp \binom{13}{8}$. On le compte 2 fois car il y a deux couleurs. Finalement, on obtient: $\ddp \binom{4}{2}\left\lbrack \ddp \binom{26}{8}-2\ddp \binom{13}{8}   \right\rbrack$.
+\item On veut choisir au plus deux couleurs, c'est-\`a-dire exactement une ou bien exactement deux. On a calcul\'e le nombre de tirages avec exactement deux couleurs \`a la question pr\'ec\'edente. De plus, pour choisir des cartes d'une seule couleur, on a $4$ choix pour la couleur, puis $\ddp \binom{13}{8}$ possibilit\'es pour les tirages. Comme les tirages d'une couleur et de deux couleurs sont disjoints, le cardinal de l'union des deux ensembles est la somme des cardinaux, et on en d\'eduit que l'on a $\ddp \binom{4}{2}\left\lbrack \ddp \binom{26}{8}-2\ddp \binom{13}{8}   \right\rbrack + 4 \binom{13}{8}$ possibilit\'es.
+\item On commence par faire le choix de la plus petite carte: on a 6 choix pour la valeur de la plus petite carte: du 2 au 7. Une fois ce choix fait, cela d\'etermine le choix des 8 autres valeurs puisque les valeurs doivent se suivrent strictement. Par exemple, si la plus petite carte est un 4 ensuite on doit avoir un 5,6,7,8,9,10,Valet. Puis, comme il y a 4 couleurs par valeur, on obtient finalement: $\ddp \binom{6}{1}\times 4^{8}$.
+\end{enumerate}
+\end{correction}
+
+
+
+\begin{correction}  \; \textbf{Exercice 18 : D\'emonstration d'une formule par le d\'enombrement}
+\begin{enumerate}
+ \item Il s'agit ici de d\'enombrer le nombre de mots form\'es avec des A et des B. L'ordre intervient donc et il y a r\'ep\'etitions possibles: 
+on peut prendre plusieurs fois la lettre A et plusieurs fois la lettre B. Un tel mot est donc une $(p+q+1)$-liste de deux lettres et on obtient ainsi
+$$\card (\mathcal{M})=2^{p+q+1}.$$
+\item 
+\begin{itemize}
+ \item[$\bullet$] On veut que le $p+1$-i\`eme A se trouve en $p+k$-i\`eme position. Cela signifie que les $p+k-1$ premi\`eres lettres comporte 
+$p$ lettres A. Pour les $p+k-1$ premi\`eres lettres, il y a donc autant de possibilit\'es que de fa\c{c}ons de placer ces $p$ lettres A parmi les $p+k-1$ lettres: on a donc $\ddp \binom{p+k-1}{p}$ choix possibles. Ensuite la $p+k$-i\`eme lettre est un A et il y a donc une seule possibilit\'e. Puis, pour les $q-k+1$ lettres restantes, il n'y a pas de restriction: on a donc $2^{q-k+1}$ possibilit\'es. Au final, on obtient
+$$\card (\mathcal{N}_k)= \ddp \binom{p+k-1}{p}2^{q-k+1}.$$ 
+\item[$\bullet$]  Il est cair que $\left( \mathcal{N}_1,\dots \mathcal{N}_{q+1} \right)$ est un syst\`eme complet de $\mathcal{N}$ puisque le $p+1$-i\`eme A se trouve entre la position $p+1$ et la position $p+q+1$ et les $\mathcal{N}_i$ sont bien 2 \`a 2 disjoints. Par cons\'equent, on a 
+$$\card (\mathcal{N})=\sum\limits_{k=1}^{q+1}\card(\mathcal{N}_k)=\sum\limits_{k=1}^{q+1} \ddp \binom{p+k-1}{p}2^{q-k+1}.$$
+\end{itemize}
+\item En utilisant un raisonnement similaire pour $\mathcal{R}$ (le $q+1$-i\`eme B pouvant se trouver entre la position $q+1$ et la position $p+q+1$), on obtient, en rempla\c{c}ant simplement $p$ par $q$ dans la formule pr\'ec\'edente,
+$$\card (\mathcal{R})=\sum\limits_{k=1}^{p+1}\card(\mathcal{R}_k)=\sum\limits_{k=1}^{p+1} \ddp \binom{q+k-1}{q}2^{p-k+1}.$$
+\item Comme un mot de $\mathcal{M}$ comporte $p+q+1$ lettres, il comporte n\'ecessairement ou bien au moins $p+1$ lettres A, ou bien au moins $q+1$ lettres B, ce qui s'\'ecrit $\mathcal{M}=\mathcal{N}\cup\mathcal{R}$. Ensuite, $\mathcal{N}\cap \mathcal{R}$ d\'esigne l'ensemble des mots de $\mathcal{M}$ comportant au moins $p+1$ lettres $A$ et $q+1$ lettres $B$, ce qui n'est pas possible car un mot de $\mathcal{M}$ a $p+q+1$ lettres seulement. Ainsi, $\mathcal{N}\cap\mathcal{R}=\emptyset$. Par cons\'equent
+$$\begin{array}{lll}
+\card (\mathcal{M})&=& \card (\mathcal{N})+\card (\mathcal{R})\vsec\\
+&=& \sum\limits_{k=1}^{p+1} \ddp \binom{p+k-1}{p}2^{q-k+1}+\sum\limits_{k=1}^{q+1} \ddp \binom{q+k-1}{q}2^{p-k+1}\vsec\\
+&=& \sum\limits_{k=0}^{p} \ddp \binom{p+k}{p}2^{q-k}+\sum\limits_{k=0}^{q} \ddp \binom{q+k}{q}2^{p-k}\vsec\\
+  \end{array}
+$$
+en posant $k^{\prime}=k-1$ dans les deux sommes. En utilisant alors la question 1, on obtient
+$$\sum\limits_{k=0}^{p} \ddp \binom{p+k}{p}2^{q-k}+\sum\limits_{k=0}^{q} \ddp \binom{q+k}{q}2^{p-k}=2^{p+q+1} .$$
+\item On applique alors la formule pr\'ec\'edente pour $p=q$ et cela nous donne
+$$ \sum\limits_{k=0}^{p} \ddp \binom{p+k}{p}2^{p-k}+\sum\limits_{k=0}^{p} \ddp \binom{p+k}{p}2^{p-k}=2^{2p+1}  .$$
+On divise alors par $2$ de chaque c\^ot\'e et on obtient
+$$\sum\limits_{k=0}^{p} \ddp \binom{p+k}{p}2^{p-k}=2^{2p}.$$
+Si on pose alors $k^{\prime}= p+k$, on a: 
+$$\sum\limits_{k=0}^{p} \ddp \binom{p+k}{p}2^{p-k}=\sum\limits_{k=p}^{2p} \ddp \binom{k}{p}2^{2p-k}=2^{2p}.$$
+On obtient bien la formule voulue. 
+\end{enumerate}
+\end{correction}
+
+\end{document}

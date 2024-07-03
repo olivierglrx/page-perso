@@ -1,0 +1,54 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\geometry{hmargin=2.0cm, vmargin=1.5cm}
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{DM 9}
+
+
+\begin{exercice}
+Pour tout $n\in \N^*$, on note $E_n=\intent{1,n}$. 
+On note $S_{n,p}$ le nombre de surjections de $E_n$ sur $E_p$. 
+\begin{enumerate}
+\item Calculer $S_{n,p}$ si $p>n$. 
+\item Justifier grâce au cardinal qu'une surjection de $E_n$ dans $E_n$ est une bijection. En déduire $S_{n,n}$.
+\item Déterminer $S_{n,1}$. 
+\item Combien y-a-t-il d'applications de $E_n$ dans $E_2$ ? Parmi ces applications lesquelles ne sont pas surjectives ? En déduire $S_{n,2}$. 
+\item Soit $f$ une surjection de $E_{p+1}$ dans $E_p$, justifier que tous les éléments de $E_p$ ont exactement un antécédent sauf un qui en a exactement deux. 
+En déduire que $S_{p+1,p} = \frac{p}{2}(p+1)!$\\
+
+On suppose désormais que $0< p \leq n$. 
+\item Montrer que $\ddp \sum_{k=0}^p \binom{p}{k}(-1)^k=0$
+\item Montrer que pour tout $(k,q)$ tel que $0\leq k \leq q \leq p $ 
+$$\binom{p}{q}\binom{q}{k}=\binom{p}{k}\binom{p-k}{q-k}.$$
+\item \begin{enumerate}
+\item En déduire que, si 
+$0\leq k <p$, alors $\ddp \sum_{q=k}^p \binom{p}{q}\binom{q}{k} (-1)^q =0$.
+\item  Que vaut la somme précédente quand $k=p$ ?
+\end{enumerate}
+
+\item Montrer que pour tout entier $q$ de $E_p$ le nombre d'applications de $E_n$ dans $E_p$ ayant un enemble d'image à $q$ éléments est égal à $\binom{p}{q} S_{n,q}$. 
+\item En déduire que $p^n =\ddp \sum_{q=1}^p\binom{p}{q} S_{n,q}$. 
+\item A l'aide d'une inversion de sommes montrer que : $\ddp \sum_{k=1}^p (-1)^k \binom{p}{k}k^n=\sum_{q=1}^p \left(\sum_{k=q}^p (-1)^k \binom{p}{k}\binom{k}{q} \right) S_{n,q}  $.
+\item A l'aide des questions précédentes (8, 10, 11 notamment), en déduire que $S_{n,p} = \ddp (-1)^p \sum_{k=1}^p (-1)^k \binom{p}{k}k^n$.\\
+
+Dans les questions suivantes on va essayer de déterminer une relation de récurrence entre $S_{n,p}$ et les valeurs de $S_{n-1,p}$ et $S_{n-1,p-1}$
+\item Soit $\phi : E_n \tv E_p$  une surjection. (Combien y-a-t-il de possibilités pour $\phi$ ? ) On note $\phi_1$ la restriction de $\phi$ à $E_{n-1}$. 
+\begin{enumerate}
+\item Supposons que $\phi_1$ est surjective. Combien y-a-t-il de possibilité pour $\phi_1$ ? 
+\item Supposons que $\phi_1$ n'est pas surjective, en déduire que $Im(\phi) = Im(\phi_1) \cup \{ \phi(n)\}$ cette union étant disjointe. $Im(\phi)$ désigne l'image  de la fonction, c'est-à-dire $\{ \phi(e) \, |\, e\in E_n\}$. Montrer ainsi que $\phi_1$ est surjective de $E_{n-1}$ sur $E_p\setminus\{ \phi(n)\}$. Combien y-a-t-il de possibilités pour $\phi_1$ ?
+\item En déduire que $S_{n,p}= p(S_{n-1,p} +S_{n-1,p-1})$.
+\item A l'image du triangle de Pascal, construire une table des $S_{n,p}$ pour $0\leq p\leq n \leq 5$
+\item Ecrire un programme Python qui prend en argument $(n,p)$ et retourne la valeur de $S_{n,p}$.
+\end{enumerate}
+
+\end{enumerate}
+\end{exercice}
+
+
+
+\end{document}

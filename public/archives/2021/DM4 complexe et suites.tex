@@ -1,0 +1,264 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\newif\ifshow
+\showtrue
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+
+
+
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{DM4 \\
+\small{A faire avant le  vendredi 8 octobre} \\
+Copies accéptées jusqu'au lundi 3 octobre
+}
+
+
+
+\begin{exercice}
+Soit $z\in \bC$ tel que $|z+1| \leq 1$. Montrer alors que 
+$$-2\leq \Re(z)\leq 0$$
+\footnotesize{ \textit{On n'est pas obligé d'utiliser la forme algébrique...} }
+
+\end{exercice}
+
+%\begin{exercice}
+%
+%
+%
+%\begin{enumerate}
+%\item Résoudre pour $\theta\in \R$, l'équation $e^{i\theta}=1$.
+%
+%On note $f(\theta) = e^{-i \theta} +1 +e^{i \theta}+e^{2i \theta}+e^{3i \theta}+e^{4i \theta}$
+%\item Montrer que $|f(\theta)|=\left| 1+e^{i \theta}+e^{i2 \theta}+e^{i3 \theta}+e^{4i \theta}+e^{5i \theta}\right|$
+%\item En déduire que pour tout $\theta \in \R\setminus\{ 2k\pi , k \in \Z\}$ on a 
+%$$\left| f(\theta)\right| = \left|\frac{\sin(3\theta)}{ \sin(\frac{\theta}{2})}\right|.$$
+%\item En déduire la valeur de  $\inf\{ \left| f(\theta)\right|\, ,\,  \theta \in \R \}$. 
+%\item Montrer que pour tout $\theta \in \R$, $ \left| f(\theta)\right|\leq 6$.
+%\item En déduire la valeur de $\sup\{ \left| f(\theta)\right|\, ,\,  \theta \in \R\}$. 
+%\end{enumerate}
+%\end{exercice}
+
+
+\begin{exercice}
+On considère l'équation du second degré suivante : 
+$$z^2+(3i-4)z+1-7i=0 \quad (E) $$
+
+\begin{enumerate}
+\item A la manière d'une équation réelle, calculer le discriminant $\Delta$ du polynôme complexe, et montrer que $\Delta=3+4i$
+\item On se propose de résoudre $ (E_2) \, : \, u^2=\Delta \, $  d'inconnue complexe $u$. 
+\begin{enumerate}
+\item On écrit $u=x+iy$ avec $(x,y)\in \R^2$. Montrer que $(E_2)$ est équivalent à 
+$$ x^4-3x^2-4=0 \quadet y =\frac{2}{x}.$$
+\item En déduire que les solutions de $(E_2)$ sont 
+$$u_1=3-i\quadet u_2=1-2i$$
+\end{enumerate}
+\item Soit $u_1$ une solution de l'équation précédente. 
+On considère $r_1 = \frac{-3i+4 +u_1}{2}$. Montrer que $r_1$ est solutions de l'équation  $(E)$.
+\item Quelle est à l'autre solution  de  $(E)$ ? 
+\end{enumerate}
+
+\end{exercice}
+
+
+
+%%%%%%%%%
+\begin{exercice} Soit $(n,p,k,j)\in\N^4$ avec $k\in\intent{0,n}$ et $j\in\intent{0,k}$. Montrer que $$\ddp\binom{n}{k}\binom{k}{j}=\ddp\binom{n}{j}\ddp\binom{n-j}{n-k}.$$
+\end{exercice}
+
+
+\begin{exercice}
+Soit $(a, b) \in \R^2$ tels que $0<a<b.$ On pose $u_0=a, v_0=b$ et pour tout $n\in \N$:
+$$ u_{n+1} =\sqrt{u_n v_n}, \quad v_{n+1} = \frac{u_n +v_n}{2}.$$
+\begin{enumerate}
+\item Montrer que :  $\forall n\in \N, \, 0<u_n<v_n.$
+%\item Montrer que $\suiteu$ est croissante et $\suite{v}$ et décroissante. 
+\item Montrer que :  $\forall n\in \N, \, v_n-u_n\leq \frac{1}{2^n}(v_0-u_0).$
+\end{enumerate}
+\end{exercice}
+
+
+
+%%%% ---------------------------------
+%%%% ---------------------------------
+%%%% ---------------------------------
+%%%% ---------------------------------
+%%%% ---------------------------------
+
+\begin{correction}
+ Comme pour tout $z\in \bC$, $|\Re(z)| \leq |z|$ on a pour tout $z\in \{ z\in \bC\, , \, |z+1|\leq 1\}$:
+ 
+$$|\Re(z+1)| \leq |z+1|\leq 1$$
+C'est-à-dire :
+$$-1\leq \Re(z+1)\leq 1$$
+soit 
+\begin{center}
+\fbox{
+$-2\leq \Re(z) \leq 0$}
+
+
+\end{center}
+\end{correction}
+
+
+\begin{correction}
+On suit les étapes indiquées dans l'énoncé. 
+\begin{enumerate}
+\item Le discriminant vaut 
+$$\Delta = (3i-4)^2 -u^4 (1-7i) = -9-24i +16 -4+28i = 3+4i$$
+\item Résolvons $u^2=3+4i$. \begin{enumerate}
+\item On pose donc $u=x+iy$ avec $x,y\in \R$ 
+On a  donc $(x+iy)^2 = 3+4i $, soit $x^2-y^2 +2xyi =3+4i$ En identifiant partie réelle et partie imaginaire on obtient : 
+$$x^2 -y^2 =3 \quad 2xy=4$$
+
+Comme $x\neq 0 $ (sinon $\Delta\in \R_-$ ), la deuxième équation devient 
+\conclusion{$y=\frac{2}{x}.$} On remplace alors $y$ avec cette valeur dans la première équation, ce qui donne : 
+$$x^2 -\frac{4}{x^2}=3$$ et  en multipliant par $x^2$ 
+\conclusion{ $x^4 -3x-4=0$}
+
+\item On fait un changement de variable $X=x^2$ dans l'équation $x^4-3x^2-4=0$. On obtient 
+$$X^2 -3X-4=0$$
+De discriminant $\Delta_2 = 9+4*4=25=5^2$. Cette équation admet ainsi deux solutions réelles : 
+$$X_1= \frac{3-5}{2}= -1\quadet X_2 =\frac{3+5}{2}=4$$
+Remarquons maintenant que $X$ doit être positif car $x^2=X$ ainsi, les solutions pour la variable $x$ sont 
+$$x_1 =\sqrt{4}=2 \quadet x_2 =-\sqrt{4}=-2$$
+Ce qui correspond respectivement à $y_1= 1$ et $y_2= -1$
+On obtient finalement deux solutions pour $u^2=\Delta $ 
+à savoir 
+\conclusion{$u_1= 2+i \quadet u_2 =-2-i$}
+
+
+
+\end{enumerate}
+\item  On considère donc $r_1 = \frac{-3i+4+2+i}{2}= 3-i$. Montrons que $r_1$ est solution de $(E)$ 
+
+$$r_1^2 = (3-i)^2 = 9-6i-1=8-6i$$
+$$(3i-4)r_1 =(3i-4) (3-i) = 9i+3-12+4i = -9+13i$$
+Donc 
+$r_1^2 +(3i-4)r_1 = 8-6i -9+13i  =-1 +7i$
+Soit 
+$$r_1^2 +(3i-4)r_1 +1-7i=0$$
+\conclusion{Donc $r_1$ est bien solution de $(E)$. }
+
+\item L'autre solution est sans aucun doute 
+\conclusion{ $r_2 = \frac{-3i+4+u_2}{2} = 1-2i$}
+
+\end{enumerate}
+\end{correction}
+
+
+\begin{correction}
+ $$\ddp\binom{n}{k}\binom{k}{j} =\frac{n! }{k! (n-k)!} \frac{k! }{j! (k-j)!}=\frac{n! }{ (n-k)!} \frac{1 }{(k-j)!j!} $$
+ 
+ et 
+ $$\ddp\binom{n}{j}\ddp\binom{n-j}{n-k} = \frac{n! }{j! (n-j)!} \frac{(n-j)! }{(n-j-(n-k)! (n-k)!}= \frac{n! }{j!} \frac{1 }{(k-j)! (n-k)!}$$
+\end{correction}
+
+%
+%
+%\begin{correction}
+%$e^{i\theta}=1$ si et seulement si $\cos(\theta) = 1 $ et $\sin(\theta) =0$ c'est-à-dire 
+%$$\theta \in \{ 2k\pi , k \in \Z\}$$
+%
+%On a $f(\theta) = e^{-i\theta} (1+e^{i \theta}+e^{i2 \theta}+e^{i3 \theta}+e^{4i \theta}+e^{5i \theta})$. On a donc 
+%$$|f(\theta)|=|e^{i\theta}| \left| 1+e^{i \theta}+e^{i2 \theta}+e^{i3 \theta}+e^{4i \theta}+e^{5i \theta}\right|$$
+%Comme $|e^{i\theta}| =1$ on a bien le résultat souhaité. 
+%
+%On reconnait la somme des termes d'une suite géométrique de raison $e^{i\theta}$. La raison est différent de 1 d'après la question 1 et l'hypothése faite sur $\theta $.  On a donc 
+%$$\left| f(\theta)\right| =\left| \frac{1-e^{i6\theta}}{1-e^{i\theta}}\right|$$
+%On utilise l'angle moitié, on obtient 
+%$$ \frac{1-e^{i6\theta}}{1-e^{i\theta}} = \frac{e^{i3\theta}(e^{-3i\theta}-e^{i3\theta})}{e^{i\theta/2}(e^{-i\theta/2}-e^{i\theta/2})} $$
+%Donc 
+%\begin{align*}
+%\left| f(\theta)\right| &= \left| \frac{e^{i3\theta}}{e^{i\theta/2}} \right| \left|\frac{e^{-3i\theta}-e^{i3\theta}}{e^{-i\theta/2}-e^{i\theta/2)}}\right|\\
+%								&=1\left|\frac{2i \sin(3\theta)}{2i\sin(\frac{\theta}{2})}\right|\\
+%	&=\left| \frac{\sin(3\theta)}{\sin(\frac{\theta}{2})}\right|						
+%\end{align*}
+%
+%Pour tout $\theta \in \R$ on a $|f(\theta)| \geq 0$ par définition du module. Par ailleurs, d'après la question précédente 
+%$$\left| f(\pi)\right|= \left| \frac{\sin(3\pi)}{\sin(\frac{\pi}{2})}\right|	=0$$
+%donc 
+%\begin{center}
+%\fbox{$\inf\{ \left| f(\theta)\right|\, ,\,  \theta \in \R \}=0.$ }
+%\end{center}
+%
+%Pour le maximum on applique l'inégalité triangulaire, on a 
+%$$\left| f(\theta)\right| \leq \left| e^{-i\theta}\right| + 1+\left| e^{i\theta}\right| + \left| e^{2i\theta}\right| + \left| e^{3i\theta}\right| + \left| e^{4i\theta}\right|=6$$
+%Enfin pour $\theta=0$ on obtient $f(0)=6$ donc 
+%\begin{center}
+%\fbox{$\sup\{ \left| f(\theta)\right|\, ,\,  \theta \in \R \}=6.$ }
+%\end{center}
+%
+%\end{correction}
+%
+% 
+ 
+% 
+
+
+\begin{correction}
+\begin{enumerate}
+\item Montrons par récurrence la propriété $\cP(n)$ définie pour tout $n$ par : \og $  0<u_n<v_n$ \fg. 
+\textbf{Initialisation:}  Pour $n=0$, la propriété est vraie, d'après l'hypothèse faite dans l'énoncé  $0<a<b.$ 
+
+ \textbf{H\'er\'edit\'e:}\\
+Soit $n\geq 0$ fix\'e. On suppose la propri\'et\'e vraie \`a l'ordre $n$. Montrons qu'alors $\mathcal{P}(n+1)$ est vraie.\\
+On a $u_{n+1} = \sqrt{u_n v_n}$ qui est bien défini car $u_n $ et $v_n$ sont positifs par hypothèse de récurrence. Cette expression assure aussi que $u_{n+1}$ est positif. 
+
+De plus, 
+\begin{align*}
+v_{n+1}-u_{n+1} &= \frac{u_n +v_n}{2} - \sqrt{u_n v_n}&  \text{Par définition. }\\
+						&= \frac{u_n -2 \sqrt{u_nv_n}+v_n}{2} \\
+						&= \frac{(\sqrt{u_n} -\sqrt{v_n})^2}{2} 			&  \text{car $u_n$ et   $v_n$ sont positifs. }\\	
+						&>0
+\end{align*} 
+Ainsi $v_{n+1} > u_{n+1}$
+La propriété $\cP$ est donc vraie au rang $n+1$.
+
+\textbf{Conclusion:}\\
+Il r\'esulte du principe de r\'ecurrence que pour tout $ n\geq 0$:
+\begin{center}
+\fbox{$  0<u_n<v_n$}
+\end{center}
+
+\item 
+Montrons par récurrence la propriété définie $\cP(n)$ définie pour tout $n$ par : \og $  v_n-u_n\leq \frac{1}{2^n}(v_0-u_0).$\fg. 
+\textbf{Initialisation:}  Pour $n=0$, la propriété est vraie car le terme de gauche vaut $v_0-u_0$ et le terme de droite vaut $\frac{1}{1}(v_0-u_0)$. 
+
+ \textbf{H\'er\'edit\'e:}\\
+Soit $n\geq 0$ fix\'e. On suppose la propri\'et\'e vraie \`a l'ordre $n$. Montrons qu'alors $\mathcal{P}(n+1)$ est vraie.\\
+Montrons tout d'abord que $v_{n+1}-u_{n+1} \leq \frac{1}{2} (v_n -u_n)$. 
+En effet, on a 
+\begin{align*}
+v_{n+1}-u_{n+1} -\frac{1}{2} (v_n -u_n)&= \frac{u_n +v_n}{2} - \sqrt{u_n v_n}  -\frac{1}{2} (v_n -u_n)\\
+															&=u_n - \sqrt{u_n v_n}\\
+															&=\sqrt{u_n}(\sqrt{u_n} - \sqrt{ v_n})\\
+															&<0															
+\end{align*}
+On a donc bien $v_{n+1}-u_{n+1} \leq \frac{1}{2} (v_n -u_n)$. On applique maintenant l'hypothèse de récurrence, on a alors 
+\begin{align*}
+v_{n+1}-u_{n+1} & \leq \frac{1}{2} \times \frac{1}{2^n}(v_0-u_0)\\
+						 & \leq \frac{1}{2^{n+1}}(v_0-u_0)				
+\end{align*}
+
+La propriété $P$ est donc vraie au rang $n+1$.
+
+\textbf{Conclusion:}\\
+Il r\'esulte du principe de r\'ecurrence que pour tout $ n\geq 0$:
+\begin{center}
+\fbox{$  v_n-u_n\leq \frac{1}{2^n}(v_0-u_0).$}
+\end{center}
+
+
+
+
+
+\end{enumerate}
+\end{correction}
+
+
+\end{document}

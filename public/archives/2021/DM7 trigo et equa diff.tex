@@ -1,0 +1,122 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\newif\ifshow
+\showfalse
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{DM7 \\
+\small{A avoir compris avant le prochain DS ! \\
+Copies accéptées le lundi et rendues le mardi
+} 
+}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%\begin{exercice}[DS Chaptal 2020]
+%Résoudre l'inéquation d'inconnue $x$: 
+%
+%$$\frac{\frac{1}{2}}{x-\frac{1}{2}}\leq x+\frac{1}{2}$$
+%
+%Résoudre sur $[0,2\pi[$ :  
+%$$\frac{\frac{1}{2}}{\sin(x)-\frac{1}{2}}\leq \sin(x)+\frac{1}{2}$$
+%
+%Représenter les solutions sur le cercle trigonométrique. 
+%\end{exercice}
+\begin{exercice}[D'après DS chaptal 2020]
+Pour tout $n\in \N$ on définit $I_n$ 
+$$I_n = \int_0^{\frac{\pi}{2}} \cos^{2n}(t) dt $$
+\begin{enumerate}
+\item Montrer que $I_0= \frac{\pi}{2}$.
+\item En utilisant une intégration par parties, démontrer que pour tout entier $n\geq 1$ on a :
+$$I_n =\frac{2n-1}{2n} I_{n-1}$$
+(on pourra utiliser que $\cos^{2n}(t)=\cos^{2n-1}(t)\cos(t)$)
+\item En déduire que 
+$$I_n = \frac{(2n)! }{2^{2n} (n!)^2} \frac{\pi}{2}$$
+\end{enumerate}
+\end{exercice}
+
+
+\begin{exercice}%[DS Hoche 2020]
+Le but de cet exercice est de déterminer toutes les fonctions $x$ dérivable sur $\R$ telles que pour tout $t\in \R$ : 
+$$x(t)>0\quadet x'(t)+e^t f(t)x(t)^2 +x(t) =0$$
+\text{où} $f(t) =\frac{t}{t^2+1}.$
+
+\warning Cette équation n'est PAS linéaire et ne rentre pas dans le cadre du cours. 
+\begin{enumerate}
+\item \begin{enumerate}
+\item Justifier que la fonction $f$ admet des primitives sur $\R$ et déterminer l'unique primitive qui s'annule en $0$ qu'on notera $F_0$. 
+\item Montrer que $F_0$ admet un minimum $m$ et calculer sa valeur. 
+\end{enumerate}
+\item  Pour cette question, on fixe une fonction $x$ solution du problème et on pose $y=1/x$.
+\begin{enumerate}
+\item Montrer que $y$ est solution d'une équation différentielle linéaire à déterminer. 
+\item Résoudre l'équation différentielle obtenue à la question précédente. On pourra chercher une solution particulière de la fome $t\mapsto \lambda(t) e^{t},  $ où $\lambda$ est une fonction à déterminer. 
+\end{enumerate}
+\item En déduire que toutes les solutions du problème sont de la forme : 
+$$x : t \mapsto \frac{e^{-t}}{ C +\frac{1}{2} \ln(t^2+1) +\arctan(t) }$$
+où $C$ est une constante telle que $C>-m$.
+\end{enumerate}
+\end{exercice}
+
+\begin{correction}
+\begin{enumerate}
+\item
+\begin{enumerate}
+\item $f$ est continue sur $\R$ donc admet des primitives. Les primitives de $f$ sont de la formes $F(t) = \frac{1}{2}\ln(t^2+1) + C$. L'unique primitive qui s'annule en $0$ est donc 
+\conclusion{$F_0(t)= \frac{1}{2}\ln(t^2+1) $}
+\item La dérivée de $F_0$ est la fonction $f$ qui est positive sur $\R_+$ et  négative sur $\R_-$. Donc $F_0$ admet un minimum en $0$ qui vaut $0$. 
+\end{enumerate} 
+\item \begin{enumerate}
+\item On a $x=\frac{1}{y}$ donc $x'=-\frac{y'}{y^2}$ Ainsi l'équation différentielle devient : 
+$$-\frac{y'}{y^2} +e^{t}f(t) \frac{1}{y^2}+\frac{1}{y}=0$$
+En multipliant par $y^2$ on obtient :
+\conclusion{$-y' +y =-e^{t}f(t)$}
+\item Les solutions de l'équation homogéne associée sont 
+$$\cS_h =\{ t\mapsto Ce^t\, |\, C\in \R\}$
+
+Cherchons une solution particulière de la forme $C(t)e^{t}$ comme le sujet nous le suggère. 
+On a alors $$-C'(t)e^t -C(t)e^t +C(t)e^t =-e^{t}f(t)$$
+Donc 
+$$C'(t) = f(t)$$
+D'où $$C(t)=\frac{1}{2}\ln(t^2+1) +C$$
+où $C$ est un nombre réel. Comme on recherche une solution particulière on peut prendre $C(t) =F_0 (t) = \frac{1}{2}\ln(t^2+1) $
+
+Donc les solutions de $-y' +y =-e^{t}f(t)$ sont 
+\conclusion{ $\cS=\{ t\mapsto Ce^t +\frac{1}{2}\ln(t^2+1) e^t \, |\, C\in \R\}$
+
+
+
+
+\end{enumerate}
+\item On obtient alors les solutions de l'équation $(E)$
+en revenant à la variable $x=\frac{1}{y}$ on doit vérifier que $y$ est bien différent de $0$ et même strictement positif car l'énoncé stipule $x(t)>0$. Or $y(t) =  Ce^t +\frac{1}{2}\ln(t^2+1) e^t$ est positif pour tout $C>0$, ainsi 
+$$x(t)=\frac{1}{ Ce^t +\frac{1}{2}\ln(t^2+1) e^t}= \frac{e^{-t}}{ C +\frac{1}{2}\ln(t^2+1) }$$
+avec $C>0$ 
+
+
+Les solutions sont bien : 
+\conclusion{ $\cS =  t \mapsto \frac{e^{-t}}{ C +\frac{1}{2} \ln(t^2+1)\, |\, C>0 }$}
+
+
+\end{enumerate}
+\end{correction}
+
+
+
+
+
+
+\end{document}

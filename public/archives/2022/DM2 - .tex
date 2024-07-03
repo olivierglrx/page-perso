@@ -1,0 +1,369 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\geometry{hmargin=1.5cm,vmargin=2.5cm }
+\usepackage{enumitem}
+\newif\ifshow
+\showfalse
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+
+
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{DM2 \\
+}
+
+
+\begin{exercice}
+%\paragraph{Exercice 1 : Suite de Fibonacci}
+Soit $\suite{F}$ la suite définie par $F_0 =0, \, F_1=1 $ \text{ et pour tout $n \geq 0 $ \,} 
+$$ F_{n+2} = F_{n+1} +F_n.$$
+
+\begin{enumerate}
+\item Montrer que pour tout $n\in \N$ on a : $\ddp \sum_{k=0}^n F_{2k+1} =F_{2n+2}$
+et $\ddp \sum_{k=0}^n F_{2k} =F_{2n+1}-1$.
+\item Montrer que pout tout $n\in \N$ on a $\ddp \sum_{k=0}^n F_{k}^2 =F_nF_{n+1}$.
+\item \begin{enumerate}
+\item On note $\varphi = \frac{1+\sqrt{5}}{2}$ et $\psi=\frac{1-\sqrt{5}}{2}$. Montrer que 
+$\varphi^2 =\varphi+1$ et $\psi^2 =\psi+1$.
+\item Montrer que l'expression explicite de $F_n$ st donnée par $F_n =\frac{1}{\sqrt{5}}(\varphi^n-\psi^n)$.
+\item En déduire que $\ddp \lim_{n\tv \infty} \frac{F_{n+1}}{F_n}=\varphi.$
+\end{enumerate}
+\end{enumerate}
+
+\end{exercice}
+
+
+\begin{correction}
+\begin{enumerate}
+\item Nous allons montrer ces propriétés par récurrence sur l'entier $n\in \N$. 
+Soit $\cP(n)$ la prorpriété définie pour tout $n\in\N$ par:
+$$\cP(n) := \text{ \og }\ddp  \sum_{k=0}^n F_{2k+1} =F_{2n+2} \text{ 
+et } \ddp \sum_{k=0}^n F_{2k} =F_{2n+1}-1 \text{ \fg }.$$
+Montrons  $\cP(0)$. Vérifions la première égalité : 
+$$\sum_{k=0}^0 F_{2k+1} =F_{0+1}=F_1=1$$
+et 
+$$F_2 =F_1+F_0 =1$$
+Donc la première égalité est vraie au rang $0$. 
+
+Vérifions la sedonde égalité : 
+$$\sum_{k=0}^0 F_{2k} =F_{0}=0$$
+et 
+$$F_{2*0+1}-1 =F_1-1=0$$
+Donc la seconde égalité est vraie au rang $0$. 
+Ainsi $\cP(0)$ est vraie. 
+
+
+ \textbf{H\'er\'edit\'e:}\\
+Soit $n\geq 0$ fix\'e. On suppose la propri\'et\'e vraie \`a l'ordre $n$. Montrons qu'alors $\mathcal{P}(n+1)$ est vraie.\\
+
+Considérons la première égalité de $\cP(n+1)$. Son membre de gauche vaut : 
+\begin{equation*}
+ \sum_{k=0}^{n+1} F_{2k+1}=  \sum_{k=0}^n F_{2k+1} +F_{2n+3}
+\end{equation*}
+Par hypothèse de récurrence on a $ \ddp \sum_{k=0}^n F_{2k+1} = F_{2n+2}$, donc 
+\begin{align*}
+ \sum_{k=0}^{n+1} F_{2k+1} & =F_{2n+2}+F_{2n+3}.\\
+								& = F_{2n+4}.\quad \text{ d'après la définition de $\suite{F}$}\\
+								& = F_{2(n+1)+2}.\\
+\end{align*}
+La première égalité est donc héréditaire. 
+
+
+Considérons la sedonde égalité de $\cP(n+1)$. Son membre de gauche vaut : 
+\begin{equation*}
+ \sum_{k=0}^{n+1} F_{2k}=  \sum_{k=0}^n F_{2k} +F_{2n+2}
+\end{equation*}
+Par hypothèse de récurrence on a $ \ddp \sum_{k=0}^n F_{2k} = F_{2n+1}-1$, donc 
+\begin{align*}
+ \sum_{k=0}^{n+1} F_{2k} & =F_{2n+1}-1+F_{2n+2}.\\
+								& = F_{2n+3}-1.\quad \text{ d'après la définition de $\suite{F}$}\\
+								& = F_{2(n+1)+1}-1.\\
+\end{align*}
+La seconde égalité est donc héréditaire. Finalement la propriété $\cP(n+1)$ est vraie. 
+
+
+\textbf{Conclusion:}\\
+Il r\'esulte du principe de r\'ecurrence que pour tout $ n\geq 0$:
+\begin{center}
+\fbox{$\ddp \sum_{k=0}^n F_{2k+1} =F_{2n+2} \text{ 
+et } \ddp \sum_{k=0}^n F_{2k} =F_{2n+1}-1 $}
+\end{center}
+
+
+\item On  va montrer par récurrence que $\mathcal{P}(n) :\ddp \sum_{k=0}^n F_{k}^2 =F_{n}F_{n+1}$. 
+
+
+
+\textbf{Initialisation:}  Pour $n=0$, on a $\sum_{k=0}^0 F_{k}^2 = F_0^2=0$ et $F_0F_1=0$. 
+La propriété est donc vraie au rang $0$. 
+ 
+ \textbf{H\'er\'edit\'e:}\\
+Soit $n\geq 0$ fix\'e. On suppose la propri\'et\'e vraie \`a l'ordre $n$. 
+
+On a $\ddp \sum_{k=0}^{n+1} F_{k}^2 =\sum_{k=0}^{n} F_{k}^2 +F_{n+1}^2$
+Par hypothèse de récurrence on a $\sum_{k=0}^{n} F_{k}^2 = F_n F_{n+1}$ donc : 
+\begin{align*}
+ \sum_{k=0}^{n+1} F_{k}^2 &=  F_n F_{n+1} +F_{n+1}^2\\
+				&= F_{n+1} (F_n +F_{n+1}) \\
+				&=   F_{n+1}F_{n+2}  \quad \text{ par définition de $\suite{F}$ }													
+\end{align*}
+
+La propriété $\cP$ est donc vraie au rang $n+1$.
+
+\textbf{Conclusion:}\\
+Il r\'esulte du principe de r\'ecurrence que pour tout $ n\geq 0$:
+\begin{center}
+\fbox{$\mathcal{P}(n): \ddp \sum_{k=0}^n F_{k}^2 =F_{n}F_{n+1}$}
+\end{center}
+
+\item Le polynôme du second degrès $X^2-X-1$ a pour discriminant $\Delta =1+4=5$ les racines sont donc 
+$\varphi = \frac{1+\sqrt{5}}{2}$ et $\psi=\frac{1-\sqrt{5}}{2}$. 
+En particulier, ces nombres vérifient : $\varphi^2 -\varphi -1 =0$ et $\psi^2 -\psi-1=0$, c'est-à-dire 
+
+\begin{center}
+\fbox{$\varphi^2 =\varphi+1$ et $\psi^2 =\psi+1$.}
+\end{center}
+
+
+
+
+
+\item  Notons  :$u_n =\frac{1}{\sqrt{5}}(\varphi^n-\psi^n)$ 
+On a 
+$$u_0= \frac{1}{\sqrt{5}}(\varphi^0-\psi^0)=0$$
+$$u_1= \frac{1}{\sqrt{5}}(\varphi^1-\psi^1)=1$$
+et pour tout $n\in\N$ on a 
+\begin{align*}
+u_{n+2} &= \frac{1}{\sqrt{5}}(\varphi^{n+2}-\psi^{n+2}) \\
+			&= \frac{1}{\sqrt{5}}(\varphi^n (\varphi^2)-\psi^n (\psi^2) ) \\
+			&= \frac{1}{\sqrt{5}}(\varphi^n (\varphi +1)-\psi^n (\psi +1)  ) \quad \text{ D'après la question précédente} \\			
+			&= \frac{1}{\sqrt{5}}(\varphi^{n+1} +\varphi^n-\psi^{n+1} -\psi^n   ) \\
+			&= \frac{1}{\sqrt{5}}(\varphi^{n+1} -\psi^{n+1}) +  \frac{1}{\sqrt{5}} \varphi^n-\psi^n   ) \\
+			&=u_{n+1}+u_n
+\end{align*}
+Donc $u_n$ satisfait aussi la relation de récrurrence. 
+Ainsi  pour tout $n\in \N$, $u_n=F_n= \frac{1}{\sqrt{5}}(\varphi^n-\psi^n)$. 
+
+
+\item D'après la question précédente on a pour tout $n\in \N$: 
+$$\frac{F_{n+1}}{F_n} =  \frac{\varphi^{n+1}-\psi^{n+1}}{\varphi^n-\psi^n}$$
+Donc,
+\begin{align*}
+\frac{F_{n+1}}{F_n} &=\varphi \frac{\varphi^{n}\left(1-\frac{\psi^{n+1}}{\varphi^{n+1}}\right)}{\varphi^n\left(1-\frac{\psi^n}{\varphi^n}\right)}\\
+&=\varphi \frac{1-\left(\frac{\psi}{\varphi}\right)^{n+1}}{1-\left(\frac{\psi}{\varphi}\right)^n}
+\end{align*}
+
+
+Remarquons que $|\varphi| >|\psi|$ en particulier $|\frac{\psi}{\varphi}|<1$ et donc 
+$$\lim_{n\tv \infty} \left(\frac{\psi}{\varphi}\right)^{n+1} =0.$$
+Finalemetn 
+\begin{center}
+\fbox{$ \lim_{n\tv \infty} \frac{F_{n+1}}{F_n} =\varphi$.} 
+\end{center}
+
+\end{enumerate}
+
+\end{correction}
+
+
+
+
+
+
+\begin{exercice}
+\begin{enumerate}
+\item Rappeler  la valeur  de $ R_3=\ddp \sum_{k=0}^n k^3$ en fonction de $n\in \N$
+\item Soit $k\in \N$, développer $(k+1)^5 -k^5$. 
+\item A l'aide de la  somme téléscopique  $\ddp \sum_{k=0}^n(k+1)^5 -k^5$ donner la valeur de 
+$R_4= \ddp \sum_{k=0}^n k^4$  en fonction de $n\in \N$.  (On pourra garder une formule développée) 
+
+
+
+\end{enumerate}
+\end{exercice}
+
+
+
+
+
+\begin{correction}
+\begin{enumerate}
+\item $R_3 =\left(\frac{n(n+1)}{2}\right)^2$
+\item $(k+1)^5-k^5 = 5k^4 +10k^3+10k^2 +5k +1 $
+\item On a d'une part 
+$$\sum_{k=0}^n(k+1)^5 -k^5 = (n+1)^5$$
+et d'autre part 
+\begin{align*}
+\sum_{k=0}^n(k+1)^5 -k^5  &=\sum_{k=0}^n 5k^4 +10k^3+10k^2 +5k +1 \\
+											&= 5 R_4  +10 R_3 +10 \frac{n(n+1)(2n+1)}{6} +5 \frac{n(n+1)}{2}+ (n+1)
+\end{align*}
+
+Donc 
+$$R_4 =\frac{1}{5} \left( (n+1)^5- 10\left(\frac{n(n+1)}{2}\right)^2 -10  \frac{n(n+1)(2n+1)}{6}  - 5 \frac{n(n+1)}{2}-(n+1) \right)$$
+On trouve à la fin des calculs 
+$$R_4 = \frac{n}{30} (6n^4+15n^3 +10n^2-1)$$
+
+
+\end{enumerate}
+\end{correction}
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{exercice}
+On va prouver la formule du binome de Newton par récurrence 
+
+Pour tout $(a,b)\in \bR^2,\, $ et pour tout $n \in \N,$ $$(a+b)^n =\sum_{k=0}^n \binom{n}{k}a^k b^{n-k}.$$
+
+
+\begin{enumerate}
+%\item On rappelle que pour tout $n\in \N$ et pour tout $k\in \intent{0,n}$,  $$\binom{n}{k} = \frac{n!}{(n-k)!k!}.$$
+%Par convention $0! =1$ et $\binom{n}{k}=0 $ pour $k>n$ ou $k<0$. 
+%Pour tout $n\in \N$ calculer : 
+%$\binom{n}{0}$ et $\binom{n}{n}$. 
+%
+%\item Montrer que $\forall n\in \N, \, \forall k\in \N$ :
+%$$\binom{n}{k} +\binom{n}{k-1}=\binom{n+1}{k}$$
+
+\item Vérifier que la formule du binôme est vraie pour $n=0$, $n=1$, $n=2$ (et sur votre brouillon faite $n=3$).
+
+\item Montrer que pour tout $(a,b)\in \bR^2,\, $ et pour tout $n \in \N,$
+$$\sum_{k=0}^n \binom{n}{k}a^{k+1} b^{n-k} = a^{n+1}+\sum_{k=1}^{n} \binom{n}{k-1}a^{k} b^{n-k+1}.$$
+
+
+\item Montrer que pour tout $(a,b)\in \bR^2,\, $ et pour tout $n \in \N,$
+$$(a+b)\left( \sum_{k=0}^n \binom{n}{k}a^k b^{n-k}\right) = a^{n+1}+b^{n+1}+\sum_{k=1}^{n} \left( \binom{n}{k-1}+\binom{n}{k}\right)a^{k} b^{n-k+1}$$
+
+\item En déduire que 
+$$(a+b)\left( \sum_{k=0}^n \binom{n}{k}a^k b^{n-k}\right) = \sum_{k=0}^{n+1}  \binom{n+1}{k}a^{k} b^{n+1-k}$$
+
+\item Conclure. 
+
+
+
+
+\end{enumerate}
+
+
+
+\end{exercice}
+
+
+
+
+\begin{correction}
+
+
+
+
+
+\begin{enumerate}
+\item $n=0$
+
+On a 
+$(a+b)^0 =1$ et 
+$\sum_{k=0}^0 \binom{0}{k}a^k b^{0-k} = a^0b^0=1$
+
+ $n=1$
+
+On a 
+$(a+b)^1 =a+b$ et 
+$\ddp \sum_{k=0}^1 \binom{1}{k}a^k b^{1-k} = \binom{1}{0}a^0 b^{1-0}+\binom{1}{1}a^1 b^{1-1}= a+b$
+
+
+ $n=2$
+
+On a 
+$(a+b)^2 =a^2+2ab+b^2$ et 
+$\ddp \sum_{k=0}^2 \binom{2}{k}a^k b^{2-k} = \binom{2}{0}a^0 b^{2-0}+\binom{2}{1}a^1 b^{2-1}+\binom{2}{2}a^2 b^{2-2} =b^2+2ab+b^2$
+
+
+
+
+
+
+
+\item 
+\begin{align*}
+\sum_{k=0}^n \binom{n}{k}a^{k+1} b^{n-k}  &= \sum_{k=0}^{n-1} \binom{n}{k}a^{k+1} b^{n-k}  + \binom{n}{n}a^{n+1} b^{n-n} \\
+&= \sum_{k=0}^{n-1} \binom{n}{k}a^{k+1} b^{n-k}  + a^{n+1} 
+\end{align*}
+On fait le changement devariable $k+1=j$ sur la somme. On obtient 
+$j\in \intent{1,n}$, donc 
+$$\sum_{k=0}^{n-1} \binom{n}{k}a^{k+1} b^{n-k}  = \sum_{j=1}^{n} \binom{n}{j-1}a^{j} b^{n-j+1} $$
+Comme $j$ est un indice muet, on peut le changer en $k$. On a donc la formule demandée.
+
+\item 
+\begin{align*}
+(a+b)\left( \sum_{k=0}^n \binom{n}{k}a^k b^{n-k}\right) &=a  \sum_{k=0}^n \binom{n}{k}a^k b^{n-k} +b\sum_{k=0}^n \binom{n}{k}a^k b^{n-k}\\
+&= \sum_{k=0}^n \binom{n}{k}a^{k+1} b^{n-k} +\sum_{k=0}^n \binom{n}{k}a^k b^{n+1-k} 
+\end{align*}
+Maintenant on fait un changement de variable sur la première somme en posant $j =k+1$. On obtient : 
+$$ \sum_{k=0}^n \binom{n}{k}a^{k+1} b^{n-k}= \sum_{j=1}^{n+1} \binom{n}{j-1}a^{j} b^{n-j+1}$$
+On a donc, en se rappelant que $j$ est muet et donc remplacable par $k$
+\begin{align*}
+(a+b)\left( \sum_{k=0}^n \binom{n}{k}a^k b^{n-k}\right) &= \sum_{k=1}^{n+1} \binom{n}{k-1}a^{k} b^{n-k+1}+ \sum_{k=0}^{n} \binom{n}{k}a^{k} b^{n+1-k}
+\end{align*}
+On applique la relation de Chasles au  dernier terme de la première somme et au premier terme de la deuxième somme. On obtient : 
+
+\begin{align*}
+(a+b)\left( \sum_{k=0}^n \binom{n}{k}a^k b^{n-k}\right) &= \sum_{k=1}^{n} \binom{n}{k-1}a^{k} b^{n-k+1}+\binom{n}{n+1-1}a^{n+1} b^{n-(n+1)+1} \\& \hspace{2cm} +\sum_{k=1}^{n} \binom{n}{k}a^{k} b^{n+1-k} + \binom{n}{0}a^{0} b^{n+1-0} \\
+&=  a^{n+1}+b^{n+1}+\sum_{k=1}^{n} \left( \binom{n}{k-1}+\binom{n}{k}\right)a^{k} b^{n-k+1}
+\end{align*}
+
+
+\item 
+
+On applique la relation relation de Pascal à ce qu'on vient de trouver. 
+$$\sum_{k=1}^{n} \left( \binom{n}{k-1}+\binom{n}{k}\right)a^{k} b^{n-k+1} = \sum_{k=1}^{n} \binom{n+1}{k}a^{k} b^{n-k+1}$$
+Par ailleurs, 
+$$a^{n+1} = \binom{n+1}{n+1}a^{n+1} b^{n-(n+1)+1}$$
+et 
+$$b^{n+1} = \binom{n+1}{0}a^{0} b^{n-0+1}$$
+Ce sont donc les deux termes qui manquent à la somme de $0$ à $(n+1)$. On a ainsi 
+$$a^{n+1}+b^{n+1}+\sum_{k=1}^{n} \left( \binom{n}{k-1}+\binom{n}{k}\right)a^{k} b^{n-k+1} =\sum_{k=0}^{n+1}  \binom{n+1}{k}a^{k} b^{n+1-k}$$
+Ce qui prouve le résultat grace à la question précédente
+
+
+
+
+\item 
+
+
+
+On fait une récurrence. On pose pour tout $n\in \N$:
+$$\cP :' \forall a, b\in \bR, (a+b)^n =\sum_{k=0}^n \binom{n}{k}a^k b^{n-k}.$$
+L'initialisation a été faite à la question 1.
+
+L'hérédité correspond à la question 4. 
+
+\end{enumerate}
+ 
+
+
+\end{correction}
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

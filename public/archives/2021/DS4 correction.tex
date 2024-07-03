@@ -1,0 +1,586 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\newif\ifshow
+\showtrue 
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+\geometry{hmargin=4cm, vmargin=1.5cm}
+\newenvironment{amatrix}[1]{%
+  \left(\begin{array}{@{}*{#1}{c}|c@{}}
+}{%
+  \end{array}\right)
+}
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{Correction DS 4 
+}
+
+
+
+
+
+\begin{exercice}
+\begin{enumerate}
+\item Donner la définition d'une fonction injective. En donner un exemple et un contre-exemple.
+\item  Exprimer à l'aide de quantificateurs le fait qu'une fonction $f$ soit majorée sur $\R$.
+\item Donner la négation de la proposition suivante : \og Si il pleut alors je prends mon parapluie.\fg
+\item Donner la contraposée de l'implication suivante : \og Il pleut et il y a du soleil \fg  $\implique $ \og il y a un arc-en-ciel . \fg  
+\item Que vaut la matrice identité de taille 3 ?
+\item Donner la définition d'une matrice symétrique. En donner un exemple de taille 3 (qui n'est pas la matrice identité ni la matrice nulle).
+\item Donner un exemple d'une matrice de taille 2, telle que $A\neq 0$ mais $A^2=0$.
+\end{enumerate}
+\end{exercice}
+\begin{correction}
+\begin{enumerate}
+\item Cf cours
+\item $\exists M\in \R\, \forall x\in \R, f(x)\leq M$
+\item 'Il pleut  et je ne prends pas mon parapluie'
+\item 'Il n'y a pas d'arc-en-ciel' $\implique$ ' Il ne pleut pas ou il n'y a pas de soleil'
+\item $\Id=\left(\begin{array}{ccc}
+1&0&0\\
+0&1&0\\
+0&0&1
+\end{array}\right)$
+\item Une matrice $A$ est symétrique si  $A=A^T$ où $A^T$ désigne la transposée de $A$. 
+ex $A=\left(\begin{array}{ccc}
+1&2&0\\
+2&1&0\\
+0&0&1
+\end{array}\right)$
+\item $A=\left(\begin{array}{cc}
+0&1\\
+0&0
+\end{array}\right)$ fonctionne. 
+\end{enumerate}
+\end{correction}
+
+
+\begin{exercice}
+On regarde une horloge comme un cercle trigonométrique... Ainsi quand il est midi pile, l'aiguille des heures est à $\frac{\pi}{2}$ et l'aiguille des minutes est aussi à $\frac{\pi}{2}$ (à $2\pi$ près évidemment.) Quand il est $15:00$, l'aiguille des heures est à $0$ tandis que celle des minutes est à $\frac{\pi}{2}$. 
+
+\begin{center}
+\includegraphics[scale=0.5]{12.png}
+\includegraphics[scale=0.5]{15.png}
+\includegraphics[scale=0.5]{1640.png}
+\end{center}
+
+
+A quelle place se trouve l'aiguille des heures à 16H00 et à 16h40 ? (on justifiera la réponse proprement pour 16h40) 
+\end{exercice}
+\begin{correction}
+A 16h00, il est 1h de plus que 15H00. 1H correspond à 1/12 de tour du cercle, donc $\frac{1}{12}2\pi = \frac{\pi}{6}$. Comme le sens trigonométrique est opposé à celui du sens horaire,
+\conclusion{l'aiguille des heures est  à $\frac{-\pi}{6}$ à 16H00.}
+
+Pour 16h40, on a ajouté $40/60=2/3$ d'heures à 16h00. L'aiguille des heures a donc avancé de $\frac{2}{3} \frac{\pi}{6} = \frac{\pi}{9}$, elle est donc à  
+\conclusion{$-(\frac{\pi}{6} \frac{\pi}{9})= - \frac{5\pi}{18}$}
+
+
+ 
+
+\end{correction}
+
+\begin{exercice}
+\begin{enumerate}
+\item Résoudre l'inéquation d'inconnue $y$ suivante : 
+$$\frac{y-3}{2y-3}\leq 2y \quad (E_1)$$
+
+\item En déduire les solutions sur $\R$ de l'inéquation d'inconnue $X$  : 
+$$\frac{\sin^2(X)-3}{2\sin^2(X) -3} \leq 2 \sin^2(X)\quad (E_2)$$
+
+\item Finalement donner les solutions sur $[0,2\pi[ $ de l'inéquation d'inconnue $x$ : 
+$$\frac{\sin^2(2x+\frac{\pi}{6})-3}{2\sin^2(2x+\frac{\pi}{6}) -3} \leq 2 \sin^2(2x+\frac{\pi}{6}) \quad (E_3)$$
+\end{enumerate}
+
+\end{exercice}
+
+\begin{correction}
+\begin{enumerate}
+\item 
+$$\begin{array}{lrl}
+&\frac{y-3}{2y-3}&\leq 2y\\
+\equivaut &0 &\leq 2y - \frac{y-3}{2y-3}\\
+\equivaut &0 &\leq \frac{4y^2-7y+3}{2y-3}
+\end{array}$$
+$4y^2-7y+3$ admet pour racines : $y_0 = 1$ et $y_1 =\frac{3}{4}$, donc 
+$$\begin{array}{lrl}
+&\frac{y-3}{2y-3}&\leq 2y\\
+\equivaut &0&\leq \frac{4(y-1)(y-\frac{3}{4})}{2(y-\frac{3}{2})}
+\end{array}$$
+Donc les solutions de $(E_1)$ sont 
+\conclusion{ $\cS_1 = \left[ \frac{3}{4}, 1\right] \cup \left] \frac{3}{2}, +\infty\right[ $} 
+
+
+\item $X$ est solutions de $(E_2)$ si et seulement si : 
+$$\sin^2(X) \in \left[ \frac{3}{4}, 1\right] \cup \left] \frac{3}{2}, +\infty\right[ $$
+Comme pour tout $X\in \R$,  $\sin(X) \in [-1,1]$, ceci équivaut à 
+$$\sin^2(X) \in \left[ \frac{3}{4}, 1\right] $$
+c'est-à-dire : $\sin^2(X) \geq \frac{3}{4}$, soit 
+$\left(\sin(X) -\frac{\sqrt{3}}{2}\right)\left(\sin(X) +\frac{\sqrt{3}}{2}\right)\geq 0$ 
+On obtient donc 
+$$\sin(X) \in  \left[ -1, \frac{-\sqrt{3}}{2},\right] \cup  \left[ \frac{\sqrt3}{4}, 1\right] $$
+On a  d'une part $\sin(X) \leq  \frac{-\sqrt{3}}{2} \equivaut X \ddp \in \bigcup_{k\in \Z} \left[ \frac{4\pi}{3} +2k\pi,\frac{5\pi}{3} +2k\pi \right] $
+et d'autre part 
+$\sin(X) \geq  \frac{\sqrt{3}}{2} \equivaut X \in \ddp \bigcup_{k\in \Z} \left[ \frac{-\pi}{3} +2k\pi,\frac{2\pi}{3} +2k\pi \right] $
+
+Ainsi les solutions de $(E_2)$ sont
+ $$\cS_2 =\ddp   \bigcup_{k\in \Z} \left[ \frac{\pi}{3} +2k\pi,\frac{2\pi}{3} +2k\pi \right]  \cup \left[ \frac{4\pi}{3} +2k\pi,\frac{5\pi}{3} +2k\pi \right]$$
+ 
+ En remarquant que $ \frac{4\pi}{3} =  \frac{\pi}{3}+\pi$ et 
+  $ \frac{5\pi}{3} =  \frac{2\pi}{3}+\pi$, on peut  simplifier les solutions de la manière suivante : 
+  \conclusion{ $\cS_2 =\ddp   \bigcup_{k\in \Z} \left[ \frac{\pi}{3} +k\pi,\frac{2\pi}{3} +k\pi \right] $}
+ 
+ 
+
+
+\item $x$ est solution de $(E_3)$ si et seulement si 
+$$2x+\frac{\pi}{6}\in \ddp  \bigcup_{k\in \Z} \left[ \frac{\pi}{3} +k\pi,\frac{2\pi}{3} +k\pi \right] $$
+C'est-à-dire 
+$$2x \in  \ddp  \bigcup_{k\in \Z} \left[ \frac{\pi}{3}- \frac{\pi}{6} +k\pi,\frac{2\pi}{3}-\frac{\pi}{6} +k\pi \right] $$
+On obtient 
+$$x \in  \ddp  \bigcup_{k\in \Z} \left[ \frac{\pi}{12} +\frac{k\pi}{2},\frac{\pi}{4}+\frac{k\pi}{2}\right] $$
+Les solutions sur $[0,2\pi[$ sont donc 
+
+\conclusion{ $\cS_3=  \left[ \frac{\pi}{12} ,\frac{\pi}{4}\right] \cup \left[ \frac{\pi}{12} +\frac{\pi}{2},\frac{\pi}{4}+\frac{\pi}{2}\right] \cup \left[ \frac{\pi}{12} +\pi,\frac{\pi}{2}+\pi\right] \cup \left[ \frac{\pi}{12} +\frac{3\pi}{2},\frac{\pi}{4}+\frac{3\pi}{2}\right] $}
+
+
+
+\end{enumerate}
+
+
+
+\end{correction}
+
+\begin{exercice}
+Soit $M$ la matrice : 
+$$M=\left( \begin{array}{ccc}
+2 &1& 0\\
+0 &1 & 0  \\
+ -1&0&1
+\end{array}\right) $$
+
+\begin{enumerate}
+\item  Résoudre le système $MX=\lambda X$ d'inconnue $X =\left(
+\begin{array}{c}
+x\\
+y\\
+z
+\end{array}
+ \right)$ où $\lambda$ est un paramètre réel. 
+\item Calculer $(M- \Id)^2$. Donner son rang.
+
+ \item Soit $e_1= \left(
+\begin{array}{c}
+1\\
+0\\
+-1
+\end{array}
+ \right)$,  $e_2= \left(
+\begin{array}{c}
+0\\
+0\\
+1
+\end{array}
+ \right)$, et  $e_3= \left(
+\begin{array}{c}
+1\\
+-1\\
+0
+\end{array}
+ \right)$.
+Exprimer  $Me_1, Me_2$ en fonction de $e_1, e_2$.
+\item Montrer qu'il existe $(\alpha, \beta)\in \R^2$ tel que $M e_3 = \alpha e_2 +\beta e_3$.
+ 
+\item Soit $P= \left(
+\begin{array}{ccc}
+1&0&1\\
+0&0&-1\\
+-1&1&0
+\end{array}
+ \right)$ 
+ 
+ Montrer que $P$ est inversible et calculer son inverse. 
+ \item Soit $T=P^{-1}MP$. Calculer $T$. 
+ \item Montrer par récurrence que pour tout $n\in \N^*$: 
+ $$T^n = P^{-1}M^n P$$
+ \item Montrer qu'il existe une matrice diagonale $D$ et une matrice $N$ telles que 
+ $$T =D+N \quadet ND=DN$$
+\item Montrer que $N^2=0$
+\item Montrer   que $T^n = D^n +nND^{n-1}$.
+\item En déduire la valeur de $M^n$.
+\end{enumerate}
+\end{exercice}
+\begin{correction}
+\begin{enumerate}
+\item
+$$MX=\lambda X \equivaut   \left( \begin{array}{c}
+2x +y  \\
+ y \\
+ -x +z
+\end{array}\right) = \left(
+\begin{array}{c}
+\lambda x\\
+\lambda y\\
+\lambda z
+\end{array} \right)$$ 
+
+$$\left\{ \begin{array}{ccccc}
+2x &+y& & =&\lambda x \\
+ &y & & =& \lambda y \\
+ -x& &+z&=&\lambda z
+\end{array}\right. 
+\equivaut \left\{ \begin{array}{ccccc}
+(2-\lambda)x &+y& & =&0 \\
+ &(1-\lambda)y & & =& 0 \\
+ -x& &+(1-\lambda)z&=&0
+\end{array}\right. 
+$$ 
+ En échangeant les lignes et les colonnes on peut voir que le système est déjà échelonné.
+$L_3\leftarrow L_1, L_2 \leftarrow _3, L_1\leftarrow L_2$
+$$MX=\lambda X 
+\equivaut  \left\{ \begin{array}{ccccc}
+ -x& &+(1-\lambda)z&=&0\\
+(2-\lambda)x &+y& & =&0 \\
+ &(1-\lambda)y & & =& 0 
+\end{array}\right.$$
+$ C_3\leftarrow C_1, C_2 \leftarrow C_3, C_1\leftarrow C_2$
+$$
+\equivaut \left\{ \begin{array}{ccccc}
+ (1-\lambda)z&-x& &=&0\\
+ &(2-\lambda)x&+y & =&0 \\
+ &  & (1-\lambda)y& =& 0 
+\end{array}\right.$$
+
+Si $\lambda \notin \{ 1,2\} $ alors le système est de rang 3, il est donc de Cramer et l'unique solution est 
+\conclusion{ $\cS= \{ (0,0,0)\}$}
+
+Si $\lambda =1$, le système est équivalent à 
+$$\left\{ \begin{array}{cccc}
+ -x& &=&0\\
+ (2-1)x&+y & =&0 \\
+   & 0& =& 0 
+\end{array}\right. \equivaut \left\{ \begin{array}{cc}
+ x& =0\\
+ y&  =0
+\end{array}\right.$$
+Le système est de rang 2. L'ensemble des solutions est 
+\conclusion{ $\cS= \{ (0,0,z) \, |\, z\in \R\}$}
+
+Si $\lambda =2$, le système est équivalent à 
+$$\left\{ \begin{array}{ccccc}
+(1-2)z&-x& &=&0\\
+ & 0 &+y & =&0 \\
+ &  & (1-2)y& =& 0 
+\end{array}\right. \equivaut \left\{ \begin{array}{cccc}
+-z&-x& &=0\\
+ &  &y  &=0 \\
+ &  & y &= 0 
+\end{array}\right.\equivaut \left\{ \begin{array}{cl}
+x &=-z\\
+  y  &=0 
+\end{array}\right.$$
+Le système est de rang 2. L'ensemble des solutions est 
+\conclusion{ $\cS= \{ (-z,0,z) \, |\, z\in \R\}$}
+
+\item $M-\Id= \left( \begin{array}{ccc}
+1 &1& 0\\
+0 &0& 0  \\
+ -1&0&0
+\end{array}\right) $
+
+Donc \conclusion{$(M-\Id)^2= \left( \begin{array}{ccc}
+1 &1& 0\\
+0 &0& 0  \\
+ -1&-1&0
+\end{array}\right) $}
+
+Le système associé est 
+
+$\left\{  \begin{array}{ccr}
+x &+y&  =0\\
+ & & 0  =0\\
+ -x&-y&=0
+\end{array}\right. \equivaut \left\{  \begin{array}{cr}
+x +y&  =0\\
+\end{array}\right. $
+Il est de rang 1. Donc
+\conclusion{$(M-\Id)^2$ est de rang $1$}
+\item 
+Le calcul montre que $Me_1 =2e_1$ et  $Me_2=e_2$
+\item Le calcul montre que 
+$Me_3 =  \left( \begin{array}{c}
+1\\
+-1\\
+-1\\
+\end{array}\right) = \left( \begin{array}{c}
+1\\
+-1\\
+0\\
+\end{array}\right) - \left( \begin{array}{c}
+0\\
+\\
+1\\
+\end{array}\right)  e_3-e_2 $
+
+
+Ainsi on peut prendre 
+\conclusion{$\alpha =-1$ et $\beta =1$}
+
+\item  On considère la matrice augmentée : 
+$\left(\begin{array}{ccc|ccc}  
+1&0&1 & 1&0&0 \\
+0&0&-1& 0&1&0 \\
+-1&1&0& 0&0&1 
+\end{array}\right)$
+
+$L_3\leftarrow L_3+L_1$  donnent
+$$\left(\begin{array}{ccc|ccc}  
+1&0&1 & 1&0&0 \\
+0&0&-1& 0&1&0 \\
+0&1&1& 1&0&1 
+\end{array}\right)$$
+$L_1\leftarrow L_1+L_2$ et $L_3\leftarrow L_3+L_2$
+donne 
+$$\left(\begin{array}{ccc|ccc}  
+1&0&0 & 1&1&0 \\
+0&0&-1& 0&1&0 \\
+0&1&0& 1&1&1 
+\end{array}\right)$$
+
+$L_2\leftarrow -L_2$
+donne 
+$$\left(\begin{array}{ccc|ccc}  
+1&0&0 & 1&1&0 \\
+0&0&1& 0&-1&0 \\
+0&1&0& 1&0&1 
+\end{array}\right)$$
+Enfin 
+$L_2\leftrightarrow L_3$
+donne 
+$$\left(\begin{array}{ccc|ccc}  
+1&0&0 & 1&1&0 \\
+0&1&0& 1&1&1 \\
+0&0&1& 0&-1&0 
+\end{array}\right)$$
+
+\conclusion{ $P$ est inversible d'inverse $\left(\begin{array}{ccc}  
+1&1&0 \\
+ 1&1&1 \\
+0&-1&0 
+\end{array}\right)$}
+
+\item Le calcul donne  
+\conclusion{ $T=\left(\begin{array}{ccc}  
+2&0&0 \\
+0 &1&-1 \\
+0&0&1 
+\end{array}\right)$}
+(sur une copie, le produit intermédiaire $MP$ serait apprécié)
+
+\item 
+
+
+(CF ex 6-3 du DM de Noël) \\
+
+On pose $P(n) : "T^n =P^{-1} M^n P"$
+\begin{itemize}
+\item[Initialisation] 
+$T^1 =T$ et $P^{-1} M^1 P= P^{-1} M P=T$ d'après la définition de $T$.
+Donc $P(1) $ est vrai. 
+
+\item[Hérédité] On suppose qu'il existe $n\in \N$ tel que $P(n)$ soit vraie. 
+On a alors 
+\begin{align*}
+ (T)^{n+1}&=  T^n  T
+\end{align*}
+et donc par Hypothése de récurrence : 
+\begin{align*}
+ T^{n+1}&=  (P^{-1}M^n P )  (P^{-1}M P )\\
+ 							&=  (P^{-1}M^n P  P^{-1}M P )\\
+ 							&=  (P^{-1}M^n \Id M P )\\
+ 							&=  (P^{-1}M^n M P )\\
+ 							&=  (P^{-1}M^{n+1} P )
+\end{align*}
+\item[Conclusion] $P(n)$ est vraie pour tout $n$. 
+
+
+
+
+\end{itemize}
+\item On a 
+$T= \left(\begin{array}{ccc}  
+2&0&0 \\
+0 &1&-1 \\
+0&0&1 
+\end{array}\right)  = \left(\begin{array}{ccc}  
+2&0&0 \\
+ 0&1&0 \\
+0&0&1 
+\end{array}\right) + \left(\begin{array}{ccc}  
+0&0&0 \\
+0 &0&-1 \\
+0&0&0 
+\end{array}\right)  $  
+
+On pose $D= \left(\begin{array}{ccc}  
+2&0&0 \\
+ 0&1&0 \\
+0&0&1 
+\end{array}\right) $ et $N= \left(\begin{array}{ccc}  
+0&0&0 \\
+ 0&0&-1 \\
+0&0&0 
+\end{array}\right)  $ 
+On a bien $T =D+N$ et  le calcul donne 
+$DN = \left(\begin{array}{ccc}  
+0&0&0 \\
+0 &0&-1 \\
+0&0&0 
+\end{array}\right) =DN $ 
+
+
+\item C'est un calcul. La question \og normale\fg\,  devrait être \og Calculer $N^2$ \fg \,  , mais ne permet pas de faire la question suivante si on n'a pas trouvé la forme de $N$. 
+
+\item Solution 1 : On peut appliquer le binome de Newton à $T= D+N$   car $D$ et $N$ commutent. On a alors 
+
+$$T^n =\sum_{k=0}^n \binom{n}{k} N^k D^{n-k}$$
+Comme pour tout $k\geq 2$, $N^2=0$ il reste dans cette somme seulement les termes $k=0$ et $k=1$. On obtient donc 
+\begin{align*}
+T^n  &= \binom{n}{0} N^0 D^{n-0}+ \binom{n}{1} N^1 D^{n-1}\\
+		&=D^n + nND^{n-1}
+\end{align*}
+
+
+
+
+
+
+Solution 2: 
+
+On pose $P(n) : \og  T^n =D^n +n D^{n-1} N \fg$
+
+\begin{itemize}
+\item \underline{Initialisation }
+$T^1 =T$ et $D^1+1D^0 N = D^1 +\Id N=D+N =T$ d'après la définition de $D,N$.
+Donc $P(1) $ est vrai. 
+
+\item \underline{Hérédité} On suppose qu'il existe $n\in \N$ tel que $P(n)$ soit vraie. 
+On a alors 
+\begin{align*}
+ (T)^{n+1}&=  T^n  T
+\end{align*}
+et donc par Hypothése de récurrence : 
+\begin{align*}
+ T^{n+1}&= (D^n +nD^{n-1} N)(D+N)\\
+ 							&=  D^n D +n D^{n-1} N D + D^n N + nD^{n-1}N^2\\
+\end{align*}
+Comme $ND=DN$ on a $D^{n-1} N D= D^{n-1} DN  =D^{n} N$.  on a par ailleurs $N^2=0$ donc 
+
+\begin{align*}
+ T^{n+1}&=D^{n+1} +D^n N +nD^n N\\
+ 			&=D^{n+1} + (n+1) D^{(n+1)-1} N 
+\end{align*}
+Ainsi la propriété est héréditaire. 
+
+\item \underline{Conclusion} $P(n)$ est vraie pour tout $n$. 
+\end{itemize}
+
+\item On a d'après la question 7 
+$$M^n = P T^n P^{-1}$$
+et d'après la question précédente : 
+$$T^n = D^{n} + n D^{n-1} N  =\left(\begin{array}{ccc}  
+2^n&0&0 \\
+0 &1&-n \\
+0&0&1 
+\end{array}\right)$$
+Le calcul donne 
+
+$T^n P^{-1} = \left(\begin{array}{ccc}  
+2^n&2^n&0 \\
+1 &1+n&1 \\
+0&-1&0 
+\end{array}\right)$
+et 
+\conclusion{
+ $M^n=\left(\begin{array}{ccc}  
+2^n&2^n-1&0 \\
+0&1&0 \\
+-2^n+1&-2^n+1+n&1 
+\end{array}\right)$
+
+}
+
+
+
+
+\end{enumerate}
+\end{correction}
+
+
+\begin{exercice}[Ensemble de Mandelbrot]
+Soit $\suite{z}$ la suite définie par $z_0=0$ et 
+$$z_{n+1} =z_n^2 +c$$
+où $c\in \bC$ est un complexe. 
+
+Selon la valeur de $c$, il y a deux possibilités : soit $\suite{z}$ reste bornée, soit son module tends vers l'infini. Le but de ce problème est d'écrire un algorithme qui permet de tracer l'ensemble des $c$ pour lesquels la suite $\suite{z}$ reste bornée. Cette ensemble s'appelle l'ensemble de Mandelbrot. 
+\begin{enumerate}
+\item Que vaut la suite $\suite{z}$ pour $c=0$. Est ce que $c=0$ appartient à l'ensemble de Mandelbrot ?
+
+\item Que valent les premières valeurs ($n=0,1,2,3,4$) de la suite $\suite{z}$ pour $c=i$.  A votre avis est-ce-que $c=i$ appartient à l'ensemble de Mandelbrot ? 
+\item Même question pour $c=1+i$ (pour $n=0,1,2,3$).
+\item Ecrire une fonction Python \texttt{suite\_z} qui prend en argument un entier $n\in \N$ et un complexe $c\in \bC$ et qui retourne la valeur de $z_n$.
+\item On peut montrer que $c$ appartient à l'ensemble de Mandelbrot si et seulement pour tout $n\in \N$,  $|z_n|<2$.
+On suppose pour simplifier qu'un nombre $c$ appartient à l'ensemble des Mandelbrot si et seulement si  pour tout $n\in \intent{0,100},   \, |z_n|<2$.
+Ecrire une fonction \text{verif} qui prend un nombre complexe $c$ et retourne \texttt{True} si $c$ appartient à l'ensemble de Mandelbrot et \texttt{False} sinon. 
+\item Ecrire une fonction \texttt{tracer} qui prend en argument deux réels $(x,y)$ et qui trace le point $(x,y)$ sur un graphique si le point d'affixe $x+iy$ appartient à l'ensemble de Mandelbrot. 
+\item Ecrire un script python qui teste  si les points de coordonnées $\left( \frac{i}{100}, \frac{j}{100}\right)$ pour $i, j\in \intent{-100,100}$ appartiennent à l'ensemble de Mandelbrot et les trace le cas échéant. 
+\end{enumerate}
+\begin{center}
+\includegraphics[scale=0.4]{mandelbrot.png}
+\end{center}
+
+\end{exercice}
+
+
+\begin{correction}
+\begin{enumerate}
+\item Pour $c=0$ la suite $\suite{z}$ est constante égale à $0$. $0$ appartient donc à l'ensemble de Mandelbrot. 
+\item Pour $c=i$, $z_0=0$, $z_1=i$, $z_2= i^2+i=-1+i$, $z_3= (-1+i)^2 +i = -i$, $z_4=(-i)^2+i = -1+i$. La suite semble périodique et donc le module est borné. Ainsi $c=i$  appartient donc à l'ensemble de Mandelbrot. 
+
+\item Pour $c=1+i$ : $z_0=0$, $z_1=1+i$, $z_2=(1+i)^2+1+i=1+3i$, $z_3= (1+3i)^2 +1+i = -7+7i$, $z_4=(-7+7i)^2+1+i= 49(-1+i)^2+1+i = 49(-2i) +1+i = 1-97i$. Le module semble tendre vers l'infini. 
+$c=1+i$ n'appartient donc pas à l'ensemble de Mandelbrot. 
+
+
+\end{enumerate}
+\begin{lstlisting}[language=Python]
+def suite_z(n,c):
+    z=0
+    for i  in range(n):
+        z=z**2+c
+    return(z)
+
+def verif(c):
+    for n in range(101):
+        if suite_z(n,c)>2:
+            return(False)
+    return(True)
+
+import matplotlib.pyplot as plt
+def tracer(x,y):
+    c=x+y*1j
+    if verif(c)==True:
+        plt.plot(x,y,'kx')
+
+for x in range(-100,101):
+    for y in range(-100,101):
+        tracer(x/100,y/100)
+plt.show()
+
+\end{lstlisting}
+
+\end{correction}
+
+
+\end{document}

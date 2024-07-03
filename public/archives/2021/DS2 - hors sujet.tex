@@ -1,0 +1,83 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\newif\ifshow
+\showfalse
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{DS 2\\
+\Large{Durée 3h30}
+}
+
+\vspace{1cm}
+\begin{center}
+
+\begin{description}
+\item$\bullet$ Les calculatrices sont \underline{interdites} durant les cours, TD et \emph{a fortiori} durant les DS de mathématiques. \\
+
+\item $\bullet $ Si vous pensez avoir découvert une erreur, indiquez-le clairement sur la copie et justifiez les initiatives que vous êtes amenés à prendre. \\
+
+\item $\bullet$ Une grande attention sera apportée à la clarté de la rédaction et à la présentations des solutions. (Inscrivez clairement en titre le numéro de l'exercice, vous pouvez aussi encadrer les réponses finales.)  \\
+
+\item $\bullet$ Vérifiez vos résultats. \\
+
+\item $\bullet$ Le résultat d'une question peut être admis et utilisé pour traiter les questions suivantes en le signalant explicitement sur la copie. 
+\end{description}
+
+\end{center} 
+\vspace{2cm}
+
+\begin{exercice}
+
+\end{exercice}
+
+
+\begin{probleme}
+Dans cet exercice, on considère une suite quelconque de nombres réels $\suite{a}$, et on pose pour tout $n\in \N$:
+$$b_n =\sum_{k=0}^n \binom{n}{k} a_k.$$
+\vspace{0.2cm}
+\begin{center}
+\textbf{Partie I : Quelques exemples}
+\end{center}
+\begin{enumerate}
+\item Calculer $b_n$ pour tout $n \in \N$ lorsque la suite $\suite{a}$ est la suite constante égale à $1$.
+\item Calculer $b_n$ pour tout $n \in \N$ lorsque la suite $\suite{a}$ est définie par $a_n=\exp(n)$. 
+
+\item 
+\begin{enumerate}
+\item Démontrer que, pour tout $(n\geq 1,n\geq k\geq 1)$, $$k\binom{n}{k}=n \binom{n-1}{k-1}.$$
+\item En déduire que : $\forall n \in \N, \ddp \sum_{k=0}^n \binom{n}{k} k = n2^{n-1}$.
+\item Calculer la valeur de $b_n$, pour tout $n \in \N$ lorsque la suite $\suite{a}$ est définie par $a_n=\frac{1}{n+1}$. 
+\end{enumerate}
+\end{enumerate}
+\vspace{0.8cm}
+
+\begin{center}
+\textbf{Partie II : Formule d'inversion }
+\end{center}
+Le  but de cette partie est de montrer que la suite $\suite{a}$ s'exprime en fonction de la suite $\suite{b}$. 
+\begin{enumerate}
+\item Montrer que pour tout $(k, n , p ) \in \N^3,$ tel que $k\leq p \leq n$ on  a:
+$$\binom{n+1}{p}\binom{p}{k}=\binom{n+1}{k}\binom{n+1-k}{p-k}.$$
+\item Montrer que, pour tout $(k,n) \in \N^2$, tel que $k\leq n$ on  a :
+$$\sum_{i=0}^{n-k} (-1)^i  \binom{n+1-k}{i}=(-1)^{n-k}.$$ 
+\item  Montrer que pour tout $n\in \N$ on a $$\sum_{p=0}^{n}\sum_{k=0}^p  \binom{n+1}{k}\binom{n+1-k}{p-k} (-1)^{p-k}  b_k	 = \sum_{k=0}^{n} (-1)^{n-k}  \binom{n+1}{k} b_k $$
+\item Donner, pour tout $n\in \N$, l'expression de $a_{n+1}$ en fonction de $b_{n+1}$ et de $a_0, ..., a_n$. 
+\item Prouver, par récurrence forte sur $n$ que :
+$$\forall n \in \N, a_n =\sum_{k=0}^n (-1)^{n-k} \binom{n}{k} b_k.$$
+\item En utilisant le résultat précédent montrer que pour tout $n\in \N$:
+$$\sum_{k=0}^{n}   \binom{n}{k}k2^k(-1)^{n-k}=2n.$$ 
+\end{enumerate}
+
+
+
+
+\end{probleme}
+
+
+\end{document}

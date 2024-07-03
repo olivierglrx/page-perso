@@ -1,0 +1,340 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\newif\ifshow
+\showtrue
+\geometry{hmargin=2cm,vmargin=2cm }
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+\newcommand\vv[1]{\overrightarrow{#1}}
+\usepackage{cancel}
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{Correction - DM 9 - Géométrie 
+}
+\begin{exercice}%https://math1a.bcpsthoche.fr/docs/DS_1415.pdf DS5
+On munit le plan d’un repère orthonormé dont l’origine est placée en $A(0, 0).$
+Soit $B, C$ deux points du plan de coordonnées respectives 
+$B=(x_B,y_B)$ et $C=(x_C,y_C)$.
+
+Soit $A'$ (respectivement $B'$ et $C'$) le milieu de $[BC]$ (respectivement $[AC]$ et $[AB]$)
+\begin{enumerate}
+\item Déterminer  les coordonnées de $A', B' $ et $C'$
+\item Soit $G$ le point vérifiant $\vv{GA} = \frac{1}{3} (\vv{BA} +\vv{CA})$. 
+\begin{enumerate}
+\item Déterminer les coordonnées de $G$. 
+\item Montrer que $\vv{GA}+\vv{GB}+\vv{GC}=\vv{0}$
+\item Montrer que $\vv{GA} =\frac{2}{3}\vv{A'A}$
+\item Pourquoi a-t-on aussi :  $\vv{GB} =\frac{2}{3}\vv{B'B}$ et  $\vv{GC} =\frac{2}{3}\vv{C'C}$ ?
+\item Justifier alors que les droites $(AA')$, $(BB')$ et $(CC')$ sont concourantes en $G$. 
+\end{enumerate}
+\item Soit $D$ la médiatrice de $[AB]$ et $D'$ la médiatrice de $[AC]$ et $\Omega(x_\Omega,y_\Omega)$ l'intersection de $D$ et $D'$. 
+\begin{enumerate}
+\item Donner les équations cartésiennes des droites $D$ et $D'$ 
+\item Montrer que les coordonnées de $\Omega$ vérifie 
+$$M \begin{pmatrix}
+x_\Omega\\
+y_\Omega\\
+\end{pmatrix}= \frac{1}{2}\begin{pmatrix}
+x_B^2+y_B^2\\
+x_C^2+y_C^2\\
+\end{pmatrix}$$
+où $M\in M_2(\R)$ est une matrice à déterminer.
+\item En utilisant le fait que $\vv{AB}$ et $\vv{AC}$ ne sont pas colinéaires justifier que $M$ est inversible et donner son inverse. 
+\item En déduire que 
+$$ \begin{pmatrix}
+x_\Omega\\
+y_\Omega\\
+\end{pmatrix} = \frac{1}{2\left(x_B y_C-x_C y_B\right)}\left(\begin{array}{c}
+y_C\left(x_B^2+y_B^2\right)-y_B\left(x_C^2+y_C^2\right) \\
+-x_C\left(x_B^2+y_B^2\right)+x_B\left(x_C^2+y_C^2\right)
+\end{array}\right)$$
+\item Montrer que $\vv{A' \Omega}\cdot \vv{BC}=0$ et justifier alors que 
+$\Omega $ appartient à la médiatrice de $[BC]$
+\end{enumerate}
+
+\item 
+ Soit $H\left(x_H, y_H\right)$ le point d'intersection de la hauteur issue de $C$ et de la hauteur issue $B$.
+ \begin{enumerate}
+ \item  Déterminer des représentations cartésiennes des hauteurs issues de $C$ et $B$.
+ \item  Montrer que les coordonnées de $H$ vérifient l'équation
+$$
+M\left(\begin{array}{l}
+x_H \\
+y_H
+\end{array}\right)=\left(\begin{array}{c}
+x_B x_C+y_B y_C \\
+x_B x_C+y_B y_C
+\end{array}\right) .
+$$
+ \item En déduire les coordonnées de $H$.
+ \item Montrer que $\overrightarrow{A H} \cdot \overrightarrow{B C}=0$ et justifier que $H$ appartient à la hauteur issue de $A$.
+ \end{enumerate}
+
+% \item  Montrer que $\overrightarrow{G H}$ et $\overrightarrow{G \Omega}$ sont colinéaires.
+% \item Conclure  que $G, \Omega$ et $H$ sont alignés. (On pourra distinguer le cas où au moins deux des trois points $G, \Omega$ et $H$ sont confondus.)
+
+\end{enumerate}
+\end{exercice}
+
+
+\begin{correction}
+\begin{enumerate}
+\item Les coordonnées de $A'$ sont $(\frac{x_B+x_C}{2} , \frac{y_B+y_C}{2})$
+
+Les coordonnées de $B'$ sont $(\frac{x_C}{2} , \frac{y_C}{2})$
+
+Les coordonnées de $C'$ sont $(\frac{x_B}{2} , \frac{y_B}{2})$
+
+\item \begin{enumerate}
+\item Les coordonnées de $G$ sont $ \left( \frac{x_B+x_C}{3}, \frac{y_B+y_C}{3}\right)$
+\item On a $\vv{GA}=\frac{1}{3}( \vv{BA} +\vv{CA})$ donc en utilisant la relation de Chasles on obtient : 
+$$\vv{GA}  =\frac{1}{3}( \vv{BG}+\vv{GA} +\vv{CG}+\vv{GA})$$
+En mulitpliant par 3 et en mettant tous les termes à gauche, cela donne : 
+$$\vv{GA} - \vv{BG} -\vv{CG}=\vv{0}$$
+On obtient le résultat demandé en remarquant que $\vv{BG}=-\vv{GB}$ et $\vv{CG}=-\vv{GC}$
+
+
+\item On peut utiliser les coordonées des différents points (on peut aussi répondre purement avec des arguments vectoriels) 
+Les coordonnées du vecteur $\vv{GA}$ sont $\frac{1}{3}\begin{pmatrix}
+x_B+x_C\\
+y_B+y_C
+\end{pmatrix}$
+Et les coordonnées du vecteur $\frac{2}{3}\vv{A'A}$ sont 
+
+$$\frac{2}{3}\begin{pmatrix}
+\frac{x_B+x_C}{2} \\
+\frac{y_B+y_C}{2}
+\end{pmatrix} = \frac{2}{3}\begin{pmatrix}
+x_B+x_C \\
+y_B+y_C
+\end{pmatrix} $$
+
+\conclusion{Ainsi $\vv{GA} = \frac{2}{3}\vv{A'A}$}
+
+\item Le probleme est strictement symétrique. Il suffit juste de changer les lettres $A$ en $B$ (ou $C$)  pour obtenir les égalités annoncées. 
+
+\item D'aprés les deux questions précédentes :
+\begin{itemize}
+\item $\vv{GA}$ est colinéaire à $\vv{A'A}$, donc $ G\in (A'A)$
+\item $\vv{GB}$ est colinéaire à $\vv{B'B}$, donc $G \in (B'B)$
+\item $\vv{GC}$ est colinéaire à $\vv{C'C}$, donc $G \in (C'C)$
+\end{itemize} 
+
+\conclusion{Ainsi $G \in (A'A) \cap (B'B) \cap (C'C)$. }
+\conclusion {Les trois médianes sont concourantes en $G$.}
+
+\end{enumerate}
+\item \begin{enumerate}
+\item Les coordonnées de $\vv{AB} $ sont $\begin{pmatrix}
+ \frac{x_B}{2} \\ 
+ \frac{y_B}{2}
+\end{pmatrix}$
+Remarquons que par définition  $\vv{AB}$ est normal à $D$ donc 
+
+Donc $D$ admet une équation de la forme $\frac{x_B}{2}
+x +\frac{y_B}{2}y + c=0$ et comme $C'\in D$ on a 
+$\frac{x_B}{2}\frac{x_B}{2}+\frac{y_B}{2}\frac{y_B}{2} +c=0$ soit 
+$c= -(\frac{x_B^2}{4}+\frac{y_B^2}{4}$
+Une équation de $D$ est donnée par  (en mutlipliant par 2)
+\conclusion{$ (D)$ : $x_B x +y_B y =\frac{x_B^2+y_B^2}{2}$ }
+
+Des calculs strictement similaires donnent une équation de $D'$ :
+\conclusion{$ (D)$ : $x_C x +y_C y =\frac{x_C^2+y_C^2}{2}$ }
+
+\item Les coordonnées de $\Omega$ vérifient les deux équations cartésiennes de $D$ et $D'$ on a donc 
+$$\left\{ \begin{array}{ccc}
+x_B x_\Omega +y_B y_\Omega &=&\frac{x_B^2+y_B^2}{2}\\
+x_C x_\Omega +y_C y_\Omega &=&\frac{x_C^2+y_C^2}{2}
+\end{array}\right.$$
+Soit matriciellement : 
+
+\conclusion{$ \begin{pmatrix}
+x_B & y_B\\
+x_C & y_C
+\end{pmatrix}\begin{pmatrix}
+x_\Omega\\
+y_\Omega
+\end{pmatrix}= \frac{1}{2}\begin{pmatrix}
+x_B^2+y_B^2\\
+x_C^2+y_C^2
+\end{pmatrix}$}
+
+
+Donc $M=\begin{pmatrix}
+x_B & y_B\\
+x_C & y_C
+\end{pmatrix} $ 
+
+\item Comme $\vv{AB}$ et $\vv{AC}$ ne sont pas colinéaires 
+les couples $(x_C,y_C) $ et $(x_B,y_B)$ ne sont pas proportionnels donc $x_By_C -x_Cy_B\neq 0$. Le determinant de $M$ est non nul donc la matrice $M$ est inversible et on a 
+$$M^{-1} = \frac{1}{x_By_C -x_Cy_B }\begin{pmatrix}
+y_C & -y_B\\
+-x_C & x_B
+\end{pmatrix}$$
+
+Finalement les coordonnées de $\Omega$ vérifient : 
+\begin{align*}
+\begin{pmatrix}
+x_\Omega\\
+y_\Omega
+\end{pmatrix}&= M^{-1} \frac{1}{2}\begin{pmatrix}
+x_B^2+y_B^2\\
+x_C^2+y_C^2
+\end{pmatrix} \\
+&=\frac{1}{2(x_By_C -x_Cy_B )}\begin{pmatrix}
+y_C & -y_B\\
+-x_C & x_B
+\end{pmatrix}\begin{pmatrix}
+x_B^2+y_B^2\\
+x_C^2+y_C^2
+\end{pmatrix} \\
+&= 
+\frac{1}{2\left(x_B y_C-x_C y_B\right)}\left(\begin{array}{c}
+y_C\left(x_B^2+y_B^2\right)-y_B\left(x_C^2+y_C^2\right) \\
+-x_C\left(x_B^2+y_B^2\right)+x_B\left(x_C^2+y_C^2\right)
+\end{array}\right)
+\end{align*}
+
+
+\item Les coordonnées de $\vv{A'\Omega}$ sont 
+
+$$\vv{A'\Omega} =\frac{1}{2}\begin{pmatrix}
+x_\Omega-(x_B+x_C)\\
+y_\Omega -(y_B+y_C)
+\end{pmatrix}$$
+
+Les coordonnées de $\vv{BC}$ sont 
+$$\begin{pmatrix}
+x_C-x_B\\
+y_C-y_B
+\end{pmatrix}$$
+
+Ainsi 
+\begin{align*}
+\vv{A'\Omega } \cdot \vv{BC} 
+&=\begin{pmatrix}
+x_\Omega-\frac{1}{2}(x_B+x_C)\\
+y_\Omega -\frac{1}{2} (y_B+y_C)
+\end{pmatrix} \cdot \begin{pmatrix}
+x_C-x_B\\
+y_C-y_B
+\end{pmatrix}\\
+&= (x_\Omega-\frac{1}{2}(x_B+x_C) )(x_C-x_B)+(y_\Omega -\frac{1}{2}(y_B+y_C) )(y_C-y_B) \\
+&=x_\Omega(x_C-x_B) -\frac{1}{2} (x_C^2 -x_B^2) + y_\Omega (y_C-y_B) - \frac{1}{2}(y_C^2 -y_B^2)\\
+&=x_\Omega x_C+y_\Omega y_C - ( x_\Omega x_B+y_\Omega y_B)  -\frac{1}{2} (x_C^2 -x_B^2) - \frac{1}{2}(y_C^2 -y_B^2)
+\end{align*}
+
+Remarquons maintenant que 
+\begin{align*}
+x_\Omega x_C +  y_\Omega y_C  &=\frac{1 }{2(x_By_C-x_Cy_B)}\left(
+y_Cx_C( x_B^2 +y_B^2) -y_Bx_C (x_C^2+y_C^2)  -x_Cy_C\left(x_B^2+y_B^2\right)+x_By_C\left(x_C^2+y_C^2\right) \right)\\
+&=\frac{1 }{2(x_By_C-x_Cy_B)}\left(
+\cancel{y_Cx_C( x_B^2 +y_B^2)} -y_Bx_C (x_C^2+y_C^2)  -\cancel{x_Cy_C\left(x_B^2+y_B^2\right)}+x_By_C\left(x_C^2+y_C^2\right) \right)\\
+&=\frac{1 }{2(x_By_C-x_Cy_B)}\left(
+-y_Bx_C (x_C^2+y_C^2) +x_By_C\left(x_C^2+y_C^2\right) \right)\\
+&=\frac{1 }{2(x_By_C-x_Cy_B)}\left(
+(x_By_C-y_Bx_C )(x_C^2+y_C^2) \right)\\
+&=\frac{1 }{2\cancel{(x_By_C-x_Cy_B)}}\left(
+\cancel{(x_By_C-y_Bx_C )}(x_C^2+y_C^2) \right)\\
+&=\frac{1 }{2}
+(x_C^2+y_C^2)\\
+\end{align*}
+
+
+
+et de la même manière 
+$$x_\Omega x_B +  y_\Omega y_B   =  \frac{1 }{2}
+(x_B^2+y_B^2)$$
+
+On obtient alors : 
+\conclusion{$ \vv{A'\Omega } \cdot \vv{BC} =0$ donc les $(A'\Omega)$ est orthogonal à $(BC)$. Ainsi $\Omega$ appartient à la médiatrice de $[BC]$}
+
+
+\conclusion{ Les trois médiatrices sont concourantes en $\Omega$}
+\end{enumerate}
+
+\item  Soit $\Delta$ la hauteur issue de $B$. $\Delta$ est orthogonale à $[AC]$ donc admet une équation cartésienne de la forme
+$$x_C x + y_C y +c=0$$ où $c$ est un réel à déterminer. 
+
+Comme $B\in \Delta$ on a $x_C x_B + y_C y_B +c=0$
+Donc La hauteur issue de $B$ admet pour équation :
+\conclusion{ $\Delta$  : $x_C x + y_C y  = x_C x_B + y_C y_B $}
+
+Des calculs similaires montrent que la hauteur issue de $C$ admet pour équation : 
+\conclusion{ $\Delta'$  : $x_B x + y_B y  = x_B x_C + y_B y_C $}
+
+\item Les coordonnées de $H$ vérifients les équations cartésiennes des deux hauteurs prémentionnées. On a donc : 
+$$\left\{ 
+\begin{array}{ccc}
+x_B x_H + y_B y_H  &=& x_B x_C + y_B y_C\\
+x_C x_H + y_C y_H  &=& x_B x_C + y_B y_C \\
+
+\end{array}
+\right.$$
+Soit matriciellement : 
+
+\conclusion{$ M \begin{pmatrix}
+x_H\\
+y_H
+\end{pmatrix}= \begin{pmatrix}
+ x_B x_C + y_B y_C\\
+ x_B x_C + y_B y_C
+\end{pmatrix}$}
+
+où $M=\begin{pmatrix}
+x_B & y_B\\
+x_C & y_C
+\end{pmatrix}$ 
+
+\item On a déjà calculé l'inverse de $M$ à savoir $M^{-1}= \frac{1}{x_By_C -x_Cy_B }\begin{pmatrix}
+y_C & -y_B\\
+-x_C & x_B
+\end{pmatrix}$
+
+On en déduit les coordonées de $H$: 
+
+\begin{align*}
+\begin{pmatrix}
+x_H\\
+y_H 
+\end{pmatrix} &= \frac{1}{x_By_C -x_Cy_B }\begin{pmatrix}
+y_C & -y_B\\
+-x_C & x_B
+\end{pmatrix}\begin{pmatrix}
+ x_B x_C + y_B y_C \\
+ x_B x_C + y_B y_C
+\end{pmatrix}\\
+&= \frac{1}{x_By_C -x_Cy_B }\begin{pmatrix}
+(y_C-y_B) ( x_B x_C + y_B y_C)\\
+(-x_C+x_B) ( x_B x_C + y_B y_C)\\
+\end{pmatrix}\\
+\end{align*}
+
+\item Enfin on calcule $\vv{AH} \cdot \vv{BC}$ : 
+\begin{align*}
+\vv{AH} \cdot \vv{BC} &=  \begin{pmatrix}
+x_H\\
+y_H 
+\end{pmatrix}\cdot \begin{pmatrix}
+x_C-x_B\\
+y_C-y_B
+\end{pmatrix}\\
+&= x_H(x_C-x_B) +y_H(y_C-y_B)\\
+&=\frac{(y_C-y_B) ( x_B x_C + y_B y_C)(x_C-x_B)  + (-x_C+x_B) ( x_B x_C + y_B y_C)(y_C-y_B)}{x_By_C -x_Cy_B }\\
+&= \frac{ ( x_B x_C + y_B y_C)(y_C-y_B)(x_C-x_B)  - ( x_B x_C + y_B y_C)(y_C-y_B) (x_C-x_B)}{x_By_C -x_Cy_B }\\
+&=0
+\end{align*}
+
+\conclusion{ $(AH)$ est orthogonal à $(BC)$, donc $H$ appartient à la hauteur issue de $A$}
+\conclusion{Les trois hauteurs sont concourantes en $H$ }
+
+
+
+
+
+\end{enumerate}
+\end{correction}
+
+\end{document}

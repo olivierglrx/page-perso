@@ -1,0 +1,320 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\newif\ifshow
+\showfalse
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+\newcommand{\jour}[1]{
+\begin{center}
+\underline{\textbf{#1}}
+\end{center}
+
+ }
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{Devoir Vacances
+}
+
+\begin{center}
+\underline{\textbf{Lundi 25/10/2021}}
+\end{center}
+
+\begin{exercice}
+\begin{enumerate}
+\item Déterminer l'ensemble de définition et calculer la dérivée de
+$$f(x)=x^2e^{-\frac{1}{x}}$$
+\item Calculer $$\prod_{k=3}^n \sqrt{k}$$ 
+\item Calculer 
+$$\sum_{k=1}^{n+2} (k+1)$$
+\item Exprimer le terme général en fonction de $n$ de la suite $\suite{u}$ définie par 
+$$\left\{\begin{array}{rl}
+u_0 &=1\\
+\forall n\geq 0,\,  u_{n+1}&= \frac{1}{2}u_n +1
+\end{array}\right.$$
+\item Résoudre le système suivant 
+$$\left\{ 
+\begin{array}{cc}
+x+y&=3\\
+2x+y&=1
+\end{array}
+\right.$$
+\end{enumerate}
+\end{exercice}
+
+
+
+
+
+
+
+\jour{Mardi 26/10/2021}
+\begin{exercice}
+\begin{enumerate}
+\item  Déterminer l'ensemble de définition et calculer la dérivée de
+$$f(x) =\ln(e^x+x^2)$$
+\item Calculer $$\sum_{i=2}^n \binom{n}{i-1}\frac{1}{2^{i} }$$ 
+\item  Résoudre le système suivant 
+$$\left\{ 
+\begin{array}{cc}
+x+y+z&=3\\
+2x+y+z&=1\\
+x+z&=0
+\end{array}
+\right.$$
+\item Calculer la limite quand $n\tv+\infty$ de $u_n=\frac{(2n+1)^3}{(\sqrt{n}+2)^6}$
+\item Exprimer le terme général en fonction de $n$ de la suite $\suite{u}$ définie par 
+$$\left\{\begin{array}{l}
+u_0 =1,\quad u_1=1\\
+\forall n\geq 0,\,  u_{n+2}= 2u_{n+1}-4u_n
+\end{array}\right.$$
+\end{enumerate}
+\end{exercice}
+
+
+
+
+
+\jour{Mercredi 27/10/2021}
+\begin{exercice}
+\begin{enumerate}
+\item  Déterminer l'ensemble de définition et calculer la dérivée de
+$$f(x)=e^{x\cos{(x)}}$$
+\item Soit $x\in\R$. Calculer $$\sum_{i=0}^n (2x)^{2i}$$ 
+\item Exprimer le terme général en fonction de $n$ de la suite $\suite{u}$ définie par 
+$$\left\{\begin{array}{rl}
+u_0 &=1\\
+\forall n\geq 1,\,  u_{n+1}&= 2u_n +1
+\end{array}\right.$$
+\item Calculer la limite quand $n\tv+\infty$ de $u_n=\frac{n\cos(n)}{(1+n^2)}$
+\item Résoudre pour $x\in \R$ :
+$$x^4-4x^2+4=0$$
+\end{enumerate}
+\end{exercice}
+
+\jour{Jeudi 28/10/2021}
+\begin{exercice}
+\begin{enumerate}
+\item  Déterminer l'ensemble de définition et calculer la dérivée de
+ $$f(x)=\ddp\frac{\sin^3{(2x)}}{2+\cos{(5x)}}$$
+ (l'expression finale n'est pas "jolie")
+\item  Montrer (avec une étude de fonction ) que pour tout $x\in \R$ :
+$$e^x\geq x+1$$
+\item  Calculer 
+$$\sum_{k=2}^{n} (k^2+1)$$
+\item Résoudre le système suivant 
+$$\left\{ 
+\begin{array}{cc}
+y+z&=1\\
+x+y&=0\\
+x+z&=1
+\end{array}
+\right.$$
+\item Ecrire un script Python qui permet calculer 
+$$\sum_{k=1}^n \frac{1}{k}$$
+\end{enumerate}
+\end{exercice}
+
+
+
+\jour{Vendredi 29/10/2021}
+\begin{exercice}
+\begin{enumerate}
+\item  Déterminer l'ensemble de définition et calculer la dérivée de
+$$f(x)=\left(  \ddp\frac{\sqrt{x^2+3x}}{3^x} \right)^4$$
+\item Simplifier pour $x>0$ 
+$$\ln\left(\frac{(x+1)^2}{x^3}\right) +\ln(x)-\ln\left(\left(1+\frac{1}{x}\right)^2\right)$$
+\item Exprimer le terme général en fonction de $n$ de la suite $\suite{u}$ définie par 
+$$\left\{\begin{array}{l}
+u_0 =1,\quad u_1=1\\
+\forall n\geq 0,\,  u_{n+2}= -u_{n+1} +2u_n
+\end{array}\right.$$
+\item Calculer la limite quand $n\tv+\infty$ de $u_n=\frac{n!^2}{n^{2n}}$
+\item Ecrire une fonction Python qui simule le lancer d'un dé à 6 faces et retourne la valeur du lancer. 
+\end{enumerate}
+\end{exercice}
+
+\jour{Samedi 30/10/2021}
+\begin{exercice}
+\begin{enumerate}
+\item  Montrer à l'aide d'une étude de fonction que pour tout $x\in\R$ : 
+$$\ln(1+x^2) \leq x^2$$
+
+\item  Déterminer l'ensemble de définition et calculer la dérivée de
+$$f(x)=\ln{(\sqrt{x^2-1}+x)}$$
+\item  Calculer 
+$$\sum_{j=0}^{2n} \binom{2n}{j}(-2)^j$$
+\item Résoudre le système suivant 
+$$\left\{ 
+\begin{array}{cc}
+x+y+z&=1\\
+x+y+2z&=0
+\end{array}
+\right.$$
+\item Ecrire une fonction Python qui prend en argument 3 nombres $(x,y,z)$ et retourne 'True' si ils sont solutions du système
+$\left\{ 
+\begin{array}{rrrl}
+\pi^2x&+1,4 y&+z&=120\\
+\ln(2) x&+1,7y&+2^4z&=0
+\end{array}
+\right.$
+et 'False' sinon. 
+\end{enumerate}
+\end{exercice}
+
+\jour{Dimanche 31/10/2021}
+REPOS ! 
+
+\jour{Lundi 01/11/2021}
+\begin{exercice}
+\begin{enumerate}
+\item  Déterminer l'ensemble de définition et calculer la dérivée de
+$$f(x)=\ln{(\ln{x})}$$
+\item  Etudier (donner les variations et les limites aux bornes)  la fonction $$f(x) =x^x$$
+\item Exprimer le terme général en fonction de $n$ de la suite $\suite{u}$ définie par 
+$$\left\{\begin{array}{rl}
+u_0 &=1\\
+\forall n\geq 0,\,  u_{n+1}&=2u_n^2
+\end{array}\right.$$
+(on pourra regarder $v_n=\ln(u_n)$)
+\item Résoudre le système suivant $$\left\{ 
+\begin{array}{cc}
+x+2y+z&=1\\
+x+y+z&=0\\
+x+3y+2z&=2
+\end{array}
+\right.$$
+\item Calculer la limite quand $n\tv+\infty$ de $u_n=\frac{\ln(n)}{\ln(1+n^2)}$
+\end{enumerate}
+\end{exercice}
+
+
+
+
+\jour{Mardi 02/11/2021}
+\begin{exercice}
+\begin{enumerate}
+\item  Déterminer l'ensemble de définition et calculer la dérivée de
+$$f(x)=\ln{\left(  \ddp\frac{x+2}{\sqrt{9x^2-4}} \right)}$$
+
+\item  Calculer $$\sum_{k=0}^{n-1} e^{\frac{ik\pi}{n} }\quadet \prod_{k=0}^{n} e^{\frac{ik\pi}{n} }$$
+\item  Calculer 
+$$\sum_{\ell=1}^{n} \sum_{i=1}^{\ell^2}\frac{i}{\ell^2}$$
+\item Ecrire une fonction Python qui prend en argument un entier $n$ qui simule $n$ lancers de dé à 6 faces et retourne la somme des valeurs des lancers. 
+\item Résoudre dans $\R$
+$$\sqrt{x+1}\leq x$$
+\end{enumerate}
+\end{exercice}
+
+\jour{Mercredi 03/11/2021}
+
+
+\begin{exercice}
+\begin{enumerate}
+\item  Montrer par récurrence que pour tout $n\geq 1$ :
+$$\prod_{k=1}^n k! = \prod_{k=1}^n k^{n+1-k}$$
+\item  Déterminer l'ensemble de définition et calculer la dérivée de
+$$f(x)=(e^{2x}-1)^{\pi}$$
+\item Exprimer le terme général en fonction de $n$ de la suite $\suite{u}$ définie par 
+$$\left\{\begin{array}{l}
+u_0 =1, \quad u_1=2\\
+\forall n\geq 0,\,  u_{n+2}= \frac{u_{n+1}^2}{u_n}
+\end{array}\right.$$
+(On pourra regarder $v_n=\ln(u_n)$)
+\item $$\left\{ 
+\begin{array}{cc}
+x+2y+z&=1\\
+x+y+z&=0\\
+3x+5y+2z&=2
+\end{array}
+\right.$$
+\item Ecrire un script Python qui permet calculer 
+$$\sum_{j=1}^n\sum_{k=1}^n \frac{\sqrt{j}}{k}$$
+\end{enumerate}
+\end{exercice}
+
+\jour{Jeudi 04/11/2021}
+\begin{exercice}
+\begin{enumerate}
+\item  Déterminer l'ensemble de définition et calculer la dérivée de
+$$f(x)= \exp\left(\frac{1}{x}+\ln(x)\right)$$
+\item  Déterminer l'ensemble de définition et calculer la dérivée de
+$$f(x) = \sqrt{\exp(-x^2)+1}$$
+\item Résoudre en fonction du paramètre $\lambda\in \R$, le système $$\left\{ 
+\begin{array}{cc}
+x+2y&=1\\
+\lambda x+y&=0
+\end{array}
+\right.$$
+\item Calculer la limite quand $n\tv+\infty$ de $u_n=\frac{(\ln(n))^2}{\ln(1+n^2)}$
+\item Ecrire une fonction Python qui prend en argument deux nombres et retourne le minimum de ces deux nombres. 
+(Sans utiliser la foncton \texttt{min} de Python)
+\end{enumerate}
+\end{exercice}
+
+\jour{Vendredi 05/11/2021}
+\begin{exercice}
+\begin{enumerate}
+\item  Déterminer l'ensemble de définition et calculer la dérivée de
+$$f(x)=\ln(-x)$$
+\item  Déterminer l'ensemble de définition et calculer la dérivée de
+$$f(x)= \frac{2\exp(x)}{\ln(x^2)}$$
+
+\item Ecrire une fonction Python qui prend en argument un entier $n$ et retourne la valeur de 
+$$\sum_{j=1}^n\sum_{i=1}^n \min(i,j)$$
+\item Résoudre dans $\R$ : 
+$$\frac{1}{x+1}\leq x$$
+\item Montrer que la suite suivante est majorée par 2 : 
+$$u_n = \frac{1}{n!} \sum_{k=0}^n k!$$
+(On pourra prendre $0! =1$, mais ca n'importe peu sur la preuve) 
+(La majoration est un peu plus dur que le reste, il faut sortir le dernier terme et majorer le reste de la  somme ) 
+(Pour les courageux, vous pouvez montrer qu'elle converge vers $1$. )
+\end{enumerate}
+\end{exercice}
+
+\jour{Samedi  06/11/2021}
+\begin{exercice}
+\begin{enumerate}
+\item  Déterminer l'ensemble de définition et calculer la dérivée de
+$$f(x) =\frac{1}{\tan(x)}$$
+\item  Déterminer l'ensemble de définition et calculer la dérivée de
+$$f(x) =\ln(|\cos(x)|)$$
+\item  Calculer 
+$$\sum_{k=1}^{3}\sum_{a=0}^n a^k$$
+\item Calculer la limite quand $n\tv+\infty$ de $\ddp u_n=\frac{1}{n^4}\sqrt{\sum_{k=1}^{n^2}k^3 }$
+\item Sans utiliser la fonction floor de Python, ecrire une fonction Python qui prend en argument un réel $x$ et retourne sa partie entière. 
+\end{enumerate}
+\end{exercice}
+
+\jour{Dimanche  07/11/2021}
+\begin{exercice}
+\begin{enumerate}
+\item  Déterminer l'ensemble de définition et calculer la dérivée de
+$$f(x) = x^2(1+\exp(x))^3$$
+\item Donner la limite en $+\infty $ de 
+$$f(x) = \left(1+\frac{1}{x}\right)^x$$
+(Ce n'est ni $1$, ni $0$, ni $+\infty$) 
+\item Exprimer le terme général en fonction de $n$ de la suite $\suite{u}$ définie par 
+$$\left\{\begin{array}{l}
+u_0 =1, \quad u_1=2\\
+\forall n\geq 0,\,  u_{n+2}=u_{n+1}-\frac{1}{4}u_n
+\end{array}\right.$$
+\item Résoudre en fonction du paramètre $\lambda\in \R$, le système $$\left\{ 
+\begin{array}{cc}
+\lambda x+y&=1\\
+\lambda x+(1-\lambda)y&=0
+\end{array}
+\right.$$
+\item Résoudre dans $\R$ : 
+$$\frac{1}{e^x+1}\leq \frac{e^x}{e^x+2}$$
+\end{enumerate}
+\end{exercice}
+
+
+
+
+
+
+\end{document}

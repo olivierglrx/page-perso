@@ -1,0 +1,270 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+
+\geometry{hmargin=2.0cm, vmargin=2cm}
+\DeclareMathOperator{\sh}{sh}
+\DeclareMathOperator{\ch}{ch}
+\DeclareMathOperator{\argsh}{Argsh}
+\author{Olivier Glorieux}
+\begin{document}
+\title{DM }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{exercice}
+Cet exercice propose d'étudier une suite de fractions rationnelles, c'est-à-dire des fonctions définies comme quotients de deux fonctions polynomiales. Plus précisément, on considère les suites de polynômes $\suite{P}$ et $\suite{Q}$ définies par 
+$$
+\left\{\begin{array}{ccc}
+P_0 &=& 0\\
+Q_0 &=& 1
+\end{array}
+ \right. \quadet \forall n\in \N, \, 
+\left\{\begin{array}{ccc}
+P_{n+1} &=& P_n + X Q_n\\
+Q_{n+1} &=& Q_n -XP_n
+\end{array}
+ \right. 
+$$
+et on note $\suite{R}$ la suite de fonctions définie par $\forall n\in \N$ 
+$R_n : x\mapsto\frac{P_n(x)}{Q_n(x)}.$
+
+\begin{enumerate}
+\item Déterminer $R_0,R_1,R_2 $ et $R_3$ ainsi que leurs domaines de défintion. 
+\item Calculer pour tout $n\in \N$, $Q_n(0)$. 
+\item Justifier que pour tout $n\in \N$, le domaine de définition de $R_n$ est de la forme $\R\setminus E_n$ où $E_n$ est un ensemble fini de nombres réels. 
+%\item Démontrer que pour tout $n\in \N$, les coefficients de $P_n$ et $Q_n$ sont des entiers relatif. 
+\item Démontrer que $\forall n \in \N,\, Q_n +iP_n = (1+iX)^n $.
+\item Pour cette question, on fixe $n\in \N$ et $\theta \in \left] -\frac{\pi}{2},\frac{\pi}{2}\right[.$
+\begin{enumerate}
+\item Ecrire le nombre complexe $(1+i \tan(\theta))^n$ sous forme algébrique. 
+\item En déduire que $P_n(\tan(\theta) )= \frac{\sin(n\theta)}{\cos^n(\theta)}$ et $Q_n(\tan(\theta) )= \frac{\cos(n\theta)}{\cos^n(\theta)}$.
+\item Justifier proprement que $E_n = \left\{ \tan\left( \frac{m\pi}{2n}\right)\,|\, \text{ $m$ entier impair tel que $-n<m<n$ } \right\}.$ 
+\item Montrer que $\forall  \theta \in \left] -\frac{\pi}{2n},\frac{\pi}{2n}\right[,\, R_n(\tan(\theta)) =\tan(n\theta)$
+\end{enumerate}
+\item Pour cette question, on fixe $n\in \N$ et on suppose qu'il existe deux polynomes $(P,Q) \in ( \R[X])^2$ et une fraction rationnelle $R : x\mapsto \frac{P(x)}{Q(x)}$ telle que $\forall  \theta \in \left] -\frac{\pi}{2n},\frac{\pi}{2n}\right[,\, R(\tan(\theta)) =\tan(n\theta)$
+\begin{enumerate}
+\item Montrer que  $\forall  \theta \in \left] -\frac{\pi}{2n},\frac{\pi}{2n}\right[,\, (PQ_n- QP_n)(\tan(\theta) ) =0$.
+\item En déduire que $PQ_n- QP_n=0$ puis que $R=R_n$. 
+\end{enumerate}
+\end{enumerate}
+
+\end{exercice}
+%
+%
+%\begin{exercice}
+%On définit la fonction \emph{sinus hyperbolique} de  $\bC$ dans $\bC$ par  
+%$$\forall z\in \bC, \sinh(z) =\frac{e^z -e^{-z}}{2}$$
+%
+%
+%
+%\begin{enumerate}
+%\item Etude de la fonction $\sinh$ sur $\bC$.
+%\begin{enumerate}
+%\item Que vaut $\sinh(z)$ quand $z$ est imaginaire pur ? 
+%\item La fonction $\sinh$ est elle injective ? 
+%\end{enumerate}
+%
+%\item  On note $\sh$ la restriction de la fonction $\sinh$ à $\R$:
+%$$\sh :  \begin{array}{|ccc}
+%\R &\tv& \R\\
+%x &\mapsto & \frac{e^x -e^{-x}}{2}
+%\end{array}$$ 
+%
+%Etude de la fonction $\sh$ sur $\R$. 
+%\begin{enumerate}
+%\item Etudier la fonction $\sh$. 
+%\item Montrer que $\sh$ réalise une bijection de $\R$ sur un ensemble que l'on précisera.
+%\item En déduire que la fonction $\sinh$ est surjective  de $\bC$ dans $\bC$.  
+%%\item Calculer la dérivée seconde $\sh''$. 
+%%\item Démontrer que pour tout $x\in \R$, $\sh(x) \geq x$. 
+%\item On note $\ddp \ch(x)  =\frac{e^x +e^{-x}}{2}$. Montrer que pour tout $x\in \R$, $\ch^2(x)-\sh^2(x)=1$
+%\end{enumerate}
+%\item Etude de la réciproque. 
+%On note $\argsh : \R \tv \R$ la bijection réciproque de $\sh$. 
+%\begin{enumerate}
+%\item  Comment  obtenir la courbe représentative de $\argsh $ à partir de celle de $\sh$. 
+%
+%\item Démontrer que $\argsh $ est dérivable sur $\R$ et que l'on a :
+%$$\forall x\in \R, \argsh'(x) = \frac{1}{\sqrt{1+x^2}}$$
+%
+%\item En résolvant $y=\sh(x)$ déterminer l'expression de $\argsh(y)$ en fonction de $y$ et retrouver ensuite  le résultat de la question précédente. 
+%\end{enumerate}
+%\item Etudier la limite de $\argsh(x) - \ln(x)$ quand $x \tv +\infty$. 
+%\end{enumerate}
+%\end{exercice}
+%
+%\vsec
+%
+
+
+
+\begin{exercice}
+
+
+On considère l'équation suivante , d'inconnue $z\in \bC$ : 
+\begin{equation}\tag{$E$}
+z^3 +z+1=0
+\end{equation} 
+
+
+
+%\paragraph{Partie II : Cas n=3}
+\begin{enumerate}
+\item On note $f : \R\mapsto \R, $ la fonction définie par $f(t) = t^3+t+1.$
+A l'aide de l'étude de $f,$ justifier que l'équation $(E)$ possède une unique solution réelle, que l'on notera $r$. Montrer que $r \in ]-1, \frac{-1}{2}[$.
+\item On note $z_1$ et $z_2$ les deux autres solutions complexes de $(E)$ qu'on ne cherche pas à calculer. On sait alors que le polynôme $P(X) = X^3+X+1$ se factorise de la manière suivante : 
+$$P(X)  = (X-r)(X-z_1) (X-z_2).$$
+En déduire que $z_1+z_2=-r$ et $z_1z_2=\frac{-1}{r}$.
+\item Justifier l'encadrement  : $\frac{1}{2}<|z_1+z_2 |<1.$\\
+De même montrer que  $1< |z_1z_2|< 2.$
+\item Rappeler l'inégalité triangulaire et donner une minoration de $|x-y|$ pour tout $x,y\in \bC$. 
+
+\item En déduire que $$|z_1+z_2| >|z_1| -\frac{2}{|z_1|}$$
+
+\item Grâce à un raisonnement par l'absurde montrer que $|z_1|<2$.
+
+
+
+\item Conclure que toutes les solutions de $(E)$ sont de modules strictement inférieures à $2$. 
+
+%\paragraph{Partie 3 : Cas général}
+%\begin{enumerate}
+%\item Soit $n$ un entier $n\geq 2$. Etudier les variations, le signe et les limites de la fonction $\phi :\R \mapsto \R$ définie par 
+%$$\phi(t) = t^n -t-1.$$
+%
+%\item Montrer que pour $z\in \bC$, on a l'implication, pour tout entier $n\geq 2$ :
+%$$\left( z^n +z+1=0\right) \Longrightarrow \left( |z|<2\right).$$
+%
+%\item Est ce que la réciproque est vraie ? (a justifier évidemment... ) 
+%\end{enumerate}
+%
+
+\end{enumerate}
+
+\end{exercice}
+
+
+
+
+
+
+
+\begin{exercice}[Informatique]
+Les questions sont plus ou moins indépendantes. Toutes les fonctions écrites (ou mentionnées) dans les questions précédentes peuvent être utilisées a posteriori. \\
+
+
+Il est devenu habituel de dire que l'ADN se présente comme un texte composé à l'aide de quatre lettres A,C,G,T, qui s'enchaînent sans interruption et qui est orienté avec un début et une fin. 
+
+%On suppose que l'on a à notre disposition une chaine de caractères, appelée \texttt{ADN}, dont les caractères sont les lettres 'A','C','G' ou 'T'. 
+
+On souhaite faire une étude statistique des lettres présentes dans une séquence d'ADN. 
+\begin{enumerate}
+\item \begin{enumerate}
+
+
+\item Ecrire une fonction \texttt{frequence\_A} qui prend en argument une chaine de caractères \texttt{ADN}  et qui retourne la fréquence de la lettre A dans cette chaîne. 
+
+\item On souhaite comparer la fréquence d'apparition de la lettre 'A' entre deux séquences d'ADN. Ecrire une fonction Python \texttt{compare} qui prend en argument deux chaines de caractères \texttt{ADN1}, \texttt{ADN2} et retourne 'elles sont proches' si la fréquence de la lettre A dans \texttt{ADN1} et dans \texttt{ADN2} différe de moins de 0.01. La fonction retournera 'elles ne sont pas proches' dans le cas contraire. \\
+\end{enumerate}
+
+On s'intéresse maintenant aux acides aminés, il faut alors regarder les codons qui se lisent par trois (cf le tableau de la dernière page), on doit donc diviser la chaîne de caractères par codon. 
+
+\item
+\begin{enumerate}
+\item Completer (sur votre copie) la fonction \texttt{liste\_codon}  python qui prend en argument une chaine de caractère \texttt{ADN} et qui  retourne une liste dont les éléments sont les codons de la chaîne. (On supposera que la longueur de la chaine de caractères est bien divisible par 3 sans le vérifier dans la fonction) 
+\begin{lstlisting}
+def liste_codon(ADN):
+    L=[]
+    for i in range(0,  ,  ):
+        L=L+[ADN[  :  ]]
+    return(L)
+\end{lstlisting}
+
+Exemple : si \texttt{ADN='GCAGAGTTTTGGTGC'}, la liste retournée sera :
+\texttt{['GCA','GAG', 'TTT','TGG','TGC']}.\\
+ 
+ \item On suppose que l'on a  créé une liste \texttt{code\_genetique} qui contient tous les codons possibles. \texttt{code\_genetique=['GCA','GCC', 'GCG', ...., 'TAG', 'TGA']}\\
+ 
+Quelle est la longueur de la liste \texttt{code\_genetique} ? Comment obtenir cette longueur avec une commande Python ? \\
+
+\item On suppose que l'on a une chaine de caractères \texttt{ADN} à notre disposition. 
+Ecrire une fonction python \texttt{test} qui vérifie si chaque codons de la liste \texttt{L=liste\_codon(ADN)} est bien un codon du code génétique. \\
+
+\item Compléter (sur votre copie) la fonction \texttt{start} qui prend en argument une liste de codons et qui retourne  l'indice de la première fois où l'on trouve le codon START ('ATG'). Si jamais il n'y en a pas, elle devra retourner un message d'erreur. \\ 
+\begin{lstlisting}
+def start(L):
+    i=0
+    while L[i]          :
+        if i<len(L)-1:
+            
+        else:
+            return('pas de codon START')
+    return(  )
+\end{lstlisting}
+
+(Vous pouvez aussi proposer une fonction différente si vous ne comprenez pas la logique de celle-ci, mais attention aux problèmes d'indices.) 
+
+\item Ecrire une fonction \texttt{stop} qui prend en argument une liste de codons et qui retourne  l'indice de la première fois où l'on trouve un codon STOP. Si jamais il n'y en a pas, elle devra retourner un message d'erreur. \\
+
+\item Ecrire une fonction \texttt{proteine} qui prend en argument une liste de codons et  retourne la sous-liste des codons entre   le premier codon START et le premier codon STOP après ce codon START.  (Cette sous-liste contiendra les deux codons START et STOP. On ne  se penchera pas sur le problème d'erreurs, et on supposera que  notre liste contient bien un codon START et un codon STOP dans le bon ordre)   \\
+\end{enumerate}
+
+
+
+
+
+
+A une séquence d’ADN  correspond une unique séquence d’ARN grâce aux règles de complémentarité : G  et   C sont inversé, A devient U et T devient A. Par exemple, la séquence d’ADN 'AATCGA' est transcrite en 'UUAGCU.' 
+\item 
+\begin{enumerate}
+
+\item Compléter (sur votre copie)  la fonction python  \texttt{transcription\_lettre} qui prend en argument une lettre correspondant à de l'ADN et qui retourne la lettre d'ARN correspondante. 
+\begin{lstlisting}
+def transcription_lettre(lettre):
+	if lettre==   :
+		lettre='G'
+	elif          :
+		lettre='C'
+	elif lettre=='A':
+	
+	elif          :
+		lettre=
+    return(       )
+\end{lstlisting}
+
+\item Ecrire une fonction python \texttt{transcription} qui prend en argument une chaine de caractères correspondant à de l'ADN et qui retourne la chaine de caractères d'ARN correspondante. 
+
+
+Parfois il y  a  des erreurs dans la transcription et une lettre est mal transmise. 
+
+\item Ecrire une fonction python \texttt{mutation} qui prend en argument une chaine de caractères (correspondant à de l'ADN) et qui retourne une  chaine de caractères où les lettres 'C' et 'G' sont inversées avec probabilité  99\% et non inversée avec probabilité 1\%, la lettre 'A' est bien changée en 'U' avec probabilité 99\% et changée en 'C' avec probabilité 1\% et la lettre 'T' devient la  lettre 'A' avec proba 99\% et changée en 'U' avec proba 1\%  . Après l'avoir importée, on pourra utiliser la fonction random() qui retourne un réel aléatoire entre 0 et 1. 
+
+\end{enumerate}
+
+\end{enumerate}
+
+
+\end{exercice}
+
+
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.6]{code}
+%\end{figure}
+%
+
+
+\end{document}

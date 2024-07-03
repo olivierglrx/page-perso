@@ -1,0 +1,521 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\newif\ifshow
+\showtrue
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+
+
+
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{DM de Noël 
+}
+
+\begin{exercice}
+Soit $$A=\left(\begin{array}{rr} 2&1\\0&2\\-1&0 \end{array}\right) \quadet B=\left(\begin{array}{rrr} 0&2&1\\2&2&1 \end{array}\right)$$
+\begin{enumerate}
+\item Calculer $B^T$.
+\item Calculer $-2A$
+\item Calculer $-2A+B^T$
+\end{enumerate}
+\end{exercice}
+\begin{correction}
+
+$B^T = \left(\begin{array}{rrr} 0&2\\2&2\\1&1 \end{array}\right)\quad $
+$-2A=\left(\begin{array}{rr} -4&-2\\0&-4\\2&0 \end{array}\right)\quad $ et 
+$-2A+B^T=\left(\begin{array}{rr} -4&0\\2&-2\\3&1 \end{array}\right)$
+
+\end{correction}
+
+
+\begin{exercice}
+Soit $$A=\left(\begin{array}{rr} 2&1\\0&2 \end{array}\right) \quadet B=\left(\begin{array}{rrr} 0&2&1\\2&2&1 \end{array}\right)$$
+\begin{enumerate}
+\item Calculer $A^2$.
+\item Calculer si cela est possible $AB$ et $BA$
+\end{enumerate}
+\end{exercice}
+\begin{correction}
+$A^2=\left(\begin{array}{rr} 4&4\\0&4 \end{array}\right) $ 
+$AB= \left(\begin{array}{rrr} 2&6&3\\4&4&2 \end{array}\right)$
+$BA$ n'est pas possible. 
+\end{correction}
+
+
+
+\begin{exercice}
+Soit $$B=\left(\begin{array}{rrr} 0&2&-1\\-2&0&1 \end{array}\right)$$
+\begin{enumerate}
+\item Calculer $BB^T$ puis $B^T B$
+\end{enumerate}
+\end{exercice}
+\begin{correction}
+$BB^T=\left(\begin{array}{rrr} 5&-1\\-1&5 \end{array}\right)$ et 
+$BB^T=\left(\begin{array}{rrr} 4&0&-2\\0&4&-2\\-2&-2&2 \end{array}\right)$
+\end{correction}
+
+
+\begin{exercice}
+Soit $$J=\left(\begin{array}{rrr} 1&1&1\\1&1&1 \\1&1&1 \end{array}\right)$$
+\begin{enumerate}
+\item Calculer $J^2$ et $J^3$
+\item Montrer que pour tout $n\in \N$, $$J^n =\left(\begin{array}{rrr} 3^{n-1}&3^{n-1}&3^{n-1}\\3^{n-1}&3^{n-1}&3^{n-1} \\3^{n-1}&3^{n-1}&3^{n-1} \end{array}\right)$$
+\end{enumerate}
+\end{exercice}
+\begin{correction}
+ $J^2=\left(\begin{array}{rrr} 3&3&3\\3&3&3 \\3&3&3 \end{array}\right)=3J$
+ 
+$$J^3 = (J^2)J= (3J) J = 3J^2 = 3(3J) = 9J =\left(\begin{array}{rrr} 9&9&9\\9&9&9 \\9&9&9 \end{array}\right)$$  
+
+La question 2 se fait par récurrence. 
+\end{correction}
+
+
+
+\begin{exercice}
+Soit $$A=\left(\begin{array}{rr} 2&1\\0&-3 \end{array}\right) \quadet B=\left(\begin{array}{rrr} 0&2&1\\2&2&1 \end{array}\right)$$
+\begin{enumerate}
+\item Calculer l'inverse de $A$ et $B$ si cela est possible. 
+\item Déterminer $A^n$. Question trop difficile sans indications... 
+ A remplacer par  : montrer par récurrence que 
+$$A^n = \left(\begin{array}{rc} 2^n&\frac{1}{5}2^n - \frac{1}{5}(-3)^n\\0&(-3)^n \end{array}\right) $$
+\end{enumerate}
+\end{exercice}
+
+\begin{correction}
+$A^{-1} = \left(\begin{array}{rr} \frac{1}{2}&\frac{-1}{6}\\0&\frac{1}{3}\end{array}\right)$
+$B$ n'admet pas d'inverse (ce n'est pas une matrice carrée).
+
+Soit $P$, la proposition  $P(n)$ :  '$A^n = \left(\begin{array}{rc} 2^n&\frac{1}{5}2^n - \frac{1}{5}(-3)^n\\0&(-3)^n \end{array}\right) $
+
+\begin{itemize}
+\item[Initialisation] $P(1)$  est vraie. En effet  on a d'une part  :
+$$A^1= A= \left(\begin{array}{rr} 2&1\\0&-3 \end{array}\right)$$
+et d'autre part :  
+$$ \left(\begin{array}{rc} 2^1&\frac{1}{5}2^1 - \frac{1}{5}(-3)^1\\0&(-3)^1 \end{array}\right) = \left(\begin{array}{rc} 2&\frac{2}{5}+\frac{3}{5}\\0&-3 \end{array}\right) = A$$
+
+\item[Heredité] 
+On suppose qu'il existe $n$ tel que $P(n)$ soit vraie. On a donc 
+$A^n =\left(\begin{array}{rc} 2^n&\frac{1}{5}2^n - \frac{1}{5}(-3)^n\\0&(-3)^n \end{array}\right) $
+Ainsi 
+$$A^{n+1} = A^n A  =\left(\begin{array}{rc} 2^n&\frac{1}{5}2^n - \frac{1}{5}(-3)^n\\0&(-3)^n \end{array}\right) \times  \left(\begin{array}{rr} 2&1\\0&-3 \end{array}\right)$$
+On effectue le calcul du produit et on obtient :
+$$A^{n+1} =
+\left(\begin{array}{rc} 2\times 2^n&2(\frac{1}{5}2^n - \frac{1}{5}(-3)^n)  +(-3)^n\\0&(-3)\times (-3)^n \end{array}\right)$$
+Les coefficients diagonaux se calculent simplement et donnent : $2^{n+1}$ et $(-3)^{n+1}$. 
+Le coefficient en haut à droite de la matrice se simplifie de la manière suivante : 
+\begin{align*}
+2(\frac{1}{5}2^n - \frac{1}{5}(-3)^n)  +(-3)^n &=\frac{2}{5}2^n -\frac{2}{5}(-3)^n+(-3)^n\\
+																	&= \frac{1}{5}2^{n+1} +(-\frac{2}{5}+1)(-3)^n\\
+																	&= \frac{1}{5}2^{n+1} +(\frac{3}{5})(-3)^n\\
+																	&= \frac{1}{5}2^{n+1} -(\frac{-3}{5})(-3)^n\\																									&= \frac{1}{5}2^{n+1} -(\frac{1}{5})(-3)^{n+1}
+\end{align*}
+
+Ainsi 
+$$A^{n+1} = \left(\begin{array}{rc} 2^{n+1}&\frac{1}{5}2^{n+1} - \frac{1}{5}(-3)^{n+1}\\0&(-3)^{n+1} \end{array}\right) $$
+et la propriété $P(n+1)$ est donc vraie. 
+\item[Conclusion]
+Par principe de récurrence, pour tout $n\in \N$: 
+$$A^n = \left(\begin{array}{rc} 2^n&\frac{1}{5}2^n - \frac{1}{5}(-3)^n\\0&(-3)^n \end{array}\right) $$
+
+
+
+
+
+
+\end{itemize}
+
+\end{correction}
+\begin{exercice}
+Soit $A$ une matrice et $P$ une matrice inversible. 
+\begin{enumerate}
+\item A-t-on $(AP)^2 =A^2 P^2 $?
+\item Montrer qu'on a en revanche : 
+$$(P^{-1}A P )^2 =P^{-1} A^2 P$$
+\item Puis par récurrence  que  pour tout $n\in \N$
+$$(P^{-1}A P )^n =P^{-1} A^n P$$
+\end{enumerate}
+\end{exercice}
+
+\begin{correction}
+\begin{enumerate}
+\item Aucune raison que cela ce passe comme ca.  $(AP)^2 = (AP)(AP) =APAP$. Mais comme en général on n'a pas $AP=PA$ on ne peut rien dire de plus. 
+
+\item On utilise le fait que $PP^{-1} = \Id$ et $\Id \times A = A$ 
+\begin{align*}
+(P^{-1}A P )^2& =(P^{-1}A P )(P^{-1}A P ) \\
+						&= (P^{-1}A (P P^{-1})A P ) \\
+						&= (P^{-1}A Id A P ) \\
+						&= (P^{-1}A A P ) \\
+						&= (P^{-1}A^2 P ) 					
+\end{align*}
+On pose $P(n) : ' (P^{-1}A P )^n =P^{-1} A^n P$
+\begin{itemize}
+\item[Initialisation]  Pour $n=0$ et $n=1$ c'est trivial. Pour $n=2$ c'ets la question précédente. 
+
+\item[Hérédité] On suppose qu'il existe $n\in \N$ tel que $P(n)$ soit vraie. 
+On a alors 
+\begin{align*}
+ (P^{-1}A P )^{n+1}&=  (P^{-1}A P )^n  (P^{-1}A P )
+\end{align*}
+et donc par Hypothése de récurrence : 
+\begin{align*}
+ (P^{-1}A P )^{n+1}&=  (P^{-1}A^n P )  (P^{-1}A P )\\
+ 							&=  (P^{-1}A^n P  P^{-1}A P )\\
+ 							&=  (P^{-1}A^n \Id A P )\\
+ 							&=  (P^{-1}A^n A P )\\
+ 							&=  (P^{-1}A^{n+1} P )
+\end{align*}
+\item[Conclusion] $P(n)$ est vraie pour tout $n$. 
+
+\end{itemize}
+
+
+\end{enumerate}
+\end{correction}
+
+
+\begin{exercice}
+
+ Soit $$P= \left(
+\begin{array}{ccc}
+1&1&0\\
+1&0&1\\
+2&2&1
+\end{array}
+ \right) \quadet A=\left(
+\begin{array}{ccc}
+0&-1&1\\
+4&1&-2\\
+2&-2&1
+\end{array}
+ \right)$$
+
+\begin{enumerate}
+\item  Calculer $P^{-1}$
+\item Calculer $P^{-1}AP$
+\end{enumerate}
+\end{exercice}
+\begin{correction} Par la  méthode du pivot de Gauss on obtient : 
+$$P^{-1} = \left(
+\begin{array}{ccc}
+2&1&-1\\
+-1&-1&1\\
+-2&0&1
+\end{array}
+ \right) $$
+ 
+ Le calcul donne : 
+ $$P^{-1} A P = \left(
+\begin{array}{ccc}
+1&0&0\\
+0&2&0\\
+0&0&-1
+\end{array}
+ \right) $$
+\end{correction}
+
+
+\begin{exercice}
+Soit $$ A_x=\left(\begin{array}{rrr}  0&2&x\\0&2&1\\2&2&1 \end{array}\right)$$
+\begin{enumerate}
+\item Calculer le rang de $A_x$ en fonction de $x$.
+\item Donner l'inverse de $A_x$ quand cela a un sens.
+\end{enumerate}
+\end{exercice}
+\begin{correction}
+Si $x=1$, $A_x$ est de rang $2$, sinon $A_x$ est de rang 3
+
+Si $x\neq 1$, $A_x$ admet un inverse qui vaut : 
+$$A_x^{-1} = \frac{1}{2(1-x) }\left(\begin{array}{ccc}  0&(x-1) & (1-x) \\1 & -x& 0\\ -2&2&0 \end{array}\right)$$
+(Pour calculer l'inverse de $A_x$ il faut faire un pivot de Gauss avec la « matrice augmentée » (celle où on met $A_x$ à gauche et l’identité à droite)  
+\end{correction}
+
+
+\begin{exercice}
+Soit $$ A_\lambda=\left(\begin{array}{cc}  1-\lambda&2\\0&2-\lambda \end{array}\right)$$
+\begin{enumerate}
+\item Calculer le rang de $A_\lambda$ en fonction de $\lambda$.
+\item Donner l'inverse de $A_\lambda$ quand cela a un sens.
+\end{enumerate}
+\end{exercice}
+
+\begin{correction}
+Si $\lambda 2$  ou si  $\lambda=1$  le rang vaut $1$. Sinon le rang vaut $2$
+
+
+Si $\lambda \notin \{ 1,2\}$ alors 
+$$A_\lambda^{-1} =  \left(\begin{array}{cc}  \frac1{1-\lambda}&-\frac{2}{(1-\lambda)(2-\lambda)}\\0&\frac1{2-\lambda} \end{array}\right)$$
+
+
+\end{correction}
+
+
+
+
+
+\begin{exercice}
+Soit $A$ la matrice 
+$$A=\left(
+\begin{array}{ccc}
+0&-1&1\\
+4&1&-2\\
+2&-2&1
+\end{array}
+ \right)$$
+ 
+ 
+\begin{enumerate}
+\item Résoudre le système $AX=\lambda X$ d'inconnue $X =\left(
+\begin{array}{c}
+x\\
+y\\
+z
+\end{array}
+ \right)$ où $\lambda$ est un paramètre réel. 
+ 
+ \item Soit $e_1= \left(
+\begin{array}{c}
+1\\
+1\\
+2
+\end{array}
+ \right)$,  $e_2= \left(
+\begin{array}{c}
+1\\
+0\\
+2
+\end{array}
+ \right)$, et  $e_3= \left(
+\begin{array}{c}
+0\\
+1\\
+1
+\end{array}
+ \right)$.
+ Calculer $Ae_1, Ae_2$ et $Ae_3$. 
+ 
+\item Montrer par récurrence que $A^ne_1= e_1$. 
+\item Donner de même la valeur de $A^n e_2 $ et $A^n e_3$.
+\item Soit $P= \left(
+\begin{array}{ccc}
+1&1&0\\
+1&0&1\\
+2&2&1
+\end{array}
+ \right)$ 
+ 
+ Montrer que $P$ est inversible et calculer son inverse. 
+ \item Soit $D=P^{-1}AP$. Calculerr $D$. 
+ \item Montrer par récurrence que $D^n = P^{-1}A^n P$
+ \item En déduire la valeur de $A^n$. 
+\item Soit $\suite{x}, \suite{y} $ et $\suite{z}$ les suites définies par : 
+$x_0=1, y_0=1 $ et $z_0=1$ et pour tout $n\in \N$ :
+$$\left\{
+\begin{array}{cll}
+x_{n+1} &= &-y_n+z_n\\
+y_{n+1}&=4x_n&+y_n-2z_n\\
+z_{n+1}&=2x_n&-2x_n+z_n
+\end{array}
+ \right.$$ 
+Soit $X_n = \left(
+\begin{array}{c}
+x_{n}\\
+y_{n}\\
+z_{n}
+\end{array}
+ \right)$
+ 
+Montrer que $X_{n+1} = A X_n$. 
+\item Montrer par récurrence que pour tout $n\in \N$, $$X_n = A^n X_0$$
+\item En déduire le terme général de $\suite{x}$ en fonction de $n$. 
+\end{enumerate} 
+\end{exercice}
+\begin{correction}
+\begin{enumerate}
+\item $AX= \lambda X \equivaut \left\{ \begin{array}{cccc}
+&-y&+z=&\lambda x\\
+4x &+y&-2z=&\lambda y\\
+2x &-2y&+z=&\lambda z
+\end{array}
+\right.\equivaut \left\{ \begin{array}{cccc}
+-\lambda x&-y&+z=&0\\
+4x &+(1-\lambda)y&-2z=&0\\
+2x &-2y&+(1-\lambda) z=&0
+\end{array}
+\right.$  
+Ensuite on échelonne le système (Après beaucoup de fautes de calculs) on obtient :
+\begin{align*}
+&\equivaut \left\{ \begin{array}{cccc}
+2x &-2y&+(1-\lambda) z=&0\\
+0 &+(5-\lambda)y&(-4+2\lambda) z=&0\\
+0 &(-\lambda -1) y&+\frac{1}{2}(2-\lambda-\lambda^2) z=&0
+\end{array}
+\right.\\
+&\equivaut \left\{ \begin{array}{cccc}
+2x &-2y&+(1-\lambda) z=&0\\
+0 &+(5-\lambda)y&2(\lambda-2) z=&0\\
+0 &-(\lambda +1) y&-\frac{1}{2}(\lambda+1)(\lambda-2) z=&0
+\end{array}
+\right.\\
+&\equivaut \left\{ \begin{array}{cccc}
+2x &+(1-\lambda) z&-2y=&0\\
+0 &+2(\lambda-2) z &+(5-\lambda)y=&0\\
+0 &-\frac{1}{2}(\lambda+1)(\lambda-2) z&-(\lambda +1) y=&0
+\end{array}
+\right.
+\end{align*}
+et enfin $L_3\leftarrow L_3+\frac{1}{4}(\lambda+1) L_2$ donne : 
+
+\begin{align*}
+&\equivaut \left\{ \begin{array}{cccc}
+2x &+(1-\lambda) z&-2y=&0\\
+0 &+2(\lambda-2) z &+(5-\lambda)y=&0\\
+0 &0&\frac{1}{4}(-\lambda^2 +1) y=&0
+\end{array}
+\right.\\
+&\equivaut \left\{ \begin{array}{cccc}
+2x &+(1-\lambda) z&-2y=&0\\
+0 &+2(\lambda-2) z &+(5-\lambda)y=&0\\
+0 &0&(-\lambda+1)(\lambda+1) y=&0
+\end{array}
+\right.
+\end{align*}
+Donc si $\lambda-2 \neq 0 $ et $(-\lambda+1)(\lambda+1) \neq 0$, le système est de rang 3. Il admet une unique solution à savoir $S=\{(0,0,0)\}$
+
+Si $\lambda=1$
+Le système équivaut à 
+$$\left\{ \begin{array}{cccc}
+2x &  &-2y=&0\\
+0 &-2 z &4y=&0\\
+0 &0&0=&0
+\end{array}
+\right.$$
+Il est échelonné de rang 2. Les solutions sont de la forme : 
+$$\cS=\{ (y,y,2y) \, y\in \R\} $$
+
+Si $\lambda=2$
+Le système équivaut à 
+$$\left\{ \begin{array}{cccc}
+2x & -z &-2y=&0\\
+0 & &3y=&0\\
+0 &0&-3y=&0
+\end{array}
+\right. \equivaut\left\{ \begin{array}{cccc}
+2x & -z&-2y=&0\\
+0 & &3y=&0\\
+0 &0&0=&0
+\end{array}
+\right.  $$
+Il est échelonné de rang 2. Les solutions sont de la forme : 
+$$\cS=\{ (2x,0,x) \, x\in \R\} $$
+
+
+Si $\lambda=-1$
+Le système équivaut à 
+$$\left\{ \begin{array}{cccc}
+2x & +2z &-2y=&0\\
+0 & -6z&6y=&0\\
+0 &0&0=&0
+\end{array}
+\right. \equivaut\left\{ \begin{array}{cccc}
+2x &+ 2z&-2y=&0\\
+0 & z&=&y\\
+\end{array}
+\right.  $$
+Il est échelonné de rang 2. Les solutions sont de la forme : 
+$$\cS=\{ (0,y,y) \, y\in \R\} $$
+
+
+
+\item $Ae_1 = e_1$, $Ae_2 =2e_2$ et $Ae_3 =-e_3$
+
+\item C'est vrai pour $n=1$. On suppose que le résultat est vrai pour un certain entier $n\in \N$, on a alors $A^{n+1} e_1 =A A^ne_1=Ae_1$ par HR. Puis $Ae_1=e_1$ d'après la question précédente. On a alors $A^{n+1}e_1 =e_1$. Par récurrence le résultat est vrai pour tout $n\in \N$
+
+\item $A^n=2^ne_2$ et $A^n e_3 =(-1)^n e_3$
+
+\item cf ex 8 $$P^{-1}= \left(
+\begin{array}{ccc}
+2&1&-1\\
+-1&-1&1\\
+-2&0&1
+\end{array}
+ \right)$$ 
+
+\item cf ex 8 $D= \left(
+\begin{array}{ccc}
+1&0&0\\
+0&2&0\\
+0&0&-1
+\end{array}
+ \right)$ 
+ \item cf ex 6
+ \item $A^n = PD^n P^{-1}$ 
+Or $D^n  =  \left(
+\begin{array}{ccc}
+1&0&0\\
+0&2^n&0\\
+0&0&(-1)^n
+\end{array}
+ \right)$  (ca ne marche QUE pour les matrices diagonales) 
+ 
+ Donc 
+ $$A^n = \left(
+\begin{array}{ccc}
+2-2^n&1-2^n&-1+2^n\\
+2-2(-1)^n&1&-1+(-1)^n\\
+4-2^{n+1} -2(-1)^n& 2-2^{n+1}&-2+2^{n+1}+(-1)^n
+\end{array}
+ \right)$$ 
+ 
+ \item $X_{n+1} = \left(
+\begin{array}{c}
+x_{n+1}\\
+y_{n+1}\\
+z_{n+1}
+\end{array}
+ \right)$
+ 
+ et $AX_n = A=\left(
+\begin{array}{ccc}
+0&-1&1\\
+4&1&-2\\
+2&-2&1
+\end{array}
+ \right)  \left(
+\begin{array}{c}
+x_{n}\\
+y_{n}\\
+z_{n}
+\end{array}
+ \right)=\left(
+\begin{array}{c}
+-y_n+z_{n}\\
+4x_n +y_n -2z_{n}\\
+2x_n-2y_n+z_{n}
+\end{array}
+ \right) $
+ 
+ 
+Ce qui est bien le système vérifiée par les suites $\suite{x}, \suite{y}, \suite{z}$.
+
+\item C'est vrai pour $n=0$ ($A^0=\Id$) C'est aussi vrai pour $n=1$ (calcul) 
+On suppose le résultat vrai pour UN $n\in \N$ On a alors :
+$X_n = A^nX_0$ et donc $AX_n =A^{n+1}X_0$. Or d'après la question précédente  
+$AX_n =X_{n+1}$. La propriété est donc héréditaire et donc vraie pour tout $n\in \N$. 
+
+
+\item On fait le calcul de $A^n X_0$ grace au résultat trouvé à la question 8. 
+On obtient 
+$$x_n = 2-2^n +1-2^n -1+2^n = 2-2^n$$
+
+\end{enumerate}
+\end{correction}
+
+
+
+\end{document}

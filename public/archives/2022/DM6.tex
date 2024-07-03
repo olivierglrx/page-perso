@@ -1,0 +1,176 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\geometry{hmargin=1.5cm,vmargin=2.5cm }
+\usepackage{enumitem}
+\newif\ifshow
+\showtrue
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+
+
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{Correction - DM 6
+}
+
+\begin{exercice}
+\begin{enumerate}
+\item A quelle condition sur $X,Y\in \R$ a-t-on 
+$$X=Y \Longleftrightarrow X^2=Y^2  $$
+
+\item On se propose de résoudre l'équation :
+\begin{equation}
+|\cos(x)|=|\sin(x)|.\\
+\end{equation}
+\begin{enumerate}
+\item Montrer que $(1)$ est équivalent à $\cos(2x)=0$.  (On pourra utiliser la question 1...)
+\item En déduire les solutions  de $(1)$ dans $\R$ puis dans $[-\pi, \pi[$ 
+\end{enumerate}
+
+\end{enumerate}
+\end{exercice}
+
+
+\begin{correction}
+\begin{enumerate}
+\item On a  $X=Y \Longleftrightarrow X^2=Y^2  $ si $X$ et $Y$ sont de même signe.
+\item Comme $|\cos(x)|\geq 0$ et $|\sin(x)|\geq 0$ l'équation est équivalente à $\cos^2(x) =\sin^2(x)$, soit encorrectione 
+$$\cos(2x)=0.$$
+On a donc $2x\equiv \frac{\pi}{2}\quad [\pi]$ ou encorrectione 
+$$x\equiv \frac{\pi}{4}\quad [\frac{\pi}{2}]$$
+ Les solutions sur $\R$ sont 
+ $$\cS =\bigcup_{k\in Z} \{ \frac{\pi}{4}+\frac{\pi k}{2}\}$$
+ Sur $[-\pi, \pi[$  les solutions sont :
+ $$\cS\cap [-\pi, \pi[ =  \{ \frac{\pi}{4}, \frac{3\pi}{4}, \frac{-\pi}{4}, \frac{-3\pi}{4}\}$$
+ 
+
+
+
+
+\end{enumerate}
+\end{correction}
+
+\begin{exercice}
+On considère la suite de polynômes $(T_n)_{n\in \N}$ définie par 
+$$ T_0=1 \quadet T_1=X \quadet \forall n\in \N,\, T_{n+2}=2X T_{n+1}-T_n$$
+\begin{enumerate}
+
+\item Calculer $T_2$, $T_3$ et $T_4$.
+
+\item Soit $\theta \in \R$. Montrer que pour tout $n\in \N$ on  a  $T_n(\cos(\theta)) =\cos(n\theta)$.
+\item En déduire que $\forall x\in [-1,1], $ on a $T_n(x) =\cos(n \arccos(x))$. (La rédaction est importante, les variables ne peuvent pas vivre n'importe où)
+
+\end{enumerate}
+\end{exercice}
+\begin{correction}
+\begin{enumerate}
+
+\item $T_2 = 2X^2-1$, $T_3 =4X^3-3X$, $T_4 = 8X^4 -8X^2+1 $
+
+
+\item Montrons le résultat par récurrence. On pose 
+$$Q(n) : " \forall \theta\in \R, T_n(\cos(\theta)) =\cos(n\theta)  \text{ ET } T_{n+1}(\cos(\theta)) =\cos((n+1)\theta)"$$
+
+$Q(0)$ est vraie par définition de $T_0 $ et $T_1$ 
+
+Supposons qu'il existe $n\in \N$ tel que $Q(n)$ soit vrai et montrons $Q(n+1)$. Il suffit de montrer que $\forall \theta \in \R$
+$$T_{n+2}(\cos(\theta) )=\cos((n+2)\theta)$$
+
+On a par définition de $T_{n+2}$ 
+$$T_{n+2} (\cos(\theta))  = 2\cos(\theta) T_{n+1}(\cos(\theta)) -T_n(\cos(\theta))$$
+Par hypothèse de récurrence on a 
+$T_{n+1}(\cos(\theta)) =\cos((n+1)\theta)$ et 
+$T_{n}(\cos(\theta))=\cos(n\theta) $ donc  
+$$T_{n+2} (\cos(\theta)) =2 \cos(\theta) \cos((n+1) \theta) - \cos(n \theta)$$
+Les formules trigonométriques donnent : 
+\begin{align*}
+2 \cos(\theta) \cos((n+1) \theta)   &=\cos(\theta+(n+1) \theta) +\cos(\theta-(n+1) \theta)\\
+&=\cos((n+2) \theta) + \cos(-n\theta)\\
+&=\cos((n+2) \theta) + \cos(n\theta)
+\end{align*}
+Donc 
+$$T_{n+2} (\cos(\theta))  = \cos((n+2) \theta) + \cos(n\theta)-\cos(n\theta) = \cos((n+2)\theta)
+$$
+
+
+Par récurrence, pour tout $\theta \in \R$ et tout $n\in \N$: 
+$$T_n(\cos(\theta ) ) =\cos(n\theta)$$
+
+
+\item Soit $x\in [-1,1]$ on  note $x =\cos(\theta)$, avec $\theta \in [0,\pi]$ on a  alors 
+$\theta =\arccos( x) $. D'après la question précédente on a donc pour tout $x\in [-1,1]$: 
+$$T_n(x) = \cos( n \arccos(x))$$
+
+\end{enumerate}
+\end{correction}
+
+
+
+\begin{exercice}
+\begin{enumerate}
+\item Résoudre l'inéquation d'inconnue $y$ suivante : 
+$$\frac{y-3}{2y-3}\leq 2y \quad (E_1)$$
+
+\item En déduire les solutions sur $\R$ de l'inéquation d'inconnue $X$  : 
+$$\frac{\sin^2(X)-3}{2\sin^2(X) -3} \leq 2 \sin^2(X)\quad (E_2)$$
+
+\item Finalement donner les solutions sur $[0,2\pi[ $ de l'inéquation d'inconnue $x$ : 
+$$\frac{\sin^2(2x+\frac{\pi}{6})-3}{2\sin^2(2x+\frac{\pi}{6}) -3} \leq 2 \sin^2(2x+\frac{\pi}{6}) \quad (E_3)$$
+\end{enumerate}
+
+\end{exercice}
+
+\begin{correction}
+\begin{enumerate}
+\item 
+$$\begin{array}{lrl}
+&\frac{y-3}{2y-3}&\leq 2y\\
+\equivaut &0 &\leq 2y - \frac{y-3}{2y-3}\\
+\equivaut &0 &\leq \frac{4y^2-7y+3}{2y-3}
+\end{array}$$
+$4y^2-7y+3$ admet pour racines : $y_0 = 1$ et $y_1 =\frac{3}{4}$, donc 
+$$\begin{array}{lrl}
+&\frac{y-3}{2y-3}&\leq 2y\\
+\equivaut &0&\leq \frac{4(y-1)(y-\frac{3}{4})}{2(y-\frac{3}{2})}
+\end{array}$$
+Donc les solutions de $(E_1)$ sont 
+\conclusion{ $\cS_1 = \left[ \frac{3}{4}, 1\right] \cup \left] \frac{3}{2}, +\infty\right[ $} 
+
+
+\item $X$ est solutions de $(E_2)$ si et seulement si : 
+$$\sin^2(X) \in \left[ \frac{3}{4}, 1\right] \cup \left] \frac{3}{2}, +\infty\right[ $$
+Comme pour tout $X\in \R$,  $\sin(X) \in [-1,1]$, ceci équivaut à 
+$$\sin^2(X) \in \left[ \frac{3}{4}, 1\right] $$
+c'est-à-dire : $\sin^2(X) \geq \frac{3}{4}$, soit 
+$\left(\sin(X) -\frac{\sqrt{3}}{2}\right)\left(\sin(X) +\frac{\sqrt{3}}{2}\right)\geq 0$ 
+On obtient donc 
+$$\sin(X) \in  \left[ -1, \frac{-\sqrt{3}}{2},\right] \cup  \left[ \frac{\sqrt3}{4}, 1\right] $$
+On a  d'une part $\sin(X) \leq  \frac{-\sqrt{3}}{2} \equivaut X \ddp \in \bigcup_{k\in \Z} \left[ \frac{4\pi}{3} +2k\pi,\frac{5\pi}{3} +2k\pi \right] $
+et d'autre part 
+$\sin(X) \geq  \frac{\sqrt{3}}{2} \equivaut X \in \ddp \bigcup_{k\in \Z} \left[ \frac{-\pi}{3} +2k\pi,\frac{2\pi}{3} +2k\pi \right] $
+
+Ainsi les solutions de $(E_2)$ sont
+ $$\cS_2 =\ddp   \bigcup_{k\in \Z} \left[ \frac{\pi}{3} +2k\pi,\frac{2\pi}{3} +2k\pi \right]  \cup \left[ \frac{4\pi}{3} +2k\pi,\frac{5\pi}{3} +2k\pi \right]$$
+ 
+ En remarquant que $ \frac{4\pi}{3} =  \frac{\pi}{3}+\pi$ et 
+  $ \frac{5\pi}{3} =  \frac{2\pi}{3}+\pi$, on peut  simplifier les solutions de la manière suivante : 
+  \conclusion{ $\cS_2 =\ddp   \bigcup_{k\in \Z} \left[ \frac{\pi}{3} +k\pi,\frac{2\pi}{3} +k\pi \right] $}
+ 
+
+\item $x$ est solution de $(E_3)$ si et seulement si 
+$$2x+\frac{\pi}{6}\in \ddp  \bigcup_{k\in \Z} \left[ \frac{\pi}{3} +k\pi,\frac{2\pi}{3} +k\pi \right] $$
+C'est-à-dire 
+$$2x \in  \ddp  \bigcup_{k\in \Z} \left[ \frac{\pi}{3}- \frac{\pi}{6} +k\pi,\frac{2\pi}{3}-\frac{\pi}{6} +k\pi \right] $$
+On obtient 
+$$x \in  \ddp  \bigcup_{k\in \Z} \left[ \frac{\pi}{12} +\frac{k\pi}{2},\frac{\pi}{4}+\frac{k\pi}{2}\right] $$
+Les solutions sur $[0,2\pi[$ sont donc 
+
+\conclusion{ $\cS_3=  \left[ \frac{\pi}{12} ,\frac{\pi}{4}\right] \cup \left[ \frac{\pi}{12} +\frac{\pi}{2},\frac{\pi}{4}+\frac{\pi}{2}\right] \cup \left[ \frac{\pi}{12} +\pi,\frac{\pi}{2}+\pi\right] \cup \left[ \frac{\pi}{12} +\frac{3\pi}{2},\frac{\pi}{4}+\frac{3\pi}{2}\right] $}
+
+\end{enumerate}
+\end{correction}
+
+\end{document}

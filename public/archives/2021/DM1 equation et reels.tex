@@ -1,0 +1,130 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\usepackage{enumitem}
+\newif\ifshow
+\showfalse
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+
+
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{DM1 \\
+\small{A finir avant le Vendredi 10 septembre} 
+}
+\begin{exercice}
+Soit $f$ définie par $f(x) = \frac{x+2}{2x+1}$.\\
+Exprimer $A=\{ x\in \R^+\,| \, f(x) \geq 1\}$ sous la forme d'un intervalle puis donner $\inf(A)$. \\
+Faire de même avec $B=\{ f(x)\,| \, x \in\R^+\}$.
+
+\end{exercice}
+
+
+\begin{exercice}
+Simplifier au maximum
+$$\frac{\left(1-\frac{y^2}{x^2}\right)^a\left(1+\frac{x}{y}\right)^a }{(x+y)^{2a}}$$
+\end{exercice}
+
+
+\begin{exercice}
+Calculer $1001^2-999^2$ (sans calculette)
+\end{exercice}
+
+%\begin{exercice}
+%Résoudre pour $x \in \R$ l'inéquation $$\frac{1}{x+1}\leq \frac{x}{x+2}.$$
+%\end{exercice}
+
+
+\begin{correction}
+Résolvons $f(x) \geq 1$ qui donne la condition sur les $x$ de l'ensemble $A$
+
+\begin{align*}
+f(x) &\geq 1 \\
+\frac{x+2}{2x+1}-1 &\geq 0\\
+\frac{-x+1}{2x+1} &\geq 0
+\end{align*}
+Les solutions sont donc 
+$$\cS = [\frac{-1}{2}, 1]$$
+Ainsi $A=\R^+\cap  [\frac{-1}{2}, 1] = [0,1]$.
+
+Etudions $f$ afin d'expliciter $B$. 
+$f$ est définie et  dérivable  sur $\R\setminus\{ \frac{-1}{2}$ et 
+$$f'(x) = \frac{2x+1 - 2(x+2)}{(2x+1)^2}= \frac{-3}{(2x+1)^2}$$
+Ainsi $f$ est décroissante sur $]-\infty, \frac{-1}{2}[ $ et sur $]\frac{-1}{2}, +\infty[$. 
+Par ailleurs $\lim_{x\tv +\infty } f(x) = \frac{1}{2}$
+Donc 
+$$B= ]\frac{1}{2},2]$$ et 
+$\inf(B) = \frac{1}{2}$
+
+
+\end{correction}
+
+
+
+\begin{correction}
+\begin{align*}
+\frac{\left(1-\frac{y^2}{x^2}\right)^a\left(1+\frac{x}{y}\right)^a }{(x+y)^{2a}} &=\frac{\left(x^2-y^2\right)^a\left(y+x\right)^a }{x^{2a}y^a(x+y)^{2a}}\\
+&=\frac{\left(x-y\right)^a\left(y+x\right)^a\left(y+x\right)^a }{x^{2a}y^a(x+y)^{2a}}\\
+&=\frac{\left(x-y\right)^a }{x^{2a}y^a}
+\end{align*}
+
+\end{correction}
+
+
+\begin{correction}
+$$1001^2-999^2 =  (1001-999)(1001+999) = 2 (2000)=4000$$
+\end{correction}
+
+
+
+
+
+\begin{exercice}
+Résoudre pour $x \in \R$ l'inéquation $$\frac{1}{x+1}\leq \frac{x}{x+2}.$$
+\end{exercice}
+
+
+
+\begin{correction}
+Le fomaine de définition est $\R\setminus\{ -1, -2\}$ . Sur ce domaine l'équation est équivalente à 
+\begin{align*}
+\frac{1}{x+1}-\frac{x}{x+2}&\leq 0\\
+\frac{x+2-x(x+1)}{(x+1)(x+2)}&\leq 0\\
+\frac{-x^2+2}{(x+1)(x+2)}&\leq 0\\
+\frac{x^2-2}{(x+1)(x+2)}&\geq 0\geq\\
+\frac{(x-\sqrt{2})(x+\sqrt{2})}{(x+1)(x+2)}&\geq 0
+\end{align*}
+Tableau de signe. 
+Les solutions sont $]-\infty, -2[\cup [-\sqrt{2}, -1[\cup [\sqrt{2}, +\infty[$. 
+
+\end{correction}
+
+
+
+\begin{exercice}
+Donner l'ensemble de définition de $f(x) = \sqrt{ (x^2-4)\ln\left(\frac{1}{x}\right)}$
+\end{exercice}
+
+
+\begin{correction}
+
+
+Le logarithme est défini sur $\R^*_+$, on obtient donc comme condition 
+$$\frac{1}{x}>0$$
+Cette  condition équivaut à $x>0$.
+
+La racine est définie sur $\R^+$ donc on obtient comme deuxième condition 
+$$(x^2-4)\ln(\frac{1}{x}) \geq 0.$$
+Ceci équivaut à $(x-2)(x+2) \ln(x)\leq 0$ et un tableau de signe donne comme solution $]0,1[\cup [2,+\infty[$.
+Ce dernier ensemble est donc l'ensemble de définition de $f$. 
+
+
+
+
+
+\end{correction}
+
+\end{document}

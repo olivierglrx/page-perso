@@ -1,0 +1,550 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\usepackage{enumitem}
+\geometry{hmargin=3.5cm, vmargin=3.5cm}
+\lstset{basicstyle=\ttfamily, keywordstyle=\rmfamily\bfseries}
+\newif\ifshow
+\showtrue
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+\newcommand\vv[1]{\overrightarrow{#1}}
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{Correction : DS 6
+}
+
+
+\begin{exercice}
+Soit $P_1$ le plan de l'espace d'équation $x+y+z+1=0$ et $P_2$ le plan de l'espace  d'équation $2x-y-z+2=0$
+\begin{enumerate}
+\item Justifier que ces deux plans s'intersctent le long d'une droite que l'on note $D$
+\item Donner un vecteur directeur de $D$. 
+\item Soit $A$ le point de coordonnées $(2,1,0)$. Déterminer les coordonnées de $H$,  projeté orthogonal de $A$ sur $P_1$
+\end{enumerate}
+\end{exercice}
+
+\begin{correction}
+\begin{enumerate}
+\item Soit $\vv{n_1} = \begin{pmatrix}
+1\\
+1\\
+1\\
+\end{pmatrix} $ et $\vv{n_2} = \begin{pmatrix}
+2\\
+-1\\
+-1\\
+\end{pmatrix} $ les vecteurs normaux respectifs de $P_1$ et $P_2$. Ces deux vecteurs ne sont pas proportionnels, donc les plans $P_1$ et $P_2$ ne sont pas paralléles. 
+\conclusion{ Les deux plans s'intersectent le long d'une droite. }
+
+\item $(x,y,z)\in P_1\cap P_2 \equivaut \left\{ \begin{array}{ccc}
+x+y+z+1&=&0\\
+2x-y-z+2&=&0\\
+\end{array}
+\right. \equivaut_{L2\rightarrow L2-2L1} \left\{ \begin{array}{ccc}
+x+y+z+1&=&0\\
+-3y-3z&=&0\\
+\end{array}
+\right. $
+Donc 
+$$(x,y,z)\in P_1\cap P_2 \equivaut \left\{ \begin{array}{ccc}
+x+y&=&z-1\\
+y&=&-z\\
+\end{array}
+\right. 
+\equivaut \left\{ \begin{array}{ccc}
+x&=&2z-1\\
+y&=&-z\\
+\end{array}
+\right.
+$$ 
+Les solutions de ce système sont donc 
+\begin{align*}
+\cS&=\{ (2z-1,-z, z)\, |\, z\in \R\}\\
+&=\{ (-1,0,0) +z(2,-1, 1)\, |\, z\in \R\}
+\end{align*}
+\conclusion{ $\begin{pmatrix}
+2\\
+-1\\
+1
+\end{pmatrix}$ est  un vecteur directeur de $P_1\cap P_2$}
+
+\item Soit $\Delta$ la droite orhogonale à $P_1$ passant par $A$. $\Delta$  a pour équation paramétrique 
+$$\begin{array}{ccc}
+x&=&2+t\\
+y&=&1+t\\
+z&=&0+t
+\end{array}$$
+En injectant ces coordonnées dans l'équation de $P_1$ on obtient 
+$$2+t +1+t +t +1=0$$
+Ce qui donne $3t+4=0$ d'où $t=\frac{-4}{3}$
+
+Les coordonnées $(x_H,y_H,z_H)$ du projeté orthogonal $H$ de $A$ sur $P_1$ vérifient donc 
+$$\begin{array}{ccc}
+x_H&=&2+\frac{-4}{3}\\
+y_H&=&1+\frac{-4}{3}\\
+z_H&=&0+\frac{-4}{3}
+\end{array}$$
+
+Finalement 
+\conclusion{ $H$ a pour coordonnées $\left(\frac{2}{3}, \frac{-1}{3},\frac{-4}{3} \right)$}
+
+
+
+\end{enumerate}
+\end{correction}
+
+\vspace{1cm}
+\begin{exercice}  \;
+D\'eterminer l'intersection de $\mathcal{D} : 2x+5y-10=0$ et de la droite $\mathcal{D}'$ passant par $A(-1,2)$ et dirig\'ee par $\vec{u}(3,2)$.
+\end{exercice}
+
+
+\begin{correction}
+La droite $\cD'$ a pour équation paramétrique :
+$$\begin{array}{ccc}
+x&=&-1+3t\\
+y&=&2+2t\\
+\end{array}$$
+En injectant dans l'équation de $\cD$ on obtient 
+$$2 (-1+3t) +5(2+2t) -10 =0$$
+Ce qui donne $16t -2=0$ soit $t=\frac{1}{8}$
+
+Le point $M=(x_M,y_M)$ intersection de $\cD$ et $\cD'$ vérifie donc 
+$$\begin{array}{ccc}
+x_M&=&-1+3\frac{1}{8}\\
+y_M&=&2+2\frac{1}{8}\\
+\end{array}$$
+Finalement 
+\conclusion{ $M$ a pour coordonnées $\left(-\frac{5}{8}, \frac{9}{4}\right)$}
+
+
+\end{correction}
+\vspace{1cm}
+
+\begin{exercice}
+Soit $P_0=1$ et pour $n\geq 1$,  $P_n =(X^2-1)^n$. 
+\begin{enumerate}
+\item Donner le degré et le coefficient dominant de $P_n$. 
+\item Donner les racines de $P_n$ ainsi que leur multiplicités. \\
+
+Soit $Q_n= P_n^{(n)}$ où $(n)$ désigne la dérivée $n$-éme. 
+\item Calculer $Q_0, Q_1$ et $Q_2$. 
+\item Que vaut $P_n^{(n-1)} (1)$ et $P_n^{(n-1)} (-1)$?
+\item Montrer à l'aide d'une intégration par parties que pour tout $(n,m)\in \N^2$ 
+$$\int_{-1}^{1} Q_n(x) Q_m(x)dx = -\int_{-1}^{1} P_n^{(n+1)}(x) P_m^{(m-1)} (x)dx$$
+\item Montrer à l'aide d'une récurrence sur $k$ que pour tout $(n,m)\in \N^2$ et tout $k\in\intent{0,m}$ que 
+$$\int_{-1}^{1} Q_n(x) Q_m(x)dx = (-1)^k\int_{-1}^{1} P_n^{(n+k)}(x) P_m^{(m-k)} (x)dx$$
+\item On suppose que $n<m$ que vaut $P_n^{(n+m)}$ ?
+\item On suppose que $n<m$ déduire des questions précédentes que 
+$$\int_{-1}^{1} Q_n(x) Q_m(x)dx = 0$$
+\end{enumerate}
+\end{exercice}
+
+\begin{correction}
+\begin{enumerate}
+\item $deg((X^2-1)^n )= n deg(X^2-1)=2n$
+\conclusion{ $deg(P_n)=2n$}
+Le binome de Newton donne 
+$$P_n =(X^2)^n +Q_n$$
+où $Q_n$ est un polynome de degré strictement inférieur à $2n$. 
+Donc 
+\conclusion{ Le coefficient dominant de $P_n$ vaut $1$}
+\item $X^2-1 =(X-1)(X+1)$. Donc 
+$$P_n = (X-1)^n (X+1)^n$$
+Ainsi 
+\conclusion{ $P_n$ admet $1$ et $-1$ comme racines, chacune de multiplicités $n$. }
+
+\item \begin{itemize}
+\item$Q_0=P_0=1$
+\item $Q_1= P_1^{(1)} = P_1'= 2X$
+\item $Q_2 = P_2^{(2)} =P_2''$ Or $P_2 = (X^4-2X^2 +1)$ donc 
+$P_2' = 4X^3-4X$ et $P_2'' =12X^2-4$
+\end{itemize}
+\conclusion{ $Q_0=1$,  $Q_1= 2X$ et $Q_2= 12X^2-4$}
+\item $1$ et $-1$ sont racines de multiplicités $n$ de $P_n$. Donc pour tout $k\in \intent{0, n-1}$ 
+$$P_n^{(k)}(1) =P_n^{(k)}(-1)=0$$
+En particulier 
+\conclusion{ $P_n^{(n-1)}(1) =P_n^{(n-1)}(-1)=0$}
+\item Soit $v(x) =P_m^{(m-1)}(x)$.
+$v$ est un polynome donc dérivable et 
+
+$$v'(x) = \left(P_m^{(m-1)}\right)'(x)=P_m^{(m)}(x) =Q_m(x)$$
+
+\item 
+Soit $u =Q_n $ et $v=P_m^{(m-1)}$. On a donc 
+$v'(x) = Q_m(x)$ et $u'(x) =P_n^{(n+1)}(x)$
+
+Ainsi 
+\begin{align*}
+\int_{-1}^{1} Q_n(x) Q_m(x)dx &= \int_{-1}^{1} u(x) v'(x)dx\\
+					&=\left[u(x) v(x)\right]_{-1}^{1} - \int_{-1}^1 u'(x) v(x)dx 
+\end{align*}
+D'une part 
+$\left[u(x) v(x)\right]_{-1}^{1}= Q_n(1)P_m^{(m-1)}(1) -  Q_n(-1)P_m^{(m-1)}(-1)$ 
+Or d'aprés la question 4, $P_n^{(n-1)}(1) =P_n^{(n-1)}(-1)=0$
+Donc $$\left[u(x) v(x)\right]_{-1}^{1}=0$$
+
+D'autre part, en reprenant les définitions de $u'$ et $v$ on a 
+
+$$ \int_{-1}^1 u'(x) v(x)dx= \int_{-1}^{1} P_n^{(n+1)}(x) P_m^{(m-1)} (x)dx$$
+
+Au final 
+\conclusion{ $\int_{-1}^{1} Q_n(x) Q_m(x)dx = -\int_{-1}^{1} P_n^{(n+1)}(x) P_m^{(m-1)} (x)dx$}
+
+
+\item 
+Soit $H(k)$ la propriété $H(k)="\int_{-1}^{1} Q_n(x) Q_m(x)dx = (-1)^k\int_{-1}^{1} P_n^{(n+k)}(x) P_m^{(m-k}) (x)dx" $
+On va prouver $H$ par récurrence.
+\begin{itemize}
+\item Initialisation 
+
+$$H(0) = "\int_{-1}^{1} Q_n(x) Q_m(x)dx =(-1)^0 \int_{-1}^{1} P_n^{(n+0)}(x) P_m^{(m-0}) (x)dx"$$
+$$H(0) = "\int_{-1}^{1} Q_n(x) Q_m(x)dx =\int_{-1}^{1} P_n^{(n)}(x) P_m^{(m}) (x)dx"$$
+Par définition $Q_n=P_n^{(n)} $ et $Q_m=P_n^{(m)} $, donc $H(0)$ est vérifiée. 
+
+\item Hérédité 
+
+On suppose que la propriété $H$ est vraie à un certain rang $k \in \intent{0,m-1}$ on va montrer que $H(k+1)$ est vraie. 
+
+On a donc par hypothése de récurrence 
+$$\int_{-1}^{1} Q_n(x) Q_m(x)dx = (-1)^k\int_{-1}^{1} P_n^{(n+k)}(x) P_m^{(m-k}) (x)dx$$
+
+On pose $u(x)= P_n^{(n+k)}(x)$ et $v(x)= P_m^{(m-k-1}) (x)=P_m^{(m-(k+1)}) (x) $
+On a donc 
+$$u'(x)=  P_n^{(n+k+1)}(x)\quadet v'(x)= P_m^{(m-k}) (x)=P_m^{(m-k)}) (x)$$
+
+On fait alors une intégration par parties et on obtient 
+
+
+Ainsi 
+\begin{align*}
+\int_{-1}^{1} P_n^{(n+k)}(x) P_m^{(m-k}) (x)dx &= \int_{-1}^{1} u(x) v'(x)dx\\
+					&=\left[u(x) v(x)\right]_{-1}^{1} - \int_{-1}^1 u'(x) v(x)dx 
+\end{align*}
+D'une part 
+$\left[u(x) v(x)\right]_{-1}^{1}=P_n^{(n+k)}(1)P_m^{(m-(k+1))}(1) -  P_n^{(n+k)}(-1)P_m^{(m-(k+1))}(-1)$ 
+Or d'aprés la question 4, $P_m^{(m-(k+1))}(1) =P_m^{(m-(k+1))}(-1)=0$
+(car $k+1\leq m$)
+Donc $$\left[u(x) v(x)\right]_{-1}^{1}=0$$
+
+D'autre part, en reprenant les définitions de $u'$ et $v$ on a 
+
+$$ \int_{-1}^1 u'(x) v(x)dx= \int_{-1}^{1} P_n^{(n+k+1)}(x) P_m^{(m-(k+1))} (x)dx$$
+
+Au final 
+on a 
+
+\begin{align*}
+\int_{-1}^{1} Q_n(x) Q_m(x)dx &= (-1)^k\int_{-1}^{1} P_n^{(n+k)}(x) P_m^{(m-k}) (x)dx\\
+&= (-1)^k(- \int_{-1}^{1} P_n^{(n+k+1)}(x) P_m^{(m-(k+1))} (x)dx\\
+&= (-1)^{k+1} \int_{-1}^{1} P_n^{(n+(k+1))}(x) P_m^{(m-(k+1))} (x)dx\\
+\end{align*}
+La propriété est bien héréditaire. 
+
+\conclusion{ $\forall (n,m)\in \N^2, \, \forall k\in \intent{0,m}, \, \, \int_{-1}^{1} Q_n(x) Q_m(x)dx = (-1)^k\int_{-1}^{1} P_n^{(n+k)}(x) P_m^{(m-k)} (x)dx$}
+
+\end{itemize}
+
+
+\item Si $n>m$ alors $n+m >2n$ et comme $P_n$ est de degré $2n$
+on a 
+\conclusion{ $P_n^{(n+m)} =0$}
+
+\item D'après la question $6$ appliqué à $k=m$ on a 
+
+$$\int_{-1}^{1} Q_n(x) Q_m(x)dx = (-1)^m\int_{-1}^{1} P_n^{(n+m)}(x) P_m (x)dx$$
+Or d'après la question $7$, $P_n^{(n+m)}(x)=0$ pour tout $x\in \R$. 
+On a donc 
+
+\conclusion{$\int_{-1}^{1} Q_n(x) Q_m(x)dx =0$}
+
+\end{enumerate}
+\end{correction}
+
+
+\vspace{2cm}
+\begin{exercice}
+Soit $\suite{T}$ la suite de polynômes définie par 
+$T_0 =1, \, T_1=X$ et 
+$$\forall n\in \N, \, T_{n+2}=2XT_{n+1} -T_n$$
+\begin{enumerate}
+\item Expliciter $T_2$ et $T_3$
+
+\item Montrer, à l'aide d'une récurrence double, que le degré de $T_n=n$ et  son coefficient dominant  vaut $2^n$. 
+\item Montrer que pour tout $\theta\in \R$ et tout $n\in \N$ que 
+$$2\cos(\theta)\cos((n+1)\theta) -\cos(n\theta) = \cos((n+2)\theta$$
+\item En déduire, à l'aide d'une récurrence double, que pour tout $\theta \in \R$ et tout $n\in \N$ on a 
+$$T_n(\cos(\theta))=\cos(n\theta)$$
+%\item En déduire les valeur de $T_n(1)$.
+\item Résoudre $\cos(n\theta) =0$ pour $\theta \in [0,\pi]$
+\item Déterminer les racines de $T_n$ appartenant à  l'intervalle $[-1,1]$.
+\item Justifier que l'on obtient ainsi toutes les racines de $T_n$. 
+\item En déduire la factorisation de $T_n$ dans $R[X]$
+\end{enumerate}
+\end{exercice}
+\begin{correction}
+\begin{enumerate}
+\item $T_2 = 2XT_1 -T_0 = 2X^2-1$ et 
+
+$T_3=2XT_2-T_1= 4X^3-2X-X= 4X^3-3X$
+
+\conclusion{ $T_2= 2X^2-1$ et $T_3= 4X^3-3X$}
+\item 
+Soit $S(n) $ la propriété $S(n) :$ "  $deg(T_n)=n$ et son coefficient dominant vaut $2^n$".
+
+\begin{itemize}
+\item Initialisation : 
+
+$T_0=1$ et $T_1=X$ donc
+$S(0) $ et $S(1)$ sont vraies.
+
+\item Hérédité :
+
+On suppose qu'il existe $n\in \N^*$ tel que $S(n) $ et $S(n+1)$ sont vraies. 
+Nous allons montrer $S(n+2)$.
+
+La définition de $T_n$ donne 
+$$T_{n+2} =2XT_{n+1} -T_n$$
+Par hypothése de récurrence $deg(T_{n+1} )=n+1$ et $deg(T_n)=n$ 
+Donc $deg(2XT_{n+1})= n+2>n$ et donc 
+$$deg(T_{n+2} =\max  (deg(2XT_{n+1}), deg(T_n) ) =n+2$$
+
+De même par hypothése de récurrence 
+$$T_{n+1} = 2^{n+1} X^{n+1} +R_n$$ où $R_n\in \R_{n}[X]$ on a donc 
+\begin{align*}
+T_{n+2} &= 2X (2^{n+1} X^{n+1} +R_n) -T_n\\
+			&=2^{n+2} X^{n+2} +2XR_n -T_n
+\end{align*}
+Or $deg(2XR_n) \leq n+1<n+2$ et $deg(T_n)=n <n+2$
+donc le coefficient dominant de $T_{n+2} =2^{n+2}$
+
+\item Conclusion  :
+
+\conclusion{ $\forall n \in \N, \, deg(T_n)=n$ et  le coefficient de $T_n$ vaut $2^n$}
+\end{itemize}
+
+
+\item 
+D'une part 
+\begin{align*}
+\cos((n+1)\theta)& =\cos(n\theta +\theta)\\
+&= \cos(n\theta)\cos(\theta) -\sin(n\theta) \sin(\theta)
+\end{align*}
+D'autre part 
+\begin{align*}
+\cos((n+2)\theta)& =\cos(n\theta +2\theta)\\
+&= \cos(n\theta)\cos(2\theta) -\sin(n\theta) \sin(2\theta)\\
+&= \cos(n\theta)(\cos^2(\theta) -\sin^2(\theta))-\sin(n\theta)2 \sin(\theta)\cos(\theta)\\
+&= \cos(n\theta)(2\cos^2(\theta) -1)-\sin(n\theta)2 \sin(\theta)\cos(\theta)
+\end{align*}
+où l'on a utilisé $\cos^2(\theta) +\sin^2(\theta)=1$ à la dernière ligne. 
+
+On a donc 
+\begin{align*}
+2\cos(\theta)\cos((n+1)\theta) -\cos(n\theta)  &= 2\cos(\theta) ( \cos(n\theta)\cos(\theta) -\sin(n\theta) \sin(\theta)) -\cos(n\theta)\\
+&= \cos(n\theta)( 2\cos^2(\theta)-1 -2 \cos(\theta) \sin(n\theta) \sin(\theta)
+\end{align*}
+
+On a bien 
+\conclusion{$2\cos(\theta)\cos((n+1)\theta) -\cos(n\theta) = \cos((n+2)\theta$}
+
+
+\item Pour tout $\theta \in \R$, soit $H(n)$ la propriété $H(n) : 'T_n(\cos(\theta)) = \cos(n\theta)'$
+
+\begin{itemize}
+\item Initialisation :
+
+$T_0 =1 $ donc $T_0(\cos(\theta) ) =1 =\cos(0\theta)$ donc $H(0) $ est vraie. 
+
+$T_1= X$ donc $T_1(\cos(\theta) ) =\cos(\theta) =\cos(1\theta)$ donc $H(1) $ est vraie. 
+
+\item Hérédité 
+
+On suppose qu'il existe $n\in \N^*$ tel que $H(n) $ et $H(n+1)$ sont vraies. 
+Nous allons montrer $H(n+2)$.
+
+La définition de $T_n$ donne 
+$$T_{n+2} =2XT_{n+1} -T_n$$
+
+Donc 
+\begin{align*}
+T_{n+2}(\cos(\theta) &= 2\cos(\theta)T_{n+1} (\cos(\theta))-T_n(\cos(\theta))\\
+ &= 2\cos(\theta) \cos((n+1)\theta))-\cos(n\theta))\quad \text{ Par hypothése de récurrence}\\
+ &= \cos((n+2)\theta) \quad \text{ D'après la question 3}
+\end{align*}
+
+\item Conclusion :
+
+\conclusion{ $\forall \theta \in \R, \forall n\in \N, \, \, T_n(\cos(\theta)) =\cos(n\theta)$}
+\end{itemize}
+
+
+\item 
+\begin{align*}
+\cos(n\theta) =0 &\equivaut n\theta \equiv \frac{\pi}{2}[\pi]
+					&\equivaut \theta \equiv \frac{\pi}{2n}[\frac{\pi}{n}]
+\end{align*}
+
+Ainsi les solutions sur $\R$ sont $$S_\R=\{ \frac{\pi}{2n}+\frac{k\pi}{n}\, |\, k\in \Z\}$$
+Les solutions sur $[0, \pi]$ sont donc 
+\conclusion{ $S_{[0, \pi]}=\{ \frac{\pi+2k\pi}{2n}\, |\, k\in \intent{0,n-1}\}$}
+
+
+\item Soit $x$ une racine de $T_n$ sur $[-1,1]$. On peut donc écrire $x=\cos(\theta) $ avec $\theta \in [0,\pi]$ et on a 
+donc 
+\begin{align*}
+T_n(x)=0 &\equivaut T_n(\cos(\theta))=0 \\
+&\equivaut \cos(n\theta) \quad \text{ Q.4} \\
+&\equivaut \theta in \{ \frac{\pi+2k\pi}{2n}\, |\, k\in \intent{0,n-1}\} \quad \text{ Q.5} 
+\end{align*}
+
+Ainsi les racines de $T_n$ sur $[-1,1]$ sont donc 
+\conclusion{ $R=\{ \cos\left( \frac{\pi+2k\pi}{2n}\right) \,|\, k\in \intent{0,n-1}\} $}
+
+\item On a obtenu $n$ raicines distinctes. Or $T_n$ est de degré $n$ qui a donc au plus $n$ racines. 
+\conclusion{On a  donc obtenu toutes les racines de $T_n$}
+\item 
+$T_n$ se factorise donc de la manière suivante 
+\conclusion{ $T_n =2^n\ddp  \prod_{k=0}^{n-1}  \left(X- \cos\left( \frac{\pi+2k\pi}{2n}\right)\right)$}
+
+
+
+\end{enumerate}
+\end{correction}
+
+
+\vspace{3cm}
+
+
+\begin{exercice}
+On souhaite représenter informatiquement un polynôme. Pour cela à un polynôme $P=\ddp \sum_{k=0}^n a_k X^k$ on associe la liste 
+$[a_0, a_1, \dots, a_n]$. Par exemple le polynôme $P=1+X+X^3$ serait représenté par la liste $L=[1,1,0,1]$
+\begin{enumerate}
+\item Soit $Q=1+X^2- 2X^3 +X^5$. Donner la liste représentant $Q$. 
+\item Expliciter le polynôme représenté par la liste \texttt{[0,0,1,0,0]}. Donner une autre liste qui représente aussi ce polynôme. 
+\item Ecrire une fonction \texttt{evaluation} qui prend en argument un flotant $x$ et  une liste $L$  qui représente un polynôme $P$ et retourne la valeur de $P(x)$.
+Par exemple \texttt{evaluation([1,1,0,1],2)} doit retourner la valeur 11.
+\item 
+Ecrire une fonction \texttt{simplification} qui prend en argument une liste \texttt{L} et retourne une liste qui ne comporte pas de $0$ à droite. 
+Par exemple \texttt{simplication([1,1,0,1])} retourne \texttt{[1,1,0,1]} et 
+ \texttt{simplication([1,1,0,1,0,0,0,0])} retourne \texttt{[1,1,0,1]} 
+ 
+\item Ecrire une fonction \texttt{degre} qui prend en argument une liste \texttt{L} représentant un polynôme $P$ et retourne le degré de $P$. Par exemple \texttt{degre([1,1,0,1])} retourne 3. On fera attention qu'un polynôme puisse être représenté par plusieurs listes comme on l'a vu dans la question 2
+
+\item  Que fait la fonction suivante ?
+\begin{lstlisting}[language =Python]
+def mystere(L1,L2):
+  n1,n2 =len(L1), len(L2)
+  L1=L1+[0]*len(L2)
+  L2=L2+[0]*len(L1)
+  return(L1,L2) 
+\end{lstlisting}
+
+\item Ecrire une fonction \texttt{somme} qui prend en agument deux listes \texttt{L1} et \texttt{L2} représentant des polynômes $P_1$ et $P_2$ et retourne une liste qui correspond au polynôme $P_1+P_2$.
+Par exemple \texttt{somme([1,2,3],[0,-2])} retourne \texttt{[1,0,3]}
+%\item Ecrire une fonction \texttt{derivation} qui prend en agument  une liste qui correspond à un polynôme $P$ et retourne une liste qui correspond au  polynôme dérivée $P'$. Par exemple 
+%\texttt{derivation([1,1,0,1])} retourne \texttt{[1,0,3]}
+\item Que fait la fonction suivante où $L$ est une liste qui représente un polynôme $P$. 
+\begin{lstlisting}[language=Python]
+def mystere2(L):
+  D=[]
+  for k in range(1,len(L)):
+     D.append(k*L[k])
+  return(D)
+\end{lstlisting}
+
+\item Ecrire une fonction \texttt{multipl} qui prend en argument
+une liste qui correspond à un polynôme $P$ et retourne une liste qui correspond au  polynôme $2XP$. Par exemple 
+\texttt{multipl([1,1,0,1])} retourne \texttt{[0,2,2,0,2]}
+\item Ecrire une fonction \texttt{Tchebychev} qui prend en argument un entier $n$ et retourne la liste correspondant  au polynôme $V_n$ défini par $V_0 =1, \, V_1=X$ et 
+$$\forall n\in \N, \, V_{n+2}=2XV_{n+1} +V_n$$
+Par exemple \texttt{Tchebychev(1)} retourne \texttt{[0,1]}
+
+
+\end{enumerate}
+
+\end{exercice}
+
+\begin{correction}
+\begin{enumerate}
+\item $Q$ est représenté par \texttt{[1,0,1,-2,0,1]}
+\item  \texttt{[0,0,1,0,0]} représente le polynôme $X^2$. Il est aussi représenté par la la liste  \texttt{[0,0,1]}
+\item 
+\begin{lstlisting}[language=Python]
+def evaluation(L,x):
+  v=0
+  for i in range(len(L)):
+    v=v+L[i]*x**i
+  return(v)
+\end{lstlisting}
+
+\item 
+\begin{lstlisting}
+def simplification(L):
+  while len(L)>0 and L[-1]!=0 :
+    L.pop()
+  return(L)
+\end{lstlisting}
+
+\item 
+\begin{lstlisting}
+def degre(L):
+  simplification(L) #permet de supprimer les 0 inutiles
+  return(len(L)-1) #attention le degre n'est pas egal a la longueur de L
+\end{lstlisting}
+
+\item Cette fonction retourne les liste $L1$ et $L2$ où l'on a ajouté des 0 à leur fin afin que les deux listes soient de même tailles. 
+En particulier 
+\conclusion{ \texttt{len(mystere(L1,L2)[0]) = len(L1) +len(L2)}}
+
+ARgh c'est faux ! c'est ce que je voulais faire mais je me suis trompé dans le code. Avec le code actuel la longueur de L1 est de  len(L1) +len(L2). Mais comme L2 est actualisé aprés, la longueur de L2 est de len(L2) +( len(L1) +len(L2)). 
+
+
+Voilà la fonction qui permet d'avoir des listes de meme tailles : 
+
+
+\begin{lstlisting}[language =Python]
+def mystere(L1,L2):
+  n1,n2 =len(L1), len(L2)
+  L1, L2 =L1+[0]*len(L2), L2+[0]*len(L1)
+  return(L1,L2) 
+\end{lstlisting}
+Dans cette fonction l'affectaion est simultanée et donc les listes ont bien la même longueur \emph{in fine}
+
+
+\item 
+\begin{lstlisting}
+def somme(L1,L2):
+ L1,L2 =mystere(L1,L2)
+ s=[]
+ for i in range(len(L1)):
+   s.append(L1[i]+L2[i])
+ return(simplification(s))
+\end{lstlisting}
+\item 
+\texttt{mystere2} calcule les coefficients de la liste correspondant au polynome dérivé de $P$. 
+\item 
+\begin{lstlisting}
+def multip(L):
+  M=[0]
+  for ak in L:
+    M.append(2*ak)
+  return(M)
+\end{lstlisting}
+\item 
+\begin{lstlisting}
+def Tchebychev(n):
+  Vn=[1]
+  Vnplus1=[0,1]
+  for i in range(n):
+    Vn,Vnplus1 = Vnplus1, somme(mutiplt(Vnplus1),Vn)
+  return(Vn)
+\end{lstlisting}
+\end{enumerate}
+
+\end{correction}
+
+
+\end{document}

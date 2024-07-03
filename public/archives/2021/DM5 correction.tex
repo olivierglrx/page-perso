@@ -1,0 +1,373 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\newif\ifshow
+\showtrue
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{Correction DM5 }
+
+
+
+
+
+
+
+
+
+%\begin{exercice}
+%Soit $\lambda \in \R$. On considère le système suivant 
+%$$(S_\lambda)\quad  \left\{ \begin{array}{ccc}
+%2x +2y & =& \lambda x\\
+%x +3y  & =& \lambda y 
+%\end{array}\right. $$
+%
+%\begin{enumerate}
+%\item Déterminer $\Sigma$ l'ensemble des réels $\lambda$ pour lequel ce système \underline{n'est pas} de Cramer. 
+%\item Pour $\lambda \in \Sigma$, résoudre $S_\lambda$
+%\item Quelle est la solution si $\lambda \notin \Sigma$ ?
+%\end{enumerate}
+%\end{exercice}
+%
+%\begin{correction}
+%\begin{enumerate}
+%\item  On met le système sous forme échelonné
+%$$(S_\lambda)\equivaut  \left\{ \begin{array}{ccc}
+%(2-\lambda)x +2y & =& 0\\
+%x +(3-\lambda)y  & =& 0
+%\end{array}\right.
+%\equivaut 
+%\left\{ \begin{array}{ccc}
+%x +(3-\lambda)y  & =& 0\\
+%(2-\lambda)x +2y & =& 0
+%\end{array}\right.
+%\equivaut 
+%\left\{ \begin{array}{rcc}
+%x +(3-\lambda)y  & =& 0\\
+%+2y -  (3-\lambda) (2-\lambda) y& =& 0
+%\end{array}\right.
+% $$
+% D'où 
+% 
+% $$(S_\lambda)\equivaut  \left\{ \begin{array}{rcc}
+%x +(3-\lambda)y  & =& 0\\
+%  (-\lambda^2 +5\lambda -4) y& =& 0
+%\end{array}\right.$$
+% 
+%Le système n'est pas de Cramer si  $ (\lambda^2 +5\lambda -4) =0$, soit 
+%$$\Sigma =\{ 1, 4\}$$
+%\item \begin{itemize}
+%\item $\underline{\lambda=1}$
+%On obtient $S_1 \equivaut x+ 2y =0$
+%$$\cS_1 =\{ (-2y, y) | y \in \R\}$$
+%
+%\item $\underline{\lambda=4}$
+%On obtient $S_4 \equivaut x-y =0$
+%$$\cS_4 =\{ (x, x) | x \in \R\}$$
+%\end{itemize}
+%
+%\item Si $\lambda$ n'est pas dans $ \Sigma$, le système est de Cramer, il admet donc une unique solution. Comme $(0,0)$ est solution, c'est la seule. 
+%$$\cS_\lambda =\{ (0,0)\}$$
+%\end{enumerate}
+%\end{correction}
+
+
+
+\begin{exercice}
+Soit $\epsilon\in]0,1[$ et $u\in \bC$ tel que $|u| \leq 1-\epsilon$.
+Soit $\suite{z}$ la suite définie par $z_0= i+u$ et pour tout $n\in \N$ :
+$$z_{n+1} = z_n^2 -2iz_n-1+i$$
+
+Montrer que $\forall n\in \N,\, |z_n-i|\leq (1-\epsilon)^{2^n}$. En déduire la limite de $\suite{z}$.
+\end{exercice}
+
+\begin{correction}
+On a pour tout $n\in \N$, 
+$$z_{n+1} -i =z_n^2 -2iz_n-1= (z_n-i)^2$$. 
+
+On va procéder par récurrence. Pour $n=0$ on a 
+$$|z_0-i |=|u| \leq 1-\epsilon =(1-\epsilon)^{2^0}$$
+
+Supposons donc qu'il existe $n$ tel que $|z_n-i|\leq (1-\epsilon)^{2^n}$  et montrons l'inégalité pour $(n+1)$
+
+
+On a $$z_{n+1} - i = z_n^2-2iz_n-1 = (z_n -i)^2.$$
+Donc 
+$$|z_{n+1} - i | =| z_n -i|^2,$$
+D'après l'hypothése de récurrence on a 
+$| z_n -i| \leq (1-\epsilon)^{2^n}$, d'où
+$$| z_n -i|^2 \leq \left((1-\epsilon)^{2^n}\right)^2 =(1-\epsilon)^{2\times 2^{n}}$$
+C'est à dire 
+$$|z_{n+1} - i | \leq (1-\epsilon)^{2^{n+1}}$$
+L'inégalité est donc héréditaire et la propriété est donc vraie pour tout $n\in \N$.
+
+Comme $|1-\epsilon|<1$ on a $\lim_{n\tv \infty}  (1-\epsilon)^{2^{n+1}}=0$ donc 
+$$\lim_{n\tv \infty}  z_n = i.$$
+
+
+
+
+\end{correction}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{exercice}
+On note $S_n=  \ddp \sum_{k=1}^n \frac{1}{k^2}$.
+
+\begin{enumerate}
+\item Montrer que la suite $\suite{S}$  est monotone. 
+\item Montrer que pour tout $k\geq 2$
+$$\frac{1}{k^2} \leq \frac{1}{k-1}-\frac{1}{k}$$
+\item En déduire que la suite $\suite{S}$ converge vers une limite $\ell \in [0,2]$. 
+\end{enumerate}
+\end{exercice}
+
+
+
+\begin{correction}
+\begin{enumerate}
+\item Pour tout $n\in \N$ on a  $S_{n+1} = S_n + \frac{1}{(n+1)^2}$, donc 
+$S_{n+1}-S_n = \frac{1}{(n+1)^2}\geq 0$. Ainsi, $\suite{S}$ est croissante. 
+\item Pour tout $k\geq 2$ : $\frac{1}{k-1}-\frac{1}{k}= \frac{k-(k-1)}{k(k-1)}= \frac{1}{k(k-1)}$
+Or pour tout $k\geq 2$,  $0<k(k-1) \leq k^2$. Comme la fonction inverse est décroissante sur $\R_+^*$ on a donc : 
+$$\frac{1}{k-1}-\frac{1}{k}=\frac{1}{k(k-1)}\geq \frac{1}{k^2}$$
+
+\item  D'après la question précédente, on peut majorer tous les termes de $S_n$ à partir du rang $k=2$. On  a alors : 
+$$S_n = 1+ \sum_{k=2}^n\frac{1}{k^2} \leq 1 + \sum_{k=2}^n\frac{1}{k-1} -\frac{1}{k}$$
+On reconnait alors dans le  membre de droite une somme téléscopique qui se simplifie de la manière suivante : 
+$$\sum_{k=2}^n\frac{1}{k-1} -\frac{1}{k} = \frac{1}{2-1} -\frac{1}{n} = 1-\frac{1}{n}$$
+On obtient alors $S_n  \leq 2-\frac{1}{n}$. 
+La suite $\suite{S}$ est croissante et majorée, d'après le théorème des limlites monotones la suite $\suite{S}$ converge, notons $\ell$ sa limite. 
+
+Comme $0\leq S_n\leq 2-\frac{1}{n}$ et $\lim_{n\tv \infty} 2-\frac{1}{n}=2$, le théorème d'encadrement assure que $\ell\in [0,2]$. 
+ 
+
+
+\end{enumerate}
+\end{correction}
+
+
+%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{exercice}[Suite de Fibonacci]
+%\paragraph{Exercice 1 : Suite de Fibonacci}
+Soit $\suite{F}$ la suite définie par $F_0 =0, \, F_1=1 $ \text{ et pour tout $n \geq 0 $ \,} 
+$$ F_{n+2} = F_{n+1} +F_n.$$
+
+\begin{enumerate}
+\item Montrer que pour tout $n\in \N$ on a : $\ddp \sum_{k=0}^n F_{2k+1} =F_{2n+2}$
+et $\ddp \sum_{k=0}^n F_{2k} =F_{2n+1}-1$.
+\item Montrer que pout tout $n\in \N$ on a $\ddp \sum_{k=0}^n F_{k}^2 =F_nF_{n+1}$.
+\item \begin{enumerate}
+\item On note $\varphi = \frac{1+\sqrt{5}}{2}$ et $\psi=\frac{1-\sqrt{5}}{2}$. Montrer que 
+$\varphi^2 =\varphi+1$ et $\psi^2 =\psi+1$.
+\item Montrer que l'expression explicite de $F_n$ st donnée par $F_n =\frac{1}{\sqrt{5}}(\varphi^n-\psi^n)$.
+\item En déduire que $\ddp \lim_{n\tv \infty} \frac{F_{n+1}}{F_n}=\varphi.$
+\end{enumerate}
+\end{enumerate}
+
+\end{exercice}
+
+
+
+
+\begin{correction}
+\begin{enumerate}
+\item Nous allons montrer ces propriétés par récurrence sur l'entier $n\in \N$. 
+Soit $\cP(n)$ la prorpriété définie pour tout $n\in\N$ par:
+$$\cP(n) := \text{ \og }\ddp  \sum_{k=0}^n F_{2k+1} =F_{2n+2} \text{ 
+et } \ddp \sum_{k=0}^n F_{2k} =F_{2n+1}-1 \text{ \fg }.$$
+Montrons  $\cP(0)$. Vérifions la première égalité : 
+$$\sum_{k=0}^0 F_{2k+1} =F_{0+1}=F_1=1$$
+et 
+$$F_2 =F_1+F_0 =1$$
+Donc la première égalité est vraie au rang $0$. 
+
+Vérifions la sedonde égalité : 
+$$\sum_{k=0}^0 F_{2k} =F_{0}=0$$
+et 
+$$F_{2*0+1}-1 =F_1-1=0$$
+Donc la seconde égalité est vraie au rang $0$. 
+Ainsi $\cP(0)$ est vraie. 
+
+
+ \textbf{H\'er\'edit\'e:}\\
+Soit $n\geq 0$ fix\'e. On suppose la propri\'et\'e vraie \`a l'ordre $n$. Montrons qu'alors $\mathcal{P}(n+1)$ est vraie.\\
+
+Considérons la première égalité de $\cP(n+1)$. Son membre de gauche vaut : 
+\begin{equation*}
+ \sum_{k=0}^{n+1} F_{2k+1}=  \sum_{k=0}^n F_{2k+1} +F_{2n+3}
+\end{equation*}
+Par hypothèse de récurrence on a $ \ddp \sum_{k=0}^n F_{2k+1} = F_{2n+2}$, donc 
+\begin{align*}
+ \sum_{k=0}^{n+1} F_{2k+1} & =F_{2n+2}+F_{2n+3}.\\
+								& = F_{2n+4}.\quad \text{ d'après la définition de $\suite{F}$}\\
+								& = F_{2(n+1)+2}.\\
+\end{align*}
+La première égalité est donc héréditaire. 
+
+
+Considérons la sedonde égalité de $\cP(n+1)$. Son membre de gauche vaut : 
+\begin{equation*}
+ \sum_{k=0}^{n+1} F_{2k}=  \sum_{k=0}^n F_{2k} +F_{2n+2}
+\end{equation*}
+Par hypothèse de récurrence on a $ \ddp \sum_{k=0}^n F_{2k} = F_{2n+1}-1$, donc 
+\begin{align*}
+ \sum_{k=0}^{n+1} F_{2k} & =F_{2n+1}-1+F_{2n+2}.\\
+								& = F_{2n+3}-1.\quad \text{ d'après la définition de $\suite{F}$}\\
+								& = F_{2(n+1)+1}-1.\\
+\end{align*}
+La seconde égalité est donc héréditaire. Finalement la propriété $\cP(n+1)$ est vraie. 
+
+
+\textbf{Conclusion:}\\
+Il r\'esulte du principe de r\'ecurrence que pour tout $ n\geq 0$:
+\begin{center}
+\fbox{$\ddp \sum_{k=0}^n F_{2k+1} =F_{2n+2} \text{ 
+et } \ddp \sum_{k=0}^n F_{2k} =F_{2n+1}-1 $}
+\end{center}
+
+
+\item On  va montrer par récurrence que $\mathcal{P}(n) :\ddp \sum_{k=0}^n F_{k}^2 =F_{n}F_{n+1}$. 
+
+
+
+\textbf{Initialisation:}  Pour $n=0$, on a $\sum_{k=0}^0 F_{k}^2 = F_0^2=0$ et $F_0F_1=0$. 
+La propriété est donc vraie au rang $0$. 
+ 
+ \textbf{H\'er\'edit\'e:}\\
+Soit $n\geq 0$ fix\'e. On suppose la propri\'et\'e vraie \`a l'ordre $n$. 
+
+On a $\ddp \sum_{k=0}^{n+1} F_{k}^2 =\sum_{k=0}^{n} F_{k}^2 +F_{n+1}^2$
+Par hypothèse de récurrence on a $\sum_{k=0}^{n} F_{k}^2 = F_n F_{n+1}$ donc : 
+\begin{align*}
+ \sum_{k=0}^{n+1} F_{k}^2 &=  F_n F_{n+1} +F_{n+1}^2\\
+				&= F_{n+1} (F_n +F_{n+1}) \\
+				&=   F_{n+1}F_{n+2}  \quad \text{ par définition de $\suite{F}$ }													
+\end{align*}
+
+La propriété $\cP$ est donc vraie au rang $n+1$.
+
+\textbf{Conclusion:}\\
+Il r\'esulte du principe de r\'ecurrence que pour tout $ n\geq 0$:
+\begin{center}
+\fbox{$\mathcal{P}(n): \ddp \sum_{k=0}^n F_{k}^2 =F_{n}F_{n+1}$}
+\end{center}
+
+\item Le polynôme du second degrès $X^2-X-1$ a pour discriminant $\Delta =1+4=5$ les racines sont donc 
+$\varphi = \frac{1+\sqrt{5}}{2}$ et $\psi=\frac{1-\sqrt{5}}{2}$. 
+En particulier, ces nombres vérifient : $\varphi^2 -\varphi -1 =0$ et $\psi^2 -\psi-1=0$, c'est-à-dire 
+
+\begin{center}
+\fbox{$\varphi^2 =\varphi+1$ et $\psi^2 =\psi+1$.}
+\end{center}
+
+
+
+
+
+\item  Notons  :$u_n =\frac{1}{\sqrt{5}}(\varphi^n-\psi^n)$ 
+On a 
+$$u_0= \frac{1}{\sqrt{5}}(\varphi^0-\psi^0)=0$$
+$$u_1= \frac{1}{\sqrt{5}}(\varphi^1-\psi^1)=1$$
+et pour tout $n\in\N$ on a 
+\begin{align*}
+u_{n+2} &= \frac{1}{\sqrt{5}}(\varphi^{n+2}-\psi^{n+2}) \\
+			&= \frac{1}{\sqrt{5}}(\varphi^n (\varphi^2)-\psi^n (\psi^2) ) \\
+			&= \frac{1}{\sqrt{5}}(\varphi^n (\varphi +1)-\psi^n (\psi +1)  ) \quad \text{ D'après la question précédente} \\			
+			&= \frac{1}{\sqrt{5}}(\varphi^{n+1} +\varphi^n-\psi^{n+1} -\psi^n   ) \\
+			&= \frac{1}{\sqrt{5}}(\varphi^{n+1} -\psi^{n+1}) +  \frac{1}{\sqrt{5}} \varphi^n-\psi^n   ) \\
+			&=u_{n+1}+u_n
+\end{align*}
+Donc $u_n$ satisfait aussi la relation de récrurrence. 
+Ainsi  pour tout $n\in \N$, $u_n=F_n= \frac{1}{\sqrt{5}}(\varphi^n-\psi^n)$. 
+
+
+\item D'après la question précédente on a pour tout $n\in \N$: 
+$$\frac{F_{n+1}}{F_n} =  \frac{\varphi^{n+1}-\psi^{n+1}}{\varphi^n-\psi^n}$$
+Donc,
+\begin{align*}
+\frac{F_{n+1}}{F_n} &=\varphi \frac{\varphi^{n}\left(1-\frac{\psi^{n+1}}{\varphi^{n+1}}\right)}{\varphi^n\left(1-\frac{\psi^n}{\varphi^n}\right)}\\
+&=\varphi \frac{1-\left(\frac{\psi}{\varphi}\right)^{n+1}}{1-\left(\frac{\psi}{\varphi}\right)^n}
+\end{align*}
+
+
+Remarquons que $|\varphi| >|\psi|$ en particulier $|\frac{\psi}{\varphi}|<1$ et donc 
+$$\lim_{n\tv \infty} \left(\frac{\psi}{\varphi}\right)^{n+1} =0.$$
+Finalemetn 
+\begin{center}
+\fbox{$ \lim_{n\tv \infty} \frac{F_{n+1}}{F_n} =\varphi$.} 
+\end{center}
+
+\end{enumerate}
+
+\end{correction}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{exercice}[Vous pouvez attendre vendredi pour le faire]
+Calculer 
+$$\sum_{i,j \in \intent{1,n}} \min(i,j)$$
+
+\end{exercice}
+
+
+
+\begin{correction}
+\underline{Solution 1 :} 
+\begin{align*}
+\sum_{i,j \in \intent{1,n}} \min(i,j) &= \sum_{i=1}^n \sum_{j=1}^n\min(i,j)\\
+												&= \sum_{i=1}^n \sum_{j=1}^i\min(i,j) + \sum_{i=1}^n \sum_{j=i+1}^n\min(i,j)\\
+												&= \sum_{i=1}^n \sum_{j=1}^i j  + \sum_{i=1}^n \sum_{j=i+1}^n i\\
+													&= \sum_{i=1}^n \frac{i(i+1)}{2}+ \sum_{i=1}^n (n-i) i\\
+													&= \sum_{i=1}^n \frac{-i^2+(2n+1)i}{2}\\		
+													&= \frac{1}{2} \left( \sum_{i=1}^n -i^2  + (2n+1)\sum_{i=1}^ni \right)\\																					&= \frac{1}{2} \left(-\frac{n(n+1)(2n+1)}{6} +(2n+1)\frac{n(n+1)}{2}\right)\\											
+													&=\frac{n(n+1)(2n+1)}{6} 
+\end{align*}
+
+
+
+\underline{Solution 2 :}
+\begin{align*}
+\sum_{i,j \in \intent{1,n}} \min(i,j)  &= \sum_{i,j \in \intent{1,n}, i=j} \min(i,j)  +\sum_{i,j \in \intent{1,n}, i<j } \min(i,j)  + \sum_{i,j \in \intent{1,n}, j<i } \min(i,j) \\
+										&=\left( \sum_{i \in \intent{1,n} } i \right) +\left(2\sum_{i,j \in \intent{1,n}, i< j } i \right)\\
+										&= \frac{n(n+1)}{2} + 2 \sum_{i=1}^{n-1}\sum_{j=i+1}^n i \\
+										&= \frac{n(n+1)}{2} + 2 \sum_{i=1}^{n-1}(n-i) i \\
+										&= \frac{n(n+1)}{2} + 2 \sum_{i=1}^{n-1}(n-i) i \\
+										&= \frac{n(n+1)}{2} + 2 \left( \frac{n^2(n-1)}{2}  - \frac{(n-1)n(2n-1)}{6}     \right)  \\
+											&= \frac{n(n+1)}{2} + 2 \frac{n(n-1)(n+1)}{6} \\
+											&= \frac{n(n+1) (3 +2(n-1))}{6} \\
+											&= \frac{n(n+1) (2n+1)}{6} 
+\end{align*}
+
+
+\end{correction}
+
+
+
+
+
+
+
+\end{document}

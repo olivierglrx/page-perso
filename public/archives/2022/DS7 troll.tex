@@ -1,0 +1,145 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\usepackage{enumitem}
+\geometry{hmargin=2.5cm, vmargin=2.5cm}
+\lstset{basicstyle=\ttfamily, keywordstyle=\rmfamily\bfseries}
+\newif\ifshow
+\showfalse
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{DS 7\\
+\Large{Durée 3h00}
+}
+
+
+
+
+\vspace{1cm}
+\begin{center}
+
+\begin{description}
+\item$\bullet$ Les calculatrices sont \underline{interdites} durant les cours, TD et \emph{a fortiori} durant les DS de mathématiques. \\
+
+\item $\bullet $ Si vous pensez avoir découvert une erreur, indiquez-le clairement sur la copie et justifiez les initiatives que vous êtes amenés à prendre. \\
+
+\item $\bullet$ Une grande attention sera apportée à la clarté de la rédaction et à la présentations des solutions. (Inscrivez clairement en titre le numéro de l'exercice, vous pouvez aussi encadrer les réponses finales.)  \\
+
+\item $\bullet$ Vérifiez vos résultats. \\
+
+\item $\bullet$ Le résultat d'une question peut être admis et utilisé pour traiter les questions suivantes en le signalant explicitement sur la copie. 
+\end{description}
+
+\end{center} 
+
+\newpage
+\begin{exercice}
+Calculer les limites suivantes : 
+
+
+$$1) \lim\limits_{x\to 0} \ddp\frac{(\cos{x})^2\sin{x^2}}{\sqrt{1-x^2}-1} \quad \hspace{1.5cm }2) \lim\limits_{x\to +\infty} \ddp\frac{\cos{x}}{x+1} \quad \hspace{1.5cm } 3)  \ddp \lim_{x \tv 1} \frac{\sqrt{x}-1}{ \ln(x)}$$
+
+\end{exercice}
+
+\vspace{1cm}
+
+
+\begin{exercice}
+
+Calculer la limite de $S_n$ quand $n\tv +\infty$ où $S_n$ est définie par 
+$$S_n=\sum_{k=1}^n \frac{k+n}{k^2+n^2}$$
+\end{exercice}
+
+\vspace{1cm}
+
+
+
+
+\begin{exercice}
+Soit $a\in ]-1,1[. $ On suppose l'existence d'une application $f$, continue sur $\R$, telle que :
+$$\forall x\in \R, \quad f(x) =\int_0^{ax} f(t)dt.$$
+\begin{enumerate}
+\item Calcul des dérivées successives de $f$. 
+\begin{enumerate}
+\item Justifier l'existence d'une primitive $F$ de $f$ sur $\R$ et écrire alors, pour tout nombre réel $x,$
+$f(x)$ en fonction de $x, a$ et $F$. 
+%En déduire une expression de $f(x)$  en fonction de $x, a$ et $F$. 
+\item Justifier la dérivabilité de $f$ sur $\R$ et exprimer, pour tout nombre réel $x$, $f'(x)$  en fonction de $x, a$ et $f$. 
+\item Démontrer que $f$ est de classe $\cC^\infty $ sur $\R$ et que pour tout nombre entier naturel $n,$ on a 
+$$\forall x\in \R \quad  f^{(n)} (x) =a^{n(n+1)/2} f(a^nx).$$
+\item En déduire, pour tout nombre entier naturel $n$ la valeur de $f^{(n)} (0)$. 
+\end{enumerate}
+\item Démontrer que, pour tout nombre réel $x$ et tout nombre entier $n$, on a :
+$$f(x) = \int_0^x \frac{(x-t)^n}{n!} f^{(n+1)} (t) dt.$$
+\footnotesize{ \textit{On pourra faire une récurrence et utiliser une intégration par parties}}
+\normalsize{}
+\item Soit $A$ un nombre réel strictement positif. 
+\begin{enumerate}
+\item Justifier l'existence d'un nombre réel positif ou nul $M$ tel que : 
+$$\forall x\in [-A,A], \quad |f(x) | \leq M$$
+et en déduire que pour tout nombre entier naturel $n$, on a :
+$$\forall x\in [-A,A], \quad |f^{(n)}(x) | \leq M$$.
+\item Soit $x$ un nombre réel apartenant à $[-A,A].$ Démontrer que, pour tout nombre entier naturel $n$, on  a 
+$$|f(x)| \leq M\frac{A^{n+1}}{(n+1)!}.$$
+\item En déduire que $f(x) = 0$ pour tout $x\in [-A,A]$
+\item Que peut-on en déduire sur la fonction $f$ ? 
+\end{enumerate} 
+\end{enumerate}
+\end{exercice}
+
+
+
+
+
+
+
+
+\begin{exercice}
+On dispose d'une urne contenant initialement $b$ boules blanches et $r$ boules rouges. On fait des tirages successifs dans cette urne en respectant à chaque fois le protocole suivant : 
+\begin{itemize}
+\item Si la boule tirée est de couleur blanche, on la remet et on ajoute une boule blanche 
+\item Si la boule tirée est de couleur rouge, on la remet et on ajoute une boule rouge.  
+\end{itemize}
+
+On appelle $B_i$ l'événement "tirer une boule blanche au $i$-iéme tirage" et on note $p_i =P(B_i)$. 
+
+\begin{enumerate}
+\item Calculer $p_1$ en fonction de $b$ et $r$.
+\item Montrer que $p_2= \frac{b}{b+r}  $.
+\item On a tiré une boule blanche au deuxième tirage. Donner alors la probabilité que l'on ait tiré une boule blanche au premier tirage  en fonction de $b$ et $r$. 
+\item On appelle $E_n$  l'événément 
+\begin{center}
+$E_n$ : " On tire que des boules blanches sur les $n$ premiers tirages "
+\end{center}
+
+et $F_n$ l'événement
+\begin{center}
+$F_n$ : " On tire  pour la première fois une boule rouge au $n$-ième tirage"
+\end{center}
+
+\begin{enumerate}
+\item Exprimer $E_n$  à l'aide des événements $(B_k)_{k\in \intent{1,n}} $ 
+\item Exprimer $F_n$  à l'aide de $E_{n-1}$ et $B_n$ 
+\end{enumerate}
+
+
+\item Pour tout $k\geq 2$ calculer $P_{E_{k-1}}(B_k)$.
+\item Calculer $P(E_n)$ en fonction de $b, r$ et $n$ puis $P(F_n)$.
+
+\item On souhaite modéliser informatiquement cette expérience. On va utiliser la lettre 'B' pour désigner les boules blanches et 'R' pour les rouges. 
+\begin{enumerate}
+\item Créer une fonction \texttt{urne} qui prend en paramètres le nombre de boules blanches et rouges, et retourne une liste correspondant à l'urne initiale. (Cette  liste n'a pas à être "mélangée")
+%\item Créer une fonction \texttt{shuffle} qui prend en argument une liste et retourne une autre liste contenant les mêmes élèments que le première mélangés aléatoirement. 
+\item Créer une fonction \texttt{tirage} qui prend en argument une liste correspondant à une urne, modélise le tirage d'une boule alétoirement dans cette urne, affiche la couleur de la boule tirée et retourne une liste correspondant à l'urne aprés l'ajout de la boule de la couleur tirée. 
+\item Créer une fonction \texttt{compte} qui prend une liste correspondant à une urne et retourne   le nombre de  boules blanches  contenues dans l'urne. 
+\item Créer une fonction \texttt{expérience} qui prend en argument le nombre de boules blanches et rouges et $N$ le nombre de tirages effectués et retourne le nombre de boules blanches dans l'urne aprés $N$ tirages. 
+\end{enumerate}
+ 
+\end{enumerate}
+\end{exercice}
+
+\end{document}

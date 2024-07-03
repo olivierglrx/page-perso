@@ -1,0 +1,123 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+
+
+\newif\ifshow
+\showtrue
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+
+
+\geometry{hmargin=2.0cm, vmargin=2cm}
+\DeclareMathOperator{\sh}{sh}
+\DeclareMathOperator{\ch}{ch}
+\DeclareMathOperator{\argsh}{Argsh}
+\author{Olivier Glorieux}
+\begin{document}
+\title{DM 15}
+
+
+
+
+
+
+\begin{exercice}[Formule de Leibniz]
+Soit $I$ un intervalle de $\R$ et 
+$f$ une fonction de classe $\cC^{\infty}(I)$. On note $f^{(n)}$ la dérivée $n$-iéme de $f$. 
+
+Soient $f, g $ deux fonctions de classe $\cC^\infty(I)$, montrer que pour tout $n\in \N$, pour tout $x\in I$:
+
+$$(fg)^{(n)}(x)=\sum_{k=0}^n \binom{n}{k} f^{(k)} (x)g^{(n-k)} (x)$$
+
+(La preuve se fait par récurrence et suit les mêmes étapes que la preuve du binôme de Newton)
+
+\end{exercice}
+\begin{correction}
+On note $P(n)$ la propriété : " $\forall x\in I, (fg)^{(n)}(x)=\sum_{k=0}^n \binom{n}{k} f^{(k)} (x)g^{(n-k)} (x)$ " 
+
+\paragraph{Initialisation}
+$P(0)$ est vraie : en effet on a d'une part  $(fg)^{(0)}(x)= (fg)(x)=f(x)g(x)$ et d'autre part 
+$\sum_{k=0}^0 \binom{0}{k} f^{(k)} (x)g^{(0-k)} (x)= f^{(0)}(x)g^{(0)} (x) =f(x)g(x)$
+
+\paragraph{Hérédité}
+Supposons que la propriété $P(n)$ est vraie pour un certain entier $n\in \N$. On  a
+$(fg)^{(n+1)}(x) = {(fg)^{(n)}}'(x) $ et donc par hypothése de récurrence : 
+\begin{align*}
+(fg)^{(n+1)}(x) &= \frac{d}{dx}\left(\sum_{k=0}^n \binom{n}{k} f^{(k)} (x)g^{(n-k)} (x)\right)\\
+						&= \sum_{k=0}^n \binom{n}{k} \frac{d}{dx}\left(f^{(k)} (x)g^{(n-k)} (x)\right)\\
+						&= \sum_{k=0}^n \binom{n}{k}\left( f^{(k+1)} (x)g^{(n-k)} (x) + f^{(k)} (x)g^{(n-k+1)} (x)\right)\\
+						&=\sum_{k=0}^n \binom{n}{k}\left( f^{(k+1)} (x)g^{(n-k)} (x) \right)+\sum_{k=0}^n \binom{n}{k}\left( f^{(k)} (x)g^{(n-k+1)} (x)\right)\\
+						&=\sum_{k=1}^{n+1} \binom{n}{k-1}f^{(k)} (x)g^{(n-(k-1))} (x) +\sum_{k=0}^n \binom{n}{k} f^{(k)} (x)g^{(n-k+1)} (x)
+\end{align*}
+On a d'une part :
+\begin{align*}
+\sum_{k=1}^{n+1} \binom{n}{k-1}f^{(k)} (x)g^{(n-(k-1))} (x) &= \binom{n}{n+1-1} f^{(n+1)} (x)g^{(n-(n+1-1))} (x) 
+												+\sum_{k=1}^{n}  \binom{n}{k-1}f^{(k)} (x)g^{(n-(k-1))} (x) \\
+												&=f^{(n+1)}(x) g^{(0)} (x) + \sum_{k=1}^{n}  \binom{n}{k-1}f^{(k)} (x)g^{(n+1-k))} (x) 
+\end{align*}
+
+et d'autre part : 
+
+\begin{align*}
+\sum_{k=0}^n \binom{n}{k}\left( f^{(k)} (x)g^{(n-k+1)} (x)\right) &=\sum_{k=1}^n \binom{n}{k}\left( f^{(k)} (x)g^{(n+1-k)} (x)\right) + \binom{n}{0}\left( f^{(0)} (x)g^{(n+1-0)} (x)\right) \\
+&=\sum_{k=1}^n \binom{n}{k}\left( f^{(k)} (x)g^{(n+1-k)} (x)\right) +  f(x)g^{(n+1)} (x) 
+\end{align*}
+
+
+Ainsi : 
+\begin{align*}
+(fg)^{(n+1)}(x) &= f^{(n+1)}(x) g^{(0)} (x) + \sum_{k=1}^{n}  \left(\binom{n}{k-1}f^{(k)} (x)g^{(n+1-k))} (x)  + \binom{n}{k} f^{(k)} (x)g^{(n+1-k)} (x)\right) +  f(x)g^{(n+1)} (x) \\
+&= f^{(n+1)}(x) g^{(0)} (x) + \sum_{k=1}^{n}  \left(\binom{n}{k-1} +\binom{n}{k} \right) f^{(k)} (x)g^{(n+1-k))} (x)+  f(x)g^{(n+1)} (x) \\
+&= f^{(n+1)}(x) g^{(0)} (x) + \sum_{k=1}^{n}  \left(\binom{n+1}{k}\right) f^{(k)} (x)g^{(n+1-k))} (x)+  f(x)g^{(n+1)} (x) 
+\end{align*}
+où l'on a utilisé la relation de  Pascal : $\left(\binom{n}{k-1} +\binom{n}{k} \right) =\binom{n+1}{k}$
+
+
+Finalement
+\begin{align*}
+(fg)^{(n+1)}(x) &=\binom{n+1}{n+1} f^{(n+1)}(x) g^{(0)} (x) + \sum_{k=1}^{n}  \left(\binom{n+1}{k}\right) f^{(k)} (x)g^{(n+1-k))} (x)+  \binom{n+1}{0}f(x)g^{(n+1)} (x) \\
+					&= \sum_{k=0}^{n+1}  \left(\binom{n+1}{k}\right) f^{(k)} (x)g^{(n+1-k))} (x)
+\end{align*}
+
+La propriété est donc héréditaire.
+
+\paragraph{Conclusion }
+Pour tout $n\in \N $ la propriété $P(n) $ est vérifiée. 
+
+
+\end{correction}
+\begin{exercice}
+Déduire de l'exercice précédent la dérivée $n$éme de $f(x) = x^n \ln(x)$
+\end{exercice}
+
+\begin{correction}
+On note $u(x)=x^n$ et $v(x)=\ln(x)$. 
+On a d'après le cours sur les polynômes $u^{(k)} (x)=\frac{n!}{(n-k)!}x^{n-k}$
+
+$v'(x)=\frac{1}{x}=x^{-1}$
+Donc pour tout $k>0$ $v^{(k)}(x)=v'^{(k-1)} (x)= (-1)^{k-1} (k-1)! x^{-k}$
+
+ 
+
+Donc  d'après la formule de Liebniz :
+\begin{align*}
+f^{(n)}(x)&= \sum_{k=0}^n \binom{n}{k} u^{(k)}(x)v^{(n-k)}(x)\\
+			&=  \sum_{k=0}^{n-1} \binom{n}{k} u^{(k)}(x)v^{(n-k)}(x) +\binom{n}{n} u^{(n)}(x)v^{(n-n)}(x) \\
+			&= \sum_{k=0}^{n-1} \binom{n}{k} \frac{n!}{(n-k)!}x^{n-k}(-1)^{n-k-1} (n-k-1)! x^{-(n-k)}  + n!\ln(x)\\
+			&=\sum_{k=0}^{n-1} \binom{n}{k} \frac{n!}{(n-k)!}(-1)^{n-k-1} (n-k-1)!  + n!\ln(x)\\
+			&=\sum_{k=0}^{n-1} \binom{n}{k} \frac{n!}{(n-k)!}(-1)^{n-k-1} (n-k-1)!  + n!\ln(x)\\
+\end{align*}
+
+
+\end{correction}
+
+\begin{exercice}
+Soit $P_n(X) = (X^2-1)^n$ et $L_n=P_n^{(n)}$ la dérivée $n$-éme de $P_n$. 
+\begin{enumerate}
+\item Calculer le degré de $L_n$.
+\item A l'aide de la formule de Leibniz, calculer $L_n(1)$.
+\end{enumerate}
+\end{exercice}
+
+
+
+\end{document}

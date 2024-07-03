@@ -1,0 +1,197 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+
+
+\newif\ifshow
+\showtrue
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+
+
+\geometry{hmargin=2.0cm, vmargin=2cm}
+\DeclareMathOperator{\sh}{sh}
+\DeclareMathOperator{\ch}{ch}
+\DeclareMathOperator{\argsh}{Argsh}
+\author{Olivier Glorieux}
+\begin{document}
+\title{DM 14 }
+
+
+
+
+
+
+\begin{exercice}
+
+On considère trois points distincts du plan nommés $A, B$ et $C$. Nous allons étudier le déplacement aléatoire d'un pion se déplaçant sur ces trois points. A l'étape $n=0$, on suppose que le pion se trouve sur le point $A$. Ensuite, le mouvement aléatoire du pion respecte les deux règles suivantes :
+\begin{itemize}
+\item  le mouvement du pion de l'étape $n$ à l'étape $n+1$ ne dépend que de la position du pion à l'étape $n$;
+\item pour passer de l'étape $n$ à l'étape $n+1$, on suppose que le pion a une chance sur deux de rester sur place, sinon il se déplace de manière équiprobable vers l'un des deux autres points.
+
+\end{itemize}
+
+Pour tout $n \in \mathbb{N}$, on note $A_{n}$ l'évènement "le pion se trouve en $A$ à l'étape $n$ ", $B_{n}$ l'évènement "le pion se trouve en $B$ à l'étape $n$ " et $C_{n}$ l'évènement "le pion se trouve en $C$ à l'étape $n$ ". On note également, pour tout $n \in \mathbb{N}$,
+$$
+a_{n}=P\left(A_{n}\right), b_{n}=P\left(B_{n}\right), c_{n}=P\left(C_{n}\right) \text { et } V_{n}=\left(\begin{array}{l}
+a_{n} \\
+b_{n} \\
+c_{n}
+\end{array}\right)
+$$
+\begin{enumerate}
+\item  Calculer les nombres $a_{n}, b_{n}$ et $c_{n}$ pour $n=0,1$.
+\item  Pour $n \in \mathbb{N}$, exprimer $a_{n+1}$ en fonction de $a_{n}, b_{n}$ et $c_{n} .$ Faire de même pour $b_{n+1}$ et $c_{n+1}$.
+\item  Donner une matrice $M$ telle que, pour tout $n \in \mathbb{N}$, on a $V_{n+1}=M V_{n}$.
+\item  On admet que, pour tout $n \in \mathbb{N}$, on a
+$$
+M^{n}=\frac{1}{3 \cdot 4^{n}}\left(\begin{array}{ccc}
+4^{n}+2 & 4^{n}-1 & 4^{n}-1 \\
+4^{n}-1 & 4^{n}+2 & 4^{n}-1 \\
+4^{n}-1 & 4^{n}-1 & 4^{n}+2
+\end{array}\right)
+$$
+En déduire une expression de $a_{n}, b_{n}$ et $c_{n}$ pour tout $n \in \mathbb{N}$.
+\item  Déterminer les limites respectives des suites $\left(a_{n}\right),\left(b_{n}\right)$ et $\left(c_{n}\right)$. Interpréter le résultat.
+\end{enumerate}
+
+
+\end{exercice}
+
+
+
+\begin{correction}
+\begin{enumerate}
+
+
+\item  Puisqu'en $n=0$ le pion est en $A$, on a $a_{0}=1, b_{0}=0$ et $c_{0}=0 .$ A l'étape $n=1$, d'après les informations de l'énoncé, $a_{1}=1 / 2, b_{1}=c_{1}$. Puisque $a_{1}+b_{1}+c_{1}=1$, on a $b_{1}=c_{1}=1 / 4$.
+\item  Les événements $A_{n}, B_{n}$ et $C_{n}$ forment un système complet d'événements. D'après la formule des probabilités totales,
+$$
+P\left(A_{n+1}\right)=P_{A_{n}}\left(A_{n+1}\right) P\left(A_{n}\right)+P_{B_{n}}\left(A_{n+1}\right) P\left(B_{n}\right)+P_{C_{n}}\left(A_{n+1}\right) P\left(C_{n}\right) .
+$$
+Comme à la question précédente, on a $P_{A_{n}}\left(A_{n+1}\right)=1 / 2, P_{B_{n}}\left(A_{n+1}\right)=1 / 4$ et $P_{C_{n}}\left(A_{n+1}\right)=1 / 4$. On en déduit que
+$$
+a_{n+1}=\frac{1}{2} a_{n}+\frac{1}{4} b_{n}+\frac{1}{4} c_{n}
+$$
+En raisonnant de la même façon, ou par symétrie,
+$$
+\begin{gathered}
+b_{n+1}=\frac{1}{4} a_{n}+\frac{1}{2} b_{n}+\frac{1}{4} c_{n} \\
+c_{n+1}=\frac{1}{4} a_{n}+\frac{1}{4} b_{n}+\frac{1}{2} c_{n}
+\end{gathered}
+$$
+\item  D'après la question précédente, la matrice
+$$
+M=\frac{1}{4}\left(\begin{array}{lll}
+2 & 1 & 1 \\
+1 & 2 & 1 \\
+1 & 1 & 2
+\end{array}\right)
+$$
+convient.
+\item  On a $V^{n}=M^{n} V_{0}$, ce qui donne
+$$
+\left\{\begin{array}{l}
+a_{n}=\frac{4^{n}-2}{3 \cdot 4^{n}} \\
+b_{n}=\frac{4^{n}+1}{3 \cdot 4^{n}} \\
+c_{n}=\frac{4^{n}+1}{3 \cdot 4^{n}}
+\end{array}\right.
+$$
+On remarque qu'on a bien $a_{n}+b_{n}+c_{n}=1$.
+
+\item En factorisant par $4^n$ au numérateur et au dénominateur  on obtient $$a_{n}=\frac{1-\frac{2}{4^n}}{3}$$
+
+Or $\lim_{n\tv+\infty} 4^n=+\infty$ donc 
+$$\lim_{n\tv+\infty} a_n =\frac{1}{3}$$
+
+Un raisonnement équivalent donne 
+$$\lim_{n\tv+\infty} b_n =\lim_{n\tv+\infty} c_n =\frac{1}{3} $$
+
+Ainsi au bout d'un certain temps il est équiprobable de se trouver sur $A$ $B$ ou $C$. 
+
+
+
+\end{enumerate}
+\end{correction}
+
+
+
+
+
+
+\begin{exercice}  \;
+Fonctions $k$-contractantes.\\
+\noindent On suppose que $f$ est une fonction d\'efinie sur $\lbrack 0,1\rbrack$ \`a valeurs dans $\lbrack 0,1\rbrack$ et qu'il existe $k\in\rbrack 0,1\lbrack$ tel que
+$$\forall (x,y)\in\lbrack 0,1\rbrack^2,\ |f(x)-f(y)|\leq k|x-y|.$$
+Une telle fonction s'appelle une fonction $k$-contractante.
+\begin{enumerate}
+\item Montrer que $f$ est continue. 
+\item En déduire que $f$ admet au moins un point fixe dans $\lbrack 0,1\rbrack$. 
+\item Montrer par l'absurde que ce point fixe est unique. On le note $c$.  
+
+\item 
+On consid\`ere alors une suite $(c_n)_{n\in\N}$ d\'efinie par son premier terme $c_0\in\lbrack 0,1\rbrack$ et par la relation de r\'ecurrence  : $\forall n\in\N,\ c_{n+1}=f(c_n).$
+\begin{enumerate}
+\item Montrer que la suite $(c_n)_{n\in\N}$ est bien d\'efinie.
+\item Montrer que pour tout $n\in\N$, $|c_n-c|\leq k^n|c_0-c|$. 
+\item En d\'eduire la limite de la suite $(c_n)_{n\in\N}$.
+\end{enumerate}
+\end{enumerate}
+\end{exercice}
+
+
+\begin{correction}  \;
+\begin{enumerate}
+\item 
+\begin{itemize}
+\item[$\bullet$] On cherche \`{a} \'etudier la continuit\'e de $f$ sur $\lbrack 0,1\rbrack$. On repasse pour cela par la d\'efinition de la continuit\'e en montrant que pour tout $x_0\in\lbrack 0,1\rbrack$, $f$ est continue en $x_0$. Pour cela il faut donc montrer que pour tout $x_0\in\lbrack 0,1\rbrack$: $\lim\limits_{x\to x_0} f(x)=f(x_0)$.\\
+\noindent Soit donc $x_0\in\lbrack 0,1\rbrack$ fix\'e. On cherche donc \`{a} montrer que $f(x)-f(x_0)$ tend vers 0 lorsque $x$ tend vers $x_0$. Mais par d\'efinition d'une fonction $k$-contractante, on sait que:
+$$\forall x\in\lbrack 0,1\rbrack,\ |f(x)-f(x_0)|\leq k|x-x_0|.$$
+On va donc obtenir le r\'esultat voulu en utilisant le corollaire du th\'eor\`{e}me des gendarmes. En effet, on a:
+\begin{itemize}
+\item[$\star$] $\lim\limits_{x\to x_0} k |x-x_0|=0$ par propri\'et\'e sur les somme, compos\'ee et produit de limites.
+\item[$\star$] $\forall x\in\lbrack 0,1\rbrack$, $|f(x)-f(x_0)|\leq k |x-x_0|$.
+\end{itemize}
+Ainsi d'apr\`{e}s le corollaire du th\'eor\`{e}me des gendarmes, on a: $\lim\limits_{x\to x_0} f(x)-f(x_0)=0\Leftrightarrow \lim\limits_{x\to x_0} f(x)=f(x_0)$. Ainsi on a montr\'e que la fonction $f$ est continue en $x_0$ et comme cela est vraie pour tout $x_0\in\lbrack 0,1\rbrack$, on a la continuit\'e de $f$ sur $\lbrack 0,1\rbrack$. 
+
+\end{itemize}
+\item V\'erifions que $f$ admet un unique point fixe dans $\lbrack 0,1\rbrack$.
+\begin{itemize}
+\item[$\star$] La fonction $f$ v\'erifie bien: $f: \lbrack 0,1\rbrack\rightarrow \lbrack 0,1\rbrack$ et on vient de montrer qu'elle est continue sur $\lbrack 0,1\rbrack$. Ainsi elle v\'erifie les hypoth\`{e}ses de la premi\`{e}re question et ainsi on a bien l'existence d'un point fixe dans $\lbrack 0,1\rbrack$.
+\item[$\star$] Comme il est impossible d'avoir une hypoth\`{e}se de croissance ou de d\'ecroissance pour $f$, on ne va pas pouvoir appliquer le th\'eor\`{e}me de la bijection. Ainsi, pour obtenir l'unicit\'e du point fixe, on suppose par l'absurde qu'il existe deux points fixes $(c,d)\in\lbrack 0,1\rbrack^2$ de $f$ diff\'erents. Ainsi, on a: 
+$|f(c)-f(d)|\leq k|c-d|\Leftrightarrow |c-d|\leq k|c-d|$. Or $0<k<1$ et ainsi, on a: $|c-d|<|c-d|$: absurde. Ainsi $c=d$ et $f$ admet bien un unique point fixe.
+\end{itemize}
+
+\item
+\begin{enumerate}
+\item 
+\begin{itemize}
+\item[$\bullet$] On montre par r\'ecurrence sur $n\in\N$ la propri\'et\'e $\mathcal{P}(n):\ c_n\ \hbox{est bien d\'efinie et}\ c_n\in\lbrack 0,1\rbrack$. 
+\item[$\bullet$] Initialisation: pour $n=0$: par d\'efinition de la suite, on sait que $c_0$ existe bien et que $c_0\in\lbrack 0,1\rbrack$. Ainsi $\mathcal{P}(0)$ est vraie. 
+\item[$\bullet$] H\'er\'edit\'e: soit $n\in\N$ fix\'e, on suppose la propri\'et\'e vraie au rang $n$, montrons que $\mathcal{P}(n+1)$ est vraie. Par hypoth\`{e}se de r\'ecurrence, on sait donc que $c_n$ existe et que $c_n\in\lbrack 0,1\rbrack$.
+\begin{itemize}
+\item[$\star$] Comme $\mathcal{D}_f=\lbrack 0,1\rbrack$ et que $c_n\in\lbrack 0,1\rbrack$, on a: $c_n\in\mathcal{D}_f$. Ainsi $f(c_n)$ existe bien \`{a} savoir $c_{n+1}$.
+\item[$\star$] De plus, comme on sait que $f: \lbrack 0,1\rbrack\rightarrow \lbrack 0,1\rbrack$ et que $c_n\in\lbrack 0,1\rbrack$, on obtient alors que: $f(c_n)\in\lbrack 0,1\rbrack$, \`{a} savoir $c_{n+1}\in\lbrack 0,1\rbrack$.
+\end{itemize}
+Ainsi $\mathcal{P}(n+1)$ est vraie.
+\item[$\bullet$] Conclusion: il r\'esulte du principe de r\'ecurrence que $(c_n)_{n\in\N}$ existe bien et que pour tout $n\in\N$, on a $c_n\in\lbrack 0,1\rbrack$.
+\end{itemize}
+\item
+\begin{itemize}
+\item[$\bullet$] On montre par r\'ecurrence sur $n\in\N$ la propri\'et\'e $\mathcal{P}(n):\ |c_n-c|\leq k^n |c_0-c|$.
+\item[$\bullet$] Initialisation: pour $n=0$: d'un c\^{o}t\'e, on a: $|c_0-c|$ et de l'autre c\^{o}t\'e, on a: $k^0|c_0-c|=|c_0-c|$. Donc $\mathcal{P}(0)$ est vraie.
+\item[$\bullet$] H\'er\'edit\'e: soit $n\in\N$ fix\'e, on suppose la propri\'et\'e vraie au rang $n$, montrons que $\mathcal{P}(n+1)$ est vraie. D'apr\`{e}s la d\'efinition de la fonction $f$, on sait que: $|f(c_n)-f(c)|\leq k|c_n-c|\Leftrightarrow |c_{n+1}-c|\leq k|c_n-c|$ car $c$ est le point fixe de $f$. Puis par hypoth\`{e}se de r\'ecurrence, on sait aussi que $|c_n-c|\leq k^n |c_0-c|$. Ainsi comme $k>0$, on a: $k|c_n-c|\leq k^{n+1}|c_0-c|$. Puis: $|c_{n+1}-c|\leq k^{n+1}|c_0-c|$. Donc $\mathcal{P}(n+1)$ est vraie.
+\item[$\bullet$] Conclusion: il r\'esulte du principe de r\'ecurrence que pour tout $n\in\N$, on a: $|c_n-c|\leq k^n |c_0-c|$.
+\end{itemize}
+\item On peut alors utiliser le corollaire du th\'eor\`{e}me des gendarmes et on obtient que:
+\begin{itemize}
+\item[$\bullet$] $\forall n\in\N,\ |c_n-c|\leq k^n |c_0-c|$.
+\item[$\bullet$] $\lim\limits_{n\to +\infty} k^n|c_0-c|=0$ car $-1<k<1$.
+\end{itemize}
+Ainsi d'apr\`{e}s le corollaire du th\'eor\`{e}me des gendarmes, on a: $\lim\limits_{n\to +\infty} c_n=c$.
+\end{enumerate}
+\end{enumerate}
+\end{correction}
+
+
+
+
+\end{document}

@@ -1,0 +1,116 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+
+
+\newif\ifshow
+\showfalse
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+
+
+\geometry{hmargin=2.0cm, vmargin=2cm}
+\DeclareMathOperator{\sh}{sh}
+\DeclareMathOperator{\ch}{ch}
+\DeclareMathOperator{\argsh}{Argsh}
+\author{Olivier Glorieux}
+\begin{document}
+\title{Revisions - Nombre Complexe }
+
+
+\vspace{1cm}
+\begin{exercice}
+Mettre les complexes suivants sous forme alg\'ebrique simple:
+$$z_1=\ddp\frac{1-3i}{1+3i}, \quad z_2=(i-\sqrt{2})^3
+, \quad z_3=\ddp\frac{1+4i}{1-5i}$$
+  $$z_4=\left(\ddp\frac{\sqrt{3}-i}{1+i\sqrt{3}}  \right)^9, \quad 
+ z_5=(1+i)^{2022}, \quad 
+ z_6=\ddp\frac{2+5i}{1-i}+\ddp\frac{2-5i}{1+i}$$
+\end{exercice}
+\vspace{1cm}
+\begin{exercice}  \;
+Soit $t \in \bR$. Donner l'expression du module de $z_1$ et $z_2$. Mettre $z_2$ sous forme exponentielle.
+$$z_1=t^2+2i \, t-1\quad\hbox{et}\quad z_2=1-\cos{t}+i\sin{t}.$$
+\end{exercice}
+
+\vspace{1cm}
+\begin{exercice}  \;
+R\'esoudre dans $\bC$ les \'equations suivantes.
+\begin{enumerate}
+\item $(z+1)^2+(2z+3)^2=0$
+\item $2z^2(1-\cos{(2\theta)})-2z\sin{(2\theta)}+1=0$
+\item $\exp(z)=3+\sqrt{3}i$
+\end{enumerate}
+\end{exercice}
+\vspace{1cm}
+\begin{exercice}
+Le but de cet exercice est de résoudre l'équation d'inconnue $z \in \mathbb{C}$ :
+$$
+z^{3}-6 z+4=0 . \quad (1)
+$$
+\begin{enumerate}
+\item 
+\begin{enumerate}
+\item  On pose $w=-2+2 i$. Mettre $w$ sous forme trigonométrique.
+\item Résoudre dans $\mathbb{C}$ l'équation : $z^{3}=w$. Donner les solutions sous forme trigonométrique.
+\item  On pose $j=e^{i \frac{2 \pi}{3}}$. Montrer que les solutions sont $: 1+i,(1+i) j$ et $(1+i) j^{2}$.
+\item En déduire les valeurs exactes de $\cos \left(\frac{11 \pi}{12}\right)$ et $\sin \left(\frac{11 \pi}{12}\right)$.
+\end{enumerate}
+
+\item 
+
+On se donne $z \in \mathbb{C}$ solution de (1).
+Soient $u, v \in \mathbb{C}$ tels que $u+v=z$ et $u v=2$.
+
+\begin{enumerate}
+\item  Calculer $u^{3}+v^{3}$ et $u^{3} v^{3}$.
+\item  En déduire que $u^{3}$ et $v^{3}$ sont solutions de l'équation du second degré : $Z^{2}+4 Z+8=0$.
+\item Déterminer les valeurs possibles de $u$ et $v$ puis de $z$.
+\item En déduire les solutions de l'équation.
+\end{enumerate}
+
+\end{enumerate}
+
+\end{exercice}
+
+\newpage
+%\begin{probleme}[Probleme : homographies du plan complexe]
+\begin{center}
+\Large{Problème : homographies du plan complexe}
+\end{center}
+
+\noindent\\
+Une homographie est une application du plan complexe dans lui-même définie par une équation de la forme $f(z)=\frac{a z+b}{c z+d}$, où $a, b, c$ et $d$ sont quatre nombres complexes vérifiant $a d-b c \neq 0$.
+
+\paragraph{I. Un cas particulier}
+
+\noindent\\
+On étudie dans cette première partie l'application $f: z \mapsto \frac{i z-1}{z+1}$.
+\begin{enumerate}
+\item Déterminer le domaine de définition de $f$, et montrer que $f$ est bijective de $\mathcal{D}_{f}$ vers un ensemble à déterminer, en déterminant une expression de sa réciproque.
+\item Déterminer les images par $f$ de 2 et de $1+i$ (sous forme algébrique), ainsi que leurs antécédents.
+\item  Déterminer les nombres complexes invariants par $f$.
+\item  Déterminer les nombres complexes $z$ ayant une image réelle par $f$, puis ceux ayant une image imaginaire pure.
+\item  Déterminer les nombres complexes $z$ pour lequels $f(z) \in \mathbb{U}$.
+\item  Montrer que l'image du demi-plan constitué de tous les nombres complexes ayant une partie imaginaire strictement positive est délimitée par une droite dont on donnera une équation cartésienne.
+\end{enumerate}
+
+\paragraph{II. Une étude plus générale}
+
+\begin{enumerate}
+\item  Soit $\theta \in \mathbb{R}$ et $f$ l'homographie définie par $f(z)=\frac{e^{i \theta}}{z}$. Montrer que $\forall z \in \mathbb{U}, f(z) \in \mathbb{U}$.
+\item  On considère maintenant une homographie de la forme $f(z)=e^{i \theta} \frac{z+a}{\bar{a} z+1}$, où $a$ est un nombre complexe n'appartenant pas à $\mathbb{U}$. Montrer que, $\forall z \in \mathbb{U}, f(z)$ est bien défini, et $f(z) \in \mathbb{U}$.
+\item On cherche à prouver que seules les deux types d'homographies précédentes conservent le cercle trigonométrique. Soit donc une homographie $f: z \mapsto \frac{a z+b}{c z+d}$ telle que $\forall z \in \mathbb{U}, f(z) \in \mathbb{U}$.
+\begin{enumerate}
+\item Montrer que, si $\alpha$ et $\beta$ sont deux nombres complexes quelconques, $|\alpha+\beta|^{2}=|\alpha|^{2}+|\beta|^{2}+$ $2 \operatorname{Re}(\bar{\alpha} \beta)$.
+\item  Établir que $\forall \theta \in \mathbb{R},|a|^{2}+|b|^{2}+2 \operatorname{Re}\left(\bar{a} b e^{-i \theta}\right)=|c|^{2}+|d|^{2}+2 \operatorname{Re}\left(\bar{c} d e^{-i \theta}\right)$.
+\item  Montrer que la condition $\forall \theta \in \mathbb{R}, \alpha+2 \operatorname{Re}\left(\beta e^{-i \theta}\right)=0$ implique $\alpha=\beta=0$. En déduire que $|a|^{2}+|b|^{2}=|c|^{2}+|d|^{2}$ et $\bar{a} b=\bar{c} d$.
+\item  Montrer que, si $a=0, f$ est du type étudié à la première question de cette deuxième partie.
+\item  Montrer que, si $a \neq 0,|a|=|c|$ ou $|a|=|d|$.
+\item  Montrer que le premier cas est impossible, et prouver que $f$ est alors du type étudié dans la deuxième question de cette partie.
+\end{enumerate}
+
+\end{enumerate}
+
+%\end{probleme}
+
+
+\end{document}

@@ -1,0 +1,326 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+
+
+\newif\ifshow
+\showfalse
+
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+
+
+\geometry{hmargin=2.0cm, vmargin=2cm}
+
+\author{Olivier Glorieux}
+\begin{document}
+\title{DM 14  }
+
+\paragraph{Equation dans $\cL(E)$ }
+
+Soit $E$ un  $\R$-espace vectoriel non réduit à son vecteur nul. On s'intéresse aux endomorphismes $f$ de $E$ vérifiant la relation 
+$$f^2 =3f - 2\Id_E.\quad (*) $$
+\paragraph{Un exemple}
+
+
+
+On définit l'application : 
+$$g \left| \begin{array}{ccl}
+\R^2 &\tv& \R^2 \\
+(x,y) &\mapsto & (3x+2y, -x)
+\end{array}\right.$$
+\begin{enumerate}
+
+\item Montrer que $g$ est un endomorphisme de $\R^2$.
+\item Donner la matrice de $g$, notée $A$,  dans la base canonique. 
+\item Calculer $g\circ g$ et vérifier que $g$ est solution de $(*)$
+\item Déterminer $F =\ker(g-\Id_{\R^2}) $ et $G =\ker(g- 2\Id_{\R^2}) $ et donner une base de $F$ et une base de $G$. 
+\item Montrer que $F \cap G= \{ 0\}$ 
+\item Soit $u =(1,-1) $ et  $v= (-2 , 1) $ Montrer que $B=(u,v) $ est une base de $\R^2$.\\
+\textbf{Calcul de $g^n$}
+\item Premiere méthode \begin{enumerate}
+\item Donner la matrice de $g$, notée $D$,  dans la base $B$
+\item Donner la matrice, notée $P$, de l'identité relativement aux bases $B$ au départ et la base canonique à l'arrivée. 
+\item Montrer que $P$ est inversible et calculer $P^{-1} A P$. \footnote{J'ai pas encore tapé le corriger donc si vous obtenez pas $D$, essayez de calculer $PAP^{-1}$, mais je crois que c'est bon comme ca... }
+\item En déduire, pour tout $n\in \N$,  $A^n$ et l'expression de $g^n$.
+\end{enumerate} 
+\item Deuxième Méthode
+
+\begin{enumerate}
+\item Soit $(x,y)\in \R^2$. Exprimer $(x,y) $ comme combinaison linéaire de $u$ et $v$.
+\item Calculer $g^n(u)$ et $g^n(v)$. 
+\item Donner finalement  l'expression de $g^n(x,y) $ en fonction de $x$ et $y$. 
+\item Donner la matrice de $g^n$ dans la base canonique.
+
+\end{enumerate}
+
+
+
+
+\end{enumerate}
+\paragraph{Etude de $f$}
+On se place à nouveau dans le cas général et on s'intéresse à l'équation $(*)$.
+\begin{enumerate}
+%\item Montrer que $(*)$ possède une solution évidente. 
+\item Montrer que si $f$ vérifie $(*)$ alors $f$ est bijective et exprimer $f^{-1}$ comme combinaison linéaire de $f$ et de $ \Id_E$. 
+\item Déterminer les solutions de $(*)$ de la forme $\lambda \Id_E$ où $\lambda \in \R$. 
+%\item L'ensemble des endomorphisme vérifiant $(*)$ est-il un sous-espace vectoriel de $\cL(E)$, espace des endomorphismes de $E$ ? 
+\end{enumerate}
+
+
+\paragraph{Etude des puissance de $f$}
+On suppose dans la suite que $f$ est une solution de $(*)$ et que $f$ n'est pas de la forme $\lambda \Id_E$. 
+\begin{enumerate}
+%\item Montrer que $(f, \Id_E)$ est une famille libre de $\cL(E)$
+\item \begin{enumerate}
+\item Exprimer $f^3$ et $f^4$ comme combinaison linéaire de $\Id_E$ et $f$. 
+\item Montrer que pour tout $n$ de $\N$, $f^n$ peut s'écrire sous la forme $f^n = a_n f +b_n \Id_E$ avec $(a_n,b_n) \in \R^2$
+%\item Justifier que dans l'écriture précédente, le couple $(a_n,b_n) $ est unique.
+
+\end{enumerate}
+\item \begin{enumerate}
+\item Montrer que pour tout entier $n\in \N$, $a_{n+1} -3a_n +2a_{n-1} = 0$
+\item En déduire une expression de $a_n$ ne faisant intervenir que $n$. 
+\item Calculer alors $b_n$.
+\end{enumerate}
+
+\end{enumerate}
+
+\begin{correction}
+\paragraph{Un exemple}
+\begin{enumerate}
+\item Soit $u=(x_1,y_1) $ et $v=(x_2,y_2) $ deux vecteurs de $\R^2$ et $\lambda\in \R.$
+On a 
+\begin{align*}
+g(u+\lambda v) &= g((x_1,y_1)+\lambda (x_2,y_2)\\
+						&=  g((x_1 +\lambda x_2,y_1+\lambda _2))\\
+						&=(3(x_1 +\lambda x_2)+2(y_1 +\lambda y_2), -(x_1 +\lambda x_2))\\
+						&=3(x_1+2y_1,-x_1) +\lambda (3x_2+2y_2,-x_2)\\
+						&=g(x_1,y_1) +\lambda g(x_2,y_2)\\
+						&= g(u) +\lambda g(v)
+\end{align*}
+Ainsi $g$ est linéaire. Comme l'espace de départ et d'arrivée de la fonction $g$ est $\R^2$,  $g$ est un endomorphisme de $\R^2$
+\item On obtient $A=\begin{pmatrix}
+3 & 2\\
+-1 & 0
+\end{pmatrix}$
+\item $A^2 = \begin{pmatrix}
+7& 6\\
+-3 & -2 
+\end{pmatrix}$
+et $3A -2I_2 = \begin{pmatrix}
+9 & 6\\
+-3 & 0
+\end{pmatrix} -\begin{pmatrix}
+2 & 0\\
+0 & 2
+\end{pmatrix} = \begin{pmatrix}
+7& 6\\
+-3 & -2 
+\end{pmatrix}$
+
+Ainsi $$A^2 =3A-2I_2$$ 
+
+L'endomorphisme $g$  vérifie donc la propriété $(*)$
+\item 
+$A-I_2 = \begin{pmatrix}
+2 & 2\\
+-1 & -1
+\end{pmatrix}$
+Soit $(x,y) \in F$ on a alors 
+$$\begin{pmatrix}
+2 & 2\\
+-1 & -1
+\end{pmatrix} \begin{pmatrix}
+x\\
+y
+\end{pmatrix}=\begin{pmatrix}
+0\\
+0
+\end{pmatrix}$$
+C'est-à-dire 
+$$\left\{ 
+\begin{array}{ccc}
+2x+2y &=&0\\
+-x-y &=&0\\
+\end{array}
+\right.$$
+On obtient donc $x=-y$ et 
+$$F= \{ (-y,y) | y\in \R\} $$
+Autrement dit 
+$$F =\Vect((-1,1))$$
+
+De même
+$A-2I_2 = \begin{pmatrix}
+1 & 2\\
+-1 & -2
+\end{pmatrix}$
+Soit $(x,y) \in G$ on a alors 
+$$\begin{pmatrix}
+1 & 2\\
+-1 & -2
+\end{pmatrix} \begin{pmatrix}
+x\\
+y
+\end{pmatrix}=\begin{pmatrix}
+0\\
+0
+\end{pmatrix}$$
+C'est-à-dire 
+$$\left\{ 
+\begin{array}{ccc}
+x+2y &=&0\\
+-x-2y &=&0\\
+\end{array}
+\right.$$
+On obtient donc $x=-2y$ et 
+$$G= \{ (-2y,y) | y\in \R\} $$
+Autrement dit 
+$$G =\Vect((-2,1))$$
+
+\item Soit $u \in F\cap G$, 
+On a alors 
+$$(g-Id)(u) = (g-2Id)(u) = 0$$
+D'où
+$$g(u)=u \quadet g(u)=2u$$
+Finalement 
+$u=2u$ c'ets à dire $u=(0,0)$
+
+Ainsi 
+$$F\cap G =\{ (0,0)\}$$
+
+\item $(u,v)$ forment une famille libre étant 2 vecteurs non propotionnels. Comme $\Card(u,v) =2 =\dim(R^2)$ c'est une base. 
+
+\item 
+\begin{enumerate}
+\item On obtient 
+$$D=\begin{pmatrix}
+1&0\\
+0& 2
+\end{pmatrix}$$
+\item 
+Enoncé particuliérement alambiqué pour dire que l'on écrit les coordonnées de $u$ et $v$ dans la base canonique...
+
+$Id(u) = u $ qui a pour coordoonées dans la base canonique $\begin{pmatrix}
+1\\
+-1
+\end{pmatrix}$ donc la premiere coloone de $P$ est $\begin{pmatrix}
+1\\
+-1
+\end{pmatrix}$. La deuxième colonne s'obtient de la meme facon avec $v$. On obtient 
+$$P=\begin{pmatrix}
+1 & -2\\
+-1& 1
+\end{pmatrix}$$
+\item
+$det(P) = 1-2= -1\neq 0$ donc $P$ ets inversible et la 
+la formule de l'inverse d'une matrice donne 
+$$P^{-1} = \begin{pmatrix}
+-1 & -2\\
+-1 & -1
+\end{pmatrix}$$
+
+\item Tout calcul fait, on obtient 
+$$P^{-1} A P = D$$
+
+\item On montre par récurrence que $A^n = P D^n P^{-1}$
+
+On obtient 
+
+$$A^n =- \begin{pmatrix}
+1-2^{n+1}&2-2^{n+1}\\
+1-2^{n}& -2-2^{n}
+\end{pmatrix}$$
+
+D'où 
+$$g^n (x,y) = -((1-2^{n+1})x + (2-2^{n+1})y , (1-2^{n})x + (-2-2^{n+1})y )$$
+
+
+\end{enumerate}
+\item
+\begin{enumerate}
+On chercher $(a,b)\in \R^2$ tel que $au+bv=(x,y)$ 
+La résolution du systéme donne 
+
+$$a=-x-2y \quadet b= -x-y$$
+
+
+\item Par récurrence on obtient $g^n(u)=u$ et $g^n (v)=2^n v$
+\item 
+\begin{align*}
+g^n(x,y)& = g^n(au+bv)\\
+				&= ag^n(u) +bg^n(v)\\
+				&= (-x-2y)u +(-x-y) 2^n v\\
+				&= ((-1+2^{n+1})x + (-2+2^{n+1})y , (-1+2^{n})x + (2+2^{n+1})y 
+\end{align*}
+
+\item On retrouve la matrice $A^n$ trouvée dans la question 7c
+
+
+
+
+\end{enumerate}
+
+
+\end{enumerate}
+
+\begin{enumerate}
+\item Si $f$ vérifie $(*)$, on a alors 
+
+$$f\circ (f -3f) = -2Id_E$$
+Ou encore 
+
+$$f\circ \frac{-1}{2}(f -3f) =\frac{-1}{2}(f -3f)  \circ f = Id_E$$
+Ainsi $f$ est bijective et $$f^{-1} =\frac{-1}{2}(f -3f) $$
+\item Si $f$ est solution de $(*)$ de la forme $\lambda Id$ on a 
+$$\lambda ^2 Id = 3\lambda Id -2 Id$$
+Soit $$(\lambda^2 -3\lambda +2)Id =0$$
+Comme $Id\neq 0$ on obtient $(\lambda^2 -3\lambda +2)=0$ dont les solutions sont $$\lambda =1 \quadet \lambda = 2$$
+
+Ainsi les solutions de $(*)$ de la forme $\lambda Id$ sont $$f_1 = Id \quadet f_2 =2 Id$$
+ \end{enumerate}
+ 
+ \begin{enumerate}
+ \item \begin{enumerate}
+ \item Si $f$ vrifie $(*)$ on a alors en composant par $f$ : $$f^3= 3f^2-2f$$
+ Or $f^2 =3f-2Id$ d'où
+ $$f^3 = 7f -6Id$$
+ 
+ De même on obtient $$f^4 =15f -14Id$$
+ 
+ \item Par récurrence. 
+ 
+
+ \end{enumerate}
+ \item \begin{enumerate}
+ \item Dans la récurrence précédente on obtient 
+ $$a_{n+1}  = 3a_n+b_n$$
+ et 
+ $$b_{n+1} = -2a_n$$
+ D'où 
+ $$a_{n+2} =3a_{n+1} -2a_n$$
+ C'est-à-dire 
+ $$a_{n+1}-3a_n +2a_{n-1}=0$$
+ \item 
+C'est une suite arithmético-géométrique. On étudie le polynome caractérisque $X^2-3x+2$ de racines 
+$1$ et $2$
+On a donc 
+$$a_n =C_1 +2^n C_2$$
+où $C_1$ et $C_2$ sont deux réels à déterminer. 
+
+On a $f^0 = Id$ d'où $a_0 =0$ et 
+$f^0 = f$ d'où $a_1= 1$
+
+En résolvant le systeme on obteint 
+$C_1= -1 \quad C_2=1$
+D'où 
+$$a_n =-1 +2^n$$
+et $$b_n = -2a_{n-1} =2 -2^{n}$$
+ 
+ \end{enumerate}
+ \end{enumerate}
+\end{correction}
+
+
+
+
+
+\end{document}

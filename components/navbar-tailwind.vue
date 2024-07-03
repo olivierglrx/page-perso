@@ -1,5 +1,5 @@
 <template>
-  <nav class="w-full p-6 bg-transparent bg-slate-200 dark:bg-gray-700">
+  <nav class="w-full p-6 bg-transparent bg-gray-300 dark:bg-gray-700">
     <div class="flex items-center justify-between">
       <!-- Header logo -->
 
@@ -26,13 +26,16 @@
           <li><NuxtLink href="/" class="">Cours</NuxtLink></li>
           <li><NuxtLink href="/colles" class="">Colles</NuxtLink></li>
           <li><NuxtLink href="/devoirs" class="">Devoirs</NuxtLink></li>
-          <li><NuxtLink href="/informatique" class="">Informatique</NuxtLink></li>
+          <li><NuxtLink href="/archives" class="">Archives</NuxtLink></li>
+          <li>
+            <NuxtLink href="/informatique" class="">Informatique</NuxtLink>
+          </li>
           <li class="">
             <NuxtLink href="/publications" class="">Publications</NuxtLink>
           </li>
         </ul>
       </div>
-      <div> <ColorMode /></div>
+      <div><ColorMode /></div>
 
       <!-- Dark Background Transition -->
       <transition
@@ -62,7 +65,10 @@
         :class="isOpen ? 'translate-x-0' : '-translate-x-full'"
       >
         <div class="close">
-          <button class="absolute top-0 right-0 mt-4 mr-4" @click="isOpen = false">
+          <button
+            class="absolute top-0 right-0 mt-4 mr-4"
+            @click="isOpen = false"
+          >
             <svg
               class="w-6 h-6"
               fill="none"
@@ -77,16 +83,59 @@
           </button>
         </div>
 
-        <span @click="isOpen = false" class="flex w-full items-center p-4 border-b">
+        <span
+          @click="isOpen = false"
+          class="flex w-full items-center p-4 border-b"
+        >
           <!-- <Tailwind /> -->
         </span>
 
         <ul class="divide-y font-sans">
-          <li><NuxtLink href="/" @click="isOpen = false" class="my-4 inline-block">Cours</NuxtLink></li>
-          <li><NuxtLink href="/colles" @click="isOpen = false" class="my-4 inline-block">Colles</NuxtLink></li>
-          <li><NuxtLink href="/devoirs" @click="isOpen = false" class="my-4 inline-block">Devoirs</NuxtLink></li>
-          <li><NuxtLink href="/informatique" @click="isOpen = false" class="my-4 inline-block">Informatique</NuxtLink></li>
-          <li> <NuxtLink href="/publications" @click="isOpen = false" class="my-4 inline-block">Publications</NuxtLink> </li>
+          <li>
+            <NuxtLink href="/" @click="isOpen = false" class="my-4 inline-block"
+              >Cours</NuxtLink
+            >
+          </li>
+          <li>
+            <NuxtLink
+              href="/colles"
+              @click="isOpen = false"
+              class="my-4 inline-block"
+              >Colles</NuxtLink
+            >
+          </li>
+          <li>
+            <NuxtLink
+              href="/devoirs"
+              @click="isOpen = false"
+              class="my-4 inline-block"
+              >Devoirs</NuxtLink
+            >
+          </li>
+          <li>
+            <NuxtLink
+              href="/archives"
+              @click="isOpen = false"
+              class="my-4 inline-block"
+              >Archives</NuxtLink
+            >
+          </li>
+          <li>
+            <NuxtLink
+              href="/informatique"
+              @click="isOpen = false"
+              class="my-4 inline-block"
+              >Informatique</NuxtLink
+            >
+          </li>
+          <li>
+            <NuxtLink
+              href="/publications"
+              @click="isOpen = false"
+              class="my-4 inline-block"
+              >Publications</NuxtLink
+            >
+          </li>
         </ul>
       </aside>
     </div>

@@ -1,0 +1,579 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\usepackage{enumitem}
+\geometry{hmargin=2.0cm, vmargin=2.5cm}
+\lstset{basicstyle=\ttfamily, keywordstyle=\rmfamily\bfseries}
+\newif\ifshow
+\showfalse
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{DS 5\\
+\Large{Durée 3h00}
+}
+
+\vspace{1cm}
+\begin{center}
+
+\begin{description}
+\item$\bullet$ Les calculatrices sont \underline{interdites} durant les cours, TD et \emph{a fortiori} durant les DS de mathématiques. \\
+
+\item $\bullet $ Si vous pensez avoir découvert une erreur, indiquez-le clairement sur la copie et justifiez les initiatives que vous êtes amenés à prendre. \\
+
+\item $\bullet$ Une grande attention sera apportée à la clarté de la rédaction et à la présentations des solutions. (Inscrivez clairement en titre le numéro de l'exercice, vous pouvez aussi encadrer les réponses finales.)  \\
+
+\item $\bullet$ Vérifiez vos résultats. \\
+
+\item $\bullet$ Le résultat d'une question peut être admis et utilisé pour traiter les questions suivantes en le signalant explicitement sur la copie. 
+\end{description}
+
+\end{center} 
+
+\newpage
+\begin{exercice}
+Calculer
+\begin{enumerate}
+\item  $I_1=\ddp\int_1^2 \frac{\ln(t)}{t}dt$
+\item $I_2 =\ddp \int_0^1 xe^{2x}dx$
+\item $I_3 =\ddp\int_0^1 \frac{t}{1+t^4}dt$.\quad   (On pourra effectuer le changement de variable $t^2=u$.)
+\end{enumerate}
+\end{exercice}
+
+\begin{correction}
+\begin{enumerate}
+\item  TD 10, ex 4, Q5
+\item  TD 10, ex 5, Q2
+\item  TD 10, ex 7, Q1
+\end{enumerate}
+\end{correction}
+\vspace{0.5cm}
+
+\begin{exercice}
+Soit $f  : \R^2 \tv \R^2 $ définie par 
+$$f(x,y)=(2x+y,  3x+y)$$
+
+\begin{enumerate}
+\item Soit $A = \begin{pmatrix}
+2 & 1\\
+3 & 1\\
+\end{pmatrix}$. Montrer que $A$ est inversible et calculer son inverse. 
+
+\item Justifier que pour tout $(X,Y)\in \R^2$ il existe une unique solution à l'équation d'inconnue $(x,y)$ : $$f(x,y)=(X,Y)$$
+\item En déduire que $f$ est bijective et donner sa bijection réciproque. 
+\end{enumerate}
+
+\end{exercice}
+
+\begin{correction}
+
+\end{correction}
+
+\vspace{0.5cm}
+
+
+\begin{exercice}
+\begin{enumerate}
+\item Justifier que l'intégrale $\ddp \int_x^{2 x} \frac{1}{\sqrt{t^2+1}} d t$ est définie pour tout réel $x$.\\
+On considère désormais la fonction $f$ définie par :
+$$
+\forall x \in \mathbb{R}, f(x)=\int_x^{2 x} \frac{1}{\sqrt{t^2+1}} d t
+$$
+\item  Etablir que $f$ est impaire. (Afin de caculer $f(-x)$, on pourra effectuer le changement de variable $t=-u$)
+\item \begin{enumerate}
+\item Justifier que $f$ est  dérivable  sur $\mathbb{R}$.
+\item Montrer que pour tout $x\in \R$ :
+$f'(x) $ est du signe de $\varphi(x)= 2\sqrt{x^2+1} -\sqrt{4x^2+1}$. 
+\item Résoudre l'équation $\varphi(x)\geq 0$.
+\item  En déduire que $f$ est strictement croissante sur $\mathbb{R}$.
+\end{enumerate}
+\item 
+\begin{enumerate}
+\item En utilisant la relation $t^2 \leqslant t^2+1 \leqslant t^2+2 t+1$, valable pour tout $t$ réel positif ou nul, montrer que l'on a l'encadrement suivant :
+$$
+\forall x \in \mathbb{R}_{+}^*, \quad \ln (2 x+1)-\ln (x+1) \leqslant f(x) \leqslant \ln (2)
+$$
+\item Donner alors la limite de $f(x)$ lorsque $x$ tend vers $+\infty$.
+\item Dresser le tableau de variation complet de $f$.
+\end{enumerate}
+\item En déduire que $f$ est une bijection de $\R$ sur un ensemble à déterminer. 
+\item Déterminer $f^{-1} (0) $ et  $(f^{-1})' (0)$.
+\end{enumerate}
+\end{exercice}
+\begin{correction}
+
+\end{correction}
+
+\vspace{0.5cm}
+\newpage
+
+\begin{exercice}
+Soit $M$ la matrice : 
+$$M=\left( \begin{array}{ccc}
+2 &1& 0\\
+0 &1 & 0  \\
+ -1&0&1
+\end{array}\right) $$
+
+\begin{enumerate}
+%\item  Résoudre le système $MX=\lambda X$ d'inconnue $X =\left(
+%\begin{array}{c}
+%x\\
+%y\\
+%z
+%\end{array}
+% \right)$ où $\lambda$ est un paramètre réel. 
+\item Calculer $(M- \Id)^2$. Donner son rang.
+
+ \item Soit $e_1= \left(
+\begin{array}{c}
+1\\
+0\\
+-1
+\end{array}
+ \right)$,  $e_2= \left(
+\begin{array}{c}
+0\\
+0\\
+1
+\end{array}
+ \right)$, et  $e_3= \left(
+\begin{array}{c}
+1\\
+-1\\
+0
+\end{array}
+ \right)$.
+Exprimer  $Me_1, Me_2$ en fonction de $e_1, e_2$.
+\item Montrer qu'il existe $(\alpha, \beta)\in \R^2$ tel que $M e_3 = \alpha e_2 +\beta e_3$.
+ 
+\item Soit $P= \left(
+\begin{array}{ccc}
+1&0&1\\
+0&0&-1\\
+-1&1&0
+\end{array}
+ \right)$ 
+ 
+ Montrer que $P$ est inversible et calculer son inverse. 
+ \item Soit $T=P^{-1}MP$. Calculer $T$. 
+  \item Montrer par récurrence que 
+$$T^n = \left(\begin{array}{ccc}  
+2^n&0&0 \\
+0 &1&-n \\
+0&0&1 
+\end{array}\right)$$
+ \item Montrer par récurrence que pour tout $n\in \N$: 
+ $$T^n = P^{-1}M^n P$$
+\item En déduire la valeur de $M^n$.
+\item Soit $\suite{x}, \suite{y}, \suite{z}$ trois suites telles que $x_0=1, y_0=2, z_0=-1$ et $\forall n\in \N$
+$$\left\{ \begin{array}{ccc}
+x_{n+1} &=& 2x_n+y_n\\
+y_{n+1} &= & y_n\\
+z_{n+1} &= & -x_n+z_n\\
+\end{array}\right.$$
+\begin{enumerate}
+\item On pose $U_n =\left(\begin{array}{c}
+x_n\\
+y_n\\
+z_n
+\end{array}   \right)$. Etablir une relation entre $U_n, U_{n+1}$ et $M$.
+\item En déduire  (et la prouver) une relation entre $U_n$ $U_0$ et $M$
+\item Donner finalement l'expression de $x_n$ en fonction de $n$. 
+\end{enumerate}
+
+\end{enumerate}
+\end{exercice}
+
+\vspace{3cm}
+\begin{center}
+Dernier exercice page suivante.
+\end{center}
+
+
+\begin{correction}
+\begin{enumerate}
+\item
+$$MX=\lambda X \equivaut   \left( \begin{array}{c}
+2x +y  \\
+ y \\
+ -x +z
+\end{array}\right) = \left(
+\begin{array}{c}
+\lambda x\\
+\lambda y\\
+\lambda z
+\end{array} \right)$$ 
+
+$$\left\{ \begin{array}{ccccc}
+2x &+y& & =&\lambda x \\
+ &y & & =& \lambda y \\
+ -x& &+z&=&\lambda z
+\end{array}\right. 
+\equivaut \left\{ \begin{array}{ccccc}
+(2-\lambda)x &+y& & =&0 \\
+ &(1-\lambda)y & & =& 0 \\
+ -x& &+(1-\lambda)z&=&0
+\end{array}\right. 
+$$ 
+ En échangeant les lignes et les colonnes on peut voir que le système est déjà échelonné.
+$L_3\leftarrow L_1, L_2 \leftarrow _3, L_1\leftarrow L_2$
+$$MX=\lambda X 
+\equivaut  \left\{ \begin{array}{ccccc}
+ -x& &+(1-\lambda)z&=&0\\
+(2-\lambda)x &+y& & =&0 \\
+ &(1-\lambda)y & & =& 0 
+\end{array}\right.$$
+$ C_3\leftarrow C_1, C_2 \leftarrow C_3, C_1\leftarrow C_2$
+$$
+\equivaut \left\{ \begin{array}{ccccc}
+ (1-\lambda)z&-x& &=&0\\
+ &(2-\lambda)x&+y & =&0 \\
+ &  & (1-\lambda)y& =& 0 
+\end{array}\right.$$
+
+Si $\lambda \notin \{ 1,2\} $ alors le système est de rang 3, il est donc de Cramer et l'unique solution est 
+\conclusion{ $\cS= \{ (0,0,0)\}$}
+
+Si $\lambda =1$, le système est équivalent à 
+$$\left\{ \begin{array}{cccc}
+ -x& &=&0\\
+ (2-1)x&+y & =&0 \\
+   & 0& =& 0 
+\end{array}\right. \equivaut \left\{ \begin{array}{cc}
+ x& =0\\
+ y&  =0
+\end{array}\right.$$
+Le système est de rang 2. L'ensemble des solutions est 
+\conclusion{ $\cS= \{ (0,0,z) \, |\, z\in \R\}$}
+
+Si $\lambda =2$, le système est équivalent à 
+$$\left\{ \begin{array}{ccccc}
+(1-2)z&-x& &=&0\\
+ & 0 &+y & =&0 \\
+ &  & (1-2)y& =& 0 
+\end{array}\right. \equivaut \left\{ \begin{array}{cccc}
+-z&-x& &=0\\
+ &  &y  &=0 \\
+ &  & y &= 0 
+\end{array}\right.\equivaut \left\{ \begin{array}{cl}
+x &=-z\\
+  y  &=0 
+\end{array}\right.$$
+Le système est de rang 2. L'ensemble des solutions est 
+\conclusion{ $\cS= \{ (-z,0,z) \, |\, z\in \R\}$}
+
+\item $M-\Id= \left( \begin{array}{ccc}
+1 &1& 0\\
+0 &0& 0  \\
+ -1&0&0
+\end{array}\right) $
+
+Donc \conclusion{$(M-\Id)^2= \left( \begin{array}{ccc}
+1 &1& 0\\
+0 &0& 0  \\
+ -1&-1&0
+\end{array}\right) $}
+
+Le système associé est 
+
+$\left\{  \begin{array}{ccr}
+x &+y&  =0\\
+ & & 0  =0\\
+ -x&-y&=0
+\end{array}\right. \equivaut \left\{  \begin{array}{cr}
+x +y&  =0\\
+\end{array}\right. $
+Il est de rang 1. Donc
+\conclusion{$(M-\Id)^2$ est de rang $1$}
+\item 
+Le calcul montre que $Me_1 =2e_1$ et  $Me_2=e_2$
+\item Le calcul montre que 
+$Me_3 =  \left( \begin{array}{c}
+1\\
+-1\\
+-1\\
+\end{array}\right) = \left( \begin{array}{c}
+1\\
+-1\\
+0\\
+\end{array}\right) - \left( \begin{array}{c}
+0\\
+\\
+1\\
+\end{array}\right)  e_3-e_2 $
+
+
+Ainsi on peut prendre 
+\conclusion{$\alpha =-1$ et $\beta =1$}
+
+\item  On considère la matrice augmentée : 
+$\left(\begin{array}{ccc|ccc}  
+1&0&1 & 1&0&0 \\
+0&0&-1& 0&1&0 \\
+-1&1&0& 0&0&1 
+\end{array}\right)$
+
+$L_3\leftarrow L_3+L_1$  donnent
+$$\left(\begin{array}{ccc|ccc}  
+1&0&1 & 1&0&0 \\
+0&0&-1& 0&1&0 \\
+0&1&1& 1&0&1 
+\end{array}\right)$$
+$L_1\leftarrow L_1+L_2$ et $L_3\leftarrow L_3+L_2$
+donne 
+$$\left(\begin{array}{ccc|ccc}  
+1&0&0 & 1&1&0 \\
+0&0&-1& 0&1&0 \\
+0&1&0& 1&1&1 
+\end{array}\right)$$
+
+$L_2\leftarrow -L_2$
+donne 
+$$\left(\begin{array}{ccc|ccc}  
+1&0&0 & 1&1&0 \\
+0&0&1& 0&-1&0 \\
+0&1&0& 1&0&1 
+\end{array}\right)$$
+Enfin 
+$L_2\leftrightarrow L_3$
+donne 
+$$\left(\begin{array}{ccc|ccc}  
+1&0&0 & 1&1&0 \\
+0&1&0& 1&1&1 \\
+0&0&1& 0&-1&0 
+\end{array}\right)$$
+
+\conclusion{ $P$ est inversible d'inverse $\left(\begin{array}{ccc}  
+1&1&0 \\
+ 1&1&1 \\
+0&-1&0 
+\end{array}\right)$}
+
+\item Le calcul donne  
+\conclusion{ $T=\left(\begin{array}{ccc}  
+2&0&0 \\
+0 &1&-1 \\
+0&0&1 
+\end{array}\right)$}
+(sur une copie, le produit intermédiaire $MP$ serait apprécié)
+
+\item 
+
+
+(CF ex 6-3 du DM de Noël) \\
+
+On pose $P(n) : "T^n =P^{-1} M^n P"$
+\begin{itemize}
+\item[Initialisation] 
+$T^1 =T$ et $P^{-1} M^1 P= P^{-1} M P=T$ d'après la définition de $T$.
+Donc $P(1) $ est vrai. 
+
+\item[Hérédité] On suppose qu'il existe $n\in \N$ tel que $P(n)$ soit vraie. 
+On a alors 
+\begin{align*}
+ (T)^{n+1}&=  T^n  T
+\end{align*}
+et donc par Hypothése de récurrence : 
+\begin{align*}
+ T^{n+1}&=  (P^{-1}M^n P )  (P^{-1}M P )\\
+ 							&=  (P^{-1}M^n P  P^{-1}M P )\\
+ 							&=  (P^{-1}M^n \Id M P )\\
+ 							&=  (P^{-1}M^n M P )\\
+ 							&=  (P^{-1}M^{n+1} P )
+\end{align*}
+\item[Conclusion] $P(n)$ est vraie pour tout $n$. 
+
+
+
+
+\end{itemize}
+\item On a 
+$T= \left(\begin{array}{ccc}  
+2&0&0 \\
+0 &1&-1 \\
+0&0&1 
+\end{array}\right)  = \left(\begin{array}{ccc}  
+2&0&0 \\
+ 0&1&0 \\
+0&0&1 
+\end{array}\right) + \left(\begin{array}{ccc}  
+0&0&0 \\
+0 &0&-1 \\
+0&0&0 
+\end{array}\right)  $  
+
+On pose $D= \left(\begin{array}{ccc}  
+2&0&0 \\
+ 0&1&0 \\
+0&0&1 
+\end{array}\right) $ et $N= \left(\begin{array}{ccc}  
+0&0&0 \\
+ 0&0&-1 \\
+0&0&0 
+\end{array}\right)  $ 
+On a bien $T =D+N$ et  le calcul donne 
+$DN = \left(\begin{array}{ccc}  
+0&0&0 \\
+0 &0&-1 \\
+0&0&0 
+\end{array}\right) =DN $ 
+
+
+\item C'est un calcul. La question \og normale\fg\,  devrait être \og Calculer $N^2$ \fg \,  , mais ne permet pas de faire la question suivante si on n'a pas trouvé la forme de $N$. 
+
+\item Solution 1 : On peut appliquer le binome de Newton à $T= D+N$   car $D$ et $N$ commutent. On a alors 
+
+$$T^n =\sum_{k=0}^n \binom{n}{k} N^k D^{n-k}$$
+Comme pour tout $k\geq 2$, $N^2=0$ il reste dans cette somme seulement les termes $k=0$ et $k=1$. On obtient donc 
+\begin{align*}
+T^n  &= \binom{n}{0} N^0 D^{n-0}+ \binom{n}{1} N^1 D^{n-1}\\
+		&=D^n + nND^{n-1}
+\end{align*}
+
+
+
+
+
+
+Solution 2: 
+
+On pose $P(n) : \og  T^n =D^n +n D^{n-1} N \fg$
+
+\begin{itemize}
+\item \underline{Initialisation }
+$T^1 =T$ et $D^1+1D^0 N = D^1 +\Id N=D+N =T$ d'après la définition de $D,N$.
+Donc $P(1) $ est vrai. 
+
+\item \underline{Hérédité} On suppose qu'il existe $n\in \N$ tel que $P(n)$ soit vraie. 
+On a alors 
+\begin{align*}
+ (T)^{n+1}&=  T^n  T
+\end{align*}
+et donc par Hypothése de récurrence : 
+\begin{align*}
+ T^{n+1}&= (D^n +nD^{n-1} N)(D+N)\\
+ 							&=  D^n D +n D^{n-1} N D + D^n N + nD^{n-1}N^2\\
+\end{align*}
+Comme $ND=DN$ on a $D^{n-1} N D= D^{n-1} DN  =D^{n} N$.  on a par ailleurs $N^2=0$ donc 
+
+\begin{align*}
+ T^{n+1}&=D^{n+1} +D^n N +nD^n N\\
+ 			&=D^{n+1} + (n+1) D^{(n+1)-1} N 
+\end{align*}
+Ainsi la propriété est héréditaire. 
+
+\item \underline{Conclusion} $P(n)$ est vraie pour tout $n$. 
+\end{itemize}
+
+\item On a d'après la question 7 
+$$M^n = P T^n P^{-1}$$
+et d'après la question précédente : 
+$$T^n = D^{n} + n D^{n-1} N  =\left(\begin{array}{ccc}  
+2^n&0&0 \\
+0 &1&-n \\
+0&0&1 
+\end{array}\right)$$
+Le calcul donne 
+
+$T^n P^{-1} = \left(\begin{array}{ccc}  
+2^n&2^n&0 \\
+1 &1+n&1 \\
+0&-1&0 
+\end{array}\right)$
+et 
+\conclusion{
+ $M^n=\left(\begin{array}{ccc}  
+2^n&2^n-1&0 \\
+0&1&0 \\
+-2^n+1&-2^n+1+n&1 
+\end{array}\right)$
+
+}
+
+
+
+
+\end{enumerate}
+\end{correction}
+
+\newpage
+\begin{exercice}
+
+\begin{enumerate}
+
+\item On consid\`ere la chaine de caract\`ere \verb|ch = "1234"|.
+
+\begin{enumerate}
+
+\item Quel est le type de \verb|ch[0]| ? Quelle est sa valeur ?
+\item Quel est le type de \verb|int(ch[3])| ? Quelle est sa valeur ?
+\item Quel est le type de \verb|"1" + str(2)| ? Quelle est sa valeur ?
+
+\end{enumerate}
+
+\item \'Ecrire une fonction \verb|StringToList| qui prend comme argument d'entrée une chaine de caractères repr\'esentant un nombre entier positif (de longueur quelconque) et qui renvoie la liste des chiffres qui composent l'entier repr\'esent\'e par la chaine de caract\`eres.
+
+\textit{Par exemple, l'instruction }\verb|StringToList("1234")| \textit{renverra la liste d'entiers }\verb|[1, 2, 3, 4]|.
+\item \'Ecrire une fonction \verb|distribution| qui, \`a partir d'une liste d'entiers compris entre $0$ et $9$, renvoie une liste \verb|L| telle que, pour tout $i\in\llbracket0,9\rrbracket$, \verb|L[i]| contienne le nombre d'entiers \verb|i| dans la liste pass\'ee en argument.
+
+\textit{Par exemple, }\verb|distribution([4, 7, 7, 1])| r\textit{enverra la liste} \verb|[0, 1, 0, 0, 1, 0, 0, 2, 0, 0]|.
+\item On consid\`ere une fonction \verb|NbEntiersCommuns| qui renvoie le nombre d'entiers en commun (mais pas n\'ecessairement plac\'es aux m\^eme endroit) dans deux listes d'entiers (compris entre $0$ et $9$) pass\'ees en argument.
+
+\textit{Par exemple,} \verb|NbEntiersCommuns([4, 7, 7, 1], [4, 4, 7, 7])| \textit{renverra $3$.}
+
+Parmis les fonctions suivantes, indiquer (sans justifier) l'unique fonction qui correspond \`a celle d\'ecrite ci-dessus.
+
+\begin{minipage}{.45\textwidth}
+\begin{lstlisting}[language=Python]
+def NbEntiersCommuns1(L,M) :
+    s = 0
+    for k in range(len(L)) :
+        s += min(L[k], M[k])
+    return s
+\end{lstlisting}
+\begin{lstlisting}[language=Python]
+def NbEntiersCommuns3(L,M) :
+    nb = 0
+    for k in range(len(L)) :
+        i = 0
+        while i < len(M) :
+            if L[k] == M[i] :
+                nb = nb + 1
+    return nb
+\end{lstlisting}
+\end{minipage}
+\hspace{.5cm}
+\begin{minipage}{.45\textwidth}
+\begin{lstlisting}[language=Python]
+def NbEntiersCommuns2(L,M) :
+    nb = 0
+    dL = distribution(L)
+    dM = distribution(M)
+    for k in range(10) :
+        nb += max(dL[k], dM[k])
+    return nb
+\end{lstlisting}
+\begin{lstlisting}[language=Python]
+def NbEntiersCommuns4(L,M) :
+    s = 0
+    dL = distribution(L)
+    dM = distribution(M)
+    for k in range(10) :
+        s += max(dL[k], dM[k])
+    return s
+\end{lstlisting}
+\end{minipage}
+
+%\item \'Ecrire une fonction \verb|NbEntiersCommunsCh| qui renvoie le nombre d'entiers en commun (mais pas n\'ecessairement plac\'es aux m\^eme endroit) dans deux chaines de caract\`eres repr\'esentant un entiers (compris entre $0$ et $9$) pass\'ees en argument.
+%
+%\textit{Par exemple,} \verb|NbEntiersCommunsCh("4771", "4477")| \textit{renverra $3$.}
+
+\end{enumerate}
+
+\end{exercice}
+
+\end{document}

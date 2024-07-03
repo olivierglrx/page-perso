@@ -1,0 +1,579 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\newif\ifshow
+\showfalse
+%\geometry{hmargin=3cm,vmargin=4cm }
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{DS 2\\
+\Large{Durée 3h30}
+}
+
+\vspace{1cm}
+\begin{center}
+
+\begin{description}
+\item$\bullet$ Les calculatrices sont \underline{interdites} durant les cours, TD et \emph{a fortiori} durant les DS de mathématiques. \\
+
+\item $\bullet $ Si vous pensez avoir découvert une erreur, indiquez-le clairement sur la copie et justifiez les initiatives que vous êtes amenés à prendre. \\
+
+\item $\bullet$ Une grande attention sera apportée à la clarté de la rédaction et à la présentations des solutions. (Inscrivez clairement en titre le numéro de l'exercice, vous pouvez aussi encadrer les réponses finales.)  \\
+
+\item $\bullet$ Vérifiez vos résultats. \\
+
+\item $\bullet$ Le résultat d'une question peut être admis et utilisé pour traiter les questions suivantes en le signalant explicitement sur la copie. 
+\end{description}
+
+\end{center} 
+\vspace{2cm}
+
+\newpage
+\begin{exercice}
+\begin{enumerate}[label=\textbf{\arabic*}.]
+\item Comparer (avec une inégalité large) pour tout $n\in \N$, les nombres $2n$ et $ 3^n$. (Prouver cette inégalité) 
+%\item On considère la suite $\suite{u}$ définie par $u_0=1$, $u_1= 3$  et pour tout $n\in \N$:
+%$$u_{n+2} =\left(2+\frac{1}{n}\right)u_{n+1} -2u_n$$
+%\begin{enumerate}
+%\item Enoncer l'inégalité triangulaire.
+%\item Montrer que  : $\forall n\in \N,\, |u_n| \leq 4^n$. (On pourra faire apparaitre une hypothèse de récurrence sur $u_n$ et $u_{n+1}$.)
+%\item Ecrire un script python qui  permet de calculer et  d'afficher la valeur de $u_{100}.$
+\item Simplifier ces sommes et produits: 
+\begin{enumerate}
+\item $S_1=\ddp \sum_{k=0}^{n} \binom{n+1}{k+1}$. 
+\item $S_2=\ddp \sum_{k=0}^{n} a^{2k}\frac{1}{4^{k+1}}$ où $a$ est un réel. ( On distinguera deux cas en fonction de la valeur de $a$ et on pourra laisser le résultat final sous forme d'une 'grosse' fraction) 
+\item $S_3=\ddp \sum_{k=0}^{2n} (k^3+1)$  (On pourra laisser le résultat final comme la somme de deux termes ne dépendant que de $n$)
+\item $P_1=\ddp \prod_{k=3}^{n+1} k^2$ (On écrira le résultat à l'aide de factorielle)
+\end{enumerate}
+\item Ecrire un script Python qui demande à l'utilisateur un entier $n$ et calcule la somme $S_3$. 
+\item Ecrire un script Python qui demande à l'utilisateur un entier $n$ et calcule le produit $P_1$.
+\end{enumerate}
+
+\end{exercice}
+
+
+
+\begin{exercice}
+Soit $\omega =e^{\frac{2i\pi}{7}}$. On considère $A=\omega+\omega^2 +\omega^4$ et $B =\omega^3+\omega^5 +\omega^6$
+
+\begin{enumerate}
+\item Calculer $\frac{1}{\omega}$ en fonction de $\overline{\omega}$.
+\item Montrer que pour tout $k\in \intent{0,7}$ on a 
+$$\omega^k =\overline{\omega}^{7-k}.$$
+\item En déduire que $\overline{A}=B$.
+\item Montrer que la partie imaginaire de $A$ est strictement positive. (On pourra montrer que $\sin\left( \frac{2\pi}{7}\right)-\sin\left( \frac{\pi}{7}\right)>0$.)
+\item  Montrer que $\ddp \sum_{k=0}^6 \omega^k =0$. En déduire que $A+B=-1$.
+\item Montrer que $AB=2$. 
+
+\item En déduire la valeur exacte de $A$.
+
+
+\end{enumerate}
+\end{exercice}
+
+%
+%\begin{exercice}
+%On se propose de résoudre dans $\bC$ l'équation 
+%$$x^2 +ax +\frac{a}{2}+2=0 \quad (E_a)$$
+% en fonction du paramètre $a\in \R$
+% 
+%\begin{enumerate}
+%\item Calculer le discriminant $\Delta(a) $ de $x^2 +ax +\frac{a}{2}-2$ en fonction de $a$. 
+%\item Déterminer le signe de $\Delta(a)$ en fonction de $a$. 
+%\item En déduire les solutions de $(E_a)$ en fonction de $a$. 
+%\item Ecrire un script Python qui vérifie demande à l'utilisateur un réel $x$ et un paramètre $a$ et qui affiche 'True' si $x$ est solution $(E_a)$ et ' False' sinon. 
+%\end{enumerate} 
+%\end{exercice}
+
+\begin{exercice}
+Soit $z,z'$ deux nombres complexes.
+
+\begin{enumerate}
+\item Rappeler les valeurs de $A=z\bar{z}$, $B=|z\bar{z}|$, $C=|\bar{z}z'|^2$ en fonction de $|z|$ et $|z'|$. 
+\item On suppose dans cette question et  la suivante que $|z|<1 $ et $|z' |<1$. Montrer que $$\bar{z}z'\neq 1$$
+
+\item  Montrer que 
+$$1- \left| \frac{z-z'}{1-\bar{z} z' } \right|^2 = \frac{(1-|z'|^2)(1-|z|^2)}{|1-\bar{z}z'|^2}$$
+\item Soit $\suite{z}$ une suite de nombres complexes vérifiant : $|z_0|<1, |z_1|<1$  et pour tout $n\in \N$ :
+$$z_{n+2} =\frac{z_n-z_{n+1}}{1-\bar{z_{n}} z_{n+1}}$$
+
+Montrer que pour tout $n\in \N$, $|z_n|<1$ et que $\bar{z_n}z_{n+1}\neq 1$, et donc que $\suite{z}$ est bien définie pour tout $n\in \N$. \\
+\footnotesize{On pourra utiliser les deux questions précédentes dans une récurrence double}
+
+\end{enumerate}
+\end{exercice}
+
+\begin{correction}
+\begin{enumerate}
+\item Comme $|z|<1$ et $|z'|<1$ on a $|\bar{z}z'|= |\bar{z}| |z'| =|z||z'| <1$. Or si deux nombres complexes sont égaux ils ont même module, donc $\bar{z}z' $ ne peut pas être égal à $1$, sinon ils auraient le même module. 
+\item Après avoir mis au même dénominateur le membre de gauche, on va utiliser le fait que pour tout complexe $u$, on a $|u|^2 = u\bar{u}$ :
+\begin{align*}
+1- \left| \frac{z-z'}{1-\bar{z} z' } \right|^2  &= \frac{| 1-\bar{z} z' |^2 -|z-z' |^2}{|1-\bar{z} z'  |^2}\\
+&= \frac{( 1-\bar{z} z' )(\bar{ 1-\bar{z} z'} )   -(z-z' )(\bar{z-z'})}{|1-\bar{z} z'  |^2}\\
+&= \frac{( 1-\bar{z} z' )(1-z\bar{z'}  )   -(z-z' )(\bar{z}-\bar{z'})}{|1-\bar{z} z'  |^2}\\
+&= \frac{( 1-\bar{z} z' -z\bar{z'} + |\bar{z}z'|^2  )   -(|z|^2-\bar{z'}z - \bar{z}z' +|z'|^2)}{|1-\bar{z} z'  |^2}\\
+&= \frac{( 1+ |\bar{z}z'|^2-|z|^2-|z'|^2)}{|1-\bar{z} z'  |^2}
+\end{align*}
+Remarquons enfin que $(1-|z|^2) (1-|z'|^2)  =1 +|zz'|^2 -|z|^2 -|z'|^2$. Or 
+$ |\bar{z}z'|^2 = |\bar{z}|^2|z'|^2 =|z|^2 |z'|^2  = |zz'|^2$.
+On a bien 
+\conclusion{$\ddp 1- \ddp \left| \ddp \frac{z-z'}{1-\bar{z} z' } \right|^2    = \frac{(1-|z|^2) (1-|z'|^2) }{|1-\bar{z} z'  |^2}$}
+
+
+\item Soit $P(n)$ la propriété : \og $|z_n|<1$ et $|z_{n+1}|<1$\fg \,. Remarquons que d'après la question 2, $P(n)$ implique que $\bar{z_n}z_{n+1}\neq 1 $ et donc que $z_{n+2}$ est bien définie. 
+
+Prouvons $P(n)$ par récurrence. 
+
+\underline{Initialisation} : 
+$P(0)$ est vraie d'après l'énoncé : $|z_0|<1 $ et $|z_1|<1$.\\
+
+\underline{Hérédité} : On suppose qu'il existe $n\in \N$   tel que $P(n)$ soit vraie. Montrons alors $P(n+1)$ :  \og $|z_{n+1}|<1$ et $|z_{n+2}|<1$\fg. Par hypothèse de récurrence on sait déjà que $|z_{n+1}|<1$ il reste donc à prouver que $|z_{n+2} <1$. 
+
+On a $$|z_{n+2}| = \left|\frac{z_n-z_{n+1}}{1-\bar{z_{n}} z_{n+1}}\right|$$
+ Or d'après la question 3, 
+ $$ \left|\frac{z_n-z_{n+1}}{1-\bar{z_{n}} z_{n+1}}\right|^2 = 1- \frac{(1-|z_n|^2) (1-|z_{n+1}|^2) }{|1-\bar{z_n} z_{n+1}  |^2}$$
+ 
+Par hypothèse de récurrence,  $(1-|z_n|^2) (1-|z_{n+1}|^2)>0$. Le dénominateur est aussi positif, donc $\frac{(1-|z_n|^2) (1-|z_{n+1}|^2) }{|1-\bar{z_n} z_{n+1}  |^2}>0$ et ainsi :
+ $$ \left|\frac{z_n-z_{n+1}}{1-\bar{z_{n}} z_{n+1}}\right|^2 < 1$$
+Donc $|z_{n+2}|<1$. On a donc prouvé que la propriété $P$ était hériditaire. 
+
+\underline{Conclusion} : Par principe de récurrence, $P(n)$ est vraie pour tout $n\in \N$ et comme remarqué au début de récurrence, ceci implique que $\suite{z}$ est bien définie pour tout $n\in \N$.  
+
+ 
+\end{enumerate}
+\end{correction}
+
+
+
+
+
+
+
+\begin{probleme}
+On se propose dans ce problème de calculer la limite de la  suite : 
+$$S_n=\sum_{k=0}^{n} \frac{1}{k+n}$$
+
+
+\begin{enumerate}
+\item Etude de la convergence de $\suiteun{S}$.
+\begin{enumerate}
+\item  Déterminer le sens de variation de $\suiteun{S}$.
+\item Montrer que pour tout $n\in \N^*$, $S_n \geq 0$.
+\item En déduire que $\suiteun{S}$ converge.  On note $\ell $ sa limite. 
+\end{enumerate}
+
+\item   Minoration de la limite
+\begin{enumerate}
+
+\item A l'aide d'un changement de variable montrer que : 
+$$\forall n\in \N^*,\,  S_n  =\sum_{k=n}^{2n}\frac1{k}$$
+\item Montrer à l'aide d'une somme téléscopique que, pour tout $n\in\N^*$ :
+$$\sum_{k=n}^{2n} \ln\left( 1 +\frac{1}{k}\right) =\ln\left(\frac{2n+1}{n}\right) $$
+
+\item En déduire la limite de $\ddp \sum_{k=n}^{2n}\ln\left( 1 +\frac{1}{k}\right)$.
+
+\item A l'aide d'une étude de fonction,  montrer que pour tout $x\geq 0 $ :
+$$ \ln (1+x) \leq x.$$
+
+\newpage 
+
+
+\item Montrer à l'aide des questions précédentes que $$\ell \geq \ln(2).$$\\ \footnotesize{On pourra aussi utiliser le résultat en bas de page \footnote{ On rapelle le résultat suivant : 
+
+Théorème  : Soient  $\suite{u}$ et $\suite{v}$ deux suites. Si
+\begin{itemize}
+\item Pour tout $n\in \N $, $u_n\leq v_n$.
+\item  Et $\suite{u}$ et $\suite{v}$ admettent des limites.
+\end{itemize} 
+Alors 
+$$\lim_{n\tv \infty} u_n \leq \lim_{n\tv \infty} v_n$$
+
+}}
+
+
+\end{enumerate}
+\item Majoration de la limite.
+\begin{enumerate}
+\item A l'aide d'une étude de fonction,  montrer que pour tout $x\geq 0 $ :
+$$x-\frac{x^2}{2} \leq  \ln (1+x)$$
+\item On pose $e_n  =\ddp \sum_{k=n}^{2n} \frac{1}{2k^2}$. On va montrer que $\suiteun{e}$ tend vers $0$. 
+\begin{enumerate}
+\item Justifier que pour tout $n\in \N^*$, $e_n \geq 0$.
+\item Montrer que pour tout $n\in \N^*$, $e_n \leq \frac{n+1}{2n^2}$.
+\item Conclure. 
+\end{enumerate}
+\item Montrer que pour tout $n\in \N^*$,  
+$$S_n \leq e_n + \sum_{k=n}^{2n}\ln\left( 1 +\frac{1}{k}\right)$$
+\item En déduire la valeur de $\ell$. 
+
+\end{enumerate}
+
+\end{enumerate}
+
+
+\end{probleme}
+
+\begin{correction}
+\begin{enumerate}
+\item 
+\begin{enumerate}
+\item On calcule $S_{n+1}-S_n$ on obtient 
+$$S_{n+1}-S_n = \sum_{k=0}^{n+1} \frac{1}{k+n+1}- \sum_{k=0}^n \frac{1}{k+n}$$
+On fait un changemetn de variable sur la première somme en posant $i=k+1$ on a alors 
+$$S_{n+1} -S_n  =\sum_{i=1}^{n+2} \frac{1}{i+n}- \sum_{k=0}^n \frac{1}{k+n}$$
+Ce qui se simplifie en 
+$$S_{n+1} -S_n  =\frac{1}{2n+1} +\frac{1}{2n+2} - \frac{1}{n}$$
+
+On obtient en mettant au même dénominateur 
+$$S_{n+1}-S_n  =\frac{-3n-2}{n(2n+1)(2n+2)}<0$$
+
+
+
+
+
+
+
+
+
+\conclusion{$\suiteun{S}$ est décroissante. }
+\item
+Il y avait une erreur dans le sujet... La somme aurait du partir de 1 au lieu de $0$. On se rend compte que l'inégalité demandée pour $n=1$ est d'ailleurs fausse. 
+
+Pour la somme $\sum_{k=1}^n\frac{1}{k+n}$ voilà ce qu'on aurait pu faire. 
+$\forall k\in \intent{,n}, \quad \frac{1}{k+n}\leq \frac{1}{1+n}$
+En sommant ces inégalités on obtient 
+$\sum_{k=1}^n \frac{1}{k+n}\leq \sum_{k=1}^n \frac{1}{1+n}$
+et $\sum_{k=1}^n \frac{1}{1+n} =\frac{1}{1+n}\sum_{k=1}^n 1 = \frac{n}{n+1}$
+Ainsi
+\conclusion{ $S_n \leq \frac{n}{n+1}$}
+
+Sinon on peut montrer que $S_n = \sum_{k=0}^{n} \frac{1}{k+n}$ est majorée par $\frac{n+1}{n}$ avec la même méthode. Mais ce n'est pas très utile, on voudrait plutot montrer qu'elle est minorée.  Et, comme $S_n$ est une somme de terme positif, $S_n\geq 0$. 
+
+\item 
+$\suite{S}$ est minorée par $0$ est  décroissante donc
+\conclusion{ $\suiteun{S}$ converge. }
+
+Avec la suite $u_n =\sum_{k=1}^n \frac{1}{k+n}$ on aurait pu dire que $\suite{u}$ était croissante. De plus $u_n\leq \frac{n}{n+1}\leq 1$ donc majorée par $1$. Ainsi $\suite{u}$ converge. 
+
+\end{enumerate}
+\item 
+\begin{enumerate}
+
+
+\item On fait une étude de fonction : soit $f : \R_+ \tv \R$ définie par $f(x)=x-\ln(1+x)$.  La fonction $f$ est dérivable sur $\R_+$ et $$f'(x) =1 -\frac{1}{1+x}= \frac{x}{1+x}.$$.
+Ainsi pour tout $x>0$, $f'(x)>0$, donc $f$ est croissante sur $\R_+$. Comme $f(0)=0-\ln(1) =0$, on a donc pour tout $x\geq 0$
+$f(x)\geq 0$, c'est-à-dire $x-\ln(1+x)\geq 0$. Finalement 
+\conclusion{ $\forall x\geq 0, \, x\geq \ln(1+x)$}
+ 
+ \item On pose le changement de variable $i=k+n$. On a 
+ Comme $k\in \intent{0,n}$, on a $i=k+n\in \intent{n,2n}$ et donc 
+ $$S_n = \sum_{i=n}^{2n} \frac{1}{i}$$
+ Comme l'indice est muet on a bien 
+ \conclusion{  $S_n = \ddp \sum_{k=n}^{2n} \frac{1}{k}$}
+ 
+ \item 
+ \begin{align*}
+ \sum_{k=n}^{2n} \ln\left( 1 +\frac{1}{k}\right) &=  \sum_{k=n}^{2n} \ln\left( \frac{k+1}{k}\right)\\
+  &=  \sum_{k=n}^{2n} \ln\left( k+1\right) - \ln(k)\\
+  &=  \sum_{k=n}^{2n} \ln\left( k+1\right) -  \sum_{k=n}^{2n} \ln(k)
+ \end{align*}
+ On fait le changmeent de variable $i = k+1$  dans la première somme : on obtient 
+$$ \sum_{k=n}^{2n} \ln\left( k+1\right)  = \sum_{i=n+1}^{2n+1} \ln(i)  $$
+Ainsi 
+ \begin{align*}
+ \sum_{k=n}^{2n} \ln\left( 1 +\frac{1}{k}\right) &= \sum_{i=n+1}^{2n+1} \ln(i)  - \sum_{k=n}^{2n}\ln(k)\\
+ &=\sum_{i=n+1}^{2n} \ln(i) +\ln(2n+1)  -\left( \ln(n)+ \sum_{k=n+1}^{2n}\ln(k)\right)\\
+  &=\ln(2n+1) -\ln(n) + \sum_{i=n+1}^{2n} \ln(i) - \sum_{k=n+1}^{2n}\ln(k)\\
+  &=\ln\left(\frac{2n+1}{n}\right)
+ \end{align*}
+
+\item En tant que quotient de polynômes on a $\lim_{n\tv +\infty } \frac{2n+1}{n}= 2$
+Par composition, on a 
+$\ddp \lim_{n\tv+\infty }  \ln\left(\frac{2n+1}{n}\right)= \ln(2)$
+Donc 
+\conclusion{ $\ddp \lim_{n\tv +\infty}  \sum_{k=n}^{2n} \ln\left( 1 +\frac{1}{k}\right) = \ln(2)$}
+
+\item D'après la question 1), on a pour tout $k\in \N^*$ 
+$$\ln\left( 1 +\frac{1}{k}\right) \leq \frac{1}{k}$$
+Donc en sommant pour $k\in \intent{n,2n}$ on obtient : 
+$$\sum_{k=n}^{2n} \ln\left( 1 +\frac{1}{k}\right)\leq S_n$$
+On applique maintenant le résultat de bas de page, avec $u_n =\ddp  \sum_{k=n}^{2n} \ln\left( 1 +\frac{1}{k}\right)$, $v_n =S_n$ qui sont deux suites qui admettent bien des limites donc 
+$$\lim_{n\tv +\infty}  \sum_{k=n}^{2n} \ln\left( 1 +\frac{1}{k}\right) \leq \lim_{n\tv +\infty} S_n$$
+
+On obtient bien : 
+\conclusion{ $\ln(2)\leq \ell$}
+
+
+
+
+ 
+\end{enumerate}
+\item \begin{enumerate}
+\item On fait une autre étude de fonction. On pose 
+$g(x) =\ln(1+x) -x+\frac{x^2}{2}$. La fonction $g$ est définie et dérivable sur $\R_+$ et on a 
+$$g'(x) = \frac{1}{1+x}-1 +x = \frac{1-1-x+x+x^2}{1+x}= \frac{x^2}{1+x}$$
+Donc $g'(x)\geq 0 $ pour tout $x\geq 0$ et donc 
+$g$ est croissante sur $\R_+$. Comme $g(0) = 0$, on obtient pour tout $x\geq 0$, $g(x)\geq g(0) =0 $.
+Ainsi   pour tout $x\geq 0$, on a $\ln(1+x) -x+\frac{x^2}{2} \geq 0$, d'où
+\conclusion{ $\forall x\geq 0, \,  \ln(1+x) \geq x-\frac{x^2}{2} $}
+
+\item 
+\begin{enumerate}
+\item La suite $\suite{e}$ est une somme de termes positifs, donc positive.
+\item On va majorer tout les termes par le plus grand terme apparaissant dans la somme. On a 
+$\forall k\in \intent{n,2n} , \, \frac{1}{2k^2} \leq \frac{1}{2n^2}$
+
+Donc $$e_n =\sum_{k=n}^{2n} \frac{1}{2k^2}\leq \sum_{k=n}^{2n}  \frac{1}{2n^2}$$
+Or $\ddp \sum_{k=n}^{2n}  \frac{1}{2n^2} = \frac{1}{2n^2} \sum_{k=n}^{2n} 1$. 
+Il y a $(n+1)$ entier entre $n $ et $2n$ donc 
+$\ddp \sum_{k=n}^{2n} 1 =n+1$.
+
+On a finalement 
+$e_n \leq \frac{1}{2n^2} (n+1)$, c'est-à-dire:
+\conclusion{ $\forall n\geq 1, \, e_n\leq \frac{n+1}{2n^2}$}
+
+\item D'après les questions précédentes , pour tout $n\geq 1$ 
+
+$$0\leq e_n \leq  \frac{n+1}{2n^2}$$
+On a par ailleurs $\ddp  \lim_{n\tv +\infty } \frac{n+1}{2n^2} =\lim_{n\tv +\infty} \frac{n}{2n^2} = 0$ et $\ddp \lim_{n\tv +\infty} 0=0.$
+
+Donc le théorème des gendarmes assure que 
+\conclusion{ $\ddp \lim_{n\tv +\infty} e_n =0$}
+
+\end{enumerate}
+
+
+\item On applique l'inégalité obtenue en 2a) à $\frac{1}{k}>0$. On obtient donc, pour tout $k\in \N^*$ : 
+$$\frac{1}{k}-\frac{1}{2k^2}\leq \ln\left(1+\frac{1}{k} \right)$$
+En sommant ces inégalités entre $n$ et $2n$ on obtient donc 
+$$\sum_{k=n}^{2n} \left(\frac{1}{k}-\frac{1}{2k^2}\right) \leq \sum_{k=n}^{2n}\ln\left(1+\frac{1}{k} \right)$$
+
+Ce qui donne en utilisant la linéarité : 
+
+$$\sum_{k=n}^{2n} \frac{1}{k}-\sum_{k=n}^{2n}  \frac{1}{2k^2} \leq \sum_{k=n}^{2n}\ln\left(1+\frac{1}{k} \right)$$
+D'où 
+
+$$S_n - e_n \leq \sum_{k=n}^{2n}\ln\left(1+\frac{1}{k} \right)$$
+En faisant passer $e_n$ dans le membre de droite on obtient 
+\conclusion{$\ddp  S_n \leq e_n +  \sum_{k=n}^{2n}\ln\left(1+\frac{1}{k} \right)$} 
+
+\item On applique le théorème de bas de page aux suites 
+$u_n=S_n$ et $v_n =e_n +  \ddp \sum_{k=n}^{2n}\ln\left(1+\frac{1}{k} \right)$ et on obtient 
+$\ddp \lim_{n\tv +\infty} S_n \leq \lim_{n\tv +\infty} e_n +  \sum_{k=n}^{2n}\ln\left(1+\frac{1}{k} \right)$
+Par somme de limites on obtient bien 
+$$\ell \leq \ln(2)$$
+Avec l'inégalité $\ln(2)\leq \ell$ obtenue en 2e) on obtient : 
+
+\conclusion{ $\ddp \lim_{n\tv +\infty} S_n =\ln(2)$}
+
+
+
+\end{enumerate}
+
+
+\end{enumerate}
+\end{correction}
+
+
+
+%%%%%%%%%%%%%
+%%%%%%%%%%%%%
+%%%%%%%%%%%%%
+%%%%%%%%%%%%%
+
+
+\begin{correction}
+\begin{enumerate}
+
+
+\item On va prouver que $2n\leq 3^n$ pour tout $n\in \N$. Soit donc $P(n)$ la propriété 
+$P(n) : \og 2n\leq 3^n \fg $
+\underline{Initialisation} : $P(0)$  est vrai car $2*0=0\leq 3^0=1$
+
+\underline{Hérédité } : On suppose qu'il existe  $n\in \N$ tel que $P(n)$ soit vraie. On a alors $2(n+1) = 2n +2 \leq 3^n+2$ par hypothèse de récurrence.
+Or $3^n+2 = 3^{n}(1+2*3^{-n})$ et pour $3^{-n}\leq 1$ donc $(1+2*3^{-n})\leq 3$ et finalement  $$2(n+1)\leq 3^n+2\leq 3^{n+1}.$$
+
+La propriété $P$ est donc vraie au rang $(n+1)$ 
+
+\underline{Conclusion} : Par principe de récurrence, 
+\conclusion{ Pour tout $n\in \N,\, $  $2n\leq 3^n$}
+
+\item 
+\begin{enumerate}
+\item $S_1=\ddp \sum_{k=0}^{n} \binom{n+1}{k+1}$. On fait un changement de variable : $k+1=i$ on a donc
+$$S_1= \ddp \sum_{i=1}^{n+1} \binom{n+1}{i}$$
+On applique ensuite la formule du binôme de Newton 
+\begin{align*}
+S_1&=  \sum_{i=0}^{n+1} \binom{n+1}{i}  - \binom{n+1}{0}\\
+	&=2^{n+1} -1
+\end{align*}
+\conclusion{$S_1 = 2^{n+1} -1$}
+
+\item $$S_2 =\ddp \sum_{k=0}^{n} a^{2k}\frac{1}{4^{k+1}} =\sum_{k=0}^{n} {(a^{2})}^{k}\frac{1}{4}\frac{1}{4^{k}} =\frac{1}{4}\sum_{k=0}^{n} \left(\frac{a^{2}}{4}\right)^k $$
+On reconnait ici la somme d'une suite géométrique.
+
+Si $a^2\neq 4$ : 
+\conclusion{$\ddp S_2 = \ddp\frac{1}{4}\ddp \frac{1- \left(\frac{a^{2}}{4}\right)^{n+1} }{1- \left(\frac{a^{2}}{4}\right)}$}
+
+Si $a^2=4 $ :
+\conclusion{$S_2 = \ddp\frac{1}{4} (n+1)$}
+
+
+\item 
+\begin{align*}
+S_3&=\ddp \sum_{k=0}^{2n} (k^3+1) \\
+&=\ddp \sum_{k=0}^{2n} k^3+ \ddp \sum_{k=0}^{2n} 1\\
+&=\frac{2n(2n+1)(4n+1)}{6} + 2n+1
+\end{align*}
+
+\conclusion{ $S_3=\ddp \frac{2n(2n+1)(4n+1)}{6} + 2n+1$}
+
+\item 
+\begin{align*}
+P_1 &= \ddp \prod_{k=3}^{n+1} k^2 \\
+&=\ddp \left(\prod_{k=3}^{n+1} k\right)^2  \\
+&=   \left(\frac{1}{1*2}\prod_{k=1}^{n+1} k\right)^2 \\
+&=\frac{1}{4}((n+1)!)^2
+\end{align*}
+
+\conclusion{ $P_1 = \ddp \frac{1}{4}((n+1)!)^2$}
+
+\end{enumerate}
+
+\item 
+\begin{lstlisting}
+n = int(input('que vaut n'))
+s3=0
+for k in range(0,2*n+1):
+  s3=s3+k^3+1
+print(s3)
+  
+\end{lstlisting}
+
+\item 
+\begin{lstlisting}
+n = int(input('que vaut n'))
+P1=1
+for k in range(3,n+2):
+  P1=P1*(k**2)
+print(P1)
+  
+\end{lstlisting}
+
+\end{enumerate}
+
+
+\end{correction}
+
+\begin{correction}
+\begin{enumerate}
+\item $$\frac{1}{\omega} = e^{\frac{-2i\pi}{7}} =\overline{\omega}$$
+\item On a $\omega^7 = e^{7\frac{2i\pi}{7}}=e^{2i\pi}=1 $ donc pour tout $k\in \intent{0,7}$ on a 
+$$\omega^{7-k}\omega^{k}=1$$
+D'où 
+$$\omega^k=\frac{1}{\omega^{7-k}}=\overline{\omega}^{7-k}$$
+\item On  a d'après la question précédente : 
+$$\overline{\omega} =\omega^{6}$$
+$$\overline{\omega^2} =\omega^{5}$$
+$$\overline{\omega^4} =\omega^{3}$$
+Ainsi on a : 
+\begin{align*}
+\overline{A}&=\overline{\omega+\omega^2+\omega^4} \\
+					&=\overline{\omega}+\overline{\omega^2}+\overline{\omega^4} \\
+					&=\omega^6+\omega^5+\omega^3\\
+					&= B. 
+\end{align*}
+
+
+\item $$\Im(A) =\sin(\frac{2\pi}{7})+\sin(\frac{4\pi}{7})+\sin(\frac{8\pi}{7})=\sin(\frac{2\pi}{7}) +\sin(\frac{4\pi}{7}) -\sin(\frac{\pi}{7})$$
+
+Comme $\sin$ est croissante sur $[0, \frac{\pi}{2}[$ 
+$$\sin(\frac{\pi}{7}) \leq \sin(\frac{2\pi}{7})$$
+Donc 
+$$\Im(A) \geq \sin(\frac{4\pi}{7})>0$$
+
+
+\item On a 
+$$\sum_{k=0}^6 \omega^k = \frac{1-\omega^7}{1-\omega} = 0$$
+
+Or $$A+B= \sum_{k=1}^6 \omega^k =  \sum_{k=0}^6 \omega^k-1=-1$$
+
+
+
+\item  $AB = \omega^{4}+\omega^{6}+\omega^{7}+\omega^{5}+\omega^{7}+\omega^{8}+\omega^{7}+\omega^{9}+\omega^{10}$ 
+D'où 
+$$AB= 2\omega^7 + \omega^4(1+\omega^{1}+\omega^{2}+\omega^{3}+\omega^{4}+\omega^{5}+\omega^{6})=2\omega^7=2$$
+
+\item $A$ et $B$ sont donc les racines du polynome du second degré $X^2+X+2$. Son discriminant vaut $\Delta  =1-8 = -7$ donc 
+$$A\in \{\frac{-1 \pm i\sqrt{7}}{2}\}$$
+
+D'après la question 4, $\Im(A)>0$ donc 
+
+$$A= \frac{-1+ i\sqrt{7}}{2}$$
+
+
+
+
+
+\end{enumerate}
+
+\end{correction}
+
+
+
+%
+%\begin{correction}
+%\item Le discriminant vaut $\Delta(a)= a^2-4(\frac{a}{2}+2) = a^2-2a-8$
+%\item $\Delta(a) = (a+2)(a-4)$. 
+%Donc $\Delta(a)> 0$ est positif sur $]-\infty,-2[\cup ]4,+\infy[$
+%\item Cas 1 $a\in ]-\infty,-2[\cup ]4,+\infy[$ \\
+%Alors $(E_a)$ admet deux solutions: 
+%\conclusion{ $\cS_a = \{ \frac{-a +\sqrt{\Delta(a) } }{2},  \frac{-a +\sqrt{\Delta(a) } }{2}\} $}
+%
+%Cas 2 $a=2$ \\
+%Alors $(E_2)$ admet une solution: 
+%\conclusion{ $\cS_2 = \{-1\} $}
+%
+%Cas 3 $a=4$ \\
+%Alors $(E_4)$ admet une solution: 
+%\conclusion{ $\cS_2 = \{-2\} $}
+%
+%Cas 4 $a\in[-2,4]$ \\
+%Alors $(E_a)$ admet deux solutions complexes : 
+%\conclusion{ $\cS_a = \{ \frac{-a +i\sqrt{-\Delta(a) } }{2},  \frac{-a -i\sqrt{\Delta(a) } }{2}\} $}
+%
+%
+%
+%\end{correction}
+
+
+\begin{correction}
+\begin{enumerate}
+\item (Fais en cours.) On calcule $S_{n+1}-S_n$ on obtient 
+$$S_{n+1}-S_n = $$
+donc 
+\conclusion{$\suiteun{S}$ est croissante. }
+\item (Fais en cours.)
+$\forall k\in \intent{1,n}, \quad \frac{1}{k+n}\leq \frac{1}{1+n}$
+En sommant ces inégalités on obtient 
+$\sum_{k=1}^n \frac{1}{k+n}\leq \sum_{k=1}^n \frac{1}{1+n}$
+et $\sum_{k=1}^n \frac{1}{1+n} =\frac{1}{1+n}\sum_{k=1}^n 1 = \frac{n}{n+1}$
+Ainsi
+\conclusion{ $S_n \leq \frac{n}{n+1}$}
+
+\item (Fais en cours.)
+Comme $n+1 \geq n$ on a $\frac{n}{n+1}\leq 1$ donc 
+$\suiteun{S}$ est majorée par $1$. 
+La suite $\suiteun{S}$ est croissante et majorée donc 
+\conclusion{ $\suiteun{S}$ converge. }
+
+
+\end{enumerate}
+\end{correction}
+
+\end{document}

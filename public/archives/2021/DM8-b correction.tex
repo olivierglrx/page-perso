@@ -1,0 +1,176 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\newif\ifshow
+\showtrue
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+
+
+\geometry{hmargin=2.0cm, vmargin=2.5cm}
+
+%\newcommand{\implique}{\Longrightarrow}
+%\newcommand{\equivaut}{\Longleftrightarrow}
+%\renewcommand{\ddp}{\displaystyle}
+%\fancyhead[R]{TD 1 : Nombres}
+
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+\title{DM 8
+ }
+
+ 
+\vspace{0.7cm}
+\begin{exercice}
+\begin{enumerate}
+\item A quelle condition sur $X,Y\in \R$ a-t-on 
+$$X=Y \Longleftrightarrow X^2=Y^2  $$
+
+\item On se propose de résoudre l'équation :
+\begin{equation}
+|\cos(x)|=|\sin(x)|.\\
+\end{equation}
+\begin{enumerate}
+\item Montrer que $(1)$ est équivalent à $\cos(2x)=0$. 
+\item En déduire les solutions  dans $\R$ puis dans $[-\pi, \pi[$ 
+\end{enumerate}
+
+\end{enumerate}
+\end{exercice}
+
+
+\begin{correction}
+\begin{enumerate}
+\item On a  $X=Y \Longleftrightarrow X^2=Y^2  $ si $X$ et $Y$ sont de même signe.
+\item Comme $|\cos(x)|\geq 0$ et $|\sin(x)|\geq 0$ l'équation est équivalente à $\cos^2(x) =\sin^2(x)$, soit encorrectione 
+$$\cos(2x)=0.$$
+On a donc $2x\equiv \frac{\pi}{2}\quad [\pi]$ ou encorrectione 
+$$x\equiv \frac{\pi}{4}\quad [\frac{\pi}{2}]$$
+ Les solutions sur $\R$ sont 
+ $$\cS =\bigcup_{k\in Z} \{ \frac{\pi}{4}+\frac{\pi k}{2}\}$$
+ Sur $[-\pi, \pi[$  les solutions sont :
+ $$\cS\cap [-\pi, \pi[ =  \{ \frac{\pi}{4}, \frac{3\pi}{4}, \frac{-\pi}{4}, \frac{-3\pi}{4}\}$$
+ 
+
+
+
+
+\end{enumerate}
+\end{correction}
+
+
+\begin{exercice}
+Soit $z_1 $ et $z_2$ deux complexes tel que $|z_1|<1 $ et $|z_2|<1$. A l'aide d'un raisonnement par l'absurde montrer que $z_1+z_2\neq 2$
+\end{exercice}
+
+\begin{correction}
+Soient $z_1$, $z_2$ deux complexes tel que  $|z_1|<1 $ et $|z_2|<1$ et supposons par l'absurde que $z_1+z_2=2$
+
+On a alors 
+$$|z_1+z_2|=|2|=2$$
+
+D'après l'inégalité triangulaire on a :
+$$|z_1+z_2|\leq |z_1|+|z_2|$$
+et donc comme  $|z_1|<1 $ et $|z_2|<1$ on a  :
+$$|z_1+z_2|<1+1=2$$
+On obtient 
+$$2<2$$ ce qui est absurde. 
+La proposition est donc démontrée. 
+
+
+
+
+\end{correction}
+
+\begin{exercice}
+Soit $E$ un ensemble et $A,B$ deux sous-ensembles de $E$. On appelle \emph{différence symétrique } de $A$ et $B$, notée $A\Delta B$ le sous-ensemble de $E$ définie par :
+$$A \Delta  B =  (A\cap \bar{B})\cup \left(\bar{A}\cap B\right).$$
+\begin{enumerate}
+\item Calculer $A\Delta A$, $A\Delta \emptyset$, $A\Delta E$ et $A\Delta \overline{A}$.
+\item Montrer que $A\Delta B= A$ si et seulement si $B=\emptyset.$
+\item Montrer que pour tout $A,B,C$ sous-ensembles de $E$ on a :
+$$(A\Delta B) \cap C = (A\cap C)\Delta (B\cap C).$$
+\end{enumerate}
+\end{exercice}
+\begin{correction}
+\begin{enumerate}
+\item On obtient 
+$$A\Delta A = \emptyset \quadet A\Delta \emptyset = A$$
+$$A\Delta E  = \overline{A} \quadet A\Delta \overline{A} =E$$
+\item Si $B=\emptyset$ on vient de voir que $A\Delta B= A$.  Montrons maintenant l'implication réciproque, on suppose donc que $A\Delta B =A$, c'est à dire :
+$$ (A\cap \bar{B})\cup \left(\bar{A}\cap B\right) = A \quad (H) $$
+On a donc $A \cap \left(  (A\cap \bar{B})\cup \left(\bar{A}\cap B\right)  \right) =A\cap A $
+et par distributivé de l'intersection vis-à-vis de l'union : 
+$$ \left( A\cap  (A\cap \bar{B})\right) \cup \left( A\cap \left(\bar{A}\cap B\right) \right)=A \quad (*) $$
+Or  on a d'une part $$A\cap  (A\cap \bar{B}) = (A\cap A)\cap \bar{B}= A\cap \bar{B} $$ et  d'autre part 
+$$A\cap \left(\bar{A}\cap B\right)  = (A\cap \bar{A} ) \cap B= \emptyset$$
+En injectant ces deux égalités dans $(*)$ on obtient 
+$$A\cap \bar{B} = A$$
+D'où \conclusion{$A\subset \bar{B}$}
+
+En revenant à l'hypothèse $(H)$ on a donc 
+$$A \cup  \left(\bar{A}\cap B\right) = A$$
+d'où $ \left(\bar{A}\cap B\right) \subset A$.  En prenant l'union avec $A$ et en utilisant la dsitributé de l'union on obient 
+\begin{align*}
+A \cup\left(\bar{A}\cap B\right) &\subset A \cup A\\
+(A\cup \bar{A})\cap (A\cap B) &\subset A \\
+A\cap B& \subset A
+\end{align*}
+Finalement on obtient 
+\conclusion{$B\subset A$}
+
+On a donc obtenu $B\subset A\subset \bar{B}$, donc 
+$$B\subset \bar{B}$$
+Soit en prenant l'intersection avec $B$ : 
+$$B\cap B\subset B\cap \bar{B} =\emptyset$$
+
+\conclusion{$B=\emptyset$}
+
+\item 
+On a d'une part :
+\begin{align*}
+(A\Delta B)\cap C &= (A\cap \bar{B})\cup \left(\bar{A}\cap B\right) \cap C \\
+							&= \Big((A\cap \bar{B})\cap C\Big)  \cup \Big( \left(\bar{A}\cap B\right) \cap C \Big) \\
+							&=  \Big((A\cap C)\cap  \bar{B}\Big)  \cup \Big( \bar{A}\cap (B \cap C) \Big) 
+\end{align*}
+
+On a d'autre part 
+\begin{align*}
+(A\cap C)\Delta (B\cap C) &=  ((A\cap C)\cap \overline{ (B\cap C)})\cup \left(\overline{(A\cap C)}\cap  (B\cap C)\right) 
+\end{align*}
+Simplifions la première parenthèse: 
+
+\begin{align*}
+(A\cap C)\cap \overline{ (B\cap C)} &= (A\cap C)\cap \left(\overline{ B}\cup \overline{C}\right)\\
+\end{align*}
+On utilise la distributivité de l'union vis-à-vis de l'intersection 
+($E\cap (F\cup G) = (E\cap F)\cup   (E\cap G)$, avec $E=A\cap C,  F=\overline{ B}$ et $G=\overline{ C}$)
+On obtient : 
+
+\begin{align*}
+(A\cap C)\cap \overline{ (B\cap C)} &= \Big((A\cap C)\cap \overline{ B}\Big)\cup \Big((A\cap C) \cap \overline{C}\Big) 
+\end{align*}
+Comme $C\cap \overline{C} = \emptyset $ on a donc 
+\begin{align*}
+(A\cap C)\cap \overline{ (B\cap C)} &= \Big((A\cap C)\cap \overline{ B}\Big)
+\end{align*}
+
+Le même raisonnement conduit à la simplification de la deuxième parenthèse : 
+\begin{align*}
+\left(\overline{(A\cap C)}\cap  (B\cap C)\right)  &=  \Big( \bar{A}\cap (B \cap C) \Big) 
+\end{align*}
+
+On obtient donc bient 
+\conclusion{$(A\Delta B) \cap C = (A\cap C)\Delta (B\cap C).$} 
+
+
+\end{enumerate}
+\end{correction}
+
+
+
+
+
+
+\end{document}

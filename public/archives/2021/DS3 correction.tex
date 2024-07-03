@@ -1,0 +1,439 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\newif\ifshow
+\showtrue
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{Correction DS 3}
+
+
+
+%\begin{exercice}
+%Résoudre l'inéquation :
+%$$\frac{4x-3}{x-2}\leq \frac{1}{x+1}$$
+%
+%En déduire les solutions  sur $\R$ puis sur $[0,2\pi[$ de :
+%$$\frac{4\cos(2t)-3}{\cos(2t)-2}\leq \frac{1}{\cos(2t)+1}$$
+
+
+
+
+
+\begin{exercice}
+Soit $\lambda \in \R$. On considère le système suivant 
+$$(S_\lambda)\quad  \left\{ \begin{array}{ccccc}
+2x &+y& & =& \lambda x\\
+ &y & & =& \lambda y \\
+ -x&-y&+z&=&\lambda z
+\end{array}\right. $$
+
+\begin{enumerate}
+\item Mettre le système sous forme échelonné. 
+\item En donner le rang en fonction de $\lambda$. 
+\item Déterminer $\Sigma$ l'ensemble des réels $\lambda$ pour lequel ce système \underline{n'est pas} de Cramer. 
+\item Pour $\lambda \in \Sigma$, résoudre $S_\lambda$
+\item Quelle est la solution si $\lambda \notin \Sigma$ ? 
+\end{enumerate}
+\end{exercice}
+\begin{correction}
+\begin{enumerate}
+\item En échangeant les lignes et les colonnes on peut voir que le système est déjà échelonné ! 
+
+$$(S_\lambda)\equivaut  \left\{ \begin{array}{ccccc}
+(2-\lambda)x &+y& & =&0 \\
+ &(1-\lambda)y & & =& 0 \\
+ -x&-y&+(1-\lambda)z&=&0
+\end{array}\right. $$
+
+$L_3\leftarrow L_1, L_2 \leftarrow _3, L_1\leftarrow L_2$
+$$
+(S_\lambda)\equivaut  \left\{ \begin{array}{ccccc}
+ -x&-y&+(1-\lambda)z&=&0\\
+(2-\lambda)x &+y& & =&0 \\
+ &(1-\lambda)y & & =& 0 
+\end{array}\right.$$
+$ C_3\leftarrow C_1, C_2 \leftarrow C_3, C_1\leftarrow C_2$
+$$
+\equivaut \left\{ \begin{array}{ccccc}
+ (1-\lambda)z&-x&-y&=&0\\
+ &(2-\lambda)x&+y & =&0 \\
+ &  & (1-\lambda)y& =& 0 
+\end{array}\right.$$
+
+
+\item Si $(2-\lambda)\neq 0$ et $(1-\lambda)\neq 0$ c'est-à-dire si $\lambda \notin\{ 1,2\}$ 
+\conclusion{ Le système est triangulaire de rang $3$. }
+
+Si  $(2-\lambda)= 0$,  c'est-à-dire si $\lambda=2$ on a:
+$$S_2\equivaut  \left\{ \begin{array}{ccccc}
+ -z&-x&-y&=&0\\
+ & &+y & =&0 \\
+ &  & -y& =& 0 
+\end{array}\right.$$
+$$S_2\equivaut  \left\{ \begin{array}{ccccc}
+ -z&-x&-y&=&0\\
+ & &+y & =&0 
+\end{array}\right.$$
+\conclusion{Le système est de rang 2. }
+
+Si  $(1-\lambda)= 0$,  c'est-à-dire si $\lambda=1$ on a:
+$$S_1\equivaut  \left\{ \begin{array}{ccccc}
+ &-x&-y&=&0\\
+ & x&+y & =&0 \\
+ &  &0 & =& 0 
+\end{array}\right.$$
+$$S_1\equivaut  \left\{ \begin{array}{ccccc}
+ &-x&-y&=&0
+\end{array}\right.$$
+\conclusion{Le système est de rang 1. }
+
+
+\item Le système n'est pas de Cramer, si $\lambda\in \{1,2\}$.
+
+Si $\lambda=1$ les solutions sont données par 
+\conclusion{$S_1=\{ (-y, y, z)\, | (y,z)\in \R^2\}$}
+
+Si $\lambda=2$ les solutions sont données par 
+\conclusion{$S_2=\{ (-z, 0, z)\, | z\in \R^2\}$}
+
+\item Si $\lambda\notin \Sigma$, le système est de Cramer, il admet une unique solution. Or il est homogène donc, $(0,0,0)$ est solution, c'est donc la seule :
+\conclusion{ $S=\{ (0,0,0)\}$}
+\end{enumerate}
+\end{correction}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%
+
+\begin{exercice}
+On considère pour tout $n\in \N$ l'intégrale 
+$$I_n = \int_1^e (\ln(x))^n dx$$
+
+\begin{enumerate}
+\item \begin{enumerate}
+\item Démontrer que pour tout $x\in ]1,e[ $ et pour tout entier naturel $n\in \N$ on  a $ (\ln(x))^n  - (\ln(x))^{n+1} >0$.
+\item En déduire que la suite $\suite{I}$ est décroissante.
+\end{enumerate}
+\item \begin{enumerate}
+\item Calculer $I_1$ à l'aide d'une intégration par parties. 
+\item Démontrer, toujours à l'aide d'une intégration par parties que, pour tout $n\in \N$, $I_{n+1} = e- (n+1)I_n$
+\end{enumerate}
+\item \begin{enumerate}
+\item Démontrer que pour tout $n\in \N$, $I_n\geq0$.
+\item Démontrer que pour tout $n\in \N$, $(n+1) I_n\leq e$.
+\item En déduire la limite de $\suite{I}$. 
+\item Déterminer la valeur de $nI_n +(I_n+I_{n+1})$  et en déduire la limite de $nI_n$. 
+\end{enumerate}
+\end{enumerate}
+\end{exercice}
+
+\begin{correction}
+\begin{enumerate}
+\item Pour tout $x\in ]1,e[ $ , $0<\ln(x) <1$, donc $\ln(x)^n \ln(x)< \ln(x)^n $. On obtient bien 
+\conclusion{$\ln(x)^n -\ln(x)^{n+1}>0$}
+\item En intégrant, par positivité de l'intégrale on a 
+$$\int_1^e \ln(x)^n -\ln(x)^{n+1}dx >0$$
+\conclusion{Donc $I_n>I_{n+1}$ et la suite est bien décroissante. }
+
+\item vu en cours. 
+$$\int_1^e \ln(x) dx= [x\ln(x)]_1^e - \int_1^e x \frac{1}{x}dx$$\\
+Donc \conclusion{$\int_1^e \ln(x) dx = e-(e-1) =1$}
+
+\item On pose $u'(x)= 1$ et $v(x) = (\ln(x))^{n+1}$. On  a
+$u(x)=x$ et $v'(x) = (n+1) \frac{1}{x}  (\ln(x))^{n}$. Et finalement 
+\begin{align*}
+I_{n+1} &=  \int_1^e 1 (\ln(x))^{n+1} dx\\
+			 &= [x (\ln(x))^{n+1}]^e_1 -\int_1^e  x  (n+1) \frac{1}{x}  (\ln(x))^{n} dx  \\
+			  &= e -(n+1)I_n 
+\end{align*}
+
+\item Comme $\ln(x)\geq 0$ pour tout $x\in [1,e]$, $\ln(x)^n\geq 0$.
+\conclusion{
+ Par positivité de l'intérgale, $I_n$ est positive. }
+\item D'après la question 2b, $(n+1)I_n = e -I_{n+1}$ et d'après la question précédente pour tout $n\in\N$, $I_n \geq 0$ donc 
+$e-I_{n+1} \leq e$. \conclusion{On  a bien $(n+1)I_n\leq e$. }
+\item Les question précédentes montre que 
+$$0\leq I_n \leq \frac{e}{n+1}$$
+Comme $\lim_{n\tv+\infty} \frac{e}{n+1}=0$, le théorème des gendarmes assure que 
+\conclusion{La suite $\suite{I}$ converge et sa limite vaut $0$. }
+
+\item D'après la question 2b, $I_{n+1} = e- (n+1)I_n$ donc 
+$$(n+1)I_n+I_{n+1} =e$$
+et finalement 
+$nI_n + (I_n +I_{n+1}) =e$
+Comme $\lim I_n = \lim I_{n+1} =0$ on obtient 
+\conclusion{$\ddp \lim_{n\tv+\infty}  nI_n = e.$}
+
+\end{enumerate}
+\end{correction}
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{exercice}
+Le but de cet exercice est de déterminer l'ensemble $\cS$ des fonctions
+$f :]0,+\infty[\tv \R$ telles que : 
+$$ \text{$f$ est dérivable sur $]0,+\infty[$ et } \forall t>0, \, f'(t) = f(1/t)$$
+
+On fixe une fonction $f\in \cS$ et on définit la fonction $g$ par 
+$$g(x) =f(e^{x})$$
+\begin{enumerate}
+\item Justifier que $f$ est deux fois dérivable sur $]0,+\infty[$ et exprimer sa dérivée seconde en fonction de $f$. 
+\item Justifier que $g$ est deux fois dérivable sur $\R$ et montrer que $g$ est solution de l'équation diffrentielle suivante : 
+$$y''-y'+y=0\quad(E)$$
+\item Résoudre $(E)$. 
+\item En déduire que $f$ est de la forme $$f(t) = A \sqrt{t}  \cos\left(\frac{\sqrt{3}}{2}\ln(t)\right) +B\sqrt{t}  \sin\left(\frac{\sqrt{3}}{2}\ln(t)\right)$$ où $(A,B)$ sont deux constantes réelles.
+
+On appelle $f_1(t) =  \sqrt{t}  \cos\left(\frac{\sqrt{3}}{2}\ln(t)\right)$ et 
+$f_2(t)= \sqrt{t}  \sin\left(\frac{\sqrt{3}}{2}\ln(t)\right)$
+\item Calculer les dérivées premières de $f_1$ et $f_2$
+\item En considérant les cas $t=1$ et $t=e^{\pi/\sqrt{3}}$, montrer que $A$ et $B$ sont solutions de
+$$(S) \left\{ \begin{array}{ccc}
+A-B\sqrt{3}&=&0\\
+A\sqrt{3}-3B&=&0
+\end{array}\right.$$
+\item Résoudre $(S)$. 
+\item Conclure. 
+\end{enumerate} 
+\end{exercice}
+
+\begin{correction}
+\begin{enumerate}
+\item Remarquons qu'étant donné que $f$ est dérivable et $t\mapsto \frac{1}{t}$ est aussi dérivable, la fonction $f'$ est dérivable par composée de fonctions dérivables. Ainsi $f$ est dérivable deux fois sur $]0,+\infty[$ et on a \conclusion{$f''(t) = \frac{-1}{t^2}f'(1/t)  = \frac{-1}{t^2}f(t)$}
+
+\item La fonction $x\mapsto e^x$ est dérivable deux fois sur $\R$ et $exp(\R) = ]0,+\infty[$, de nouveau par composition, $g$ est dérivable deux fois sur $\R$. 
+
+Calculons les dérivées successives de $g$ en fonction de celles de $f$ :
+$$g'(x) = e^x f'(e^x) \quadet g''(x) = e^xf'(e^x) +e^{2x} f''(e^x)$$
+On  a donc 
+\begin{align*}
+g''(x)-g'(x)+g(x)  &= e^xf'(e^x) +e^{2x} f''(e^x)-e^x f'(e^x)+f(e^{x})\\
+						&= e^{2x} f''(e^x)+f(e^{x})
+\end{align*}
+On utilise alors la relation vérifiée par $f$ : $f'(x) = f(1/x)$, on a par dérivation $f''(x) = \frac{-1}{x^2}f'(1/x)  = \frac{-1}{x^2}f(x)$, d'où 
+$$f''(e^x) = \frac{-1}{e^{2x}}f(e^{x})=-e^{-2x} f(e^x)$$
+Donc pour tout $x\in \R$ :
+\begin{align*}
+g''(x)-g'(x)+g(x)  &=  -e^{2x}e^{-2x} f(e^x) +f(e^x)\\
+							&=0
+\end{align*}
+\conclusion{La fonction $g$ est donc solution de l'équation différentielle $g''-g'+g=0$.}
+
+\item Résolvons $(E)$ avec la méthode vue en cours. Le polynôme caractéristique est 
+$X^2-X+1$ qui admet comme discriminant $\Delta = 1-4 =-3<0$ et donc deux racines complexes : $r_1=\frac{1-i\sqrt{3}}{2}$ et $r_2=\frac{1+i\sqrt{3}}{2}$. 
+Les solutions de $(E)$ sont donc de la forme 
+\conclusion{
+$\cS = \left\{ x\mapsto  e^{x/2} \left(A\cos\left(\frac{\sqrt{3}}{2}x\right)+B\sin\left(\frac{\sqrt{3}}{2}x\right)\right) \, | \, A, B\in \R \right\}$}
+
+\item On vient de voir que $f(e^{x})$ est de la forme $e^{x/2} (A\cos\left(\frac{\sqrt{3}}{2}x\right)+B\sin\left(\frac{\sqrt{3}}{2}x\right)) $, donc 
+$f(t) $ est de la forme 
+$$f(t) = A \sqrt{t}  \cos\left(\frac{\sqrt{3}}{2}\ln(t)\right) +B\sqrt{t}  \sin\left(\frac{\sqrt{3}}{2}\ln(t)\right)$$
+avec $A,B$ deux constantes réelles. Ceci est bien la forme demandée par l'énoncé, avec 
+$$f_1(t) = \sqrt{t}  \cos\left(\frac{\sqrt{3}}{2}\ln(t)\right)$$ et 
+$$f_2(t) = \sqrt{t}  \sin\left(\frac{\sqrt{3}}{2}\ln(t)\right)$$
+
+\item Calculons les dérivées des fonctions $f_1$ et $f_2$. 
+On a 
+\begin{align*}
+f_1'(t) &= \frac{1}{2\sqrt{t}}  \cos\left(\frac{\sqrt{3}}{2}\ln(t)\right)  - \sqrt{t} \frac{\sqrt{3}}{2t} \sin\left(\frac{\sqrt{3}}{2}\ln(t)\right)\\
+&= \frac{1}{2\sqrt{t}}  \cos\left(\frac{\sqrt{3}}{2}\ln(t)\right)  - \frac{\sqrt{3}}{2\sqrt{t} } \sin\left(\frac{\sqrt{3}}{2}\ln(t)\right)
+\end{align*}
+
+De même 
+$$f'_2(t)= \frac{1}{2\sqrt{t}}  \sin\left(\frac{\sqrt{3}}{2}\ln(t)\right)  + \frac{\sqrt{3}}{2\sqrt{t} } \cos\left(\frac{\sqrt{3}}{2}\ln(t)\right)$$
+
+\item Pour $t= 1$ on obtient d'une part 
+\begin{align*}
+f(1)& = A \sqrt{1}  \cos\left(\frac{\sqrt{3}}{2}\ln(1)\right) +B\sqrt{1}  \sin\left(\frac{\sqrt{3}}{2}\ln(1)\right)\\
+&=A
+\end{align*}
+et  d'autre part : 
+\begin{align*}
+f'(1) &= Af_1'(1) +  Bf_2'(1)\\
+		&= \frac{A}{2} + \frac{B\sqrt{3}}{2}
+\end{align*}
+Comme $f'(1) =f(1/1)=f(1)$,
+on obtient alors 
+$$A= \frac{A+B\sqrt{3}}{2}$$
+donc 
+$2A=A+B\sqrt{3} $ et finalement 
+\conclusion{$A-B\sqrt{3}=0$}
+C'est la première équation du système $(S)$
+
+
+Faisons la même chose pour $t=e^{\pi/\sqrt{3}}$. Remarquons tout d'abord que 
+$$f'(e^{\pi/\sqrt{3}}) = f(1/e^{\pi/\sqrt{3}}) = f(e^{-\pi/\sqrt{3}})$$
+
+Calculons alors les deux membres de cette égalité. 
+\begin{align*}
+f(e^{-pi/\sqrt{3}}) &=Ae^{-\pi/2\sqrt{3}}  \cos( -\frac{\pi}{2})+Be^{-\pi/2\sqrt{3}}  \sin( -\frac{\pi}{2})\\
+&=-B e^{-\pi/2\sqrt{3}} 
+\end{align*}
+
+et
+\begin{align*}
+ f'_1(e^{\pi/\sqrt{3}})&= -\frac{\sqrt{3}}{2}e^{-\pi/2\sqrt{3}}
+\end{align*}
+\begin{align*}
+ f'_2(e^{\pi/\sqrt{3}})&= \frac{1}{2}e^{-\pi/2\sqrt{3}}
+\end{align*}
+d'où 
+$$f'(e^{\pi/\sqrt{3}}) =  -\frac{A\sqrt{3}}{2}e^{-\pi/2\sqrt{3}}+ \frac{B}{2}e^{-\pi/2\sqrt{3}}$$
+
+Finalement on obtient 
+$$B e^{-\pi/2\sqrt{3}}  =  -\frac{A\sqrt{3}}{2}e^{-\pi/2\sqrt{3}}+ \frac{B}{2}e^{-\pi/2\sqrt{3}}$$
+Donc 
+$$-B =  -\frac{A\sqrt{3}}{2} +\frac{B}{2}$$
+Ce qui donne alors 
+$-2B = -A\sqrt{3} +B$ et finalement 
+\conclusion{$-3B+A\sqrt{3}=0$}
+C'est la deuxième équation du système $(S)$
+
+\item 
+Le système $(S)$ est équivalent à 
+$$\left\{ \begin{array}{ccc}
+A-B\sqrt{3}&=&0\\
+\sqrt{3}(A-\sqrt{3}B)&=&0
+\end{array}\right. \equivaut A-B\sqrt{3}=0$$
+
+Le système admet alors une infinité de solutions de la forme 
+\conclusion{$\cS = \{ (B\sqrt{3}, B) \, |\, B\in R\}$}
+
+\item On en déduit que $f$ est de la forme 
+$$f (t) = B\sqrt{3} f_1(t) +Bf_2(t)$$
+où 
+$B$ est une constante réelle. 
+
+Il faut maintenant vérifier que les fonctions de cette forme sont bien solutions de notre problème. 
+
+$f$ est bien définie et dérivable sur $]0, +\infty[$
+et $$f'(t) = \frac{B\sqrt{3}}{\sqrt{t}} \cos\left(\frac{\sqrt{3}}{2}\ln(t)\right)  - \frac{B}{\sqrt{t}} \sin\left(\frac{\sqrt{3}}{2}\ln(t)\right) $$
+
+D'autre part $f(1/t) = B\sqrt{3}f_1(1/t) +Bf_2(1/t)$
+
+Et  on a 
+\begin{align*}
+f_1(1/t) &=\frac{1}{\sqrt{t}} \cos\left(\frac{\sqrt{3}}{2}\ln(1/t)\right)  \\
+			 &=\frac{1}{\sqrt{t}} \cos\left(-\frac{\sqrt{3}}{2}\ln(t)\right)  \\
+			 			 &=\frac{1}{\sqrt{t}} \cos\left(\frac{\sqrt{3}}{2}\ln(t)\right)  
+\end{align*}
+
+De même on obtient 
+$$f_2(1/t) = -\frac{1}{\sqrt{t}} \sin\left(\frac{\sqrt{3}}{2}\ln(t)\right)  $$
+par imparité de la fonction $\sin$
+
+Ainsi $$f(1/t) =  B\frac{\sqrt{3}}{\sqrt{t}} \cos\left(\frac{\sqrt{3}}{2}\ln(t)\right)  - B\frac{1}{\sqrt{t}} \sin\left(\frac{\sqrt{3}}{2}\ln(t)\right) =f'(t)$$
+ 
+
+
+\end{enumerate}
+\end{correction}
+
+
+\begin{exercice}
+On chercher à modéliser le jeu '421' qui consiste à lancer 3 dés : la personne gagne si les dés forment la combinaison '421' et perd sinon\footnote{Le jeu est un peu plus compliqué que ca, on a le droit de relancer des dès normalment mais pour l'instant on s'en tiendra à cette règle simpliste.}
+
+\begin{enumerate}
+\item Créer une fonction \texttt{lancer} qui modélise le lancer de un dé retourne la valeur du dé.
+\item Créer une fonction \texttt{Lancer3des} qui modélise le lancer de trois dés retourne la valeur de ces trois dés.
+\item Créer une fonction \texttt{tri} qui prend en argument 3 nombres (a,b,c) et retourne ces trois nombres dans l'ordre croissant. 
+
+\footnotesize{Indication :  On pourra comparer successivement les valeurs de $a,b$ puis $b,c$ puis $a,c$ et interchanger leur valeur dans le cas où ils ne sont pas croissant}
+
+\item Créer une fonction \texttt{Jeu} qui modélise le lancer de 3 dés et retourne 'Gagné' si les dés forment un '421' et 'Perdu' sinon.
+\item Créer une fonction \texttt{Statistique} qui prend en argument un nombre entier $n$ et simule $n$ parties de '421' et retourne la proportion du nombre de parties gagnantes.
+\item Créer une fonction \texttt{jeu\_jusqua\_gagne} qui simule des parties de 421 jusqu'à ce que le joueur gagne et retourne le nombre d'essais nécessairement avant d'avoir obtenu un 421.
+
+
+\end{enumerate}
+
+
+Remarque sur l'affectation des valeurs de retour d'une fonction:
+Si on a une fonction Python ($test()$) qui retourne plusieurs valeurs ($y_1,y_2$) alors on pourra affecter des variables à ces valeurs en écrivant 
+$a,b =test()$
+
+\begin{lstlisting}
+def test():
+  a=3+4**2
+  b=3+a
+  return(a,b)
+x,y=test()
+print(x)
+	-->19
+\end{lstlisting}
+
+
+
+
+\end{exercice}
+
+\begin{correction}
+
+
+\begin{lstlisting}
+from random import randint
+def lancer():
+  d=randint(1,6)
+  return(d)
+
+def lancer3des():
+  d_1=lancer()
+  d_2=lancer()
+  d_3=lancer()
+  return(d_1,d_2,d_3)
+  
+def tri(a,b,c):
+  if b>a:
+    a,b=b,a
+  if c>b:
+    b,c=c,b
+  if c>a:
+    a,c=c,a
+  return(a,b,c)
+
+def jeu():
+  a,b,c=lancer2des()
+  a,b,c=tri(a,b,c)
+  if a==1 and b==2 and c==4:
+    return('421')
+  else:
+    return('Perdu')
+
+def statistique(n):
+  gagne=0
+  for i in range(n):
+    if jeu()=='421':
+      gagne=gagne+1
+  return(gagne/n)
+
+def jeu_jusqua_gagne():
+  c=0
+  while jeu()!='421':
+    c=c+1
+  return(c)
+
+\end{lstlisting}
+
+\end{correction}
+
+
+
+
+
+\end{document}

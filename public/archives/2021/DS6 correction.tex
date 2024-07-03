@@ -1,0 +1,474 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\newif\ifshow
+\showtrue
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+
+
+\geometry{hmargin=3.0cm, vmargin=2.5cm}
+\newenvironment{amatrix}[1]{%
+  \left(\begin{array}{@{}*{#1}{c}|c@{}}
+}{%
+  \end{array}\right)
+}
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{Correction DS6
+}
+
+
+
+
+
+
+
+
+\begin{exercice}
+On considère la suite de polynômes $(T_n)_{n\in \N}$ définie par 
+$$ T_0=1 \quadet T_1=X \quadet \forall n\in \N,\, T_{n+2}=2X T_{n+1}-T_n$$
+\begin{enumerate}
+\item \begin{enumerate}
+\item Calculer $T_2$, $T_3$ et $T_4$.
+\item Calculer le degré  $T_n$ pour tout $n\in\N$. 
+\item Calculer le coefficient dominant de $T_n$. 
+\end{enumerate}
+\item \begin{enumerate}
+\item Soit $\theta \in \R$. Montrer que pour tout $n\in \N$ on  a  $T_n(\cos(\theta)) =\cos(n\theta)$.
+\item En déduire que $\forall x\in [-1,1], $ on a $T_n(x) =\cos(n \arccos(x))$. 
+\end{enumerate}
+\item \begin{enumerate}
+\item En utilisant la question 2a), déterminer les racines de $T_n$ sur $[-1,1]$. 
+\item Combien de racines distinctes a-t-on ainsi obtenues ? Que peut on en déduire ? 
+\item Donner la factorisation de $T_n$ pour tout $n\in \N^*$. 
+\end{enumerate}
+\end{enumerate}
+\end{exercice}
+\begin{correction}
+\begin{enumerate}
+\item \begin{enumerate}
+\item $T_2 = 2X^2-1$, $T_3 =4X^3-3X$, $T_4 = 8X^4 -8X^2+1 $
+\item Montrons par récurrence que $\deg(T_n) =n$. 
+Comme la suite est une suite récurrente d'ordre 2, on va poser comme proposition de récurrence $$P(n) : \og\deg(T_n) =n \text{ ET } \deg(T_{n+1}) =n+1\fg $$
+C'est vrai pour $n=0,1,2$ et $3$.  On suppose qu'il existe un entier $n_0\in \N$ tel que $P(n_0)$ soit vrai et montrons $P(n_0+1)$. 
+On cherche donc à vérifier $\deg(T_{n_0+1}) =n_0+1 \text{ ET } \deg(T_{n_0+2}) =n_0+2'$. La première égalité est vraie par hypothèse de récurrence. 
+La seconde vient de la relation $T_{n_0+2} =2 X T_{n_0+1} -T_{n_0}$
+En effet, par hypothèse de récurrence $T_{n_0+1}$ est de degré $n_0+1$ donc $2 X T_{n_0+1}$ est de degrés $n_0 +2$. Comme $\deg(T_{n_0}) =n_0<n_0+2$, on a 
+$$\deg(T_{n_0+2} )=\max(\deg(2 X T_{n_0+1}),\deg(T_{n_0})) = n_0+2$$
+
+\conclusion{Ainsi par récurrence pour tout $n\in \N$, $\deg(T_n)= n$.}
+\item La récurrence précédente montre que le coefficient dominant, notons le $c_n$ vérifie $c_{n+2} = 2 c_{n+1}$. Ainsi 
+\conclusion{$c_n = 2^nc_0 =2^n$. }
+
+\end{enumerate}
+\item 
+\begin{enumerate}
+\item Montrons le résultat par récurrence. On pose 
+$$Q(n) : " \forall \theta\in \R, T_n(\cos(\theta)) =\cos(n\theta)  \text{ ET } T_{n+1}(\cos(\theta)) =\cos((n+1)\theta)"$$
+
+$Q(0)$ est vraie par définition de $T_0 $ et $T_1$ 
+
+Supposons qu'il existe $n\in \N$ tel que $Q(n)$ soit vrai et montrons $Q(n+1)$. Il suffit de montrer que $\forall \theta \in \R$
+$$T_{n+2}(\cos(\theta) )=\cos((n+2)\theta)$$
+
+On a par définition de $T_{n+2}$ 
+$$T_{n+2} (\cos(\theta))  = 2\cos(\theta) T_{n+1}(\cos(\theta)) -T_n(\cos(\theta))$$
+Par hypothèse de récurrence on a 
+$T_{n+1}(\cos(\theta)) =\cos((n+1)\theta)$ et 
+$T_{n}(\cos(\theta))=\cos(n\theta) $ donc  
+$$T_{n+2} (\cos(\theta)) =2 \cos(\theta) \cos((n+1) \theta) - \cos(n \theta)$$
+Les formules trigonométriques donnent : 
+\begin{align*}
+2 \cos(\theta) \cos((n+1) \theta)   &=\cos(\theta+(n+1) \theta) +\cos(\theta-(n+1) \theta)\\
+&=\cos((n+2) \theta) + \cos(-n\theta)\\
+&=\cos((n+2) \theta) + \cos(n\theta)
+\end{align*}
+Donc 
+$$T_{n+2} (\cos(\theta))  = \cos((n+2) \theta) + \cos(n\theta)-\cos(n\theta) = \cos((n+2)\theta)
+$$
+
+
+Par récurrence, Pour tout $\theta \in \R$ et tout $n\in \N$:
+\conclusion{$T_n(\cos(\theta ) ) =\cos(n\theta)$}
+
+
+
+\item Soit $x\in [-1,1]$ on  note $x =\cos(\theta)$, avec $\theta \in [0,\pi]$ on a  alors 
+$\theta =\arccos( x) $. D'après la question précédente on a donc pour tout $x\in [-1,1]$: 
+\conclusion{$T_n(x) = \cos( n \arccos(x))$}
+
+
+
+\end{enumerate}
+\item 
+\begin{enumerate}
+\item Pour tout $\theta $ tel que $n\theta  \equiv \frac{\pi}{2}[\pi]$,  on a $\cos(n\theta) =0$ 
+
+Ainsi pour tout $\theta $ tel que $\theta \equiv \frac{\pi}{2n}[\frac{\pi}{n}]$, 
+$$T_n(\cos(\theta) ) =0$$
+
+On obtient ainsi $n$ racines entre $[-1,1]$ données par 
+\conclusion{$\ddp \{  \cos\left(\frac{\pi+2k\pi }{2n}\right)\, |  \,  k\in [0,n-1] \}$}
+
+\item On a obtenu $n$ racines. Comme $T_n$ est de degrés $n$ \conclusion{On a obtenu toutes les racines,} ainsi $T_n$ se factorise de la manière suivante :
+\item \conclusion{$T_ n (X)  =\ddp 2^n\prod_{k=0}^{n-1} \left(X - \cos\left(\frac{\pi+2k\pi }{2n}\right) \right) $}
+
+\end{enumerate}
+
+\end{enumerate}
+\end{correction}
+\vspace{1cm}
+\begin{exercice}
+Le but de cet exercice est l'étude de  la suite $\suiteun{a}$ définie par $a_{1}=1$ et $\forall n \in \mathbb{N}^{*}, a_{n+1}=$ $\frac{a_{n}\left(1+a_{n}\right)}{1+2 a_{n}} .$
+
+\begin{enumerate}
+\item Etude de la limite de $\suiteun{a}$.
+\begin{enumerate}
+
+\item  Calculer $a_{2}$ et $a_{3}$.
+\item Etudier la fonction $f$ définie par  $f(x) =\frac{x(x+1)}{1+2x}$.
+\item Déterminer l'image directe de $]0,1[$ par $f$. 
+\item  Démontrer que, $\forall n \geqslant 2,$ $0<a_{n}<1$.
+\item Montrer que la suite $\suiteun{a}$ est décroissante.
+\item Résoudre l'équation $f(x)=x$ sur $[0,1]$. 
+\item En déduire la limite de $\suiteun{a}$.
+\end{enumerate}
+\item Un résultat intermédiaire. 
+
+Soit $\suiteun{u} $ une suite croissante, admettant une limite $\ell$ en $+\infty$ et $\suiteun{C}$ définie par 
+$$C_n=\frac{1}{n}\sum_{k=1}^n  u_k$$
+\begin{enumerate}
+\item Montrer que pour tout $n\in \N^*$, $C_n\leq u_n$. 
+\item  Montrer que pour $\suiteun{C}$ est croissante. 
+\footnote{On pourra minorer $C_{n+1}$ en utilisant, après justifications, que $u_{n+1}\geq C_{n}$}
+\item Montrer que pour tout $n\in \N^*$, $2C_{2n}-C_n \geq u_{n+1}$. 
+\item En déduire que $\suiteun{C}$ converge et donner la valeur de sa limite en fonction de celle de $\suiteun{u}$. 
+
+\end{enumerate}
+\item Etude d'un équivalent de $\suiteun{a}$.
+\begin{enumerate}
+\item Montrer que $\frac{1}{a_{n+1}}-\frac{1}{a_{n}}=\frac{1}{1+a_{n}}$.
+\item On pose $u_{n}=\frac{1}{a_{n+1}}-\frac{1}{a_{n}} .$ Déterminer la limite de $\suiteun{u}$.
+\item Montrer que $\suiteun{u}$ est croissante. 
+\item En posant $C_{n}=\ddp \frac{1}{n} \sum_{k=1}^{n} u_{k}$, exprimer $C_{n}$ en fonction de $a_{n+1}$ et de $a_{1}$.
+\item Conclure à l'aide de la question 2.d que $a_n \equivalent{+\infty} \frac{1}{n}$.
+\end{enumerate}
+\end{enumerate}
+
+
+\end{exercice}
+
+\begin{correction}
+\begin{enumerate}
+\item \begin{enumerate}
+\item $a_2 = \frac{1(1+1)}{1+2\times1}= \frac{2}{3}$
+
+ $a_3 =  \frac{ \frac{2}{3}(1+ \frac{2}{3})}{1+2\times \frac{2}{3}}= \frac{ \frac{10}{9}}{\frac{7}{3}} = \frac{10}{21}$
+ 
+\conclusion{  $a_2 = \frac{2}{3}$ et $a_3 =  \frac{10}{21}$}
+ 
+\item $f$ est continue et dérivable sur $\R\setminus \{ \frac{-1}{2}\}$ et $\forall x\in  \R\setminus \{ \frac{-1}{2}\}$ 
+$$ f'(x) = \frac{(2x+1)(1+2x) -x(x+1)2  }{(1+2x)^2 } = \frac{2x^2 +2x +1}{(1+2x)^2}$$
+
+Le discriminant du numérateur vaut $\Delta = 4 - 8=-4<0$ donc $f'$ est strictement positif sur $\R\setminus \{ \frac{-1}{2}\}$
+Ainsi $f$ est strictement croissante sur $]-\infty, \frac{-1}{2}[$ et sur $]\frac{-1}{2},+\infty[$.
+
+\item  $f(0)=0$ et $f(1)=\frac{2}{3}$, comme $f$ est continue et strictement croissante sur $[0,1]$, le thoérème de la bijection assure que 
+\conclusion{$f(]0,1[) = ]0,\frac{2}{3}[$}
+
+\item On montre le résultat par récurrence. Soit $P(n)$ la propriété 
+$$P(n): " 0<a_n<1"$$
+
+\paragraph{Initialisation : }
+$P(2)$ est vraie d'après la question 1a)
+
+\paragraph{Hérédité : }
+On suppose qu'il existe $n\geq 2$ tel que $P(n)$ soit vraie, on a alors $0<a_n <1$. D'après l'étude de $f$ on a alors que $f(a_n) \in 0,\frac{2}{3}
+\subset ]0,1[$, donc 
+$$a_{n+1} =f(a_n) \in ]0,1[$$
+
+\paragraph{Conclusion : }
+La propriété $P(n)$ est héréditaire donc pour tout $n\geq 2$, on  a 
+\conclusion{ $0<a_n<1$}
+
+
+
+\item  Pour tout $n\in N^*$ on a 
+\begin{align*}
+a_{n+1} -a_n &= f(a_n) -a_n\\
+					&= \frac{a_n(1+a_n)}{1+2a_n} - a_n\\
+					&=  \frac{a_n(1+a_n) - a_n -2a_n^2}{1+2a_n} \\
+					&=  \frac{-a_n^2}{1+2a_n} 
+\end{align*}
+Or on a a prouvé que $a_n\in ]0,1[$ donc $1+2a_n>0$ et $-a_n^2<0$ donc 
+$a_{n+1}-a_n<0$. Ainsi: 
+\conclusion{ $\suiteun{a}$ est décroissante }
+
+\item
+\begin{eqnarray*}
+&f(x) = x\\
+\equivaut &\frac{x(x+1)}{1+2x}=x\\
+\equivaut &\frac{-2x^2}{1+2x}=0\\ 
+\equivaut &x=0 
+\end{eqnarray*}
+Donc 
+
+\conclusion{  La seule solution de $f(x)=x$ est $x=0$}
+
+\item La suite $\suiteun{a}$ est décroissante et minorée donc elle converge, notons $\ell$ sa limite. Par unicité de la limite $a_{n+1} $ converge vers $\ell$ et par continuité de $f$, $f(a_n) $ converge vers $f(\ell)$. 
+Ainsi $f(\ell)=\ell$ et finalement d'après la question précédente:  
+\conclusion{ $\ddp \lim_{n\tv +\infty } a_n = 0$}
+
+\end{enumerate}
+\item \begin{enumerate}
+\item Par croissance de $\suiteun{u}$ on a pour  tout $k\in \intent{1,n}$, 
+$$u_k \leq u_n$$
+Donc $$\sum_{k=1}^n u_k \leq \sum_{k=1}^n u_n,$$
+c'est-à-dire $\ddp \sum_{k=1}^n u_k \leq n u_n$. 
+En divisant par $n\in \N^*$ on obtient :
+\conclusion{ $C_n \leq u_n$}
+
+\item 
+$\ddp C_{n+1} =\frac{1}{n+1} \sum_{k=1}^{n+1} u_k = \frac{1}{n+1} \sum_{k=1}^{n} u_k +\frac{1}{n+1} u_{n+1}$.
+Or $C_n \leq u_n \leq u_{n+1} $ où la deuxième inégalité vient de la croissance de $\suiteun{u}$. Donc
+
+\begin{align*}
+C_{n+1} &\geq\ddp \frac{1}{n+1} \sum_{k=1}^{n} u_k + \frac{1}{n+1} C_n\\
+			&\geq \ddp \frac{1}{n+1} nC_n + \frac{1}{n+1} C_n\\
+			&\geq \ddp\frac{n+1}{n+1} C_n \\
+			&\geq\ddp C_n	
+\end{align*}
+
+Ainsi :
+\conclusion{ $\suiteun{C}$  est croissante.}
+
+
+\item \begin{align*}
+2 C_{2n}-C_n &= 2 \frac{1}{2n }\sum_{k=1}^{2n} u_k - \frac{1}{n }\sum_{k=1}^{n} u_k\\
+					&= \frac{1}{n }\sum_{k=1}^{2n} u_k - \frac{1}{n }\sum_{k=1}^{n} u_k\\
+				&= \frac{1}{n }\sum_{k=n+1}^{2n} u_k 
+\end{align*}
+Or par croissance de $\suiteun{u}$, pour tout $k\geq n+1$, $u_k\geq u_{n+1}$ Donc  
+$$\sum_{k=n+1}^{2n} u_k  \geq \sum_{k=n+1}^{2n} u_{n+1} = nu_{n+1}$$
+
+Finalement 
+\begin{eqnarray*}
+2 C_{2n}-C_n &\geq \frac{1}{n }nu_{n+1}\\ 
+					&\geq u_{n+1}
+\end{eqnarray*}
+
+\conclusion{$2 C_{2n}-C_n\geq u_{n+1}$}
+
+
+\item D'aprés $2a)$ $C_n \leq u_n$ et comme $\suiteun{u} $ est croissante $u_n\leq \ell$. Donc $C_n\leq \ell$. 
+
+D'après 2b) $\suiteun{C} $ est majorée, donc $\suiteun{C}$ converge en vertu du théorème de la limite monotone.  Soit $\ell'$ sa limite. 
+
+D'après 2a) $$\ell' \leq \ell$$
+
+Et d'après 2c) $2 \ell' - \ell' \geq \ell $ d'où $$\ell' \geq \ell$$ 
+
+Finalement
+\conclusion{ $\suiteun{C}$ converge et $\lim_{n\tv +\infty } C_n =\ell$.}
+
+
+
+
+\end{enumerate}
+\item \begin{enumerate}
+\item On a pour tout $n\geq 1$
+\begin{eqnarray*}
+\frac{1}{a_{n+1}} -\frac{1}{a_n} &= \frac{1+2a_n}{a_n(1+a_n)} -\frac{1}{a_n}\\
+&= \frac{1+2a_n - (1+a_n)}{a_n(1+a_n)} \\
+&= \frac{a_n}{a_n(1+a_n)} \\
+&= \frac{1}{(1+a_n)} 
+\end{eqnarray*}
+Ce qui est bien l'égalité demandée. 
+\item Pour tout $n\geq 1$:  $u_n =\frac{1}{1+a_n}$, or $\suiteun{a}$ converge et $\lim_{n\tv+\infty} a_n =0$ donc 
+\conclusion{ $\lim_{n\tv+\infty} u_n =\frac{1}{1+0}=1$ }
+
+\item Pour tout $n\in \N^*$ on a $\ddp u_{n+1}-u_n= \frac{1}{1+a_{n+1}}- \frac{1}{1+a_n}$
+D'où $$ u_{n+1}-u_n  = \frac{a_n-a_{n+1}}{(1+a_{n+1})(1+a_{n})}$$
+
+Comme $\suiteun{a}$  est décroissante $a_n\geq a_{n+1}$ et comme $a_n\geq 0$ on  a bien : 
+$$u_{n+1}-u_n\geq 0$$
+\conclusion{$\suiteun{u}$ est croissante}
+
+
+\item $C_n =\ddp \frac{1}{n }\sum_{k=1}^n \left(\frac{1}{a_{k+1}} -\frac{1}{a_k} \right)$
+On reconnait une somme télescopique : on a donc 
+\conclusion{ $C_n = \frac{1}{n}\left(\frac{1}{a_{n+1}} - \frac{1}{a_1}\right)$ }
+
+
+
+\item D'après la question précédente : 
+
+$$a_{n+1} = \frac{1}{C_n +\frac{1}{a_1}}= \frac{1}{nC_n +1}$$
+
+D'après la question $2d)$ Comme $\suiteun{u}$ est croissante et converge  vers $1$, $C_n$ converge aussi vers $1$. 
+On a donc $$a_n \equivalent{+\infty} \frac{1}{n+1}$$
+
+Au final \conclusion{$a_n\equivalent{+\infty} \frac{1}{n}$}
+
+\end{enumerate}
+\end{enumerate}
+\end{correction}
+
+
+
+\vspace{1cm}
+\begin{exercice}
+Pour tout réel $t>0, $ on note $P_t$ le polynôme $X^5 +tX-1 \in \R_5[X]$. Le but de ce problème est d'étudier les racines de $P_t$ en fonction de $t>0$. 
+\begin{enumerate}
+\item On fixe $t>0$ pour cette question. Prouver que $P_t$ admet une unique racine réelle notée $f(t)$. 
+\item Montrer que $f(t) \in ]0,1[$ pour tout $t>0.$
+\item On considère deux réels, $t_1,t_2,$ tels que $0<t_1<t_2$. Montrer que $P_{t_1}(f(t_2))>0$
+\item En déduire le sens de variations de $f$.
+\item En déduire que $f$ admet des limites finies en $0^+$ et en $+\infty$.
+
+\item Déterminer $\ddp \lim_{t\tv 0^+} f(t)$. \footnote{Attention, $f$ n'est pas définie en $0$, et \emph{a fortiori} pas continue.}
+
+\item A l'aide d'un raisonement par l'absurde, montrer que $\ddp \lim_{t\tv+\infty} f(t)=0$. 
+\item En déduire  l'équivalent suivant : $\ddp f(t)\equivalent{+\infty} \frac{1}{t}$. 
+
+\item Justifier que $f$ est la bijection réciproque de $g \ddp  : ]0,1[\tv ]0,+\infty[$ 
+$x\ddp  \mapsto\frac{1-x^5}{x}$
+\item \begin{enumerate}
+\item Justifier que $f$ est dérivable sur $]0,+\infty[ $ et montrer que  pour tout $t>0,$ 
+$$f'(t)= \frac{f(t)^2}{ -1-4f(t)^5}.$$
+\item En déduire la limite de $f'(t)$ en $0$. 
+\item Montrer enfin que $ \ddp f'(t) \equivalent{+\infty} \frac{-1}{t^2} $
+\end{enumerate}
+\end{enumerate}
+\end{exercice}
+
+\begin{correction}
+\begin{enumerate}
+\item On considère la dérivée de la fonction polynomiale. On a $P'_t(X) = 5X^4 +t $. Ainsi pour tout $x\in \R$ et pour tout $t>0$ 
+$P'_t(x) \geq 0$. 
+\begin{itemize}
+\item[•] La fonction polynomiale $x\mapsto P_t(x)$ est donc strictement croissante  sur $\R$.
+\item[•]  $x\mapsto P_t(x)$ est continue en tant que fonction polynomiale.
+\item[•] $\ddp \lim_{x\tv -\infty} P_t(x) =-\infty $, $\ddp \lim_{x\tv +\infty} P_t(x) =+\infty$  et $0\in ]-\infty,+\infty[$
+\end{itemize}
+
+Le théorème de la bijection implique   
+\conclusion{Il existe un unique réel, notée $f(t)$ par l'énoncé, telle que $P_t(f(t)) =0$. }
+
+\item Par définition de $P_t$ on a $P_t(0) = -1<0$ et $P_t(1) = t >0$. Le théorème des valeurs intermédiaires montre que 
+\conclusion{ $f(t) \in ]0,1[$. }
+
+\item Soit $t_1>t_2 $, on a $P_{t_1} (X)-P_{t_2} (X) = X^5 +t_1X-1 - (X^5 +t_2 X -1) = (t_1-t_2)X$
+Donc pour $x>0$ on a 
+$$P_{t_1} (x)-P_{t_2} (x)>0$$
+On applique ce résultat à $f(t_2)$ on obtient 
+$$P_{t_1} (f(t_2))-P_{t_2} (f(t_2))>0$$
+Par définitionde $f$, $P_{t_2} (f(t_2))=0$, d'où finalement, 
+\conclusion{$P_{t_1} (f(t_2))>0$}
+\item 
+Comme $x\mapsto P_{t_1}(x)$ est une fonction croissante et que $P_{t_1}(f(t_1)) =0$ on obtient $f(t_2)> f(t_1)$
+\conclusion{Finalement $t\mapsto f(t) $ est décroissante. }
+
+\item $f$ est montone et bornée. Le théorème des limites monotones assure que  $f$ admet des limites finies en $0^+$ et en $+\infty$. 
+
+
+\item Notons $\ell$ la limite  $\lim_{t\tv 0^+}f(t)= \ell$. Par définition de $f$ on a $f(t)^5 +t f(t)-1= 0$. Cette expression admet une limite quand $t\tv 0$, on  a $\lim_{t\tv 0^+} f(t)^5 +t f(t)-1 =\ell^5-1$. Par unicité de la limite on a donc $\ell^5-1 =0$, avec comme unique solution réelle :\conclusion{$\ell =1$.}
+
+\item Notons $\ell'$  la limite  $\lim_{t\tv +\infty }f(t)= \ell'$.
+Supposons par l'absurde que cette limite soit non nulle. On a alors $\lim_{t\tv +\infty } tf(t) =+\infty$. En passant à la limite dans l'égalité 
+$f(t)^5 +tf(t) -1 =0$ on obtient 
+$+\infty =0$ ce qui est absurde. 
+\conclusion{$\lim_{t\tv +\infty }f(t)=0.$}
+
+\item En repartant de l'égalité $f(t)^5 +tf(t)-1=0$ on obtient 
+$$tf(t) = 1 -f(t)^5$$
+Comme $\lim_{t\tv +\infty} f(t)=0$ on a 
+$$\lim_{t\tv +\infty} tf(t)=1$$
+En d'autres termes \conclusion{$\ddp f(t)\sim_{+\infty} \frac{1}{t}$ }
+
+\item $f$ est strictement  montone sur $]0,+\infty[$ donc $f$ est une bijection $]0,+\infty[$ sur son image. $\ddp \lim_{t\tv 0 }f(t)=1$ et  $\ddp \lim_{t\tv +\infty }f(t)=0$. Donc $f( ]0,+\infty[) =]0,1[$ et \conclusion{$f$ est une bijection de $]0,+\infty[$ sur $]0,1[$. }
+
+Par définition de $f$ on  a
+$f(t)^5 +tf(t)-1=0$
+Donc 
+$tf(t) =  -f(t)^5 +1$. Comme $f(t)>0$, on  a :
+$$t =\frac{1-f(t)^5}{f(t)}$$
+Soit $g(x) = \frac{1-x^5}{x}$ on a bien $g(f(t)) =t$ Donc $g\circ f =\Id$. Ainsi  \conclusion{ La réciproque de $f$  est  la fonction $g : ]0,1[\tv ]0,\infty[$. }
+\item 
+\begin{enumerate}
+\item $g$ est dérivable et pour tout $x\in ]0,1[$ 
+$$g'(x) = \frac{-1-4x^5}{x^2}.$$
+$g'(x) $ est différent de $0$ car $-1-4x^5$ est différent de $0$ sur $]0,1[$, donc $f$ est dérivable et 
+\conclusion{$f'(t) =\frac{1}{g'(f(t))} =  \frac{f(t)^2}{ -1-4f(t)^5}.$}
+
+\item $\ddp \lim_{t\tv 0} f(t) = 1$ donc 
+\conclusion{$\ddp \lim_{t\tv 0} f'(t) = \frac{1^2}{-1-4\times 1 }= \frac{-1}{5}$}
+
+\item
+En multipliant par $t^2$ l'égalité obtenue en 10a) on  obtient :
+$$t^2 f'(t) = \frac{(tf(t))^2}{-1-4 f(t)^5}.$$ Comme $\ddp \lim_{t\tv \infty } tf(t)=1 $ et $\ddp \lim_{t\tv \infty } f(t)=0 $  en passant à la limite dans l'égalité précédente on obtient : 
+$$\lim_{t\tv \infty } t^2f'(t)=\frac{1}{-1}=-1 $$ 
+En d'autres termes : 
+\conclusion{$f'(t) \equivalent{+\infty} \frac{-1}{t^2}$}
+
+\end{enumerate}
+
+
+
+\end{enumerate}
+\end{correction}
+
+
+
+\vspace{1cm}
+\begin{exercice}
+
+
+
+On reprend les notations de l'exercice 2:
+\begin{enumerate}
+
+\item Créer une fonction Python qui prend en argument un entier $n\in \N^*$ et  retourne la valeur de $a_n$.
+\item  Créer une fonction Python qui prend en argument un entier $n\in \N^*$ et  retourne la valeur de $C_n$ comme définie dans la question 3d)\\
+
+
+On reprend les notations de l'exercice 3:
+
+
+\item A l'aide de la méthode de la dichotomie, créer une fonction Python qui prend en argument un réel $t>0$ et  retourne la valeur de $f(t)$ à $10^{-3}$ prés.
+
+\item Ecrire un script Python qui permet de tracer la fonction $f$ sur $[0,1]$.
+\end{enumerate}
+\end{exercice}
+
+\paragraph{Rappels des commandes Python}
+On considère que le module numpy est importé via import numpy as np. Dans le tableau, les variables a et b sont des réels et $\mathrm{N}$ est un entier.
+
+On considère que le module matplotlib. pyplot, qui permet de tracer des graphiques, est importé via import matplotlib. pyplot as plt. Les variables X et Y sont ici deux listes de réels, de même longueur.\\
+
+\hspace{-1cm}
+\begin{tabular}{ll}
+\hline
+\multicolumn{1}{c}{Python} & \multicolumn{1}{c}{Interprétation} \\
+\hline
+$\mathrm{np}.$ linspace $(\mathrm{a}, \mathrm{b}, \mathrm{N})$ & Renvoie un tableau à une dimension contenant $N$ valeurs équiréparties \\ &
+ dans $[a, b] ;$ ces valeurs sont les $t_{k}=a+\frac{b-a}{N-1} k$
+ pour $k \in \llbracket 0, N-1 \rrbracket .$ \\
+\hline
+plt.plot (X,Y) & Place les points dont les abscisses sont contenues dans X et les or- \\
+ & données dans Y et les relie entre eux par des segments. Si cette \\
+ & fonction n'est pas suivie de plt.show(), le graphique n'est pas af- \\
+ & fiché. \\
+plt.grid() & Dessine en arrière plan du graphique un quadrillage. \\
+plt.show() & Affiche le(s) tracé(s) précédemment créé(s) par plt.plot \\
+\hline
+\end{tabular}
+\vspace{0.3cm}
+
+
+
+
+\end{document}

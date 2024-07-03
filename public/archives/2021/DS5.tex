@@ -1,0 +1,425 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\newif\ifshow
+\showfalse
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+
+\geometry{hmargin=3.0cm, vmargin=3.5cm}
+\newenvironment{amatrix}[1]{%
+  \left(\begin{array}{@{}*{#1}{c}|c@{}}
+}{%
+  \end{array}\right)
+}
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{DS 5\\
+\Large{Durée 3h00}
+}
+
+\vspace{1cm}
+\begin{center}
+
+\begin{description}
+\item$\bullet$ Les calculatrices sont \underline{interdites} durant les cours, TD et \emph{a fortiori} durant les DS de mathématiques. \\
+
+\item $\bullet $ Si vous pensez avoir découvert une erreur, indiquez-le clairement sur la copie et justifiez les initiatives que vous êtes amenés à prendre. \\
+
+\item $\bullet$ Une grande attention sera apportée à la clarté de la rédaction et à la présentations des solutions. (Inscrivez clairement en titre le numéro de l'exercice, vous pouvez aussi encadrer les réponses finales.)  \\
+
+\item $\bullet$ Vérifiez vos résultats. \\
+
+\item $\bullet$ Le résultat d'une question peut être admis et utilisé pour traiter les questions suivantes en le signalant explicitement sur la copie. 
+\end{description}
+
+\end{center} 
+\vspace{1cm}
+
+
+
+
+\newpage
+
+\begin{exercice}
+On condière un ensemble de personnes composé de $n_1$ hommes et de $n_2 $ femmes. On désire élire un bureau de $p$ représentants choisis parmi ces $(n_1+n_2)$ personnes. 
+\begin{enumerate}
+\item Combien y-a-t-il  de bureaux possibles ? 
+\item Combien y-a-t-il  de bureaux possibles contenant exactement $k$ hommes. 
+\item En déduire la relation suivante :
+Pour tout $(n_1, n_2 , p )\in \N^3$, tel que $p\leq n_1$ et $p\leq n_2$ :
+$$\binom{n_1+n_2}{p} =\sum_{k=0}^p \binom{n_1}{k}\binom{n_2}{p-k}$$
+
+\end{enumerate}
+\end{exercice}
+\begin{correction}
+\begin{enumerate}
+\item Il y a $\binom{n_1+n_2}{p}$ bureaux possibles (choix de $p$ personnes sans ordre et sans répétition parmi les  $n_1+n_2$ personnes)
+\item On choisit les $k$ hommes parmi les $n_1$ possibles et ensuite on choisit $(p-k)$ femmes parmi les $n_2$ possibles. Il y a donc 
+$$\binom{n_1}{k}\binom{n_2}{p-k}$$ 
+possibilités. 
+\item Soit $A$ l'ensemble des bureaux possibles. 
+Soit $A_k$ l'ensemble des bureaux  possibles composés de $k$ hommes. 
+$(A_k)_{k\in [0,p]}  $ est une partition de $A$ et donc : 
+$$Card(A)  =\sum_{k=0}^p Card(A_k)$$
+Ainsi 
+$$\binom{n_1+n_2}{p}= \sum_{k=0}^p \binom{n_1}{k}\binom{n_2}{p-k}$$ 
+
+\end{enumerate}
+\end{correction}
+
+\begin{exercice}
+On considère l'équation suivante , d'inconnue $z\in \bC$ : 
+\begin{equation}\tag{$E$}
+z^3 +z+1=0
+\end{equation} 
+\begin{enumerate}
+\item On note $f : \R\mapsto \R, $ la fonciton définie par $f(t) = t^3+t+1.$
+A l'aide de l'étude de $f$, justifier que l'équation $(E)$ possède une unique solution réelle, que l'on notera $r$. Montrer que $r \in ]-1, \frac{-1}{2}[$.
+\item On note $z_1$ et $z_2$ les deux autres solutions complexes de $(E)$ qu'on ne cherche pas à calculer. On sait alors que le polynôme $P(X) = X^3+X+1$ se factorise de la manière suivante : 
+$$P(X)  = (X-r)(X-z_1) (X-z_2).$$
+En déduire que $z_1+z_2=-r$ et $z_1z_2=\frac{-1}{r}$.
+\item Justifier l'encadrement  : $\frac{1}{2}<|z_1+z_2 |<1.$\\
+De même montrer que  $1< |z_1z_2|< 2.$
+\item Rappeler l'inégalité triangulaire. En déduire que pour tout $x,y\in \bC$ 
+$$|x-y|\geq |x|-|y|$$
+\item Montrer alors que  $$|z_1+z_2| >|z_1| -\frac{2}{|z_1|}$$
+\item Grâce à un raisonnement par l'absurde montrer que $|z_1|<2$.
+\item Conclure que toutes les solutions de $(E)$ sont de modules strictement inférieures à $2$. 
+\end{enumerate}
+\end{exercice}
+
+
+\begin{correction}
+\begin{enumerate}
+\item  Comme $f(-1)=-1<0$ et $f(\frac{-1}{2}) = \frac{3}{8}>0$, le théoréme des valeurs intermédiaires assure qu'il existe une solution a 
+$f(t)=0$ dans l'intervalle $]-1, \frac{-1}{2}[$. De plus 
+$f'(t)=2t^2+1$ donc $f'>0$ pour tout $t\in \R$, donc $f$ est strictement croissante et cette racine est unique. 
+
+\item En développant on obtient 
+$$P(X) =X^3  +(-r-z_1-z_2) X^2+\alpha X -z_1z_2r$$
+On n'est pas obligé de calculer $\alpha$. 
+Par identification on obtient : 
+$$-r-z_1-z_2=0\quad \text{et} \quad z_1z_2r=-1$$
+$$z_1+z_2=-r\quad \text{et} \quad z_1z_2=\frac{-1}{r}$$
+($r\neq 0$)
+
+\item On a $\frac{1}{2} < -r < 1$ et $|z_1+z_2 | =|-r|=-r$. D'où 
+$$\frac{1}{2} < |z_1+z_2 | < 1.$$
+
+On a $1 < \frac{-1}{r} < 2$ et $|z_1z_2 | =\left|\frac{-1}{r}\right|=  \frac{-1}{r} $. D'où 
+$$1 < |z_1z_2 | < 2.$$
+
+\item L'inégalité triangulaire 'inversée' donne 
+$$|x-y| \geq |x|-|y|.$$
+
+\item On a donc 
+$$|z_1+z_2| \geq |z_1|-|z_2|$$
+Or $|z_1z_2| <2$, donc $|z_2| <\frac{2}{|z_1|}$
+D'où $-|z_2| >-\frac{2}{|z_1|}$. On obtient donc l'inégalité voulue. 
+
+\item Supposons par l'absurde que $|z_1|\geq 2$. On a alors d'après la questions précédente 
+$$|z_1-z_2| > 2 -1 =1$$
+Ceci est en contradiction avec le résultat de la question $3$. Donc 
+$$|z_1|\leq 2.$$
+\item Le raisonement de la question 5 et 6 s'applique de façon similaire à $z_2$. Comme $|r|\leq 1$, toutes les racines de $P$ sont bien de module strictement inférieur à $2$. 
+
+\end{enumerate}
+\end{correction}
+
+
+
+
+
+\begin{exercice}
+Dans l'espace $\cE$ muni d'un repère orthonormé, on considère la droite $\cD$ de représenation paramétrique : 
+$$\cD : \left\{ 
+\begin{array}{ccc}
+x&=& -3+t\\
+y&=& 1+2t\\
+z&=& 2-t
+\end{array}
+\right.\,  ,\, t\in \R$$
+
+Pour tout ce problème on fixe un point $A(\alpha, \beta, \gamma) $ et on note $H(\lambda, \mu, \nu) $ son projeté orthogonal sur $\cD$. 
+
+\begin{enumerate}
+\item  Soit $\cP_1$ le plan contenant les points $B(-1,0,0), C(2,7,-3)$ et $D(-2,4,1)$.
+\begin{enumerate}
+\item Montrer que $\cP_1$ a pour équation $x+z+1=0$
+\item Montrer que $\cP_1$ contient $\cD$. 
+\end{enumerate}
+\item Soit $\cP_2$ le plan contenant $\cD$ et le point $E(-2,3,-1)$. 
+\begin{enumerate}
+\item  Donner deux vecteurs parallèles à $\cP_2$ qui ne sont pas colinéaires entre eux. 
+\item En déduire un vecteur orthogonal à $\cP_2$.
+\item Montrer alors  que $-2x+y-7=0$ est une équation cartésienne de $\cP_2$
+\end{enumerate}
+\item Soit  $\cP_3$ le plan perpendiculaire à $\cD$ et passant par   $A$. 
+\begin{enumerate} 
+\item Donner un vecteur directeur de $\cD$. 
+\item Déterminer une équation cartésienne de $\cP_3$.  (En fonction évidemment de $\alpha, \beta, \gamma)$
+\end{enumerate}
+
+\item En déduire que les coordonnées de $H$ vérifient un système linéaire qu'on peut écrire sous la forme : 
+$$M_1 \begin{pmatrix}
+\lambda \\
+\mu \\
+\nu 
+\end{pmatrix} = M_2\quad \text{où }  M_1 =\begin{pmatrix}
+1 & 0 & 1\\
+-2 & 1 & 0\\
+1 & 2 &-1 
+\end{pmatrix}  $$
+et  $M_2\in \cM_{3,1} (\R)$  \text{ est une matrice colonne à déterminer} (qui dépendra de $(\alpha, \beta , \gamma)$ 
+\item Montrer que $M_1$ est inversible et calculer son inverse. 
+\item En déduire que les coordonnées de $H$ sont données par :
+$$\begin{pmatrix}
+\lambda \\
+\mu \\
+\nu 
+\end{pmatrix} = P_1 \begin{pmatrix}
+\alpha \\
+\beta \\
+\gamma 
+\end{pmatrix} +P_2\quad \text{où }  P_1 =\frac{1}{6}\begin{pmatrix}
+1 & 2 & -1\\
+2 & 4 & -2\\
+-1 & -2 &1 
+\end{pmatrix} \text{ et } P_2 =\frac{1}{2}\begin{pmatrix}
+-5 \\
+4\\
+3
+\end{pmatrix} $$
+%(On pourra calculer séparément $M_1^{-1}M_2$ et $ P_1 \begin{pmatrix}
+%\alpha \\
+%\beta \\
+%\gamma 
+%\end{pmatrix} +P_2$)
+\item \begin{enumerate}
+\item Déterminer en fonction de $\alpha, \beta$ et $\gamma$ la valeur du paramètre $t\in \R$ du point $M(x,y,z)\in \cD$ telle que le veteur $\vec{AM}$ soit orthogonal au vecteur $\vec{u} = (1,2,-1)$
+\item Retrouver le résultat de la question 6 à l'aide de la valeur du paramétre $t$ obtenue à la question précédente. 
+\end{enumerate}
+%\item \begin{enumerate}
+%\item A l'aide du résultat de la question 4, montrer que :
+%$$P_1 \begin{pmatrix}
+%\lambda \\
+%\mu \\
+%\nu 
+%\end{pmatrix}+P_2=\begin{pmatrix}
+%\lambda \\
+%\mu \\
+%\nu 
+%\end{pmatrix}. $$
+%\item Quelle est l'interprétation géométrique du réqsultat précédent. 
+%
+%\end{enumerate}
+%\item On note $\cS$ l'ensemble des  points $M(x,y,z)\in \cE$ qui verifient la propriété suivante   
+%\begin{enumerate}
+%\item  $$P_1 \begin{pmatrix}
+%x \\
+%y\\
+%z
+%\end{pmatrix} +P_2=\begin{pmatrix}
+%x \\
+%y\\
+%z
+%\end{pmatrix}. \quad (\Sigma)$$
+%Résoudre le système $(\Sigma)$ et en déduire que $\cS = \cD$
+%\end{enumerate}
+\end{enumerate}
+\end{exercice}
+
+\begin{correction}
+\begin{enumerate}
+\item \begin{enumerate}
+\item Soit $ax+by+cz+d=0$ l'équation du plan $\cP_1$. On a 
+\begin{itemize}
+\item $B\in \cP_1$ donc $-a+d=0$
+\item $C\in \cP_1$ donc $2a+7b-3c+d=0$
+\item $D\in \cP_1$ donc $-2a+4b+c+d=0$
+\end{itemize}
+On obtient 
+$$
+\left\{ \begin{array}{ccc}
+-a+d&=&0\\
+7b-3c+3d&=&0\\
+4b+c-d&=&0
+\end{array}\right.
+\equivaut 
+\left\{ \begin{array}{ccc}
+-a+d&=&0\\
+c+4b-d&=&0\\
+-3c+7b+3d&=&0
+\end{array}\right.
+\equivaut 
+\left\{ \begin{array}{ccc}
+-a+d&=&0\\
+c+4b-d&=&0\\
+19b&=&0
+\end{array}\right.
+$$
+
+$$\equivaut 
+\left\{ \begin{array}{ccc}
+a&=&d\\
+c&=&d\\
+b&=&0
+\end{array}\right.
+$$
+
+On obtient donc comme équation du plan $\cP_1$
+\conclusion{$x+z+1=0$}
+
+\item Soit $M(x,y,z)\in D$, il existe donc $t\in \R$ tel que 
+$$x=-3+t, \quad y=1+2t \quadet z=2-t$$
+et donc 
+$$x+z+1 = -3+t +2-t+1= 0$$
+Ainsi $M\in \cP_1$
+\conclusion{ $D\subset \cP_1$} 
+
+\item 
+
+
+\end{enumerate}
+\end{enumerate}
+\end{correction}
+
+
+
+\begin{exercice}
+On souhaite dans cet exercice coder le jeu du master mind. On en rappelle les règles briévement. 
+Le jeu se joue à deux : un codificateur et un décodeur.
+Le but est de deviner, par déductions successives, la couleur et la position des 4 pions  cachés derrière un écran. Déroulement du jeu : le codificateur (qui dans notre cas sera joué par l'ordinateur) crée un code avec 4 pions de 5 couleurs  différentes.  Il doit prendre soin de ne pas révéler la couleur et la répartition dans les trous des pions. Il n'y a pas de restrictions sur le choix des différents pions. 
+
+Son adversaire, le décodeur (vous), est chargé de déchiffrer ce code secret. Il doit le faire en 10 coups au plus. Il place 4  pions dans les trous de la première rangée immédiatement près de lui. Si l'un des pions correspond par sa position et sa couleur à un pion caché derrière l'écran, le codificateur l'indique en plaçant une fiche noire dans l'un des trous de marque, sur le côté droit correspondant du plateau. Si l'un des pions correspond uniquement par sa couleur, le Codificateur l'indique par une fiche blanche dans l'un des trous de marque. S'il n'y a aucune correspondance, il ne marque rien.\\
+
+On propose de coder les 5 couleurs par leur premières lettres : Jaune : 'J', Rouge :'R', Marron : 'M', Bleu : 'B' et vert 'V'. On appelle \texttt{couleur} la liste définie par 
+\texttt{couleur = ['J','R','M','B','V']}. (On pourra l'utiliser telle quelle dans  l'écriture des programmes).\\
+
+Exemple : 
+Supposons que le code à deviner soit  \texttt{['J','M','R','M']}.
+et que le code proposé soit \texttt{['J','M','M','V']}.
+
+\begin{itemize}
+\item On s'intéresse à la couleur jaune 'J'. 
+Elle est en position \texttt{[0]} dans le code à deviner et \texttt{[0]} dans le code proposé. Il y aura donc une fiche noire. 
+\item On s'intéresse à la couleur marron 'M'. 
+Elle est en position \texttt{[1,3]} dans le code à deviner et \texttt{[1,2]} dans le code proposé. Il y aura donc une fiche noire et une fiche blanche
+\item On s'intéresse à la couleur rouge 'R'. 
+Elle est en position \texttt{[2]} dans le code à deviner et  elle n'est pas dans le code proposé. Il y aura donc aucune fiche. 
+\item On s'intéresse à la couleur vert 'V'. 
+Elle  n'est pas dans le code à deviner et en position \texttt{[3]} dans le code proposé. Il y aura donc aucune fiche
+\item On s'intéresse à la couleur bleu 'B'. 
+Elle n'est ni dans le code cherché ni dans le code proposé, il n'y aura aucune fiche. 
+\end{itemize}
+Au final l'ordinateur devra  afficher 2 fiches noires et 1 fiche blanche. 
+
+
+
+
+
+\begin{enumerate}
+
+\item 
+\begin{enumerate}
+\item Combien y-a-t-il de codes possibles au MasterMind ? 
+\item Combien y-a-t-il de codes possibles au MasterMind avec au plus 1 rouge ? 
+\item Combien y-a-t-il de codes possibles au MasterMind  avec exactement 1 rouge ? 
+\item Combien y-a-t-il de codes possibles au MasterMind  où toutes les couleurs sont différentes ?
+\end{enumerate}
+
+
+
+\item   
+Ecrire une fonction  \texttt{code} qui retourne un code aléatoire  (sous forme de liste) valable au mastermind.
+\item 
+\begin{enumerate}
+\item Ecrire une fonction \texttt{place} qui prend en argument une liste \texttt{L} (qui correspond à un code) et une lettre \texttt{a} (qui correspond à une couleur) et retourne la liste des positions de la lettre \texttt{a} dans la liste \texttt{L}. 
+\item  Que retourne \texttt{place(['J','R','V','R'],'R')}  ?
+\item  Que retourne \texttt{place(['J','R','V','R'],'M')}  ?
+\end{enumerate}
+
+
+\item On va tout d'abord essayer de comparer les deux codes (celui cherché et celui proposé par le joueur) pour une couleur donnée. 
+
+Compléter la fonction \texttt{compare\_deux\_couleur} qui prend en argument deux listes \texttt{L1} et \texttt{L2} qui correspond à la position des jetons d'une couleur donnée dans le code et dans la proposition faite par le joueur et retourne deux nombres (b,n) correspondant au nombre de fiches blanches et noires que le codificateur doit donner comme réponse. 
+
+Exemples:  
+\begin{itemize}
+\item 
+
+
+compare\_deux\_couleur([1,4],[1,2]) 
+retourne (1,1), c'est-à-dire 1 blanche et 1 noire.  La noire  correspond à la couleur bien placée en position 1  et la blanche correspond à la couleur mal placée en position 2 (qui est en position 4 dans le code) 
+\item compare\_deux\_couleur([1],[1,2]) 
+retourne (0,1), c'est-à-dire 0 blanche et 1 noire.  La noire  correspond à la couleur bien placée en position 1 .
+
+\item compare\_deux\_couleur([],[1,2]) 
+retourne (0,0), c'est-à-dire 0 blanche, 0 noire. Il n'y a  pas la couleur correspondante dans le code.
+
+\item compare\_deux\_couleur([3],[1,2]) 
+retourne (1,0), c'est-à-dire 1 blanche, 0 noire. Une couleur est mal placée l'autre est en trop. 
+\end{itemize}
+
+%\begin{lstlisting}[language=Python]
+%def compare_deux_couleur(L1,L2):
+%    N=0
+%    B=0
+%    for position in  L1  :
+%        if  position 
+%            N=
+%    B=
+%    return(B,N)
+%\end{lstlisting}
+
+\item 
+\begin{enumerate}
+\item Ecrire une fonction \texttt{couleur\_distincte} qui prend en argument une liste \texttt{L} (qui correspond à un code) et qui retourne la liste des couleurs distinctes dans \texttt{L}.
+\item  Que retourne \texttt{couleur\_distincte(['J','J','V','R'])}  ?
+\end{enumerate}
+
+\item Ecrire une fonction \texttt{decode} qui prend en argument deux listes \texttt{code} et \texttt{proposition}  (qui correspondent respectivement au code cherché et au code proposé par le joueur) et qui retourne une liste  correspondant à  la réponse que doit faire le Codificateur : la liste contiendra donc un certain nombre de fiches noires (codée par la lettre 'N') correspondant au nombre de pions bien placés dans la liste proposée par le joueur et un certain nombre de fiches blanches.
+
+\item Ecrire une fonction \texttt{transform} qui prend en argument une chaine de caractères \texttt{S} et retourne une liste dont chaque entrée est une lettre de la chaine \texttt{S}.
+
+\item Compléter la fonction suivante qui permet de jouer au master mind :
+(on s'arretera si le joueur gagne ou si il dépasse le nombre de coups autorisés) 
+\begin{lstlisting}[language =python]
+def master_mind():
+    code_cherche=
+    c=0 #compteur qui permet de compter le nombre de 
+    	#coups joues par le joueur
+    proposition = [] # On initialise avec une proposition vide
+    
+    #tant que le joueur n'a pas depasse le nombre de propositions
+    #et qu'il n'a pas trouve le code : 
+    while
+       #le joueur inscrit un code sous forme de  chaine de caracteres:
+        prop = input('quel est le code ?') 
+        
+        #que l'on transforme en liste :
+        proposition = transform(prop)
+
+       #on calcule le nombre de fiches noires et blanches  
+        B,N =
+        print('Fiches blanches:', B, 'Fiches noires:', N)
+        
+        #et on incremente le compteur
+        c =
+    
+    if code_cherche ==         :
+        print 
+    else:
+        print 
+
+\end{lstlisting}
+
+\end{enumerate}
+
+
+
+\end{exercice}
+\end{document}

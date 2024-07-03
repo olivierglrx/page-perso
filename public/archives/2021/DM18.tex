@@ -1,0 +1,60 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\newif\ifshow
+\showtrue
+\usepackage{eurosym}
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+
+\geometry{hmargin=2.0cm, vmargin=2cm}
+\newenvironment{amatrix}[1]{%
+  \left(\begin{array}{@{}*{#1}{c}|c@{}}
+}{%
+  \end{array}\right)
+}
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{DM 18}
+
+On reprend l'exercice 2 du concours blanc mais avec le vocabulaire des applications linéaires. 
+
+\begin{exercice}
+On définit l'application : 
+$$g \left| \begin{array}{ccl}
+\R^3 &\tv& \R^3 \\
+(x,y,z) &\mapsto & (2y-2z, -2x+4y-2z, -2x+2y)
+\end{array}\right.$$
+\begin{enumerate}
+\item Montrer que $g$ est un endomorphisme. 
+\item Soit $u=(1,1,1)$, $v=(2,3,1)$ et $w=(0,1,1)$. Calculer $g(u), g(v)$ et $g(w)$ et les exprimer en fonction de $u, v$ et $w$.
+\item Soit $\lambda \in \R$.  On note $E_\lambda = \ker(f-\lambda \Id)$. 
+\begin{enumerate}
+\item (Vs dure) Déterminer $\lambda $ tel que $E_\lambda \neq \{ 0_{\R^3}\} $ et, dans ce cas, en donner une base.
+\item (Vs facile) Déterminer une base de $E_0$ et $E_2$.  
+\end{enumerate}
+\item Montrer que $E_0\cap E_2= \{ (0,0,0)\}$.
+\item On note toujours $u=(1,1,1)$, $v=(2,3,1)$ et $w=(0,1,1)$. Montrer que $(u,v,w)$ est une base de $\R^3$. 
+\item On note $p$ l'application définie par
+$$p(e_1) =u, \quad p(e_2)=v,\quadet p(e_3)=w,$$
+où l'on a notée $(e_1,e_2, e_3) $ la base canonique.
+ \begin{enumerate}
+ \item Justifier que de $p$ est inversible. 
+ \item En calculant l'image des vecteurs de la base canonique, déterminer l'expression de l'application $h$ définie par $h=p^{-1} \circ g \circ p$. 
+ \item On note $D, P, M$ les matrices respectives de $h, p, g$ dans la base canonique. Expliciter la valeur de chacune de ces matrices et déterminer la relation matricielle obtenue grâce à la question précédente. 
+ \end{enumerate}
+\item \begin{enumerate}
+\item (Vs Dure) A l'aide d'une démontration par réccurrence déterminer $M^n$.
+\item (Vs facile) Montrer  par réccurrence  que $M^n=PD^nP^{-1}$. Puis expliciter la valeur de $M^n$.
+\end{enumerate}
+
+
+\item Conclure en donnant l'expression de $g^n(A)$ où $A=(1,-1,-3)$
+\end{enumerate}
+\end{exercice}
+
+
+
+\end{document}

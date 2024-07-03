@@ -1,0 +1,109 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\geometry{hmargin=2.0cm, vmargin=1.5cm}
+\newif\ifshow
+\showtrue
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+
+
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{DM 10
+}
+
+
+\begin{exercice}
+Résoudre l'inéquation suivante :
+$$ \frac{x+4}{x+2} \leq \frac{3}{x} \quad(E_1)$$
+
+En déduire les solutions de 
+$$\frac{x^2+4}{x^2+2} \leq \frac{3}{x^2} \quad(E_2)$$
+
+et de
+$$\frac{\sqrt{x}+4}{\sqrt{x}+2} \leq \frac{3}{\sqrt{x}}\quad(E_3)$$
+
+
+\end{exercice}
+
+\begin{exercice}  \;
+Un jeu de cartes non truqu\'e comporte 52 cartes. Une main est constitu\'ee de 8 cartes. (une 'couleur' correspond au choix de pique, coeur, carreau ou trefle, et non pas rouge ou noir) 
+\begin{enumerate}
+\item Quel est le nombre de mains possibles sans contraintes.
+\item Quel est le nombre de mains possibles avec exactement deux dames.
+\item Quel est le nombre de mains possibles comportant des cartes d'exactement 2 couleurs ?
+\item  Quel est le nombre de mains possibles comportant deux couleurs au plus ?
+
+\end{enumerate}
+\end{exercice}
+
+\begin{correction}  \; \textbf{Exercice 6 : Jeu de cartes:}
+\begin{enumerate}
+\item C'est un choix de $8$ éléments parmi $52$ sans ordre et sans répétition. C'est donc 
+\conclusion{$\binom{52}{8}$}
+\item Il faut choisir deux dames parmi les 4 ce qui donne $\binom{4}{2} $. Puis les 6 autres sont obtenus dnas les 52-48 cartes restantes : $\binom{48}{6}$.
+\conclusion{ $\binom{4}{2} \binom{48}{6}$}
+
+
+\item On commence par faire le choix de la couleur, on a donc 2 choix parmi 4 sans ordre et sans r\'ep\'etition: $\ddp \binom{4}{2}$. Une fois le choix de la couleur fait, il faut prendre nos 8 cartes parmi les cartes de ces deux couleurs \`a savoir on doit prendre 8 cartes parmi les 26 cartes des deux couleurs choisies. On a compt\'e en trop le cas o\`u nos 8 cartes \'etaient en fait toutes prises de la m\^eme couleur. Il faut donc retirer \`a $\ddp \binom{26}{8}$ le nombre de possibilit\'es que l'on a d'avoir pris en fait 8 cartes de la m\^eme couleur, \`a savoir: $2\times\ddp \binom{13}{8}$. On le compte 2 fois car il y a deux couleurs. Finalement, on obtient: $\ddp \binom{4}{2}\left\lbrack \ddp \binom{26}{8}-2\ddp \binom{13}{8}   \right\rbrack$.
+\item On veut choisir au plus deux couleurs, c'est-\`a-dire exactement une ou bien exactement deux. On a calcul\'e le nombre de tirages avec exactement deux couleurs \`a la question pr\'ec\'edente. De plus, pour choisir des cartes d'une seule couleur, on a $4$ choix pour la couleur, puis $\ddp \binom{13}{8}$ possibilit\'es pour les tirages. Comme les tirages d'une couleur et de deux couleurs sont disjoints, le cardinal de l'union des deux ensembles est la somme des cardinaux, et on en d\'eduit que l'on a
+\conclusion{ $\ddp \binom{4}{2}\left\lbrack \ddp \binom{26}{8}-2\ddp \binom{13}{8}   \right\rbrack + 4 \binom{13}{8}$ possibilit\'es.}
+
+
+Mais on aurait aussi pu dire, il y a 2 choix parmi 4 sans ordre et sans r\'ep\'etition: $\ddp \binom{4}{2}$ pour les couleurs. Une fois le choix de la couleur fait, il faut prendre nos 8 cartes parmi les cartes de ces deux couleurs \`a savoir on doit prendre 8 cartes parmi les 26 cartes des deux couleurs choisies. 
+et on obtient \conclusion{$\ddp \binom{4}{2} \binom{26}{8}$}
+
+\end{enumerate}
+\end{correction}
+
+
+
+\begin{exercice}   \;
+Une urne contient  $10$ boules numérotées de $1$ à $10$. On tire successivement et avec remise $5$ boules.
+\begin{enumerate}
+\item Déterminer le nombre de tirages possibles. 
+\item Déterminer le nombre de tirages possibles tel qu'au moins un nombre soit plus grand strictement que $3$ 
+\item Déterminer le nombre de tirages possibles dont la somme des nombres est paire (On pourra montrer qu'il y a autant de tirages dont la somme des nombres est impaire)
+\end{enumerate}
+\end{exercice}
+
+\begin{correction}
+\begin{enumerate}
+\item Les choix se font avec ordre ("successivement") et avec répétition ("avec  remise"). Il y a donc 
+\conclusion{ $ 10^5$ possibilités}
+\item On va regarder l'événement contraire: le nombre de tirages tel que tous les numéros tirés soient plus petit (ou égal) à $3$. On obtient $3^5$ tirages. 
+Ainsi le nombre de tirages possibles tel qu'au moins un nombre soit plus grand strictement que $3$ est 
+\conclusion{ $10^5-3^5$}
+\item Un tirage correspond à un $5$-uplet de $\intent{1,10}$ c'est à dire un élément de $\intent{ 1,10}^5$. 
+
+Soit $P$ le sous ensemble de $\intent{ 1,10}^5$ correspondant aux tirages dont la somme est paire et $I$  le sous ensemble de $\intent{ 1,10}^5$ correspondant aux tirages dont la somme est impaire.
+On a d'une part $P\cup I = \intent{ 1,10}^5$, et d'autre $P\cap I =\emptyset$
+Donc $$\Card P + \Card I =10^5$$
+
+Par ailleurs, considèrons l'application : 
+$$\begin{array}{c|lcl}
+F :& \intent{ 1,10}^5 &\tv& \intent{ 1,10}^5\\
+& (b_1,b_2,b_3,b_4,b_5) &\mapsto &(11-b_1,11-b_2,11-b_3,11-b_4,11-b_5)
+\end{array}$$
+L'application $F$ est bijective (le prouver...) et $F(P) = I$. Comme $F$ est une bijection 
+$$\Card(P) = \Card(I)$$ 
+Finalement on obtient 
+$2 Card(P) = 10^5$ soit 
+\conclusion{ $\Card(P) = \frac{1}{2} 10^5$}
+
+
+
+
+
+
+\end{enumerate}
+\end{correction}
+
+
+
+
+
+\end{document}

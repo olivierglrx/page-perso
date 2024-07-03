@@ -1,0 +1,459 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\usepackage{enumitem}
+\geometry{hmargin=2.0cm, vmargin=2.5cm}
+\lstset{basicstyle=\ttfamily, keywordstyle=\rmfamily\bfseries}
+\newif\ifshow
+\showfalse
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{ DS 3
+}
+
+
+
+\begin{exercice}
+On s'intéresse dans cet exercice aux sommes 
+$$C_n(x)= \sum_{k=0}^n \cos(kx)\quadet S_n(x)= \sum_{k=0}^n \sin(kx)$$
+\begin{enumerate}
+\item Soit $S$ l'ensemble des $x\in \R$ tel que $e^{ix}=1$. Déterminer $S$.
+\item Déterminer $C_n(x)$ en fonction de $n\in \N$ pour $x\in S$. 
+
+\item Rappeler la valeur de $\ddp \sum_{k=0}^n q^k $ en fonction  de  $n\in \N$ pour $q\neq 1$ et  en déduire la valeur de  $\ddp \sum_{k=0}^n e^{ikx} $  en fonction de $n$ pour $x\notin S$. 
+
+\item On considère $Z_n(x)=C_n(x) +iS_n(x)$. Montrer pour $x\notin S$ :
+$$Z_n(x) = e^{i\frac{nx}{2}} \frac{\sin\left(\frac{(n+1)x}{2}\right)}{\sin\left(\frac{x}{2}\right)}$$
+\item En déduire la valeur de $C_n(x)$ en fonction de $x$, pour $x\notin S$. 
+\end{enumerate}
+\end{exercice}
+\begin{correction}
+\begin{enumerate}
+\item $e^{ix}=1\equivaut \cos(x)+i\sin(x)=1 \equivaut 
+\left\{ 
+\begin{array}{cc}
+\cos(x)&=1\\
+\sin(x)&=0
+\end{array}
+\right.
+\equivaut x\in \{ 2k \pi\, |\, k\in \Z\}$
+\conclusion{ $S=\{ 2k \pi\, |\, k\in \Z\}$}
+
+\item Si $x\in S$ alors $x=2m\pi $ avec $m\in \Z$ donc 
+pour tout $k\in \N$, $\cos(kx)= \cos(2\pi k  m) =1$. Ainsi 
+$$C_n(x) = \sum_{k=0}^n 1= (n+1)$$
+
+\conclusion{ $\forall n\in \N, \, \forall x\in S$, $C_n(x)=n+1$}
+\item 
+Pour tout $q\neq 1$:
+\conclusion{$\sum_{k=0}^n q^k= \frac{1-q^{n+1}}{1-q}$}
+Or
+$$\sum_{k=0}^n e^{ikx} =\sum_{k=0}^n (e^{ix}) ^k$$
+Donc si $x\notin S$, $e^{ix}\neq 1$ et 
+
+\conclusion{ $\sum_{k=0}^n e^{ikx} = \frac{1-e^{i(n+1)x}}{1-e^{ix}}$}
+
+\item 
+En utilisant la linéarité de la somme et la question précédente on obtient pour $x\notin S$ : 
+\begin{align*}
+Z_n(x)&= \sum_{k=0}^n \cos(kx)+i\sum_{k=0}^n \sin(kx)\\
+	 &=  \sum_{k=0}^n \cos(kx)+i \sin(kx)\\
+	 &=  \sum_{k=0}^n e^{ikx}\\
+	 &=  \sum_{k=0}^n  \frac{1-e^{i(n+1)x}}{1-e^{ix}}
+\end{align*}
+
+On va transformer l'expression pour faire apparaitre les sinus : 
+
+\begin{align*}
+ \frac{1-e^{i(n+1)x}}{1-e^{ix}}  &=  \frac{ e^{i\frac{n+1}{2}x} \left(    e^{-i\frac{n+1}{2}x}-e^{i\frac{n+1}{2}x}\right)}{e^{i\frac{1}{2}x}\left(e^{-i\frac{1}{2}x}-e^{i\frac{1}{2}x}\right) }  
+\end{align*}
+
+et par ailleurs on a $  e^{-i\frac{n+1}{2}x}-e^{i\frac{n+1}{2}x}=-2i \sin \left( \frac{n+1}{2}x\right) $ et $  e^{-i\frac{1}{2}x}-e^{i\frac{1}{2}x}=-2i \sin \left( \frac{1}{2}x\right) $.
+
+On obtient finalement 
+\begin{align*}
+ \frac{1-e^{i(n+1)x}}{1-e^{ix}} &=e^{i\frac{n+1}{2}x- i \frac{1}{2}x}  \frac{-2i \sin \left( \frac{n+1}{2}x\right)}{-2i \sin \left( \frac{1}{2}x\right)}\\
+ &= e^{i\frac{n}{2}x}  \frac{\sin \left( \frac{n+1}{2}x\right)}{\sin \left( \frac{1}{2}x\right)}\\
+\end{align*}
+
+On trouve bien : 
+\conclusion{ $\forall n\in \N, \forall x\notin S , Z_n(x)=  e^{i\frac{n}{2}x}  \frac{\sin \left( \frac{n+1}{2}x\right)}{\sin \left( \frac{1}{2}x\right)}$}
+
+\item Par définition de $Z_n$, on a $C_n(x) =\Re(Z_n(x))$
+Donc 
+$$C_n(x)= \Re\left(
+e^{i\frac{n}{2}x}  \frac{\sin \left( \frac{n+1}{2}x\right)}{\sin \left( \frac{1}{2}x\right)}\right)$$
+
+\conclusion{$C_n(x)= 
+\cos\left(\frac{nx}{2}\right) \frac{\sin \left( \frac{n+1}{2}x\right)}{\sin \left( \frac{1}{2}x\right)}$}
+
+\end{enumerate}
+\end{correction}
+
+
+
+\begin{exercice}
+On s'intéresse dans cet exercice à la  suite $\suite{u}$ qui vérifie les relations suivantes : 
+$$(R)\, :\, 
+u_{n+1} =2u_n+n^2\quadet (CI) u_0=1$$
+ On pose : $ \forall n\in \N, v_n =an^2+bn+c$ où $(a,b,c)$ sont trois réels.  
+\begin{enumerate}
+\item Déterminer les triplets $(a,b,c)\in \R^3$ tel que :
+$$\forall n\in \N,\,v_{n+1} =2v_n+n^2$$
+\item Soit $\suite{v}$ une des suites précédentes et $\suite{x}$ la suite définie par  $x_n=u_n-v_n$. Montrer que $\suite{x}$ est géométrique. 
+\item En déduire l'expression de $x_n$ en fonction de $n$ puis de $u_n$. 
+\end{enumerate}
+\end{exercice}
+
+\begin{correction}
+\begin{enumerate}
+\item Si $\suite{v}$ vérifie la relation $(R)$ on a alors 
+$$a(n+1)^2 +b(n+1) +c = 2(an^2+bn+c) +n^2$$
+Et donc 
+$$a(n^2+2n+1) +bn+b+c = 2an^2 +2bn+2c +n^2$$
+En regroupant les différents termes on obtient 
+$$a n^2 +(2a+b)n +a+b+c = (2a+1)n^2 +2bn +2c$$
+et en identifiant on a : 
+
+$$\left\{ \begin{array}{ll}
+a&=2a+1\\
+2a+b&=2b\\
+a+b+c&=2c
+\end{array}\right.\equivaut 
+\left\{ \begin{array}{ll}
+a&=-1\\
+b&=-2\\
+c&=-3
+\end{array}\right.
+$$
+\conclusion{ $v_n= -n^2-2n-3$}
+\item  Soit $x_n= u_n-v_n$, comme $\suite{u} $ et $\suite{v}$ vérifient la relation $(R)$ on obtient pour $\suite{x}$:
+
+\begin{align*}
+x_{n+1}  &= u_{n+1}-v_{n+1}\\
+			  &= 2u_n+n^2-2v_n+n^2\\
+			  			  &= 2u_n-2v_n\\
+			  			  &= 2x_n
+\end{align*}
+
+\conclusion{Ainsi $\suite{x}$ est géométrique de raison $2$. }
+
+\item On a donc pour tout $n\in \N$  : $x_n =x_02^n$ 
+et $x_0 = u_0-v_0 =1-(-3)= 4$ donc 
+\conclusion{ $x_n = 4\times 2^n$}
+or $u_n=x_n+v_n$ 
+et donc
+\conclusion{ $u_n = 4\times 2^n -n^2-2n-3$}
+
+
+\end{enumerate}
+
+\end{correction}
+\vspace{1cm}
+
+\begin{exercice}
+\begin{enumerate}
+\item Donner en fonction du paramétre $\lambda\in \R$ le rang du système:
+$$(S_\lambda) \,:\,\left\{\begin{array}{rl}
+8x +5y&=\lambda x\\
+-10x-7y&=\lambda y
+\end{array}\right.$$
+\item On appelle $\Sigma$ l'ensemble des valeurs telles que le système $(S_\lambda)$ \textbf{n'est pas} de Cramer. Déterminer $\Sigma$.
+\item Résoudre $(S_\lambda)$ pour $\lambda \in\Sigma$.
+\item Résoudre $(S_\lambda)$ pour $\lambda \notin\Sigma$.
+\end{enumerate}
+
+\end{exercice}
+
+\begin{correction}
+\begin{enumerate}
+\item \begin{align*}
+(S_\lambda)\equivaut &\left\{\begin{array}{rcrl}
+(8-\lambda)x &+&5y&=0\\
+-10x&+&(-7-\lambda)y&=0
+\end{array}\right.
+\equivaut \left\{\begin{array}{rcrl}
+-10x&+&(-7-\lambda)y&=0\\
+(8-\lambda)x &+&5y&=0
+\end{array}\right.\\
+\overset{L_2\leftarrow 10L_2+(8-\lambda)L_1}{\equivaut} &\left\{\begin{array}{rcrl}
+-10x&+&(-7-\lambda)y&=0\\
+& &(5\times 10+(8-\lambda)(-7-\lambda))y&=0
+\end{array}\right.
+\\
+\equivaut &\left\{\begin{array}{rcrl}
+-10x&+&(-7-\lambda)y&=0\\
+& &(50+(\lambda^2-\lambda -56))y&=0
+\end{array}\right.
+\\
+\equivaut &\left\{\begin{array}{rcrl}
+-10x&+&(-7-\lambda)y&=0\\
+& &(\lambda^2-\lambda -6)y&=0
+\end{array}\right.
+\end{align*}
+
+Regardons maintenant les racines de $(\lambda^2-\lambda -6)$. Le discriminant vaut $\Delta = 1+24=25>0$. Il y a donc deux racines réelles : 
+$$\lambda_1 =-2\quadet \lambda_2=3$$
+
+\underline{Si $\lambda_1 \notin \{-2,3\}$ }
+alors $(\lambda^2-\lambda -6)\neq 0$ et 
+\conclusion{ Le système  est de rang 2}
+
+\underline{Si $\lambda=-2$ ou  $\lambda=3$ }
+alors $(\lambda^2-\lambda -6)=0$ et 
+\conclusion{ Le système  est de rang 1}
+
+\item $\Sigma =\{ -2,3\}$ d'après la question précédente. 
+
+\item \underline{Si $\lambda =-2$} alors 
+$$(S_\lambda)\equivaut \left\{\begin{array}{rcrl}
+-10x&+&(-7+2)y&=0\\
+& &0&=0
+\end{array}\right.\equivaut \left\{\begin{array}{rcrl}
+-10x&+&-5y&=0
+\end{array}\right.
+$$
+$$(S_\lambda)\equivaut\left\{\begin{array}{rl}
+x&=\frac{-1}{2}y
+\end{array}\right.
+$$
+Pour $\lambda=-2$ les solutions sont :
+\conclusion{ $S = \{ (\frac{-1}{2}y,y) \, |\, y \in \R\}$}
+
+
+\underline{Si $\lambda =3$} alors 
+$$(S_\lambda)\equivaut \left\{\begin{array}{rcrl}
+-10x&+&(-7-3)y&=0\\
+& &0&=0
+\end{array}\right.\equivaut \left\{\begin{array}{rcrl}
+-10x&+&-10y&=0
+\end{array}\right.
+$$
+$$(S_\lambda)\equivaut\left\{\begin{array}{rl}
+x&=-1y
+\end{array}\right.
+$$
+Pour $\lambda=3$ les solutions sont :
+\conclusion{ $S = \{ (-y,y) \, |\, y \in \R\}$}
+
+\item \underline{Si $\lambda \notin \Sigma$} alors 
+Le système est de Cramer, comme il est homogéne $(0,0)$ est solution. 
+\conclusion{ $S = \{ (0,0) \}$}
+\end{enumerate}
+
+\end{correction}
+
+\vspace{1cm}
+\begin{exercice}
+On s'intéresse dans cet exercice aux suites $\suite{u}$, $\suite{v}$ qui vérifient les relations suivantes \footnote{Bien que les coéfficients soient les mêmes que dans l'exercice précédent les deux exercices sont indépendants. } : 
+$$(R)\, :\, \left\{\begin{array}{rl}
+u_{n+1} &=8u_n +5v_n\\
+v_{n+1}&= -10u_n-7v_n
+\end{array}\right. \quadet u_0=1, v_0=1.$$
+
+On propose deux solutions distinctes. 
+
+\paragraph{Méthode 1}
+\begin{enumerate}
+
+\item On considère $X_n = 2u_n+v_n$ et $Y_n=u_n+v_n$.
+Montrer que $\suite{X}$ et $\suite{Y}$ sont géométriques. 
+\item En déduire la valeur de $X_n$ et $Y_n$ en fonction de $n$. 
+
+\item Résoudre le système d'inconnue $(U,V)\in \R^2$ et de paramètres $(X,Y)\in \R^2$ 
+$$(P)\,:\, \left\{\begin{array}{rl}
+2U +V&=X\\
+U+V&=Y
+\end{array}\right.$$
+
+\item En déduire l'expression de $u_n$ et $v_n$ en fonction de $X_n$ et $Y_n$. 
+\item Conclure en donnant l'expression de $X_n$ en fonction de $n$.
+\end{enumerate}
+\paragraph{Méthode 2 }
+\begin{enumerate}
+\item A l'aide\footnote{Au cours des calculs il est judicieux de garder des formules factorisées $(5\times 7= 7\times 5)$... } de la relation $(R)$, montrer que pour tout $n\in \N$ 
+$$u_{n+2}=u_{n+1}+6u_n$$
+\item En déduire l'expression de $\suite{u}$ en fonction de $n\in \N$. 
+\end{enumerate}
+\end{exercice}
+
+\begin{correction}
+Méthode 1
+\begin{enumerate}
+\item \begin{align*}
+X_{n+1}&= 2u_{n+1} +v_{n+1}\\
+			&= 2(8u_n+5v_n) -10u_n-7v_n\\
+			&= 6u_n+3v_n\\
+			&= 3(2u_n+v_n)\\
+			&= 3X_n
+\end{align*}
+
+\conclusion{Donc $\suite{X}$ est géométrique de raison $3$}
+
+\begin{align*}
+Y_{n+1}&= u_{n+1} +v_{n+1}\\
+			&= 8u_n+5v_n -10u_n-7v_n\\
+			&= -2u_n-2v_n\\
+			&= -2(u_n+v_n)\\
+			&= -2Y_n
+\end{align*}
+
+\conclusion{Donc $\suite{Y}$ est géométrique de raison $-2$}
+
+\item $X_0=2u_0+v_0=3$ et $Y_0=u_0+v_0=2$
+Comme $\suite{X}$ et $\suite{Y}$ sont géométriques on  a 
+\conclusion{ $\forall n \in \N, \, X_n = 3\times 3^n \quadet Y_n=2(-2)^n$}
+
+\item 
+$$(P)\,:\, \left\{\begin{array}{rl}
+2U +V&=X\\
+U+V&=Y
+\end{array}\right.\overset{L_2\leftarrow2L_2-L_1}{\equivaut } \left\{\begin{array}{rcrl}
+2U &+&V&=X\\
+&&V&=2Y-X
+\end{array}\right.$$
+
+$$(P) \equivaut \left\{\begin{array}{rcrl}
+2U &+&2Y-X&=X\\
+&&V&=2Y-X
+\end{array}\right.\equivaut \left\{ \begin{array}{rl}
+U&=-Y+X\\
+V&=2Y-X
+\end{array}\right.$$
+
+Les solutions de $(P)$ sont : 
+\conclusion{ $\cS=\{ (-Y+X, 2Y-X)\}$}
+\item 
+La question précédente montre que 
+\conclusion{$u_n=-Y_n+X_n \quadet v_n=2Y_n-X_n$}
+
+\item On obtient alors en remplacant les valeurs de $\suite{X}$ et $\suite{Y}$:
+\conclusion{$u_n = -2(-2)^n+3\times 3^n= (-2)^{n+1} +3^{n+1}$}
+
+\end{enumerate}
+Methode 2
+\begin{enumerate}
+\item D'aprés la premiere condition de la relation $(R)$ on a  
+$$u_{n+2} =8u_{n+1} +5v_{n+1}$$
+Or $v_{n+1} = (-10u_n-7v_n)$ donc 
+\begin{align*}
+u_{n+2} &=8u_{n+1} +5 (-10u_n-7v_n)\\
+			&=8u_{n+1}-50u_n -7\times 5 v_n
+\end{align*}
+Or $5v_n= u_{n+1}-8u_n$ donc 
+\begin{align*}
+u_{n+2} &=8u_{n+1}-50u_n -7\times  (u_{n+1}-8u_n )\\
+			&=u_{n+1}+6u_n
+\end{align*}
+
+\item La suite $\suite{u}$ est donc une suite récurrente linéaire d'ordre 2 à coefficients constants. Son équation caractéristique est $X^2=X+6$
+On cherche donc les racines de $X^2-X-6$.  Le discriminant vaut $\Delta = 1+24=25>0$. Il y a donc deux racines réelles : 
+$$x_1 =-2\quadet x_2=3$$
+
+La suite $\suite{u}$ s'écrit alors 
+$$u_n = A(-2)^n+B3^n$$
+où $A,B$ sont deux réels à déterminer. 
+
+Comme $u_0= 1= A+B$ et $u_1=8+5=13=-2A+3B$ on tombe sur 
+$$A=(-2) \quadet B=3$$
+
+On obtient de nouveau : 
+\conclusion{$u_n =  (-2)^{n+1} +3^{n+1}$}
+\end{enumerate}
+
+
+
+\end{correction}
+
+\begin{exercice}
+Pour chaque script, dire ce qu'affiche la console : 
+
+
+\begin{minipage}{0.45\textwidth}   %left column
+\begin{enumerate}
+\item  \texttt{Script1.py}
+
+\begin{lstlisting}[language=Python]
+a=0
+n=10
+for i in range(n):
+  a=a+i^3
+print(a/25)
+\end{lstlisting}
+
+\vspace{1cm}
+
+
+\item \texttt{Script2.py}
+\begin{lstlisting}[language=Python]
+a=0
+x=3.1415926
+while a<x:
+  a=a+1
+print(a)
+\end{lstlisting}
+
+
+
+\vspace{1cm}
+
+
+\end{enumerate}
+\end{minipage}
+\hfill\vline\hfill
+\begin{minipage}{0.44\textwidth} %right column
+
+\begin{enumerate} \setcounter{enumi}{2}
+\vspace{0.4cm}
+\item \texttt{Script3.py} On rappelle que \texttt{floor} calcule la partie entière d'un nombre
+\begin{lstlisting}[language=Python]
+from math import floor
+x=12
+a=0
+b=100
+c=50
+for i in range(4):
+  if c>x:
+    b=c
+    c=floor((a+b)/2)
+  else:
+    a=c
+    c=floor((a+b)/2)
+  print(a,b,c)
+\end{lstlisting}
+\vspace{0.4cm}
+\item \texttt{Script4.py}
+\begin{lstlisting}[language=Python]
+a=78
+for i in range(1,79):
+  if a%i==0:
+    print(i)
+\end{lstlisting}
+
+
+\end{enumerate}
+
+
+
+\end{minipage}
+\begin{enumerate}
+ \setcounter{enumi}{4}
+ \item Ecrire un script Python qui permet d'afficher les termes de $0$ à $100$ de la suite $\suite{u}$, définie par 
+$$u_0= 1 \quadet \forall n \in\N,\, u_{n+1} =u_n^2-u_n+1.$$
+ 
+ 
+ \item Ecrire un script Python qui permet d'afficher le  terme $u_{100}$ de la suite $\suite{u}$, définie par 
+$$u_0= 1, u_1=1 \quadet \forall n \in\N,\, u_{n+2} =u_{n+1}-u_n^2.$$ 
+On pourra ici considérer deux variables \texttt{u}, \texttt{v} qui correspondent respectivement à $u_n$ et $u_{n+1}$
+\end{enumerate}
+
+
+\end{exercice}
+
+
+
+\end{document}

@@ -1,0 +1,191 @@
+\documentclass[a4paper, 11pt,reqno]{article}
+\input{/Users/olivierglorieux/Desktop/BCPST/2020:2021/preambule.tex}
+\newif\ifshow
+\showtrue
+\input{/Users/olivierglorieux/Desktop/BCPST/2021:2022/ifshow.tex}
+
+
+\author{Olivier Glorieux}
+
+
+\begin{document}
+
+\title{Correction DM3 }
+\begin{exercice}
+Donner l'ensemble de définition de 
+$$f(x) = \sqrt{e^x-2}$$
+
+Résoudre $$f(x)\geq e^{x}-4$$
+\end{exercice}
+
+\begin{correction}
+$f$ est bien définie pour tout $x$ tel que $e^x-2\geq 0$ c'est à dire pour $e^x\geq2$ soit $x\geq \ln(2)$
+
+\conclusion{ $D_f =[\ln(2),+\infty[$}
+
+On fait le changement de variable $e^x=X$, l'équaiton $f(x) \geq e^x-4$ équivaut alors à 
+$$\sqrt{X-2} \geq X-4 \quad (E')$$
+$(E')$ est bien définie sur $[2,+\infty[$
+
+On étudie alors le signe de $X-4$
+
+\begin{itemize}
+\item Si $X-4\geq 0$, ie $X\in [4,+\infty[$. 
+
+\begin{align*}
+E' \equivaut X-2 \geq X^2 - 8X +16\\
+	\equivaut X^2 -9X +18\leq 0
+\end{align*}
+Le discriminant de $X^2 -9X +18$ vaut $\Delta =9^2 - 4*18 = 81- 72 =9=3^2$
+On a donc deux racines réelles : 
+$$X_1= \frac{9 +3}{2} = 6 \quadet X_2 = \frac{9-3}{2}= 3$$
+
+Donc $(E') \equivaut  (X-6)(X-3)\leq 0$ d'où les solutions sur $ [4,+\infty[$ : 
+$$\cS_1= [4,6]$$
+
+
+\item Si $X-4<0$, ie $X\in ]-\infty,4[$. 
+
+Alors comme $\sqrt{X-2} \geq 0$  et $X-4<0$, tous les réels de l'ensemble de définition sont solutions 
+$$\cS_2 = [2,4]$$
+
+
+Ainsi les solutions de $(E')$ sont 
+$$\bS' = [2,6]$$
+
+
+
+\end{itemize}
+
+On repasse à la variable $x$ on a $e^x =X$ donc $x =\ln(X)$
+
+\conclusion{Les solutions de l'équation $f(x) \geq e^{x}-4$ sont 
+$\cS = [\ln(2), \ln(6)]$}
+
+\end{correction}
+
+
+\begin{exercice}
+Ecrire $(1+i)$ sous forme trigonométrique.
+En déduire la partie réelle et la partie imaginaire de 
+$$\frac{1}{(1+i)^n}$$
+ en fonction de $n$.
+\end{exercice}
+\begin{correction}
+Soit $z=1+i$ On a $|z|=\sqrt{2}$ et donc 
+$$z=\sqrt{2}(\frac{1}{\sqrt{2}} +i \frac{1}{\sqrt{2}})$$
+En résolvant $\cos(\theta)= \frac{1}{\sqrt{2}} $ et $\sin(\theta)=\frac{1}{\sqrt{2}}$ on obtient $\theta \equiv \frac{\pi}{4}[2\pi]$
+et  donc 
+$$z= \sqrt{2} e^{i\pi/4}$$
+Donc $z^n= (\sqrt{2}^n)e^{in\pi/4}$
+
+Et finalement 
+$$\frac{1}{(1+i)^n}= \frac{1}{\sqrt{2}^n} e^{-in\pi/4}$$
+D'où
+\conclusion{$Re(\frac{1}{(1+i)^n}) = \frac{1}{\sqrt{2}^n} \cos(n\frac{\pi}{4})$ et $Im(\frac{1}{(1+i)^n}) = -\frac{1}{\sqrt{2}^n} \sin(n\frac{\pi}{4})$}
+
+
+\end{correction}
+
+\begin{exercice}
+Résoudre dans $\bC$ l'équation d'inconnue $z$ et de paramétre $a\in \R$  
+$$z^2+z+a=0$$
+
+\end{exercice}
+
+\begin{correction}
+On calcule le discriminant de $z^2+z+a$. On obtient 
+$\Delta =1-4a$
+Ainsi on distingue trois cas 
+\begin{itemize}
+\item \underline{Cas 1} $\Delta >0 $ c'est à dire $a< \frac{1}{4}$\\
+Alors il y a deux solutions réelles : 
+$$r_1 = \frac{-1 +\sqrt{1-4a}}{2} \quadet r_2 = \frac{-1 -\sqrt{1-4a}}{2}  $$
+
+
+\item \underline{Cas 2} $\Delta =0 $ c'est à dire $a=\frac{1}{4}$\\
+Alors il y a une solution réelle : 
+$$r = \frac{-1}{2}  $$
+
+
+\item \underline{Cas 3} $\Delta <0 $ c'est à dire $a> \frac{1}{4}$\\
+Alors il y a deux solutions complexes : 
+$$r_1 = \frac{-1 +i\sqrt{4a-1}}{2} \quadet r_2 = \frac{-1 -i\sqrt{4a-1}}{2}  $$
+
+
+
+\end{itemize}
+
+\end{correction}
+
+
+
+
+
+\begin{exercice}
+Soit $\bU$ l'ensemble des complexes de module $1$. 
+\begin{enumerate}
+\item Calculer 
+$$\inf \left\{ \left| \frac{1}{z}+z\right| , z \in \bU\right\}$$
+
+\item Pour tout $z\in \bC^*$ on note  $\alpha(z)= \frac{1}{{z}}+\bar{z}$. 
+\begin{enumerate}
+\item Calculer le module de $\alpha(z)$ en fonction de celui de $z$. 
+\item Montrer que pour tout $x>0$ on a : $\ddp \frac{1}{x}+x\geq 2$.
+\item En déduire 
+$$\inf\{ \left| \alpha(z)\right| , z \in \bC^*\}$$
+\end{enumerate}
+\end{enumerate}
+
+\end{exercice}
+
+
+
+
+
+
+
+
+
+\begin{correction}
+\begin{enumerate}
+\item Comme $z\in \bU$, il existe $\theta\in [0,2\pi[$ tel que $z=e^{i\theta}$. 
+Donc 
+\begin{align*}
+\left| \frac{1}{z}+z\right| &= \left|e^{-i\theta} +e^{i\theta}\right|\\
+									&=  \left|2\cos(\frac{\theta}{2}\right|
+\end{align*}
+
+Pour $\theta =\pi $ on a $ \left|2\cos(\frac{\theta}{2}\right| =0$ donc 
+$$\inf \left\{ \left| \frac{1}{z}+z\right| , z \in \bU\right\}=0$$
+
+\item 
+\begin{enumerate}
+\item \begin{align*}
+ \left| \alpha(z)\right|  &= \left|  \frac{1}{\bar{z}}+z\right|  \\
+ 								&=  \left|  \frac{1+z\bar{z}}{\bar{z}}\right|  \\	 												&=  \left|  \frac{1+|z|^2}{\bar{z}}\right|  \\
+								&=   \frac{|1+|z|^2|}{|\bar{z}|}\\ 								
+								&=   \frac{1+|z|^2}{|z|}\\ 								 												&=   \frac{1}{|z|}+|z| 								 							
+\end{align*}
+\item Pour tout $x>0$ on a 
+\begin{align*}
+x+\frac{1}{x}-2 &=\frac{x^2-2x+1}{x}\\
+						&=\frac{(x-1)^2}{x}\geq 0\\
+\end{align*}
+Donc pour tout $x>0$, $x+\frac{1}{x}-2 \geq 0$. 
+\item 
+On a $ \left| \alpha(1)\right|  = \frac{1}{|1|}+|1|=2$ et on a vu que 
+pour tout $z\in \bC^*$,   $\left| \alpha(z)\right| \geq 2$ donc 
+$$\inf\{ \left| \alpha(z)\right| , z \in \bC^*\}=2$$
+\end{enumerate}
+\end{enumerate}
+
+
+\end{correction}
+
+
+
+
+
+
+\end{document}
