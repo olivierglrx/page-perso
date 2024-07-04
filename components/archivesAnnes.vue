@@ -13,7 +13,7 @@
             class="w-80 md:h-28"
             :name="item.name"
             :keywords="item.keywords"
-            :date="date"
+            :date="link"
           ></DsCard>
         </li>
       </ul>
@@ -25,5 +25,6 @@
 defineProps({
   data: Object,
   date: String,
+  link: String,
 });
 </script>

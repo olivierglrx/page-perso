@@ -8,9 +8,21 @@
     @change="onChange()"
   />
 
-  <ArchivesAnnes :data="dref2020" :date="'archives/2020'"></ArchivesAnnes>
-  <ArchivesAnnes :data="dref2021" :date="'2021'"></ArchivesAnnes>
-  <ArchivesAnnes :data="dref2023" :date="'2023'"></ArchivesAnnes>
+  <ArchivesAnnes
+    :data="dref2020"
+    :link="'archives/2020'"
+    :date="'2020'"
+  ></ArchivesAnnes>
+  <ArchivesAnnes
+    :data="dref2021"
+    :link="'archives/2021'"
+    :date="'2021'"
+  ></ArchivesAnnes>
+  <ArchivesAnnes
+    :data="dref2023"
+    :link="'archives/2023'"
+    :date="'2023'"
+  ></ArchivesAnnes>
 </template>
 
 <script setup>
