@@ -5,7 +5,7 @@
     v-model="selected"
     :options="k"
     option-attribute="label"
-    @change="onChange(this.name)"
+    @change="onChange()"
   />
 
   <ArchivesAnnes :data="dref2020" :date="'2020'"></ArchivesAnnes>
