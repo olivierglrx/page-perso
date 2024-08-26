@@ -21,9 +21,9 @@
       <h2
         class="mt-2 mb-4 text-1xl text-center font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-2xl dark:text-white"
       >
-        DS
+        Interro
       </h2>
-      <li v-for="item in DS" class="">
+      <li v-for="item in Interro" class="">
         <div
           class="dark:bg-gray-700 m-3 shadow p-3 gap-2 items-center hover:shadow-lg transition delay-150 duration-300 ease-in-out hover:scale-105 transform"
         >
@@ -83,9 +83,9 @@
       <h2
         class="mt-2 mb-4 text-1xl text-center font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-2xl dark:text-white"
       >
-        Interro
+        DS
       </h2>
-      <li v-for="item in Interro" class="">
+      <li v-for="item in DS" class="">
         <div
           class="dark:bg-gray-700 m-3 shadow p-3 gap-2 items-center hover:shadow-lg transition delay-150 duration-300 ease-in-out hover:scale-105 transform"
         >
@@ -145,36 +145,36 @@
 
 <script setup>
 const DS = [
-  {
-    name: "DS2",
-    to: "DS2.pdf",
-    toNotes: "notesDs2.pdf",
-    showCorrection: "correction.pdf",
-    date: "",
-    keywords: ["sommes"],
-  },
-  {
-    name: "DS1",
-    to: "DS1.pdf",
-    toNotes: "",
-    showCorrection: "",
-    keywords: ["equations", "fonctions"],
-  },
+  // {
+  //   name: "DS2",
+  //   to: "DS2.pdf",
+  //   toNotes: "notesDs2.pdf",
+  //   showCorrection: "correction.pdf",
+  //   date: "",
+  //   keywords: ["sommes"],
+  // },
+  // {
+  //   name: "DS1",
+  //   to: "DS1.pdf",
+  //   toNotes: "",
+  //   showCorrection: "",
+  //   keywords: ["equations", "fonctions"],
+  // },
 ];
 
 const Interro = [
+  // {
+  //   name: "Interro2",
+  //   to: "devoirs/DS2.pdf",
+  //   toNotes: "",
+  //   showCorrection: true,
+  //   keywords: [""],
+  // },
   {
-    name: "Interro2",
-    to: "devoirs/DS2.pdf",
+    name: "Test Rentrée",
+    to: "devoirs/rentree.pdf",
     toNotes: "",
-    showCorrection: true,
-    keywords: [""],
-  },
-  {
-    name: "Interro1",
-    to: "devoirs/DS1.pdf",
-    toNotes: "",
-    showCorrection: true,
+    showCorrection: false,
     keywords: [""],
   },
 ];
