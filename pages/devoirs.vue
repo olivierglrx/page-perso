@@ -163,13 +163,13 @@ const DS = [
 ];
 
 const Interro = [
-  // {
-  //   name: "Interro2",
-  //   to: "devoirs/DS2.pdf",
-  //   toNotes: "",
-  //   showCorrection: true,
-  //   keywords: [""],
-  // },
+  {
+    name: "Interro1",
+    to: "devoirs/Interro1.pdf",
+    toNotes: "",
+    showCorrection: false,
+    keywords: ["equations"],
+  },
   {
     name: "Test Rentrée",
     to: "devoirs/rentree.pdf",
