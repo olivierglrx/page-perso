@@ -136,6 +136,14 @@
               >Publications</NuxtLink
             >
           </li>
+          <li>
+            <NuxtLink
+              href="http://olivierglorieux.fr/mathematiques/"
+              @click="isOpen = false"
+              class="my-4 inline-block"
+              >Ancienne version
+            </NuxtLink>
+          </li>
         </ul>
       </aside>
     </div>
