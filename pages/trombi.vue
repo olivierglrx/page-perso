@@ -41,7 +41,7 @@ h1 {
 }
 ul {
   margin: auto;
-  width: 50%;
+  width: 80%;
   list-style: square;
 }
 li {
