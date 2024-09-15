@@ -1,4 +1,14 @@
 <template>
+  <Titleheader title="Doc" />
+  <ul class="flex flex-wrap">
+    <li v-for="item in doc" class="">
+      <Icon name="mdi:file-document" color="black dark:white" /><nuxt-link
+        :to="item.link"
+        class="text-blue-600 font-semibold"
+        >{{ item.name }}
+      </nuxt-link>
+    </li>
+  </ul>
   <Titleheader title="Archives" />
   <USelect
     class="w-48"
@@ -286,4 +296,9 @@ function onChange() {
     dref2023.value = D2023;
   }
 }
+
+var doc = [
+  { name: "Alphabet-grec", link: "archives/doc/Alphabet-grec.pdf" },
+  { name: "Alphabet-grec", link: "archives/doc/Alphabet-grec.pdf" },
+];
 </script>

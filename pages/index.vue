@@ -108,7 +108,7 @@ const allItems = [
   },
   {
     name: "Chapitre 0 - Résolution d'équations",
-    toCours: "CH0/CH0-cours.pdf",
+    toCours: "CH0/BCPST-3.pdf",
     toTD: "CH0/CH0-TD.pdf",
     toCorrection: "CH0/CH0-correctionTD.pdf",
     showCorrection: true,
