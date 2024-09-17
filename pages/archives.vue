@@ -1,6 +1,6 @@
 <template>
   <Titleheader title="Doc" />
-  J'essaye de réparer le bug mais il faut recahrger la page '404 not found' afin
+  J'essaye de réparer le bug mais il faut recharger la page '404 not found' afin
   de voir le document... Mystérieux.
   <ul class="flex flex-wrap">
     <li v-for="item in doc" class="">
