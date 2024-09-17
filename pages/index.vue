@@ -104,7 +104,7 @@ const allItems = [
     toCorrection: "",
     showCorrection: false,
     avatar: { src: "CH1/CH1-meme.jpg" },
-    published: false,
+    published: true,
   },
   {
     name: "Chapitre 0 - Résolution d'équations",
