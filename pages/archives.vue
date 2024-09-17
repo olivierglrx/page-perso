@@ -298,11 +298,11 @@ function onChange() {
 }
 
 var doc = [
-  { name: "Alphabet-grec", link: "archives/autre/Alphabet-grec.pdf" },
-  { name: "Exp/Ln", link: "archives/autre/Exp-ln.pdf" },
-  { name: "Fractions", link: "archives/autre/Fractions.pdf" },
-  { name: "Logique", link: "archives/autre/Logique.pdf" },
-  { name: "Polynômes", link: "archives/autre/Polynome.pdf" },
-  { name: "Valeur Absolue", link: "archives/autre/Valeur-absolue.pdf" },
+  { name: "Alphabet-grec", link: "autre/Alphabet-grec.pdf" },
+  { name: "Exp/Ln", link: "autre/Exp-ln.pdf" },
+  { name: "Fractions", link: "autre/Fractions.pdf" },
+  { name: "Logique", link: "autre/Logique.pdf" },
+  { name: "Polynômes", link: "autre/Polynome.pdf" },
+  { name: "Valeur Absolue", link: "autre/Valeur-absolue.pdf" },
 ];
 </script>
