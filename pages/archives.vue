@@ -298,7 +298,7 @@ function onChange() {
 }
 
 var doc = [
-  { name: "Alphabet-grec", link: "archives/doc/Alphabet-grec.pdf" },
+  { name: "Alphabet-grec", link: "autre/doc/Alphabet-grec.pdf" },
   { name: "Exp/Ln", link: "archives/doc/Exp-ln.pdf" },
   { name: "Fractions", link: "archives/doc/Fractions.pdf" },
   { name: "Logique", link: "archives/doc/Logique.pdf" },

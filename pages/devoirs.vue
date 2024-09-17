@@ -164,6 +164,13 @@ const DS = [
 
 const Interro = [
   {
+    name: "Interro2",
+    to: "devoirs/Interro2.pdf",
+    toNotes: "",
+    showCorrection: false,
+    keywords: ["equations, quantificateurs"],
+  },
+  {
     name: "Interro1",
     to: "devoirs/Interro1.pdf",
     toNotes: "",
