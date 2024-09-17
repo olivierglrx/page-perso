@@ -4,7 +4,7 @@
     <ul class="">
       <li v-for="item in programmes" class="">
         <div
-          v-if="item.published"
+          v-if="item.published < time"
           class="dark:bg-gray-700 m-3 shadow p-3 gap-2 items-center hover:shadow-lg transition delay-150 duration-300 ease-in-out hover:scale-105 transform"
         >
           <Icon name="mdi:file-document" color="black dark:white" /><nuxt-link
@@ -26,20 +26,22 @@
   </div>
 </template>
 <script setup>
+const time = new Date();
+
 const programmes = [
   {
     name: "Semaine 7 ",
     to: "../Colles/Semaine5.pdf",
     date: "28/10",
     keywords: ["logique", "quantificateurs", "equations", "calculs"],
-    published: false,
+    published: new Date("2024-10-20"),
   },
   {
     name: "Semaine 6 ",
     to: "../Colles/Semaine5.pdf",
     date: "21/10",
     keywords: ["logique", "quantificateurs", "equations", "calculs"],
-    published: false,
+    published: new Date("2024-11-20"),
   },
 
   {
@@ -47,7 +49,7 @@ const programmes = [
     to: "../Colles/Semaine5.pdf",
     date: "14/10",
     keywords: ["logique", "quantificateurs", "equations", "calculs"],
-    published: false,
+    published: new Date("2024-10-20"),
   },
 
   {
@@ -55,28 +57,29 @@ const programmes = [
     to: "../Colles/Semaine4.pdf",
     date: "07/10",
     keywords: ["logique", "quantificateurs", "equations", "calculs"],
-    published: false,
+    published: new Date("2024-10-20"),
   },
   {
     name: "Semaine 3 ",
     to: "../Colles/Semaine3.pdf",
     date: "30/09",
     keywords: ["logique", "quantificateurs", "equations", "calculs"],
-    published: false,
+    published: new Date("2024-09-26"),
   },
+
   {
     name: "Semaine 2 ",
     to: "../Colles/Semaine2.pdf",
     date: "23/09",
     keywords: ["logique", "quantificateurs", "equations", "calculs"],
-    published: false,
+    published: new Date("2024-09-19"),
   },
   {
     name: "Semaine 1 ",
     to: "../Colles/Semaine1.pdf",
     date: "16/09",
     keywords: ["logique", "quantificateurs", "equations", "calculs"],
-    published: true,
+    published: new Date("2024-09-16"),
   },
 ];
 </script>

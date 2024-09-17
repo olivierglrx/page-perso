@@ -101,7 +101,7 @@ const allItems = [
     name: "Chapitre 1 - Etude de fonctions",
     toCours: "CH1/CH1-cours.pdf",
     toTD: "CH1/CH1-TD.pdf",
-    toCorrection: "",
+    toCorrection: "CH1/CH1-TD-cor.pdf",
     showCorrection: false,
     avatar: { src: "CH1/CH1-meme.jpg" },
     published: true,
