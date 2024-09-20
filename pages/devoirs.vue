@@ -153,13 +153,13 @@ const DS = [
   //   date: "",
   //   keywords: ["sommes"],
   // },
-  // {
-  //   name: "DS1",
-  //   to: "DS1.pdf",
-  //   toNotes: "",
-  //   showCorrection: "",
-  //   keywords: ["equations", "fonctions"],
-  // },
+  {
+    name: "DS1",
+    to: "DS1.pdf",
+    toNotes: "",
+    showCorrection: "DS1-cor.pdf",
+    keywords: ["equations", "fonctions", "quantificateurs"],
+  },
 ];
 
 const Interro = [
