@@ -155,9 +155,9 @@ const DS = [
   // },
   {
     name: "DS1",
-    to: "DS1.pdf",
+    to: "devoirs/DS1.pdf",
     toNotes: "",
-    showCorrection: "DS1-cor.pdf",
+    showCorrection: "devoirs/DS1-cor.pdf",
     keywords: ["equations", "fonctions", "quantificateurs"],
   },
 ];
