@@ -166,7 +166,7 @@ const Interro = [
   {
     name: "Interro3",
     to: "devoirs/Interro3.pdf",
-    toNotes: "NOTES 1BIOA - interro.pdf",
+    toNotes: "devoirs/NOTES 1BIOA - interro.pdf",
     showCorrection: false,
     keywords: ["composition", "fonctions"],
   },
