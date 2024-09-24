@@ -6,6 +6,7 @@
     <li v-for="item in doc" class="">
       <Icon name="mdi:file-document" color="black dark:white" /><nuxt-link
         :to="item.link"
+        external
         class="text-blue-600 font-semibold"
         >{{ item.name }}
       </nuxt-link>
