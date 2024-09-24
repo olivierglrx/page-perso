@@ -305,5 +305,6 @@ var doc = [
   { name: "Logique", link: "autre/Logique.pdf" },
   { name: "Polynômes", link: "autre/Polynome.pdf" },
   { name: "Valeur Absolue", link: "autre/Valeur-absolue.pdf" },
+  { name: "Trigonométrie", link: "autre/trigonométrie.pdf" },
 ];
 </script>
