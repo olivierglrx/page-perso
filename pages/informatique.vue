@@ -18,6 +18,7 @@
             <span v-for="key in item.keywords.slice(0, -1)">
               {{ key + ", " }}</span
             >
+            <span> {{ item.keywords.slice(-1)[0] }}.</span>
           </div>
         </div>
       </li>

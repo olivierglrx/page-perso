@@ -1,7 +1,5 @@
 <template>
   <Titleheader title="Doc" />
-  J'essaye de réparer le bug mais il faut recharger la page '404 not found' afin
-  de voir le document... Mystérieux.
   <ul class="flex flex-wrap">
     <li v-for="item in doc" class="">
       <Icon name="mdi:file-document" color="black dark:white" /><nuxt-link
