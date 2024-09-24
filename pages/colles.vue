@@ -63,7 +63,7 @@ const programmes = [
     name: "Semaine 3 ",
     to: "../Colles/Semaine3.pdf",
     date: "30/09",
-    keywords: ["logique", "quantificateurs", "equations", "calculs"],
+    keywords: ["equations", "trigonometrie", "fonctions"],
     published: new Date("2024-09-26"),
   },
 

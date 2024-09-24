@@ -95,7 +95,7 @@ const allItems = [
     toCorrection: "CH2/CH2-correctionTD.pdf",
     showCorrection: false,
     avatar: { src: "CH2/CH2-meme.png" },
-    published: false,
+    published: true,
   },
   {
     name: "Chapitre 1 - Etude de fonctions",
