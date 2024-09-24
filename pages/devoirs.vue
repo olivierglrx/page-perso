@@ -156,7 +156,7 @@ const DS = [
   {
     name: "DS1",
     to: "devoirs/DS1.pdf",
-    toNotes: "",
+    toNotes: "devoirs/NOTES 1BIOA - DS1.pdf",
     showCorrection: "devoirs/DS1-cor.pdf",
     keywords: ["equations", "fonctions", "quantificateurs"],
   },
@@ -164,11 +164,18 @@ const DS = [
 
 const Interro = [
   {
+    name: "Interro3",
+    to: "devoirs/Interro3.pdf",
+    toNotes: "",
+    showCorrection: false,
+    keywords: ["composition", "fonctions"],
+  },
+  {
     name: "Interro2",
     to: "devoirs/Interro2.pdf",
     toNotes: "",
     showCorrection: false,
-    keywords: ["equations, quantificateurs"],
+    keywords: ["equations", "quantificateurs"],
   },
   {
     name: "Interro1",
