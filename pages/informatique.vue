@@ -46,7 +46,7 @@ const poly = [
 
   {
     name: "Semaine 5 ",
-    to: "../Colles/Semaine5.pdf",
+    to: "../Informatique/Semaine5.pdf",
     date: "14/10",
     keywords: ["logique", "quantificateurs", "equations", "calculs"],
     published: new Date("2025-10-20"),
@@ -54,25 +54,24 @@ const poly = [
 
   {
     name: "Semaine 4 ",
-    to: "../Colles/Semaine4.pdf",
+    to: "../Informatique/Semaine4.pdf",
     date: "07/10",
     keywords: ["logique", "quantificateurs", "equations", "calculs"],
     published: new Date("2025-10-20"),
   },
   {
     name: "Semaine 3 ",
-    to: "../Colles/Semaine3.pdf",
+    to: "../Informatique/Semaine3.pdf",
     date: "30/09",
     keywords: ["equations", "trigonometrie", "fonctions"],
     published: new Date("2025-09-26"),
   },
 
   {
-    name: "Semaine 2 ",
-    to: "../Colles/Semaine2.pdf",
-    date: "23/09",
-    keywords: ["logique", "quantificateurs", "equations", "calculs"],
-    published: new Date("2025-09-19"),
+    name: "TP1",
+    to: "../Informatique/TP 1 Variables, fonctions et instructions conditionnelles.pdf",
+    keywords: ["Variables", "fonctions", "instructions conditionnelles"],
+    published: new Date("2024-09-19"),
   },
   {
     name: "Mise en route ",
