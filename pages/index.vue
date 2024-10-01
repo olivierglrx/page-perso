@@ -86,7 +86,7 @@ const allItems = [
     toCorrection: "CH3/CH3-correctionTD.pdf",
     showCorrection: false,
     avatar: { src: "CH3/CH3-meme.jpg" },
-    published: false,
+    published: true,
   },
   {
     name: "Chapitre 2 - Trigonométrie",
