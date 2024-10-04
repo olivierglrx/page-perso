@@ -54,7 +54,7 @@ const programmes = [
 
   {
     name: "Semaine 4 ",
-    to: "../Colles/Semaine4.pdf",
+    to: "../Colles/semaine4.pdf",
     date: "07/10",
     keywords: ["trigonometrie", "Sommes"],
     published: new Date("2024-10-03"),
