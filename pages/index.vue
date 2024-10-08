@@ -84,7 +84,7 @@ const allItems = [
     toCours: "CH3/CH3-cours.pdf",
     toTD: "CH3/CH3-TD.pdf",
     toCorrection: "CH3/CH3-correctionTD.pdf",
-    showCorrection: false,
+    showCorrection: trueco,
     avatar: { src: "CH3/meme3.jpg" },
     published: true,
   },
