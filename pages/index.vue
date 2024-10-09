@@ -76,8 +76,8 @@ const allItems = [
     toTD: "CH4/CH4-TD.pdf",
     toCorrection: "CH4/CH4-correctionTD.pdf",
     showCorrection: false,
-    avatar: { src: "CH4/CH4-meme.jpg" },
-    published: false,
+    avatar: { src: "CH4/meme-complexe.jpg" },
+    published: true,
   },
   {
     name: "Chapitre 3 - Sommes et produits",
