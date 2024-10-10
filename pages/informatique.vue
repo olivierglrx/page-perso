@@ -60,11 +60,11 @@ const poly = [
     published: new Date("2025-10-20"),
   },
   {
-    name: "Semaine 3 ",
-    to: "../Informatique/Semaine3.pdf",
-    date: "30/09",
-    keywords: ["equations", "trigonometrie", "fonctions"],
-    published: new Date("2025-09-26"),
+    name: "TP 2 ",
+    to: "../Informatique/TP 2 Boucles for et while.pdf",
+
+    keywords: ["Boucle", "for", "while"],
+    published: new Date("2024-09-26"),
   },
 
   {
