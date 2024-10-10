@@ -164,6 +164,13 @@ const DS = [
 
 const Interro = [
   {
+    name: "Interro5",
+    to: "devoirs/Interro5.pdf",
+    toNotes: "",
+    showCorrection: false,
+    keywords: ["Sommes", "fonctions"],
+  },
+  {
     name: "Interro4",
     to: "devoirs/Interro4.pdf",
     toNotes: "",
