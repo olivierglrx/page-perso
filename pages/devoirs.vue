@@ -149,7 +149,7 @@ const DS = [
     name: "DS2",
     to: "devoirs/DS2.pdf",
     toNotes: "",
-    showCorrection: "devoirs/DS2-cor.pdf",
+    showCorrection: "devoirs/DS2-cor2.pdf",
     date: "",
     keywords: ["trigonométrie", "sommes", "récurrences"],
   },
