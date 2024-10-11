@@ -145,14 +145,14 @@
 
 <script setup>
 const DS = [
-  // {
-  //   name: "DS2",
-  //   to: "DS2.pdf",
-  //   toNotes: "notesDs2.pdf",
-  //   showCorrection: "correction.pdf",
-  //   date: "",
-  //   keywords: ["sommes"],
-  // },
+  {
+    name: "DS2",
+    to: "devoirs/DS2.pdf",
+    toNotes: "",
+    showCorrection: "devoirs/DS2-cor.pdf",
+    date: "",
+    keywords: ["trigonométrie", "sommes", "récurrences"],
+  },
   {
     name: "DS1",
     to: "devoirs/DS1.pdf",
