@@ -90,7 +90,7 @@ const allItems = [
   },
   {
     name: "Chapitre 2 - Trigonométrie",
-    toCours: "CH2/CH2-cours.pdf",
+    toCours: "CH2/CH2 - cours.pdf",
     toTD: "CH2/CH2-TD.pdf",
     toCorrection: "CH2/CH2-correctionTD.pdf",
     showCorrection: true,
