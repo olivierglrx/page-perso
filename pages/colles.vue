@@ -34,7 +34,7 @@ const programmes = [
     to: "../Colles/Semaine5.pdf",
     date: "28/10",
     keywords: ["logique", "quantificateurs", "equations", "calculs"],
-    published: new Date("2024-10-20"),
+    published: new Date("2025-10-20"),
   },
   {
     name: "Semaine 6 ",
