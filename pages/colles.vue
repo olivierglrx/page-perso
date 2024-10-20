@@ -38,10 +38,10 @@ const programmes = [
   },
   {
     name: "Semaine 6 ",
-    to: "../Colles/Semaine5.pdf",
-    date: "21/10",
+    to: "../Colles/Semaine6.pdf",
+    date: "07/11",
     keywords: ["logique", "quantificateurs", "equations", "calculs"],
-    published: new Date("2024-11-20"),
+    published: new Date("2024-10-20"),
   },
 
   {
