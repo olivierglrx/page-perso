@@ -148,7 +148,7 @@ const DS = [
   {
     name: "DS2",
     to: "devoirs/DS2.pdf",
-    toNotes: "",
+    toNotes: "devoirs/NOTES 1BIOA - DS2.pdf",
     showCorrection: "devoirs/DS2-cor.pdf",
     date: "",
     keywords: ["trigonométrie", "sommes", "récurrences"],
@@ -163,6 +163,13 @@ const DS = [
 ];
 
 const Interro = [
+  {
+    name: "Interro7",
+    to: "devoirs/Interro7.pdf",
+    toNotes: "",
+    showCorrection: false,
+    keywords: ["Complexes", "suites usuelles"],
+  },
   {
     name: "Interro6",
     to: "devoirs/Interro6.pdf",
