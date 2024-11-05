@@ -31,16 +31,16 @@ const time = new Date();
 const programmes = [
   {
     name: "Semaine 7 ",
-    to: "../Colles/Semaine5.pdf",
+    to: "../Colles/Semaine7.pdf",
     date: "28/10",
-    keywords: ["logique", "quantificateurs", "equations", "calculs"],
-    published: new Date("2025-10-20"),
+    keywords: ["suites réelles"],
+    published: new Date("2024-11-07"),
   },
   {
     name: "Semaine 6 ",
     to: "../Colles/Semaine6.pdf",
     date: "07/11",
-    keywords: ["logique", "quantificateurs", "equations", "calculs"],
+    keywords: ["Sommes", "Complexes", "suites réelles"],
     published: new Date("2024-10-20"),
   },
 

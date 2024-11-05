@@ -49,7 +49,7 @@ const allItems = [
     toTD: "CH5/CH5.3-TD.pdf",
     toCorrection: "CH5/CH5.3-correctionTD.pdf",
     showCorrection: false,
-    avatar: { src: "CH5/CH5.3-meme.jpg" },
+    avatar: { src: "CH5/5.2.jpg" },
     published: false,
   },
   {
@@ -58,7 +58,7 @@ const allItems = [
     toTD: "CH5/CH5.2-TD.pdf",
     toCorrection: "CH5/CH5.2-correctionTD.pdf",
     showCorrection: false,
-    avatar: { src: "CH5/CH5.2-meme.jpg" },
+    avatar: { src: "CH5/5.2.jpg" },
     published: false,
   },
   {
@@ -67,7 +67,7 @@ const allItems = [
     toTD: "CH5/CH5.1-TD.pdf",
     toCorrection: "CH5/CH5.1-correctionTD.pdf",
     showCorrection: true,
-    avatar: { src: "CH5/fibo.jpg" },
+    avatar: { src: "CH5/5.2.jpg" },
     published: true,
   },
   {
