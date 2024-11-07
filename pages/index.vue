@@ -57,9 +57,9 @@ const allItems = [
     toCours: "CH5/CH5.2-cours.pdf",
     toTD: "CH5/CH5.2-TD.pdf",
     toCorrection: "CH5/CH5.2-correctionTD.pdf",
-    showCorrection: false,
-    avatar: { src: "CH5/5.2.jpg" },
-    published: false,
+    showCorrection: true,
+    avatar: { src: "CH5/5.1.jpg" },
+    published: true,
   },
   {
     name: "Chapitre 5.1 - Suites usuelles",
