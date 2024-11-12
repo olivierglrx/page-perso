@@ -44,13 +44,22 @@
 <script setup lang="ts">
 const allItems = [
   {
+    name: "Chapitre 6 - Systèmes linéaires",
+    toCours: "CH6/CH6-cours.pdf",
+    toTD: "CH6/CH6-TD.pdf",
+    toCorrection: "CH6/CH6-correctionTD.pdf",
+    showCorrection: false,
+    avatar: { src: "CH6/6.jpg" },
+    published: false,
+  },
+  {
     name: "Chapitre 5.3 - Suites récurrentes",
     toCours: "CH5/CH5.3-cours.pdf",
     toTD: "CH5/CH5.3-TD.pdf",
     toCorrection: "CH5/CH5.3-correctionTD.pdf",
-    showCorrection: false,
+    showCorrection: true,
     avatar: { src: "CH5/5.2.jpg" },
-    published: false,
+    published: true,
   },
   {
     name: "Chapitre 5.2 - Suites réelles",
