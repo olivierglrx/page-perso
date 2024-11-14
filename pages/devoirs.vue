@@ -164,9 +164,16 @@ const DS = [
 
 const Interro = [
   {
+    name: "Interro8",
+    to: "devoirs/Interro8.pdf",
+    toNotes: "",
+    showCorrection: false,
+    keywords: ["suites réelles"],
+  },
+  {
     name: "Interro7",
     to: "devoirs/Interro7.pdf",
-    toNotes: "",
+    toNotes: "devoirs/NOTES 1BIOA - interro7.pdf",
     showCorrection: false,
     keywords: ["Complexes", "suites usuelles"],
   },
