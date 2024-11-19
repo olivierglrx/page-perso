@@ -146,6 +146,14 @@
 <script setup>
 const DS = [
   {
+    name: "DS3",
+    to: "devoirs/DS3.pdf",
+    toNotes: "",
+    showCorrection: "",
+    date: "",
+    keywords: ["complexes", "sommes", "suites usuelles"],
+  },
+  {
     name: "DS2",
     to: "devoirs/DS2.pdf",
     toNotes: "devoirs/NOTES 1BIOA - DS2.pdf",

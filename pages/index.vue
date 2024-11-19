@@ -50,7 +50,7 @@ const allItems = [
     toCorrection: "CH6/CH6-correctionTD.pdf",
     showCorrection: false,
     avatar: { src: "CH6/6.jpg" },
-    published: false,
+    published: true,
   },
   {
     name: "Chapitre 5.3 - Suites récurrentes",
