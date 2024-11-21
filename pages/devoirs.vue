@@ -149,7 +149,7 @@ const DS = [
     name: "DS3",
     to: "devoirs/DS3.pdf",
     toNotes: "",
-    showCorrection: "",
+    showCorrection: "devoirs/DS-3-cor.pdf",
     date: "",
     keywords: ["complexes", "sommes", "suites usuelles"],
   },
