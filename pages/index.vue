@@ -46,9 +46,9 @@ const allItems = [
   {
     name: "Chapitre 6 - Systèmes linéaires",
     toCours: "CH6/CH6-cours.pdf",
-    toTD: "CH6/CH6-TD.pdf",
-    toCorrection: "CH6/CH6-correctionTD.pdf",
-    showCorrection: false,
+    toTD: "CH6/ch6-td.pdf",
+    toCorrection: "CH6/ch6-cor.pdf",
+    showCorrection: true,
     avatar: { src: "CH6/6.jpg" },
     published: true,
   },
