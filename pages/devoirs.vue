@@ -148,7 +148,7 @@ const DS = [
   {
     name: "DS3",
     to: "devoirs/DS3.pdf",
-    toNotes: "",
+    toNotes: "devoirs/NOTES 1BIOA - DS3.pdf",
     showCorrection: "devoirs/DS-3-cor.pdf",
     date: "",
     keywords: ["complexes", "sommes", "suites usuelles"],
@@ -171,6 +171,13 @@ const DS = [
 ];
 
 const Interro = [
+  {
+    name: "Interro9",
+    to: "devoirs/Interro9.pdf",
+    toNotes: "devoirs/NOTES 1BIOA - Feuille 12.pdf",
+    showCorrection: false,
+    keywords: ["système linéaire"],
+  },
   {
     name: "Interro8",
     to: "devoirs/Interro8.pdf",
