@@ -44,6 +44,15 @@
 <script setup lang="ts">
 const allItems = [
   {
+    name: "Chapitre 7 - Vocabulaires des applications",
+    toCours: "CH7/CH7-cours.pdf",
+    toTD: "CH7/CH7-TD.pdf",
+    toCorrection: "CH7/CH7-TD-cor.pdf",
+    showCorrection: true,
+    avatar: { src: "CH7/7.png" },
+    published: true,
+  },
+  {
     name: "Chapitre 6 - Systèmes linéaires",
     toCours: "CH6/CH6-cours.pdf",
     toTD: "CH6/ch6-td.pdf",

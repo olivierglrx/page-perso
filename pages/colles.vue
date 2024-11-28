@@ -28,7 +28,13 @@
 <script setup>
 const time = new Date();
 
-const programmes = [
+const programmes = [  {
+    name: "Semaine 10 ",
+    to: "../Colles/Semaine10.pdf",
+    date: "02/12",
+    keywords: ["Systèmes linéaires", "vocabulaires des applications", "EDL1"],
+    published: new Date("2024-11-20"),
+  },
   {
     name: "Semaine 9 ",
     to: "../Colles/Semaine9.pdf",
