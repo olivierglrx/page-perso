@@ -44,6 +44,15 @@
 <script setup lang="ts">
 const allItems = [
   {
+    name: "Chapitre 8 - Equations différentielles à coefficients constants",
+    toCours: "CH8/cours.pdf",
+    toTD: "CH8/TD.pdf",
+    toCorrection: "CH8/TD-cor.pdf",
+    showCorrection: true,
+    avatar: { src: "CH8/mem8.jpg" },
+    published: true,
+  },
+  {
     name: "Chapitre 7 - Vocabulaires des applications",
     toCours: "CH7/CH7-cours.pdf",
     toTD: "CH7/CH7-TD.pdf",
