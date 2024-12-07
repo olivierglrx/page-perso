@@ -170,7 +170,13 @@ const DS = [
   },
 ];
 
-const Interro = [
+const Interro = [  {
+    name: "Interro10",
+    to: "devoirs/Interro10.pdf",
+    toNotes: "",
+    showCorrection: false,
+    keywords: ["vocabulaires des applications, EDL"],
+  },
   {
     name: "Interro9",
     to: "devoirs/Interro9.pdf",
