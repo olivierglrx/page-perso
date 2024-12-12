@@ -170,7 +170,17 @@ const DS = [
   },
 ];
 
-const Interro = [  {
+const Interro = [ 
+
+{
+    name: "Interro11",
+    to: "devoirs/Interro11.pdf",
+    toNotes: "devoirs/NOTES 1BIOA - Feuille 14.pdf",
+    showCorrection: false,
+    keywords: ["géométrie"],
+  },
+
+ {
     name: "Interro10",
     to: "devoirs/Interro10.pdf",
     toNotes: "",

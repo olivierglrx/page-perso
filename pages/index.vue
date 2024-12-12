@@ -86,7 +86,7 @@ const allItems = [
     toCorrection: "CH9/TD-cor.pdf",
     showCorrection: true,
     avatar: { src: "CH9/meme.png" },
-    published: false,
+    published: true,
   },
   {
     name: "Chapitre 8 - Equations différentielles à coefficients constants",
