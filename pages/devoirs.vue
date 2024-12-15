@@ -144,7 +144,14 @@
 </template>
 
 <script setup>
-const DS = [
+const DS = [  {
+    name: "DS4",
+    to: "devoirs/DS4.pdf",
+    toNotes: "",
+    showCorrection: "devoirs/DS-4-correction.pdf",
+    date: "",
+    keywords: ["EDL", "géométrie", "vocabulaire des fonctions"],
+  },
   {
     name: "DS3",
     to: "devoirs/DS3.pdf",
