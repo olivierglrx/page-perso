@@ -31,7 +31,7 @@ const time = new Date();
 const programmes = [ {
     name: "Semaine 12 ",
     to: "../Colles/Semaine12.pdf",
-    date: "09/12",
+    date: "16/12",
     keywords: ["EDL1", "géométrie"],
     published: new Date("2024-11-20"),
   },{
