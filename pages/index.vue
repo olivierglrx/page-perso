@@ -71,12 +71,12 @@ const allItems = [
     published: true,
   },
   {
-    name: "Chapitre 10 - Géométrie",
+    name: "Chapitre 10 - Dénombrement",
     toCours: "CH10/cours.pdf",
     toTD: "CH10/TD.pdf",
     toCorrection: "CH10/TD-cor.pdf",
     showCorrection: true,
-    avatar: { src: "CH10/meme.png" },
+    avatar: { src: "CH10/meme10.jpg" },
     published: true,
   },
   {
