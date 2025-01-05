@@ -30,7 +30,7 @@ const time = new Date();
 
 const programmes = [  {
     name: "Semaine 13 ",
-    to: "../Colles/Semaine 13.pdf",
+    to: "../Colles/Semaine13.pdf",
     date: "16/12",
     keywords: ["Dénombrement", "géométrie"],
     published: new Date("2024-11-20"),
