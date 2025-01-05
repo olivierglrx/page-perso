@@ -68,7 +68,7 @@ const allItems = [
     toCorrection: "CH11/TD-cor.pdf",
     showCorrection: true,
     avatar: { src: "CH11/meme11.jpg" },
-    published: false,
+    published: true,
   },
   {
     name: "Chapitre 10 - Géométrie",
@@ -77,7 +77,7 @@ const allItems = [
     toCorrection: "CH10/TD-cor.pdf",
     showCorrection: true,
     avatar: { src: "CH10/meme.png" },
-    published: false,
+    published: true,
   },
   {
     name: "Chapitre 9 - Géométrie",
