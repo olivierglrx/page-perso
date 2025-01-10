@@ -45,7 +45,7 @@
                 name="mdi:file-document"
                 color="black dark:white"
               /><nuxt-link
-                :to="item.to"
+                :to="item.showCorrection"
                 external
                 class="text-blue-600 font-semibold"
                 >Correction
