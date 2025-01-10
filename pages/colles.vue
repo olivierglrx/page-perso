@@ -31,13 +31,13 @@ const time = new Date();
 const programmes = [  {
     name: "Semaine 14 ",
     to: "../Colles/Semaine14.pdf",
-    date: "16/12",
+    date: "13/01",
     keywords: ['matrices', "Dénombrement"],
     published: new Date("2024-11-20"),
   },{
     name: "Semaine 13 ",
     to: "../Colles/Semaine13.pdf",
-    date: "16/12",
+    date: "06/01",
     keywords: ["Dénombrement", "géométrie"],
     published: new Date("2024-11-20"),
   },{
