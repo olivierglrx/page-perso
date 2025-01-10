@@ -182,7 +182,7 @@ const Interro = [
     name: "Interro13 - info",
     to: "devoirs/Interro13.pdf",
     toNotes: "devoirs/NOTES 1BIOA - Feuille 14.pdf",
-    showCorrection: "devoirs/INT13-correction.pdf",
+    showCorrection: "devoirs/int12-cor.pdf",
     keywords: ["Informatique", "dénombrement"],
   },
 
