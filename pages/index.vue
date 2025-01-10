@@ -44,7 +44,7 @@
 <script setup lang="ts">
 const allItems = [
   {
-    name: "Chapitre 13 - Géométrie",
+    name: "Chapitre 13 - ",
     toCours: "CH13/cours.pdf",
     toTD: "CH13/TD.pdf",
     toCorrection: "CH13/TD-cor.pdf",
@@ -53,7 +53,7 @@ const allItems = [
     published: false,
   },
   {
-    name: "Chapitre 12 - Géométrie",
+    name: "Chapitre 12 - Continuité",
     toCours: "CH12/cours.pdf",
     toTD: "CH12/TD.pdf",
     toCorrection: "CH12/TD-cor.pdf",

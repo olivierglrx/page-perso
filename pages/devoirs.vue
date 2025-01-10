@@ -147,8 +147,8 @@
 const DS = [  {
     name: "DS4",
     to: "devoirs/DS4.pdf",
-    toNotes: "",
-    showCorrection: "devoirs/DS-4-correction.pdf",
+    toNotes: "devoirs/NOTES 1BIOA - DS4.pdf",
+    showCorrection: "devoirs/DS4-correction.pdf",
     date: "",
     keywords: ["EDL", "géométrie", "vocabulaire des fonctions"],
   },
@@ -178,6 +178,13 @@ const DS = [  {
 ];
 
 const Interro = [ 
+  {
+    name: "Interro13 - info",
+    to: "devoirs/Interro13.pdf",
+    toNotes: "devoirs/NOTES 1BIOA - Feuille 14.pdf",
+    showCorrection: "devoirs/INT13-correction.pdf",
+    keywords: ["Informatique", "dénombrement"],
+  },
 
 {
     name: "Interro11",
