@@ -55,11 +55,11 @@ const allItems = [
   {
     name: "Chapitre 12 - Continuité",
     toCours: "CH12/cours.pdf",
-    toTD: "CH12/TD.pdf",
-    toCorrection: "CH12/TD-cor.pdf",
+    toTD: "CH12/td12.pdf",
+    toCorrection: "CH12/cortd12.pdf",
     showCorrection: true,
     avatar: { src: "CH12/meme.png" },
-    published: false,
+    published: true,
   },
   {
     name: "Chapitre 11 - Matrices",

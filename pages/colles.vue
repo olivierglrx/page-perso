@@ -28,31 +28,43 @@
 <script setup>
 const time = new Date();
 
-const programmes = [  {
+const programmes = [
+  {
+    name: "Semaine 15 ",
+    to: "../Colles/Semaine15.pdf",
+    date: "20/01",
+    keywords: ["matrices", "continuite"],
+    published: new Date("2024-11-20"),
+  },
+  {
     name: "Semaine 14 ",
     to: "../Colles/Semaine14.pdf",
     date: "13/01",
-    keywords: ['matrices', "Dénombrement"],
+    keywords: ["matrices", "Dénombrement"],
     published: new Date("2024-11-20"),
-  },{
+  },
+  {
     name: "Semaine 13 ",
     to: "../Colles/Semaine13.pdf",
     date: "06/01",
     keywords: ["Dénombrement", "géométrie"],
     published: new Date("2024-11-20"),
-  },{
+  },
+  {
     name: "Semaine 12 ",
     to: "../Colles/Semaine12.pdf",
     date: "16/12",
     keywords: ["EDL1", "géométrie"],
     published: new Date("2024-11-20"),
-  },{
+  },
+  {
     name: "Semaine 11 ",
     to: "../Colles/Semaine11.pdf",
     date: "09/12",
     keywords: ["EDL1", "géométrie"],
     published: new Date("2024-11-20"),
-  }, {
+  },
+  {
     name: "Semaine 10 ",
     to: "../Colles/Semaine10.pdf",
     date: "02/12",
