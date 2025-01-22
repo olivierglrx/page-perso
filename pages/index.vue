@@ -44,12 +44,12 @@
 <script setup lang="ts">
 const allItems = [
   {
-    name: "Chapitre 13 - ",
-    toCours: "CH13/cours.pdf",
-    toTD: "CH13/TD.pdf",
-    toCorrection: "CH13/TD-cor.pdf",
+    name: "Chapitre 13 - Dérivation",
+    toCours: "CH13/ch13.pdf",
+    toTD: "CH13/td13.pdf",
+    toCorrection: "CH13/cortd13.pdf",
     showCorrection: true,
-    avatar: { src: "CH13/meme.png" },
+    avatar: { src: "CH13/mem13.png" },
     published: false,
   },
   {

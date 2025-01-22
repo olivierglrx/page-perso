@@ -28,10 +28,16 @@
 <script setup>
 const time = new Date();
 
-const programmes = [
+const programmes = [  {
+    name: "Semaine 16 ",
+    to: "../Colles/Semaine16.pdf",
+    date: "27/01",
+    keywords: [ "continuite", "dérivabilité"],
+    published: new Date("2024-11-20"),
+  },
   {
     name: "Semaine 15 ",
-    to: "../Colles/Semaine15.pdf",
+        to: "../Colles/Semaine15.pdf",
     date: "20/01",
     keywords: ["matrices", "continuite"],
     published: new Date("2024-11-20"),
