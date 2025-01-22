@@ -50,7 +50,7 @@ const allItems = [
     toCorrection: "CH13/cortd13.pdf",
     showCorrection: true,
     avatar: { src: "CH13/mem13.png" },
-    published: false,
+    published: true,
   },
   {
     name: "Chapitre 12 - Continuité",
