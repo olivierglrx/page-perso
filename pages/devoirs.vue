@@ -181,7 +181,7 @@ const Interro = [   {
     name: "Interro15 ",
     to: "devoirs/Interro15.pdf",
     toNotes: "",
-    showCorrection: "",
+    showCorrection: "devoits/cor-int15.pdf",
     keywords: ["continuité"],
   },
   {
