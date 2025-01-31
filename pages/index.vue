@@ -42,7 +42,15 @@
 <style scoped></style>
 
 <script setup lang="ts">
-const allItems = [
+const allItems = [  {
+    name: "Chapitre 14 - Polynomes",
+    toCours: "CH14/cours.pdf",
+    toTD: "CH14/td-long.pdf",
+    toCorrection: "CH14/td-long-cor.pdf",
+    showCorrection: true,
+    avatar: { src: "CH14/meme14.jpg" },
+    published: true,
+  },
   {
     name: "Chapitre 13 - Dérivation",
     toCours: "CH13/ch13.pdf",
