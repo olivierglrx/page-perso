@@ -29,6 +29,12 @@
 const time = new Date();
 
 const programmes = [  {
+    name: "Semaine 17",
+    to: "../Colles/Semaine17.pdf",
+    date: "3/02",
+    keywords: [ "dérivabilité",'Polynômes'],
+    published: new Date("2024-11-20"),
+  }, {
     name: "Semaine 16 ",
     to: "../Colles/Semaine16.pdf",
     date: "27/01",
