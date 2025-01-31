@@ -144,7 +144,22 @@
 </template>
 
 <script setup>
-const DS = [  {
+const DS = [   {
+    name: "Info",
+    to: "devoirs/informatique2.pdf",
+    toNotes: "devoirs/NOTES 1BIOA - DS5.pdf",
+    showCorrection: "devoirs/informatique2-cor.pdf",
+    date: "",
+    keywords: ["chaine de caractères", "liste"],
+  },
+  {
+    name: "DS5",
+    to: "devoirs/DS5-V3.pdf",
+    toNotes: "devoirs/NOTES 1BIOA - DS5.pdf",
+    showCorrection: "devoirs/DS5-cor.pdf",
+    date: "",
+    keywords: ["matrices", "continuite", "denombrement"],
+  },{
     name: "DS4",
     to: "devoirs/DS4.pdf",
     toNotes: "devoirs/NOTES 1BIOA - DS4.pdf",
