@@ -24,5 +24,6 @@ content:
       - name : cours
         label : CoursPDF
         type : image
-        path: src/media/chapitres
+        options :
+          path: src/media/chapitres
   
