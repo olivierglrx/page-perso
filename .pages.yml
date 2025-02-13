@@ -78,7 +78,7 @@ content:
         label: type
         type: select
         options:
-        values: [ Interro, DS]
+          values: [ Interro, DS]
       - name: title
         label: Title
         type: string
