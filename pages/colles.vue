@@ -29,6 +29,12 @@
 const time = new Date();
 
 const programmes = [  {
+    name: "Semaine 19",
+    to: "../Colles/Semaine19.pdf",
+    date: "03/03",
+    keywords: [ 'Polynômes', "Probabilités"],
+    published: new Date("2024-11-20"),
+  },{
     name: "Semaine 18",
     to: "../Colles/Semaine18.pdf",
     date: "10/02",

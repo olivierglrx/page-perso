@@ -45,7 +45,7 @@
 const allItems = [  {
     name: "Chapitre 15 - Probabilité",
     toCours: "CH15/cours.pdf",
-    toTD: "CH15/tdpdf",
+    toTD: "CH15/td.pdf",
     toCorrection: "CH15/td-cor.pdf",
     showCorrection: true,
     avatar: { src: "CH15/meme15.jpg" },
