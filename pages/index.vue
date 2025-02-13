@@ -43,6 +43,14 @@
 
 <script setup lang="ts">
 const allItems = [  {
+    name: "Chapitre 15 - Probabilité",
+    toCours: "CH15/cours.pdf",
+    toTD: "CH15/tdpdf",
+    toCorrection: "CH15/td-cor.pdf",
+    showCorrection: true,
+    avatar: { src: "CH15/meme15.jpg" },
+    published: true,
+  }, {
     name: "Chapitre 14 - Polynomes",
     toCours: "CH14/cours.pdf",
     toTD: "CH14/td-long.pdf",
