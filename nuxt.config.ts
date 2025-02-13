@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "@pinia/nuxt",
     "@hebilicious/form-actions-nuxt",
+    '@nuxthq/studio'
   ],
   runtimeConfig: {
     // The private keys which are only available within server-side
