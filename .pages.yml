@@ -74,6 +74,11 @@ content:
         label: Date
         type: date
         default: true
+      - name: type
+        label: type
+        type: select
+        options:
+        values: [ Interro, DS]
       - name: title
         label: Title
         type: string
