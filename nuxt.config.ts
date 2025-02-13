@@ -11,6 +11,11 @@ export default defineNuxtConfig({
     // The private keys which are only available within server-side
     apiSecret: "1BIOA2024",
   },
+  content: {
+    preview: {
+      api: 'https://api.nuxt.studio'
+    }
+  },
   app: {
     head: {
       title: "Olivier Glorieux", // Other meta information
