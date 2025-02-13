@@ -51,6 +51,9 @@ content:
         label: Date
         type: date
         default: true
+      - name: theme
+        label: Theme
+        type: string
       - name: Semaine
         label: Semaine
         type: number
