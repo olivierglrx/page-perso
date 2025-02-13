@@ -26,6 +26,16 @@ content:
         type : image
         options :
           path: media/chapitres
+      - name : TD
+        label : TD-PDF
+        type : image
+        options :
+          path: media/chapitres
+      - name : TDcor
+        label : TD correction
+        type : image
+        options :
+          path: media/chapitres
   - name: colles
     label: Colles
     type: collection
@@ -44,12 +54,52 @@ content:
       - name: title
         label: Title
         type: string
-      - name : image
-        label : Image
-        type : image
-      - name : cours
-        label : CoursPDF
+      - name : programme
+        label : Programme
         type : image
         options :
           path: media/colles
+  - name: devoirs
+    label: Devoirs
+    type: collection
+    path: '_devoirs'
+    view:
+      fields: [ title, published, date ]
+    fields:
+      - name: published
+        label: Published
+        type: boolean
+        default: true
+      - name: date
+        label: Date
+        type: date
+        default: true
+      - name: title
+        label: Title
+        type: string
+      - name : sujet
+        label : sujet
+        type : image
+        options :
+          path: media/
+      - name: dateSujet
+        label: Publication du sujet
+        type: date
+      - name : correction
+        label : Correction
+        type : image
+        options :
+          path: media/
+      - name: dateCorrection
+        label: Publication de la correction
+        type: date
+      - name : notes
+        label : Notes
+        type : image
+        options :
+          path: media/
+      - name: dateNotes
+        label: Publication des notes
+        type: date
+
   
