@@ -1,4 +1,4 @@
-media: media
+media: public
 content:
   - name: chapitres
     label: Chapitres
@@ -41,7 +41,7 @@ content:
     type: collection
     path: '_colles'
     view:
-      fields: [ title, published, date ]
+      fields: [ Semaine, published, date ]
     fields:
       - name: published
         label: Published
@@ -51,9 +51,9 @@ content:
         label: Date
         type: date
         default: true
-      - name: title
-        label: Title
-        type: string
+      - name: Semaine
+        label: Semaine
+        type: number
       - name : programme
         label : Programme
         type : image
