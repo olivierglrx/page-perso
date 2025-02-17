@@ -15,8 +15,8 @@ content:
         label: Date
         type: date
         default: true
-      - name: title
-        label: Title
+      - name: titre
+        label: Titre
         type: string
       - name : image
         label : Image
@@ -67,7 +67,7 @@ content:
     type: collection
     path: '_devoirs'
     view:
-      fields: [type, title, published, date ]
+      fields: [titre, published, date ]
     fields:
       - name: published
         label: Published
@@ -82,8 +82,8 @@ content:
         type: select
         options:
           values: [ Interro, DS]
-      - name: title
-        label: Title
+      - name: titre
+        label: Titre
         type: string
       - name : sujet
         label : sujet
