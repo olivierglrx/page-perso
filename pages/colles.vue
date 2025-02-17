@@ -1,5 +1,6 @@
 <template>
   <Titleheader title="Colles" />
+  {{ seminarItems }}
   <div class="flex h-screen mx-10">
     <ul class="">
       <li v-for="item in programmes" class="">
@@ -26,6 +27,17 @@
   </div>
 </template>
 <script setup>
+
+const seminarItems = ref([]);
+onMounted(async () => {
+  // Fetch seminar items from content folder using Nuxt Content
+  // const { data }  = await useAsyncData('seminar', () => queryContent('/events').find())
+  const seminars = await queryContent('/chapitres').find();
+
+  seminarItems.value = seminars;
+  console.log(seminars)
+  // You can also fetch other items if you add content for them in the future
+});
 const time = new Date();
 
 const programmes = [  {
