@@ -1,0 +1,11 @@
+---
+published: true
+date: 
+type: DS
+titre: DS4
+sujet: devoirs/DS4.pdf
+dateSujet: 
+correction: devoirs/DS4-correction.pdf
+notes: devoirs/NOTES 1BIOA - DS4.pdf
+keywords: EDL;géométrie;vocabulaire des fonctions
+---

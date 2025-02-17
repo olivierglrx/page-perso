@@ -1,0 +1,11 @@
+---
+published: true
+date: 
+type: DS
+titre: DS1
+sujet: devoirs/DS1.pdf
+dateSujet: 
+correction: devoirs/DS1-cor.pdf
+notes: devoirs/NOTES 1BIOA - DS1.pdf
+keywords: equations;fonctions;quantificateurs
+---
