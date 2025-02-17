@@ -1,5 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  routeRules: {
+    "/admin": {
+      // Temporary redirect using a 307 status code
+      redirect: "https://app.pagescms.org/olivierglrx/page-perso/master/collection/chapitres",
+    },
+  },
   devtools: { enabled: true },
   modules: [
     "@nuxt/ui",
