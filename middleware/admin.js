@@ -1,5 +1,5 @@
 export default ({ redirect }) => {
-  if (myCoolCondition === 'cool') {
-    redirect('https://www.google.com')
-  }
+
+    redirect('https://app.pagescms.org/olivierglrx/page-perso/master/collection/')
+
 }
