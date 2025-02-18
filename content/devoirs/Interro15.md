@@ -1,6 +1,6 @@
 ---
 published: True
-date: 2024-01-01 
+date: 2024-02-03 
 type: interro
 titre : Interro15
 sujet: devoirs/Interro15.pdf

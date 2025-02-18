@@ -1,6 +1,6 @@
 ---
 published: True
-date: 2024-01-01 
+date: 2024-02-01 
 type: interro
 titre : Interro13 - info
 sujet: devoirs/Interro13.pdf

@@ -23,165 +23,99 @@
       >
         Interro
       </h2>
-      <li v-for="item in Interro" class="">
-        <div
-          class="dark:bg-gray-700 m-3 shadow p-3 gap-2 items-center hover:shadow-lg transition delay-150 duration-300 ease-in-out hover:scale-105 transform"
+      <li v-for="item in InterroItems" class="">
+        <DevoirsCard
+          v-if="item.published"
+          :name="item.titre"
+          :date="item.date"
+          :dateCorrection="item.dateCorrection"
+          :dateSujet="item.dateSujet"
+          :dateNote="item.dateNote"
+          :notes="item.notes"
+          :keywords="item.keywords"
+          :to="item.sujet"
+          :correction="item.correction"
         >
-          <div class="flex justify-between">
-            <div>
-              <Icon
-                name="mdi:file-document"
-                color="black dark:white"
-              /><nuxt-link
-                :to="item.to"
-                external
-                class="text-blue-600 font-semibold"
-                >{{ item.name }}
-              </nuxt-link>
-              {{ item.date }}
-            </div>
-            <div v-if="item.showCorrection">
-              <Icon
-                name="mdi:file-document"
-                color="black dark:white"
-              /><nuxt-link
-                :to="item.showCorrection"
-                external
-                class="text-blue-600 font-semibold"
-                >Correction
-              </nuxt-link>
-              {{ item.date }}
-            </div>
-
-            <p v-if="!item.toNotes">Notes à venir</p>
-            <div v-else>
-              <div v-if="store.logged">
-                <Icon
-                  name="mdi:file-document"
-                  color="black dark:white"
-                /><nuxt-link
-                  :to="item.toNotes"
-                  external
-                  class="text-blue-600 font-semibold"
-                  >Notes
-                </nuxt-link>
-              </div>
-              <p v-else>Connectez-vous</p>
-            </div>
-          </div>
-          <div>
-            <span v-for="key in item.keywords.slice(0, -1)">
-              {{ key + ", " }}</span
-            >
-            <span> {{ item.keywords.slice(-1)[0] }}.</span>
-          </div>
-        </div>
+        </DevoirsCard>
       </li>
     </ul>
-
     <ul class="md:w-1/2 w-11/12">
       <h2
         class="mt-2 mb-4 text-1xl text-center font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-2xl dark:text-white"
       >
         DS
       </h2>
-      <li v-for="item in DS" class="">
-        <div
-          class="dark:bg-gray-700 m-3 shadow p-3 gap-2 items-center hover:shadow-lg transition delay-150 duration-300 ease-in-out hover:scale-105 transform"
+      <li v-for="item in DSItems" class="">
+        <DevoirsCard
+          :name="item.titre"
+          :date="item.date"
+          :dateCorrection="item.dateCorrection"
+          :dateSujet="item.dateSujet"
+          :dateNote="item.dateNote"
+          :notes="item.notes"
+          :keywords="item.keywords"
+          :to="item.sujet"
+           :correction="item.correction"
         >
-          <div class="flex justify-between">
-            <div>
-              <Icon
-                name="mdi:file-document"
-                color="black dark:white"
-              /><nuxt-link
-                :to="item.to"
-                external
-                class="text-blue-600 font-semibold"
-                >{{ item.name }}
-              </nuxt-link>
-              {{ item.date }}
-            </div>
-            <div v-if="item.showCorrection">
-              <Icon
-                name="mdi:file-document"
-                color="black dark:white"
-              /><nuxt-link
-                :to="item.showCorrection"
-                external
-                class="text-blue-600 font-semibold"
-                >Correction
-              </nuxt-link>
-              {{ item.date }}
-            </div>
-
-            <p v-if="!item.toNotes">Notes à venir</p>
-            <div v-else>
-              <div v-if="store.logged">
-                <Icon
-                  name="mdi:file-document"
-                  color="black dark:white"
-                /><nuxt-link
-                  :to="item.toNotes"
-                  external
-                  class="text-blue-600 font-semibold"
-                  >Notes
-                </nuxt-link>
-              </div>
-              <p v-else>Connectez-vous</p>
-            </div>
-          </div>
-          <div>
-            <span v-for="key in item.keywords.slice(0, -1)">
-              {{ key + ", " }}</span
-            >
-            <span> {{ item.keywords.slice(-1)[0] }}.</span>
-          </div>
-        </div>
+        </DevoirsCard>
       </li>
     </ul>
   </div>
 </template>
 
 <script setup>
-
-
 const InterroItems = ref([]);
+const DSItems = ref([]);
 onMounted(async () => {
   // Fetch seminar items from content folder using Nuxt Content
   // const { data }  = await useAsyncData('seminar', () => queryContent('/events').find())
-  const interro = await queryContent('/devoirs').where({ published: true, type: "interro" }).find();
+  const interro = await queryContent("/devoirs")
+    .where({ type: "interro" })
+    .find();
 
   InterroItems.value = sortChapters(interro).reverse();
+  const DS = await queryContent("/devoirs").where({ type: "DS" }).find();
 
+  DSItems.value = sortChapters(DS).reverse();
   // You can also fetch other items if you add content for them in the future
 });
+
+// function sortChapters(arr) {
+//   return arr.sort((a, b) => {
+//     // Extract the number from the 'name' field, allowing for decimals
+//     const numA = parseFloat(a.titre.replace(/[^\d.]/g, ""));
+//     const numB = parseFloat(b.titre.replace(/[^\d.]/g, ""));
+
+//     return numA - numB;
+//   });
+// }
+
+
 
 
 
 
 function sortChapters(arr) {
     return arr.sort((a, b) => {
+        // Sort by date first
+        const dateA = new Date(a.date);
+        const dateB = new Date(b.date);
+        
+        if (dateA - dateB !== 0) {
+            return dateA - dateB;
+        }
+        
         // Extract the number from the 'name' field, allowing for decimals
-        const numA = parseFloat(a.name.replace(/[^\d.]+/g, ""));
-        const numB = parseFloat(b.name.replace(/[^\d.]+/g, ""));
+        const numA = parseFloat(a.titre.replace(/[^\d.]/g, ""));
+        const numB = parseFloat(b.titre.replace(/[^\d.]/g, ""));
         
         return numA - numB;
     });
 }
 
 
-
-
-
-
-
-
-
-
-
-
-const DS = [   {
+const DS = [
+  {
     name: "Info",
     to: "devoirs/informatique2.pdf",
     toNotes: "devoirs/NOTES 1BIOA - DS5.pdf",
@@ -196,7 +130,8 @@ const DS = [   {
     showCorrection: "devoirs/DS5-cor.pdf",
     date: "",
     keywords: ["matrices", "continuite", "denombrement"],
-  },{
+  },
+  {
     name: "DS4",
     to: "devoirs/DS4.pdf",
     toNotes: "devoirs/NOTES 1BIOA - DS4.pdf",
@@ -229,7 +164,8 @@ const DS = [   {
   },
 ];
 
-const Interro = [   {
+const Interro = [
+  {
     name: "Interro15 ",
     to: "devoirs/Interro15.pdf",
     toNotes: "",
@@ -244,7 +180,7 @@ const Interro = [   {
     keywords: ["Informatique", "dénombrement"],
   },
 
-{
+  {
     name: "Interro11",
     to: "devoirs/Interro11.pdf",
     toNotes: "devoirs/NOTES 1BIOA - Feuille 14.pdf",
@@ -252,7 +188,7 @@ const Interro = [   {
     keywords: ["géométrie"],
   },
 
- {
+  {
     name: "Interro10",
     to: "devoirs/Interro10.pdf",
     toNotes: "",
