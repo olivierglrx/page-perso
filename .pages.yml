@@ -3,7 +3,7 @@ content:
   - name: chapitres
     label: Chapitres
     type: collection
-    path: '_chapitres'
+    path: 'content/chapitres'
     view:
       fields: [ title, published, keywords, date ]
     fields:
@@ -15,7 +15,7 @@ content:
         label: Date
         type: date
         default: true
-      - name: titre
+      - name: name
         label: Titre
         type: string
       - name : image
