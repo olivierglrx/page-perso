@@ -102,13 +102,25 @@ const chapitresItems = ref([]);
 onMounted(async () => {
   // Fetch seminar items from content folder using Nuxt Content
   // const { data }  = await useAsyncData('seminar', () => queryContent('/events').find())
-  const chapitres = await queryContent('/chapitres').find();
+  const chapitres = await queryContent('/chapitres').where({ published: true }).sort('name').find();
 
-  chapitresItems.value = chapitres.reverse();
+  chapitresItems.value = sortChapters(chapitres).reverse();
   console.log(chapitresItems)
   // You can also fetch other items if you add content for them in the future
 });
 
+
+
+
+function sortChapters(arr) {
+    return arr.sort((a, b) => {
+        // Extract the number from the 'name' field, allowing for decimals
+        const numA = parseFloat(a.name.replace(/[^\d.]+/g, ""));
+        const numB = parseFloat(b.name.replace(/[^\d.]+/g, ""));
+        
+        return numA - numB;
+    });
+}
 
 
 

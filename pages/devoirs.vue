@@ -144,6 +144,43 @@
 </template>
 
 <script setup>
+
+
+const InterroItems = ref([]);
+onMounted(async () => {
+  // Fetch seminar items from content folder using Nuxt Content
+  // const { data }  = await useAsyncData('seminar', () => queryContent('/events').find())
+  const interro = await queryContent('/devoirs').where({ published: true, type: "interro" }).find();
+
+  InterroItems.value = sortChapters(interro).reverse();
+
+  // You can also fetch other items if you add content for them in the future
+});
+
+
+
+
+function sortChapters(arr) {
+    return arr.sort((a, b) => {
+        // Extract the number from the 'name' field, allowing for decimals
+        const numA = parseFloat(a.name.replace(/[^\d.]+/g, ""));
+        const numB = parseFloat(b.name.replace(/[^\d.]+/g, ""));
+        
+        return numA - numB;
+    });
+}
+
+
+
+
+
+
+
+
+
+
+
+
 const DS = [   {
     name: "Info",
     to: "devoirs/informatique2.pdf",
