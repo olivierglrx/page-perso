@@ -77,7 +77,7 @@ content:
         label: type
         type: select
         options:
-          values: [ Interro, DS]
+          values: [ interro, DS]
       - name: titre
         label: Titre
         type: string
@@ -102,7 +102,7 @@ content:
         type : image
         options :
           path: media/
-      - name: dateNotes
+      - name: dateNote
         label: Publication des notes
         type: date
 
