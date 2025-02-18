@@ -41,7 +41,7 @@ content:
     type: collection
     path: 'content/colles'
     view:
-      fields: [ Semaine, published, date ]
+      fields: [ titre, published, date ]
     fields:
       - name: published
         label: Published
@@ -54,9 +54,9 @@ content:
       - name: theme
         label: Theme
         type: string
-      - name: Semaine
+      - name: titre
         label: Semaine
-        type: number
+        type: string
       - name : programme
         label : Programme
         type : image
