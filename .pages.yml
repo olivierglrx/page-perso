@@ -41,7 +41,7 @@ content:
     type: collection
     path: 'content/colles'
     view:
-      fields: [ titre, published, date ]
+      fields: [ titre, published,keywords, date ]
     fields:
       - name: published
         label: Published
