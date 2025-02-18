@@ -39,7 +39,7 @@ content:
   - name: colles
     label: Colles
     type: collection
-    path: '_colles'
+    path: 'content/colles'
     view:
       fields: [ Semaine, published, date ]
     fields:
