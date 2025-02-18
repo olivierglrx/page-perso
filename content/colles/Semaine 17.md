@@ -1,6 +1,6 @@
 ---
 published: True
-date: 2024-11-20 
+date: 2025-02-3 
 titre : Semaine 17
 sujet: ../Colles/Semaine17.pdf
 keywords: dérivabilité;Polynômes
