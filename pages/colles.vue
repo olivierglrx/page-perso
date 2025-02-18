@@ -15,6 +15,7 @@
           class="text-blue-600 font-semibold"
           >{{ item.titre }}
         </nuxt-link>
+  
         {{ item.date.split('-')[2]+'/'+item.date.split('-')[1] }}
         <div>
           <span v-for="key in item.keywords.split(';')">
@@ -61,7 +62,7 @@ const seminarItems = ref([]);
 onMounted(async () => {
   // Fetch seminar items from content folder using Nuxt Content
   // const { data }  = await useAsyncData('seminar', () => queryContent('/events').find())
-  const seminars = await queryContent('/colles').find();
+  const seminars = await queryContent('/colles').sort({date:1}).find();
 
   seminarItems.value = seminars.reverse();
   console.log(seminarItems)
