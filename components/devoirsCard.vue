@@ -17,7 +17,8 @@
                   </nuxt-link>
                  
                 </div>
-                <div v-if="correction">
+      
+                <div v-if="Date.parse(dateCorrection)<today && correction">
                   <Icon
                     name="mdi:file-document"
                     color="black dark:white"
@@ -29,8 +30,8 @@
                   </nuxt-link>
                  
                 </div>
-   
-                <p v-if="!notes">Notes à venir</p>
+
+                <p v-if="!notes || Date.parse(dateNote)>today">Notes à venir</p>
                 <div v-else>
                   <div v-if="store.logged">
                     <Icon
@@ -69,7 +70,7 @@ defineProps({
   to:String,
   correction:String
 });
-
+const today=Date.now();
 
 import { useLogginStore } from "@/stores/loggin";
 

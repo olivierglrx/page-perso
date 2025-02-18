@@ -25,7 +25,7 @@
       </h2>
       <li v-for="item in InterroItems" class="">
         <DevoirsCard
-          v-if="item.published"
+          v-if="item.published && Date.parse(item.dateSujet)<today"
           :name="item.titre"
           :date="item.date"
           :dateCorrection="item.dateCorrection"
@@ -47,6 +47,7 @@
       </h2>
       <li v-for="item in DSItems" class="">
         <DevoirsCard
+        v-if="item.published && Date.parse(item.dateSujet)<today"
           :name="item.titre"
           :date="item.date"
           :dateCorrection="item.dateCorrection"
@@ -64,6 +65,7 @@
 </template>
 
 <script setup>
+const today=Date.now();
 const InterroItems = ref([]);
 const DSItems = ref([]);
 onMounted(async () => {
