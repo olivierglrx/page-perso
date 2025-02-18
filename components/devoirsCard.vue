@@ -50,7 +50,7 @@
                 <span v-for="key in keywords.split(';').slice(0,-1)">
                   {{ key + ", " }}</span
                 >
-                <span> {{ keywords.split(';')[0] }}.</span>
+                <span> {{ keywords.split(';').slice(-1)[0] }}.</span>
               </div>
             </div>
           
