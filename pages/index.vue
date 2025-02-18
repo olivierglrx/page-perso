@@ -3,6 +3,61 @@
   <section id="cours">
     <Titleheader title="Cours" />
 
+
+
+<div class="md:w-9/12 mx-auto">
+  <UCarousel
+    v-slot="{ item, index }"
+    :items="chapitresItems"
+    :ui="{ item: 'basis-full' }"
+    class="rounded-lg overflow-hidden p-10"
+    arrows
+  >
+    <div class="text-center mx-auto">
+      <div class="mt-1 mb-5">
+        <h2 class="text-xl text-center font-bold">{{ item.name }}</h2>
+      </div>
+      <img
+        :src="item.image"
+        :alt="item.name"
+        class="h-72 md:h-96 mx-auto"
+        draggable="false"
+        arrows
+      />
+      <div class="mt-1 mb-10 flex justify-evenly">
+        <NuxtLink :to="item.cours" external class=""> Cours </NuxtLink>
+        <NuxtLink :to="item.TD" external class=""> TD </NuxtLink>
+        <NuxtLink :to="item.TDcor" external> Correction</NuxtLink>
+      </div>
+    </div>
+  </UCarousel>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+
+
+
     <div class="md:w-9/12 mx-auto">
       <UCarousel
         v-slot="{ item, index }"
@@ -36,12 +91,27 @@
           </div>
         </div>
       </UCarousel>
-    </div>
+    </div> -->
   </section>
 </template>
 <style scoped></style>
 
-<script setup lang="ts">
+<script setup >
+
+const chapitresItems = ref([]);
+onMounted(async () => {
+  // Fetch seminar items from content folder using Nuxt Content
+  // const { data }  = await useAsyncData('seminar', () => queryContent('/events').find())
+  const chapitres = await queryContent('/chapitres').find();
+
+  chapitresItems.value = chapitres.reverse();
+  console.log(chapitresItems)
+  // You can also fetch other items if you add content for them in the future
+});
+
+
+
+
 const allItems = [  {
     name: "Chapitre 15 - Probabilité",
     toCours: "CH15/cours.pdf",
@@ -205,7 +275,7 @@ const allItems = [  {
   },
 ];
 
-var items: any[] = [];
+var items= Array();
 for (let x of allItems) {
   if (x.published) {
     items.push(x);
