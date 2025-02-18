@@ -15,7 +15,7 @@
           class="text-blue-600 font-semibold"
           >{{ item.titre }}
         </nuxt-link>
-        {{ item.date }}
+        {{ item.date.split('-')[2]+'/'+item.date.split('-')[1] }}
         <div>
           <span v-for="key in item.keywords.split(';')">
             {{ key + ", " }}</span
