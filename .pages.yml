@@ -102,7 +102,7 @@ content:
         type : image
         options :
           path: media/
-      - name: dateNotes
+      - name: dateNote
         label: Publication des notes
         type: date
 
