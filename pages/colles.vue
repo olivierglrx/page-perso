@@ -6,7 +6,7 @@
   <ul class="">
     <li v-for="item in seminarItems" class="">
       <div
-        v-if="item.published < time"
+        v-if="item.published"
         class="dark:bg-gray-700 m-3 shadow p-3 gap-2 items-center hover:shadow-lg transition delay-150 duration-300 ease-in-out hover:scale-105 transform"
       >
         <Icon name="mdi:file-document" color="black dark:white" /><nuxt-link
