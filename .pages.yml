@@ -61,7 +61,7 @@ content:
   - name: devoirs
     label: Devoirs
     type: collection
-    path: '_devoirs'
+    path: 'content/devoirs'
     view:
       fields: [titre,type,  published, date ]
     fields:
