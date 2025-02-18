@@ -5,7 +5,7 @@ content:
     type: collection
     path: '_chapitres'
     view:
-      fields: [ title, published, date ]
+      fields: [ title, published, keywords, date ]
     fields:
       - name: published
         label: Published
