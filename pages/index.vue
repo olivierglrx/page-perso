@@ -18,80 +18,21 @@
         <h2 class="text-xl text-center font-bold">{{ item.name }}</h2>
       </div>
       <img
-        :src="item.image"
+        :src="item.image.includes('public') ? item.image.slice(8) : item.image"
         :alt="item.name"
         class="h-72 md:h-96 mx-auto"
         draggable="false"
         arrows
       />
       <div class="mt-1 mb-10 flex justify-evenly">
-        <NuxtLink :to="item.cours" external class=""> Cours </NuxtLink>
-        <NuxtLink :to="item.TD" external class=""> TD </NuxtLink>
-        <NuxtLink :to="item.TDcor" external> Correction</NuxtLink>
+        <NuxtLink :to="item.cours.includes('public') ? item.cours.slice(8) : item.cours" external class=""> Cours </NuxtLink>
+        <NuxtLink :to="item.TD.includes('public') ? item.TD.slice(8) : item.TD" external class=""> TD </NuxtLink>
+        <NuxtLink :to="item.TDcor.includes('public') ? item.TDcor.slice(8) : item.TDcor" external> Correction</NuxtLink>
       </div>
     </div>
   </UCarousel>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- 
-
-
-
-
-    <div class="md:w-9/12 mx-auto">
-      <UCarousel
-        v-slot="{ item, index }"
-        :items="items"
-        :ui="{ item: 'basis-full' }"
-        class="rounded-lg overflow-hidden p-10"
-        arrows
-      >
-        <div class="text-center mx-auto">
-          <div class="mt-1 mb-5">
-            <h2 class="text-xl text-center font-bold">{{ item.name }}</h2>
-          </div>
-          <img
-            :src="item.avatar.src"
-            :alt="item.name"
-            class="h-72 md:h-96 mx-auto"
-            draggable="false"
-            arrows
-          />
-          <div class="mt-1 mb-10 flex justify-evenly">
-            <NuxtLink :to="item.toCours" external class=""> Cours </NuxtLink>
-            <NuxtLink :to="item.toTD" external class=""> TD </NuxtLink>
-            <NuxtLink
-              v-if="item.showCorrection"
-              :to="item.toCorrection"
-              external
-              class=""
-            >
-              Correction
-            </NuxtLink>
-          </div>
-        </div>
-      </UCarousel>
-    </div> -->
   </section>
 </template>
 <style scoped></style>
