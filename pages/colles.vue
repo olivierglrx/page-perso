@@ -9,8 +9,9 @@
         v-if="item.published"
         class="dark:bg-gray-700 m-3 shadow p-3 gap-2 items-center hover:shadow-lg transition delay-150 duration-300 ease-in-out hover:scale-105 transform"
       >
+
         <Icon name="mdi:file-document" color="black dark:white" /><nuxt-link
-          :to="item.sujet"
+        :to="item.sujet.includes('public') ? item.sujet.slice(8) : item.sujet"  
           external
           class="text-blue-600 font-semibold"
           >{{ item.titre }}

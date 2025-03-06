@@ -33,7 +33,7 @@
           :dateNote="item.dateNote"
           :notes="item.notes"
           :keywords="item.keywords"
-          :to="item.sujet"
+          :to="item.sujet.includes('public') ? item.sujet.slice(8) : item.sujet"  
           :correction="item.correction"
         >
         </DevoirsCard>
@@ -55,7 +55,7 @@
           :dateNote="item.dateNote"
           :notes="item.notes"
           :keywords="item.keywords"
-          :to="item.sujet"
+          :to="item.sujet.includes('public') ? item.sujet.slice(8) : item.sujet"  
            :correction="item.correction"
         >
         </DevoirsCard>

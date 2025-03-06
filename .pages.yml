@@ -81,6 +81,9 @@ content:
       - name: titre
         label: Titre
         type: string
+      - name: keywords
+        label: keyworsds (separé par des ;)
+        type: string
       - name : sujet
         label : sujet
         type : image
