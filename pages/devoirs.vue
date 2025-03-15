@@ -35,7 +35,7 @@
           :keywords="item.keywords"
           :to="item.sujet.includes('public') ? item.sujet.slice(8) : item.sujet"
           :correction="
-            item.correction.includes('public')
+            item.correction && item.correction.includes('public')
               ? item.correction.slice(8)
               : item.correction
           "
@@ -61,7 +61,7 @@
           :keywords="item.keywords"
           :to="item.sujet.includes('public') ? item.sujet.slice(8) : item.sujet"
           :correction="
-            item.correction.includes('public')
+            item.correction && item.correction.includes('public')
               ? item.correction.slice(8)
               : item.correction
           "
@@ -87,6 +87,7 @@ onMounted(async () => {
   const DS = await queryContent("/devoirs").where({ type: "DS" }).find();
 
   DSItems.value = sortChapters(DS).reverse();
+  console.log(DSItems.value);
   // You can also fetch other items if you add content for them in the future
 });
 
