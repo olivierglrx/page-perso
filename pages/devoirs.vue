@@ -25,7 +25,7 @@
       </h2>
       <li v-for="item in InterroItems" class="">
         <DevoirsCard
-          v-if="item.published && Date.parse(item.dateSujet)<today"
+          v-if="item.published && Date.parse(item.dateSujet) < today"
           :name="item.titre"
           :date="item.date"
           :dateCorrection="item.dateCorrection"
@@ -33,8 +33,12 @@
           :dateNote="item.dateNote"
           :notes="item.notes"
           :keywords="item.keywords"
-          :to="item.sujet.includes('public') ? item.sujet.slice(8) : item.sujet"  
-          :correction="item.correction"
+          :to="item.sujet.includes('public') ? item.sujet.slice(8) : item.sujet"
+          :correction="
+            item.correction.includes('public')
+              ? item.correction.slice(8)
+              : item.correction
+          "
         >
         </DevoirsCard>
       </li>
@@ -47,7 +51,7 @@
       </h2>
       <li v-for="item in DSItems" class="">
         <DevoirsCard
-        v-if="item.published && Date.parse(item.dateSujet)<today"
+          v-if="item.published && Date.parse(item.dateSujet) < today"
           :name="item.titre"
           :date="item.date"
           :dateCorrection="item.dateCorrection"
@@ -55,8 +59,12 @@
           :dateNote="item.dateNote"
           :notes="item.notes"
           :keywords="item.keywords"
-          :to="item.sujet.includes('public') ? item.sujet.slice(8) : item.sujet"  
-           :correction="item.correction"
+          :to="item.sujet.includes('public') ? item.sujet.slice(8) : item.sujet"
+          :correction="
+            item.correction.includes('public')
+              ? item.correction.slice(8)
+              : item.correction
+          "
         >
         </DevoirsCard>
       </li>
@@ -65,7 +73,7 @@
 </template>
 
 <script setup>
-const today=Date.now();
+const today = Date.now();
 const InterroItems = ref([]);
 const DSItems = ref([]);
 onMounted(async () => {
@@ -92,29 +100,23 @@ onMounted(async () => {
 //   });
 // }
 
-
-
-
-
-
 function sortChapters(arr) {
-    return arr.sort((a, b) => {
-        // Sort by date first
-        const dateA = new Date(a.date);
-        const dateB = new Date(b.date);
-        
-        if (dateA - dateB !== 0) {
-            return dateA - dateB;
-        }
-        
-        // Extract the number from the 'name' field, allowing for decimals
-        const numA = parseFloat(a.titre.replace(/[^\d.]/g, ""));
-        const numB = parseFloat(b.titre.replace(/[^\d.]/g, ""));
-        
-        return numA - numB;
-    });
-}
+  return arr.sort((a, b) => {
+    // Sort by date first
+    const dateA = new Date(a.date);
+    const dateB = new Date(b.date);
 
+    if (dateA - dateB !== 0) {
+      return dateA - dateB;
+    }
+
+    // Extract the number from the 'name' field, allowing for decimals
+    const numA = parseFloat(a.titre.replace(/[^\d.]/g, ""));
+    const numB = parseFloat(b.titre.replace(/[^\d.]/g, ""));
+
+    return numA - numB;
+  });
+}
 
 const DS = [
   {
