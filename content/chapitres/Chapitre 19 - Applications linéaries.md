@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 name: Chapitre 17 - Espaces Vectoriels
 cours: /public/CH18/EV.pdf
 TD: /public/CH18/BCPST-2.pdf
