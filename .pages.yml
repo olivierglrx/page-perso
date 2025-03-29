@@ -19,17 +19,17 @@ content:
         type : image
       - name : cours
         label : CoursPDF
-        type : image
+        type : file
         options :
           path: media/chapitres
       - name : TD
         label : TD-PDF
-        type : image
+        type : file
         options :
           path: media/chapitres
       - name : TDcor
         label : TD correction
-        type : image
+        type : file
         options :
           path: media/chapitres
   - name: colles
@@ -86,7 +86,7 @@ content:
         type: string
       - name : sujet
         label : sujet
-        type : image
+        type : file
         options :
           path: media/
       - name: dateSujet
@@ -94,7 +94,7 @@ content:
         type: date
       - name : correction
         label : Correction
-        type : image
+        type : file
         options :
           path: media/
       - name: dateCorrection
@@ -102,7 +102,7 @@ content:
         type: date
       - name : notes
         label : Notes
-        type : image
+        type : file
         options :
           path: media/
       - name: dateNote
