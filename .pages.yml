@@ -55,7 +55,7 @@ content:
         type: string
       - name : sujet
         label : Programme
-        type : media
+        type : file
         options :
           path: media/
   - name: devoirs
