@@ -1,8 +1,8 @@
 ---
 published: false
 name: Chapitre 19 - VAR
-image: CH18/meme18.jpg
-cours: CH18/cours.pdf
-TD: CH18/td.pdf
-TDcor: CH18/td-cor.pdf
+image: /public/CH19/meme.jpg
+cours: /public/cours VAR.pdf
+TD: /public/td VAR.pdf
+TDcor: /public/cor td VAR.pdf
 ---
