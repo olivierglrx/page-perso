@@ -1,5 +1,5 @@
 ---
 published: true
 name: Chapitre 18 - equation differentielle
-cours: /public/cours EDL-1.pdf
+image: /public/Capture d'écran 2025-04-02 163247.png
 ---
