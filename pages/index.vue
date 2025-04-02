@@ -3,69 +3,90 @@
   <section id="cours">
     <Titleheader title="Cours" />
 
-
-
-<div class="md:w-9/12 mx-auto">
-  <UCarousel
-    v-slot="{ item, index }"
-    :items="chapitresItems"
-    :ui="{ item: 'basis-full' }"
-    class="rounded-lg overflow-hidden p-10"
-    arrows
-  >
-    <div class="text-center mx-auto">
-      <div class="mt-1 mb-5">
-        <h2 class="text-xl text-center font-bold">{{ item.name }}</h2>
-      </div>
-      <img
-        :src="item.image.includes('public') ? item.image.slice(8) : item.image"
-        :alt="item.name"
-        class="h-72 md:h-96 mx-auto"
-        draggable="false"
+    <div class="md:w-9/12 mx-auto">
+      <UCarousel
+        v-slot="{ item, index }"
+        :items="chapitresItems"
+        :ui="{ item: 'basis-full' }"
+        class="rounded-lg overflow-hidden p-10"
         arrows
-      />
-      <div class="mt-1 mb-10 flex justify-evenly">
-        <NuxtLink :to="item.cours.includes('public') ? item.cours.slice(8) : item.cours" external class=""> Cours </NuxtLink>
-        <NuxtLink :to="item.TD.includes('public') ? item.TD.slice(8) : item.TD" external class=""> TD </NuxtLink>
-        <NuxtLink :to="item.TDcor.includes('public') ? item.TDcor.slice(8) : item.TDcor" external> Correction</NuxtLink>
-      </div>
+      >
+        <div class="text-center mx-auto">
+          <div class="mt-1 mb-5">
+            <h2 class="text-xl text-center font-bold">{{ item.name }}</h2>
+          </div>
+          <img
+            :src="
+              item.image.includes('public') ? item.image.slice(8) : item.image
+            "
+            :alt="item.name"
+            class="h-72 md:h-96 mx-auto"
+            draggable="false"
+            arrows
+          />
+          <div class="mt-1 mb-10 flex justify-evenly">
+            <NuxtLink
+              v-if="item.cours"
+              :to="
+                item.cours.includes('public') ? item.cours.slice(8) : item.cours
+              "
+              external
+              class=""
+            >
+              Cours
+            </NuxtLink>
+            <NuxtLink
+              v-if="item.TD"
+              :to="item.TD.includes('public') ? item.TD.slice(8) : item.TD"
+              external
+              class=""
+            >
+              TD
+            </NuxtLink>
+            <NuxtLink
+              v-if="item.TDcor"
+              :to="
+                item.TDcor.includes('public') ? item.TDcor.slice(8) : item.TDcor
+              "
+              external
+            >
+              Correction</NuxtLink
+            >
+          </div>
+        </div>
+      </UCarousel>
     </div>
-  </UCarousel>
-</div>
-
   </section>
 </template>
 <style scoped></style>
 
-<script setup >
-
+<script setup>
 const chapitresItems = ref([]);
 onMounted(async () => {
   // Fetch seminar items from content folder using Nuxt Content
   // const { data }  = await useAsyncData('seminar', () => queryContent('/events').find())
-  const chapitres = await queryContent('/chapitres').where({ published: true }).sort('name').find();
+  const chapitres = await queryContent("/chapitres")
+    .where({ published: true })
+    .sort("name")
+    .find();
 
   chapitresItems.value = sortChapters(chapitres).reverse();
-  console.log(chapitresItems)
+  console.log(chapitresItems);
   // You can also fetch other items if you add content for them in the future
 });
 
-
-
-
 function sortChapters(arr) {
-    return arr.sort((a, b) => {
-        // Extract the number from the 'name' field, allowing for decimals
-        const numA = parseFloat(a.name.replace(/[^\d.]+/g, ""));
-        const numB = parseFloat(b.name.replace(/[^\d.]+/g, ""));
-        
-        return numA - numB;
-    });
+  return arr.sort((a, b) => {
+    // Extract the number from the 'name' field, allowing for decimals
+    const numA = parseFloat(a.name.replace(/[^\d.]+/g, ""));
+    const numB = parseFloat(b.name.replace(/[^\d.]+/g, ""));
+
+    return numA - numB;
+  });
 }
 
-
-
-const allItems = [  {
+const allItems = [
+  {
     name: "Chapitre 15 - Probabilité",
     toCours: "CH15/cours.pdf",
     toTD: "CH15/td.pdf",
@@ -73,7 +94,8 @@ const allItems = [  {
     showCorrection: true,
     avatar: { src: "CH15/meme15.jpg" },
     published: true,
-  }, {
+  },
+  {
     name: "Chapitre 14 - Polynomes",
     toCours: "CH14/cours.pdf",
     toTD: "CH14/td-long.pdf",
@@ -228,7 +250,7 @@ const allItems = [  {
   },
 ];
 
-var items= Array();
+var items = Array();
 for (let x of allItems) {
   if (x.published) {
     items.push(x);
