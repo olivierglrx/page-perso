@@ -1,0 +1,64 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 1382403,
+              "NomCandidat": "HAMADOUCHE",
+              "PrenomCandidat": "Cylia",
+              "DateNaissance": "11/08/1998"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité étrangère"
+              }
+            ],
+            "BulletinsScolaires": [],
+            "FicheAvenir": {},
+            "AppreciationsEnseignantsFicheAvenir": [],
+            "Baccalaureat": {
+              "EDSScolaritePremiere1LibelleBCN": "MATHEMATIQUES",
+              "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE",
+              "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+              "EDSScolariteTerminale1Libelle": "Mathématiques Spécialité",
+              "EDSScolariteTerminale2Libelle": "Physique-Chimie Spécialité",
+              "EDSScolaritePremiere1Libelle": "Mathématiques Spécialité",
+              "EDSScolaritePremiere2Libelle": "Physique-Chimie Spécialité",
+              "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+            },
+            "NotesBaccalaureat": [
+              {
+                "EpreuveLibelle": "Mathématiques",
+                "NoteEpreuve": "9,0"
+              },
+              {
+                "EpreuveLibelle": "Physique-Chimie",
+                "NoteEpreuve": "11,0"
+              },
+              {
+                "EpreuveLibelle": "Français écrit",
+                "NoteEpreuve": "12,0"
+              },
+              {
+                "EpreuveLibelle": "Français oral",
+                "NoteEpreuve": "6,0"
+              },
+              {
+                "EpreuveLibelle": "Sciences de la Vie et de la Terre  (EDS suivi uniquement en 1ère)",
+                "NoteEpreuve": "12,0"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

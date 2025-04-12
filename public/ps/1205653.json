@@ -1,0 +1,40 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 1205653,
+              "NomCandidat": "MEDDOUR",
+              "PrenomCandidat": "Rym",
+              "DateNaissance": "05/02/2006"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité étrangère",
+                "NiveauEtudeLibelle": "1ère année d'études supérieures",
+                "TypeFormationLibelle": "Autre formation du supérieur",
+                "NomEtablissementOrigine": "Université Abderrahmane Mira de Béjaia",
+                "CommuneEtablissementOrigineLibelle": "Bejaia",
+                "PaysEtablissementorigineLibelle": "Algérie"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité étrangère"
+              }
+            ],
+            "BulletinsScolaires": [],
+            "FicheAvenir": {},
+            "AppreciationsEnseignantsFicheAvenir": [],
+            "Baccalaureat": {},
+            "NotesBaccalaureat": []
+          }
+        ]
+      }
+    ]
+  }
+}

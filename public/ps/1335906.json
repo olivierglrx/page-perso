@@ -1,0 +1,40 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 1335906,
+              "NomCandidat": "NIANG",
+              "PrenomCandidat": "Omar",
+              "DateNaissance": "15/01/2006"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité étrangère",
+                "NiveauEtudeLibelle": "1ère année d'études supérieures",
+                "TypeFormationLibelle": "Autre formation du supérieur",
+                "NomEtablissementOrigine": "UNIVERSITE IBA DER THIAM",
+                "CommuneEtablissementOrigineLibelle": "Thiès",
+                "PaysEtablissementorigineLibelle": "Sénégal"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité étrangère"
+              }
+            ],
+            "BulletinsScolaires": [],
+            "FicheAvenir": {},
+            "AppreciationsEnseignantsFicheAvenir": [],
+            "Baccalaureat": {},
+            "NotesBaccalaureat": []
+          }
+        ]
+      }
+    ]
+  }
+}

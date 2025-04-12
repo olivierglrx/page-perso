@@ -1,0 +1,265 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 697013,
+              "NomCandidat": "LEMAIRE",
+              "PrenomCandidat": "Alfred",
+              "DateNaissance": "18/12/2007"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "NiveauEtudeLibelle": "Terminale",
+                "TypeFormationLibelle": "Terminale",
+                "TypeClasseLibelle": "Générale",
+                "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+                "NomEtablissementOrigine": "Lycée Charlemagne",
+                "CommuneEtablissementOrigineLibelle": "Paris  4e  Arrondissement",
+                "PaysEtablissementorigineLibelle": "France"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité française"
+              }
+            ],
+            "BulletinsScolaires": [
+              {
+                "AnneeLibelle": "2024-2025",
+                "BulletinsScolairesAnnee": {
+                  "SerieLibelle": "Série Générale",
+                  "BulletinsScolairesSeries": [
+                    {
+                      "TrimestreLibelle": "Premier semestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "12,17",
+                          "MoyenneclasseCandidat": "13,47",
+                          "MoyenneBasseClasseduCandidat": "5,34",
+                          "MoyenneHauteClasseduCandidat": "19,30",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Ensemble satisfaisant. Le travail est sérieux. Poursuivez ainsi."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "13,81",
+                          "MoyenneclasseCandidat": "13,52",
+                          "MoyenneBasseClasseduCandidat": "4,75",
+                          "MoyenneHauteClasseduCandidat": "19,69",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Bon ensemble. Une progression notée sur la fin du semestre.   (moyenne établie sur la base de 4 devoirs sur table d'une durée supérieure ou égale à 2 heures)"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "18,00",
+                          "MoyenneclasseCandidat": "15,00",
+                          "MoyenneBasseClasseduCandidat": "8,00",
+                          "MoyenneHauteClasseduCandidat": "18,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "D'excellentes résultats, très bonne participation, des connaissances et bonne analyse, félicitations!"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Philosophie",
+                          "MoyenneduCandidat": "13,50",
+                          "MoyenneclasseCandidat": "12,00",
+                          "MoyenneBasseClasseduCandidat": "7,00",
+                          "MoyenneHauteClasseduCandidat": "17,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "De beaux progrès ont pu être accomplis au cours du trimestre. C'est bien. Continuez ainsi."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Expertes",
+                          "MoyenneduCandidat": "14,67",
+                          "MoyenneclasseCandidat": "13,66",
+                          "MoyenneBasseClasseduCandidat": "5,67",
+                          "MoyenneHauteClasseduCandidat": "19,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Bon ensemble."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "AnneeLibelle": "2023-2024",
+                "BulletinsScolairesAnnee": {
+                  "SerieLibelle": "Série Générale",
+                  "BulletinsScolairesSeries": [
+                    {
+                      "TrimestreLibelle": "Premier semestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "17,50",
+                          "MoyenneclasseCandidat": "13,80",
+                          "MoyenneBasseClasseduCandidat": "7,70",
+                          "MoyenneHauteClasseduCandidat": "17,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un excellent semestre, écrit et oral."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "16,92",
+                          "MoyenneclasseCandidat": "13,36",
+                          "MoyenneBasseClasseduCandidat": "7,77",
+                          "MoyenneHauteClasseduCandidat": "17,40",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un excellent semestre avec de bonnes capacités de réflexion et une bonne participation orale."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "16,56",
+                          "MoyenneclasseCandidat": "14,61",
+                          "MoyenneBasseClasseduCandidat": "6,86",
+                          "MoyenneHauteClasseduCandidat": "19,68",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Très bon premier semestre avec des progrès et une application accrue."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "14,50",
+                          "MoyenneclasseCandidat": "11,03",
+                          "MoyenneBasseClasseduCandidat": "5,45",
+                          "MoyenneHauteClasseduCandidat": "17,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un très bon semestre. Un travail sérieux et de qualité. Continuez ainsi."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "16,60",
+                          "MoyenneclasseCandidat": "12,34",
+                          "MoyenneBasseClasseduCandidat": "3,30",
+                          "MoyenneHauteClasseduCandidat": "19,80",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "De l'intérêt, un oral pertinent et un ensemble très satisfaisant à tout point de vue. Continuez ainsi."
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Second semestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "15,13",
+                          "MoyenneclasseCandidat": "10,79",
+                          "MoyenneBasseClasseduCandidat": "4,60",
+                          "MoyenneHauteClasseduCandidat": "17,07",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un très bon semestre. Un travail sérieux, constant et de qualité. Bravo."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "16,78",
+                          "MoyenneclasseCandidat": "13,46",
+                          "MoyenneBasseClasseduCandidat": "7,20",
+                          "MoyenneHauteClasseduCandidat": "17,09",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un excellent semestre, avec des compétences solides, et une appétence certaine pour la matière. Bonne participation en classe."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "19,00",
+                          "MoyenneclasseCandidat": "14,30",
+                          "MoyenneBasseClasseduCandidat": "6,50",
+                          "MoyenneHauteClasseduCandidat": "19,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un excellent ensemble, écrit et oral."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "17,53",
+                          "MoyenneclasseCandidat": "15,01",
+                          "MoyenneBasseClasseduCandidat": "9,97",
+                          "MoyenneHauteClasseduCandidat": "19,40",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Excellent travail ce semestre, beaucoup de soin et d'application, mais aussi un esprit scientifique et critique."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "14,50",
+                          "MoyenneclasseCandidat": "13,76",
+                          "MoyenneBasseClasseduCandidat": "4,30",
+                          "MoyenneHauteClasseduCandidat": "19,90",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un bon semestre et une année réussie."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "FicheAvenir": {
+              "NiveauClasseCode": 4
+            },
+            "AppreciationsEnseignantsFicheAvenir": [
+              {
+                "MatiereFicheAvenirLibelle": "Philosophie",
+                "MatiereFicheAvenirLibelleBCN": "PHILOSOPHIE",
+                "AppreciationFicheAvenir": "De l'intérêt pour la discipline, peut très bien faire, même si les résultats sont encore irréguliers."
+              },
+              {
+                "MatiereFicheAvenirLibelle": "Langue vivante A",
+                "MatiereFicheAvenirLibelleBCN": "LANGUE VIVANTE 1",
+                "AppreciationFicheAvenir": "D'excellents résultats, très bonne participation, des connaissances et bonne analyse"
+              },
+              {
+                "MatiereFicheAvenirLibelle": "Mathématiques Spécialité",
+                "MatiereFicheAvenirLibelleBCN": "MATHEMATIQUES",
+                "AppreciationFicheAvenir": "Ensemble satisfaisant. Bon niveau."
+              },
+              {
+                "MatiereFicheAvenirLibelle": "Physique-Chimie Spécialité",
+                "MatiereFicheAvenirLibelleBCN": "PHYSIQUE-CHIMIE",
+                "AppreciationFicheAvenir": "Ensemble satisfaisant. Le travail est sérieux. Un bon début de deuxième semestre."
+              },
+              {
+                "MatiereFicheAvenirLibelle": "Mathématiques Expertes",
+                "MatiereFicheAvenirLibelleBCN": "MATHEMATIQUES EXPERTES",
+                "AppreciationFicheAvenir": "Bon ensemble. Élève de bon niveau."
+              }
+            ],
+            "Baccalaureat": {
+              "EDSScolaritePremiere1LibelleBCN": "MATHEMATIQUES",
+              "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE",
+              "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+              "EDSScolariteTerminale1Libelle": "Mathématiques Spécialité",
+              "EDSScolariteTerminale2Libelle": "Physique-Chimie Spécialité",
+              "EDSScolaritePremiere1Libelle": "Mathématiques Spécialité",
+              "EDSScolaritePremiere2Libelle": "Physique-Chimie Spécialité",
+              "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+            },
+            "NotesBaccalaureat": [
+              {
+                "EpreuveLibelle": "Mathématiques"
+              },
+              {
+                "EpreuveLibelle": "Physique-Chimie"
+              },
+              {
+                "EpreuveLibelle": "Français écrit",
+                "NoteEpreuve": "19,0"
+              },
+              {
+                "EpreuveLibelle": "Français oral",
+                "NoteEpreuve": "19,0"
+              },
+              {
+                "EpreuveLibelle": "Sciences de la Vie et de la Terre  (EDS suivi uniquement en 1ère)",
+                "NoteEpreuve": "16,9"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

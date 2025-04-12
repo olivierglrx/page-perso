@@ -1,0 +1,390 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 1387856,
+              "NomCandidat": "ISTRIA",
+              "PrenomCandidat": "Orso",
+              "DateNaissance": "04/06/2006"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "NiveauEtudeLibelle": "1ère année d'études supérieures",
+                "TypeFormationLibelle": "CPGE",
+                "FormationScolariteLibelle": "Classe préparatoire scientifique",
+                "FiliereScolariteCode": 12,
+                "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+                "NomEtablissementOrigine": "Lycée Fénelon",
+                "CommuneEtablissementOrigineLibelle": "Paris  6e  Arrondissement",
+                "PaysEtablissementorigineLibelle": "France"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité française"
+              }
+            ],
+            "BulletinsScolaires": [
+              {
+                "AnneeLibelle": "2023-2024",
+                "BulletinsScolairesAnnee": {
+                  "SerieLibelle": "Série Générale",
+                  "BulletinsScolairesSeries": [
+                    {
+                      "TrimestreLibelle": "Second trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "16,95",
+                          "MoyenneclasseCandidat": "13,77",
+                          "MoyenneBasseClasseduCandidat": "9,83",
+                          "MoyenneHauteClasseduCandidat": "18,55",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Très bon trimestre. Le travail est toujours aussi sérieux."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Expertes",
+                          "MoyenneduCandidat": "16,00",
+                          "MoyenneclasseCandidat": "15,55",
+                          "MoyenneBasseClasseduCandidat": "10,08",
+                          "MoyenneHauteClasseduCandidat": "18,83",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Très bon trimestre, élève motivé et très impliqué en cours."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Philosophie",
+                          "MoyenneduCandidat": "16,80",
+                          "MoyenneclasseCandidat": "14,63",
+                          "MoyenneBasseClasseduCandidat": "9,60",
+                          "MoyenneHauteClasseduCandidat": "17,60",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Très bon travail, rigoureux et sérieux. La méthode est en place, vous pouvez encore gagner en précision en justifiant et définissant davantage votre propos. Continuez ainsi."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "19,23",
+                          "MoyenneclasseCandidat": "16,09",
+                          "MoyenneBasseClasseduCandidat": "9,20",
+                          "MoyenneHauteClasseduCandidat": "19,23",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un excellent trimestre avec des connaissances sûres et un raisonnement rigoureux. Orso participe très régulièrement en classe et sa participation est de qualité."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "16,98",
+                          "MoyenneclasseCandidat": "14,49",
+                          "MoyenneBasseClasseduCandidat": "10,04",
+                          "MoyenneHauteClasseduCandidat": "18,13",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Des résultats tout aussi excellents ce trimestre. Orso s'investit pleinement dans la matière et tire profit du temps et des opportunités données."
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Troisième trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Expertes",
+                          "MoyenneduCandidat": "18,67",
+                          "MoyenneclasseCandidat": "14,75",
+                          "MoyenneBasseClasseduCandidat": "7,63",
+                          "MoyenneHauteClasseduCandidat": "18,92",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Excellent trimestre à l'écrit comme à l'oral, bravo !"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "19,00",
+                          "MoyenneclasseCandidat": "15,41",
+                          "MoyenneBasseClasseduCandidat": "8,13",
+                          "MoyenneHauteClasseduCandidat": "19,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Excellent trimestre pour conclure une année réussie."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "18,04",
+                          "MoyenneclasseCandidat": "15,39",
+                          "MoyenneBasseClasseduCandidat": "5,39",
+                          "MoyenneHauteClasseduCandidat": "19,23",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Excellent trimestre, tant à l'écrit qu'à l'oral. Orso est un élève moteur pour la classe."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Philosophie",
+                          "MoyenneduCandidat": "13,25",
+                          "MoyenneclasseCandidat": "12,88",
+                          "MoyenneBasseClasseduCandidat": "10,00",
+                          "MoyenneHauteClasseduCandidat": "17,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Assez bon travail, vous devez travailler vos capacités d'analyses pour gagner en profondeur et en rigueur dans vos réflexions."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "17,06",
+                          "MoyenneclasseCandidat": "13,95",
+                          "MoyenneBasseClasseduCandidat": "8,03",
+                          "MoyenneHauteClasseduCandidat": "18,17",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "De très bons résultats. Orso possède un niveau d'anglais déjà bien avancé. Ses compétences à l'oral et à l'écrit ne sont plus à prouver. Bonne participation cette année. Niveau B2 du CECRL acquis."
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Premier trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "18,94",
+                          "MoyenneclasseCandidat": "14,92",
+                          "MoyenneBasseClasseduCandidat": "10,91",
+                          "MoyenneHauteClasseduCandidat": "18,94",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "D'excellents résultats. Orso parle un anglais de bonne facture et participe très régulièrement en classe. Il possède une finesse d'analyse qui lui permet de bien comprendre les documents présentés et de rendre des devoirs de qualité."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Expertes",
+                          "MoyenneduCandidat": "14,20",
+                          "MoyenneclasseCandidat": "14,85",
+                          "MoyenneBasseClasseduCandidat": "9,05",
+                          "MoyenneHauteClasseduCandidat": "19,22",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Bon ensemble, élève motivé et impliqué en cours."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "17,70",
+                          "MoyenneclasseCandidat": "13,05",
+                          "MoyenneBasseClasseduCandidat": "6,42",
+                          "MoyenneHauteClasseduCandidat": "18,65",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Très bon trimestre. Orso a un bon potentiel.  Ses démonstrations sont rigoureuses et ses remarques en classe sont pertinentes."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Philosophie",
+                          "MoyenneduCandidat": "13,25",
+                          "MoyenneclasseCandidat": "13,93",
+                          "MoyenneBasseClasseduCandidat": "10,33",
+                          "MoyenneHauteClasseduCandidat": "17,58",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un bon ensemble. De bonnes capacités d'expression. Vous devez développer vos capacités d'analyse pour gagner en clarté et précision dans votre propos. Une bonne participation."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "18,53",
+                          "MoyenneclasseCandidat": "15,62",
+                          "MoyenneBasseClasseduCandidat": "10,73",
+                          "MoyenneHauteClasseduCandidat": "18,87",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Excellent trimestre, tant au niveau des résultats que de l'implication en classe. Orso est un élève motivé et ses interventions sont pertinentes."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "AnneeLibelle": "2022-2023",
+                "BulletinsScolairesAnnee": {
+                  "SerieLibelle": "Série Générale",
+                  "BulletinsScolairesSeries": [
+                    {
+                      "TrimestreLibelle": "Second trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "12,95",
+                          "MoyenneclasseCandidat": "13,93",
+                          "MoyenneBasseClasseduCandidat": "8,80",
+                          "MoyenneHauteClasseduCandidat": "18,21",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Un assez bon trimestre. Vous devez cependant être plus rigoureux à l'écrit en reprenant la méthodologie et en vous entraînant régulièrement. Une belle participation en classe."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "16,69",
+                          "MoyenneclasseCandidat": "13,93",
+                          "MoyenneBasseClasseduCandidat": "10,22",
+                          "MoyenneHauteClasseduCandidat": "18,15",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Très bon trimestre tant à l'écrit qu'à l'oral. Orso participe fréquemment et à bon escient."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "19,25",
+                          "MoyenneclasseCandidat": "14,81",
+                          "MoyenneBasseClasseduCandidat": "8,25",
+                          "MoyenneHauteClasseduCandidat": "20,00",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Excellent trimestre !"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "15,77",
+                          "MoyenneclasseCandidat": "12,74",
+                          "MoyenneBasseClasseduCandidat": "7,98",
+                          "MoyenneHauteClasseduCandidat": "17,44",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Des résultats en progrès. Le travail est sérieux, les raisonnements sont bien construits. Une bonne participation. A poursuivre."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "16,09",
+                          "MoyenneclasseCandidat": "15,08",
+                          "MoyenneBasseClasseduCandidat": "11,00",
+                          "MoyenneHauteClasseduCandidat": "19,29",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Résultats en progrès et satisfaisants. poursuivez ainsi"
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Troisième trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "17,43",
+                          "MoyenneclasseCandidat": "15,40",
+                          "MoyenneBasseClasseduCandidat": "12,43",
+                          "MoyenneHauteClasseduCandidat": "18,14",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Les résultats ont progressé tout au long de l'année, belle participation, le travail est sérieux. Attention toutefois aux bavardages"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "11,42",
+                          "MoyenneclasseCandidat": "14,00",
+                          "MoyenneBasseClasseduCandidat": "9,48",
+                          "MoyenneHauteClasseduCandidat": "18,92",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "A l'écrit, il faut impérativement suivre la méthodologie du commentaire et s'entraîner régulièrement à l'analyse de texte. Le travail n'est pas encore assez suivi. Bon travail à l'oral cependant, et une bonne participation en classe."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "14,55",
+                          "MoyenneclasseCandidat": "12,06",
+                          "MoyenneBasseClasseduCandidat": "7,62",
+                          "MoyenneHauteClasseduCandidat": "17,47",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Un assez bon ensemble mais des résultats assez irréguliers sur le trimestre. Toujours une très bonne participation."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "14,18",
+                          "MoyenneclasseCandidat": "13,24",
+                          "MoyenneBasseClasseduCandidat": "7,68",
+                          "MoyenneHauteClasseduCandidat": "18,00",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Des résultats en baisse et un peu irréguliers ce trimestre. Les résultats demeurent corrects et la participation en classe est de qualité. Orso doit poursuivre ses efforts."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "19,25",
+                          "MoyenneclasseCandidat": "14,84",
+                          "MoyenneBasseClasseduCandidat": "7,75",
+                          "MoyenneHauteClasseduCandidat": "20,00",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Excellent trimestre !"
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Premier trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "17,42",
+                          "MoyenneclasseCandidat": "14,20",
+                          "MoyenneBasseClasseduCandidat": "10,37",
+                          "MoyenneHauteClasseduCandidat": "19,42",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Excellent trimestre et une bonne participation en classe, félicitations."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "16,63",
+                          "MoyenneclasseCandidat": "14,04",
+                          "MoyenneBasseClasseduCandidat": "7,00",
+                          "MoyenneHauteClasseduCandidat": "20,00",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Trimestre très satisfaisant. Participation active en classe."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "11,83",
+                          "MoyenneclasseCandidat": "13,11",
+                          "MoyenneBasseClasseduCandidat": "9,65",
+                          "MoyenneHauteClasseduCandidat": "16,78",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Les résultats ne sont pas à la hauteur des capacités d'Orso. Il faut fournir un travail plus conséquent et plus régulier pour pouvoir construire des bases solides d'analyse littéraire."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "14,90",
+                          "MoyenneclasseCandidat": "13,09",
+                          "MoyenneBasseClasseduCandidat": "6,80",
+                          "MoyenneHauteClasseduCandidat": "17,47",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Un bon ensemble et une très bonne participation en classe. A poursuivre."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "15,33",
+                          "MoyenneclasseCandidat": "14,01",
+                          "MoyenneBasseClasseduCandidat": "6,83",
+                          "MoyenneHauteClasseduCandidat": "18,50",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Résultats et participation satisfaisants. Poursuivez sur cette lancée"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "FicheAvenir": {},
+            "AppreciationsEnseignantsFicheAvenir": [],
+            "Baccalaureat": {
+              "EDSScolaritePremiere1LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+              "EDSScolaritePremiere2LibelleBCN": "MATHEMATIQUES",
+              "EDSScolaritePremiere3LibelleBCN": "PHYSIQUE-CHIMIE",
+              "EDSScolariteTerminale1Libelle": "Physique-Chimie Spécialité",
+              "EDSScolariteTerminale2Libelle": "Mathématiques Spécialité",
+              "EDSScolaritePremiere1Libelle": "Sciences de la vie et de la Terre Spécialité",
+              "EDSScolaritePremiere2Libelle": "Mathématiques Spécialité",
+              "EDSScolaritePremiere3Libelle": "Physique-Chimie Spécialité"
+            },
+            "NotesBaccalaureat": [
+              {
+                "EpreuveLibelle": "Mathématiques",
+                "NoteEpreuve": "20,0"
+              },
+              {
+                "EpreuveLibelle": "Physique-Chimie",
+                "NoteEpreuve": "20,0"
+              },
+              {
+                "EpreuveLibelle": "Français écrit",
+                "NoteEpreuve": "14,0"
+              },
+              {
+                "EpreuveLibelle": "Français oral",
+                "NoteEpreuve": "12,0"
+              },
+              {
+                "EpreuveLibelle": "Sciences de la Vie et de la Terre  (EDS suivi uniquement en 1ère)",
+                "NoteEpreuve": "16,3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 1303315,
+              "NomCandidat": "DIALLO",
+              "PrenomCandidat": "Sada",
+              "DateNaissance": "20/08/1998"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité étrangère",
+                "NiveauEtudeLibelle": "2nd année d'études supérieures",
+                "TypeFormationLibelle": "Autre formation du supérieur",
+                "NomEtablissementOrigine": "Centre Supérieur d'Enseignement Technique",
+                "CommuneEtablissementOrigineLibelle": "Nouakchott",
+                "PaysEtablissementorigineLibelle": "Mauritanie"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité étrangère"
+              }
+            ],
+            "BulletinsScolaires": [],
+            "FicheAvenir": {},
+            "AppreciationsEnseignantsFicheAvenir": [],
+            "Baccalaureat": {},
+            "NotesBaccalaureat": []
+          }
+        ]
+      }
+    ]
+  }
+}

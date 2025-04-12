@@ -1,0 +1,44 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 535177,
+              "NomCandidat": "GASPAR",
+              "PrenomCandidat": "Laura",
+              "DateNaissance": "04/09/2007"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "NiveauEtudeLibelle": "Terminale",
+                "TypeFormationLibelle": "Terminale",
+                "TypeClasseLibelle": "Professionnelle",
+                "TypeEtablissementorigineLibelle": "Lycée Professionnel",
+                "NomEtablissementOrigine": "Lycée agricole de la Bretonnière",
+                "CommuneEtablissementOrigineLibelle": "Chailly-en-Brie",
+                "PaysEtablissementorigineLibelle": "France"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité française"
+              }
+            ],
+            "BulletinsScolaires": [],
+            "FicheAvenir": {
+              "NiveauClasseCode": 2
+            },
+            "AppreciationsEnseignantsFicheAvenir": [],
+            "Baccalaureat": {},
+            "NotesBaccalaureat": []
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 801967,
+              "NomCandidat": "LOURARHI",
+              "PrenomCandidat": "Bilel",
+              "DateNaissance": "17/12/2007"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "NiveauEtudeLibelle": "Terminale",
+                "TypeFormationLibelle": "Terminale",
+                "TypeClasseLibelle": "Générale",
+                "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+                "NomEtablissementOrigine": "Lycée Newton-Enrea",
+                "CommuneEtablissementOrigineLibelle": "Clichy",
+                "PaysEtablissementorigineLibelle": "France"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité française"
+              }
+            ],
+            "BulletinsScolaires": [
+              {
+                "AnneeLibelle": "2024-2025",
+                "BulletinsScolairesAnnee": {
+                  "SerieLibelle": "Série Générale",
+                  "BulletinsScolairesSeries": [
+                    {
+                      "TrimestreLibelle": "Premier trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "10,30",
+                          "MoyenneclasseCandidat": "9,30",
+                          "MoyenneBasseClasseduCandidat": "2,90",
+                          "MoyenneHauteClasseduCandidat": "18,20",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Résultats corrects. Vous semblez avoir entendu les conseils donnés l'an passée. Votre attitude est la bonne, encore un effort vous allez réussir."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "12,40",
+                          "MoyenneclasseCandidat": "13,40",
+                          "MoyenneBasseClasseduCandidat": "8,50",
+                          "MoyenneHauteClasseduCandidat": "19,40",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Trimestre correct pour Bilel, Je sais qu'il peut obtenir une meilleure note, il devrait réviser les bases de la grammaire et lire un peu en anglais à la maison pour augmenter son vocabulaire."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "7,80",
+                          "MoyenneclasseCandidat": "11,30",
+                          "MoyenneBasseClasseduCandidat": "4,70",
+                          "MoyenneHauteClasseduCandidat": "17,70",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Des résultats justes. Une participation assez variable en classe, parfois tu poses également des questions pertinentes en classe alors que parfois tu es passif."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Philosophie",
+                          "MoyenneduCandidat": "12,00",
+                          "MoyenneclasseCandidat": "12,20",
+                          "MoyenneBasseClasseduCandidat": "8,00",
+                          "MoyenneHauteClasseduCandidat": "18,30",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un trimestre assez satisfaisant. L'attitude en classe est sérieuse et les devoirs sont encourageants. Il faut encore gagner en rigueur, ce que vous parviendrez à faire en intensifiant le travail personnel."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Expertes",
+                          "MoyenneduCandidat": "8,00",
+                          "MoyenneclasseCandidat": "12,90",
+                          "MoyenneBasseClasseduCandidat": "7,50",
+                          "MoyenneHauteClasseduCandidat": "18,90",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Des résultats un peu faibles mais Bilel semble s'investir davantage afin d'améliorer ses résultats."
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Second trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Expertes",
+                          "MoyenneduCandidat": "10,00",
+                          "MoyenneclasseCandidat": "15,10",
+                          "MoyenneBasseClasseduCandidat": "8,00",
+                          "MoyenneHauteClasseduCandidat": "20,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Trimestre correct."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "14,80",
+                          "MoyenneclasseCandidat": "12,50",
+                          "MoyenneBasseClasseduCandidat": "2,50",
+                          "MoyenneHauteClasseduCandidat": "19,20",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Bilel a eu un bon trimestre. Continuez a bien travailler à participer et ne baissez pas les bras!"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Philosophie",
+                          "MoyenneduCandidat": "10,90",
+                          "MoyenneclasseCandidat": "11,60",
+                          "MoyenneBasseClasseduCandidat": "6,80",
+                          "MoyenneHauteClasseduCandidat": "16,80",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Des résultats convenables, mais tout de même en baisse ce trimestre. Vous êtes parfois trop passif en classe et devez intensifier votre travail personnel pour progresser."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "11,20",
+                          "MoyenneclasseCandidat": "10,80",
+                          "MoyenneBasseClasseduCandidat": "6,00",
+                          "MoyenneHauteClasseduCandidat": "15,80",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Des résultats corrects, en progrès. Tu es également plus investi en classe ce trimestre."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "7,00",
+                          "MoyenneclasseCandidat": "10,10",
+                          "MoyenneBasseClasseduCandidat": "5,00",
+                          "MoyenneHauteClasseduCandidat": "19,10",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Résultats trop justes malgré beaucoup d'efforts de votre part. Ne vous découragez pas, vous allez finir par réussir. Soyez plus précis dans l'apprentissage du cours."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "AnneeLibelle": "2023-2024",
+                "BulletinsScolairesAnnee": {
+                  "SerieLibelle": "Série Générale",
+                  "BulletinsScolairesSeries": [
+                    {
+                      "TrimestreLibelle": "Troisième trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "13,00",
+                          "MoyenneclasseCandidat": "11,73",
+                          "MoyenneBasseClasseduCandidat": "4,20",
+                          "MoyenneHauteClasseduCandidat": "17,60",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un trimestre très correct tant au niveau de l'attitude en classe que résultats. Le bilan de l'année est positif."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "9,90",
+                          "MoyenneclasseCandidat": "9,59",
+                          "MoyenneBasseClasseduCandidat": "4,10",
+                          "MoyenneHauteClasseduCandidat": "14,20",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Ensemble trop juste. Bilel a des capacités d'analyse et ses remarques à l'oral témoignent d'une grande finesse mais le travail a manqué de régularité et de sérieux, c'est bien dommage !"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "8,00",
+                          "MoyenneclasseCandidat": "11,30",
+                          "MoyenneBasseClasseduCandidat": "1,20",
+                          "MoyenneHauteClasseduCandidat": "19,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Le travail de Bilel n'est pas à la hauteur d'une première spécialité"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "14,50",
+                          "MoyenneclasseCandidat": "10,86",
+                          "MoyenneBasseClasseduCandidat": "0,00",
+                          "MoyenneHauteClasseduCandidat": "16,80",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "C'est un bon trimestre. Billel a davantage pris sa part aux échanges en classe ce trimestre. De bonnes compétences langagières."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "8,40",
+                          "MoyenneclasseCandidat": "10,32",
+                          "MoyenneBasseClasseduCandidat": "1,10",
+                          "MoyenneHauteClasseduCandidat": "16,90",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Vous semblez démobilisé face au travail c'est dommage. Reprenez-vous!"
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Premier trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "12,30",
+                          "MoyenneclasseCandidat": "10,03",
+                          "MoyenneBasseClasseduCandidat": "5,80",
+                          "MoyenneHauteClasseduCandidat": "14,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Ensemble assez satisfaisant. Bilel a des facultés dans l'analyse et dans l'expression. Il faut cependant approfondir la connaissance des textes au programme."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "11,00",
+                          "MoyenneclasseCandidat": "12,44",
+                          "MoyenneBasseClasseduCandidat": "7,00",
+                          "MoyenneHauteClasseduCandidat": "17,60",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Bons résultats expérimentaux mais il faut cependant redoubler d'efforts lors du passage à l'écrit où les résultats sont trop justes. Il faut gagner en rigueur."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "5,60",
+                          "MoyenneclasseCandidat": "9,05",
+                          "MoyenneBasseClasseduCandidat": "1,60",
+                          "MoyenneHauteClasseduCandidat": "19,30",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "[Question de Cours 1/5] Bilel est un élève curieux et intéressé. Cependant les grosses fatigues les mardi matin et l'apprentissage du cours sont des problèmes qu'il faut régler. Je suis sûr que vous pouvez faire bien mieux"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "12,90",
+                          "MoyenneclasseCandidat": "11,30",
+                          "MoyenneBasseClasseduCandidat": "7,50",
+                          "MoyenneHauteClasseduCandidat": "15,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Des résultats corrects dans l'ensemble. Les notions de cours doivent néanmoins être approfondies. Bonne implication en TP continuez ainsi."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "14,60",
+                          "MoyenneclasseCandidat": "11,77",
+                          "MoyenneBasseClasseduCandidat": "5,80",
+                          "MoyenneHauteClasseduCandidat": "18,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "C'est un bon trimestre. Bilel a un bon  niveau d'ensemble, il se montre à son aise à l'oral."
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Second trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "6,70",
+                          "MoyenneclasseCandidat": "10,21",
+                          "MoyenneBasseClasseduCandidat": "0,40",
+                          "MoyenneHauteClasseduCandidat": "20,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Bilel n'est pas assez réveillé en classe pour pouvoir réellement comprendre le cours et progresser."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "10,10",
+                          "MoyenneclasseCandidat": "10,04",
+                          "MoyenneBasseClasseduCandidat": "7,10",
+                          "MoyenneHauteClasseduCandidat": "13,60",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Ensemble juste correct. Les résultats sont en baisse constante ce trimestre faute de régularité dans le travail. Il faut vous ressaisir, vous pouvez faire mieux !"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "11,30",
+                          "MoyenneclasseCandidat": "11,18",
+                          "MoyenneBasseClasseduCandidat": "5,80",
+                          "MoyenneHauteClasseduCandidat": "15,80",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Des résultats en baisse, le travail reste très superficiel. Vous êtes capable de bien mieux si vous accentuez votre travail personnel. Bonne implication en TP."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "8,80",
+                          "MoyenneclasseCandidat": "10,43",
+                          "MoyenneBasseClasseduCandidat": "4,20",
+                          "MoyenneHauteClasseduCandidat": "18,60",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Résultats trop justes. Vous ne fournissez pas les efforts en classe et à la maison permettant de surmonter vos difficultés."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "11,10",
+                          "MoyenneclasseCandidat": "12,01",
+                          "MoyenneBasseClasseduCandidat": "6,00",
+                          "MoyenneHauteClasseduCandidat": "19,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Les résultats sont corrects mais Bilel est moins impliqué en classe qu'au précédent trimestre."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "FicheAvenir": {
+              "NiveauClasseCode": 5
+            },
+            "AppreciationsEnseignantsFicheAvenir": [
+              {
+                "MatiereFicheAvenirLibelle": "Philosophie",
+                "MatiereFicheAvenirLibelleBCN": "PHILOSOPHIE",
+                "AppreciationFicheAvenir": "Des résultats assez satisfaisants. Vous êtes encore trop passif en classe et devez intensifier votre travail personnel pour progresser."
+              },
+              {
+                "MatiereFicheAvenirLibelle": "Langue vivante A",
+                "MatiereFicheAvenirLibelleBCN": "LANGUE VIVANTE 1",
+                "AppreciationFicheAvenir": "Voir les bulletins.\nVoir les bulletins."
+              },
+              {
+                "MatiereFicheAvenirLibelle": "Mathématiques Spécialité",
+                "MatiereFicheAvenirLibelleBCN": "MATHEMATIQUES",
+                "AppreciationFicheAvenir": "Voir les bulletins."
+              },
+              {
+                "MatiereFicheAvenirLibelle": "Physique-Chimie Spécialité",
+                "MatiereFicheAvenirLibelleBCN": "PHYSIQUE-CHIMIE",
+                "AppreciationFicheAvenir": "Élève sérieux. Malgré des efforts réguliers, des difficultés subsistent. Une meilleure prise dinitiative et davantage dautonomie renforceront encore ses chances de réussite dans un cursus sélectif."
+              },
+              {
+                "MatiereFicheAvenirLibelle": "Mathématiques Expertes",
+                "MatiereFicheAvenirLibelleBCN": "MATHEMATIQUES EXPERTES",
+                "AppreciationFicheAvenir": "Voir les bulletins."
+              }
+            ],
+            "Baccalaureat": {
+              "EDSScolaritePremiere1LibelleBCN": "MATHEMATIQUES",
+              "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE",
+              "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+              "EDSScolariteTerminale1Libelle": "Mathématiques Spécialité",
+              "EDSScolariteTerminale2Libelle": "Physique-Chimie Spécialité",
+              "EDSScolaritePremiere1Libelle": "Mathématiques Spécialité",
+              "EDSScolaritePremiere2Libelle": "Physique-Chimie Spécialité",
+              "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+            },
+            "NotesBaccalaureat": [
+              {
+                "EpreuveLibelle": "Mathématiques"
+              },
+              {
+                "EpreuveLibelle": "Physique-Chimie"
+              },
+              {
+                "EpreuveLibelle": "Français écrit",
+                "NoteEpreuve": "6,0"
+              },
+              {
+                "EpreuveLibelle": "Français oral",
+                "NoteEpreuve": "14,0"
+              },
+              {
+                "EpreuveLibelle": "Sciences de la Vie et de la Terre  (EDS suivi uniquement en 1ère)",
+                "NoteEpreuve": "12,4"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

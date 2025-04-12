@@ -1,0 +1,53 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 489497,
+              "NomCandidat": "KARRAMKAN",
+              "PrenomCandidat": "Kessy Yasmina Emeline",
+              "DateNaissance": "10/01/2007"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "NiveauEtudeLibelle": "Terminale",
+                "TypeFormationLibelle": "Terminale",
+                "TypeClasseLibelle": "Technologique",
+                "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+                "NomEtablissementOrigine": "Lycée agricole Convenance",
+                "CommuneEtablissementOrigineLibelle": "Baie-Mahault",
+                "PaysEtablissementorigineLibelle": "France"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité française"
+              }
+            ],
+            "BulletinsScolaires": [],
+            "FicheAvenir": {
+              "NiveauClasseCode": 4
+            },
+            "AppreciationsEnseignantsFicheAvenir": [],
+            "Baccalaureat": {
+              "EDSScolaritePremiere1LibelleBCN": "TECHNOLOGIE",
+              "EDSScolaritePremiere2LibelleBCN": "GESTION RESS ET ALIM",
+              "EDSScolaritePremiere3LibelleBCN": "TERRITOIRES ET SOCIETES",
+              "EDSScolariteTerminale1Libelle": "Gestion des ressources et alimentation",
+              "EDSScolariteTerminale2Libelle": "Territoires et technologie",
+              "EDSScolaritePremiere1Libelle": "Technologie",
+              "EDSScolaritePremiere2Libelle": "Gestion des ressources et alimentation",
+              "EDSScolaritePremiere3Libelle": "Territoires et société"
+            },
+            "NotesBaccalaureat": []
+          }
+        ]
+      }
+    ]
+  }
+}

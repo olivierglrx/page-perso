@@ -1,0 +1,72 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 1496558,
+              "NomCandidat": "ABOUDOU",
+              "PrenomCandidat": "Asma",
+              "DateNaissance": "25/03/2003"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "NiveauEtudeLibelle": "Non scolarisé",
+                "TypeFormationLibelle": "Formations des écoles de commerce et de management",
+                "FormationScolariteLibelle": "Formation des écoles de commerce et de management",
+                "TypeEtablissementorigineLibelle": "Ecole de Commerce/Management",
+                "NomEtablissementOrigine": "école supérieur de gestion et de commerce international",
+                "CommuneEtablissementOrigineLibelle": "paris",
+                "PaysEtablissementorigineLibelle": "France"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité française"
+              }
+            ],
+            "BulletinsScolaires": [],
+            "FicheAvenir": {},
+            "AppreciationsEnseignantsFicheAvenir": [],
+            "Baccalaureat": {
+              "EDSScolaritePremiere1LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+              "EDSScolaritePremiere2LibelleBCN": "MATHEMATIQUES",
+              "EDSScolaritePremiere3LibelleBCN": "PHYSIQUE-CHIMIE",
+              "EDSScolariteTerminale1Libelle": "Sciences de la vie et de la Terre Spécialité",
+              "EDSScolariteTerminale2Libelle": "Physique-Chimie Spécialité",
+              "EDSScolaritePremiere1Libelle": "Sciences de la vie et de la Terre Spécialité",
+              "EDSScolaritePremiere2Libelle": "Mathématiques Spécialité",
+              "EDSScolaritePremiere3Libelle": "Physique-Chimie Spécialité"
+            },
+            "NotesBaccalaureat": [
+              {
+                "EpreuveLibelle": "Physique-Chimie",
+                "NoteEpreuve": "9,7"
+              },
+              {
+                "EpreuveLibelle": "Sciences de la Vie et de la Terre",
+                "NoteEpreuve": "11,7"
+              },
+              {
+                "EpreuveLibelle": "Français écrit",
+                "NoteEpreuve": "12,0"
+              },
+              {
+                "EpreuveLibelle": "Français oral",
+                "NoteEpreuve": "12,0"
+              },
+              {
+                "EpreuveLibelle": "Mathématiques (EDS suivi uniquement en 1ère)",
+                "NoteEpreuve": "10,0"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 566318,
+              "NomCandidat": "FRANCOIS",
+              "PrenomCandidat": "Ambre",
+              "DateNaissance": "21/03/2007"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "NiveauEtudeLibelle": "Terminale",
+                "TypeFormationLibelle": "Terminale",
+                "TypeClasseLibelle": "Générale",
+                "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+                "NomEtablissementOrigine": "Lycée La Bruyère",
+                "CommuneEtablissementOrigineLibelle": "Versailles",
+                "PaysEtablissementorigineLibelle": "France"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité française"
+              }
+            ],
+            "BulletinsScolaires": [
+              {
+                "AnneeLibelle": "2024-2025",
+                "BulletinsScolairesAnnee": {
+                  "SerieLibelle": "Série Générale",
+                  "BulletinsScolairesSeries": [
+                    {
+                      "TrimestreLibelle": "Premier trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "8,43",
+                          "MoyenneclasseCandidat": "11,11",
+                          "MoyenneBasseClasseduCandidat": "4,70",
+                          "MoyenneHauteClasseduCandidat": "15,66",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un ensemble fragile suite à un incident de parcours. Poursuivez et accentuez vos efforts."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                          "MoyenneduCandidat": "10,60",
+                          "MoyenneclasseCandidat": "13,95",
+                          "MoyenneBasseClasseduCandidat": "9,30",
+                          "MoyenneHauteClasseduCandidat": "18,40",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Ensemble un peu juste mais Ambre est toujours sérieuse et appliquée dans son travail, il faut poursuivre les efforts."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "15,50",
+                          "MoyenneclasseCandidat": "16,07",
+                          "MoyenneBasseClasseduCandidat": "12,00",
+                          "MoyenneHauteClasseduCandidat": "19,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Excellente compréhension et restitution des questions sur le fond. Bon anglais. Absorbe aisément les connaissances. Suit vraiment. Peut parler face à la classe. Comportement actif, agréable et parfait."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "8,99",
+                          "MoyenneclasseCandidat": "11,30",
+                          "MoyenneBasseClasseduCandidat": "4,50",
+                          "MoyenneHauteClasseduCandidat": "17,42",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un ensemble insuffisant mais qui devrait progresser avec une meilleure gestion du temps."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Philosophie",
+                          "MoyenneduCandidat": "9,00",
+                          "MoyenneclasseCandidat": "12,40",
+                          "MoyenneBasseClasseduCandidat": "9,00",
+                          "MoyenneHauteClasseduCandidat": "17,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Elève sérieuse, quelques progrès, mais elle doit éviter de \"sortir\" du sujet;"
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Second trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "8,83",
+                          "MoyenneclasseCandidat": "10,65",
+                          "MoyenneBasseClasseduCandidat": "2,75",
+                          "MoyenneHauteClasseduCandidat": "15,24",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Les résultats demeurent fragiles. Poursuivez vos efforts et ne vous découragez pas."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Philosophie",
+                          "MoyenneduCandidat": "12,00",
+                          "MoyenneclasseCandidat": "12,89",
+                          "MoyenneBasseClasseduCandidat": "8,00",
+                          "MoyenneHauteClasseduCandidat": "18,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Des progrès à l'écrit. Ambre doit prendre confiance en elle."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "13,22",
+                          "MoyenneclasseCandidat": "13,23",
+                          "MoyenneBasseClasseduCandidat": "7,05",
+                          "MoyenneHauteClasseduCandidat": "17,10",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Une belle hausse des résultats. Bilan positif : A poursuivre dans ce sens.  Participation régulière à l'atelier de préparation à PASS : bio cellulaire et biochimie."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "15,45",
+                          "MoyenneclasseCandidat": "16,23",
+                          "MoyenneBasseClasseduCandidat": "11,05",
+                          "MoyenneHauteClasseduCandidat": "19,95",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Très bonne élève disposant de facilités à l'écrit et à l'oral. Le cours est suivi, mémorisé, et les connaissances bien réutilisées. Un jeu de rôle à deux préparé très réussi. Comportement parfait."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                          "MoyenneduCandidat": "14,40",
+                          "MoyenneclasseCandidat": "13,94",
+                          "MoyenneBasseClasseduCandidat": "9,30",
+                          "MoyenneHauteClasseduCandidat": "18,40",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "De beaux progrès ce trimestre, l'ensemble devient satisfaisant, ambre doit continuer à travailler ainsi."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "AnneeLibelle": "2023-2024",
+                "BulletinsScolairesAnnee": {
+                  "SerieLibelle": "Série Générale",
+                  "BulletinsScolairesSeries": [
+                    {
+                      "TrimestreLibelle": "Premier trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "12,00",
+                          "MoyenneclasseCandidat": "12,59",
+                          "MoyenneBasseClasseduCandidat": "6,30",
+                          "MoyenneHauteClasseduCandidat": "18,90",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Attitude sérieuse, un bon investissement en cours et TP. Une assez bonne capacité d'analyse mise en place mais il faudra approfondir la maitrise des notions travaillées pour consolider le niveau.Poursuivez vos efforts."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "11,90",
+                          "MoyenneclasseCandidat": "11,70",
+                          "MoyenneBasseClasseduCandidat": "7,74",
+                          "MoyenneHauteClasseduCandidat": "17,24",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un ensemble honorable, avec beaucoup de sérieux dans l'attitude et le travail. L'écrit est pour le moment irrégulier mais progressera si vous portez vos efforts sur la méthode."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "11,05",
+                          "MoyenneclasseCandidat": "11,94",
+                          "MoyenneBasseClasseduCandidat": "5,00",
+                          "MoyenneHauteClasseduCandidat": "17,17",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Du sérieux et de la bonne volonté à maintenir ; cependant l'ensemble est un peu juste :  il faut approfondir le travail personnel pour consolider les bases et mieux réussir les évaluations surveillées."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "14,67",
+                          "MoyenneclasseCandidat": "13,71",
+                          "MoyenneBasseClasseduCandidat": "6,50",
+                          "MoyenneHauteClasseduCandidat": "18,67",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "C'est un bon trimestre, travail sérieux."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "7,00",
+                          "MoyenneclasseCandidat": "11,56",
+                          "MoyenneBasseClasseduCandidat": "1,50",
+                          "MoyenneHauteClasseduCandidat": "18,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Des difficultés probablement dues à des lacunes, mais l'attitude est sérieuse et volontaire. Accentuez encore vos efforts."
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Second trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "16,11",
+                          "MoyenneclasseCandidat": "13,09",
+                          "MoyenneBasseClasseduCandidat": "4,33",
+                          "MoyenneHauteClasseduCandidat": "18,28",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Des progrès mérités, c'est un excellent trimestre."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "14,70",
+                          "MoyenneclasseCandidat": "12,79",
+                          "MoyenneBasseClasseduCandidat": "8,85",
+                          "MoyenneHauteClasseduCandidat": "16,02",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Bon trimestre : les progrès sont là car Ambre tient bien compte des conseils et travaille très sérieusement."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "13,10",
+                          "MoyenneclasseCandidat": "13,89",
+                          "MoyenneBasseClasseduCandidat": "10,20",
+                          "MoyenneHauteClasseduCandidat": "17,80",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un bon trimestre : Les acquis de connaissances et de méthodes, tant à l'écrit qu'un TP progressent même s'ils doivent être encore approfondis. Poursuivez vos efforts."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "11,05",
+                          "MoyenneclasseCandidat": "11,56",
+                          "MoyenneBasseClasseduCandidat": "4,67",
+                          "MoyenneHauteClasseduCandidat": "17,05",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Les résultats restent un peu justes malgré la bonne volonté apparente : il ne faut pas hésiter à demander de l'aide en cas difficultés et intensifier les efforts pour progresser."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "11,50",
+                          "MoyenneclasseCandidat": "11,56",
+                          "MoyenneBasseClasseduCandidat": "3,50",
+                          "MoyenneHauteClasseduCandidat": "18,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Votre sérieux et vos efforts vous ont permis de réaliser une belle progression, continuez dans cette voie."
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Troisième trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "13,67",
+                          "MoyenneclasseCandidat": "11,84",
+                          "MoyenneBasseClasseduCandidat": "5,44",
+                          "MoyenneHauteClasseduCandidat": "15,33",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Des résultats encore très satisfaisants. Ambre a été sérieuse et s'est bien impliquée toute l'année."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "16,50",
+                          "MoyenneclasseCandidat": "14,07",
+                          "MoyenneBasseClasseduCandidat": "7,25",
+                          "MoyenneHauteClasseduCandidat": "17,13",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Très bon trimestre dans l'ensemble."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "9,65",
+                          "MoyenneclasseCandidat": "11,57",
+                          "MoyenneBasseClasseduCandidat": "3,33",
+                          "MoyenneHauteClasseduCandidat": "17,56",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Les résultats ont baissé pour devenir insuffisants : les efforts ne semblent pas avoir été à la hauteur des difficultés rencontrées ce trimestre."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "10,50",
+                          "MoyenneclasseCandidat": "11,83",
+                          "MoyenneBasseClasseduCandidat": "3,00",
+                          "MoyenneHauteClasseduCandidat": "17,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Après un début de trimestre difficile, vous avez bien réagi et l'ensemble est finalement correct. Une attitude positive tout au long de l'année."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "7,50",
+                          "MoyenneclasseCandidat": "11,60",
+                          "MoyenneBasseClasseduCandidat": "4,90",
+                          "MoyenneHauteClasseduCandidat": "16,70",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Des résultats fragiles. Le travail personnel fourni n'a pas été assez approfondi pour acquérir correctement les notions étudiées et mettre en place des raisonnements solides."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "FicheAvenir": {
+              "NiveauClasseCode": 5
+            },
+            "AppreciationsEnseignantsFicheAvenir": [
+              {
+                "MatiereFicheAvenirLibelle": "Philosophie",
+                "MatiereFicheAvenirLibelleBCN": "PHILOSOPHIE",
+                "AppreciationFicheAvenir": "Assez favorable."
+              },
+              {
+                "MatiereFicheAvenirLibelle": "Langue vivante A",
+                "MatiereFicheAvenirLibelleBCN": "LANGUE VIVANTE 1",
+                "AppreciationFicheAvenir": "Très bon potentiel et des résultats déjà intéressants. Continuera à progresser."
+              },
+              {
+                "MatiereFicheAvenirLibelle": "Physique-Chimie Spécialité",
+                "MatiereFicheAvenirLibelleBCN": "PHYSIQUE-CHIMIE",
+                "AppreciationFicheAvenir": "Un ensemble un peu juste mais de la bonne volonté."
+              },
+              {
+                "MatiereFicheAvenirLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MatiereFicheAvenirLibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+                "AppreciationFicheAvenir": "Un bon ensemble. Ambre est particulièrement motivée par son projet d'études autour de la santé animale, où elle devrait réussir pleinement."
+              }
+            ],
+            "Baccalaureat": {
+              "EDSScolaritePremiere1LibelleBCN": "MATHEMATIQUES",
+              "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE",
+              "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+              "EDSScolariteTerminale1Libelle": "Physique-Chimie Spécialité",
+              "EDSScolariteTerminale2Libelle": "Sciences de la vie et de la Terre Spécialité",
+              "EDSScolaritePremiere1Libelle": "Mathématiques Spécialité",
+              "EDSScolaritePremiere2Libelle": "Physique-Chimie Spécialité",
+              "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+            },
+            "NotesBaccalaureat": [
+              {
+                "EpreuveLibelle": "Physique-Chimie"
+              },
+              {
+                "EpreuveLibelle": "Sciences de la Vie et de la Terre"
+              },
+              {
+                "EpreuveLibelle": "Français écrit",
+                "NoteEpreuve": "12,0"
+              },
+              {
+                "EpreuveLibelle": "Français oral",
+                "NoteEpreuve": "15,0"
+              },
+              {
+                "EpreuveLibelle": "Mathématiques (EDS suivi uniquement en 1ère)",
+                "NoteEpreuve": "9,7"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

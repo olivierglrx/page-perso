@@ -1,0 +1,40 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 1057021,
+              "NomCandidat": "DIOP",
+              "PrenomCandidat": "Serigne Fallou",
+              "DateNaissance": "04/04/2006"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité étrangère",
+                "NiveauEtudeLibelle": "1ère année d'études supérieures",
+                "TypeFormationLibelle": "Autre formation du supérieur",
+                "NomEtablissementOrigine": "Université Alioune Diop de Bambey",
+                "CommuneEtablissementOrigineLibelle": "Diourbel",
+                "PaysEtablissementorigineLibelle": "Sénégal"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité étrangère"
+              }
+            ],
+            "BulletinsScolaires": [],
+            "FicheAvenir": {},
+            "AppreciationsEnseignantsFicheAvenir": [],
+            "Baccalaureat": {},
+            "NotesBaccalaureat": []
+          }
+        ]
+      }
+    ]
+  }
+}

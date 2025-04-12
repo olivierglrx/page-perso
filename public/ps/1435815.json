@@ -1,0 +1,40 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 1435815,
+              "NomCandidat": "SEKONGO",
+              "PrenomCandidat": "Christian",
+              "DateNaissance": "15/01/2004"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité étrangère",
+                "NiveauEtudeLibelle": "1ère année d'études supérieures",
+                "TypeFormationLibelle": "Autre formation du supérieur",
+                "NomEtablissementOrigine": "UNIVERSITE NANGUI ABROGOUA",
+                "CommuneEtablissementOrigineLibelle": "abidjan",
+                "PaysEtablissementorigineLibelle": "Cote D'Ivoire"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité étrangère"
+              }
+            ],
+            "BulletinsScolaires": [],
+            "FicheAvenir": {},
+            "AppreciationsEnseignantsFicheAvenir": [],
+            "Baccalaureat": {},
+            "NotesBaccalaureat": []
+          }
+        ]
+      }
+    ]
+  }
+}

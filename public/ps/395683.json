@@ -1,0 +1,53 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 395683,
+              "NomCandidat": "KOULETIO",
+              "PrenomCandidat": "Innocentia",
+              "DateNaissance": "16/09/2006"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "NiveauEtudeLibelle": "Terminale",
+                "TypeFormationLibelle": "Terminale",
+                "TypeClasseLibelle": "Technologique",
+                "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+                "NomEtablissementOrigine": "Lycée Pierre-Gilles de Gennes - ENCPB",
+                "CommuneEtablissementOrigineLibelle": "Paris 13e  Arrondissement",
+                "PaysEtablissementorigineLibelle": "France"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité française"
+              }
+            ],
+            "BulletinsScolaires": [],
+            "FicheAvenir": {
+              "NiveauClasseCode": 3
+            },
+            "AppreciationsEnseignantsFicheAvenir": [],
+            "Baccalaureat": {
+              "EDSScolaritePremiere1LibelleBCN": "BIOTECHNOLOGIE",
+              "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE ET MATHEMATIQUES",
+              "EDSScolaritePremiere3LibelleBCN": "BIOCHIMIE-BIOLOGIE",
+              "EDSScolariteTerminale1Libelle": "Biochimie-Biologie-Biotechnologie",
+              "EDSScolariteTerminale2Libelle": "Physique-Chimie et Mathématiques",
+              "EDSScolaritePremiere1Libelle": "Biotechnologies",
+              "EDSScolaritePremiere2Libelle": "Physique-Chimie et Mathématiques",
+              "EDSScolaritePremiere3Libelle": "Biochimie-Biologie"
+            },
+            "NotesBaccalaureat": []
+          }
+        ]
+      }
+    ]
+  }
+}

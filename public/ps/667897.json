@@ -1,0 +1,342 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 667897,
+              "NomCandidat": "BRUN",
+              "PrenomCandidat": "Madeleine",
+              "DateNaissance": "28/09/2007"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "NiveauEtudeLibelle": "Terminale",
+                "TypeFormationLibelle": "Terminale",
+                "TypeClasseLibelle": "Générale",
+                "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+                "NomEtablissementOrigine": "Collège Lycée Notre-Dame Providence",
+                "CommuneEtablissementOrigineLibelle": "Enghien-les-Bains",
+                "PaysEtablissementorigineLibelle": "France"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité française"
+              }
+            ],
+            "BulletinsScolaires": [
+              {
+                "AnneeLibelle": "2023-2024",
+                "BulletinsScolairesAnnee": {
+                  "SerieLibelle": "Série Générale",
+                  "BulletinsScolairesSeries": [
+                    {
+                      "TrimestreLibelle": "Premier trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "15,08",
+                          "MoyenneclasseCandidat": "13,98",
+                          "MoyenneBasseClasseduCandidat": "5,98",
+                          "MoyenneHauteClasseduCandidat": "20,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Élève motivée, trimestre correct."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "14,56",
+                          "MoyenneclasseCandidat": "13,81",
+                          "MoyenneBasseClasseduCandidat": "8,50",
+                          "MoyenneHauteClasseduCandidat": "16,71",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Madeleine est attentive et participe bien en classe. Elle a progressé dans l'analyse des textes.  Poursuis sur cette voie."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "11,70",
+                          "MoyenneclasseCandidat": "14,29",
+                          "MoyenneBasseClasseduCandidat": "10,00",
+                          "MoyenneHauteClasseduCandidat": "19,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Des résultats à l'écrit corrects et un bon investissement à l'oral. Poursuis tes efforts."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "15,50",
+                          "MoyenneclasseCandidat": "13,07",
+                          "MoyenneBasseClasseduCandidat": "8,18",
+                          "MoyenneHauteClasseduCandidat": "17,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Bon trimestre. Travail sérieux et régulier. Madeleine doit cependant apprendre à être plus rigoureuse à l'écrit."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "10,17",
+                          "MoyenneclasseCandidat": "12,75",
+                          "MoyenneBasseClasseduCandidat": "5,00",
+                          "MoyenneHauteClasseduCandidat": "18,33",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un ensemble un peu juste. Il faut fournir un travail plus soutenu."
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Second trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "10,78",
+                          "MoyenneclasseCandidat": "11,87",
+                          "MoyenneBasseClasseduCandidat": "4,10",
+                          "MoyenneHauteClasseduCandidat": "19,90",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Ensemble assez fragile malgré un travail qui semble sérieux. Poursuivez les efforts entrepris en n'hésitant pas à ficher les exercices-types afin de développer des automatismes de résolution."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "11,00",
+                          "MoyenneclasseCandidat": "11,24",
+                          "MoyenneBasseClasseduCandidat": "5,25",
+                          "MoyenneHauteClasseduCandidat": "16,58",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Une légère progression ce trimestre."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "10,00",
+                          "MoyenneclasseCandidat": "13,26",
+                          "MoyenneBasseClasseduCandidat": "6,86",
+                          "MoyenneHauteClasseduCandidat": "18,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Des résultats justes ce trimestre. Madeleine doit s'entraîner à l'écrit pour gagner en rigueur. Intensifie tes efforts dans ce sens."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "16,33",
+                          "MoyenneclasseCandidat": "15,28",
+                          "MoyenneBasseClasseduCandidat": "11,60",
+                          "MoyenneHauteClasseduCandidat": "19,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Travail satisfaisant tant à l'oral qu'à écrit. Madeleine est investie en classe. Continuez ainsi."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "13,50",
+                          "MoyenneclasseCandidat": "12,96",
+                          "MoyenneBasseClasseduCandidat": "8,17",
+                          "MoyenneHauteClasseduCandidat": "16,86",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "De réels progrès, tant dans l'analyse des textes que sur la maitrise formelle des commentaires et dissertations. Il faut poursuivre ainsi."
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Troisième trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "9,50",
+                          "MoyenneclasseCandidat": "11,93",
+                          "MoyenneBasseClasseduCandidat": "4,88",
+                          "MoyenneHauteClasseduCandidat": "18,88",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Trimestre très moyen."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "11,06",
+                          "MoyenneclasseCandidat": "11,52",
+                          "MoyenneBasseClasseduCandidat": "4,97",
+                          "MoyenneHauteClasseduCandidat": "19,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Les résultats sont encore un peu fragiles mais le travail personnel est resté sérieux."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "12,30",
+                          "MoyenneclasseCandidat": "13,24",
+                          "MoyenneBasseClasseduCandidat": "8,60",
+                          "MoyenneHauteClasseduCandidat": "17,06",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "L'écrit reste fragile. Aie confiance en tes capacités et sois bien rigoureuse dans l'organisation de ton propos. Tu dois aussi pousser plus loin tes analyses."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "16,25",
+                          "MoyenneclasseCandidat": "14,17",
+                          "MoyenneBasseClasseduCandidat": "8,00",
+                          "MoyenneHauteClasseduCandidat": "18,75",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Très bon trimestre pour Madeleine qui a démontré une compréhension solide des concepts et participe activement en classe. Poursuivre dans cette voie!"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "12,33",
+                          "MoyenneclasseCandidat": "14,24",
+                          "MoyenneBasseClasseduCandidat": "9,08",
+                          "MoyenneHauteClasseduCandidat": "18,83",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Des résultats assez satisfaisants dans l'ensemble avec quelques progrès, qui récompensent les efforts de rigueur à l'écrit de Madeleine. Il faudra continuer sur cette voie l'année prochaine."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "AnneeLibelle": "2024-2025",
+                "BulletinsScolairesAnnee": {
+                  "SerieLibelle": "Série Générale",
+                  "BulletinsScolairesSeries": [
+                    {
+                      "TrimestreLibelle": "Premier trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "8,78",
+                          "MoyenneclasseCandidat": "11,21",
+                          "MoyenneBasseClasseduCandidat": "5,21",
+                          "MoyenneHauteClasseduCandidat": "17,43",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Niveau trop fragile. Madeleine doit approfondir son travail personnel pour combler ses lacunes antérieures et ses difficultés de compréhension des notions. Participation régulière."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "18,20",
+                          "MoyenneclasseCandidat": "14,58",
+                          "MoyenneBasseClasseduCandidat": "8,67",
+                          "MoyenneHauteClasseduCandidat": "18,33",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Votre sérieux et votre rigueur dans l'apprentissage de l'anglais sont appréciables. Vos interventions en classe révèlent un souci de précision linguistique. Poursuivez dans cette voie de la réussite."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Philosophie",
+                          "MoyenneduCandidat": "11,18",
+                          "MoyenneclasseCandidat": "12,70",
+                          "MoyenneBasseClasseduCandidat": "9,65",
+                          "MoyenneHauteClasseduCandidat": "16,29",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un ensemble trop juste. Madeleine doit redoubler d'effort dans le travail à l'écrit et ne pas se laisser déconcentrer."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "11,86",
+                          "MoyenneclasseCandidat": "12,14",
+                          "MoyenneBasseClasseduCandidat": "7,52",
+                          "MoyenneHauteClasseduCandidat": "17,03",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Des résultats corrects dans l'ensemble ce trimestre. Madeleine doit consolider son écrit avec rigueur et méthode pour progresser. Poursuis tes efforts."
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Second trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Philosophie",
+                          "MoyenneduCandidat": "9,75",
+                          "MoyenneclasseCandidat": "12,70",
+                          "MoyenneBasseClasseduCandidat": "8,75",
+                          "MoyenneHauteClasseduCandidat": "16,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Les résultats ne reflètent pas encore tout votre potentiel. Madeleine, gardez confiance et continuez à vous investir, notamment à l'écrit. Vos efforts finiront par payer."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "15,50",
+                          "MoyenneclasseCandidat": "13,60",
+                          "MoyenneBasseClasseduCandidat": "9,60",
+                          "MoyenneHauteClasseduCandidat": "16,40",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un travail sérieux, une participation constructive en classe. Votre compréhension est solide, et votre expression écrite s'affine. Vous pouvez encore gagner en rigueur, vous êtes en très bonne voie."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "10,95",
+                          "MoyenneclasseCandidat": "12,90",
+                          "MoyenneBasseClasseduCandidat": "4,29",
+                          "MoyenneHauteClasseduCandidat": "18,74",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Ensemble en progrès mais qui reste juste. Madeleine doit être plus rigoureuse dans son travail personnel pour progresser. L'oral est régulier."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "10,60",
+                          "MoyenneclasseCandidat": "11,69",
+                          "MoyenneBasseClasseduCandidat": "6,36",
+                          "MoyenneHauteClasseduCandidat": "16,53",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un ensemble juste ce trimestre. L'écrit doit encore gagner en rigueur pour progresser. Intensifie tes efforts dans ce sens. Bon investissement à l'oral."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "FicheAvenir": {
+              "NiveauClasseCode": 4
+            },
+            "AppreciationsEnseignantsFicheAvenir": [
+              {
+                "MatiereFicheAvenirLibelle": "Philosophie",
+                "MatiereFicheAvenirLibelleBCN": "PHILOSOPHIE",
+                "AppreciationFicheAvenir": "Les résultats ne reflètent pas encore tout le potentiel. Avec plus de rigueur et de concentration, la réussite dans des études supérieures est possible. Ne vous découragez pas."
+              },
+              {
+                "MatiereFicheAvenirLibelle": "Langue vivante A",
+                "MatiereFicheAvenirLibelleBCN": "LANGUE VIVANTE 1",
+                "AppreciationFicheAvenir": "Travail soutenu et régulier. Le niveau atteint est tout à fait satisfaisant."
+              },
+              {
+                "MatiereFicheAvenirLibelle": "Mathématiques Spécialité",
+                "MatiereFicheAvenirLibelleBCN": "MATHEMATIQUES",
+                "AppreciationFicheAvenir": "Ensemble juste. Des difficultés dans l'abstraction, la compréhension et l'application des concepts mathématiques."
+              },
+              {
+                "MatiereFicheAvenirLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MatiereFicheAvenirLibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+                "AppreciationFicheAvenir": "Ensemble moyen à l'écrit. Madeleine fournit des efforts pour gagner en rigueur à l'écrit et participe régulièrement en classe."
+              }
+            ],
+            "Baccalaureat": {
+              "EDSScolaritePremiere1LibelleBCN": "MATHEMATIQUES",
+              "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE",
+              "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+              "EDSScolariteTerminale1Libelle": "Mathématiques Spécialité",
+              "EDSScolariteTerminale2Libelle": "Sciences de la vie et de la Terre Spécialité",
+              "EDSScolaritePremiere1Libelle": "Mathématiques Spécialité",
+              "EDSScolaritePremiere2Libelle": "Physique-Chimie Spécialité",
+              "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+            },
+            "NotesBaccalaureat": [
+              {
+                "EpreuveLibelle": "Mathématiques"
+              },
+              {
+                "EpreuveLibelle": "Sciences de la Vie et de la Terre"
+              },
+              {
+                "EpreuveLibelle": "Français écrit",
+                "NoteEpreuve": "9,0"
+              },
+              {
+                "EpreuveLibelle": "Français oral",
+                "NoteEpreuve": "17,0"
+              },
+              {
+                "EpreuveLibelle": "Physique-Chimie  (EDS suivi uniquement en 1ère)",
+                "NoteEpreuve": "10,3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

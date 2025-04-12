@@ -1,0 +1,53 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 642742,
+              "NomCandidat": "KAIDI",
+              "PrenomCandidat": "Léana",
+              "DateNaissance": "18/12/2007"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "NiveauEtudeLibelle": "Terminale",
+                "TypeFormationLibelle": "Terminale",
+                "TypeClasseLibelle": "Technologique",
+                "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+                "NomEtablissementOrigine": "Lycée Jacques Decour",
+                "CommuneEtablissementOrigineLibelle": "Paris  9e  Arrondissement",
+                "PaysEtablissementorigineLibelle": "France"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité française"
+              }
+            ],
+            "BulletinsScolaires": [],
+            "FicheAvenir": {
+              "NiveauClasseCode": 3
+            },
+            "AppreciationsEnseignantsFicheAvenir": [],
+            "Baccalaureat": {
+              "EDSScolaritePremiere1LibelleBCN": "DROIT ET ECONOMIE",
+              "EDSScolaritePremiere2LibelleBCN": "SCIENCES DE GESTION ET NUMERIQUE",
+              "EDSScolaritePremiere3LibelleBCN": "MANAGEMENT",
+              "EDSScolariteTerminale1Libelle": "Msgn/ Mercatique",
+              "EDSScolariteTerminale2Libelle": "Droit et Economie",
+              "EDSScolaritePremiere1Libelle": "Droit et Economie",
+              "EDSScolaritePremiere2Libelle": "Sciences de la gestion et numérique",
+              "EDSScolaritePremiere3Libelle": "Management"
+            },
+            "NotesBaccalaureat": []
+          }
+        ]
+      }
+    ]
+  }
+}

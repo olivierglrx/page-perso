@@ -1,0 +1,44 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 1487100,
+              "NomCandidat": "SIMSEK",
+              "PrenomCandidat": "Aysu",
+              "DateNaissance": "23/12/2004"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "NiveauEtudeLibelle": "2nd année d'études supérieures",
+                "TypeFormationLibelle": "Sciences Po - Instituts d'études politiques",
+                "FormationScolariteLibelle": "Sciences politiques",
+                "FiliereScolariteCode": 291,
+                "TypeEtablissementorigineLibelle": "I.E.P",
+                "NomEtablissementOrigine": "Institut d'études politiques de Paris - Sciences Po",
+                "CommuneEtablissementOrigineLibelle": "Paris  7e  Arrondissement",
+                "PaysEtablissementorigineLibelle": "France"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "FiliereScolariteCode": 291
+              }
+            ],
+            "BulletinsScolaires": [],
+            "FicheAvenir": {},
+            "AppreciationsEnseignantsFicheAvenir": [],
+            "Baccalaureat": {},
+            "NotesBaccalaureat": []
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 926413,
+              "NomCandidat": "RODRIGUEZ OTERO",
+              "PrenomCandidat": "Nicolas",
+              "DateNaissance": "05/05/2007"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "NiveauEtudeLibelle": "Terminale",
+                "TypeFormationLibelle": "Terminale",
+                "TypeClasseLibelle": "Générale",
+                "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+                "NomEtablissementOrigine": "Lycée FRANÇAIS DE PEREIRA",
+                "CommuneEtablissementOrigineLibelle": "Pereira",
+                "PaysEtablissementorigineLibelle": "Colombie"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité française"
+              }
+            ],
+            "BulletinsScolaires": [],
+            "FicheAvenir": {
+              "NiveauClasseCode": 4
+            },
+            "AppreciationsEnseignantsFicheAvenir": [],
+            "Baccalaureat": {
+              "EDSScolaritePremiere1LibelleBCN": "SCIENCES ECONOMIQUES ET SOCIALES",
+              "EDSScolaritePremiere2LibelleBCN": "MATHEMATIQUES",
+              "EDSScolaritePremiere3LibelleBCN": "PHYSIQUE-CHIMIE",
+              "EDSScolariteTerminale1Libelle": "Mathématiques Spécialité",
+              "EDSScolariteTerminale2Libelle": "Physique-Chimie Spécialité",
+              "EDSScolaritePremiere1Libelle": "Sciences Economiques et Sociales Spécialité",
+              "EDSScolaritePremiere2Libelle": "Mathématiques Spécialité",
+              "EDSScolaritePremiere3Libelle": "Physique-Chimie Spécialité"
+            },
+            "NotesBaccalaureat": [
+              {
+                "EpreuveLibelle": "Mathématiques"
+              },
+              {
+                "EpreuveLibelle": "Physique-Chimie"
+              },
+              {
+                "EpreuveLibelle": "Français écrit",
+                "NoteEpreuve": "10,0"
+              },
+              {
+                "EpreuveLibelle": "Français oral",
+                "NoteEpreuve": "9,0"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

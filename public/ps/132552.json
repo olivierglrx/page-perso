@@ -1,0 +1,365 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 132552,
+              "NomCandidat": "LE CONTE",
+              "PrenomCandidat": "Rémi",
+              "DateNaissance": "14/04/2007"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "NiveauEtudeLibelle": "Terminale",
+                "TypeFormationLibelle": "Terminale",
+                "TypeClasseLibelle": "Générale",
+                "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+                "NomEtablissementOrigine": "Institut Croix-des-Vents",
+                "CommuneEtablissementOrigineLibelle": "Sées",
+                "PaysEtablissementorigineLibelle": "France"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité française"
+              }
+            ],
+            "BulletinsScolaires": [
+              {
+                "AnneeLibelle": "2023-2024",
+                "BulletinsScolairesAnnee": {
+                  "SerieLibelle": "Série Générale",
+                  "BulletinsScolairesSeries": [
+                    {
+                      "TrimestreLibelle": "Premier trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "15,32",
+                          "MoyenneclasseCandidat": "12,65",
+                          "MoyenneBasseClasseduCandidat": "6,77",
+                          "MoyenneHauteClasseduCandidat": "16,13",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "De forts bons résultats sanctionnant un travail sérieux, régulier et consciencieux. Élève motivé, c'est bien, poursuivez vos efforts dans la régularité. Attentif en classe, bonne participation."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "17,53",
+                          "MoyenneclasseCandidat": "14,22",
+                          "MoyenneBasseClasseduCandidat": "10,29",
+                          "MoyenneHauteClasseduCandidat": "17,53",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Très bon élève parfois un peu dissipé mais cela est de bonne augure pour la suite"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "15,68",
+                          "MoyenneclasseCandidat": "11,54",
+                          "MoyenneBasseClasseduCandidat": "6,25",
+                          "MoyenneHauteClasseduCandidat": "15,68",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Bon trimestre. il faut poursuivre dans cette voie."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "16,79",
+                          "MoyenneclasseCandidat": "15,77",
+                          "MoyenneBasseClasseduCandidat": "11,43",
+                          "MoyenneHauteClasseduCandidat": "19,57",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Très bon trimestre. Rémi est un élève travailleur et volontaire. Prises de parole toujours pertinentes. Poursuivez ainsi."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "14,32",
+                          "MoyenneclasseCandidat": "11,31",
+                          "MoyenneBasseClasseduCandidat": "7,42",
+                          "MoyenneHauteClasseduCandidat": "15,26",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Trimestre satisfaisant. Le travail est sérieux, les analyses sont rigoureuses. Continuez ainsi."
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Troisième trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "11,60",
+                          "MoyenneclasseCandidat": "10,33",
+                          "MoyenneBasseClasseduCandidat": "7,00",
+                          "MoyenneHauteClasseduCandidat": "13,75",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Rémi a raté sa dernière composition mais il reste investi, à l'écoute et participe volontiers aux préparations des épreuves."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "15,71",
+                          "MoyenneclasseCandidat": "15,04",
+                          "MoyenneBasseClasseduCandidat": "12,00",
+                          "MoyenneHauteClasseduCandidat": "18,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Très bon trimestre. Développements intéressants. Élève sérieux et travailleur."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "16,75",
+                          "MoyenneclasseCandidat": "11,80",
+                          "MoyenneBasseClasseduCandidat": "8,46",
+                          "MoyenneHauteClasseduCandidat": "16,75",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Très bon trimestre, il faudra poursuivre ainsi en terminale. Grandes capacités!"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "13,92",
+                          "MoyenneclasseCandidat": "12,79",
+                          "MoyenneBasseClasseduCandidat": "7,92",
+                          "MoyenneHauteClasseduCandidat": "17,54",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Assez bons résultats et assez bon travail sur l'ensemble, avec une participation pertinente. Élève fort capable, qui doit impérativement progresser avec un travail approfondi et régulier."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "12,80",
+                          "MoyenneclasseCandidat": "12,40",
+                          "MoyenneBasseClasseduCandidat": "9,90",
+                          "MoyenneHauteClasseduCandidat": "15,05",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Vous vous êtes reposé sur vos acquis, et avez relâché votre attention en cours. Vos résultats sont assez satisfaisants , mais, avec un travail personnel plus approfondi, vous pouvez bien mieux faire."
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Second trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "15,47",
+                          "MoyenneclasseCandidat": "13,97",
+                          "MoyenneBasseClasseduCandidat": "11,83",
+                          "MoyenneHauteClasseduCandidat": "15,86",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Des résultats qui restent très bons malgré une diminution de la moyenne au second trimestre. Rémi est un élève assidu et avec la volonté de réussir. Aucune inquiétude. Continuez ainsi"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "15,38",
+                          "MoyenneclasseCandidat": "15,93",
+                          "MoyenneBasseClasseduCandidat": "11,54",
+                          "MoyenneHauteClasseduCandidat": "20,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Bon trimestre. Attitude irréprochable. Travail régulier, bon aussi bien à l'écrit qu'à l'oral. Rémi est un élève sérieux et impliqué dans son travail."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "15,07",
+                          "MoyenneclasseCandidat": "12,50",
+                          "MoyenneBasseClasseduCandidat": "6,22",
+                          "MoyenneHauteClasseduCandidat": "17,56",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Bons résultats et bon travail soigné et rigoureux. Bonne participation en classe, pertinente. Poursuivez vos efforts dans le bon sens pour progresser."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "14,81",
+                          "MoyenneclasseCandidat": "11,64",
+                          "MoyenneBasseClasseduCandidat": "7,72",
+                          "MoyenneHauteClasseduCandidat": "16,16",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Trimestre satisfaisant, les méthodes de travail semblent acquises, il faut poursuivre dans cette voie et viser l'excellence."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "13,01",
+                          "MoyenneclasseCandidat": "12,05",
+                          "MoyenneBasseClasseduCandidat": "9,44",
+                          "MoyenneHauteClasseduCandidat": "15,09",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Ensemble assez satisfaisant. Vous avez fait du bon travail à l'oral, et vos analyses à l'écrit sont intéressantes quand elles sont menées avec rigueur."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "AnneeLibelle": "2024-2025",
+                "BulletinsScolairesAnnee": {
+                  "SerieLibelle": "Série Générale",
+                  "BulletinsScolairesSeries": [
+                    {
+                      "TrimestreLibelle": "Premier trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "15,44",
+                          "MoyenneclasseCandidat": "15,29",
+                          "MoyenneBasseClasseduCandidat": "10,69",
+                          "MoyenneHauteClasseduCandidat": "19,46",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Bon trimestre. Bonne maîtrise de la compréhension écrite."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Expertes",
+                          "MoyenneduCandidat": "13,00",
+                          "MoyenneclasseCandidat": "14,11",
+                          "MoyenneBasseClasseduCandidat": "10,00",
+                          "MoyenneHauteClasseduCandidat": "19,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Malgré un début d'année en demi-teinte, le travail de Rémi commence à payer. Il doit poursuivre ses efforts de rigueur dans la rédaction."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Philosophie",
+                          "MoyenneduCandidat": "14,64",
+                          "MoyenneclasseCandidat": "10,40",
+                          "MoyenneBasseClasseduCandidat": "7,30",
+                          "MoyenneHauteClasseduCandidat": "14,64",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Élève faisant preuve d'une réflexion personnelle de qualité et capable de mobiliser des références judicieuses. Qu'il n'hésite pas à mettre en valeur les éléments les plus pertinents de sa démarche."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "14,97",
+                          "MoyenneclasseCandidat": "13,07",
+                          "MoyenneBasseClasseduCandidat": "8,43",
+                          "MoyenneHauteClasseduCandidat": "17,04",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Bon travail et bons résultats sur l'ensemble. Participation souvent très pertinente ; très capable, peut progresser encore en accentuant son travail personnel. Poursuivez vos efforts."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "15,91",
+                          "MoyenneclasseCandidat": "13,15",
+                          "MoyenneBasseClasseduCandidat": "9,63",
+                          "MoyenneHauteClasseduCandidat": "16,63",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Très bon trimestre, le travail est sérieux et la participation active en classe. Il faut poursuivre dans cette voie!"
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Second trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "16,25",
+                          "MoyenneclasseCandidat": "14,95",
+                          "MoyenneBasseClasseduCandidat": "11,00",
+                          "MoyenneHauteClasseduCandidat": "18,81",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Très bon trimestre. Capacités conséquentes à l'écrit. Attitude exemplaire."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Philosophie",
+                          "MoyenneduCandidat": "13,00",
+                          "MoyenneclasseCandidat": "11,32",
+                          "MoyenneBasseClasseduCandidat": "7,80",
+                          "MoyenneHauteClasseduCandidat": "16,40",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Une acquisition sérieuse de connaissances vous permet de développer dans vos divers travaux une réflexion pertinente et structurée. Poursuivez ainsi."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Expertes",
+                          "MoyenneduCandidat": "11,13",
+                          "MoyenneclasseCandidat": "12,60",
+                          "MoyenneBasseClasseduCandidat": "7,50",
+                          "MoyenneHauteClasseduCandidat": "18,38",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Malgré des résultats en retrait, l'ensemble demeure passable. Ne relâchez pas vos efforts pour assimiler correctement les notions et méthodes enseignées. Les raisonnements peuvent gagner en rigueur."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "14,91",
+                          "MoyenneclasseCandidat": "13,73",
+                          "MoyenneBasseClasseduCandidat": "10,03",
+                          "MoyenneHauteClasseduCandidat": "16,91",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Bon trimestre, le travail et les résultats sont satisfaisants. Il faut poursuivre."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "15,70",
+                          "MoyenneclasseCandidat": "13,16",
+                          "MoyenneBasseClasseduCandidat": "7,22",
+                          "MoyenneHauteClasseduCandidat": "16,70",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Bons résultats et bon travail en progression. Élève capable, sérieux et motivé. Bonne participation en classe (pertinente). C'est bien, poursuivez vos efforts."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "FicheAvenir": {
+              "NiveauClasseCode": 4
+            },
+            "AppreciationsEnseignantsFicheAvenir": [
+              {
+                "MatiereFicheAvenirLibelle": "Philosophie",
+                "MatiereFicheAvenirLibelleBCN": "PHILOSOPHIE",
+                "AppreciationFicheAvenir": "Rémi fait preuve d'une réflexion personnelle de qualité et se montre capable de mobiliser des références judicieuses. Une acquisition sérieuse de connaissances lui permet de développer une pensée pertinente et structurée."
+              },
+              {
+                "MatiereFicheAvenirLibelle": "Langue vivante A",
+                "MatiereFicheAvenirLibelleBCN": "LANGUE VIVANTE 1",
+                "AppreciationFicheAvenir": "Rémi est un élève sérieux et compétent en anglais. Sa compréhension des textes est solide, et il s'exprime avec clarté tant à l'écrit qu'à l'oral. Il utilise un vocabulaire approprié et maîtrise les structures grammaticales essentielles. Son travail et son investissement lui permettent d'obtenir de bons résultats réguliers."
+              },
+              {
+                "MatiereFicheAvenirLibelle": "Mathématiques Spécialité",
+                "MatiereFicheAvenirLibelleBCN": "MATHEMATIQUES",
+                "AppreciationFicheAvenir": "Bon travail et bons résultats, en progression. Participation souvent très pertinente ; très capable, sérieux et motivé, peut progresser encore en accentuant son travail personnel."
+              },
+              {
+                "MatiereFicheAvenirLibelle": "Physique-Chimie Spécialité",
+                "MatiereFicheAvenirLibelleBCN": "PHYSIQUE-CHIMIE",
+                "AppreciationFicheAvenir": "Très bon niveau, Rémi a fourni un travail régulier et approfondi tout au long de l'année. Les méthodes de travail efficaces sont acquises, la participation est active et l'organisation du travail satisfaisante."
+              },
+              {
+                "MatiereFicheAvenirLibelle": "Mathématiques Expertes",
+                "MatiereFicheAvenirLibelleBCN": "MATHEMATIQUES EXPERTES",
+                "AppreciationFicheAvenir": "Rémi est un élève intéressé par les mathématiques. Il assimile convenablement les notions enseignées et acquiert progressivement la rigueur attendue dans les raisonnements. Son niveau d'ensemble est correct."
+              }
+            ],
+            "Baccalaureat": {
+              "EDSScolaritePremiere1LibelleBCN": "MATHEMATIQUES",
+              "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE",
+              "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+              "EDSScolariteTerminale1Libelle": "Mathématiques Spécialité",
+              "EDSScolariteTerminale2Libelle": "Physique-Chimie Spécialité",
+              "EDSScolaritePremiere1Libelle": "Mathématiques Spécialité",
+              "EDSScolaritePremiere2Libelle": "Physique-Chimie Spécialité",
+              "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+            },
+            "NotesBaccalaureat": [
+              {
+                "EpreuveLibelle": "Mathématiques"
+              },
+              {
+                "EpreuveLibelle": "Physique-Chimie"
+              },
+              {
+                "EpreuveLibelle": "Français écrit",
+                "NoteEpreuve": "14,0"
+              },
+              {
+                "EpreuveLibelle": "Français oral",
+                "NoteEpreuve": "12,0"
+              },
+              {
+                "EpreuveLibelle": "Sciences de la Vie et de la Terre  (EDS suivi uniquement en 1ère)",
+                "NoteEpreuve": "17,0"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

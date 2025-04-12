@@ -1,0 +1,53 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 773083,
+              "NomCandidat": "DA COSTA",
+              "PrenomCandidat": "Camille",
+              "DateNaissance": "16/01/2007"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "NiveauEtudeLibelle": "Terminale",
+                "TypeFormationLibelle": "Terminale",
+                "TypeClasseLibelle": "Technologique",
+                "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+                "NomEtablissementOrigine": "Lycée Louise Michel",
+                "CommuneEtablissementOrigineLibelle": "Champigny-sur-Marne",
+                "PaysEtablissementorigineLibelle": "France"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité française"
+              }
+            ],
+            "BulletinsScolaires": [],
+            "FicheAvenir": {
+              "NiveauClasseCode": 2
+            },
+            "AppreciationsEnseignantsFicheAvenir": [],
+            "Baccalaureat": {
+              "EDSScolaritePremiere1LibelleBCN": "SCIENC.  et TECHNIQ. SANITAIRES  et SOCIALES",
+              "EDSScolaritePremiere2LibelleBCN": "BIOLOGIE  et PHYSIOPATHOLOGIE HUMAINES",
+              "EDSScolaritePremiere3LibelleBCN": "PHYSIQUE-CHIMIE POUR LA SANTE",
+              "EDSScolariteTerminale1Libelle": "Sciences et techniques sanitaires et sociales",
+              "EDSScolariteTerminale2Libelle": "Chimie, biologie et physiopathologie humaines",
+              "EDSScolaritePremiere1Libelle": "Sciences et techniques sanitaires et sociales",
+              "EDSScolaritePremiere2Libelle": "Biologie et physiopathologie humaines",
+              "EDSScolaritePremiere3Libelle": "Physique-Chimie pour la santé"
+            },
+            "NotesBaccalaureat": []
+          }
+        ]
+      }
+    ]
+  }
+}

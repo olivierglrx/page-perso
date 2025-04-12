@@ -1,0 +1,72 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 1402930,
+              "NomCandidat": "ABITBOL",
+              "PrenomCandidat": "Leane",
+              "DateNaissance": "25/01/2003"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "NiveauEtudeLibelle": "3ème année d'études supérieures",
+                "TypeFormationLibelle": "Etudes de santé",
+                "FormationScolariteLibelle": "D.E secteur sanitaire",
+                "FiliereScolariteCode": 550001,
+                "TypeEtablissementorigineLibelle": "Institut de formation",
+                "NomEtablissementOrigine": "institut formation soins infirmier ",
+                "CommuneEtablissementOrigineLibelle": "Pontoise",
+                "PaysEtablissementorigineLibelle": "France"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "FiliereScolariteCode": 550001
+              }
+            ],
+            "BulletinsScolaires": [],
+            "FicheAvenir": {},
+            "AppreciationsEnseignantsFicheAvenir": [],
+            "Baccalaureat": {
+              "EDSScolaritePremiere1LibelleBCN": "PHYSIQUE-CHIMIE",
+              "EDSScolaritePremiere2LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+              "EDSScolaritePremiere3LibelleBCN": "MATHEMATIQUES",
+              "EDSScolariteTerminale1Libelle": "Sciences de la vie et de la Terre Spécialité",
+              "EDSScolariteTerminale2Libelle": "Mathématiques Spécialité",
+              "EDSScolaritePremiere1Libelle": "Physique-Chimie Spécialité",
+              "EDSScolaritePremiere2Libelle": "Sciences de la vie et de la Terre Spécialité",
+              "EDSScolaritePremiere3Libelle": "Mathématiques Spécialité"
+            },
+            "NotesBaccalaureat": [
+              {
+                "EpreuveLibelle": "Mathématiques",
+                "NoteEpreuve": "10,0"
+              },
+              {
+                "EpreuveLibelle": "Sciences de la Vie et de la Terre",
+                "NoteEpreuve": "12,0"
+              },
+              {
+                "EpreuveLibelle": "Français écrit"
+              },
+              {
+                "EpreuveLibelle": "Français oral"
+              },
+              {
+                "EpreuveLibelle": "Physique-Chimie  (EDS suivi uniquement en 1ère)",
+                "NoteEpreuve": "10,0"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 1209656,
+              "NomCandidat": "ELUSUE",
+              "PrenomCandidat": "Aymeric",
+              "DateNaissance": "26/09/2006"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "NiveauEtudeLibelle": "Année préparatoire aux études supérieures",
+                "TypeFormationLibelle": "Mise à niveau (MANAA, MANH, ...)",
+                "TypeClasseLibelle": "Mise à niveau",
+                "TypeEtablissementorigineLibelle": "CFA/GRETA/Centre de formation",
+                "NomEtablissementOrigine": "CFA STELO FORMATION",
+                "CommuneEtablissementOrigineLibelle": "Villepinte",
+                "PaysEtablissementorigineLibelle": "France"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité française"
+              }
+            ],
+            "BulletinsScolaires": [],
+            "FicheAvenir": {},
+            "AppreciationsEnseignantsFicheAvenir": [],
+            "Baccalaureat": {
+              "EDSScolaritePremiere1LibelleBCN": "INNOVATION TECHNOLOGIQUE",
+              "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE ET MATHEMATIQUES",
+              "EDSScolaritePremiere3LibelleBCN": "INGENIERIE ET DEVELOPPEMENT DURABLE",
+              "EDSScolariteTerminale1Libelle": "Ingénierie, innovation et développement durable",
+              "EDSScolariteTerminale2Libelle": "Physique-Chimie et Mathématiques",
+              "EDSScolaritePremiere1Libelle": "Innovation Technologique",
+              "EDSScolaritePremiere2Libelle": "Physique-Chimie et Mathématiques",
+              "EDSScolaritePremiere3Libelle": "Ingénierie et développement durable"
+            },
+            "NotesBaccalaureat": []
+          }
+        ]
+      }
+    ]
+  }
+}

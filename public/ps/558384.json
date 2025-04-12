@@ -1,0 +1,53 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 558384,
+              "NomCandidat": "KIHAL",
+              "PrenomCandidat": "Assia",
+              "DateNaissance": "04/05/2006"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "NiveauEtudeLibelle": "Terminale",
+                "TypeFormationLibelle": "Terminale",
+                "TypeClasseLibelle": "Technologique",
+                "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+                "NomEtablissementOrigine": "Lycée Paul Eluard",
+                "CommuneEtablissementOrigineLibelle": "Saint-Denis",
+                "PaysEtablissementorigineLibelle": "France"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité française"
+              }
+            ],
+            "BulletinsScolaires": [],
+            "FicheAvenir": {
+              "NiveauClasseCode": 4
+            },
+            "AppreciationsEnseignantsFicheAvenir": [],
+            "Baccalaureat": {
+              "EDSScolaritePremiere1LibelleBCN": "BIOTECHNOLOGIE",
+              "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE ET MATHEMATIQUES",
+              "EDSScolaritePremiere3LibelleBCN": "BIOCHIMIE-BIOLOGIE",
+              "EDSScolariteTerminale1Libelle": "Biochimie-Biologie-Biotechnologie",
+              "EDSScolariteTerminale2Libelle": "Physique-Chimie et Mathématiques",
+              "EDSScolaritePremiere1Libelle": "Biotechnologies",
+              "EDSScolaritePremiere2Libelle": "Physique-Chimie et Mathématiques",
+              "EDSScolaritePremiere3Libelle": "Biochimie-Biologie"
+            },
+            "NotesBaccalaureat": []
+          }
+        ]
+      }
+    ]
+  }
+}

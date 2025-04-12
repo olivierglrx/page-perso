@@ -1,0 +1,390 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 1150566,
+              "NomCandidat": "BIKAÏ",
+              "PrenomCandidat": "Aliyah",
+              "DateNaissance": "25/02/2006"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "NiveauEtudeLibelle": "1ère année d'études supérieures",
+                "TypeFormationLibelle": "Licence",
+                "FormationScolariteLibelle": "Licence - Arts-lettres-langues",
+                "FiliereScolariteCode": 2028,
+                "TypeEtablissementorigineLibelle": "Université",
+                "NomEtablissementOrigine": "Université Sorbonne Nouvelle Paris 3",
+                "CommuneEtablissementOrigineLibelle": "Paris 12e  Arrondissement",
+                "PaysEtablissementorigineLibelle": "France"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité française"
+              }
+            ],
+            "BulletinsScolaires": [
+              {
+                "AnneeLibelle": "2023-2024",
+                "BulletinsScolairesAnnee": {
+                  "SerieLibelle": "Série Générale",
+                  "BulletinsScolairesSeries": [
+                    {
+                      "TrimestreLibelle": "Troisième trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                          "MoyenneduCandidat": "18,00",
+                          "MoyenneclasseCandidat": "14,19",
+                          "MoyenneBasseClasseduCandidat": "8,30",
+                          "MoyenneHauteClasseduCandidat": "19,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un trimestre à l'image du premier. Félicitations pour avoir retrouvé ce niveau."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "5,70",
+                          "MoyenneclasseCandidat": "10,14",
+                          "MoyenneBasseClasseduCandidat": "4,50",
+                          "MoyenneHauteClasseduCandidat": "17,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Les résultats sont insuffisants. Aliyah doit redoubler d'efforts et fournir un travail intense et rigoureux pour arriver dans les meilleures conditions à l'examen"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "14,00",
+                          "MoyenneclasseCandidat": "14,23",
+                          "MoyenneBasseClasseduCandidat": "8,00",
+                          "MoyenneHauteClasseduCandidat": "19,30",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Bon trimestre, les résultats sont solides et le travail toujours sérieux."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "10,80",
+                          "MoyenneclasseCandidat": "10,75",
+                          "MoyenneBasseClasseduCandidat": "3,40",
+                          "MoyenneHauteClasseduCandidat": "16,20",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un ensemble annuel irrégulier mais plutôt honorable du fait d'un bon niveau de réflexion et de capacités d'assimilation des notions. Du sérieux et du travail en classe."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Philosophie",
+                          "MoyenneduCandidat": "14,10",
+                          "MoyenneclasseCandidat": "11,44",
+                          "MoyenneBasseClasseduCandidat": "6,80",
+                          "MoyenneHauteClasseduCandidat": "17,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un très bon trimestre; élève sérieuse et investie."
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Premier trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "16,90",
+                          "MoyenneclasseCandidat": "14,77",
+                          "MoyenneBasseClasseduCandidat": "8,30",
+                          "MoyenneHauteClasseduCandidat": "20,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Très bon trimestre, les résultats sont solides et le travail toujours très sérieux. Je vous félicite."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "10,80",
+                          "MoyenneclasseCandidat": "10,73",
+                          "MoyenneBasseClasseduCandidat": "5,90",
+                          "MoyenneHauteClasseduCandidat": "17,80",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Résultats assez corrects mais trop contrastés. Pour progresser, il faudra être plus régulière dans l'apprentissage du cours et dans l'entrainement aux exercices type bac."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                          "MoyenneduCandidat": "16,10",
+                          "MoyenneclasseCandidat": "14,51",
+                          "MoyenneBasseClasseduCandidat": "5,20",
+                          "MoyenneHauteClasseduCandidat": "19,30",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Très bon trimestre. Elève sérieuse."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Philosophie",
+                          "MoyenneduCandidat": "11,00",
+                          "MoyenneclasseCandidat": "11,53",
+                          "MoyenneBasseClasseduCandidat": "6,00",
+                          "MoyenneHauteClasseduCandidat": "15,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Trimestre honorable. Eleve sérieuse et active, poursuivez ainsi."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "13,20",
+                          "MoyenneclasseCandidat": "12,19",
+                          "MoyenneBasseClasseduCandidat": "7,00",
+                          "MoyenneHauteClasseduCandidat": "16,90",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Des débuts prometteurs. Il faudra être être plus attentive en classe et, peut être aussi, plus investie dans le travail à la maison pour hausser ou consolider votre niveau. Bref, soyez ambitieuse au vu des échéances qui viennent (ParcourSup) !  (6 notes /7)"
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Second trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                          "MoyenneduCandidat": "11,50",
+                          "MoyenneclasseCandidat": "13,85",
+                          "MoyenneBasseClasseduCandidat": "10,60",
+                          "MoyenneHauteClasseduCandidat": "19,40",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Une chute inquiétante des résultats certainement due au niveau d'exigence plus élevé. Un troisième trimestre très attendu qui sera, je l'espère, du même niveau que le premier."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Philosophie",
+                          "MoyenneduCandidat": "13,20",
+                          "MoyenneclasseCandidat": "12,51",
+                          "MoyenneBasseClasseduCandidat": "8,60",
+                          "MoyenneHauteClasseduCandidat": "15,30",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un trimestre honorable. Attitude positive et impliquée en classe. Il faut améliorer la qualité et la densité des travaux rendus. Vous avez les capacités pour faire mieux."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "15,30",
+                          "MoyenneclasseCandidat": "15,27",
+                          "MoyenneBasseClasseduCandidat": "10,30",
+                          "MoyenneHauteClasseduCandidat": "19,40",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un très bon trimestre, les résultats sont sérieux. Aliyah a fait efforts de participation à l'oral ce trimestre. Poursuivez ainsi."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "5,80",
+                          "MoyenneclasseCandidat": "10,84",
+                          "MoyenneBasseClasseduCandidat": "2,80",
+                          "MoyenneHauteClasseduCandidat": "18,60",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Résultats en forte baisse qui deviennent insuffisants. Le travail doit être plus régulier pour surmonter les difficultés qui s'installent. Cela commence par un apprentissage parfait (et une compréhension parfaite) du cours ainsi vous serez plus pertinente sur les exercices de type bac."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "12,20",
+                          "MoyenneclasseCandidat": "12,95",
+                          "MoyenneBasseClasseduCandidat": "6,00",
+                          "MoyenneHauteClasseduCandidat": "17,90",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un second trimestre en baisse qui reste assez satisfaisant. Soyez plus régulière dans votre investissement à la maison et ciblez mieux les exigences / contraintes des 2 types d'exercices du bac pour consolider votre niveau. (5 notes /6)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "AnneeLibelle": "2022-2023",
+                "BulletinsScolairesAnnee": {
+                  "SerieLibelle": "Série Générale",
+                  "BulletinsScolairesSeries": [
+                    {
+                      "TrimestreLibelle": "Premier trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "11,70",
+                          "MoyenneclasseCandidat": "12,07",
+                          "MoyenneBasseClasseduCandidat": "4,80",
+                          "MoyenneHauteClasseduCandidat": "18,20",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Ensemble correct mais irrégulier. Gagnez en constance dans le travail personnel et dans l'investissement en classe. Vous êtes capable de mieux faire encore."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "16,10",
+                          "MoyenneclasseCandidat": "12,95",
+                          "MoyenneBasseClasseduCandidat": "9,70",
+                          "MoyenneHauteClasseduCandidat": "16,10",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un très bon ensemble. Aliyah a une bonne expression écrite et participe activement à l'oral."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "13,20",
+                          "MoyenneclasseCandidat": "11,81",
+                          "MoyenneBasseClasseduCandidat": "2,60",
+                          "MoyenneHauteClasseduCandidat": "19,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Ensemble satisfaisant, élève vive et motivée qui participe activement en classe."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "10,30",
+                          "MoyenneclasseCandidat": "11,64",
+                          "MoyenneBasseClasseduCandidat": "5,90",
+                          "MoyenneHauteClasseduCandidat": "17,90",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Ensemble fragile. Aliyah est une élève volontaire, qui vient régulièrement en soutien. Elle doit poursuivre ses efforts et ne pas se décourager !"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "12,70",
+                          "MoyenneclasseCandidat": "11,77",
+                          "MoyenneBasseClasseduCandidat": "3,90",
+                          "MoyenneHauteClasseduCandidat": "17,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un ensemble convenable ce trimestre, en deçà de vos capacités. Vous avez de réelles aptitudes à rédiger et à expliquer votre propos, maintenant il faut correctement assimiler les notions, cela passe par plus de travail personnel."
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Troisième trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "13,40",
+                          "MoyenneclasseCandidat": "11,90",
+                          "MoyenneBasseClasseduCandidat": "7,60",
+                          "MoyenneHauteClasseduCandidat": "15,30",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un bon ensemble mais Aliyah a du mal à ne pas se disperser et bavarder.  Elle doit faire preuve de plus de rigueur à l'écrit mais elle participe activement en cours. C'est une élève intéressée par la matière."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "15,30",
+                          "MoyenneclasseCandidat": "13,10",
+                          "MoyenneBasseClasseduCandidat": "6,50",
+                          "MoyenneHauteClasseduCandidat": "19,80",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Très bon ensemble pour Aliyah, travail sérieux et régulier."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "10,30",
+                          "MoyenneclasseCandidat": "12,28",
+                          "MoyenneBasseClasseduCandidat": "6,10",
+                          "MoyenneHauteClasseduCandidat": "18,90",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Ensemble encore fragile. J'ai cependant noté plus de travail et d'efforts en fin de trimestre. Aliyah devra être plus régulière l'année prochaine."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "14,50",
+                          "MoyenneclasseCandidat": "11,73",
+                          "MoyenneBasseClasseduCandidat": "6,60",
+                          "MoyenneHauteClasseduCandidat": "19,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Des résultats qui progressent ce trimestre, vous maîtrisez bien la méthode des exercices de type bac, poursuivez ainsi !"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "12,40",
+                          "MoyenneclasseCandidat": "13,12",
+                          "MoyenneBasseClasseduCandidat": "6,10",
+                          "MoyenneHauteClasseduCandidat": "18,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Assez bon travail."
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Second trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "13,80",
+                          "MoyenneclasseCandidat": "12,44",
+                          "MoyenneBasseClasseduCandidat": "4,00",
+                          "MoyenneHauteClasseduCandidat": "20,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un ensemble satisfaisant dans l'ensemble des compétences pour Aliyah."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "12,90",
+                          "MoyenneclasseCandidat": "12,66",
+                          "MoyenneBasseClasseduCandidat": "7,10",
+                          "MoyenneHauteClasseduCandidat": "17,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un ensemble convenable mais en dessous de vos capacités. Des absences qui nuisent à un bon apprentissage des notions. Il faut fournir encore plus d'efforts !"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "13,10",
+                          "MoyenneclasseCandidat": "11,97",
+                          "MoyenneBasseClasseduCandidat": "8,20",
+                          "MoyenneHauteClasseduCandidat": "15,60",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un ensemble qui reste honorable mais est en baisse. Vous participez activement à l'oral mais respectez les règles de la prise de parole et cessez vos bavardages gênants. Vous pouvez progresser avec plus de rigueur et en approfondissant votre argumentation."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "N",
+                          "MoyenneclasseCandidat": "15,17",
+                          "MoyenneBasseClasseduCandidat": "10,00",
+                          "MoyenneHauteClasseduCandidat": "20,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Très bon travail. Limiter les discussions avec ses camarades pendant le cours."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "9,60",
+                          "MoyenneclasseCandidat": "12,31",
+                          "MoyenneBasseClasseduCandidat": "6,40",
+                          "MoyenneHauteClasseduCandidat": "18,10",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Ensemble fragile. Aliyah était moins régulière dans son travail ce trimestre. Certaines notions ne sont donc pas assimilées. Des efforts sont attendus."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "FicheAvenir": {},
+            "AppreciationsEnseignantsFicheAvenir": [],
+            "Baccalaureat": {
+              "EDSScolaritePremiere1LibelleBCN": "MATHEMATIQUES",
+              "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE",
+              "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+              "EDSScolariteTerminale1Libelle": "Physique-Chimie Spécialité",
+              "EDSScolariteTerminale2Libelle": "Sciences de la vie et de la Terre Spécialité",
+              "EDSScolaritePremiere1Libelle": "Mathématiques Spécialité",
+              "EDSScolaritePremiere2Libelle": "Physique-Chimie Spécialité",
+              "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+            },
+            "NotesBaccalaureat": [
+              {
+                "EpreuveLibelle": "Physique-Chimie",
+                "NoteEpreuve": "10,0"
+              },
+              {
+                "EpreuveLibelle": "Sciences de la Vie et de la Terre",
+                "NoteEpreuve": "14,0"
+              },
+              {
+                "EpreuveLibelle": "Français écrit",
+                "NoteEpreuve": "13,0"
+              },
+              {
+                "EpreuveLibelle": "Français oral",
+                "NoteEpreuve": "12,0"
+              },
+              {
+                "EpreuveLibelle": "Mathématiques (EDS suivi uniquement en 1ère)",
+                "NoteEpreuve": "10,1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

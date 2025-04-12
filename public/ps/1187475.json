@@ -1,0 +1,386 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 1187475,
+              "NomCandidat": "CHAUVENCY",
+              "PrenomCandidat": "Eva",
+              "DateNaissance": "18/04/2005"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "NiveauEtudeLibelle": "2nd année d'études supérieures",
+                "TypeFormationLibelle": "Licence",
+                "FormationScolariteLibelle": "Licence - Sciences - technologies - santé",
+                "FiliereScolariteCode": 2043,
+                "TypeEtablissementorigineLibelle": "Université",
+                "NomEtablissementOrigine": "Université de Lille",
+                "CommuneEtablissementOrigineLibelle": "Lille",
+                "PaysEtablissementorigineLibelle": "France"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "FiliereScolariteCode": 2047
+              }
+            ],
+            "BulletinsScolaires": [
+              {
+                "AnneeLibelle": "2022-2023",
+                "BulletinsScolairesAnnee": {
+                  "SerieLibelle": "Série Générale",
+                  "BulletinsScolairesSeries": [
+                    {
+                      "TrimestreLibelle": "Premier trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "19,50",
+                          "MoyenneclasseCandidat": "12,70",
+                          "MoyenneBasseClasseduCandidat": "3,50",
+                          "MoyenneHauteClasseduCandidat": "19,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Excellent trimestre. Attitude remarquable. Eva prend en compte toutes les remarques et le travail fourni est de très grande qualité. Bravo !"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                          "MoyenneduCandidat": "19,00",
+                          "MoyenneclasseCandidat": "12,32",
+                          "MoyenneBasseClasseduCandidat": "6,00",
+                          "MoyenneHauteClasseduCandidat": "19,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Excellent trimestre. Félicitations !"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Philosophie",
+                          "MoyenneduCandidat": "17,00",
+                          "MoyenneclasseCandidat": "10,55",
+                          "MoyenneBasseClasseduCandidat": "6,00",
+                          "MoyenneHauteClasseduCandidat": "17,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Une attitude et un investissement exemplaires. Félicitations!"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "15,60",
+                          "MoyenneclasseCandidat": "11,40",
+                          "MoyenneBasseClasseduCandidat": "7,70",
+                          "MoyenneHauteClasseduCandidat": "15,60",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Excellent trimestre. Félicitations pour votre sérieux et votre investissement."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "20,00",
+                          "MoyenneclasseCandidat": "12,12",
+                          "MoyenneBasseClasseduCandidat": "4,20",
+                          "MoyenneHauteClasseduCandidat": "20,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Excellents résultats. Eva est une élève discrète mais qui fait vivre le cours grâce à ses interventions toujours pertinentes. L'écrit est de grande qualité. Le niveau requis en début de terminale est largement atteint."
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Second trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                          "MoyenneduCandidat": "19,11",
+                          "MoyenneclasseCandidat": "14,85",
+                          "MoyenneBasseClasseduCandidat": "10,00",
+                          "MoyenneHauteClasseduCandidat": "19,11",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Excellent travail. Félicitations !"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Philosophie",
+                          "MoyenneduCandidat": "16,50",
+                          "MoyenneclasseCandidat": "11,15",
+                          "MoyenneBasseClasseduCandidat": "7,50",
+                          "MoyenneHauteClasseduCandidat": "16,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un investissement exemplaire. Félicitations."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "18,50",
+                          "MoyenneclasseCandidat": "10,00",
+                          "MoyenneBasseClasseduCandidat": "4,00",
+                          "MoyenneHauteClasseduCandidat": "18,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Encore un excellent trimestre. Bravo !"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "17,40",
+                          "MoyenneclasseCandidat": "11,06",
+                          "MoyenneBasseClasseduCandidat": "7,40",
+                          "MoyenneHauteClasseduCandidat": "17,40",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "C'est un excellent trimestre à nouveau, félicitations!"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "19,30",
+                          "MoyenneclasseCandidat": "11,28",
+                          "MoyenneBasseClasseduCandidat": "4,70",
+                          "MoyenneHauteClasseduCandidat": "19,30",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "C'est à nouveau un excellent trimestre. Eva est une élève impliquée, motivée, toujours soucieuse de bien faire. Ses prestations orales en continu et en interaction sont de grande qualité."
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Troisième trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                          "MoyenneduCandidat": "19,00",
+                          "MoyenneclasseCandidat": "15,01",
+                          "MoyenneBasseClasseduCandidat": "10,00",
+                          "MoyenneHauteClasseduCandidat": "19,00",
+                          "AppreciationProfesseur": "Excellent travail tout au long de l'année. Félicitations! "
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Philosophie",
+                          "MoyenneduCandidat": "18,00",
+                          "MoyenneclasseCandidat": "11,03",
+                          "MoyenneBasseClasseduCandidat": "5,18",
+                          "MoyenneHauteClasseduCandidat": "18,00",
+                          "AppreciationProfesseur": "Excellent travail et un parcours exemplaire. "
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "18,40",
+                          "MoyenneclasseCandidat": "12,70",
+                          "MoyenneBasseClasseduCandidat": "7,50",
+                          "MoyenneHauteClasseduCandidat": "18,40",
+                          "AppreciationProfesseur": "Un excellent trimestre à nouveau. Félicitations pour ton investissement et ton sérieux tout au long de cette année. "
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "16,00",
+                          "MoyenneclasseCandidat": "10,60",
+                          "MoyenneBasseClasseduCandidat": "2,00",
+                          "MoyenneHauteClasseduCandidat": "16,00",
+                          "AppreciationProfesseur": "Très bon trimestre. Bon investissement dans la préparation du grand oral. Eva a fourni un travail de très grande qualité toute l'année. Bravo!"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "20,00",
+                          "MoyenneclasseCandidat": "10,01",
+                          "MoyenneBasseClasseduCandidat": "0,00",
+                          "MoyenneHauteClasseduCandidat": "20,00",
+                          "AppreciationProfesseur": "Excellent trimestre. Bilan annuel remarquable. Le niveau requis en fin de terminale est largement atteint. "
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "AnneeLibelle": "2021-2022",
+                "BulletinsScolairesAnnee": {
+                  "SerieLibelle": "Série Générale",
+                  "BulletinsScolairesSeries": [
+                    {
+                      "TrimestreLibelle": "Premier trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "20,00",
+                          "MoyenneclasseCandidat": "12,50",
+                          "MoyenneBasseClasseduCandidat": "5,30",
+                          "MoyenneHauteClasseduCandidat": "20,00",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Excellent travail !"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "19,80",
+                          "MoyenneclasseCandidat": "13,50",
+                          "MoyenneBasseClasseduCandidat": "6,80",
+                          "MoyenneHauteClasseduCandidat": "19,80",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Un premier trimestre exceptionnel de la part d'Eva. Extrêmement précise, autant à l'écrit qu'à l'oral, vous comprenez rapidement les attentes et vous prenez en compte chacun des conseils prodigués. Vous réunissez tous les ingrédients pour faire de cette année une année sans rature. BRAVO !"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "18,70",
+                          "MoyenneclasseCandidat": "13,20",
+                          "MoyenneBasseClasseduCandidat": "6,50",
+                          "MoyenneHauteClasseduCandidat": "18,90",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Elève consciencieuse. Une rigueur remarquable dans l'analyse. Excellent trimestre. Poursuivez ainsi."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "19,30",
+                          "MoyenneclasseCandidat": "13,00",
+                          "MoyenneBasseClasseduCandidat": "8,10",
+                          "MoyenneHauteClasseduCandidat": "19,50",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "C'est un excellent trimestre. Le travail personnel est rigoureux, approfondi. La participation en classe est exemplaire. Félicitations."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "18,70",
+                          "MoyenneclasseCandidat": "11,50",
+                          "MoyenneBasseClasseduCandidat": "5,50",
+                          "MoyenneHauteClasseduCandidat": "18,70",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Excellent trimestre à tous niveaux que ce soit dans l'attitude, la participation, la réflexion et la rédaction !"
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Troisième trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "18,80",
+                          "MoyenneclasseCandidat": "12,70",
+                          "MoyenneBasseClasseduCandidat": "7,20",
+                          "MoyenneHauteClasseduCandidat": "19,10",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Un trimestre et une année excellents. Elève brillante, agréable, motivée et investie dans tous les travaux. Félicitations !"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "18,80",
+                          "MoyenneclasseCandidat": "13,50",
+                          "MoyenneBasseClasseduCandidat": "7,80",
+                          "MoyenneHauteClasseduCandidat": "19,20",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Les nombreuses compétences scientifiques acquises,  la rigueur et les  capacités de travail et d'autonomie dont tu as fait preuve tout au long de l'année te permettront, je n'en doute pas, de réussir dans la voie envisagée."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "19,60",
+                          "MoyenneclasseCandidat": "11,70",
+                          "MoyenneBasseClasseduCandidat": "4,20",
+                          "MoyenneHauteClasseduCandidat": "19,60",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Une année remarquable ! Félicitations pour le travail et l'attitude !"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "20,00",
+                          "MoyenneclasseCandidat": "11,80",
+                          "MoyenneBasseClasseduCandidat": "2,10",
+                          "MoyenneHauteClasseduCandidat": "20,00",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Excellent ! Je vous félicite pour votre état d'esprit et les capacités de travail que vous développez !"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "19,90",
+                          "MoyenneclasseCandidat": "13,30",
+                          "MoyenneBasseClasseduCandidat": "8,40",
+                          "MoyenneHauteClasseduCandidat": "19,90",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Le sans-faute réalisé par Eva durant cette année scolaire est tout simplement remarquable. Attentive, pertinente et réceptive aux conseils, vous disposez en plus de cette attitude de compétences exceptionnelles dans la matière, compétences que vous continuez à approfondir en travaillant sur des expressions idiomatiques. BRAVO et merci !"
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Second trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "18,40",
+                          "MoyenneclasseCandidat": "10,80",
+                          "MoyenneBasseClasseduCandidat": "4,70",
+                          "MoyenneHauteClasseduCandidat": "18,40",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Un second trimestre remarquable à tous niveaux. Votre investissement, travail personnel et analyse sont exemplaires. Félicitations !"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "19,80",
+                          "MoyenneclasseCandidat": "12,10",
+                          "MoyenneBasseClasseduCandidat": "5,30",
+                          "MoyenneHauteClasseduCandidat": "19,80",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Une maîtrise parfaite du cours et de ses applications, une rédaction rigoureuse et toujours soignée, des interventions de qualité : c'est un réel plaisir d'avoir Eva dans sa classe !"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "20,00",
+                          "MoyenneclasseCandidat": "12,20",
+                          "MoyenneBasseClasseduCandidat": "4,00",
+                          "MoyenneHauteClasseduCandidat": "20,00",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Résultats excellents et exceptionnels, à l'image du travail abattu : ample,  précis et d'une qualité rare."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "20,00",
+                          "MoyenneclasseCandidat": "13,10",
+                          "MoyenneBasseClasseduCandidat": "7,10",
+                          "MoyenneHauteClasseduCandidat": "20,00",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Trimestre excellent à tout point de vue. Félicitations !"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "19,70",
+                          "MoyenneclasseCandidat": "13,60",
+                          "MoyenneBasseClasseduCandidat": "7,40",
+                          "MoyenneHauteClasseduCandidat": "19,70",
+                          "TypedeSaisieCode": 0,
+                          "AppreciationProfesseur": "Une fois encore, Eva réalise un sans-faute dont elle seule a le secret. Très précise à l'oral et à l'écrit, vous disposez de compétences bien au-delà des attentes de fin d'année. Continuez ainsi, c'est prodigieux. BRAVO !"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "FicheAvenir": {},
+            "AppreciationsEnseignantsFicheAvenir": [],
+            "Baccalaureat": {
+              "EDSScolaritePremiere1LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+              "EDSScolaritePremiere2LibelleBCN": "MATHEMATIQUES",
+              "EDSScolaritePremiere3LibelleBCN": "PHYSIQUE-CHIMIE",
+              "EDSScolariteTerminale1Libelle": "Physique-Chimie Spécialité",
+              "EDSScolariteTerminale2Libelle": "Sciences de la vie et de la Terre Spécialité",
+              "EDSScolaritePremiere1Libelle": "Sciences de la vie et de la Terre Spécialité",
+              "EDSScolaritePremiere2Libelle": "Mathématiques Spécialité",
+              "EDSScolaritePremiere3Libelle": "Physique-Chimie Spécialité"
+            },
+            "NotesBaccalaureat": [
+              {
+                "EpreuveLibelle": "Physique-Chimie",
+                "NoteEpreuve": "16,0"
+              },
+              {
+                "EpreuveLibelle": "Sciences de la Vie et de la Terre",
+                "NoteEpreuve": "20,0"
+              },
+              {
+                "EpreuveLibelle": "Français écrit",
+                "NoteEpreuve": "20,0"
+              },
+              {
+                "EpreuveLibelle": "Français oral",
+                "NoteEpreuve": "20,0"
+              },
+              {
+                "EpreuveLibelle": "Mathématiques (EDS suivi uniquement en 1ère)",
+                "NoteEpreuve": "20,0"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 1470317,
+              "NomCandidat": "CHAMPION",
+              "PrenomCandidat": "Julie",
+              "DateNaissance": "14/01/2002"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "NiveauEtudeLibelle": "4ème année d'études supérieures ou plus",
+                "TypeFormationLibelle": "Sciences Po - Instituts d'études politiques",
+                "FormationScolariteLibelle": "Sciences politiques",
+                "FiliereScolariteCode": 290,
+                "TypeEtablissementorigineLibelle": "I.E.P",
+                "NomEtablissementOrigine": "IEP",
+                "CommuneEtablissementOrigineLibelle": "Rennes",
+                "PaysEtablissementorigineLibelle": "France"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "FiliereScolariteCode": 291
+              }
+            ],
+            "BulletinsScolaires": [],
+            "FicheAvenir": {},
+            "AppreciationsEnseignantsFicheAvenir": [],
+            "Baccalaureat": {},
+            "NotesBaccalaureat": []
+          }
+        ]
+      }
+    ]
+  }
+}

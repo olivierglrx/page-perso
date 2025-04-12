@@ -1,0 +1,365 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 645027,
+              "NomCandidat": "VILLERMET",
+              "PrenomCandidat": "Mathilde",
+              "DateNaissance": "29/08/2007"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "NiveauEtudeLibelle": "Terminale",
+                "TypeFormationLibelle": "Terminale",
+                "TypeClasseLibelle": "Générale",
+                "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+                "NomEtablissementOrigine": "Lycée Blomet",
+                "CommuneEtablissementOrigineLibelle": "Paris 15e  Arrondissement",
+                "PaysEtablissementorigineLibelle": "France"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité française"
+              }
+            ],
+            "BulletinsScolaires": [
+              {
+                "AnneeLibelle": "2024-2025",
+                "BulletinsScolairesAnnee": {
+                  "SerieLibelle": "Série Générale",
+                  "BulletinsScolairesSeries": [
+                    {
+                      "TrimestreLibelle": "Premier trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Philosophie",
+                          "MoyenneduCandidat": "13,33",
+                          "MoyenneclasseCandidat": "14,69",
+                          "MoyenneBasseClasseduCandidat": "11,17",
+                          "MoyenneHauteClasseduCandidat": "19,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Votre travail est sérieux, mais peut être approfondi. Concentration à améliorer. Prenez confiance pour participer plus. Des points de méthodes à revoir."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "17,92",
+                          "MoyenneclasseCandidat": "15,28",
+                          "MoyenneBasseClasseduCandidat": "11,19",
+                          "MoyenneHauteClasseduCandidat": "18,01",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un très bon premier trimestre, tant à l'oral qu'à l'écrit. Mathilde est une élève attentive et studieuse, qui gagnera à participer davantage."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "13,15",
+                          "MoyenneclasseCandidat": "14,81",
+                          "MoyenneBasseClasseduCandidat": "9,21",
+                          "MoyenneHauteClasseduCandidat": "19,39",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Ensemble simplement correct. Certains savoir-faire ne sont pas maîtrisés, et trop d'erreurs d'inattention. Approfondir le travail, vous pouvez et devez progresser."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "14,00",
+                          "MoyenneclasseCandidat": "15,40",
+                          "MoyenneBasseClasseduCandidat": "11,70",
+                          "MoyenneHauteClasseduCandidat": "19,43",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un premier trimestre encourageant. Votre participation est cependant trop discrète. Travaillez ce point afin de progresser dans la maitrise des notions étudiées."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Expertes",
+                          "MoyenneduCandidat": "11,90",
+                          "MoyenneclasseCandidat": "14,53",
+                          "MoyenneBasseClasseduCandidat": "7,81",
+                          "MoyenneHauteClasseduCandidat": "17,72",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Les résultats sont assez satisfaisants. Mathilde fournit un travail sérieux qui doit encore gagner en approfondissement et rigueur. Il faut maintenir les efforts."
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Second trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "19,30",
+                          "MoyenneclasseCandidat": "16,92",
+                          "MoyenneBasseClasseduCandidat": "12,05",
+                          "MoyenneHauteClasseduCandidat": "19,30",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un excellent ensemble : une langue riche et une compréhension fine des contenus sur lesquels nous travaillons."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Expertes",
+                          "MoyenneduCandidat": "10,82",
+                          "MoyenneclasseCandidat": "14,20",
+                          "MoyenneBasseClasseduCandidat": "8,00",
+                          "MoyenneHauteClasseduCandidat": "19,22",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Les résultats sont corrects. Travail sérieux et bonne mise au travail en classe mais ne vous précipitez pas lors des évaluations ; vous êtes capable de mieux."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "16,31",
+                          "MoyenneclasseCandidat": "15,42",
+                          "MoyenneBasseClasseduCandidat": "11,38",
+                          "MoyenneHauteClasseduCandidat": "19,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Très bon trimestre. De beaux progrès, des capacités mieux exploitées. Continuez."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Philosophie",
+                          "MoyenneduCandidat": "14,75",
+                          "MoyenneclasseCandidat": "14,40",
+                          "MoyenneBasseClasseduCandidat": "10,25",
+                          "MoyenneHauteClasseduCandidat": "18,25",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un très bon trimestre, grâce à un travail sérieux, approfondi. Une participation nettement améliorée, très pertinente. Bravo, Mathilde, à poursuivre.\n"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "14,44",
+                          "MoyenneclasseCandidat": "15,32",
+                          "MoyenneBasseClasseduCandidat": "11,73",
+                          "MoyenneHauteClasseduCandidat": "18,92",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un bon trimestre, tout à fait positif. Vos écrits deviennent mieux construits et ont gagné en rigueur. Continuez ainsi."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "AnneeLibelle": "2023-2024",
+                "BulletinsScolairesAnnee": {
+                  "SerieLibelle": "Série Générale",
+                  "BulletinsScolairesSeries": [
+                    {
+                      "TrimestreLibelle": "Premier trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "13,39",
+                          "MoyenneclasseCandidat": "12,25",
+                          "MoyenneBasseClasseduCandidat": "7,29",
+                          "MoyenneHauteClasseduCandidat": "17,28",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Bon trimestre. L'ensemble est très sérieux, le travail régulier. Que Mathilde poursuive ainsi en affinant la précision dans les écrits."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "16,23",
+                          "MoyenneclasseCandidat": "14,72",
+                          "MoyenneBasseClasseduCandidat": "11,40",
+                          "MoyenneHauteClasseduCandidat": "18,20",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Bon trimestre. Mathilde  participe bien en classe. Elle fournit un travail sérieux. Elle doit poursuivre ainsi."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "16,50",
+                          "MoyenneclasseCandidat": "14,30",
+                          "MoyenneBasseClasseduCandidat": "10,75",
+                          "MoyenneHauteClasseduCandidat": "18,17",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Mathilde est élève sympathique et la qualité de son travail lui  donne confiance en elle. Très bon trimestre."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "13,69",
+                          "MoyenneclasseCandidat": "12,64",
+                          "MoyenneBasseClasseduCandidat": "7,75",
+                          "MoyenneHauteClasseduCandidat": "16,83",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Mathilde est une élève sérieuse et bien impliquée en classe. Les résultats sont satisfaisants. Qu'elle poursuive sur cette voie."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "15,54",
+                          "MoyenneclasseCandidat": "14,53",
+                          "MoyenneBasseClasseduCandidat": "6,44",
+                          "MoyenneHauteClasseduCandidat": "17,85",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Bon début d'année, travail sérieux, poursuivre ainsi."
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Second trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "14,64",
+                          "MoyenneclasseCandidat": "12,60",
+                          "MoyenneBasseClasseduCandidat": "6,42",
+                          "MoyenneHauteClasseduCandidat": "19,14",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "C'est un bon trimestre tant dans les résultats, en progrès, que dans l'attitude et le sérieux dans le travail. Poursuivez ainsi."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "18,29",
+                          "MoyenneclasseCandidat": "15,60",
+                          "MoyenneBasseClasseduCandidat": "10,19",
+                          "MoyenneHauteClasseduCandidat": "19,34",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Mathilde est une élève au comportement et à la maturité exemplaires. Elle a su élever son niveau déjà remarquable."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "16,25",
+                          "MoyenneclasseCandidat": "14,06",
+                          "MoyenneBasseClasseduCandidat": "8,99",
+                          "MoyenneHauteClasseduCandidat": "17,85",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Très bon trimestre, le travail est sérieux, efficace."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "15,25",
+                          "MoyenneclasseCandidat": "13,63",
+                          "MoyenneBasseClasseduCandidat": "8,21",
+                          "MoyenneHauteClasseduCandidat": "17,89",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Bon trimestre, en progrès. Les connaissances sont solides et la réflexion se développe. Que Mathilde poursuive ainsi."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "15,39",
+                          "MoyenneclasseCandidat": "13,37",
+                          "MoyenneBasseClasseduCandidat": "10,14",
+                          "MoyenneHauteClasseduCandidat": "16,46",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Très bon trimestre. Mathilde participe bien en classe. Elle travaille régulièrement et sérieusement. Elle doit poursuivre ainsi."
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Troisième trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "14,27",
+                          "MoyenneclasseCandidat": "13,93",
+                          "MoyenneBasseClasseduCandidat": "11,00",
+                          "MoyenneHauteClasseduCandidat": "18,09",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Bon trimestre et année. Très bel investissement dans la matière. La participation a été très appréciée!"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "14,17",
+                          "MoyenneclasseCandidat": "13,05",
+                          "MoyenneBasseClasseduCandidat": "9,01",
+                          "MoyenneHauteClasseduCandidat": "18,71",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "C'est un bon ensemble avec des résultats satisfaisants et un travail sérieux. Un peu moins de participation ce trimestre cependant."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "15,96",
+                          "MoyenneclasseCandidat": "13,79",
+                          "MoyenneBasseClasseduCandidat": "8,70",
+                          "MoyenneHauteClasseduCandidat": "17,39",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Très bon trimestre qui clôture une très bonne année. Mathilde a poursuivi son travail sérieux, les connaissances sont maîtrisées, un bon raisonnement scientifique."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "16,13",
+                          "MoyenneclasseCandidat": "14,52",
+                          "MoyenneBasseClasseduCandidat": "11,78",
+                          "MoyenneHauteClasseduCandidat": "17,77",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Très bon trimestre. Soucieuse de réussir, Mathilde fournit un travail sérieux."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "17,30",
+                          "MoyenneclasseCandidat": "15,30",
+                          "MoyenneBasseClasseduCandidat": "11,83",
+                          "MoyenneHauteClasseduCandidat": "18,07",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Encore un très bon trimestre pour Mathilde qui brille par sa maturité et son investissement."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "FicheAvenir": {
+              "NiveauClasseCode": 5
+            },
+            "AppreciationsEnseignantsFicheAvenir": [
+              {
+                "MatiereFicheAvenirLibelle": "Philosophie",
+                "MatiereFicheAvenirLibelleBCN": "PHILOSOPHIE",
+                "AppreciationFicheAvenir": "Un très bon niveau d'ensemble, une très belle progression. Le travail est approfondi, personnel, méthodique. Élève d'une très belle curiosité intellectuelle, très à l'écoute des conseils, qui sait comprendre et expliquer un texte complexe et formuler des réflexions structurées et conceptualisées. De très bonnes capacités d'analyse et de synthèse. Une Participation volontaire, avec des remarques et questions fines, stimulantes.\n"
+              },
+              {
+                "MatiereFicheAvenirLibelle": "Langue vivante A",
+                "MatiereFicheAvenirLibelleBCN": "LANGUE VIVANTE 1",
+                "AppreciationFicheAvenir": "Mathilde est une élève qui s'exprime dans une langue assez authentique, ce qu'elle met au service d'une argumentation des plus efficaces."
+              },
+              {
+                "MatiereFicheAvenirLibelle": "Mathématiques Spécialité",
+                "MatiereFicheAvenirLibelleBCN": "MATHEMATIQUES",
+                "AppreciationFicheAvenir": "Très bonne élève, investie, sérieuse et motivée, qui a acquis des connaissances et des méthodes de travail solides. Les notions du programme sont tout à fait maîtrisées et lui permettent des écrits de très bonne qualité. \nElle réussira avec aisance dans cette discipline dans le supérieur, y compris dans les voies d'excellence grâce à sa régularité."
+              },
+              {
+                "MatiereFicheAvenirLibelle": "Physique-Chimie Spécialité",
+                "MatiereFicheAvenirLibelleBCN": "PHYSIQUE-CHIMIE",
+                "AppreciationFicheAvenir": "Bon niveau. A bien progressé cette année. Travail sérieux, régulier, efficace. Connaissances bien réinvesties. De bonnes capacités d'analyse et de synthèse. Compréhension rapide. Possède des réserves et est capable d'efforts soutenus dans la durée. Devrait réussir dans l'enseignement supérieur."
+              },
+              {
+                "MatiereFicheAvenirLibelle": "Mathématiques Expertes",
+                "MatiereFicheAvenirLibelleBCN": "MATHEMATIQUES EXPERTES",
+                "AppreciationFicheAvenir": "Les résultats ne reflètent pas le grand sérieux et la belle implication de Mathilde dans ses apprentissages. Intéressée par la matière, elle participe et est soucieuse de progresser ; cependant, elle ne prend pas toujours suffisamment le temps de la réflexion et les connaissances, présentes, ne sont pas toujours bien exploitées."
+              }
+            ],
+            "Baccalaureat": {
+              "EDSScolaritePremiere1LibelleBCN": "MATHEMATIQUES",
+              "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE",
+              "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+              "EDSScolariteTerminale1Libelle": "Mathématiques Spécialité",
+              "EDSScolariteTerminale2Libelle": "Physique-Chimie Spécialité",
+              "EDSScolaritePremiere1Libelle": "Mathématiques Spécialité",
+              "EDSScolaritePremiere2Libelle": "Physique-Chimie Spécialité",
+              "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+            },
+            "NotesBaccalaureat": [
+              {
+                "EpreuveLibelle": "Mathématiques"
+              },
+              {
+                "EpreuveLibelle": "Physique-Chimie"
+              },
+              {
+                "EpreuveLibelle": "Français écrit",
+                "NoteEpreuve": "15,0"
+              },
+              {
+                "EpreuveLibelle": "Français oral",
+                "NoteEpreuve": "17,0"
+              },
+              {
+                "EpreuveLibelle": "Sciences de la Vie et de la Terre  (EDS suivi uniquement en 1ère)",
+                "NoteEpreuve": "16,0"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 1386465,
+              "NomCandidat": "KHAOUI",
+              "PrenomCandidat": "Emna",
+              "DateNaissance": "02/12/2006"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "NiveauEtudeLibelle": "1ère année d'études supérieures",
+                "TypeFormationLibelle": "Licence",
+                "FormationScolariteLibelle": "Licence - Sciences - technologies - santé",
+                "FiliereScolariteCode": 2037,
+                "TypeEtablissementorigineLibelle": "Université",
+                "NomEtablissementOrigine": "CY Cergy Paris Université",
+                "CommuneEtablissementOrigineLibelle": "Cergy",
+                "PaysEtablissementorigineLibelle": "France"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité française"
+              }
+            ],
+            "BulletinsScolaires": [
+              {
+                "AnneeLibelle": "2023-2024",
+                "BulletinsScolairesAnnee": {
+                  "SerieLibelle": "Série Générale",
+                  "BulletinsScolairesSeries": [
+                    {
+                      "TrimestreLibelle": "Second trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                          "MoyenneduCandidat": "15,93",
+                          "MoyenneclasseCandidat": "14,79",
+                          "MoyenneBasseClasseduCandidat": "9,42",
+                          "MoyenneHauteClasseduCandidat": "20,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Résultat global satisfaisant malgré la baisse de la moyenne, la participation est toujours active, continuez à suivre le cours pour récupérer votre niveau."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "10,00",
+                          "MoyenneclasseCandidat": "11,77",
+                          "MoyenneBasseClasseduCandidat": "7,50",
+                          "MoyenneHauteClasseduCandidat": "17,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Ensemble correct. Travail sérieux. Poursuivez vos efforts."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "15,36",
+                          "MoyenneclasseCandidat": "13,75",
+                          "MoyenneBasseClasseduCandidat": "5,15",
+                          "MoyenneHauteClasseduCandidat": "18,68",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Très bon trimestre, en progrès. Des efforts réguliers ont été fournis, Emna est sur la bonne voie. Une participation toujours dynamique en classe. Bravo."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "14,00",
+                          "MoyenneclasseCandidat": "14,80",
+                          "MoyenneBasseClasseduCandidat": "9,50",
+                          "MoyenneHauteClasseduCandidat": "19,67",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Trimestre aux résultats corrects, dans la continuité du précédent. Emna a fourni des efforts, confirmer les au trimestre prochain."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Philosophie",
+                          "MoyenneduCandidat": "10,00",
+                          "MoyenneclasseCandidat": "10,69",
+                          "MoyenneBasseClasseduCandidat": "6,00",
+                          "MoyenneHauteClasseduCandidat": "16,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un investissement en baisse ce trimestre et souvent inégal. Il faut travailler de façon plus régulière et rigoureuse, en vous dispersant moins."
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Troisième trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "8,55",
+                          "MoyenneclasseCandidat": "10,32",
+                          "MoyenneBasseClasseduCandidat": "3,82",
+                          "MoyenneHauteClasseduCandidat": "17,45",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Ensemble correct. Attitude sérieuse en classe. De l'intérêt pour la discipline.  Poursuivez vos efforts."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "13,33",
+                          "MoyenneclasseCandidat": "13,69",
+                          "MoyenneBasseClasseduCandidat": "6,50",
+                          "MoyenneHauteClasseduCandidat": "17,87",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Bilan correct. N'a pas toujours pu se concentrer au maximum mais a un bon et sérieux potentiel."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                          "MoyenneduCandidat": "12,75",
+                          "MoyenneclasseCandidat": "11,51",
+                          "MoyenneBasseClasseduCandidat": "5,00",
+                          "MoyenneHauteClasseduCandidat": "19,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Ensemble assez satisfaisant. Le travail est sérieux et régulier. Bonne participation."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "12,79",
+                          "MoyenneclasseCandidat": "12,28",
+                          "MoyenneBasseClasseduCandidat": "5,05",
+                          "MoyenneHauteClasseduCandidat": "18,70",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Assez bon trimestre, même si les efforts ont été plus fluctuants qu'au trimestre précédent. Le bilan sur l'année demeure positif. Bonne continuation Emna."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Philosophie",
+                          "MoyenneduCandidat": "12,83",
+                          "MoyenneclasseCandidat": "10,73",
+                          "MoyenneBasseClasseduCandidat": "3,00",
+                          "MoyenneHauteClasseduCandidat": "15,17",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Une hausse et plus de sérieux à l'écrit. En classe, des bavardages chroniques."
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Premier trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Philosophie",
+                          "MoyenneduCandidat": "12,00",
+                          "MoyenneclasseCandidat": "12,97",
+                          "MoyenneBasseClasseduCandidat": "8,00",
+                          "MoyenneHauteClasseduCandidat": "18,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Une élève active à l'oral. Des résultats satisfaisants. A poursuivre !"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "12,14",
+                          "MoyenneclasseCandidat": "11,49",
+                          "MoyenneBasseClasseduCandidat": "5,00",
+                          "MoyenneHauteClasseduCandidat": "18,87",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Assez bon ensemble, le travail d'Emma est sérieux , il faut donc continuer ainsi, des progrès devraient suivre au prochain trimestre. Une participation active et appréciable en classe par ailleurs."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                          "MoyenneduCandidat": "17,00",
+                          "MoyenneclasseCandidat": "13,86",
+                          "MoyenneBasseClasseduCandidat": "9,00",
+                          "MoyenneHauteClasseduCandidat": "19,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Ensemble très Satisfaisant. Un travail sérieux et régulier. Bonne participation. .Attitude positive à légard des ses camarades"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "12,20",
+                          "MoyenneclasseCandidat": "11,39",
+                          "MoyenneBasseClasseduCandidat": "5,09",
+                          "MoyenneHauteClasseduCandidat": "17,60",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Ensemble satisfaisant.  Travail sérieux , accentuez vos efforts et gagnez en rigueur."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "13,33",
+                          "MoyenneclasseCandidat": "13,94",
+                          "MoyenneBasseClasseduCandidat": "8,00",
+                          "MoyenneHauteClasseduCandidat": "19,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Des résultats corrects ce trimestre. Emna fournit des efforts. Poursuivez-les pour progresser."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "AnneeLibelle": "2022-2023",
+                "BulletinsScolairesAnnee": {
+                  "SerieLibelle": "Série Générale",
+                  "BulletinsScolairesSeries": [
+                    {
+                      "TrimestreLibelle": "Troisième trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "14,50",
+                          "MoyenneclasseCandidat": "13,80",
+                          "MoyenneBasseClasseduCandidat": "4,50",
+                          "MoyenneHauteClasseduCandidat": "18,20",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Les résultats se sont maintenus à un niveau tout à fait satisfaisant ce trimestre. Le bilan annuel est globalement satisfaisant."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "14,89",
+                          "MoyenneclasseCandidat": "15,96",
+                          "MoyenneBasseClasseduCandidat": "11,09",
+                          "MoyenneHauteClasseduCandidat": "20,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Ensemble convenable. Une baisse des résultats à mettre en lien avec un devoir non rendu. Cependant Emna a été sérieuse en classe et dans son travail personnel. De la bonne volonté qui lui ont permis d'obtenir un niveau satisfaisant dans la langue ce trimestre. Ne relâchez pas vos efforts !"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "10,00",
+                          "MoyenneclasseCandidat": "9,46",
+                          "MoyenneBasseClasseduCandidat": "3,00",
+                          "MoyenneHauteClasseduCandidat": "17,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Les résultats sont correct ce trimestre, des efforts et de l'investissement tout long de l'année . Il faut améliorer la rigueur et consolider les méthodes pour progresser l'année prochaine. Bonne participation et attitude positive à l'égard de ses camarades."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "11,00",
+                          "MoyenneclasseCandidat": "12,17",
+                          "MoyenneBasseClasseduCandidat": "7,50",
+                          "MoyenneHauteClasseduCandidat": "18,30",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Les résultats sont satisfaisants.  Emna peut se montrer très motivée et sérieux dans son travail, cependant, elle peut se montrer distraite parfois. Ne vous déconcentrez pas."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "12,68",
+                          "MoyenneclasseCandidat": "11,82",
+                          "MoyenneBasseClasseduCandidat": "7,37",
+                          "MoyenneHauteClasseduCandidat": "17,42",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un trimestre satisfaisant. Un travail régulier qui tient compte des conseils de méthode."
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Premier trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "16,00",
+                          "MoyenneclasseCandidat": "15,52",
+                          "MoyenneBasseClasseduCandidat": "9,75",
+                          "MoyenneHauteClasseduCandidat": "18,67",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Une élève positive, et motivée. De bons résultats. Emna doit se concentrer en classe afin de comprendre l'entièreté des consignes."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "11,93",
+                          "MoyenneclasseCandidat": "10,76",
+                          "MoyenneBasseClasseduCandidat": "4,50",
+                          "MoyenneHauteClasseduCandidat": "16,22",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un assez bon trimestre. Emna est dynamique à l'oral, et manifeste de l'intérêt pour la matière. Les résultats sont convenables et doivent pouvoir progresser avec un effort pour mieux répondre aux attentes."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "13,50",
+                          "MoyenneclasseCandidat": "10,46",
+                          "MoyenneBasseClasseduCandidat": "4,00",
+                          "MoyenneHauteClasseduCandidat": "16,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Ensemble assez satisfaisant. Il faut approfondir les méthodes et améliorer la rigueur à l'écrit, avec le sérieux et les efforts, les progrès devraient suivre. Bonne participation."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "13,03",
+                          "MoyenneclasseCandidat": "11,90",
+                          "MoyenneBasseClasseduCandidat": "7,44",
+                          "MoyenneHauteClasseduCandidat": "16,33",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un démarrage en douceur en début d'année mais Emna a su augmenter la cadence. Une élève sérieuse et motivée de plus elle participe souvent. Le travail est soigné mais peut gagner encore en rigueur. Je vous encourage."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "14,80",
+                          "MoyenneclasseCandidat": "13,10",
+                          "MoyenneBasseClasseduCandidat": "8,00",
+                          "MoyenneHauteClasseduCandidat": "18,40",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Bon trimestre. Le travail de d'Emna est sérieux et l'implication lors des activités en classe, tout à fait satisfaisante. Il faut poursuivre dans cette voie !"
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Second trimestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "12,18",
+                          "MoyenneclasseCandidat": "11,00",
+                          "MoyenneBasseClasseduCandidat": "2,00",
+                          "MoyenneHauteClasseduCandidat": "16,51",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un trimestre convenable. Le travail est sérieux et la participation pertinente, mais les méthodes de l'écrit sont à consolider."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "12,50",
+                          "MoyenneclasseCandidat": "12,27",
+                          "MoyenneBasseClasseduCandidat": "8,00",
+                          "MoyenneHauteClasseduCandidat": "18,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Une légère baisse des résultats pour Emna qui manque un peu de rythme dans le travail. Cependant, elle reste volontaire et fournit un travail de qualité. Je compte sur vous."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "14,64",
+                          "MoyenneclasseCandidat": "14,85",
+                          "MoyenneBasseClasseduCandidat": "9,55",
+                          "MoyenneHauteClasseduCandidat": "19,18",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un ensemble moyen. Elève investie en classe. Le travail personnel est trop irrégulier et cela empêche Emna de progresser. Des efforts ont été constaté en cette fin de trimestre. Ne vous relâchez pas !"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "12,50",
+                          "MoyenneclasseCandidat": "10,27",
+                          "MoyenneBasseClasseduCandidat": "3,00",
+                          "MoyenneHauteClasseduCandidat": "15,50",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Ensemble assez satisfaisant. Il faut approfondir les méthodes et améliorer la rigueur à l'écrit, avec le sérieux et les efforts, les progrès devraient suivre.Attitude positive à légard des ses camarades.Bonne participation."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "13,90",
+                          "MoyenneclasseCandidat": "13,30",
+                          "MoyenneBasseClasseduCandidat": "6,40",
+                          "MoyenneHauteClasseduCandidat": "18,30",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Les résultats se sont maintenus à un niveau tout à fait satisfaisant. Emna doit poursuivre dans cette voie afin de consolider ses résultats lors du troisième trimestre."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "FicheAvenir": {},
+            "AppreciationsEnseignantsFicheAvenir": [],
+            "Baccalaureat": {
+              "EDSScolaritePremiere1LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+              "EDSScolaritePremiere2LibelleBCN": "MATHEMATIQUES",
+              "EDSScolaritePremiere3LibelleBCN": "PHYSIQUE-CHIMIE",
+              "EDSScolariteTerminale1Libelle": "Physique-Chimie Spécialité",
+              "EDSScolariteTerminale2Libelle": "Sciences de la vie et de la Terre Spécialité",
+              "EDSScolaritePremiere1Libelle": "Sciences de la vie et de la Terre Spécialité",
+              "EDSScolaritePremiere2Libelle": "Mathématiques Spécialité",
+              "EDSScolaritePremiere3Libelle": "Physique-Chimie Spécialité"
+            },
+            "NotesBaccalaureat": [
+              {
+                "EpreuveLibelle": "Physique-Chimie",
+                "NoteEpreuve": "14,0"
+              },
+              {
+                "EpreuveLibelle": "Sciences de la Vie et de la Terre",
+                "NoteEpreuve": "16,0"
+              },
+              {
+                "EpreuveLibelle": "Français écrit",
+                "NoteEpreuve": "14,0"
+              },
+              {
+                "EpreuveLibelle": "Français oral",
+                "NoteEpreuve": "14,0"
+              },
+              {
+                "EpreuveLibelle": "Mathématiques (EDS suivi uniquement en 1ère)",
+                "NoteEpreuve": "12,0"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

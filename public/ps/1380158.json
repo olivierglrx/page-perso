@@ -1,0 +1,43 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 1380158,
+              "NomCandidat": "BAMBERT",
+              "PrenomCandidat": "Lud'Antoine",
+              "DateNaissance": "12/06/2006"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "NiveauEtudeLibelle": "1ère année d'études supérieures",
+                "TypeFormationLibelle": "BTS - BTSA - BTSM",
+                "FormationScolariteLibelle": "BTS - Services",
+                "FiliereScolariteCode": 10441,
+                "TypeEtablissementorigineLibelle": "CFA/GRETA/Centre de formation",
+                "NomEtablissementOrigine": "AURLOM BTS+",
+                "CommuneEtablissementOrigineLibelle": "Paris 11e  Arrondissement",
+                "PaysEtablissementorigineLibelle": "France"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité étrangère"
+              }
+            ],
+            "BulletinsScolaires": [],
+            "FicheAvenir": {},
+            "AppreciationsEnseignantsFicheAvenir": [],
+            "Baccalaureat": {},
+            "NotesBaccalaureat": []
+          }
+        ]
+      }
+    ]
+  }
+}

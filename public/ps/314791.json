@@ -1,0 +1,265 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 314791,
+              "NomCandidat": "CALLÉ",
+              "PrenomCandidat": "Alexandre",
+              "DateNaissance": "28/02/2007"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "NiveauEtudeLibelle": "Terminale",
+                "TypeFormationLibelle": "Terminale",
+                "TypeClasseLibelle": "Générale",
+                "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+                "NomEtablissementOrigine": "Lycée International",
+                "CommuneEtablissementOrigineLibelle": "Saint-Germain-en-Laye",
+                "PaysEtablissementorigineLibelle": "France"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité française"
+              }
+            ],
+            "BulletinsScolaires": [
+              {
+                "AnneeLibelle": "2024-2025",
+                "BulletinsScolairesAnnee": {
+                  "SerieLibelle": "Série Générale",
+                  "BulletinsScolairesSeries": [
+                    {
+                      "TrimestreLibelle": "Premier semestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "12,60",
+                          "MoyenneclasseCandidat": "13,40",
+                          "MoyenneBasseClasseduCandidat": "10,00",
+                          "MoyenneHauteClasseduCandidat": "18,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Elève motivé, bonne attitude. Bon travail. Niveau fragile en chimie, mais bon en physique."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "20,00",
+                          "MoyenneclasseCandidat": "20,00",
+                          "MoyenneBasseClasseduCandidat": "20,00",
+                          "MoyenneHauteClasseduCandidat": "20,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "La LVA est la langue de section. Les élèves sont évalués dans cette discipline en tant que langue maternelle, selon les critères nationaux du pays concerné. Par conséquent, ils obtiennent la note maximale du niveau B2 du CECRL."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Expertes",
+                          "MoyenneduCandidat": "10,00",
+                          "MoyenneclasseCandidat": "13,83",
+                          "MoyenneBasseClasseduCandidat": "6,00",
+                          "MoyenneHauteClasseduCandidat": "19,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Elève sérieux, attentif, qui comprend le cours.  \nLa moyenne me semble en-deçà du niveau réel d'Alexandre."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Philosophie",
+                          "MoyenneduCandidat": "12,00",
+                          "MoyenneclasseCandidat": "11,38",
+                          "MoyenneBasseClasseduCandidat": "9,75",
+                          "MoyenneHauteClasseduCandidat": "14,20",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Assez bon ensemble, une marge de progression est sans doute possible à condition d'un investissement supplémentaire."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "14,50",
+                          "MoyenneclasseCandidat": "14,47",
+                          "MoyenneBasseClasseduCandidat": "9,50",
+                          "MoyenneHauteClasseduCandidat": "18,90",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "De bons résultats, ce semestre, plutôt en amélioration, c'est positif. Il faut poursuivre les efforts pour gagner encore en concentration, rigueur et efficacité."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "AnneeLibelle": "2023-2024",
+                "BulletinsScolairesAnnee": {
+                  "SerieLibelle": "Série Générale",
+                  "BulletinsScolairesSeries": [
+                    {
+                      "TrimestreLibelle": "Premier semestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "13,33",
+                          "MoyenneclasseCandidat": "13,55",
+                          "MoyenneBasseClasseduCandidat": "10,59",
+                          "MoyenneHauteClasseduCandidat": "17,54",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Assez bien mais les résultats sont inégaux. Il faut produire un travail plus solide et plus sérieux pour progresser."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "14,12",
+                          "MoyenneclasseCandidat": "14,04",
+                          "MoyenneBasseClasseduCandidat": "7,85",
+                          "MoyenneHauteClasseduCandidat": "17,73",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Résultats satisfaisants, voire très satisfaisants si on fait exception d'un premier contrôle pas très réussi. Bonne participation en classe et travail de qualité, continuez ainsi !"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "11,31",
+                          "MoyenneclasseCandidat": "12,69",
+                          "MoyenneBasseClasseduCandidat": "7,46",
+                          "MoyenneHauteClasseduCandidat": "17,38",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un trimestre correct les résultats sont inégaux.\nIl faut produire un travail plus rigoureux et sérieux pour progresser."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "20,00",
+                          "MoyenneclasseCandidat": "20,00",
+                          "MoyenneBasseClasseduCandidat": "20,00",
+                          "MoyenneHauteClasseduCandidat": "20,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Elève en BFI Section Internationale Américaine"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "15,78",
+                          "MoyenneclasseCandidat": "15,75",
+                          "MoyenneBasseClasseduCandidat": "12,10",
+                          "MoyenneHauteClasseduCandidat": "19,26",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un beau bulletin et un ensemble solide. Alexandre a des facilités et fait preuve de rigueur."
+                        }
+                      ]
+                    },
+                    {
+                      "TrimestreLibelle": "Second semestre",
+                      "BulletinsScolairesParPeriode": [
+                        {
+                          "MatiereBulletinLibelle": "Langue vivante A",
+                          "MoyenneduCandidat": "20,00",
+                          "MoyenneclasseCandidat": "20,00",
+                          "MoyenneBasseClasseduCandidat": "20,00",
+                          "MoyenneHauteClasseduCandidat": "20,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Elève en BFI Section Internationale Américaine."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Français",
+                          "MoyenneduCandidat": "13,50",
+                          "MoyenneclasseCandidat": "13,88",
+                          "MoyenneBasseClasseduCandidat": "9,50",
+                          "MoyenneHauteClasseduCandidat": "17,00",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un ensemble satisfaisant mais perfectible : continuez vos efforts de rigueur dans la réalisation de votre travail."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                          "MoyenneduCandidat": "13,08",
+                          "MoyenneclasseCandidat": "14,63",
+                          "MoyenneBasseClasseduCandidat": "7,48",
+                          "MoyenneHauteClasseduCandidat": "18,60",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Un ensemble satisfaisant. Alexandre est pertinent, il comprend vite et bien. Il faut maintenant consolider l'écrit en développant davantage l'argumentation. Il a toute ma confiance."
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                          "MoyenneduCandidat": "13,73",
+                          "MoyenneclasseCandidat": "13,45",
+                          "MoyenneBasseClasseduCandidat": "8,86",
+                          "MoyenneHauteClasseduCandidat": "17,68",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Resultats en progression .Un travail plus serieux et regulier fut accompli ce semestre"
+                        },
+                        {
+                          "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                          "MoyenneduCandidat": "13,10",
+                          "MoyenneclasseCandidat": "13,85",
+                          "MoyenneBasseClasseduCandidat": "7,50",
+                          "MoyenneHauteClasseduCandidat": "18,30",
+                          "TypedeSaisieCode": 1,
+                          "AppreciationProfesseur": "Résultats convenables, mais en baisse au cours du trimestre. Globalement, le niveau reste satisfaisant, mais attention à maintenir les efforts entrepris quant à la régularité de votre travail et la rigueur de vos productions écrites."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "FicheAvenir": {
+              "NiveauClasseCode": 5
+            },
+            "AppreciationsEnseignantsFicheAvenir": [
+              {
+                "MatiereFicheAvenirLibelle": "Philosophie",
+                "MatiereFicheAvenirLibelleBCN": "PHILOSOPHIE",
+                "AppreciationFicheAvenir": "Assez bon niveau d'analyse, assez bonne capacité de travail. Volontaire."
+              },
+              {
+                "MatiereFicheAvenirLibelle": "Langue vivante A",
+                "MatiereFicheAvenirLibelleBCN": "LANGUE VIVANTE 1",
+                "AppreciationFicheAvenir": "La LVA est la langue de section. Les élèves sont évalués dans cette discipline en tant que langue maternelle, selon les critères nationaux du pays concerné. Par conséquent ils obtiennent la note maximale du niveau B2 du CECRL."
+              },
+              {
+                "MatiereFicheAvenirLibelle": "Mathématiques Spécialité",
+                "MatiereFicheAvenirLibelleBCN": "MATHEMATIQUES",
+                "AppreciationFicheAvenir": "Un bon élève, sérieux et impliqué, qui a acquis des connaissances scientifiques solides, qui lui permettent d'ensivager des études supérieures longues et exigeantes. Je recommande sa candidature."
+              },
+              {
+                "MatiereFicheAvenirLibelle": "Physique-Chimie Spécialité",
+                "MatiereFicheAvenirLibelleBCN": "PHYSIQUE-CHIMIE",
+                "AppreciationFicheAvenir": "Alexandre est un élève motivé, qui a une très bonne attitude, pertinent à loral, qui travaille en groupe de manière sérieuse et structurée. Etant au lycée international, vu ses heures de cours supplémentaires, il est habitué à une charge de travail élevée et a appris à sorganiser, ce qui la préparé pour le supérieur. En termes de résultats, cest un assez bon élève, avec de bonnes méthodes, apte à réussir dans le supérieur."
+              },
+              {
+                "MatiereFicheAvenirLibelle": "Mathématiques Expertes",
+                "MatiereFicheAvenirLibelleBCN": "MATHEMATIQUES EXPERTES",
+                "AppreciationFicheAvenir": "Beaucoup de sérieux, Alexandre s'accroche avec motivation."
+              }
+            ],
+            "Baccalaureat": {
+              "EDSScolaritePremiere1LibelleBCN": "MATHEMATIQUES",
+              "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE",
+              "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+              "EDSScolariteTerminale1Libelle": "Mathématiques Spécialité",
+              "EDSScolariteTerminale2Libelle": "Physique-Chimie Spécialité",
+              "EDSScolaritePremiere1Libelle": "Mathématiques Spécialité",
+              "EDSScolaritePremiere2Libelle": "Physique-Chimie Spécialité",
+              "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+            },
+            "NotesBaccalaureat": [
+              {
+                "EpreuveLibelle": "Mathématiques"
+              },
+              {
+                "EpreuveLibelle": "Physique-Chimie"
+              },
+              {
+                "EpreuveLibelle": "Français écrit",
+                "NoteEpreuve": "14,0"
+              },
+              {
+                "EpreuveLibelle": "Français oral",
+                "NoteEpreuve": "16,0"
+              },
+              {
+                "EpreuveLibelle": "Sciences de la Vie et de la Terre  (EDS suivi uniquement en 1ère)",
+                "NoteEpreuve": "14,5"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

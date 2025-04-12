@@ -1,0 +1,65 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 1304404,
+              "NomCandidat": "DOXY",
+              "PrenomCandidat": "Ludwyna",
+              "DateNaissance": "28/06/2004"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "NiveauEtudeLibelle": "1ère année d'études supérieures",
+                "TypeFormationLibelle": "Licence",
+                "FormationScolariteLibelle": "Licence - Arts-lettres-langues",
+                "FiliereScolariteCode": 2027,
+                "TypeEtablissementorigineLibelle": "Université",
+                "NomEtablissementOrigine": "Université Paris 8",
+                "CommuneEtablissementOrigineLibelle": "Saint-Denis",
+                "PaysEtablissementorigineLibelle": "France"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité française"
+              }
+            ],
+            "BulletinsScolaires": [],
+            "FicheAvenir": {},
+            "AppreciationsEnseignantsFicheAvenir": [],
+            "Baccalaureat": {
+              "EDSScolaritePremiere1LibelleBCN": "ARTS PLASTIQUES",
+              "EDSScolaritePremiere2LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+              "EDSScolaritePremiere3LibelleBCN": "SCIENCES ECONOMIQUES ET SOCIALES",
+              "EDSScolariteTerminale1Libelle": "Sciences de la vie et de la Terre Spécialité",
+              "EDSScolariteTerminale2Libelle": "Sciences Economiques et Sociales Spécialité",
+              "EDSScolaritePremiere1Libelle": "Arts Plastiques Spécialité",
+              "EDSScolaritePremiere2Libelle": "Sciences de la vie et de la Terre Spécialité",
+              "EDSScolaritePremiere3Libelle": "Sciences Economiques et Sociales Spécialité"
+            },
+            "NotesBaccalaureat": [
+              {
+                "EpreuveLibelle": "Sciences de la Vie et de la Terre",
+                "NoteEpreuve": "8,0"
+              },
+              {
+                "EpreuveLibelle": "Français écrit",
+                "NoteEpreuve": "11,0"
+              },
+              {
+                "EpreuveLibelle": "Français oral",
+                "NoteEpreuve": "10,0"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

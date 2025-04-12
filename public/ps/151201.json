@@ -1,0 +1,53 @@
+{
+  "exportDeDonnees": {
+    "etablissementCode": "0750663N",
+    "modeleCode": 42807,
+    "exportCandidats": [
+      {
+        "formationCode": 8994,
+        "candidats": [
+          {
+            "DonneesCandidats": {
+              "NumeroDossierCandidat": 151201,
+              "NomCandidat": "MADOURÉ-PÉRU",
+              "PrenomCandidat": "Andrea",
+              "DateNaissance": "31/08/2007"
+            },
+            "Scolarite": [
+              {
+                "AnneeScolaireLibelle": "2024-2025",
+                "ScolariteFrancaiseLibelle": "Scolarité française",
+                "NiveauEtudeLibelle": "Terminale",
+                "TypeFormationLibelle": "Terminale",
+                "TypeClasseLibelle": "Technologique",
+                "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+                "NomEtablissementOrigine": "Lycée Jean Perrin",
+                "CommuneEtablissementOrigineLibelle": "Saint-Ouen-l'Aumône",
+                "PaysEtablissementorigineLibelle": "France"
+              },
+              {
+                "ScolariteFrancaiseLibelle": "Scolarité française"
+              }
+            ],
+            "BulletinsScolaires": [],
+            "FicheAvenir": {
+              "NiveauClasseCode": 4
+            },
+            "AppreciationsEnseignantsFicheAvenir": [],
+            "Baccalaureat": {
+              "EDSScolaritePremiere1LibelleBCN": "SCIENCES PHYSIQUES ET CHIMIQUES EN LABO.",
+              "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE ET MATHEMATIQUES",
+              "EDSScolaritePremiere3LibelleBCN": "BIOCHIMIE-BIOLOGIE",
+              "EDSScolariteTerminale1Libelle": "Sciences physiques et chimiques en laboratoire",
+              "EDSScolariteTerminale2Libelle": "Physique-Chimie et Mathématiques",
+              "EDSScolaritePremiere1Libelle": "Sciences physiques et chimiques en laboratoire",
+              "EDSScolaritePremiere2Libelle": "Physique-Chimie et Mathématiques",
+              "EDSScolaritePremiere3Libelle": "Biochimie-Biologie"
+            },
+            "NotesBaccalaureat": []
+          }
+        ]
+      }
+    ]
+  }
+}
