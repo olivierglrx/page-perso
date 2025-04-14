@@ -1,0 +1,352 @@
+{
+    "exportDeDonnees": {
+        "etablissementCode": "0750663N",
+        "modeleCode": 42807,
+        "exportCandidats": [
+            {
+                "formationCode": 8994,
+                "candidats": [
+                    {
+                        "DonneesCandidats": {
+                            "NumeroDossierCandidat": 800913,
+                            "NomCandidat": "VELLA",
+                            "PrenomCandidat": "Sasha",
+                            "DateNaissance": "07/12/2007"
+                        },
+                        "Scolarite": [
+                            {
+                                "AnneeScolaireLibelle": "2024-2025",
+                                "ScolariteFrancaiseLibelle": "Scolarité française",
+                                "NiveauEtudeLibelle": "Terminale",
+                                "TypeFormationLibelle": "Terminale",
+                                "TypeClasseLibelle": "Générale",
+                                "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+                                "NomEtablissementOrigine": "Lycée Jean-Jacques Rousseau",
+                                "CommuneEtablissementOrigineLibelle": "Montmorency",
+                                "PaysEtablissementorigineLibelle": "France"
+                            },
+                            {
+                                "ScolariteFrancaiseLibelle": "Scolarité française"
+                            }
+                        ],
+                        "BulletinsScolaires": [
+                            {
+                                "AnneeLibelle": "2024-2025",
+                                "BulletinsScolairesAnnee": {
+                                    "SerieLibelle": "Série Générale",
+                                    "BulletinsScolairesSeries": [
+                                        {
+                                            "TrimestreLibelle": "Second trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "10,30",
+                                                    "MoyenneclasseCandidat": "13,16",
+                                                    "MoyenneBasseClasseduCandidat": "5,29",
+                                                    "MoyenneHauteClasseduCandidat": "19,60",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Une baisse de régime au début du trimestre, qui a malheureusement eu des conséquences sur vos résultats. Vos compétences restent solides."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "7,94",
+                                                    "MoyenneclasseCandidat": "10,32",
+                                                    "MoyenneBasseClasseduCandidat": "5,00",
+                                                    "MoyenneHauteClasseduCandidat": "15,70",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Malgré le travail fourni et votre sérieux (bravo pour les devoirs supplémentaires rendus), vous n'avez pas réussi à compenser la hausse de mes exigences, ne baissez pas les bras !"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Philosophie",
+                                                    "MoyenneduCandidat": "12,24",
+                                                    "MoyenneclasseCandidat": "12,43",
+                                                    "MoyenneBasseClasseduCandidat": "7,50",
+                                                    "MoyenneHauteClasseduCandidat": "17,67",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un bon trimestre malgré une maladresse au bac blanc dont le résultat n'est pas à la hauteur de vos capacités. Vous avez su rester rigoureuse dans le travail personnel (malgré un investissement parfois irrégulier en classe). Il faut maintenant vous faire confiance et prendre le temps d'analyser les sujets pour investir les connaissances que vous maitrisez parfaitement ! Poursuivez vos efforts, vous êtes capable de mieux !"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "17,00",
+                                                    "MoyenneclasseCandidat": "16,22",
+                                                    "MoyenneBasseClasseduCandidat": "12,20",
+                                                    "MoyenneHauteClasseduCandidat": "19,30",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Bon trimestre. Sasha est sérieuse et soucieuse de progresser. Il faut continuer ainsi !"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Premier trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "10,07",
+                                                    "MoyenneclasseCandidat": "11,69",
+                                                    "MoyenneBasseClasseduCandidat": "6,68",
+                                                    "MoyenneHauteClasseduCandidat": "16,76",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un ensemble correct, sérieuse en classe, il faut approfondir les leçons, la méthode de travail est-elle la bonne ?"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "14,30",
+                                                    "MoyenneclasseCandidat": "14,52",
+                                                    "MoyenneBasseClasseduCandidat": "7,74",
+                                                    "MoyenneHauteClasseduCandidat": "18,62",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Trimestre très satisfaisant. Sasha semble fournir un travail de plus en plus efficace. Continuez sur cette voie !"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Philosophie",
+                                                    "MoyenneduCandidat": "14,75",
+                                                    "MoyenneclasseCandidat": "12,31",
+                                                    "MoyenneBasseClasseduCandidat": "6,33",
+                                                    "MoyenneHauteClasseduCandidat": "16,50",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un très bon premier trimestre. Malgré un investissement irrégulier en classe, vous participez à l'oral et vous vous montrez sérieuse et rigoureuse dans le travail personnel. Vos copies témoignent d'une belle maitrise du cours et de la méthode. Il vous faut maintenant approfondir l'analyse pour progresser et ne pas vous laisser déconcentrer en classe; vous êtes capable de mieux !"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "14,20",
+                                                    "MoyenneclasseCandidat": "13,40",
+                                                    "MoyenneBasseClasseduCandidat": "6,30",
+                                                    "MoyenneHauteClasseduCandidat": "19,10",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Bon trimestre. Sasha est sérieuse et soucieuse de bien faire. Poursuivez vos efforts !"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "AnneeLibelle": "2023-2024",
+                                "BulletinsScolairesAnnee": {
+                                    "SerieLibelle": "Série Générale",
+                                    "BulletinsScolairesSeries": [
+                                        {
+                                            "TrimestreLibelle": "Second trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Français",
+                                                    "MoyenneduCandidat": "13,00",
+                                                    "MoyenneclasseCandidat": "11,74",
+                                                    "MoyenneBasseClasseduCandidat": "5,60",
+                                                    "MoyenneHauteClasseduCandidat": "16,30",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Assez bon ensemble. Tu te montres soucieuse de réussir et de progresser. Le travail personnel est toujours fait avec sérieux, les devoirs de type bac donnent des résultats encourageants. Poursuis tes efforts, Sasha."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "10,60",
+                                                    "MoyenneclasseCandidat": "11,57",
+                                                    "MoyenneBasseClasseduCandidat": "3,90",
+                                                    "MoyenneHauteClasseduCandidat": "19,80",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Résultats corrects, mais fragiles. Poursuis tes efforts."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "10,00",
+                                                    "MoyenneclasseCandidat": "12,56",
+                                                    "MoyenneBasseClasseduCandidat": "4,50",
+                                                    "MoyenneHauteClasseduCandidat": "19,60",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un peu plus de difficultés ce trimestre. Elève sérieuse. Poursuivez les efforts sans vous décourager."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "10,90",
+                                                    "MoyenneclasseCandidat": "12,42",
+                                                    "MoyenneBasseClasseduCandidat": "4,00",
+                                                    "MoyenneHauteClasseduCandidat": "19,00",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Une baisse non négligeable, qui rend le niveau actuel fragile. Evite de baisser les bras au moindre obstacle, et concentre-toi davantage."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "12,30",
+                                                    "MoyenneclasseCandidat": "13,10",
+                                                    "MoyenneBasseClasseduCandidat": "3,30",
+                                                    "MoyenneHauteClasseduCandidat": "19,40",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Sasha a continué avec le même sérieux. Prenez confiance en vous, vous vous en sortez honorablement !"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Troisième trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "10,50",
+                                                    "MoyenneclasseCandidat": "14,92",
+                                                    "MoyenneBasseClasseduCandidat": "6,80",
+                                                    "MoyenneHauteClasseduCandidat": "20,00",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Sasha est sérieuse mais manque encore de confiance. Pourtant, vous avez des qualités."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Français",
+                                                    "MoyenneduCandidat": "12,00",
+                                                    "MoyenneclasseCandidat": "13,30",
+                                                    "MoyenneBasseClasseduCandidat": "7,30",
+                                                    "MoyenneHauteClasseduCandidat": "18,50",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Le travail est très sérieux et le résultat à l'oral blanc est très encourageant. Poursuis tes efforts, Sasha. Veille à mieux organiser et justifier tes arguments dans les devoirs écrits."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "8,00",
+                                                    "MoyenneclasseCandidat": "10,51",
+                                                    "MoyenneBasseClasseduCandidat": "1,80",
+                                                    "MoyenneHauteClasseduCandidat": "19,60",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Une fin d'année difficile pour Sasha."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "10,90",
+                                                    "MoyenneclasseCandidat": "12,19",
+                                                    "MoyenneBasseClasseduCandidat": "6,20",
+                                                    "MoyenneHauteClasseduCandidat": "18,10",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Cesse de te décourager au moindre obstacle. Tu es capable de bien faire, il suffit de persévérer et être plus méthodique"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "10,50",
+                                                    "MoyenneclasseCandidat": "13,61",
+                                                    "MoyenneBasseClasseduCandidat": "6,00",
+                                                    "MoyenneHauteClasseduCandidat": "19,40",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Des résultats fragiles. Elève sérieuse en classe."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Premier trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "13,60",
+                                                    "MoyenneclasseCandidat": "13,53",
+                                                    "MoyenneBasseClasseduCandidat": "6,80",
+                                                    "MoyenneHauteClasseduCandidat": "19,50",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Sasha est sérieuse, soucieuse de réussir et toujours enthousiaste. une attitude fort positive qui vous permet d'effectuer un trimestre tout à fait satisfaisant. Poursuivez ainsi en visant la rigueur linguistique."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Français",
+                                                    "MoyenneduCandidat": "15,30",
+                                                    "MoyenneclasseCandidat": "12,72",
+                                                    "MoyenneBasseClasseduCandidat": "7,30",
+                                                    "MoyenneHauteClasseduCandidat": "16,40",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Très bon ensemble. Le travail à la maison est fait avec beaucoup de sérieux. Tu peux encore progresser dans l'exercice du commentaire en développant tes analyses. Continue ainsi, Sasha."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "10,90",
+                                                    "MoyenneclasseCandidat": "14,51",
+                                                    "MoyenneBasseClasseduCandidat": "8,10",
+                                                    "MoyenneHauteClasseduCandidat": "19,40",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Des résultats fragiles. Elève sérieuse et motivée qui doit poursuivre ses efforts."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "13,10",
+                                                    "MoyenneclasseCandidat": "13,24",
+                                                    "MoyenneBasseClasseduCandidat": "6,00",
+                                                    "MoyenneHauteClasseduCandidat": "18,40",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Trimestre convenable, avec une attitude positive. Continue dans ce sens"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "11,40",
+                                                    "MoyenneclasseCandidat": "12,98",
+                                                    "MoyenneBasseClasseduCandidat": "2,80",
+                                                    "MoyenneHauteClasseduCandidat": "19,90",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Résultats corrects mais qui restent parfois fragiles. Poursuis tes efforts."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "FicheAvenir": {
+                            "NiveauClasseCode": 4
+                        },
+                        "AppreciationsEnseignantsFicheAvenir": [
+                            {
+                                "MatiereFicheAvenirLibelle": "Philosophie",
+                                "MatiereFicheAvenirLibelleBCN": "PHILOSOPHIE",
+                                "AppreciationFicheAvenir": "Une bonne année de philosophie ! L'élève fait preuve d'une belle autonomie et semble avoir acquis une méthode de travail efficace. Il sait également faire des efforts afin de s'investir davantage en classe ! Malgré certaines irrégularités, il a toute la maturité intellectuelle nécessaire pour réussir dans le supérieur !"
+                            },
+                            {
+                                "MatiereFicheAvenirLibelle": "Langue vivante A",
+                                "MatiereFicheAvenirLibelleBCN": "LANGUE VIVANTE 1",
+                                "AppreciationFicheAvenir": "Élève volontaire et appliqué qui propose des travaux de qualité dont lévolution montre une progression dans le chemin réflexif. Les conseils sont toujours appliqués avec beaucoup de justesse et le raisonnement en constante progression."
+                            },
+                            {
+                                "MatiereFicheAvenirLibelle": "Mathématiques Spécialité",
+                                "MatiereFicheAvenirLibelleBCN": "MATHEMATIQUES",
+                                "AppreciationFicheAvenir": "Sasha est une élève qui sait être très sérieuse et volontaire. Le travail est régulier et elle n'hésite pas à demander des éclaircissements pour progresser."
+                            },
+                            {
+                                "MatiereFicheAvenirLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                "MatiereFicheAvenirLibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+                                "AppreciationFicheAvenir": "Ensemble trop juste, élève  sérieuse qui se décourage très vite"
+                            }
+                        ],
+                        "Baccalaureat": {
+                            "EDSScolaritePremiere1LibelleBCN": "MATHEMATIQUES",
+                            "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE",
+                            "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+                            "EDSScolariteTerminale1Libelle": "Mathématiques Spécialité",
+                            "EDSScolariteTerminale2Libelle": "Sciences de la vie et de la Terre Spécialité",
+                            "EDSScolaritePremiere1Libelle": "Mathématiques Spécialité",
+                            "EDSScolaritePremiere2Libelle": "Physique-Chimie Spécialité",
+                            "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+                        },
+                        "NotesBaccalaureat": [
+                            {
+                                "EpreuveLibelle": "Mathématiques"
+                            },
+                            {
+                                "EpreuveLibelle": "Sciences de la Vie et de la Terre"
+                            },
+                            {
+                                "EpreuveLibelle": "Français écrit",
+                                "NoteEpreuve": "14,0"
+                            },
+                            {
+                                "EpreuveLibelle": "Français oral",
+                                "NoteEpreuve": "18,0"
+                            },
+                            {
+                                "EpreuveLibelle": "Physique-Chimie  (EDS suivi uniquement en 1ère)",
+                                "NoteEpreuve": "10,5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Code candidat": "800913",
+    "Groupe algorithmique": "E",
+    "Classement Algorithmique": "2132",
+    "Remarques": "baisse(3)- notesSC : 10 - NotesFR : 13- Notes Bac :14 - Bonus rang :0",
+    "Spe": "Tle :M - SVT -  1ere - PC",
+    "candidat précédent": "800907",
+    "candidat suivant": "800956",
+    "lettre": "Madame, Monsieur,<br /> Elève de terminal avec les spécialités Maths et SVT, je souhaite devenir ingénieur en biotechnologie et je pense que les classes préparatoires BCPST sont un passage indispensable.<br /> Même si je ne suis pas la majore de ma classe, je fournis énormément de travail et je ne recule jamais devant l'effort. Je suis organisée, persévérante et toujours prête à donner le meilleur de moi-même. Cette année, j'ai connu une baisse de résultats au deuxième trimestre à cause de petits soucis personnels, mais cela ne reflète en rien mon engagement et ma volonté de réussir. Être impliquée dans la vie de mon lycée en tant que déléguée et membre du CVL m'a beaucoup appris et cela me sera sans aucun doute utile pour réussir dans l'enseignement supérieur.<br /> Passionnée par la biologie et la chimie, j'aime également les maths et j'ai réalisé ces dernières années que je souhaitais travailler dans le domaine des biotechnologies dans la santé, me rendre utile à la société tout en ayant un profil polyvalent. C'est pour acquérir ce profil que j'ai décidé de m'orienter, à terme, vers une formation d'ingénieur. Afin de pouvoir intégrer les meilleures écoles, je souhaite rejoindre la prépa BCPST du lycée Chaptal car c'est un très bon établissement avec de bons résultats et sa proximité avec mon futur domicile me permettra de dédier l'intégralité de mon temps à mes études et la préparation des concours.<br /> Toutes ces raisons ont conforté mon choix que j'espère, vous validerez.",
+    "veto": "False",
+    "geol": "False"
+}

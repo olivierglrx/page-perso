@@ -1,0 +1,400 @@
+{
+    "exportDeDonnees": {
+        "etablissementCode": "0750663N",
+        "modeleCode": 42807,
+        "exportCandidats": [
+            {
+                "formationCode": 8994,
+                "candidats": [
+                    {
+                        "DonneesCandidats": {
+                            "NumeroDossierCandidat": 1244900,
+                            "NomCandidat": "GUILLET",
+                            "PrenomCandidat": "Stanislas",
+                            "DateNaissance": "21/07/2006"
+                        },
+                        "Scolarite": [
+                            {
+                                "AnneeScolaireLibelle": "2024-2025",
+                                "ScolariteFrancaiseLibelle": "Scolarité française",
+                                "NiveauEtudeLibelle": "1ère année d'études supérieures",
+                                "TypeFormationLibelle": "Licence",
+                                "FormationScolariteLibelle": "Licence - Sciences - technologies - santé",
+                                "FiliereScolariteCode": 2047,
+                                "TypeEtablissementorigineLibelle": "Université",
+                                "NomEtablissementOrigine": "Université de Versailles - Saint Quentin en Yvelines",
+                                "CommuneEtablissementOrigineLibelle": "Guyancourt",
+                                "PaysEtablissementorigineLibelle": "France"
+                            },
+                            {
+                                "ScolariteFrancaiseLibelle": "Scolarité française"
+                            }
+                        ],
+                        "BulletinsScolaires": [
+                            {
+                                "AnneeLibelle": "2023-2024",
+                                "BulletinsScolairesAnnee": {
+                                    "SerieLibelle": "Série Générale",
+                                    "BulletinsScolairesSeries": [
+                                        {
+                                            "TrimestreLibelle": "Second trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "11,00",
+                                                    "MoyenneclasseCandidat": "13,67",
+                                                    "MoyenneBasseClasseduCandidat": "8,36",
+                                                    "MoyenneHauteClasseduCandidat": "17,75",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Une belle progression ce trimestre. Il y a une compréhension globale du cours, il faut cependant poursuivre les efforts pour progresser, notamment en ce focalisant sur la rigueur."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Philosophie",
+                                                    "MoyenneduCandidat": "14,25",
+                                                    "MoyenneclasseCandidat": "13,10",
+                                                    "MoyenneBasseClasseduCandidat": "7,50",
+                                                    "MoyenneHauteClasseduCandidat": "18,50",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un bon niveau d'ensemble. Stanislas est un élève intelligent, il fait preuve de remarques fines et pertinentes, cependant il pourrait aller encore plus loin dans l'analyse et le développement du sujet, au vu de ses capacités !"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                                                    "MoyenneduCandidat": "14,53",
+                                                    "MoyenneclasseCandidat": "14,79",
+                                                    "MoyenneBasseClasseduCandidat": "7,29",
+                                                    "MoyenneHauteClasseduCandidat": "19,55",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Stanislas a continué de bien s'investir et de fournir un travail sérieux ce trimestre. Bon ensemble."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "14,50",
+                                                    "MoyenneclasseCandidat": "16,45",
+                                                    "MoyenneBasseClasseduCandidat": "14,50",
+                                                    "MoyenneHauteClasseduCandidat": "18,63",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un ensemble satisfaisant. Stanislas est un élève cultivé. Participation discrète mais très pertinent."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "15,17",
+                                                    "MoyenneclasseCandidat": "13,17",
+                                                    "MoyenneBasseClasseduCandidat": "6,76",
+                                                    "MoyenneHauteClasseduCandidat": "17,98",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Des progrès ce trimestre ! L'ensemble est très satisfaisant et les connaissances solides. Le travail et les écrits ont gagné en rigueur. Poursuivez dans cette belle dynamique"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Troisième trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "11,34",
+                                                    "MoyenneclasseCandidat": "11,96",
+                                                    "MoyenneBasseClasseduCandidat": "5,91",
+                                                    "MoyenneHauteClasseduCandidat": "17,51",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un travail sérieux et régulier. Les méthodes sont travaillées."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "17,13",
+                                                    "MoyenneclasseCandidat": "15,28",
+                                                    "MoyenneBasseClasseduCandidat": "10,47",
+                                                    "MoyenneHauteClasseduCandidat": "18,73",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un dernier trimestre de grande qualité et très encourageant pour l'épreuve finale"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "15,50",
+                                                    "MoyenneclasseCandidat": "16,50",
+                                                    "MoyenneBasseClasseduCandidat": "13,00",
+                                                    "MoyenneHauteClasseduCandidat": "20,00",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un trimestre dans la continuité des précédents. Bravo !"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                                                    "MoyenneduCandidat": "12,13",
+                                                    "MoyenneclasseCandidat": "13,93",
+                                                    "MoyenneBasseClasseduCandidat": "4,94",
+                                                    "MoyenneHauteClasseduCandidat": "18,73",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Le travail et l'investissement de Stanislas sont restés sérieux ce trimestre."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Philosophie",
+                                                    "MoyenneduCandidat": "13,20",
+                                                    "MoyenneclasseCandidat": "12,96",
+                                                    "MoyenneBasseClasseduCandidat": "5,80",
+                                                    "MoyenneHauteClasseduCandidat": "18,40",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un bon niveau d'ensemble, malgré des travaux dont la lisibilité laisse à désirer ... Stanislas fait preuve de remarques pertinentes, mais ses écrits doivent gagner en précision et en argumentation."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Premier trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "16,60",
+                                                    "MoyenneclasseCandidat": "17,73",
+                                                    "MoyenneBasseClasseduCandidat": "16,60",
+                                                    "MoyenneHauteClasseduCandidat": "20,00",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Elève avec une bonne culture générale. Il a souvent apporté des éléments importants qui faisaient avancer les cours."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Philosophie",
+                                                    "MoyenneduCandidat": "12,57",
+                                                    "MoyenneclasseCandidat": "12,43",
+                                                    "MoyenneBasseClasseduCandidat": "7,56",
+                                                    "MoyenneHauteClasseduCandidat": "17,86",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "De bons résultats dans l'ensemble, que Stanislas peut encore approfondir !"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "13,65",
+                                                    "MoyenneclasseCandidat": "12,05",
+                                                    "MoyenneBasseClasseduCandidat": "6,00",
+                                                    "MoyenneHauteClasseduCandidat": "17,53",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Stanislas est un élève très sérieux. Il comprend vite et bien ! Il dispose d'un potentiel évident qu'il faudra développer encore le trimestre prochain. Restez dans cette dynamique pour attendre l'excellence !"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                                                    "MoyenneduCandidat": "17,05",
+                                                    "MoyenneclasseCandidat": "13,87",
+                                                    "MoyenneBasseClasseduCandidat": "5,89",
+                                                    "MoyenneHauteClasseduCandidat": "19,54",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un très bon trimestre. Stanislas est investi et sérieux dans son travail. Bonne participation."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "7,64",
+                                                    "MoyenneclasseCandidat": "11,88",
+                                                    "MoyenneBasseClasseduCandidat": "6,87",
+                                                    "MoyenneHauteClasseduCandidat": "16,49",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Le premier trimestre a montré la nécessité de revoir les méthodes de travail. Il faut rester motivé et ne pas hésiter à me solliciter."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "AnneeLibelle": "2022-2023",
+                                "BulletinsScolairesAnnee": {
+                                    "SerieLibelle": "Série Générale",
+                                    "BulletinsScolairesSeries": [
+                                        {
+                                            "TrimestreLibelle": "Second trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "13,54",
+                                                    "MoyenneclasseCandidat": "15,54",
+                                                    "MoyenneBasseClasseduCandidat": "13,08",
+                                                    "MoyenneHauteClasseduCandidat": "18,29",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Un ensemble satisfaisant. Stanislas participe à l'oral de façon bien plus régulier qu'auparavant. Cependant, des progrès en grammaire et en vocabulaire sont nécessaires !"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Français",
+                                                    "MoyenneduCandidat": "12,71",
+                                                    "MoyenneclasseCandidat": "13,49",
+                                                    "MoyenneBasseClasseduCandidat": "8,57",
+                                                    "MoyenneHauteClasseduCandidat": "18,00",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Les efforts fournis par Stanislas lui ont permis de réaliser des progrès ce trimestre et doivent être poursuivis afin de consolider les travaux écrits. La participation orale est devenue régulière et témoigne d'un investissement soutenu en classe."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "13,81",
+                                                    "MoyenneclasseCandidat": "14,47",
+                                                    "MoyenneBasseClasseduCandidat": "8,93",
+                                                    "MoyenneHauteClasseduCandidat": "19,42",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Ensemble correct. Les efforts sont à poursuivre et à intensifier au 3e trimestre pour confirmer ses résultats et"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "11,14",
+                                                    "MoyenneclasseCandidat": "13,05",
+                                                    "MoyenneBasseClasseduCandidat": "5,07",
+                                                    "MoyenneHauteClasseduCandidat": "18,21",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Trimestre correct. Stanislas participe avec pertinence en classe, mais les raisonnements à l'écrit restent trop superficiels. Il faut approfondir votre travail personnel en dégageant des méthodes à partir des exercices faits en classe."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "12,28",
+                                                    "MoyenneclasseCandidat": "14,08",
+                                                    "MoyenneBasseClasseduCandidat": "10,48",
+                                                    "MoyenneHauteClasseduCandidat": "17,53",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Stanislas a su écouter les conseils donnés, il participe désormais activement en classe et ses interventions sont toujours pertinentes. La rédaction a bien progressé. Continuez ainsi pour poursuivre cette belle évolution."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Troisième trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "11,77",
+                                                    "MoyenneclasseCandidat": "13,82",
+                                                    "MoyenneBasseClasseduCandidat": "8,60",
+                                                    "MoyenneHauteClasseduCandidat": "19,07",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Trimestre décevant avec des résultats en baisse. Stanislas n'a pas écouté les conseils donnés (efforts réguliers, travail personnel approfondi) et n'a donc pas progressé ce trimestre comme attendu."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "10,61",
+                                                    "MoyenneclasseCandidat": "13,23",
+                                                    "MoyenneBasseClasseduCandidat": "7,59",
+                                                    "MoyenneHauteClasseduCandidat": "18,55",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Ensemble correct. Le travail personnel de Stanislas parfois trop superficiel. Participation orale pertinente."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Français",
+                                                    "MoyenneduCandidat": "10,60",
+                                                    "MoyenneclasseCandidat": "12,74",
+                                                    "MoyenneBasseClasseduCandidat": "7,69",
+                                                    "MoyenneHauteClasseduCandidat": "18,36",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Un trimestre convenable. Stanislas adopte une attitude positive en manifestant une réelle volonté de bien faire et de progresser. Une participation active et positive."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "14,57",
+                                                    "MoyenneclasseCandidat": "16,39",
+                                                    "MoyenneBasseClasseduCandidat": "12,71",
+                                                    "MoyenneHauteClasseduCandidat": "18,00",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Les résultats semblent corrects mais l'implication paraît assez faible."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "15,92",
+                                                    "MoyenneclasseCandidat": "15,88",
+                                                    "MoyenneBasseClasseduCandidat": "11,00",
+                                                    "MoyenneHauteClasseduCandidat": "19,00",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Un très belle progression ce trimestre marquée par des résultats très satisfaisants. Il faudra consolider ces efforts l'année prochaine en poursuivant un travail personnel régulier notamment dans les exercices d'argumentation."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Premier trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "15,33",
+                                                    "MoyenneclasseCandidat": "17,44",
+                                                    "MoyenneBasseClasseduCandidat": "13,33",
+                                                    "MoyenneHauteClasseduCandidat": "19,33",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "N"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Français",
+                                                    "MoyenneduCandidat": "10,20",
+                                                    "MoyenneclasseCandidat": "12,58",
+                                                    "MoyenneBasseClasseduCandidat": "9,00",
+                                                    "MoyenneHauteClasseduCandidat": "17,60",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Un ensemble convenable. Stanislas est un élève volontaire et sérieux. Il faut poursuivre les efforts tout en étant plus rigoureux à l'écrit, notamment en renforçant l'analyse, afin de progresser au prochain trimestre."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "12,79",
+                                                    "MoyenneclasseCandidat": "16,03",
+                                                    "MoyenneBasseClasseduCandidat": "12,79",
+                                                    "MoyenneHauteClasseduCandidat": "18,48",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Une mise en route difficile pour Stanislas en début de trimestre mais il semble avoir compris les attendus pour progresser: une bonne attention en classe et un apprentissage rigoureux des notions."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "10,04",
+                                                    "MoyenneclasseCandidat": "11,88",
+                                                    "MoyenneBasseClasseduCandidat": "4,36",
+                                                    "MoyenneHauteClasseduCandidat": "18,26",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Ensemble très insuffisant. Le travail personnel doit être intensifié. Il faut approfondir la compréhension du cours et refaire méthodiquement chaque exercice."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "12,71",
+                                                    "MoyenneclasseCandidat": "13,78",
+                                                    "MoyenneBasseClasseduCandidat": "8,84",
+                                                    "MoyenneHauteClasseduCandidat": "19,64",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Résultats irréguliers, efforts perfectibles.  Stanislas, vous devez absolument approfondir son travail personnel. Posez bien toutes vos questions en classe, apprenez bien votre cours régulièrement puis refaites  systématiquement les exercices corrigés en classe avant l'évaluation pour progresser correctement dans la matière. Des progrès sont attendus au second semestre."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "FicheAvenir": {},
+                        "AppreciationsEnseignantsFicheAvenir": [],
+                        "Baccalaureat": {
+                            "EDSScolaritePremiere1LibelleBCN": "MATHEMATIQUES",
+                            "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE",
+                            "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+                            "EDSScolariteTerminale1Libelle": "Physique-Chimie Spécialité",
+                            "EDSScolariteTerminale2Libelle": "Sciences de la vie et de la Terre Spécialité",
+                            "EDSScolaritePremiere1Libelle": "Mathématiques Spécialité",
+                            "EDSScolaritePremiere2Libelle": "Physique-Chimie Spécialité",
+                            "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+                        },
+                        "NotesBaccalaureat": [
+                            {
+                                "EpreuveLibelle": "Physique-Chimie",
+                                "NoteEpreuve": "16,0"
+                            },
+                            {
+                                "EpreuveLibelle": "Sciences de la Vie et de la Terre",
+                                "NoteEpreuve": "17,0"
+                            },
+                            {
+                                "EpreuveLibelle": "Français écrit",
+                                "NoteEpreuve": "16,0"
+                            },
+                            {
+                                "EpreuveLibelle": "Français oral",
+                                "NoteEpreuve": "16,0"
+                            },
+                            {
+                                "EpreuveLibelle": "Mathématiques (EDS suivi uniquement en 1ère)",
+                                "NoteEpreuve": "12,8"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Code candidat": "1244900",
+    "Groupe algorithmique": "E",
+    "Classement Algorithmique": "2292",
+    "Remarques": "notesSC : 12 - NotesFR : 13- Notes Bac :15 - Bonus rang :0",
+    "Spe": "Tle :PC - SVT -  1ere - M",
+    "candidat précédent": "1244555",
+    "candidat suivant": "1245114",
+    "lettre": "Madame, Monsieur,<br /> <br /> Actuellement en année de Parcours d'accès spécifique santé (PASS), je souhaite intégrer la classe préparatoire BCPST du lycée Chaptal en cas d'échec au concours de médecine. J'ai le désir de mener une carrière dans les sciences du vivant pour le sens profond de ces métiers et les enjeux scientifiques et de santé publique qu'ils recouvrent. Je souhaite intégrer votre classe préparatoire BCPST afin de me préparer aux concours des écoles vétérinaires, convaincu que cette formation exigeante est la voie idéale pour atteindre mon objectif. Passionné par le monde animal, j'aime développer ma réflexion scientifique.<br /> J'ai fait un stage au pôle santé d'Oréliance à Orléans qui m'a permis de me confronter à la réalité du quotidien au sein de plusieurs services hospitaliers et j'ai participé en Terminale à un séjour hospitalier avec des personnes souffrantes. L'accompagnement des malades m'est vraiment fondamentale, j'apprends à me mettre à leur service et à soulager la douleur.<br /> <br /> Je me suis profondément investi durant cette année de PASS, j'ai acquis de grandes capacités de travail, une rigueur et une autonomie dans les apprentissages. J'ai travaillé sérieusement en section européenne allemand pour me préparer à ces études exigeantes. Passionné de découverte, conscient de la force de l'engagement individuel et de l'importance du collectif, je pense avoir les qualités nécessaires pour vous rejoindre.<br /> <br /> Je vous remercie de l'attention que vous porterez à ma candidature.",
+    "veto": "False",
+    "geol": "False"
+}

@@ -1,0 +1,370 @@
+{
+    "exportDeDonnees": {
+        "etablissementCode": "0750663N",
+        "modeleCode": 42807,
+        "exportCandidats": [
+            {
+                "formationCode": 8994,
+                "candidats": [
+                    {
+                        "DonneesCandidats": {
+                            "NumeroDossierCandidat": 642914,
+                            "NomCandidat": "TELLIER--LEFEBVRE",
+                            "PrenomCandidat": "Jules",
+                            "DateNaissance": "21/07/2007"
+                        },
+                        "Scolarite": [
+                            {
+                                "AnneeScolaireLibelle": "2024-2025",
+                                "ScolariteFrancaiseLibelle": "Scolarité française",
+                                "NiveauEtudeLibelle": "Terminale",
+                                "TypeFormationLibelle": "Terminale",
+                                "TypeClasseLibelle": "Générale",
+                                "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+                                "NomEtablissementOrigine": "Lycée Jacques Decour",
+                                "CommuneEtablissementOrigineLibelle": "Paris  9e  Arrondissement",
+                                "PaysEtablissementorigineLibelle": "France"
+                            },
+                            {
+                                "ScolariteFrancaiseLibelle": "Scolarité française"
+                            }
+                        ],
+                        "BulletinsScolaires": [
+                            {
+                                "AnneeLibelle": "2024-2025",
+                                "BulletinsScolairesAnnee": {
+                                    "SerieLibelle": "Série Générale",
+                                    "BulletinsScolairesSeries": [
+                                        {
+                                            "TrimestreLibelle": "Second trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Philosophie",
+                                                    "MoyenneduCandidat": "11,50",
+                                                    "MoyenneclasseCandidat": "10,80",
+                                                    "MoyenneBasseClasseduCandidat": "4,67",
+                                                    "MoyenneHauteClasseduCandidat": "15,33",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Des résultats densemble convenables, un travail peu approfondi toutefois"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "8,50",
+                                                    "MoyenneclasseCandidat": "11,16",
+                                                    "MoyenneBasseClasseduCandidat": "4,50",
+                                                    "MoyenneHauteClasseduCandidat": "18,50",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Des résultats en baisse ce trimestre. Le travail doit être plus soutenu et Jules doit être plus rigoureux à l'écrit."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "17,67",
+                                                    "MoyenneclasseCandidat": "15,98",
+                                                    "MoyenneBasseClasseduCandidat": "10,67",
+                                                    "MoyenneHauteClasseduCandidat": "18,00",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Très bon trimestre"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                                                    "MoyenneduCandidat": "15,20",
+                                                    "MoyenneclasseCandidat": "14,20",
+                                                    "MoyenneBasseClasseduCandidat": "8,10",
+                                                    "MoyenneHauteClasseduCandidat": "19,50",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "De bons résultats. Jules a toutefois confirmé ses difficultés de concentration en classe, qui lont empêché dexploiter complètement ses capacités."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "16,50",
+                                                    "MoyenneclasseCandidat": "12,35",
+                                                    "MoyenneBasseClasseduCandidat": "7,50",
+                                                    "MoyenneHauteClasseduCandidat": "17,50",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Très bon travail, malgré une bien trop grande passivité en cours lextrême majorité du temps."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Premier trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                                                    "MoyenneduCandidat": "13,60",
+                                                    "MoyenneclasseCandidat": "16,00",
+                                                    "MoyenneBasseClasseduCandidat": "9,30",
+                                                    "MoyenneHauteClasseduCandidat": "20,00",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Des résultats convenables, mais bien inférieurs aux possibilités de Jules. Il faudra rester plus concentré en classe et sinvestir davantage dans le travail."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "15,50",
+                                                    "MoyenneclasseCandidat": "15,30",
+                                                    "MoyenneBasseClasseduCandidat": "10,75",
+                                                    "MoyenneHauteClasseduCandidat": "18,75",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un trimestre satisfaisant. Un très bon potentiel à développer."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "15,00",
+                                                    "MoyenneclasseCandidat": "12,10",
+                                                    "MoyenneBasseClasseduCandidat": "3,50",
+                                                    "MoyenneHauteClasseduCandidat": "18,50",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un bon trimestre. Le travail est sérieux. Il faut continuer ainsi."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Philosophie",
+                                                    "MoyenneduCandidat": "9,67",
+                                                    "MoyenneclasseCandidat": "10,73",
+                                                    "MoyenneBasseClasseduCandidat": "5,50",
+                                                    "MoyenneHauteClasseduCandidat": "16,67",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Astucieux, pertinent mais aussi un peu brouillon à l'écrit"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "17,50",
+                                                    "MoyenneclasseCandidat": "11,53",
+                                                    "MoyenneBasseClasseduCandidat": "6,00",
+                                                    "MoyenneHauteClasseduCandidat": "17,50",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un excellent travail, autonome et réfléchi."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "AnneeLibelle": "2023-2024",
+                                "BulletinsScolairesAnnee": {
+                                    "SerieLibelle": "Série Générale",
+                                    "BulletinsScolairesSeries": [
+                                        {
+                                            "TrimestreLibelle": "Troisième trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "17,22",
+                                                    "MoyenneclasseCandidat": "13,91",
+                                                    "MoyenneBasseClasseduCandidat": "9,22",
+                                                    "MoyenneHauteClasseduCandidat": "19,11",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Maîtrise très satisfaisante des compétences linguistiques."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "10,80",
+                                                    "MoyenneclasseCandidat": "9,35",
+                                                    "MoyenneBasseClasseduCandidat": "4,78",
+                                                    "MoyenneHauteClasseduCandidat": "15,85",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Ensemble correct mais en deçà des capacités. Le travail a été trop irrégulier."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "13,06",
+                                                    "MoyenneclasseCandidat": "12,75",
+                                                    "MoyenneBasseClasseduCandidat": "3,47",
+                                                    "MoyenneHauteClasseduCandidat": "17,50",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un bilan positif sur l'ensemble de l'année. De bonnes qualités d'analyse mais Jules n'est pas au maximum de ses capacités et pourrait encore mieux réussir en fournissant un travail plus régulier."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Français",
+                                                    "MoyenneduCandidat": "8,10",
+                                                    "MoyenneclasseCandidat": "10,03",
+                                                    "MoyenneBasseClasseduCandidat": "5,00",
+                                                    "MoyenneHauteClasseduCandidat": "16,20",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un devoir non rendu et des notes décevantes au bac blanc expliquent en grande partie cette moyenne. Jules ne travaille pas suffisamment en français : la participation au cours peut être très pertinente et montrer des connaissances précises, mais l'écrit ne suit pas."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "10,29",
+                                                    "MoyenneclasseCandidat": "12,08",
+                                                    "MoyenneBasseClasseduCandidat": "2,10",
+                                                    "MoyenneHauteClasseduCandidat": "18,81",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Ensemble juste. Il faudra gagner en régularité dans vos apprentissages l'an prochain!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Premier trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "20,00",
+                                                    "MoyenneclasseCandidat": "12,81",
+                                                    "MoyenneBasseClasseduCandidat": "7,33",
+                                                    "MoyenneHauteClasseduCandidat": "20,00",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Excellent trimestre. Vos qualités de compréhension peuvent grandement servir à la classe donc il faut participer plus comme vous le faites depuis la fin du trimestre."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "13,69",
+                                                    "MoyenneclasseCandidat": "13,72",
+                                                    "MoyenneBasseClasseduCandidat": "6,97",
+                                                    "MoyenneHauteClasseduCandidat": "17,51",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Des résultats convenables à l'écrit mais le comportement désinvolte de Jules frise trop souvent l'insolence. Aucun travail à la maison et une implication en classe minimale, il faut absolument changer d'attitude au second trimestre."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Français",
+                                                    "MoyenneduCandidat": "10,70",
+                                                    "MoyenneclasseCandidat": "10,15",
+                                                    "MoyenneBasseClasseduCandidat": "4,90",
+                                                    "MoyenneHauteClasseduCandidat": "14,90",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Ensemble moyen du fait d'un exercice raté. Les autres résultats sont encourageants voire satisfaisants. Jules doit poursuivre ses efforts et ne pas hésiter à participer au cours (comme il l'a fait plusieurs fois cette fin de trimestre)."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "13,83",
+                                                    "MoyenneclasseCandidat": "13,15",
+                                                    "MoyenneBasseClasseduCandidat": "6,14",
+                                                    "MoyenneHauteClasseduCandidat": "20,00",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Résultats corrects mais fluctuants. Le cours n'est pas toujours assimilé correctement. Les copies sont souvent mal organisées et difficiles à lire. Il est vraisemblable qu'un surplus de travail (en cours comme à la maison) suffise largement à résoudre ces problèmes, ce qui est d'autant plus nécessaire que la difficulté va s'accentuer au cours de l'année."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "11,22",
+                                                    "MoyenneclasseCandidat": "10,70",
+                                                    "MoyenneBasseClasseduCandidat": "6,56",
+                                                    "MoyenneHauteClasseduCandidat": "17,14",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Ensemble correct. Le travail personnel doit être plus rigoureux et plus régulier. Attention à bien rester concentré en classe."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Second trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "11,38",
+                                                    "MoyenneclasseCandidat": "13,47",
+                                                    "MoyenneBasseClasseduCandidat": "5,00",
+                                                    "MoyenneHauteClasseduCandidat": "19,69",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Ensemble juste. Jules manque d'attention en classe et cela le pénalise. Il faut approfondir les méthodes et gagner en concentration en classe!"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "11,86",
+                                                    "MoyenneclasseCandidat": "12,16",
+                                                    "MoyenneBasseClasseduCandidat": "6,83",
+                                                    "MoyenneHauteClasseduCandidat": "18,53",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Des résultats convenables mais Jules aurait les capacités de largement mieux réussir en approfondissant l'apprentissage du cours et en étant plus rigoureux à l'écrit. Une nette amélioration dans l'attitude en classe, il faut poursuivre sur voie positive au dernier trimestre."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Français",
+                                                    "MoyenneduCandidat": "11,30",
+                                                    "MoyenneclasseCandidat": "10,36",
+                                                    "MoyenneBasseClasseduCandidat": "6,00",
+                                                    "MoyenneHauteClasseduCandidat": "15,20",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Ensemble correct d'autant qu'un exercice n'a pas été rendu et que les résultats dans le détail sont trop variables ! Jules doit travailler plus régulièrement en français pour progresser de façon décisive. Participation orale très bienvenue car toujours pertinente et proposant des pistes d'interprétation réfléchies et nuancées."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "8,11",
+                                                    "MoyenneclasseCandidat": "9,03",
+                                                    "MoyenneBasseClasseduCandidat": "3,67",
+                                                    "MoyenneHauteClasseduCandidat": "15,68",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Résultats bien justes liés à un  travail qui a été peu régulier et approfondi."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "19,00",
+                                                    "MoyenneclasseCandidat": "12,90",
+                                                    "MoyenneBasseClasseduCandidat": "6,66",
+                                                    "MoyenneHauteClasseduCandidat": "19,07",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un excellent trimestre et une bonne participation, continuez ainsi."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "FicheAvenir": {
+                            "NiveauClasseCode": 4
+                        },
+                        "AppreciationsEnseignantsFicheAvenir": [
+                            {
+                                "MatiereFicheAvenirLibelle": "Philosophie",
+                                "MatiereFicheAvenirLibelleBCN": "PHILOSOPHIE",
+                                "AppreciationFicheAvenir": "Capable de mieux sans doute"
+                            },
+                            {
+                                "MatiereFicheAvenirLibelle": "Langue vivante A",
+                                "MatiereFicheAvenirLibelleBCN": "LANGUE VIVANTE 1",
+                                "AppreciationFicheAvenir": "Très bon niveau général"
+                            },
+                            {
+                                "MatiereFicheAvenirLibelle": "Physique-Chimie Spécialité",
+                                "MatiereFicheAvenirLibelleBCN": "PHYSIQUE-CHIMIE",
+                                "AppreciationFicheAvenir": "Des résultats assez satisfaisants."
+                            },
+                            {
+                                "MatiereFicheAvenirLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                "MatiereFicheAvenirLibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+                                "AppreciationFicheAvenir": "Excellent travail."
+                            }
+                        ],
+                        "Baccalaureat": {
+                            "EDSScolaritePremiere1LibelleBCN": "MATHEMATIQUES",
+                            "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE",
+                            "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+                            "EDSScolariteTerminale1Libelle": "Physique-Chimie Spécialité",
+                            "EDSScolariteTerminale2Libelle": "Sciences de la vie et de la Terre Spécialité",
+                            "EDSScolaritePremiere1Libelle": "Mathématiques Spécialité",
+                            "EDSScolaritePremiere2Libelle": "Physique-Chimie Spécialité",
+                            "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+                        },
+                        "NotesBaccalaureat": [
+                            {
+                                "EpreuveLibelle": "Physique-Chimie"
+                            },
+                            {
+                                "EpreuveLibelle": "Sciences de la Vie et de la Terre"
+                            },
+                            {
+                                "EpreuveLibelle": "Français écrit",
+                                "NoteEpreuve": "9,0"
+                            },
+                            {
+                                "EpreuveLibelle": "Français oral",
+                                "NoteEpreuve": "11,0"
+                            },
+                            {
+                                "EpreuveLibelle": "Mathématiques (EDS suivi uniquement en 1ère)",
+                                "NoteEpreuve": "11,9"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Code candidat": "642914",
+    "Groupe algorithmique": "D",
+    "Classement Algorithmique": "1834",
+    "Remarques": "notesSC : 12 - NotesFR : 14- Notes Bac :10 - Bonus rang :2",
+    "Spe": "Tle :PC - SVT -  1ere - M",
+    "candidat précédent": "642887",
+    "candidat suivant": "642959",
+    "lettre": "Madame, Monsieur,<br /> <br /> Actuellement élève de terminale générale au lycée Jacques Decour (Paris IXe), suivant les<br /> spécialités sciences de la vie et de la terre et physique-chimie, ainsi que l'option mathématiques<br /> complémentaires, je souhaite intégrer l'an prochain la classe préparatoire BCPST au lycée Chaptal.<br /> <br /> L'étude du vivant et ses mécanismes complexes, ainsi que l'écologie et le développement durable me passionnent depuis toujours. Aussi j'aspire à une formation polyvalente et exigeante, me permettant de renforcer mes connaissances afin de les mettre au service des sciences de la vie et de la terre.<br /> <br /> Ces dispositions m'amènent tout naturellement à postuler pour intégrer une classe préparatoire BCPST. Cette détermination s'accompagne de la prise de conscience que désormais il s'agit pour moi de fournir un travail conséquent et régulier. Et maintenant je me sens prêt à tout mettre en œuvre pour réussir.<br /> <br /> Si une carrière de vétérinaire m'intéresse particulièrement, je peux aussi envisager un métier<br /> orienté vers la recherche en biologie ou écologie. Sans doute la classe préparatoire me permettra-t-elle d'affiner mon projet. Je suis persuadé que le cadre structurant et le rythme de travail m'aideront à acquérir de solides bases pour intégrer une grande école. Chaptal, reconnu pour son excellence, m'offrirait les meilleures chances de réussite.<br /> <br /> Je vous remercie de l'attention que vous porterez à ma candidature.",
+    "veto": "False",
+    "geol": "False"
+}

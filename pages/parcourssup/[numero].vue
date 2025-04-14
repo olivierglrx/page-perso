@@ -10,7 +10,6 @@
   />
 
   <div v-else-if="isAuthenticated && data">
-
     <div class="p-6 max-w-5xl mx-auto space-y-6">
       <div class="flex justify-between pt-6">
         <NuxtLink
@@ -30,12 +29,15 @@
         </NuxtLink>
       </div>
       <CandidatHeader :candidat="data.DonneesCandidats" />
-      <CandidatInfo :info="data2.InfosSupplementaires" />
+      <CandidatInfo :info="data.InfosSupplementaires" />
+
       <CandidatScolarite :scolarite="data.Scolarite" />
+      <CandidatLettremotivation :text="data.InfosSupplementaires['lettre']"/>
+      <CandidatAppreciations :appreciations="data.AppreciationsEnseignantsFicheAvenir" />
+
       <CandidatBac :baccalaureat="data.Baccalaureat" />
       <CandidatNotesBac :notes="data.NotesBaccalaureat" />
       <CandidatBulletins :bulletins="data.BulletinsScolaires" />
-      <CandidatAppreciations :appreciations="data.AppreciationsEnseignantsFicheAvenir" />
     </div>
     
   </div>
@@ -53,7 +55,6 @@ const inputPassword = ref("");
 const isAuthenticated = ref(false);
 const error = ref(false);
 const data = ref(null);
-const data2 = ref(null);
 const pendingAuth = ref(true);
 
 // Mot de passe attendu
@@ -76,7 +77,7 @@ const loadData = async () => {
   if (data.value) return; // Évite les rechargements multiples
 
   try {
-    const res = await fetch(`/ps/${numero}.json`);
+    const res = await fetch(`/ps2/${numero}.json`);
     const datajson = await res.json();
 
     const allCandidats = datajson.exportDeDonnees.exportCandidats.flatMap(
@@ -87,30 +88,24 @@ const loadData = async () => {
       (c) => c.DonneesCandidats?.NumeroDossierCandidat == numero
     );
    
-    const classement = await fetch(`/ps/classement.json`);
-    const classementjson = await classement.json();
-    const found2 = classementjson.find(
-  (c) =>
-    c.DonneesCandidats?.NumeroDossierCandidat == numero ||
-    c["Code candidat"] == numero
-);
 
-    console.log(found2)
     if (found) data.value = found;
 
 
-    if (found2) {
-      found2.InfosSupplementaires = {
-        "Code candidat": found2["Code candidat"],
-        "Groupe algorithmique": found2["Groupe algorithmique"],
-        "Classement Algorithmique": found2["Classement Algorithmique"],
-        "Remarques": found2["Remarques"],
-        "Spe": found2["Spe"],
-        "candidat précédent": found2["candidat précédent"],
-        "candidat suivant": found2["candidat suivant"]
+    if (found) {
+      data.value.InfosSupplementaires = {
+        "Code candidat": datajson["Code candidat"],
+        "Groupe algorithmique": datajson["Groupe algorithmique"],
+        "Classement Algorithmique": datajson["Classement Algorithmique"],
+        "Remarques": datajson["Remarques"],
+        "Spe": datajson["Spe"],
+        "candidat précédent": datajson["candidat précédent"],
+        "candidat suivant": datajson["candidat suivant"],
+        'lettre' : datajson["lettre"],
+        'veto' : datajson["veto"],
+        'geol': datajson["geol"],
       };
-      data2.value = found2;
-      data.value.InfosSupplementaires = found2
+
     }
   } catch (e) {
     console.error("Erreur de chargement ps.json:", e);

@@ -1,0 +1,365 @@
+{
+    "exportDeDonnees": {
+        "etablissementCode": "0750663N",
+        "modeleCode": 42807,
+        "exportCandidats": [
+            {
+                "formationCode": 8994,
+                "candidats": [
+                    {
+                        "DonneesCandidats": {
+                            "NumeroDossierCandidat": 485168,
+                            "NomCandidat": "GAVARD-PIVET",
+                            "PrenomCandidat": "Antoine",
+                            "DateNaissance": "29/04/2007"
+                        },
+                        "Scolarite": [
+                            {
+                                "AnneeScolaireLibelle": "2024-2025",
+                                "ScolariteFrancaiseLibelle": "Scolarité française",
+                                "NiveauEtudeLibelle": "Terminale",
+                                "TypeFormationLibelle": "Terminale",
+                                "TypeClasseLibelle": "Générale",
+                                "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+                                "NomEtablissementOrigine": "Lycée Condorcet",
+                                "CommuneEtablissementOrigineLibelle": "Saint-Quentin",
+                                "PaysEtablissementorigineLibelle": "France"
+                            },
+                            {
+                                "ScolariteFrancaiseLibelle": "Scolarité française"
+                            }
+                        ],
+                        "BulletinsScolaires": [
+                            {
+                                "AnneeLibelle": "2024-2025",
+                                "BulletinsScolairesAnnee": {
+                                    "SerieLibelle": "Série Générale",
+                                    "BulletinsScolairesSeries": [
+                                        {
+                                            "TrimestreLibelle": "Second trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "18,38",
+                                                    "MoyenneclasseCandidat": "13,91",
+                                                    "MoyenneBasseClasseduCandidat": "9,66",
+                                                    "MoyenneHauteClasseduCandidat": "18,38",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un excellent trimestre qui témoignent du sérieux d'Antoine. Une participation orale dynamique."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Philosophie",
+                                                    "MoyenneduCandidat": "14,15",
+                                                    "MoyenneclasseCandidat": "11,96",
+                                                    "MoyenneBasseClasseduCandidat": "9,33",
+                                                    "MoyenneHauteClasseduCandidat": "15,83",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "C'est à nouveau un très bon trimestre qui traduit un travail sérieux et approfondi. Continuez ainsi."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "16,13",
+                                                    "MoyenneclasseCandidat": "13,39",
+                                                    "MoyenneBasseClasseduCandidat": "7,25",
+                                                    "MoyenneHauteClasseduCandidat": "19,00",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Bon trimestre. Antoine a fourni un travail de qualité et est investi en classe."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "17,11",
+                                                    "MoyenneclasseCandidat": "12,92",
+                                                    "MoyenneBasseClasseduCandidat": "6,07",
+                                                    "MoyenneHauteClasseduCandidat": "19,92",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Très bon trimestre. Antoine reste sérieux et dynamique. Il faut poursuivre ainsi."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Expertes",
+                                                    "MoyenneduCandidat": "16,67",
+                                                    "MoyenneclasseCandidat": "15,51",
+                                                    "MoyenneBasseClasseduCandidat": "0,00",
+                                                    "MoyenneHauteClasseduCandidat": "20,00",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Bon travail dans l'ensemble, attention au comportement en classe, il faut cesser les bavardages."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Premier trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "15,54",
+                                                    "MoyenneclasseCandidat": "12,69",
+                                                    "MoyenneBasseClasseduCandidat": "6,52",
+                                                    "MoyenneHauteClasseduCandidat": "18,26",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Résultats satisfaisants, toutefois Antoine a des capacités qu'il n'a pas pleinement exploitées ce trimestre. Le cours aurait pu être appris avec plus de rigueur et Antoine aurait gagné à être moins distrait en classe. Je l'encourage à se ressaisir."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Philosophie",
+                                                    "MoyenneduCandidat": "16,10",
+                                                    "MoyenneclasseCandidat": "12,37",
+                                                    "MoyenneBasseClasseduCandidat": "9,50",
+                                                    "MoyenneHauteClasseduCandidat": "16,20",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "C'est un très bon trimestre, poursuivez ainsi."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "17,89",
+                                                    "MoyenneclasseCandidat": "14,06",
+                                                    "MoyenneBasseClasseduCandidat": "8,11",
+                                                    "MoyenneHauteClasseduCandidat": "19,78",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Très bon trimestre. Antoine est très actif en classe, pose beaucoup de questions. Il faut continuer ainsi."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "17,56",
+                                                    "MoyenneclasseCandidat": "13,54",
+                                                    "MoyenneBasseClasseduCandidat": "10,00",
+                                                    "MoyenneHauteClasseduCandidat": "17,78",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Très bon trimestre. Un élève dynamique et réactif. Il faut poursuivre les efforts entrepris et ne pas vous laisser perturber par les bavardages."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Expertes",
+                                                    "MoyenneduCandidat": "20,00",
+                                                    "MoyenneclasseCandidat": "14,33",
+                                                    "MoyenneBasseClasseduCandidat": "6,12",
+                                                    "MoyenneHauteClasseduCandidat": "20,00",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Très bon trimestre, élève dynamique et investi en classe."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "AnneeLibelle": "2023-2024",
+                                "BulletinsScolairesAnnee": {
+                                    "SerieLibelle": "Série Générale",
+                                    "BulletinsScolairesSeries": [
+                                        {
+                                            "TrimestreLibelle": "Premier trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "13,61",
+                                                    "MoyenneclasseCandidat": "11,11",
+                                                    "MoyenneBasseClasseduCandidat": "6,23",
+                                                    "MoyenneHauteClasseduCandidat": "16,95",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Très bon trimestre. Beaucoup de sérieux."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "15,85",
+                                                    "MoyenneclasseCandidat": "12,17",
+                                                    "MoyenneBasseClasseduCandidat": "3,32",
+                                                    "MoyenneHauteClasseduCandidat": "18,47",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Bon trimestre. Antoine a de réelles capacités et un grand besoin de communiquer. Pour pouvoir progresser je l'encourage à canaliser sa participation et à approfondir sa maîtrise du cours."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Français",
+                                                    "MoyenneduCandidat": "19,33",
+                                                    "MoyenneclasseCandidat": "16,77",
+                                                    "MoyenneBasseClasseduCandidat": "13,21",
+                                                    "MoyenneHauteClasseduCandidat": "19,33",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "D'excellents résultats. Antoine a une participation très active et pertinente en classe. Il faudra tout de même veiller à bien rester concentré."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "16,73",
+                                                    "MoyenneclasseCandidat": "13,54",
+                                                    "MoyenneBasseClasseduCandidat": "7,91",
+                                                    "MoyenneHauteClasseduCandidat": "17,55",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Excellents résultats. Antoine est sérieux et volontaire dans les activités en classe. Poursuivez ainsi."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "17,22",
+                                                    "MoyenneclasseCandidat": "12,72",
+                                                    "MoyenneBasseClasseduCandidat": "7,01",
+                                                    "MoyenneHauteClasseduCandidat": "17,22",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Excellent trimestre. Antoine est curieux, volontaire, et moteur dans la classe. Un grand Bravo !"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Second trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Français",
+                                                    "MoyenneduCandidat": "19,64",
+                                                    "MoyenneclasseCandidat": "14,96",
+                                                    "MoyenneBasseClasseduCandidat": "10,05",
+                                                    "MoyenneHauteClasseduCandidat": "19,64",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Les résultats sont toujours excellents. Antoine reste un élève moteur en classe. Attention, néanmoins, à bien rester concentré sur la tâche à effectuer lors des travaux de groupes."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "16,79",
+                                                    "MoyenneclasseCandidat": "12,52",
+                                                    "MoyenneBasseClasseduCandidat": "6,04",
+                                                    "MoyenneHauteClasseduCandidat": "17,66",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un excellent trimestre. Antoine est un élève agréable, sérieux et qui participe activement en classe. Bravo."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "18,23",
+                                                    "MoyenneclasseCandidat": "12,68",
+                                                    "MoyenneBasseClasseduCandidat": "4,13",
+                                                    "MoyenneHauteClasseduCandidat": "18,75",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Très bon trimestre ! Antoine a fourni un travail de qualité ce trimestre et il semble avoir tenu compte des remarques du trimestre précédent, c'est très bien. Je le félicite."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "16,21",
+                                                    "MoyenneclasseCandidat": "11,22",
+                                                    "MoyenneBasseClasseduCandidat": "5,83",
+                                                    "MoyenneHauteClasseduCandidat": "16,21",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Très bon trimestre à nouveau. Antoine est un élève moteur en classe, qui veut toujours aller plus loin. Bravo !"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "14,88",
+                                                    "MoyenneclasseCandidat": "15,23",
+                                                    "MoyenneBasseClasseduCandidat": "9,29",
+                                                    "MoyenneHauteClasseduCandidat": "19,10",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Antoine a su tirer profit des conseils donnés en classe et a su mettre en pratique les méthodes de travail recommandées. Cela se reflète dans ses résultats qui sont très satisfaisants. Continuez sur cette lancée."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Troisième trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "19,00",
+                                                    "MoyenneclasseCandidat": "13,84",
+                                                    "MoyenneBasseClasseduCandidat": "7,33",
+                                                    "MoyenneHauteClasseduCandidat": "19,40",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un excellent trimestre. Antoine est toujours très actif en classe et son niveau d'anglais est très bon. Félicitations !"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "17,27",
+                                                    "MoyenneclasseCandidat": "15,32",
+                                                    "MoyenneBasseClasseduCandidat": "10,68",
+                                                    "MoyenneHauteClasseduCandidat": "18,40",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Excellent trimestre ensemble satisfaisant."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Français",
+                                                    "MoyenneduCandidat": "18,39",
+                                                    "MoyenneclasseCandidat": "14,17",
+                                                    "MoyenneBasseClasseduCandidat": "7,51",
+                                                    "MoyenneHauteClasseduCandidat": "18,99",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Encore dexcellents résultats ce trimestre-ci, cest très bien. Bien quAntoine ne se soit pas départi dune certaine aisance (quil faut parfois recadrer), ses interventions sont pertinentes et font avancer le cours dans la plupart des cas."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "16,00",
+                                                    "MoyenneclasseCandidat": "14,18",
+                                                    "MoyenneBasseClasseduCandidat": "8,67",
+                                                    "MoyenneHauteClasseduCandidat": "19,38",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Toujours un excellent trimestre. Elève sérieux et dynamique ! C'est très bien."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "14,87",
+                                                    "MoyenneclasseCandidat": "12,71",
+                                                    "MoyenneBasseClasseduCandidat": "4,08",
+                                                    "MoyenneHauteClasseduCandidat": "16,81",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Très bon trimestre. Antoine est un élève moteur qui s'investit beaucoup en classe. Pour encore progresser, il faut s'imposer plus de rigueur dans l'analyse et un apprentissage plus fin."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "FicheAvenir": {
+                            "NiveauClasseCode": 4
+                        },
+                        "AppreciationsEnseignantsFicheAvenir": [
+                            {
+                                "MatiereFicheAvenirLibelle": "Philosophie",
+                                "MatiereFicheAvenirLibelleBCN": "PHILOSOPHIE",
+                                "AppreciationFicheAvenir": "Un très bon ensemble."
+                            },
+                            {
+                                "MatiereFicheAvenirLibelle": "Langue vivante A",
+                                "MatiereFicheAvenirLibelleBCN": "LANGUE VIVANTE 1",
+                                "AppreciationFicheAvenir": "Très bon ensemble. Antoine est un élève actif et investi en classe. Il a une bonne connaissance de la langue et cherche toujours à comprendre pour progresser."
+                            },
+                            {
+                                "MatiereFicheAvenirLibelle": "Mathématiques Spécialité",
+                                "MatiereFicheAvenirLibelleBCN": "MATHEMATIQUES",
+                                "AppreciationFicheAvenir": "Très bon travail, un très bonne participation."
+                            }
+                        ],
+                        "Baccalaureat": {
+                            "EDSScolaritePremiere1LibelleBCN": "MATHEMATIQUES",
+                            "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE",
+                            "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+                            "EDSScolariteTerminale1Libelle": "Mathématiques Spécialité",
+                            "EDSScolariteTerminale2Libelle": "Sciences de la vie et de la Terre Spécialité",
+                            "EDSScolaritePremiere1Libelle": "Mathématiques Spécialité",
+                            "EDSScolaritePremiere2Libelle": "Physique-Chimie Spécialité",
+                            "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+                        },
+                        "NotesBaccalaureat": [
+                            {
+                                "EpreuveLibelle": "Mathématiques"
+                            },
+                            {
+                                "EpreuveLibelle": "Sciences de la Vie et de la Terre"
+                            },
+                            {
+                                "EpreuveLibelle": "Français écrit",
+                                "NoteEpreuve": "13,0"
+                            },
+                            {
+                                "EpreuveLibelle": "Français oral",
+                                "NoteEpreuve": "19,0"
+                            },
+                            {
+                                "EpreuveLibelle": "Physique-Chimie  (EDS suivi uniquement en 1ère)",
+                                "NoteEpreuve": "16,3"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Code candidat": "485168",
+    "Groupe algorithmique": "A",
+    "Classement Algorithmique": "80",
+    "Remarques": "excellence(7) - bavardage(2) - notesSC : 16 - NotesFR : 17- Notes Bac :16 - Bonus rang :7",
+    "Spe": "Tle :M - SVT -  1ere - PC",
+    "candidat précédent": "483623",
+    "candidat suivant": "488054",
+    "lettre": "    Passionné par la nature, j'aime comprendre les phénomènes qui la régissent. Depuis mes stages en clinique vétérinaire, ce métier s'est imposé à moi. C'est pourquoi je postule en Prépa BCPST. Je pourrai ainsi présenter le concours des ENV et j y découvrirai aussi d'autres voies susceptibles de m'intéresser.<br />    Pour avoir un parcours adapté à cette prépa, j'ai suivi les enseignements de spécialité Mathématiques, SVT en Terminale ainsi que l'option Mathématiques expertes et Physique-chimie en première. J'ai ainsi acquis de bonnes connaissances en Sciences, de la rigueur et des méthodes.<br />    La prépa me plaît car c'est un milieu compétitif où règne cependant un bon esprit d'équipe entre les élèves. Les propos d'un des enseignants de CPGE « Ici on entraîne des athlètes de l'intellect : votre but ne sera pas les jeux olympiques mais les concours » ont fini de me convaincre. En effet, je pense qu'il y a un lien fort entre discipline scolaire et sportive. Nageur de niveau national, j'ai toujours combiné entraînements, compétitions et une excellente moyenne. Le sport m'a appris la persévérance. Je pense avoir des capacités de travail, des facultés d'adaptation.<br />    En première, j'ai pu échanger avec les professeurs et les étudiants de classe préparatoire et mon idée a été confirmée. Je pense avoir le profil pour faire partie de l'aventure. J'ai choisi de postuler à la CPGE du lycée Chaptal car c'est une prépa exigeante et de qualité. J'espère que ma candidature suscitera votre intérêt.",
+    "veto": "False",
+    "geol": "False"
+}

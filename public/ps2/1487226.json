@@ -1,0 +1,261 @@
+{
+    "exportDeDonnees": {
+        "etablissementCode": "0750663N",
+        "modeleCode": 42807,
+        "exportCandidats": [
+            {
+                "formationCode": 8994,
+                "candidats": [
+                    {
+                        "DonneesCandidats": {
+                            "NumeroDossierCandidat": 1487226,
+                            "NomCandidat": "MAHRECHE",
+                            "PrenomCandidat": "Ilyes",
+                            "DateNaissance": "08/03/2006"
+                        },
+                        "Scolarite": [
+                            {
+                                "AnneeScolaireLibelle": "2024-2025",
+                                "ScolariteFrancaiseLibelle": "Scolarité française",
+                                "NiveauEtudeLibelle": "1ère année d'études supérieures",
+                                "TypeFormationLibelle": "Licence",
+                                "FormationScolariteLibelle": "Licence - Sciences - technologies - santé",
+                                "FiliereScolariteCode": 2096,
+                                "TypeEtablissementorigineLibelle": "Université",
+                                "NomEtablissementOrigine": "Ecole Universitaire de premier cycle - Campus d'Orsay Université Paris-Saclay",
+                                "CommuneEtablissementOrigineLibelle": "Orsay",
+                                "PaysEtablissementorigineLibelle": "France"
+                            },
+                            {
+                                "ScolariteFrancaiseLibelle": "Scolarité française",
+                                "FiliereScolariteCode": 2043
+                            }
+                        ],
+                        "BulletinsScolaires": [
+                            {
+                                "AnneeLibelle": "2022-2023",
+                                "BulletinsScolairesAnnee": {
+                                    "SerieLibelle": "Série Générale",
+                                    "BulletinsScolairesSeries": [
+                                        {
+                                            "TrimestreLibelle": "Second semestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Philosophie",
+                                                    "MoyenneduCandidat": "14,00",
+                                                    "MoyenneclasseCandidat": "12,38",
+                                                    "MoyenneBasseClasseduCandidat": "2,33",
+                                                    "MoyenneHauteClasseduCandidat": "15,00",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Elève motivé fournissant un travail, sérieux et approfondi."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "16,12",
+                                                    "MoyenneclasseCandidat": "15,68",
+                                                    "MoyenneBasseClasseduCandidat": "10,18",
+                                                    "MoyenneHauteClasseduCandidat": "19,98",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Bon travail ce semestre."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "12,50",
+                                                    "MoyenneclasseCandidat": "10,89",
+                                                    "MoyenneBasseClasseduCandidat": "6,00",
+                                                    "MoyenneHauteClasseduCandidat": "17,00",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Élève sérieux et motivé, qui confirme un assez bon ensemble."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "13,29",
+                                                    "MoyenneclasseCandidat": "11,46",
+                                                    "MoyenneBasseClasseduCandidat": "3,14",
+                                                    "MoyenneHauteClasseduCandidat": "18,50",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Bon ensemble. Vous avez fait preuve tout au long de l'année d'un grand sérieux et d'une belle régularité."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Premier semestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "10,50",
+                                                    "MoyenneclasseCandidat": "12,21",
+                                                    "MoyenneBasseClasseduCandidat": "7,00",
+                                                    "MoyenneHauteClasseduCandidat": "17,00",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Ensemble juste et inégal. Attention à la rigueur des raisonnements."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "12,95",
+                                                    "MoyenneclasseCandidat": "11,77",
+                                                    "MoyenneBasseClasseduCandidat": "3,90",
+                                                    "MoyenneHauteClasseduCandidat": "18,31",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Ensemble satisfaisant. Le travail est sérieux. Poursuivez ainsi."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "16,90",
+                                                    "MoyenneclasseCandidat": "16,13",
+                                                    "MoyenneBasseClasseduCandidat": "11,10",
+                                                    "MoyenneHauteClasseduCandidat": "19,80",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Les résultats sont satisfaisants et l'implication en progrès. Participez encore davantage au prochain semestre."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Philosophie",
+                                                    "MoyenneduCandidat": "11,60",
+                                                    "MoyenneclasseCandidat": "12,89",
+                                                    "MoyenneBasseClasseduCandidat": "9,25",
+                                                    "MoyenneHauteClasseduCandidat": "15,40",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Travail sérieux et régulier. Une grande implication dans les travaux de groupe. N'hésite pas à participer davantage à l'oral."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "AnneeLibelle": "2021-2022",
+                                "BulletinsScolairesAnnee": {
+                                    "SerieLibelle": "Série Générale",
+                                    "BulletinsScolairesSeries": [
+                                        {
+                                            "TrimestreLibelle": "Second semestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "13,85",
+                                                    "MoyenneclasseCandidat": "14,68",
+                                                    "MoyenneBasseClasseduCandidat": "8,96",
+                                                    "MoyenneHauteClasseduCandidat": "18,50",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Semestre satisfaisant, le travail est toujours sérieux, vous devez plus vous impliquer à l'oral cependant."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Français",
+                                                    "MoyenneduCandidat": "8,70",
+                                                    "MoyenneclasseCandidat": "10,30",
+                                                    "MoyenneBasseClasseduCandidat": "5,70",
+                                                    "MoyenneHauteClasseduCandidat": "18,00",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Des résultats devenus insuffisants: Ilyes semble avoir baissé les bras et fourni beaucoup moins d'efforts ce semestre. Un devoir non rendu a également fait baisser la moyenne. C'est dommage!"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "13,72",
+                                                    "MoyenneclasseCandidat": "11,78",
+                                                    "MoyenneBasseClasseduCandidat": "5,54",
+                                                    "MoyenneHauteClasseduCandidat": "19,51",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Bon semestre. Le travail personnel est toujours aussi sérieux et des efforts de participation sont notés."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "11,50",
+                                                    "MoyenneclasseCandidat": "12,00",
+                                                    "MoyenneBasseClasseduCandidat": "7,50",
+                                                    "MoyenneHauteClasseduCandidat": "18,50",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Travail assez sérieux. Résultats convenables."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Premier semestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "14,36",
+                                                    "MoyenneclasseCandidat": "12,20",
+                                                    "MoyenneBasseClasseduCandidat": "5,85",
+                                                    "MoyenneHauteClasseduCandidat": "19,63",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Bon semestre. Travail personnel sérieux qui donne des résultats satisfaisants. Il faut accentuer la participation orale."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Français",
+                                                    "MoyenneduCandidat": "13,50",
+                                                    "MoyenneclasseCandidat": "12,20",
+                                                    "MoyenneBasseClasseduCandidat": "6,60",
+                                                    "MoyenneHauteClasseduCandidat": "18,60",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Ensemble tout à fait convenable. Elève sérieux et attentif. Veille à bien t'entraîner régulièrement et à participer davantage au prochain semestre pour consolider méthode et connaissances, et pour t'investir pleinement dans le cours."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "14,69",
+                                                    "MoyenneclasseCandidat": "14,99",
+                                                    "MoyenneBasseClasseduCandidat": "10,71",
+                                                    "MoyenneHauteClasseduCandidat": "18,32",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Le travail est sérieux et les résultats sont très satisfaisants. Continuez ainsi."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "13,00",
+                                                    "MoyenneclasseCandidat": "11,00",
+                                                    "MoyenneBasseClasseduCandidat": "5,00",
+                                                    "MoyenneHauteClasseduCandidat": "18,50",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Bon travail. Bons résultats."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "FicheAvenir": {},
+                        "AppreciationsEnseignantsFicheAvenir": [],
+                        "Baccalaureat": {
+                            "EDSScolaritePremiere1LibelleBCN": "LLC EN ANGLAIS",
+                            "EDSScolaritePremiere2LibelleBCN": "MATHEMATIQUES",
+                            "EDSScolaritePremiere3LibelleBCN": "PHYSIQUE-CHIMIE",
+                            "EDSScolariteTerminale1Libelle": "Mathématiques Spécialité",
+                            "EDSScolariteTerminale2Libelle": "Physique-Chimie Spécialité",
+                            "EDSScolaritePremiere1Libelle": "Langues, littératures et cultures étrangères et régionales",
+                            "EDSScolaritePremiere2Libelle": "Mathématiques Spécialité",
+                            "EDSScolaritePremiere3Libelle": "Physique-Chimie Spécialité"
+                        },
+                        "NotesBaccalaureat": [
+                            {
+                                "EpreuveLibelle": "Mathématiques",
+                                "NoteEpreuve": "15,0"
+                            },
+                            {
+                                "EpreuveLibelle": "Physique-Chimie",
+                                "NoteEpreuve": "14,0"
+                            },
+                            {
+                                "EpreuveLibelle": "Français écrit",
+                                "NoteEpreuve": "9,0"
+                            },
+                            {
+                                "EpreuveLibelle": "Français oral",
+                                "NoteEpreuve": "13,0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Code candidat": "1487226",
+    "Groupe algorithmique": "E",
+    "Classement Algorithmique": "2309",
+    "Remarques": "Pb specialité scientifique 1erenotesSC : 12 - NotesFR : 13- Notes Bac :12 - Bonus rang :0",
+    "Spe": "Tle :M - PC -  1ere - LLC EN ANGLAIS",
+    "candidat précédent": "1487047",
+    "candidat suivant": "1487328",
+    "lettre": "Madame, Monsieur,<br /> <br /> Je vous écris aujourd'hui pour vous faire part de ma candidature à la prépa BCPST, non seulement avec sérieux, mais aussi avec une grande dose de passion (et un peu de café, j'avoue).<br /> <br /> Passionné par les sciences, j'ai toujours voulu comprendre comment tout fonctionne : du cœur qui bat (enfin, jusqu'à ce que mes notes en maths me fassent un petit arrêt cardiaque) aux lois de la nature. La prépa BCPST est pour moi le terrain idéal pour exploiter ma curiosité insatiable et mes compétences scientifiques. Je sais que c'est exigeant, mais étant donné que j'ai survécu à des soirées de révisions où le seul bruit était celui de mes neurones qui crient à l'aide, je me sens prêt à relever ce défi.<br /> <br /> Loin de me laisser intimider par les maths, la biologie et la physique, je compte sur ma détermination pour m'investir dans cette prépa. Vous y trouverez un étudiant rigoureux, mais toujours prêt à détendre l'atmosphère avec une bonne blague.<br /> <br /> En espérant que ma candidature vous fasse sourire autant qu'elle vous convainc de ma motivation.<br /> <br /> Veuillez agréer, Madame, Monsieur, l'expression de mes salutations scientifiques et légèrement décalées",
+    "veto": "False",
+    "geol": "False"
+}

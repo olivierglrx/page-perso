@@ -1,0 +1,400 @@
+{
+    "exportDeDonnees": {
+        "etablissementCode": "0750663N",
+        "modeleCode": 42807,
+        "exportCandidats": [
+            {
+                "formationCode": 8994,
+                "candidats": [
+                    {
+                        "DonneesCandidats": {
+                            "NumeroDossierCandidat": 1018980,
+                            "NomCandidat": "KHEERODUR",
+                            "PrenomCandidat": "Anamika",
+                            "DateNaissance": "17/04/2006"
+                        },
+                        "Scolarite": [
+                            {
+                                "AnneeScolaireLibelle": "2024-2025",
+                                "ScolariteFrancaiseLibelle": "Scolarité française",
+                                "NiveauEtudeLibelle": "1ère année d'études supérieures",
+                                "TypeFormationLibelle": "Licence",
+                                "FormationScolariteLibelle": "Licence - Sciences - technologies - santé",
+                                "FiliereScolariteCode": 2043,
+                                "TypeEtablissementorigineLibelle": "Université",
+                                "NomEtablissementOrigine": "Université Sorbonne Paris Nord - Antenne de Bobigny",
+                                "CommuneEtablissementOrigineLibelle": "Bobigny",
+                                "PaysEtablissementorigineLibelle": "France"
+                            },
+                            {
+                                "ScolariteFrancaiseLibelle": "Scolarité française"
+                            }
+                        ],
+                        "BulletinsScolaires": [
+                            {
+                                "AnneeLibelle": "2023-2024",
+                                "BulletinsScolairesAnnee": {
+                                    "SerieLibelle": "Série Générale",
+                                    "BulletinsScolairesSeries": [
+                                        {
+                                            "TrimestreLibelle": "Troisième trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Philosophie",
+                                                    "MoyenneduCandidat": "12,44",
+                                                    "MoyenneclasseCandidat": "11,67",
+                                                    "MoyenneBasseClasseduCandidat": "5,20",
+                                                    "MoyenneHauteClasseduCandidat": "16,22",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Beaucoup de sérieux et de travail personnel et en classe, avec une constance honorable. Félicitations pour cette année studieuse. Belle continuation à vous."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "8,90",
+                                                    "MoyenneclasseCandidat": "10,19",
+                                                    "MoyenneBasseClasseduCandidat": "1,10",
+                                                    "MoyenneHauteClasseduCandidat": "17,90",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Une chute des résultats ce trimestre à cause d'un bac blanc raté. L'ensemble reste correct sur l'année. Les connaissances et compétences nécessaires aux études supérieures sont partiellement maitrisées."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "16,88",
+                                                    "MoyenneclasseCandidat": "14,50",
+                                                    "MoyenneBasseClasseduCandidat": "8,44",
+                                                    "MoyenneHauteClasseduCandidat": "20,00",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "D'excellents résultats obtenus ce trimestre, qui font preuve de votre maîtrise solide de la langue, notamment à l'oral. Félicitations !"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "11,50",
+                                                    "MoyenneclasseCandidat": "11,18",
+                                                    "MoyenneBasseClasseduCandidat": "5,40",
+                                                    "MoyenneHauteClasseduCandidat": "16,00",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un trimestre correct, mais des difficultés demeurent sur les exercices transversaux. Acceptez de passer par certaines difficultés pour vous préparer à toute éventualité au bac et dans vos années à venir !"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                                                    "MoyenneduCandidat": "12,00",
+                                                    "MoyenneclasseCandidat": "10,38",
+                                                    "MoyenneBasseClasseduCandidat": "3,50",
+                                                    "MoyenneHauteClasseduCandidat": "18,00",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Quelques efforts. L'ensemble est correct."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Premier trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                                                    "MoyenneduCandidat": "14,50",
+                                                    "MoyenneclasseCandidat": "12,08",
+                                                    "MoyenneBasseClasseduCandidat": "4,50",
+                                                    "MoyenneHauteClasseduCandidat": "17,50",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "C'est un bon bilan d'ensemble pour une élève qui a fourni un travail sérieux et régulier. Très bonne participation en classe. Poursuivez ainsi."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Philosophie",
+                                                    "MoyenneduCandidat": "14,57",
+                                                    "MoyenneclasseCandidat": "11,92",
+                                                    "MoyenneBasseClasseduCandidat": "8,67",
+                                                    "MoyenneHauteClasseduCandidat": "15,57",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un sérieux remarquable, beaucoup d'investissement en classe et dans le travail personnel, et des écrits qui révèlent des analyses de plus en plus fines et pertinentes. Poursuivez sur cette voie!"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "13,46",
+                                                    "MoyenneclasseCandidat": "11,18",
+                                                    "MoyenneBasseClasseduCandidat": "5,22",
+                                                    "MoyenneHauteClasseduCandidat": "16,67",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un bon trimestre dans l'ensemble. Vous êtes dans une bonne dynamique, continuez ainsi !"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "18,00",
+                                                    "MoyenneclasseCandidat": "13,68",
+                                                    "MoyenneBasseClasseduCandidat": "8,29",
+                                                    "MoyenneHauteClasseduCandidat": "20,00",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un excellent ensemble, grâce à une maîtrise solide des compétences linguistiques et une bonne participation orale. Il faut continuer ainsi !"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "12,53",
+                                                    "MoyenneclasseCandidat": "10,78",
+                                                    "MoyenneBasseClasseduCandidat": "4,00",
+                                                    "MoyenneHauteClasseduCandidat": "16,94",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Beaucoup de travail et un grand sérieux ce trimestre, qui vous mènent progressivement à de bons résultats. Vous devez vous convaincre que"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Second trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "17,57",
+                                                    "MoyenneclasseCandidat": "14,20",
+                                                    "MoyenneBasseClasseduCandidat": "10,86",
+                                                    "MoyenneHauteClasseduCandidat": "18,19",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Encore dexcellents résultats ce trimestre, grâce à vos fortes compétences langagières et une participation active en classe. Félicitations !"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                                                    "MoyenneduCandidat": "9,00",
+                                                    "MoyenneclasseCandidat": "9,08",
+                                                    "MoyenneBasseClasseduCandidat": "2,00",
+                                                    "MoyenneHauteClasseduCandidat": "16,50",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Des résultats en baisse, l'ensemble est trop juste. L a participation est parfois pertinente et montre que vous avez les capacités de mieux réussir. Il faut accentuer le travail et gagner en rigueur dans vos apprentissages pour réaliser votre potentiel."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "13,65",
+                                                    "MoyenneclasseCandidat": "12,05",
+                                                    "MoyenneBasseClasseduCandidat": "7,72",
+                                                    "MoyenneHauteClasseduCandidat": "17,61",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un bon ensemble, mais les résultats stagnent. N'hésitez pas à poser plus de questions pour être prête le jour du bac."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "13,00",
+                                                    "MoyenneclasseCandidat": "12,01",
+                                                    "MoyenneBasseClasseduCandidat": "6,90",
+                                                    "MoyenneHauteClasseduCandidat": "16,40",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Trimestre satisfaisant, un grand soin est accordé à la complétude des connaissances, c'est positif. En revanche, veillez à la rigueur de vos démarches : soyez précise sur la méthode et efficace vis à vis des analyses de documents."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Philosophie",
+                                                    "MoyenneduCandidat": "15,43",
+                                                    "MoyenneclasseCandidat": "11,19",
+                                                    "MoyenneBasseClasseduCandidat": "6,90",
+                                                    "MoyenneHauteClasseduCandidat": "15,71",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Votre sérieux et votre grand investissement vous honorent. Vous avez réalisé de beaux progrès en termes de méthode, et vos analyses, de plus en plus fines, sont nourries d'une culture que vous employez à bon escient. Poursuivez sur cette voie."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "AnneeLibelle": "2022-2023",
+                                "BulletinsScolairesAnnee": {
+                                    "SerieLibelle": "Série Générale",
+                                    "BulletinsScolairesSeries": [
+                                        {
+                                            "TrimestreLibelle": "Second trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "13,18",
+                                                    "MoyenneclasseCandidat": "11,62",
+                                                    "MoyenneBasseClasseduCandidat": "3,47",
+                                                    "MoyenneHauteClasseduCandidat": "18,46",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Bon trimestre. Élève qui s'engage de manière soutenue et qui adopte une l'attitude sérieuse. Poursuivez ainsi."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "13,32",
+                                                    "MoyenneclasseCandidat": "11,28",
+                                                    "MoyenneBasseClasseduCandidat": "4,58",
+                                                    "MoyenneHauteClasseduCandidat": "15,82",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Le deuxième trimestre est à l'image du premier : sérieux et soigné. Vous commencez à être plus fine dans votre raisonnement, il faudra poursuivre ainsi Anamika car vous devez encore gagner sur cela."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "15,67",
+                                                    "MoyenneclasseCandidat": "15,79",
+                                                    "MoyenneBasseClasseduCandidat": "10,00",
+                                                    "MoyenneHauteClasseduCandidat": "19,00",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Bon trimestre  dans lensemble, vous pouvez encore faire mieux, vous êtes capable d'approfondir votre travail."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "13,67",
+                                                    "MoyenneclasseCandidat": "10,67",
+                                                    "MoyenneBasseClasseduCandidat": "3,43",
+                                                    "MoyenneHauteClasseduCandidat": "16,92",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Un bon ensemble ce trimestre, et ce malgré un devoir commun en dessous de vos attentes. Continuez vos efforts, à l'écrit comme à l'oral pour progresser encore au prochain trimestre."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Français",
+                                                    "MoyenneduCandidat": "12,56",
+                                                    "MoyenneclasseCandidat": "12,57",
+                                                    "MoyenneBasseClasseduCandidat": "9,94",
+                                                    "MoyenneHauteClasseduCandidat": "15,33",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Un ensemble satisfaisant. Une participation orale régulière et des travaux menés avec rigueur. Continuez ainsi et tenez compte des conseils donnés à l'écrit afin de progresser."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Troisième trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "9,09",
+                                                    "MoyenneclasseCandidat": "10,69",
+                                                    "MoyenneBasseClasseduCandidat": "5,63",
+                                                    "MoyenneHauteClasseduCandidat": "16,13",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Un trimestre de recul, pour deux raisons : une compréhension lacunaire des attendus et un affaiblissement des efforts. Vous devez vous remobiliser, vous possédez des compétences de synthèse intéressantes, il faut en revanche faire un travail plus important de compréhension de la démarche et de l'argumentaire scientifique."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "16,00",
+                                                    "MoyenneclasseCandidat": "16,92",
+                                                    "MoyenneBasseClasseduCandidat": "12,00",
+                                                    "MoyenneHauteClasseduCandidat": "19,50",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Bon trimestre dans lensemble, vous pouvez encore faire mieux, vous être capable d'approfondir votre travail."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Français",
+                                                    "MoyenneduCandidat": "11,75",
+                                                    "MoyenneclasseCandidat": "11,64",
+                                                    "MoyenneBasseClasseduCandidat": "8,25",
+                                                    "MoyenneHauteClasseduCandidat": "15,38",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Un ensemble plutôt satisfaisant. De la motivation et de l'investissement. Tenez compte des conseils donnés à l'écrit afin de progresser."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "10,15",
+                                                    "MoyenneclasseCandidat": "12,18",
+                                                    "MoyenneBasseClasseduCandidat": "4,62",
+                                                    "MoyenneHauteClasseduCandidat": "17,77",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Trimestre correct. L'attitude en classe est sérieuse. Vous êtes capable de bien mieux, avec davantage d'investissement personnel."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "10,40",
+                                                    "MoyenneclasseCandidat": "10,92",
+                                                    "MoyenneBasseClasseduCandidat": "4,50",
+                                                    "MoyenneHauteClasseduCandidat": "14,90",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Un bilan un peu juste sur l'année. Soyez pleinement investie, approfondissez votre travail pour progresser l'année prochaine."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Premier trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Français",
+                                                    "MoyenneduCandidat": "12,56",
+                                                    "MoyenneclasseCandidat": "12,43",
+                                                    "MoyenneBasseClasseduCandidat": "10,56",
+                                                    "MoyenneHauteClasseduCandidat": "17,33",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Un ensemble satisfaisant. Des efforts de participation orale, de la curiosité et de la bonne volonté. Continuez ainsi et les progrès viendront."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "17,00",
+                                                    "MoyenneclasseCandidat": "15,37",
+                                                    "MoyenneBasseClasseduCandidat": "10,00",
+                                                    "MoyenneHauteClasseduCandidat": "19,00",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Le travail est assez bon dans l'ensemble. C'est encourageant pour le prochain trimestre."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "8,72",
+                                                    "MoyenneclasseCandidat": "10,44",
+                                                    "MoyenneBasseClasseduCandidat": "1,88",
+                                                    "MoyenneHauteClasseduCandidat": "15,68",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Un ensemble fragile pour ce trimestre. Vous avez raté le début du trimestre mais avez su vous ressaisir et remonter la pente. Continuez et accentuez vos efforts, à l'écrit comme à l'oral."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "13,12",
+                                                    "MoyenneclasseCandidat": "11,86",
+                                                    "MoyenneBasseClasseduCandidat": "5,83",
+                                                    "MoyenneHauteClasseduCandidat": "17,27",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Un trimestre sérieux dans le travail fourni. Cependant il faut veiller à rester endurante face à la difficulté croissante et surtout à cibler vos efforts sur la construction d'un raisonnement logique plus que sur la forme de celui ci.  Vous devrez donc gagner en rigueur dans le raisonnement."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "14,12",
+                                                    "MoyenneclasseCandidat": "12,56",
+                                                    "MoyenneBasseClasseduCandidat": "5,54",
+                                                    "MoyenneHauteClasseduCandidat": "17,46",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Très bon trimestre. Elève sérieuse et appliquée. Bonne participation. Continuez sur cette lancée !"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "FicheAvenir": {},
+                        "AppreciationsEnseignantsFicheAvenir": [],
+                        "Baccalaureat": {
+                            "EDSScolaritePremiere1LibelleBCN": "MATHEMATIQUES",
+                            "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE",
+                            "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+                            "EDSScolariteTerminale1Libelle": "Physique-Chimie Spécialité",
+                            "EDSScolariteTerminale2Libelle": "Sciences de la vie et de la Terre Spécialité",
+                            "EDSScolaritePremiere1Libelle": "Mathématiques Spécialité",
+                            "EDSScolaritePremiere2Libelle": "Physique-Chimie Spécialité",
+                            "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+                        },
+                        "NotesBaccalaureat": [
+                            {
+                                "EpreuveLibelle": "Physique-Chimie",
+                                "NoteEpreuve": "5,0"
+                            },
+                            {
+                                "EpreuveLibelle": "Sciences de la Vie et de la Terre",
+                                "NoteEpreuve": "11,0"
+                            },
+                            {
+                                "EpreuveLibelle": "Français écrit",
+                                "NoteEpreuve": "15,0"
+                            },
+                            {
+                                "EpreuveLibelle": "Français oral",
+                                "NoteEpreuve": "12,0"
+                            },
+                            {
+                                "EpreuveLibelle": "Mathématiques (EDS suivi uniquement en 1ère)",
+                                "NoteEpreuve": "12,5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Code candidat": "1018980",
+    "Groupe algorithmique": "Non Classé",
+    "Classement Algorithmique": "",
+    "Remarques": "Spe - Note Eliminatoire",
+    "Spe": "Tle :PC - SVT -  1ere - M",
+    "candidat précédent": "1018151",
+    "candidat suivant": "1019050",
+    "lettre": "Madame, Monsieur,<br /> <br /> Actuellement étudiante en première année de médecine , je souhaite me réorienter vers une voie qui correspond davantage à mon intérêt profond pour les sciences du vivant et de la Terre. C'est donc avec une réelle motivation que je vous adresse ma candidature pour intégrer votre classe préparatoire BCPST à la rentrée prochaine.<br /> <br /> Mon année en médecine m'a permis de développer une grande rigueur de travail, de solides capacités d'apprentissage et une résistance au stress. Toutefois, au fil des mois, j'ai pris conscience que mon épanouissement passerait davantage par une formation plus pluridisciplinaire, alliant biologie, géologie, chimie et physique, disciplines que j'ai particulièrement appréciées au lycée.<br /> <br /> Le programme de la prépa BCPST, qui conjugue exigence scientifique et ouverture sur le monde vivant, correspond parfaitement à mes aspirations. J'ambitionne d'intégrer par la suite une grande école de vétérinaire, afin de m'investir pleinement dans les enjeux liés à la santé animale .<br /> <br /> Motivée, persévérante et dotée d'une forte capacité de travail, je suis prête à m'impliquer pleinement dans cette formation exigeante. Intégrer votre établissement serait pour moi une réelle opportunité de m'épanouir dans un cadre stimulant, entourée d'enseignants investis et d'élèves animés par la même passion des sciences.<br /> <br /> Je me tiens à votre disposition pour tout entretien ou complément d'information. Je vous remercie par avance de l'attention que vous porterez à ma candidature.",
+    "veto": "False",
+    "geol": "False"
+}

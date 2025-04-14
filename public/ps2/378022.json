@@ -1,0 +1,370 @@
+{
+    "exportDeDonnees": {
+        "etablissementCode": "0750663N",
+        "modeleCode": 42807,
+        "exportCandidats": [
+            {
+                "formationCode": 8994,
+                "candidats": [
+                    {
+                        "DonneesCandidats": {
+                            "NumeroDossierCandidat": 378022,
+                            "NomCandidat": "JARRY",
+                            "PrenomCandidat": "Dimitri",
+                            "DateNaissance": "19/12/2007"
+                        },
+                        "Scolarite": [
+                            {
+                                "AnneeScolaireLibelle": "2024-2025",
+                                "ScolariteFrancaiseLibelle": "Scolarité française",
+                                "NiveauEtudeLibelle": "Terminale",
+                                "TypeFormationLibelle": "Terminale",
+                                "TypeClasseLibelle": "Générale",
+                                "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+                                "NomEtablissementOrigine": "Lycée Notre-Dame Les Oiseaux",
+                                "CommuneEtablissementOrigineLibelle": "Verneuil-sur-Seine",
+                                "PaysEtablissementorigineLibelle": "France"
+                            },
+                            {
+                                "ScolariteFrancaiseLibelle": "Scolarité française"
+                            }
+                        ],
+                        "BulletinsScolaires": [
+                            {
+                                "AnneeLibelle": "2023-2024",
+                                "BulletinsScolairesAnnee": {
+                                    "SerieLibelle": "Série Générale",
+                                    "BulletinsScolairesSeries": [
+                                        {
+                                            "TrimestreLibelle": "Premier trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Français",
+                                                    "MoyenneduCandidat": "13,93",
+                                                    "MoyenneclasseCandidat": "13,11",
+                                                    "MoyenneBasseClasseduCandidat": "10,00",
+                                                    "MoyenneHauteClasseduCandidat": "16,86",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Bon trimestre. Dimitri est capable de très bien faire avec rigueur et structure. Il faut continuer au trimestre suivant"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "15,30",
+                                                    "MoyenneclasseCandidat": "13,08",
+                                                    "MoyenneBasseClasseduCandidat": "8,20",
+                                                    "MoyenneHauteClasseduCandidat": "17,40",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Les résultats sont très satisfaisants. Dimitri est un élève sérieux et impliqué. La participation orale est active et pertinente. Il faut intensifier les efforts pour produire des écrits soignés et organisés."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "10,88",
+                                                    "MoyenneclasseCandidat": "14,39",
+                                                    "MoyenneBasseClasseduCandidat": "10,88",
+                                                    "MoyenneHauteClasseduCandidat": "20,00",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Des résultats très moyens ce trimestre et un travail personnel encore trop superficiel. Dimitri doit redoubler d'efforts pour permettre des progrès. J'attends mieux de ta part dans les prochaines semaines."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "15,28",
+                                                    "MoyenneclasseCandidat": "13,70",
+                                                    "MoyenneBasseClasseduCandidat": "7,05",
+                                                    "MoyenneHauteClasseduCandidat": "17,83",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un bon trimestre. Le travail de Dimitri est sérieux et l'investissement oral régulier. L'écrit peut encore gagner en rigueur en y étant plus précis face aux exigences du sujet et dans la démarche explicative."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "17,11",
+                                                    "MoyenneclasseCandidat": "16,51",
+                                                    "MoyenneBasseClasseduCandidat": "12,13",
+                                                    "MoyenneHauteClasseduCandidat": "19,89",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Dimitri est à l'aise à l'écrit à l'oral mais il est capable de mieux encore en restant bien concentré en classe."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Troisième trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "19,25",
+                                                    "MoyenneclasseCandidat": "13,90",
+                                                    "MoyenneBasseClasseduCandidat": "8,49",
+                                                    "MoyenneHauteClasseduCandidat": "19,25",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Excellent dans tous les domaines. Félicitations !"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "14,90",
+                                                    "MoyenneclasseCandidat": "15,40",
+                                                    "MoyenneBasseClasseduCandidat": "9,43",
+                                                    "MoyenneHauteClasseduCandidat": "19,44",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "C'est un bon trimestre pour Dimitri qui aura produit un travail régulier et de qualité tout au long de l'année. C'est donc une belle année de première."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "12,13",
+                                                    "MoyenneclasseCandidat": "11,38",
+                                                    "MoyenneBasseClasseduCandidat": "6,40",
+                                                    "MoyenneHauteClasseduCandidat": "15,90",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Les résultats sont satisfaisants et réguliers. Dimitri est un élève sérieux qui a travaillé avec régularité tout au long du trimestre."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Français",
+                                                    "MoyenneduCandidat": "12,38",
+                                                    "MoyenneclasseCandidat": "13,99",
+                                                    "MoyenneBasseClasseduCandidat": "11,12",
+                                                    "MoyenneHauteClasseduCandidat": "16,31",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Bon trimestre. Dimitri est un élève sérieux et attentif qui peut très bien faire aux épreuves anticipées."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "16,39",
+                                                    "MoyenneclasseCandidat": "14,21",
+                                                    "MoyenneBasseClasseduCandidat": "11,31",
+                                                    "MoyenneHauteClasseduCandidat": "17,89",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un très bon trimestre pour Dimitri tout comme son année qui lui permet l'acquisition d'un niveau solide dans la matière. Un investissement régulier et sérieux dans son travail personnel comme en classe."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Second trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "16,02",
+                                                    "MoyenneclasseCandidat": "14,47",
+                                                    "MoyenneBasseClasseduCandidat": "10,60",
+                                                    "MoyenneHauteClasseduCandidat": "19,07",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Dimitri s'est mis aux exigences d'une classe de 1ère. Les résultats sont devenus très bons. Garde cette implication dans ton travail personnel au prochain trimestre."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "13,14",
+                                                    "MoyenneclasseCandidat": "12,28",
+                                                    "MoyenneBasseClasseduCandidat": "7,44",
+                                                    "MoyenneHauteClasseduCandidat": "17,89",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Les résultats sont satisfaisants ce trimestre. Le travail personnel est toujours aussi sérieux et régulier mais il faut gagner en rigueur dans les travaux écrits."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "16,32",
+                                                    "MoyenneclasseCandidat": "14,66",
+                                                    "MoyenneBasseClasseduCandidat": "11,47",
+                                                    "MoyenneHauteClasseduCandidat": "16,32",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un très bon trimestre. Dimitri possède des  qualités de raisonnement et de réinvestissement des notions qui lui permettent de bien réussir.  Veille à soigner la forme des écrits! Très bon oral."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "18,00",
+                                                    "MoyenneclasseCandidat": "15,05",
+                                                    "MoyenneBasseClasseduCandidat": "8,64",
+                                                    "MoyenneHauteClasseduCandidat": "19,82",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Excellente attitude face au travail et participation orale pertinente. Félicitations Dimitri pour ce très bon trimestre, à l'image du précédent."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Français",
+                                                    "MoyenneduCandidat": "13,97",
+                                                    "MoyenneclasseCandidat": "13,58",
+                                                    "MoyenneBasseClasseduCandidat": "11,26",
+                                                    "MoyenneHauteClasseduCandidat": "16,00",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Bon trimestre. Dimitri est attentif en cours, il veut bien faire. Il faut continuer en ce sens"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "AnneeLibelle": "2024-2025",
+                                "BulletinsScolairesAnnee": {
+                                    "SerieLibelle": "Série Générale",
+                                    "BulletinsScolairesSeries": [
+                                        {
+                                            "TrimestreLibelle": "Premier trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Philosophie",
+                                                    "MoyenneduCandidat": "15,60",
+                                                    "MoyenneclasseCandidat": "13,52",
+                                                    "MoyenneBasseClasseduCandidat": "10,17",
+                                                    "MoyenneHauteClasseduCandidat": "16,47",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Les résultats sont très convenables. Vous avez  des qualités de réflexion qui doivent vous permettre l'acquisition des objectifs et des méthodes."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "18,13",
+                                                    "MoyenneclasseCandidat": "13,96",
+                                                    "MoyenneBasseClasseduCandidat": "7,07",
+                                                    "MoyenneHauteClasseduCandidat": "18,83",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un excellent ensemble, qui reflète des acquis solides et une grande vivacité. Des capacités d'analyse et de synthèse. Elève qui présente un grand potentiel. Bravo!"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "16,93",
+                                                    "MoyenneclasseCandidat": "14,08",
+                                                    "MoyenneBasseClasseduCandidat": "11,02",
+                                                    "MoyenneHauteClasseduCandidat": "16,93",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Beaucoup d'autonomie et d'organisation dans le travail qui vous permettent de gérer la charge de travail avec aisance. Le socle de connaissances est solide et utilisé à bon escient pour mener des démarches scientifiques pertinentes. Des qualités d'analyse et de réflexion indéniables ."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "12,46",
+                                                    "MoyenneclasseCandidat": "12,14",
+                                                    "MoyenneBasseClasseduCandidat": "8,58",
+                                                    "MoyenneHauteClasseduCandidat": "15,00",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un assez bon ensemble mais Dimitri peut encore mieux faire."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                                                    "MoyenneduCandidat": "16,60",
+                                                    "MoyenneclasseCandidat": "14,82",
+                                                    "MoyenneBasseClasseduCandidat": "10,90",
+                                                    "MoyenneHauteClasseduCandidat": "18,00",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "De très bons résultats. Travail sérieux et régulier. Plus de participation en classe viendrait compléter l'ensemble."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Second trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "11,78",
+                                                    "MoyenneclasseCandidat": "10,82",
+                                                    "MoyenneBasseClasseduCandidat": "8,02",
+                                                    "MoyenneHauteClasseduCandidat": "13,36",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un assez bon ensemble et des compétences scientifiques certaines qui pourraient être développées."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "16,00",
+                                                    "MoyenneclasseCandidat": "13,37",
+                                                    "MoyenneBasseClasseduCandidat": "9,72",
+                                                    "MoyenneHauteClasseduCandidat": "16,98",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Dans l'aisance dans la maîtrise des compétences scientifiques. Il vous reste tout un potentiel à développer. Avant cela, soyez présent dans le moment actuel et montrer davantage vos capacités de raisonnement et d'analyse en intensifiant vos efforts. Le travail est toujours organisé et autonome."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Philosophie",
+                                                    "MoyenneduCandidat": "18,00",
+                                                    "MoyenneclasseCandidat": "14,85",
+                                                    "MoyenneBasseClasseduCandidat": "11,54",
+                                                    "MoyenneHauteClasseduCandidat": "18,00",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Ensemble très satisfaisant. Belle progression ce trimestre."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "17,44",
+                                                    "MoyenneclasseCandidat": "13,97",
+                                                    "MoyenneBasseClasseduCandidat": "7,95",
+                                                    "MoyenneHauteClasseduCandidat": "18,71",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un ensemble de qualité grâce a des acquis solides et des capacités d'analyse et de réflexion."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                                                    "MoyenneduCandidat": "16,56",
+                                                    "MoyenneclasseCandidat": "16,10",
+                                                    "MoyenneBasseClasseduCandidat": "11,11",
+                                                    "MoyenneHauteClasseduCandidat": "18,33",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "De bons résultats. Travail sérieux et régulier."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "FicheAvenir": {
+                            "NiveauClasseCode": 5
+                        },
+                        "AppreciationsEnseignantsFicheAvenir": [
+                            {
+                                "MatiereFicheAvenirLibelle": "Philosophie",
+                                "MatiereFicheAvenirLibelleBCN": "PHILOSOPHIE",
+                                "AppreciationFicheAvenir": "Une vélocité intellectuelle, une capacité d'organisation de sa pensée et un sens de la performance qui seront de sérieux atouts pour la suite."
+                            },
+                            {
+                                "MatiereFicheAvenirLibelle": "Langue vivante A",
+                                "MatiereFicheAvenirLibelleBCN": "LANGUE VIVANTE 1",
+                                "AppreciationFicheAvenir": "Un excellent ensemble. Cet élève dispose d'une très bonne maîtrise de la langue, associée à des capacités d'analyse et une réflexion pertinente. Le lexique est riche et précis."
+                            },
+                            {
+                                "MatiereFicheAvenirLibelle": "Physique-Chimie Spécialité",
+                                "MatiereFicheAvenirLibelleBCN": "PHYSIQUE-CHIMIE",
+                                "AppreciationFicheAvenir": "Un assez bon ensemble et un travail personnel constant. Les compétences scientifiques (analyse, s'approprier, valider, synthèse...) sont maitrisées. Esprit positif."
+                            },
+                            {
+                                "MatiereFicheAvenirLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                "MatiereFicheAvenirLibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+                                "AppreciationFicheAvenir": "Beaucoup d'autonomie et d'organisation dans le travail qui vous permettent de gérer la charge de travail avec aisance. Le socle de connaissances est solide et utilisé à bon escient pour mener des démarches scientifiques pertinentes. Des qualités d'analyse et de réflexion indéniables. De l'aisance dans la maîtrise des compétences scientifiques. Il vous reste tout un potentiel à développer."
+                            }
+                        ],
+                        "Baccalaureat": {
+                            "EDSScolaritePremiere1LibelleBCN": "MATHEMATIQUES",
+                            "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE",
+                            "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+                            "EDSScolariteTerminale1Libelle": "Physique-Chimie Spécialité",
+                            "EDSScolariteTerminale2Libelle": "Sciences de la vie et de la Terre Spécialité",
+                            "EDSScolaritePremiere1Libelle": "Mathématiques Spécialité",
+                            "EDSScolaritePremiere2Libelle": "Physique-Chimie Spécialité",
+                            "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+                        },
+                        "NotesBaccalaureat": [
+                            {
+                                "EpreuveLibelle": "Physique-Chimie"
+                            },
+                            {
+                                "EpreuveLibelle": "Sciences de la Vie et de la Terre"
+                            },
+                            {
+                                "EpreuveLibelle": "Français écrit",
+                                "NoteEpreuve": "17,0"
+                            },
+                            {
+                                "EpreuveLibelle": "Français oral",
+                                "NoteEpreuve": "18,0"
+                            },
+                            {
+                                "EpreuveLibelle": "Mathématiques (EDS suivi uniquement en 1ère)",
+                                "NoteEpreuve": "13,6"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Code candidat": "378022",
+    "Groupe algorithmique": "B",
+    "Classement Algorithmique": "596",
+    "Remarques": "notesSC : 14 - NotesFR : 16- Notes Bac :16 - Bonus rang :5",
+    "Spe": "Tle :PC - SVT -  1ere - M",
+    "candidat précédent": "377951",
+    "candidat suivant": "378038",
+    "lettre": "Madame, Monsieur, je souhaite intégrer la Prépa BCPST de votre Université. Passionné par les sciences et animé d'une forte envie de pouvoir aider mon prochain (animal comme humain),je vise l'objectif de devenir vétérinaire depuis toujours. Cette formation est essentielle pour continuer ce parcours, accomplir cet objectif. Durant mon année de terminale, j'ai choisi les spécialités SVT et Physique-chimie, renforçant ainsi mes capacités d'argumentation, de rigueur, de raisonnement qui me seront précieuses pour aborder la médecine vétérinaire et donneront les connaissances nécessaires. Les cours que j'ai suivis (mathématiques en première et l'option Maths complémentaires en terminale) ont également renforcé ces compétences et ma rigueur scientifique, la résolution de problèmes scientifiques ou la communication de leurs réponses (ex: production d'affiches avec l'institut Pasteur en première). Votre université m'attire non seulement pour la qualité de son enseignement. Le cadre d'étude et de vie sont également des facteurs qui renforcent cette envie de venir étudier dans votre université. Je sais que cette formation et ce projet d'études est assez difficile mais je reste motivé et déterminé pour accomplir ce que j'ai toujours voulu faire. De plus, le caractère autonome de ce parcours ne m'effraie pas et me convient même. Les différentes informations que j'ai obtenues ont également solidifié mes idées et mes envies sur ces études. <br /> Cordialement",
+    "veto": "False",
+    "geol": "False"
+}

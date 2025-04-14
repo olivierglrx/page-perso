@@ -1,0 +1,373 @@
+{
+    "exportDeDonnees": {
+        "etablissementCode": "0750663N",
+        "modeleCode": 42807,
+        "exportCandidats": [
+            {
+                "formationCode": 8994,
+                "candidats": [
+                    {
+                        "DonneesCandidats": {
+                            "NumeroDossierCandidat": 1379958,
+                            "NomCandidat": "PRÉCETTI",
+                            "PrenomCandidat": "Alix",
+                            "DateNaissance": "06/12/2006"
+                        },
+                        "Scolarite": [
+                            {
+                                "AnneeScolaireLibelle": "2024-2025",
+                                "ScolariteFrancaiseLibelle": "Scolarité française",
+                                "NiveauEtudeLibelle": "1ère année d'études supérieures",
+                                "TypeFormationLibelle": "Licence",
+                                "FormationScolariteLibelle": "Licence - Sciences - technologies - santé",
+                                "FiliereScolariteCode": 2047,
+                                "TypeEtablissementorigineLibelle": "Université",
+                                "NomEtablissementOrigine": "Sorbonne Université – Médecine",
+                                "CommuneEtablissementOrigineLibelle": "Paris 13e  Arrondissement",
+                                "PaysEtablissementorigineLibelle": "France"
+                            },
+                            {
+                                "ScolariteFrancaiseLibelle": "Scolarité française"
+                            }
+                        ],
+                        "BulletinsScolaires": [
+                            {
+                                "AnneeLibelle": "2023-2024",
+                                "BulletinsScolairesAnnee": {
+                                    "SerieLibelle": "Série Générale",
+                                    "BulletinsScolairesSeries": [
+                                        {
+                                            "TrimestreLibelle": "Premier trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "16,58",
+                                                    "MoyenneclasseCandidat": "14,32",
+                                                    "MoyenneBasseClasseduCandidat": "9,13",
+                                                    "MoyenneHauteClasseduCandidat": "18,01",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un très bon trimestre. Alix est une élève sérieuse, motivée et très impliquée. Son travail régulier et rigoureux est de qualité. Bonne participation. Poursuivez ainsi."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "14,51",
+                                                    "MoyenneclasseCandidat": "16,65",
+                                                    "MoyenneBasseClasseduCandidat": "14,16",
+                                                    "MoyenneHauteClasseduCandidat": "19,30",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "De bons résultats. Pour vous améliorer, il faut approfondir votre travail personnel. La participation est bonne."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "16,53",
+                                                    "MoyenneclasseCandidat": "13,99",
+                                                    "MoyenneBasseClasseduCandidat": "9,36",
+                                                    "MoyenneHauteClasseduCandidat": "17,86",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Excellent trimestre à l'oral comme à l'écrit. Bravo Alix pour votre implication à chaque cours!"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Philosophie",
+                                                    "MoyenneduCandidat": "15,83",
+                                                    "MoyenneclasseCandidat": "13,59",
+                                                    "MoyenneBasseClasseduCandidat": "11,08",
+                                                    "MoyenneHauteClasseduCandidat": "17,58",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Elève motrice en classe par ses interventions souvent justes. Niveau satisfaisant, notamment à l'écrit. Continuez ainsi en ne relâchant ni la rigueur ni le pragmatisme de votre travail personnel"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Second trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "17,41",
+                                                    "MoyenneclasseCandidat": "16,60",
+                                                    "MoyenneBasseClasseduCandidat": "14,06",
+                                                    "MoyenneHauteClasseduCandidat": "18,27",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Les résultats sont très bons. Alix fait preuve de rigueur, et son travail est sérieux. Bonne progression ce trimestre. Continuez comme cela."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Philosophie",
+                                                    "MoyenneduCandidat": "15,33",
+                                                    "MoyenneclasseCandidat": "14,17",
+                                                    "MoyenneBasseClasseduCandidat": "9,89",
+                                                    "MoyenneHauteClasseduCandidat": "20,00",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Niveau très solide à l'écrit ; l'oral est susceptible d'une grande pertinence. Pour progresser davantage, travaillez avec pragmatisme la problématisation et l'argumentation (not. transitions)."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "18,31",
+                                                    "MoyenneclasseCandidat": "15,13",
+                                                    "MoyenneBasseClasseduCandidat": "9,16",
+                                                    "MoyenneHauteClasseduCandidat": "19,31",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "D'excellents résultats à nouveau ce trimestre. Alix est motivée et se donne les moyens de réussir. Poursuivez ainsi!"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "14,31",
+                                                    "MoyenneclasseCandidat": "14,36",
+                                                    "MoyenneBasseClasseduCandidat": "10,66",
+                                                    "MoyenneHauteClasseduCandidat": "18,25",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un bon trimestre. Alix est motivée et intéressée. Son travail est de qualité, elle progressera en intensifiant encore son travail personnel avec rigueur. Bonne participation."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Troisième trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Philosophie",
+                                                    "MoyenneduCandidat": "14,33",
+                                                    "MoyenneclasseCandidat": "13,01",
+                                                    "MoyenneBasseClasseduCandidat": "9,00",
+                                                    "MoyenneHauteClasseduCandidat": "16,50",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un bon niveau d'ensemble marqué par un léger recul. Intelligente et souvent excellente, la participation orale a été enrichissante pour tous. Solide pour le Supérieur"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "16,25",
+                                                    "MoyenneclasseCandidat": "15,63",
+                                                    "MoyenneBasseClasseduCandidat": "11,98",
+                                                    "MoyenneHauteClasseduCandidat": "18,73",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Les résultats sont bons. Le travail est sérieux. Bonne participation."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "18,88",
+                                                    "MoyenneclasseCandidat": "15,12",
+                                                    "MoyenneBasseClasseduCandidat": "10,07",
+                                                    "MoyenneHauteClasseduCandidat": "18,88",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Excellent trimestre à l'oral comme à l'écrit. Bravo pour votre investissement à chaque cours."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "14,36",
+                                                    "MoyenneclasseCandidat": "14,30",
+                                                    "MoyenneBasseClasseduCandidat": "10,59",
+                                                    "MoyenneHauteClasseduCandidat": "18,62",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Bon ensemble. Alix s'est investie mais son travail aurait gagné à davantage de régularité et d'intensité. Bonne participation."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "AnneeLibelle": "2022-2023",
+                                "BulletinsScolairesAnnee": {
+                                    "SerieLibelle": "Série Générale",
+                                    "BulletinsScolairesSeries": [
+                                        {
+                                            "TrimestreLibelle": "Premier trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "13,25",
+                                                    "MoyenneclasseCandidat": "13,02",
+                                                    "MoyenneBasseClasseduCandidat": "6,96",
+                                                    "MoyenneHauteClasseduCandidat": "17,50",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Assez bon trimestre. Alix montre un réel intérêt pour la matière. C'est une élève sérieuse qui a progressé tout au long du trimestre et qui a brillamment réussi son oral."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Français",
+                                                    "MoyenneduCandidat": "13,87",
+                                                    "MoyenneclasseCandidat": "12,84",
+                                                    "MoyenneBasseClasseduCandidat": "8,75",
+                                                    "MoyenneHauteClasseduCandidat": "16,74",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Bon trimestre. De bons points d'appui à l'écrit, un travail rigoureux et une attitude positive. Poursuivez ainsi Alix !"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "16,11",
+                                                    "MoyenneclasseCandidat": "14,31",
+                                                    "MoyenneBasseClasseduCandidat": "6,22",
+                                                    "MoyenneHauteClasseduCandidat": "17,99",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Très bon trimestre. Le travail est régulier et rigoureux. L'attitude et l'état d'esprit sont très positifs."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "15,72",
+                                                    "MoyenneclasseCandidat": "14,15",
+                                                    "MoyenneBasseClasseduCandidat": "9,51",
+                                                    "MoyenneHauteClasseduCandidat": "18,14",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Très bon trimestre. Elève sérieuse et bien impliquée. Le travail est de qualité. Poursuivez !"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "18,26",
+                                                    "MoyenneclasseCandidat": "15,38",
+                                                    "MoyenneBasseClasseduCandidat": "9,29",
+                                                    "MoyenneHauteClasseduCandidat": "18,26",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Excellent niveau, aussi solide à l'oral qu'à l'écrit. La participation en classe est régulière et pertinente. Continuez ainsi !"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Second trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Français",
+                                                    "MoyenneduCandidat": "14,17",
+                                                    "MoyenneclasseCandidat": "13,26",
+                                                    "MoyenneBasseClasseduCandidat": "9,38",
+                                                    "MoyenneHauteClasseduCandidat": "16,25",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Très bon trimestre. Alix est une élève sérieux et motivée qui a fourni du travail de qualité. Qu'elle poursuive ainsi !"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "18,41",
+                                                    "MoyenneclasseCandidat": "16,01",
+                                                    "MoyenneBasseClasseduCandidat": "10,76",
+                                                    "MoyenneHauteClasseduCandidat": "18,41",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Un excellent trimestre. Le travail fournit est de grande qualité. Continuez à participer activement en classe !"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "16,22",
+                                                    "MoyenneclasseCandidat": "15,05",
+                                                    "MoyenneBasseClasseduCandidat": "9,67",
+                                                    "MoyenneHauteClasseduCandidat": "19,56",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Très bon trimestre. Alix est une élève positive et volontaire. Le travail est très sérieux. Bonne participation. Poursuivez ainsi."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "14,74",
+                                                    "MoyenneclasseCandidat": "14,77",
+                                                    "MoyenneBasseClasseduCandidat": "8,19",
+                                                    "MoyenneHauteClasseduCandidat": "18,83",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Bon trimestre. Alix est sérieuse et bien impliquée. Le travail est régulier.  Poursuivez en accentuant l'approfondissement !"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "12,60",
+                                                    "MoyenneclasseCandidat": "12,60",
+                                                    "MoyenneBasseClasseduCandidat": "7,32",
+                                                    "MoyenneHauteClasseduCandidat": "17,67",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Assez bon trimestre. Alix montre une bonne compréhension des nouvelles notions même si les résultats sont encore irréguliers. Poursuivez vos efforts et abordez plus sereinement les évaluations."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Troisième trimestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "13,89",
+                                                    "MoyenneclasseCandidat": "14,23",
+                                                    "MoyenneBasseClasseduCandidat": "10,02",
+                                                    "MoyenneHauteClasseduCandidat": "18,43",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Bon trimestre. L'implication est remarquable. Bravo pour l'état d'esprit !"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "13,05",
+                                                    "MoyenneclasseCandidat": "13,26",
+                                                    "MoyenneBasseClasseduCandidat": "7,14",
+                                                    "MoyenneHauteClasseduCandidat": "18,14",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Assez bien. De belles réussites en début de trimestre qui montrent qu'avec une réelle appropriation du cours Alix aborde plus sereinement les évaluations et atteint un bon niveau."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "16,68",
+                                                    "MoyenneclasseCandidat": "15,18",
+                                                    "MoyenneBasseClasseduCandidat": "11,08",
+                                                    "MoyenneHauteClasseduCandidat": "17,37",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Un très bon trimestre. Le niveau est très solide. La participation en classe pourrait cependant être plus fréquente et spontanée."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Français",
+                                                    "MoyenneduCandidat": "16,13",
+                                                    "MoyenneclasseCandidat": "13,59",
+                                                    "MoyenneBasseClasseduCandidat": "9,53",
+                                                    "MoyenneHauteClasseduCandidat": "16,36",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Très bonne année. Alix est une élève positive et motivée qui a fourni du travail de qualité toute l'année. Qu'elle poursuive ainsi jusqu'aux Epreuves finales."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "15,44",
+                                                    "MoyenneclasseCandidat": "16,39",
+                                                    "MoyenneBasseClasseduCandidat": "13,67",
+                                                    "MoyenneHauteClasseduCandidat": "18,78",
+                                                    "TypedeSaisieCode": 0,
+                                                    "AppreciationProfesseur": "Bon trimestre. Le travail a été sérieux et régulier tout au long de l'année. Très bonne participation en classe. Participation aux olympiades académiques de Géosciences."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "FicheAvenir": {},
+                        "AppreciationsEnseignantsFicheAvenir": [],
+                        "Baccalaureat": {
+                            "EDSScolaritePremiere1LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+                            "EDSScolaritePremiere2LibelleBCN": "MATHEMATIQUES",
+                            "EDSScolaritePremiere3LibelleBCN": "PHYSIQUE-CHIMIE",
+                            "EDSScolariteTerminale1Libelle": "Physique-Chimie Spécialité",
+                            "EDSScolariteTerminale2Libelle": "Mathématiques Spécialité",
+                            "EDSScolaritePremiere1Libelle": "Sciences de la vie et de la Terre Spécialité",
+                            "EDSScolaritePremiere2Libelle": "Mathématiques Spécialité",
+                            "EDSScolaritePremiere3Libelle": "Physique-Chimie Spécialité"
+                        },
+                        "NotesBaccalaureat": [
+                            {
+                                "EpreuveLibelle": "Mathématiques",
+                                "NoteEpreuve": "18,0"
+                            },
+                            {
+                                "EpreuveLibelle": "Physique-Chimie",
+                                "NoteEpreuve": "16,0"
+                            },
+                            {
+                                "EpreuveLibelle": "Français écrit",
+                                "NoteEpreuve": "13,0"
+                            },
+                            {
+                                "EpreuveLibelle": "Français oral",
+                                "NoteEpreuve": "17,0"
+                            },
+                            {
+                                "EpreuveLibelle": "Sciences de la Vie et de la Terre  (EDS suivi uniquement en 1ère)",
+                                "NoteEpreuve": "16,0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Code candidat": "1379958",
+    "Groupe algorithmique": "E",
+    "Classement Algorithmique": "2013",
+    "Remarques": "excellence(3) - notesSC : 14 - NotesFR : 16- Notes Bac :16 - Bonus rang :1",
+    "Spe": "Tle :PC - M -  1ere - SVT",
+    "candidat précédent": "1378597",
+    "candidat suivant": "1380031",
+    "lettre": "J'ai choisi mes spécialités pour devenir une scientifique et répondre aux enjeux humains et sociétaux de demain. Les développements technologiques récents modifient considérablement nos rapports à la science et à l'humain. Je veux m'y engager. Pour cela je veux continuer à apprendre, comprendre, développer ma capacité de réflexion, de projection. La prépa est la meilleure façon de le faire.<br /> La prépa BCPST a deux avantages : <br /> - la variété des choix d'orientation par les concours variés auxquels elle prépare, ce qui me permet d'être sereine et de découvrir progressivement les thématiques qui m'attirent le plus.<br /> - l'ensemble des matières scientifiques sont traitées dont les SVT que j'aime particulièrement. Elle offre ainsi un enseignement équilibré et actif. <br /> C'est cette formation complète qui me permettra de choisir un domaine passionnant pour m'engager : forêts, chimie, enjeux environnementaux, géosciences, médecine vétérinaire, domaines de l'eau, recherche.<br /> Chaptal est une prépa de grande qualité. Elle me donnera la possibilité d'intégrer une école reconnue pour poursuivre un cursus de haut niveau et développer des actions pertinentes dans mon futur domaine d'intérêt. Ma curiosité, mon esprit critique, mon ouverture sur le monde (j'ai habité à l'étranger et parle anglais couramment), mes capacités de travail, d'implication, académiques multidisciplinaires, scientifiques, mon attrait pour le travail en équipe, sont autant d'atouts pour réussir au sein de la prochaine promotion.",
+    "veto": "False",
+    "geol": "False"
+}

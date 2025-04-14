@@ -1,0 +1,261 @@
+{
+    "exportDeDonnees": {
+        "etablissementCode": "0750663N",
+        "modeleCode": 42807,
+        "exportCandidats": [
+            {
+                "formationCode": 8994,
+                "candidats": [
+                    {
+                        "DonneesCandidats": {
+                            "NumeroDossierCandidat": 789745,
+                            "NomCandidat": "LOPEZ",
+                            "PrenomCandidat": "Anae",
+                            "DateNaissance": "12/08/2007"
+                        },
+                        "Scolarite": [
+                            {
+                                "AnneeScolaireLibelle": "2024-2025",
+                                "ScolariteFrancaiseLibelle": "Scolarité française",
+                                "NiveauEtudeLibelle": "Terminale",
+                                "TypeFormationLibelle": "Terminale",
+                                "TypeClasseLibelle": "Générale",
+                                "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+                                "NomEtablissementOrigine": "Lycée Notre Dame Des Missions",
+                                "CommuneEtablissementOrigineLibelle": "Charenton-le-Pont",
+                                "PaysEtablissementorigineLibelle": "France"
+                            },
+                            {
+                                "ScolariteFrancaiseLibelle": "Scolarité française"
+                            }
+                        ],
+                        "BulletinsScolaires": [
+                            {
+                                "AnneeLibelle": "2024-2025",
+                                "BulletinsScolairesAnnee": {
+                                    "SerieLibelle": "Série Générale",
+                                    "BulletinsScolairesSeries": [
+                                        {
+                                            "TrimestreLibelle": "Premier semestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "15,29",
+                                                    "MoyenneclasseCandidat": "14,99",
+                                                    "MoyenneBasseClasseduCandidat": "11,23",
+                                                    "MoyenneHauteClasseduCandidat": "18,84",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Élève sérieuse, investie et motivée, faisant preuve d'une grande force de travail et d'excellentes capacités d'analyse. Sa rigueur et sa persévérance seront des atouts précieux dans le supérieur."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "13,50",
+                                                    "MoyenneclasseCandidat": "13,27",
+                                                    "MoyenneBasseClasseduCandidat": "10,00",
+                                                    "MoyenneHauteClasseduCandidat": "19,04",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Travail régulier et volontaire.\nParticipation active à l'oral.\nDes progrès tout au long du semestre."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "18,37",
+                                                    "MoyenneclasseCandidat": "15,94",
+                                                    "MoyenneBasseClasseduCandidat": "11,25",
+                                                    "MoyenneHauteClasseduCandidat": "19,61",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Le niveau est excellent.  Elève moteur.  Poursuivez ainsi."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Philosophie",
+                                                    "MoyenneduCandidat": "16,90",
+                                                    "MoyenneclasseCandidat": "14,00",
+                                                    "MoyenneBasseClasseduCandidat": "9,65",
+                                                    "MoyenneHauteClasseduCandidat": "18,15",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un excellent semestre. Anae est une élève sérieuse et investie. Elle démontre de très bonnes capacités de réflexion et de rédaction en philosophie. Sa participation orale est motrice. Bravo !"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "AnneeLibelle": "2023-2024",
+                                "BulletinsScolairesAnnee": {
+                                    "SerieLibelle": "Série Générale",
+                                    "BulletinsScolairesSeries": [
+                                        {
+                                            "TrimestreLibelle": "Second semestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "13,53",
+                                                    "MoyenneclasseCandidat": "13,81",
+                                                    "MoyenneBasseClasseduCandidat": "8,55",
+                                                    "MoyenneHauteClasseduCandidat": "19,16",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Bon semestre. Travail sérieux et régulier."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "15,62",
+                                                    "MoyenneclasseCandidat": "15,36",
+                                                    "MoyenneBasseClasseduCandidat": "11,94",
+                                                    "MoyenneHauteClasseduCandidat": "18,02",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un très bon ensemble, le travail est sérieux et rigoureux, bravo!"
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "14,32",
+                                                    "MoyenneclasseCandidat": "14,03",
+                                                    "MoyenneBasseClasseduCandidat": "10,57",
+                                                    "MoyenneHauteClasseduCandidat": "17,72",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un bon ensemble, fruit d'un travail sérieux et régulier. Une réelle volonté de bien faire."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Français",
+                                                    "MoyenneduCandidat": "16,55",
+                                                    "MoyenneclasseCandidat": "15,89",
+                                                    "MoyenneBasseClasseduCandidat": "13,77",
+                                                    "MoyenneHauteClasseduCandidat": "18,55",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un semestre exemplaire, à l'image de toute l'année: l'approche des oeuvres est fine et pertinente et les méthodes appliquées avec rigueur."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "16,63",
+                                                    "MoyenneclasseCandidat": "14,70",
+                                                    "MoyenneBasseClasseduCandidat": "8,67",
+                                                    "MoyenneHauteClasseduCandidat": "19,67",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "LVA: Bonne participation en classe,bonne attitude. Élève appliquée et impliquée.Félicitations"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TrimestreLibelle": "Premier semestre",
+                                            "BulletinsScolairesParPeriode": [
+                                                {
+                                                    "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                                                    "MoyenneduCandidat": "14,87",
+                                                    "MoyenneclasseCandidat": "14,22",
+                                                    "MoyenneBasseClasseduCandidat": "9,42",
+                                                    "MoyenneHauteClasseduCandidat": "17,43",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un bon ensemble. L'investissement est très sérieux et la participation active en classe. Poursuivez dans cette voie."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                                                    "MoyenneduCandidat": "13,81",
+                                                    "MoyenneclasseCandidat": "13,28",
+                                                    "MoyenneBasseClasseduCandidat": "8,47",
+                                                    "MoyenneHauteClasseduCandidat": "18,28",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Bon semestre. Travail sérieux et régulier. Une bonne participation."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Langue vivante A",
+                                                    "MoyenneduCandidat": "18,09",
+                                                    "MoyenneclasseCandidat": "14,43",
+                                                    "MoyenneBasseClasseduCandidat": "10,11",
+                                                    "MoyenneHauteClasseduCandidat": "19,05",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Attitude et travail sérieux. Très bonne participation et niveau de langue, bravo."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Français",
+                                                    "MoyenneduCandidat": "16,45",
+                                                    "MoyenneclasseCandidat": "15,73",
+                                                    "MoyenneBasseClasseduCandidat": "12,64",
+                                                    "MoyenneHauteClasseduCandidat": "17,78",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un travail sérieux et méthodique, tant à l'oral qu'à l'écrit. Les exigences de l'EAF sont très bien assimilées."
+                                                },
+                                                {
+                                                    "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                                                    "MoyenneduCandidat": "17,20",
+                                                    "MoyenneclasseCandidat": "15,07",
+                                                    "MoyenneBasseClasseduCandidat": "11,87",
+                                                    "MoyenneHauteClasseduCandidat": "18,20",
+                                                    "TypedeSaisieCode": 1,
+                                                    "AppreciationProfesseur": "Un excellent ensemble , tant par votre implication lors des séances et l'application dont vous faites preuve dans votre production écrite. Bravo !"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "FicheAvenir": {
+                            "NiveauClasseCode": 4
+                        },
+                        "AppreciationsEnseignantsFicheAvenir": [
+                            {
+                                "MatiereFicheAvenirLibelle": "Philosophie",
+                                "MatiereFicheAvenirLibelleBCN": "PHILOSOPHIE",
+                                "AppreciationFicheAvenir": "Anae est une excellente élève. Sérieuse et volontaire, elle témoigne de véritables capacités d'analyse et de rédaction. Ses copies sont rigoureuses et abouties. Sa participation orale est dynamique et pertinente. Son année de philosophie a été exemplaire. Je la félicite pour son travail et son engagement."
+                            },
+                            {
+                                "MatiereFicheAvenirLibelle": "Langue vivante A",
+                                "MatiereFicheAvenirLibelleBCN": "LANGUE VIVANTE 1",
+                                "AppreciationFicheAvenir": "Le niveau est excellent.  Elève moteur."
+                            },
+                            {
+                                "MatiereFicheAvenirLibelle": "Mathématiques Spécialité",
+                                "MatiereFicheAvenirLibelleBCN": "MATHEMATIQUES",
+                                "AppreciationFicheAvenir": "Elève sérieuse et volontaire. \nParticipation exemplaire à l'oral.\nLes derniers résultats sont très satisfaisants.\nImportante capacité de travail.\n"
+                            },
+                            {
+                                "MatiereFicheAvenirLibelle": "Physique-Chimie Spécialité",
+                                "MatiereFicheAvenirLibelleBCN": "PHYSIQUE-CHIMIE",
+                                "AppreciationFicheAvenir": "Élève sérieuse, investie et motivée, faisant preuve d'une grande force de travail et d'excellentes capacités d'analyse. Sa rigueur et sa persévérance seront des atouts précieux dans le supérieur."
+                            }
+                        ],
+                        "Baccalaureat": {
+                            "EDSScolaritePremiere1LibelleBCN": "MATHEMATIQUES",
+                            "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE",
+                            "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+                            "EDSScolariteTerminale1Libelle": "Mathématiques Spécialité",
+                            "EDSScolariteTerminale2Libelle": "Physique-Chimie Spécialité",
+                            "EDSScolaritePremiere1Libelle": "Mathématiques Spécialité",
+                            "EDSScolaritePremiere2Libelle": "Physique-Chimie Spécialité",
+                            "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+                        },
+                        "NotesBaccalaureat": [
+                            {
+                                "EpreuveLibelle": "Mathématiques"
+                            },
+                            {
+                                "EpreuveLibelle": "Physique-Chimie"
+                            },
+                            {
+                                "EpreuveLibelle": "Français écrit",
+                                "NoteEpreuve": "15,0"
+                            },
+                            {
+                                "EpreuveLibelle": "Français oral",
+                                "NoteEpreuve": "16,0"
+                            },
+                            {
+                                "EpreuveLibelle": "Sciences de la Vie et de la Terre  (EDS suivi uniquement en 1ère)",
+                                "NoteEpreuve": "16,5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Code candidat": "789745",
+    "Groupe algorithmique": "C",
+    "Classement Algorithmique": "1036",
+    "Remarques": "excellence(4) - notesSC : 14 - NotesFR : 17- Notes Bac :15 - Bonus rang :2",
+    "Spe": "Tle :M - PC -  1ere - SVT",
+    "candidat précédent": "789718",
+    "candidat suivant": "789752",
+    "lettre": "Madame, Monsieur,<br /> <br /> Actuellement en terminale scientifique, je souhaite rejoindre votre classe préparatoire BCPST à la rentrée prochaine pour poursuivre mon parcours scientifique.<br /> Depuis toujours, les sciences de la vie et la physique-chimie me fascinent. J'ai particulièrement apprécié en terminale les TP de biologie où nous avons étudié les écosystèmes locaux, ainsi que les expériences de chimie organique. Ces travaux pratiques ont confirmé mon attrait pour l'approche expérimentale et mon désir d'approfondir ces domaines dans un cadre exigeant.<br /> <br /> La prépa BCPST me semble parfaitement adaptée à mes centres d'intérêt car elle propose une formation scientifique complète, alliant sciences du vivant et sciences physiques. Ce qui me plaît particulièrement dans cette filière, c'est l'approche transversale qui permet de comprendre les phénomènes naturels sous différents angles. J'apprécie aussi l'accent mis sur les méthodes de travail rigoureuses qui seront précieuses pour mon avenir professionnel dans les sciences.<br /> <br /> Tout au long de ma scolarité, j'ai développé une bonne capacité d'organisation et une autonomie qui me seront utiles pour affronter l'intensité du rythme en classe préparatoire.<br /> En parallèle de mes études, je pratique l'athlétisme depuis presque dix ans. Ce sport m'a appris la discipline et la gestion du stress, compétences qui me seront utiles pour gérer l'intensité du rythme en prépa.<br /> <br /> Je vous remercie de considérer ma candidature.",
+    "veto": "False",
+    "geol": "False"
+}

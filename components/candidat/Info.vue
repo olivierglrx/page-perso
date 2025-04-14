@@ -7,6 +7,8 @@
         <li><strong>Classement :</strong> {{ info["Classement Algorithmique"] || "—" }}</li>
         <li><strong>Remarques :</strong> {{ info["Remarques"] || "—" }}</li>
         <li><strong>Spécialités :</strong> {{ info["Spe"] }}</li>
+        <li><strong>Veto :</strong> {{ info["veto"] }}</li>
+        <li><strong>Geol :</strong> {{ info["geol"] }}</li>
       </ul>
     </section>
   </template>
