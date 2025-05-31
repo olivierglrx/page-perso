@@ -1,8 +1,8 @@
 ---
 published: false
-name: Chapitre 17 - DL
-image: CH17/meme17.jpg
-cours: CH17/cours.pdf
-TD: CH17/td.pdf
-TDcor: CH17/td-cor.pdf
+name: Chapitre 21 - DL
+image: /public/Capture d'écran 2025-05-31 100015.png
+cours: /public/Cours DL.pdf
+TD: /public/TD 21.pdf
+TDcor: /public/td 21 cor.pdf
 ---
