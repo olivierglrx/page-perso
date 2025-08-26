@@ -1,6 +1,7 @@
 <template>
   <!-- 🔐 Formulaire mot de passe -->
-  <div v-if="pendingAuth" class="hidden"></div>
+  Out of order !
+  <!--   <div v-if="pendingAuth" class="hidden"></div>
 
   <AuthForm
     v-else-if="!isAuthenticated"
@@ -39,7 +40,7 @@
         </div>
       </UCarousel>
     </div>
-  </div>
+  </div> -->
 </template>
 
 <script setup lang="ts">
