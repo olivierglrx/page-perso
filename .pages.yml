@@ -3,9 +3,9 @@ content:
   - name: chapitres
     label: Chapitres
     type: collection
-    path: 'content/chapitres'
+    path: "content/chapitres"
     view:
-      fields: [ name, published]
+      fields: [name, published]
     fields:
       - name: published
         label: Published
@@ -14,30 +14,30 @@ content:
       - name: name
         label: Titre
         type: string
-      - name : image
-        label : Image
-        type : image
-      - name : cours
-        label : CoursPDF
-        type : file
-        options :
+      - name: image
+        label: Image
+        type: image
+      - name: cours
+        label: CoursPDF
+        type: file
+        options:
           path: media/chapitres
-      - name : TD
-        label : TD-PDF
-        type : file
-        options :
+      - name: TD
+        label: TD-PDF
+        type: file
+        options:
           path: media/chapitres
-      - name : TDcor
-        label : TD correction
-        type : file
-        options :
+      - name: TDcor
+        label: TD correction
+        type: file
+        options:
           path: media/chapitres
   - name: colles
     label: Colles
     type: collection
-    path: 'content/colles'
+    path: "content/colles"
     view:
-      fields: [ titre,keywords, published, date ]
+      fields: [titre, keywords, published, date]
     fields:
       - name: published
         label: Published
@@ -53,17 +53,39 @@ content:
       - name: titre
         label: Semaine
         type: string
-      - name : sujet
-        label : Programme
-        type : file
-        options :
+      - name: sujet
+        label: Programme
+        type: file
+        options:
+          path: media/
+  - name: informatique
+    label: informatique
+    type: collection
+    path: "content/informatique"
+    view:
+      fields: [titre, keywords, published, date]
+    fields:
+      - name: published
+        label: Published
+        type: boolean
+        default: true
+      - name: titre
+        label: titre
+        type: string
+      - name: keywords
+        label: Theme
+        type: string
+      - name: sujet
+        label: pdf
+        type: file
+        options:
           path: media/
   - name: devoirs
     label: Devoirs
     type: collection
-    path: 'content/devoirs'
+    path: "content/devoirs"
     view:
-      fields: [titre,type,  published, date ]
+      fields: [titre, type, published, date]
     fields:
       - name: published
         label: Published
@@ -77,36 +99,34 @@ content:
         label: type
         type: select
         options:
-          values: [ interro, DS]
+          values: [interro, DS]
       - name: titre
         label: Titre
         type: string
       - name: keywords
         label: keyworsds (separé par des ;)
         type: string
-      - name : sujet
-        label : sujet
-        type : file
-        options :
+      - name: sujet
+        label: sujet
+        type: file
+        options:
           path: media/
       - name: dateSujet
         label: Publication du sujet
         type: date
-      - name : correction
-        label : Correction
-        type : file
-        options :
+      - name: correction
+        label: Correction
+        type: file
+        options:
           path: media/
       - name: dateCorrection
         label: Publication de la correction
         type: date
-      - name : notes
-        label : Notes
-        type : file
-        options :
+      - name: notes
+        label: Notes
+        type: file
+        options:
           path: media/
       - name: dateNote
         label: Publication des notes
         type: date
-
-  
