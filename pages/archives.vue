@@ -34,6 +34,32 @@
     :link="'archives/2023'"
     :date="'2023'"
   ></ArchivesAnnes>
+  <h2
+    class="mt-2 mb-4 text-l text-center font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-2xl dark:text-white"
+  >
+    {{ 2024 }}
+  </h2>
+  <div class="flex mx-10">
+    <ul class="list-none flex flex-wrap">
+      <li v-for="item in DSItems" class="">
+        {{ item.sujet.includes("public") ? item.sujet.slice(8) : item.sujet }}
+        <DevoirsCardArchives
+          v-if="Date.parse(item.dateSujet) < Date.parse('2025-09-01')"
+          :name="item.titre"
+          :keywords="item.keywords.split(/[,;]+/)"
+          :sujet="
+            item.sujet.includes('public') ? item.sujet.slice(8) : item.sujet
+          "
+          :correction="
+            item.correction && item.correction.includes('public')
+              ? item.correction.slice(8)
+              : item.correction
+          "
+        >
+        </DevoirsCardArchives>
+      </li>
+    </ul>
+  </div>
 </template>
 
 <script setup>
@@ -307,4 +333,35 @@ var doc = [
   { name: "Valeur Absolue", link: "autre/Valeur-absolue.pdf" },
   { name: "Trigonométrie", link: "autre/trigonométrie.pdf" },
 ];
+
+const InterroItems = ref([]);
+const DSItems = ref([]);
+onMounted(async () => {
+  const interro = await queryContent("/devoirs")
+    .where({ type: "interro", date: { $gte: "2025-09-01" } })
+    .find();
+
+  InterroItems.value = sortChapters(interro).reverse();
+  const DS = await queryContent("/devoirs").where({ type: "DS" }).find();
+  console.log(DS);
+  DSItems.value = sortChapters(DS).reverse();
+});
+
+function sortChapters(arr) {
+  return arr.sort((a, b) => {
+    // Sort by date first
+    const dateA = new Date(a.date);
+    const dateB = new Date(b.date);
+
+    if (dateA - dateB !== 0) {
+      return dateA - dateB;
+    }
+
+    // Extract the number from the 'name' field, allowing for decimals
+    const numA = parseFloat(a.titre.replace(/[^\d.]/g, ""));
+    const numB = parseFloat(b.titre.replace(/[^\d.]/g, ""));
+
+    return numB - numA;
+  });
+}
 </script>
