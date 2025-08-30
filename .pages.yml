@@ -32,6 +32,11 @@ content:
         type: file
         options:
           path: media/chapitres
+      - name: Autre
+        label: Autre
+        type: file
+        options:
+          path: media/chapitres
   - name: colles
     label: Colles
     type: collection
