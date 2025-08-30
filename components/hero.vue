@@ -15,8 +15,7 @@
             </nuxtLink></li>
             <li> <Icon name="simple-icons:arxiv" color="black dark:white" /> Chercheurs, vous pouvez jeter un oeil à mes anciennes  
               <nuxt-link class="text-blue-700 dark:text-blue-300" to="publications">publications.</nuxt-link></li>
-              <li> <Icon name="healthicons:old-woman" color="black dark:white" />
-                <nuxt-link class="text-blue-700 dark:text-blue-300" to="http://olivierglorieux.fr/mathematiques/">Ancienne version du site  .</nuxt-link></li>
+            
         </ul>
 
       </p>

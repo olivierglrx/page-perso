@@ -29,45 +29,7 @@
 const time = new Date();
 
 const poly = [
-  {
-    name: "Semaine 7 ",
-    to: "../Colles/Semaine5.pdf",
-    date: "28/10",
-    keywords: ["logique", "quantificateurs", "equations", "calculs"],
-    published: new Date("2025-10-20"),
-  },
-  {
-    name: "Semaine 6 ",
-    to: "../Colles/Semaine5.pdf",
-    date: "21/10",
-    keywords: ["logique", "quantificateurs", "equations", "calculs"],
-    published: new Date("2025-11-20"),
-  },
-
-  {
-    name: "Semaine 5 ",
-    to: "../Informatique/Semaine5.pdf",
-    date: "14/10",
-    keywords: ["logique", "quantificateurs", "equations", "calculs"],
-    published: new Date("2025-10-20"),
-  },
-
-  {
-    name: "Semaine 4 ",
-    to: "../Informatique/Semaine4.pdf",
-    date: "07/10",
-    keywords: ["logique", "quantificateurs", "equations", "calculs"],
-    published: new Date("2025-10-20"),
-  },
-  {
-    name: "TP 2 ",
-    to: "../Informatique/TP 2 Boucles for et while.pdf",
-
-    keywords: ["Boucle", "for", "while"],
-    published: new Date("2024-09-26"),
-  },
-
-  {
+  /*   {
     name: "TP1",
     to: "../Informatique/TP 1 Variables, fonctions et instructions conditionnelles.pdf",
     keywords: ["Variables", "fonctions", "instructions conditionnelles"],
@@ -78,6 +40,6 @@ const poly = [
     to: "../Informatique/Chap 1 Mise en route.pdf",
     keywords: ["Variables", "fonctions", "conditions"],
     published: new Date("2024-09-16"),
-  },
+  }, */
 ];
 </script>

@@ -32,6 +32,5 @@ defineProps({
   sujet: String,
   correction: String,
   keywords: Object,
-  date: String,
 });
 </script>

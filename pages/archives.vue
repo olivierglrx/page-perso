@@ -1,5 +1,5 @@
 <template>
-  <Titleheader title="Doc" />
+  <!--   <Titleheader title="Doc" />
   <ul class="flex flex-wrap">
     <li v-for="item in doc" class="">
       <Icon name="mdi:file-document" color="black dark:white" /><nuxt-link
@@ -9,7 +9,7 @@
         >{{ item.name }}
       </nuxt-link>
     </li>
-  </ul>
+  </ul> -->
   <Titleheader title="Archives" />
   <USelect
     class="w-48"
@@ -41,8 +41,7 @@
   </h2>
   <div class="flex mx-10">
     <ul class="list-none flex flex-wrap">
-      <li v-for="item in DSItems" class="">
-        {{ item.sujet.includes("public") ? item.sujet.slice(8) : item.sujet }}
+      <li v-for="item in DSItems" class="m-3 shadow p-3 gap-2 items-center">
         <DevoirsCardArchives
           v-if="Date.parse(item.dateSujet) < Date.parse('2025-09-01')"
           :name="item.titre"
