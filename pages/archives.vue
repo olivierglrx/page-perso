@@ -347,25 +347,26 @@ onMounted(async () => {
 
   InterroItems.value = sortChapters(interro).reverse();
   const DS = await queryContent("/devoirs").where({ type: "DS" }).find();
-
+  console.log(DS);
   DSItems.value = sortChapters(DS).reverse();
 });
 
 function sortChapters(arr) {
   return arr.sort((a, b) => {
     // Sort by date first
+    console.log(a.date, b.date);
     const dateA = new Date(a.date);
     const dateB = new Date(b.date);
 
     if (dateA - dateB !== 0) {
-      return dateA - dateB;
+      return dateB - dateA;
     }
 
     // Extract the number from the 'name' field, allowing for decimals
     const numA = parseFloat(a.titre.replace(/[^\d.]/g, ""));
     const numB = parseFloat(b.titre.replace(/[^\d.]/g, ""));
 
-    return numB - numA;
+    return numA - numB;
   });
 }
 </script>
