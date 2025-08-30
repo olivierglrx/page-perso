@@ -347,7 +347,7 @@ onMounted(async () => {
 
   InterroItems.value = sortChapters(interro).reverse();
   const DS = await queryContent("/devoirs").where({ type: "DS" }).find();
-  console.log(DS);
+
   DSItems.value = sortChapters(DS).reverse();
 });
 

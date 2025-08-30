@@ -51,6 +51,18 @@
             >
               Correction
             </NuxtLink>
+
+            <NuxtLink
+              v-if="item.Autre"
+              :to="
+                item.Autre.includes('public') ? item.Autre.slice(8) : item.Autre
+              "
+              external
+            >
+              <p v-if="item.AutreLabel">
+                {{ item.AutreLabel ? item.AutreLabel : "Autre" }}
+              </p>
+            </NuxtLink>
           </div>
         </div>
       </UCarousel>
