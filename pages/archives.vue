@@ -39,9 +39,15 @@
   >
     {{ 2024 }}
   </h2>
-  <div class="flex mx-10">
-    <ul class="list-none flex flex-wrap">
-      <li v-for="item in DSItems" class="m-3 shadow p-3 gap-2 items-center">
+  <div class="mx-10">
+    <ul
+      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+    >
+      <li
+        v-for="item in DSItems"
+        :key="item.titre"
+        class="shadow p-3 rounded-lg"
+      >
         <DevoirsCardArchives
           v-if="Date.parse(item.dateSujet) < Date.parse('2025-09-01')"
           :name="item.titre"
@@ -54,8 +60,7 @@
               ? item.correction.slice(8)
               : item.correction
           "
-        >
-        </DevoirsCardArchives>
+        />
       </li>
     </ul>
   </div>
