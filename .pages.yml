@@ -37,6 +37,9 @@ content:
         type: file
         options:
           path: media/chapitres
+      - name: AutreLabel
+        label: Autre label
+        type: string
   - name: colles
     label: Colles
     type: collection
