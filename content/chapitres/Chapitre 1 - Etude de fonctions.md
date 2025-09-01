@@ -1,5 +1,5 @@
 ---
-published: True
+published: False
 date:
 name: Chapitre 1 - Etude de fonctions
 cours: CH1/CH1-cours.pdf

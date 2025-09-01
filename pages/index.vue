@@ -73,7 +73,7 @@
 
 <script setup>
 const chapitresItems = ref([]);
-const limit = 1; // Limit the number of items to display
+
 onMounted(async () => {
   // Fetch seminar items from content folder using Nuxt Content
   // const { data }  = await useAsyncData('seminar', () => queryContent('/events').find())
@@ -81,13 +81,9 @@ onMounted(async () => {
     .where({ published: true })
     .sort("name")
     .find();
+  console.log("chapitres", chapitres);
   chapitresItems.value = sortChapters(chapitres).reverse();
-  console.log(chapitresItems.value);
-  chapitresItems.value = chapitresItems.value.slice(
-    chapitres.length - limit,
-    chapitres.length
-  );
-  console.log(chapitresItems);
+  console.log("index", chapitresItems.value);
   // You can also fetch other items if you add content for them in the future
 });
 

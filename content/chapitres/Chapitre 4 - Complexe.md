@@ -1,7 +1,7 @@
 ---
-published: True
-date: 
-name : Chapitre 4 - Complexe
+published: False
+date:
+name: Chapitre 4 - Complexe
 cours: CH4/CH4-cours.pdf
 TD: CH4/CH4-TD.pdf
 TDcor: CH4/CH4-correctionTD.pdf

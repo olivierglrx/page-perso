@@ -354,7 +354,6 @@ onMounted(async () => {
 function sortChapters(arr) {
   return arr.sort((a, b) => {
     // Sort by date first
-    console.log(a.date, b.date);
     const dateA = new Date(a.date);
     const dateB = new Date(b.date);
 
