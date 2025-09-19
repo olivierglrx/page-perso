@@ -30,7 +30,11 @@
           :dateCorrection="item.dateCorrection"
           :dateSujet="item.dateSujet"
           :dateNote="item.dateNote"
-          :notes="item.notes"
+          :notes="
+            item.notes && item.notes.includes('public')
+              ? item.notes.slice(8)
+              : item.notes
+          "
           :keywords="item.keywords"
           :to="item.sujet.includes('public') ? item.sujet.slice(8) : item.sujet"
           :correction="
