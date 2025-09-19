@@ -1,7 +1,7 @@
 ---
-published: True
-date: 2024-09-23 
-titre : Semaine 2 
-sujet: ../Colles/Semaine2.pdf
+published: false
+date: 2025-09-22
 keywords: logique;quantificateurs;equations;calculs
+titre: Semaine 2
+sujet: /public/Semaine 2 1BIOA.pdf
 ---
