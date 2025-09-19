@@ -1,6 +1,5 @@
 <template>
   <Titleheader title="Devoirs" />
-  <UButton label="Connectez-vous" @click="isOpen2 = true" />
 
   <UModal v-model="isOpen2">
     <div class="p-4">
@@ -51,7 +50,11 @@
       </h2>
       <li v-for="item in DSItems" class="">
         <DevoirsCard
-          v-if="item.published && Date.parse(item.dateSujet) < today"
+          v-if="
+            item.published &&
+            Date.parse(item.dateSujet) < today &&
+            Date.parse(item.dateSujet) > Date.parse('2025-09-01')
+          "
           :name="item.titre"
           :date="item.date"
           :dateCorrection="item.dateCorrection"
@@ -73,12 +76,14 @@
 </template>
 
 <script setup>
+const today = new Date();
 const InterroItems = ref([]);
 const DSItems = ref([]);
 onMounted(async () => {
   const interro = await queryContent("/devoirs")
     .where({ type: "interro", date: { $gte: "2025-09-01" } })
     .find();
+  console.log("interro", interro);
 
   InterroItems.value = sortChapters(interro).reverse();
   const DS = await queryContent("/devoirs").where({ type: "DS" }).find();
@@ -102,20 +107,5 @@ function sortChapters(arr) {
 
     return numA - numB;
   });
-}
-
-import { useLogginStore } from "@/stores/loggin";
-const isOpen2 = ref(false);
-const pass = ref("");
-const store = useLogginStore();
-const message = ref("");
-
-function validate(pass) {
-  if (pass == "eleve") {
-    isOpen2.value = !isOpen2.value;
-    store.logged = true;
-  } else {
-    message.value = "Mauvais mot de passe";
-  }
 }
 </script>
