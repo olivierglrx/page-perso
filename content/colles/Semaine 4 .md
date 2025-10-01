@@ -1,7 +1,7 @@
 ---
-published: True
-date: 2024-10-07 
-titre : Semaine 4 
-sujet: ../Colles/semaine4.pdf
+published: false
+date: 2025-10-06
 keywords: trigonometrie;Sommes
+titre: Semaine 4
+sujet: /public/semaine 4.pdf
 ---
