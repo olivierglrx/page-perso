@@ -1,7 +1,7 @@
 ---
-published: True
-date: 2024-10-14 
-titre : Semaine 5 
-sujet: ../Colles/Semaine5.pdf
+published: true
+date: 2025-10-09
 keywords: Sommes;Complexes
+titre: Semaine 5
+sujet: /public/S5 2025.pdf
 ---
