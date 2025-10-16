@@ -1,7 +1,7 @@
 ---
-published: True
-date: 2024-11-07 
-titre : Semaine 6 
-sujet: ../Colles/Semaine6.pdf
-keywords: Sommes;Complexes;suites réelles
+published: true
+date: 2025-11-03
+keywords: Sommes;Complexes
+titre: Semaine 6
+sujet: /public/Semaine 6 2025.pdf
 ---
