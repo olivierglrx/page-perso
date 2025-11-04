@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 name: Chapitre 5.1 - Suites usuelles
 image: /public/CH5/5.1.jpg
 cours: CH5/CH5.1-cours.pdf
