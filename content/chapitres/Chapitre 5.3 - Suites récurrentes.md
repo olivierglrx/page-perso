@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 name: Chapitre 5.3 - Suites récurrentes
 image: /public/CH5/5.2.jpg
 cours: CH5/CH5.3-cours.pdf
