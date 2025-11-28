@@ -4,4 +4,4 @@ titre : Semaine 13
 sujet: ../Colles/Semaine13.pdf
 keywords: Dénombrement;géométrie
 published: false
-------
+---

@@ -4,4 +4,4 @@ titre : Semaine 18
 sujet: ../Colles/Semaine18.pdf
 keywords: dérivabilité;Polynômes
 published: false
-------
+---

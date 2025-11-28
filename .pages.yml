@@ -45,12 +45,15 @@ content:
     type: collection
     path: "content/colles"
     view:
-      fields: [titre, keywords, published, date]
+      fields: [titre, keywords, published, publishing_date, date]
     fields:
       - name: published
         label: Published
         type: boolean
         default: true
+      - name: publishing_date
+        label: Date de publication
+        type: date
       - name: date
         label: Date
         type: date

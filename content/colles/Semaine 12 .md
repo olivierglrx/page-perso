@@ -4,4 +4,4 @@ titre : Semaine 12
 sujet: ../Colles/Semaine12.pdf
 keywords: EDL1;géométrie
 published: false
-------
+---
