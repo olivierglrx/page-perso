@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 date: 2025-11-24
 keywords: suites réelles;Systèmes linéaires
 titre: Semaine 9

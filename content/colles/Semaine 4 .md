@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 date: 2025-10-06
 keywords: trigonometrie;Sommes
 titre: Semaine 4

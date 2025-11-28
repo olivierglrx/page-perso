@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 date: 2025-10-13
 keywords: Sommes;Complexes
 titre: Semaine 5

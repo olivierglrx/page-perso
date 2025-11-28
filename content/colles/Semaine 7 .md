@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 date: 2024-10-28
 keywords: suites réelles
 titre: Semaine 7

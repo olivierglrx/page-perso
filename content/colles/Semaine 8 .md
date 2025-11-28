@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 date: 2025-11-18
 keywords: suites réelles
 titre: Semaine 8

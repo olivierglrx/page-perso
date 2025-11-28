@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 date: 2025-12-01
 keywords: Systèmes linéaires;vocabulaires des applications
 titre: Semaine 10
