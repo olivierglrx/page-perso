@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 name: Chapitre 7 - Vocabulaires des applications
 image: /public/CH7/7.png
 cours: CH7/CH7-cours.pdf
