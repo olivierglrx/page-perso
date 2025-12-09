@@ -91,6 +91,11 @@ content:
         type: file
         options:
           path: media/
+      - name: correction
+        label: pdf
+        type: file
+        options:
+          path: media/
   - name: devoirs
     label: Devoirs
     type: collection
