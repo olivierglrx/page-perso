@@ -12,7 +12,11 @@
             <div class="flex items-center space-x-2">
               <Icon name="mdi:file-document" color="black dark:white" />
               <nuxt-link
-                :to="item.sujet"
+                :to="
+                  item.sujet.includes('public')
+                    ? item.sujet.slice(8)
+                    : item.sujet
+                "
                 external
                 class="text-blue-600 font-semibold"
               >
@@ -24,7 +28,11 @@
             <div class="flex items-center space-x-2" v-if="item.correction">
               <Icon name="mdi:file-document" color="black dark:white" />
               <nuxt-link
-                :to="item.correction"
+                :to="
+                  item.correction.includes('public')
+                    ? item.correction.slice(8)
+                    : item.correction
+                "
                 external
                 class="text-blue-600 font-semibold"
               >

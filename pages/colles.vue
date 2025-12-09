@@ -30,33 +30,6 @@
       </li>
     </ul>
   </div>
-
-  <!-- 
-  
-    <div class="flex h-screen mx-10">
-      <ul class="">
-        <li v-for="item in programmes" class="">
-          <div
-            v-if="item.published < time"
-            class="dark:bg-gray-700 m-3 shadow p-3 gap-2 items-center hover:shadow-lg transition delay-150 duration-300 ease-in-out hover:scale-105 transform"
-          >
-            <Icon name="mdi:file-document" color="black dark:white" /><nuxt-link
-              :to="item.to"
-              external
-              class="text-blue-600 font-semibold"
-              >{{ item.name }}
-            </nuxt-link>
-            {{ item.date }}
-            <div>
-              <span v-for="key in item.keywords.slice(0, -1)">
-                {{ key + ", " }}</span
-              >
-              <span> {{ item.keywords.slice(-1)[0] }}.</span>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </div> -->
 </template>
 <script setup>
 const seminarItems = ref([]);
