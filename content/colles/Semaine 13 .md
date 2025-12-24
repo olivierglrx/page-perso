@@ -1,7 +1,8 @@
 ---
-date: 2025-01-06 
-titre : Semaine 13 
-sujet: ../Colles/Semaine13.pdf
-keywords: Dénombrement;géométrie
-published: false
+published: true
+publishing_date: 2025-12-24
+date: 2026-01-05
+keywords: Matrice;géométrie
+titre: Semaine 13
+sujet: /public/Colles S13 25.pdf
 ---
