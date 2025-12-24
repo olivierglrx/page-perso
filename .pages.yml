@@ -115,7 +115,7 @@ content:
         label: type
         type: select
         options:
-          values: [interro, DS]
+          values: [interro, DS, DM]
       - name: titre
         label: Titre
         type: string
