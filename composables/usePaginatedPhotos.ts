@@ -14,7 +14,7 @@ export function usePaginatedPhotos(batchSize = 3) {
     const next = allPhotos.value.slice(index.value, index.value + batchSize);
     photos.value.push(...next);
     index.value += batchSize;
-    console.log("Loaded next batch:", next);
+    // console.log("Loaded next batch:", next);
   }
 
   async function loadPhotoList() {

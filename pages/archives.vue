@@ -11,56 +11,24 @@
     </li>
   </ul> -->
   <Titleheader title="Archives" />
-  <USelect
-    class="w-48"
-    v-model="selected"
-    :options="k"
-    option-attribute="label"
-    @change="onChange()"
-  />
+  <USelect class="w-48" v-model="selected" :options="k" option-attribute="label" @change="onChange()" />
 
-  <ArchivesAnnes
-    :data="dref2020"
-    :link="'archives/2020'"
-    :date="'2020'"
-  ></ArchivesAnnes>
-  <ArchivesAnnes
-    :data="dref2021"
-    :link="'archives/2021'"
-    :date="'2021'"
-  ></ArchivesAnnes>
-  <ArchivesAnnes
-    :data="dref2023"
-    :link="'archives/2023'"
-    :date="'2023'"
-  ></ArchivesAnnes>
+  <ArchivesAnnes :data="dref2020" :link="'archives/2020'" :date="'2020'"></ArchivesAnnes>
+  <ArchivesAnnes :data="dref2021" :link="'archives/2021'" :date="'2021'"></ArchivesAnnes>
+  <ArchivesAnnes :data="dref2023" :link="'archives/2023'" :date="'2023'"></ArchivesAnnes>
   <h2
-    class="mt-2 mb-4 text-l text-center font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-2xl dark:text-white"
-  >
+    class="mt-2 mb-4 text-l text-center font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-2xl dark:text-white">
     {{ 2024 }}
   </h2>
   <div class="mx-10">
-    <ul
-      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
-    >
-      <li
-        v-for="item in DSItems"
-        :key="item.titre"
-        class="shadow p-3 rounded-lg"
-      >
-        <DevoirsCardArchives
-          v-if="Date.parse(item.dateSujet) < Date.parse('2025-09-01')"
-          :name="item.titre"
-          :keywords="item.keywords.split(/[,;]+/)"
-          :sujet="
-            item.sujet.includes('public') ? item.sujet.slice(8) : item.sujet
-          "
-          :correction="
-            item.correction && item.correction.includes('public')
+    <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <li v-for="item in DSItems" :key="item.titre" class="shadow p-3 rounded-lg">
+        <DevoirsCardArchives v-if="Date.parse(item.dateSujet) < Date.parse('2025-09-01')" :name="item.titre"
+          :keywords="item.keywords.split(/[,;]+/)" :sujet="item.sujet.includes('public') ? item.sujet.slice(8) : item.sujet
+            " :correction="item.correction && item.correction.includes('public')
               ? item.correction.slice(8)
               : item.correction
-          "
-        />
+            " />
       </li>
     </ul>
   </div>
@@ -287,7 +255,7 @@ D2020.forEach((x) => callbackFct(x.keywords, keywordsD));
 D2021.forEach((x) => callbackFct(x.keywords, keywordsD));
 function callbackFct(x, dict) {
   x.forEach((item) => {
-    console.log(item);
+    // console.log(item);
     if (item in dict) {
       dict[item] += 1;
     } else {
@@ -341,13 +309,21 @@ var doc = [
 const InterroItems = ref([]);
 const DSItems = ref([]);
 onMounted(async () => {
-  const interro = await queryContent("/devoirs")
-    .where({ type: "interro", date: { $gte: "2025-09-01" } })
-    .find();
+  const { getItems } = useDirectus();
+  const { data: interro } = await getItems("devoirs", {
+    filter: {
+      _and: [
+        { type: { _eq: "interro" } },
+        { date: { _gte: "2025-09-01" } }
+      ]
+    }
+  });
 
   InterroItems.value = sortChapters(interro).reverse();
-  const DS = await queryContent("/devoirs").where({ type: "DS" }).find();
-  console.log(DS);
+  const { data: DS } = await getItems("devoirs", {
+    filter: { type: { _eq: "DS" } }
+  });
+  // console.log(DS);
   DSItems.value = sortChapters(DS).reverse();
 });
 

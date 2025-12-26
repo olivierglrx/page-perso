@@ -182,6 +182,7 @@ export default {
 </script>
 
 <style scoped>
+@import "tailwindcss";
 .router-link-active {
   @apply border-b-2 border-blue-500 pb-1;
 }

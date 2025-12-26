@@ -1,46 +1,65 @@
 <template>
   <Titleheader title="Colles" />
-  <!-- <pre>{{seminarItems}}</pre> -->
 
-  <div class="flex h-screen mx-10">
-    <ul class="">
-      <li v-for="item in seminarItems" class="">
-        <div
-          v-if="
-            item.publishing_date && new Date(item.publishing_date) <= new Date()
-          "
-          class="dark:bg-gray-700 m-3 shadow p-3 gap-2 items-center hover:shadow-lg transition delay-150 duration-300 ease-in-out hover:scale-105 transform"
-        >
-          <Icon name="mdi:file-document" color="black dark:white" /><nuxt-link
-            :to="
-              item.sujet.includes('public') ? item.sujet.slice(8) : item.sujet
-            "
-            external
-            class="text-blue-600 font-semibold"
-            >{{ item.titre }}
-          </nuxt-link>
-
-          {{ item.date.split("-")[2] + "/" + item.date.split("-")[1] }}
-          <div>
-            <span v-for="key in item.keywords.split(';')">
-              {{ key + ", " }}</span
-            >
-          </div>
+  <div class="p-4 space-y-8 max-w-6xl mx-auto">
+    <UTable :data="seminarItems" :columns="columns" v-model:sorting="sorting" class="w-full">
+      <template #date-cell="{ row }">
+        {{ new Date(row.original.date).toLocaleDateString() }}
+      </template>
+      <template #sujet-cell="{ row }">
+        <UButton v-if="row.original.sujet" :to="getPublicLink(row.original.sujet)" target="_blank"
+          icon="i-heroicons-document-text" variant="ghost" color="gray" aria-label="Sujet" />
+      </template>
+      <template #keywords-cell="{ row }">
+        <div class="flex flex-wrap gap-1">
+          <UBadge v-for="key in row.original.keywords?.split(';').filter(k => k.trim())" :key="key" color="gray"
+            variant="soft" size="lg">
+            {{ key.trim() }}
+          </UBadge>
         </div>
-      </li>
-    </ul>
+      </template>
+    </UTable>
   </div>
 </template>
-<script setup>
-const seminarItems = ref([]);
-onMounted(async () => {
-  // Fetch seminar items from content folder using Nuxt Content
-  // const { data }  = await useAsyncData('seminar', () => queryContent('/events').find())
-  const seminars = await queryContent("/colles").sort({ date: 1 }).find();
 
-  seminarItems.value = seminars.reverse();
-  console.log(seminarItems);
-  // You can also fetch other items if you add content for them in the future
+<script setup>
+const sorting = ref([{ id: 'date', desc: true }]);
+const seminarItems = ref([]);
+
+const columns = [
+  { accessorKey: 'titre', header: 'Titre', enableSorting: true },
+  { accessorKey: 'date', header: 'Date', enableSorting: true },
+  { accessorKey: 'sujet', header: 'Sujet' },
+  { accessorKey: 'keywords', header: 'Mots-clés' }
+]
+
+const { getItems } = useDirectus();
+
+onMounted(async () => {
+  const { data: seminars } = await getItems("colles", {
+    sort: "date",
+    filter: { published: { _eq: true } } // Assuming we should filter by published based on original visual check logic, usually safer to filter in query
+  });
+
+  // Note: Original code did client side reverse(). 
+  // Directus sort "date" is ascending, "-date" is descending.
+  // Original query had sort "date" then client reverse => descending order.
+  // We can just set sort "-date" in query or keep client logic.
+  // Let's use clean Directus sort if possible, or matches original.
+
+  if (seminars) {
+    // Client-side filtering for published date to match original vue logic: 
+    // v-if="item.publishing_date && new Date(item.publishing_date) <= new Date()"
+    // We should replicate this filtering.
+
+    seminarItems.value = seminars.filter(item => {
+      if (!item.publishing_date) return false;
+      return new Date(item.publishing_date) <= new Date();
+    }).reverse(); // Original reversed it.
+  }
 });
-const time = new Date();
+
+function getPublicLink(link) {
+  return link && link.includes('public') ? link.slice(8) : link;
+}
 </script>

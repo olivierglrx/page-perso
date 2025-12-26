@@ -1,17 +1,19 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  routeRules: {
-    "/admin": {
-      // Temporary redirect using a 307 status code
-      redirect: "https://app.pagescms.org/olivierglrx/page-perso/master/collection/chapitres",
-    },
+  compatibilityDate: '2024-11-01',
+  future: {
+    compatibilityVersion: 4,
   },
+  runtimeConfig: {
+    public: {
+      directusUrl: process.env.DIRECTUS_URL || 'https://directus.olivierglorieux.fr'
+    }
+  },
+  css: ['~/assets/css/main.css'],
   devtools: { enabled: true },
   modules: [
     "@nuxt/ui",
-    "@pinia/nuxt",
-    '@nuxt/content',
-    '@nuxthq/studio'
+    "@pinia/nuxt"
   ],
   app: {
     head: {
