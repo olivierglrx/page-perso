@@ -91,10 +91,12 @@ onMounted(async () => {
   const interro = await queryContent("/devoirs")
     .where({ type: "interro", date: { $gte: "2025-09-01" } })
     .find();
-  console.log("interro", interro);
 
   InterroItems.value = sortChapters(interro).reverse();
-  const DS = await queryContent("/devoirs").where({ type: "DS" }).find();
+  const DS = await queryContent("/devoirs")
+    .where({ type: "DS" })
+    .where({ published: true })
+    .find();
   console.log(DS);
   DSItems.value = sortChapters(DS).reverse();
 });

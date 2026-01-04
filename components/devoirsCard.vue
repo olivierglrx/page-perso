@@ -22,7 +22,7 @@
           </nuxt-link>
         </div>
 
-        <p v-if="!notes || Date.parse(dateNote) > today">Notes à venir</p>
+        <p v-if="!notes || Date.parse(dateNote) > today"></p>
         <div v-else>
           <div>
             <Icon name="mdi:file-document" color="black dark:white" /><nuxt-link
