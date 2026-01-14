@@ -1,9 +1,7 @@
 ---
-published: False
-date:
+published: false
 name: Chapitre 12 - Continuité
-cours: CH12/cours.pdf
-TD: CH12/td12.pdf
-TDcor: CH12/cortd12.pdf
-image: CH12/meme.png
+image: /public/CH12/meme.png
+cours: /public/continuite.pdf
+TD: /public/TD continuite 25.pdf
 ---
