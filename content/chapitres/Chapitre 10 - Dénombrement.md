@@ -1,9 +1,9 @@
 ---
-published: False
-date:
-name: Chapitre 10 - Dénombrement
-cours: CH10/cours.pdf
-TD: CH10/TD.pdf
-TDcor: CH10/TD-cor.pdf
-image: CH10/meme10.jpg
+published: true
+name: Chapitre 11 - Dénombrement
+cours: /public/denombrement.pdf
+TD: /public/td denombrement 25.pdf
+TDcor: /public/cor td denombrement.pdf
+Autre: /public/exemple denombrement.pdf
+AutreLabel: exemples
 ---
