@@ -3,15 +3,6 @@
   <section id="cours">
     <Titleheader title="Cours" />
 
-    <div class="flex justify-center">
-      <Icon name="mdi:file-document" color="black dark:white" /><nuxt-link
-        to="cor dm vacances.pdf"
-        external
-        class="text-blue-600 font-semibold"
-        >Correction Cahier de vacances (toutes les corrections)
-      </nuxt-link>
-    </div>
-
     <div class="md:w-9/12 mx-auto">
       <UCarousel
         v-slot="{ item, index }"
