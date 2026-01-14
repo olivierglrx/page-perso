@@ -1,6 +1,7 @@
 ---
 published: true
 name: Chapitre 11 - Dénombrement
+image: /public/denombrement.jpg
 cours: /public/denombrement.pdf
 TD: /public/td denombrement 25.pdf
 TDcor: /public/cor td denombrement.pdf
