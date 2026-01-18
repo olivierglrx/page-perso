@@ -1,7 +1,8 @@
 ---
-date: 2025-01-20 
-titre : Semaine 15 
-sujet: ../Colles/Semaine15.pdf
-keywords: matrices;continuite
-published: false
+published: true
+publishing_date: 2026-01-17
+date: 2026-01-21
+keywords: matrices;continuite;dénombrement
+titre: Semaine 15
+sujet: /public/Semaine 15 25.pdf
 ---
