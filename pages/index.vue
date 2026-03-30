@@ -79,7 +79,6 @@ onMounted(async () => {
   // const { data }  = await useAsyncData('seminar', () => queryContent('/events').find())
   const chapitres = await queryContent("/chapitres")
     .where({ published: true })
-    .sort("name")
     .find();
   console.log("chapitres", chapitres);
   chapitresItems.value = sortChapters(chapitres).reverse();
@@ -92,7 +91,7 @@ function sortChapters(arr) {
     // Extract the number from the 'name' field, allowing for decimals
     const numA = parseFloat(a.name.replace(/[^\d.]+/g, ""));
     const numB = parseFloat(b.name.replace(/[^\d.]+/g, ""));
-
+    console.log("numA", numA, "numB", numB, numA - numB);
     return numA - numB;
   });
 }
