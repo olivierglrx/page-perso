@@ -4,8 +4,8 @@
     <div class="md:w-9/12 mx-auto text-center">
       <p>Bon courage aux 2eme année !</p>
 
-      <a href="/aymen.jpg" target="_blank">
-        <img class="mx-auto" width="300" src="public/aymen.jpg" alt="Aymen" />
+      <a href="/depart.jpg" target="_blank">
+        <img class="mx-auto" width="300" src="public/depart.jpg" alt="Aymen" />
       </a>
     </div>
 
