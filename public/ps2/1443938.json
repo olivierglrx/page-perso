@@ -1,0 +1,381 @@
+{
+  "DonneesCandidats": {
+    "NumeroDossierCandidat": 1443938,
+    "NomCandidat": "LY",
+    "PrenomCandidat": "Alyssia",
+    "DateNaissance": "09/12/2006"
+  },
+  "Scolarite": [
+    {
+      "AnneeScolaireLibelle": "2025-2026",
+      "ScolariteFrancaiseLibelle": "Scolarité française",
+      "NiveauEtudeLibelle": "2nd année d'études supérieures",
+      "TypeFormationLibelle": "Licence",
+      "FormationScolariteLibelle": "Licence - Sciences - technologies - santé",
+      "FiliereScolariteCode": 2043,
+      "TypeEtablissementorigineLibelle": "Université",
+      "NomEtablissementOrigine": "Université Paris- Est-Créteil Val de Marne - UPEC (Paris 12)",
+      "CommuneEtablissementOrigineLibelle": "Créteil",
+      "PaysEtablissementorigineLibelle": "France"
+    },
+    {
+      "ScolariteFrancaiseLibelle": "Scolarité française",
+      "FiliereScolariteCode": 2043
+    }
+  ],
+  "BulletinsScolaires": [
+    {
+      "AnneeLibelle": "2023-2024",
+      "BulletinsScolairesAnnee": {
+        "SerieLibelle": "Série Générale",
+        "BulletinsScolairesSeries": [
+          {
+            "TrimestreLibelle": "Second trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "11,50",
+                "MoyenneclasseCandidat": "11,29",
+                "MoyenneBasseClasseduCandidat": "5,83",
+                "MoyenneHauteClasseduCandidat": "16,08",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Alyssia est une élève sérieuse qui a fourni un travail régulier. Une bonne participation. Un bon trimestre."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "15,00",
+                "MoyenneclasseCandidat": "12,65",
+                "MoyenneBasseClasseduCandidat": "9,00",
+                "MoyenneHauteClasseduCandidat": "17,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un très bon trimestre! Alyssia est une élève sérieuse, les écrits ont gagné en rigueur et se sont davantage structurés. L' analyse est également plus approfondie."
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "15,43",
+                "MoyenneclasseCandidat": "14,87",
+                "MoyenneBasseClasseduCandidat": "9,44",
+                "MoyenneHauteClasseduCandidat": "18,25",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble satisfaisant. Alyssia est maintenant très active en classe et le niveau plus que satisfaisant."
+              },
+              {
+                "MatiereBulletinLibelle": "Philosophie",
+                "MoyenneduCandidat": "14,50",
+                "MoyenneclasseCandidat": "14,98",
+                "MoyenneBasseClasseduCandidat": "11,83",
+                "MoyenneHauteClasseduCandidat": "17,83",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Elève sérieuse, attentive et appliquée. Ensemble satisfaisant."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                "MoyenneduCandidat": "10,94",
+                "MoyenneclasseCandidat": "12,18",
+                "MoyenneBasseClasseduCandidat": "6,81",
+                "MoyenneHauteClasseduCandidat": "17,33",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble moyen.\nTu peux mieux faire."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Premier trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "13,75",
+                "MoyenneclasseCandidat": "14,14",
+                "MoyenneBasseClasseduCandidat": "9,00",
+                "MoyenneHauteClasseduCandidat": "17,69",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Alyssia est une élève sérieuse  qui a fourni un travail régulier. Il faut améliorer votre participation pendant les cours. Un trimestre convenable.\n"
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "13,06",
+                "MoyenneclasseCandidat": "12,52",
+                "MoyenneBasseClasseduCandidat": "10,08",
+                "MoyenneHauteClasseduCandidat": "15,98",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un ensemble satisfaisant. Alyssia est une élève très sérieuse qui a le souci de bien faire. Elle possède de bonnes connaissances notionnelles, mais elle peut encore approfondir son raisonnement à l'écrit."
+              },
+              {
+                "MatiereBulletinLibelle": "Philosophie",
+                "MoyenneduCandidat": "14,00",
+                "MoyenneclasseCandidat": "16,00",
+                "MoyenneBasseClasseduCandidat": "12,67",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Il faut poursuivre les efforts (en méthodologie notamment) pour améliorer les travaux écrits et il faut continuer à s'investir dans le travail en classe."
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "18,97",
+                "MoyenneclasseCandidat": "15,72",
+                "MoyenneBasseClasseduCandidat": "10,74",
+                "MoyenneHauteClasseduCandidat": "18,97",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Quel plaisir d'avoir une élève comme Alyssia ! Les résultats sont excellents tant à l'oral qu'à l'écrit."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                "MoyenneduCandidat": "13,90",
+                "MoyenneclasseCandidat": "13,13",
+                "MoyenneBasseClasseduCandidat": "10,40",
+                "MoyenneHauteClasseduCandidat": "18,56",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Bon travail dans l'ensemble, continue ainsi."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Troisième trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Philosophie",
+                "MoyenneduCandidat": "15,00",
+                "MoyenneclasseCandidat": "10,53",
+                "MoyenneBasseClasseduCandidat": "7,00",
+                "MoyenneHauteClasseduCandidat": "15,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un ensemble un peu juste, mais une bonne connaissance des notions de cours et la capacité de les mobiliser correctement : attention cependant à rester au plus près du sujet."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "10,67",
+                "MoyenneclasseCandidat": "10,62",
+                "MoyenneBasseClasseduCandidat": "6,00",
+                "MoyenneHauteClasseduCandidat": "14,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un ensemble juste correct ce trimestre mais en dessous des capacités d'Alyssia. Le raisonnement est resté trop superficiel ce trimestre. Toutefois, Alyssia est sérieuse et a continué de s'impliquer pendant les cours."
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "18,58",
+                "MoyenneclasseCandidat": "15,73",
+                "MoyenneBasseClasseduCandidat": "11,04",
+                "MoyenneHauteClasseduCandidat": "19,17",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Alyssia finit l'année en beauté. Sa rigueur et sa volonté de s'améliorer ont porté ses fruits. Un grand bravo, vous pouvez être fière de vous."
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "11,42",
+                "MoyenneclasseCandidat": "10,29",
+                "MoyenneBasseClasseduCandidat": "5,00",
+                "MoyenneHauteClasseduCandidat": "16,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Une belle motivation en sciences physiques doublée d'un travail régulier sur l'ensemble de l'année. Une bonne participation. Un trimestre convenable."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                "MoyenneduCandidat": "11,00",
+                "MoyenneclasseCandidat": "11,40",
+                "MoyenneBasseClasseduCandidat": "7,72",
+                "MoyenneHauteClasseduCandidat": "16,67",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble moyen, peut mieux faire."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "AnneeLibelle": "2022-2023",
+      "BulletinsScolairesAnnee": {
+        "SerieLibelle": "Série Générale",
+        "BulletinsScolairesSeries": [
+          {
+            "TrimestreLibelle": "Troisième trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "10,17",
+                "MoyenneclasseCandidat": "13,00",
+                "MoyenneBasseClasseduCandidat": "5,83",
+                "MoyenneHauteClasseduCandidat": "18,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Alyssia est une élève sérieuse qui a fourni un travail régulier. Les résultats d'Alyssia  révèlent un ensemble fragile qui devrait s'améliorer par travail personnel plus approfondi."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "13,44",
+                "MoyenneclasseCandidat": "12,62",
+                "MoyenneBasseClasseduCandidat": "8,81",
+                "MoyenneHauteClasseduCandidat": "15,25",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un ensemble satisfaisant avec de beaux progrès ce trimestre! Les écrits deviennent de plus en plus rigoureux et approfondis!"
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "18,28",
+                "MoyenneclasseCandidat": "16,26",
+                "MoyenneBasseClasseduCandidat": "11,18",
+                "MoyenneHauteClasseduCandidat": "19,48",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Quelle progression ! Alyssia nous montre qu'elle est capable de s'investir tant à l'écrit qu'à l'oral. Continuez ainsi."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "9,50",
+                "MoyenneclasseCandidat": "13,26",
+                "MoyenneBasseClasseduCandidat": "5,00",
+                "MoyenneHauteClasseduCandidat": "19,25",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Résultats en progrès. Ensemble moyen."
+              },
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "13,50",
+                "MoyenneclasseCandidat": "13,82",
+                "MoyenneBasseClasseduCandidat": "10,50",
+                "MoyenneHauteClasseduCandidat": "18,25",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Bon trimestre ! Une petite progression est visible sur le plan de la méthodologie du commentaire et de la dissertation, mais c'est surtout dans les travaux de rédaction qu'Alyssia a su se démarquer. Elle reste néanmoins une élève assez discrète en classe, ce qui est bien dommage car elle est emplie d'une forte volonté de progresser et de bien faire, comme j'ai pu le voir à travers nos échanges."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Premier trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "11,45",
+                "MoyenneclasseCandidat": "15,24",
+                "MoyenneBasseClasseduCandidat": "10,12",
+                "MoyenneHauteClasseduCandidat": "18,73",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble correct. Les rédactions sont vraiment bonnes mais Alyssia ne participe pas en classe. C'est vraiment dommage."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "6,75",
+                "MoyenneclasseCandidat": "11,07",
+                "MoyenneBasseClasseduCandidat": "4,25",
+                "MoyenneHauteClasseduCandidat": "19,75",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble insuffisant."
+              },
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "12,17",
+                "MoyenneclasseCandidat": "13,42",
+                "MoyenneBasseClasseduCandidat": "11,25",
+                "MoyenneHauteClasseduCandidat": "17,83",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Élève très discrète, mais bonne participation lors des travaux en classe. Certains réflexes restent à acquérir à l'écrit (accents et accords). Sur le plan de la méthodologie, l'interprétation des textes est à revoir. Manifeste-toi davantage !"
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "12,21",
+                "MoyenneclasseCandidat": "14,90",
+                "MoyenneBasseClasseduCandidat": "10,07",
+                "MoyenneHauteClasseduCandidat": "17,86",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Alyssia est une élève sérieuse qui a fourni un travail régulier. Il faut travailler avec plus de rigueur les exercices. J'attends beaucoup mieux au second trimestre."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "8,25",
+                "MoyenneclasseCandidat": "11,39",
+                "MoyenneBasseClasseduCandidat": "8,25",
+                "MoyenneHauteClasseduCandidat": "16,50",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un ensemble insuffisant dû à des difficultés de compréhension et d'analyse. Cependant Alyssia est un élève sérieuse qui devrait progresser au second trimestre."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Second trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "12,33",
+                "MoyenneclasseCandidat": "13,06",
+                "MoyenneBasseClasseduCandidat": "9,33",
+                "MoyenneHauteClasseduCandidat": "17,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Très discrète encore en classe, mais s'investit toujours dans les travaux. L'écrit reste encore à travailler, autant sur le plan orthographique et syntaxique que sur la forme du devoir, car cela rend la lecture et la compréhension de ton travail difficile. Malgré tout, je perçois une petite amélioration à chaque fois sur l'analyse des procédés. Poursuis tes efforts !"
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "17,43",
+                "MoyenneclasseCandidat": "16,41",
+                "MoyenneBasseClasseduCandidat": "13,06",
+                "MoyenneHauteClasseduCandidat": "19,08",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Belle progression ce trimestre. Alyssia a participé régulièrement ce trimestre !"
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "11,82",
+                "MoyenneclasseCandidat": "13,49",
+                "MoyenneBasseClasseduCandidat": "10,82",
+                "MoyenneHauteClasseduCandidat": "16,40",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un ensemble correct et en progrès. Alyssia a fait des efforts. L'écrit doit encore gagner en rigueur et en approfondissement."
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "10,86",
+                "MoyenneclasseCandidat": "12,93",
+                "MoyenneBasseClasseduCandidat": "5,86",
+                "MoyenneHauteClasseduCandidat": "17,86",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Des difficultés de compréhension sur des notions difficiles ont fait chuter les notes d'Alysia. Alysia doit développer son esprit d'analyse et s'impliquer davantage pendant les cours."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "6,25",
+                "MoyenneclasseCandidat": "12,55",
+                "MoyenneBasseClasseduCandidat": "3,75",
+                "MoyenneHauteClasseduCandidat": "19,50",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble insuffisant."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "FicheAvenir": {},
+  "AppreciationsEnseignantsFicheAvenir": [],
+  "Baccalaureat": {
+    "EDSScolaritePremiere1LibelleBCN": "MATHEMATIQUES",
+    "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE",
+    "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+    "EDSScolariteTerminale1Libelle": "Physique-Chimie Spécialité",
+    "EDSScolariteTerminale2Libelle": "Sciences de la vie et de la Terre Spécialité",
+    "EDSScolaritePremiere1Libelle": "Mathématiques Spécialité",
+    "EDSScolaritePremiere2Libelle": "Physique-Chimie Spécialité",
+    "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+  },
+  "NotesBaccalaureat": [
+    {
+      "EpreuveLibelle": "Physique-Chimie",
+      "NoteEpreuve": "15,0"
+    },
+    {
+      "EpreuveLibelle": "Sciences de la Vie et de la Terre",
+      "NoteEpreuve": "17,0"
+    },
+    {
+      "EpreuveLibelle": "Français écrit",
+      "NoteEpreuve": "9,0"
+    },
+    {
+      "EpreuveLibelle": "Français oral",
+      "NoteEpreuve": "15,0"
+    },
+    {
+      "EpreuveLibelle": "Mathématiques (EDS suivi uniquement en Première)",
+      "NoteEpreuve": "7,5"
+    }
+  ],
+  "DonneesVoeux": {
+    "LettreDeMotivation": "Actuellement en deuxième année de Licence Sciences pour la Santé (LSPS 2) à Créteil, je souhaite intégrer la Classe Préparatoire BCPST au Lycée Chaptal afin de renforcer mes connaissances scientifiques et acquérir une méthodologie solide pour poursuivre des études dans les domaines de la biologie, de la santé et de l'environnement. Mon parcours universitaire m'a permis d'acquérir des bases en biologie, chimie et physique, ainsi qu'une rigueur et une capacité de travail indispensables pour réussir dans un cursus exigeant comme la CPGE.<br /> <br /> Je suis particulièrement motivé par le développement d'une pensée analytique et scientifique approfondie, et par la confrontation à des exercices stimulants qui permettent de consolider les acquis tout en préparant des concours sélectifs pour les écoles vétérinaires, agroalimentaires ou de biologie. La richesse et la diversité des enseignements de la BCPST correspondent parfaitement à mon projet professionnel, en alliant sciences fondamentales et applications biologiques.<br /> <br /> Intégrer votre formation représente pour moi une étape décisive pour construire un parcours cohérent, exigeant et ambitieux, et pour me préparer efficacement aux concours qui ouvriront les portes de métiers scientifiques dans la recherche, la santé et l'agronomie."
+  }
+}

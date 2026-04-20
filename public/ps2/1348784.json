@@ -1,0 +1,320 @@
+{
+  "DonneesCandidats": {
+    "NumeroDossierCandidat": 1348784,
+    "NomCandidat": "LUTZ",
+    "PrenomCandidat": "Valentine",
+    "DateNaissance": "12/04/2007"
+  },
+  "Scolarite": [
+    {
+      "AnneeScolaireLibelle": "2025-2026",
+      "ScolariteFrancaiseLibelle": "Scolarité française",
+      "NiveauEtudeLibelle": "1ère année d'études supérieures",
+      "TypeFormationLibelle": "Licence",
+      "FormationScolariteLibelle": "Licence - Sciences - technologies - santé",
+      "FiliereScolariteCode": 2037,
+      "TypeEtablissementorigineLibelle": "Université",
+      "NomEtablissementOrigine": "Sorbonne université",
+      "CommuneEtablissementOrigineLibelle": "Paris  6e  Arrondissement",
+      "PaysEtablissementorigineLibelle": "France"
+    },
+    {
+      "ScolariteFrancaiseLibelle": "Scolarité française"
+    }
+  ],
+  "BulletinsScolaires": [
+    {
+      "AnneeLibelle": "2024-2025",
+      "BulletinsScolairesAnnee": {
+        "SerieLibelle": "Série Générale",
+        "BulletinsScolairesSeries": [
+          {
+            "TrimestreLibelle": "Premier trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Philosophie",
+                "MoyenneduCandidat": "10,50",
+                "MoyenneclasseCandidat": "12,83",
+                "MoyenneBasseClasseduCandidat": "8,00",
+                "MoyenneHauteClasseduCandidat": "19,50",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Le bilan est un peu juste. Il faut participer et travailler la rigueur à l'écrit."
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "5,70",
+                "MoyenneclasseCandidat": "14,10",
+                "MoyenneBasseClasseduCandidat": "5,70",
+                "MoyenneHauteClasseduCandidat": "19,70",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "De grosses difficultés et trop de bavardages pour pouvoir progresser."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                "MoyenneduCandidat": "17,91",
+                "MoyenneclasseCandidat": "16,10",
+                "MoyenneBasseClasseduCandidat": "6,74",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Excellent trimestre."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "13,30",
+                "MoyenneclasseCandidat": "13,95",
+                "MoyenneBasseClasseduCandidat": "10,50",
+                "MoyenneHauteClasseduCandidat": "19,30",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Des efforts à maintenir, Valentine semble avoir trouvé un rythme et une organisation.plus efficaces."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Second trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Philosophie",
+                "MoyenneduCandidat": "11,50",
+                "MoyenneclasseCandidat": "13,41",
+                "MoyenneBasseClasseduCandidat": "9,00",
+                "MoyenneHauteClasseduCandidat": "17,67",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Des résultats corrects même si les écrits restent perfectibles. Il faudra travailler la rigueur et la précision."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                "MoyenneduCandidat": "15,71",
+                "MoyenneclasseCandidat": "15,83",
+                "MoyenneBasseClasseduCandidat": "9,82",
+                "MoyenneHauteClasseduCandidat": "19,81",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Bon trimestre, travail sérieux."
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "8,70",
+                "MoyenneclasseCandidat": "14,60",
+                "MoyenneBasseClasseduCandidat": "7,70",
+                "MoyenneHauteClasseduCandidat": "19,30",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Des progrès mais l'ensemble reste trop juste."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "13,30",
+                "MoyenneclasseCandidat": "13,11",
+                "MoyenneBasseClasseduCandidat": "10,70",
+                "MoyenneHauteClasseduCandidat": "18,50",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Résultats assez satisfaisants, continuer à travailler la rigueur du raisonnement."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Troisième trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "4,00",
+                "MoyenneclasseCandidat": "13,90",
+                "MoyenneBasseClasseduCandidat": "4,00",
+                "MoyenneHauteClasseduCandidat": "19,50",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Résultats catastrophiques. Il aurait fallu travailler et moins bavarder."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "13,00",
+                "MoyenneclasseCandidat": "13,08",
+                "MoyenneBasseClasseduCandidat": "8,00",
+                "MoyenneHauteClasseduCandidat": "18,50",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Travail sérieux , des efforts soutenus , il faudra continuer à travailler la rigueur du raisonnement."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                "MoyenneduCandidat": "10,88",
+                "MoyenneclasseCandidat": "13,87",
+                "MoyenneBasseClasseduCandidat": "8,11",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble fragile en forte baisse."
+              },
+              {
+                "MatiereBulletinLibelle": "Philosophie",
+                "MoyenneduCandidat": "11,00",
+                "MoyenneclasseCandidat": "13,39",
+                "MoyenneBasseClasseduCandidat": "8,00",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Légère baisse des résultats (et de la concentration)."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "AnneeLibelle": "2023-2024",
+      "BulletinsScolairesAnnee": {
+        "SerieLibelle": "Série Générale",
+        "BulletinsScolairesSeries": [
+          {
+            "TrimestreLibelle": "Troisième trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "12,18",
+                "MoyenneclasseCandidat": "14,48",
+                "MoyenneBasseClasseduCandidat": "10,44",
+                "MoyenneHauteClasseduCandidat": "19,16",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble juste correct."
+              },
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "9,00",
+                "MoyenneclasseCandidat": "14,00",
+                "MoyenneBasseClasseduCandidat": "8,00",
+                "MoyenneHauteClasseduCandidat": "19,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Des résultats insuffisants par manque d'intérêt pour la matière"
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "13,00",
+                "MoyenneclasseCandidat": "15,01",
+                "MoyenneBasseClasseduCandidat": "12,67",
+                "MoyenneHauteClasseduCandidat": "19,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble satisfaisant. Elève sérieuse."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "13,00",
+                "MoyenneclasseCandidat": "15,00",
+                "MoyenneBasseClasseduCandidat": "3,90",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "De beaux progrès, mais certains écrits restent confus."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Premier trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "15,67",
+                "MoyenneclasseCandidat": "16,79",
+                "MoyenneBasseClasseduCandidat": "15,00",
+                "MoyenneHauteClasseduCandidat": "18,83",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un bon trimestre. davantage de participation à l'oral est attendue."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "9,20",
+                "MoyenneclasseCandidat": "12,70",
+                "MoyenneBasseClasseduCandidat": "6,50",
+                "MoyenneHauteClasseduCandidat": "19,50",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un travail quelquefois irrégulier , c'est dommage. Ensemble un peu juste."
+              },
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "10,00",
+                "MoyenneclasseCandidat": "13,50",
+                "MoyenneBasseClasseduCandidat": "9,00",
+                "MoyenneHauteClasseduCandidat": "17,50",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un ensemble trop juste. Le travail doit être plus approfondi et Valentine doit s'investir en classe."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "10,25",
+                "MoyenneclasseCandidat": "12,93",
+                "MoyenneBasseClasseduCandidat": "8,72",
+                "MoyenneHauteClasseduCandidat": "18,14",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble terne. Valentine doit se concentrer et s'investir davantage en classe."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Second trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "5,80",
+                "MoyenneclasseCandidat": "13,10",
+                "MoyenneBasseClasseduCandidat": "5,80",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Beaucoup de difficultés ce trimestre , Valentine semble parfois avoir baissé les bras !"
+              },
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "9,50",
+                "MoyenneclasseCandidat": "13,00",
+                "MoyenneBasseClasseduCandidat": "7,00",
+                "MoyenneHauteClasseduCandidat": "16,50",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un ensemble trop juste, il faut absolument trouver des formes de motivation pour se mettre au travail !"
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "13,67",
+                "MoyenneclasseCandidat": "16,41",
+                "MoyenneBasseClasseduCandidat": "12,33",
+                "MoyenneHauteClasseduCandidat": "19,67",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un trimestre correct. La participation spontanée serait un atout."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "10,79",
+                "MoyenneclasseCandidat": "13,97",
+                "MoyenneBasseClasseduCandidat": "9,77",
+                "MoyenneHauteClasseduCandidat": "18,18",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble juste correct . Il faut approfondir le travail personnel."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "FicheAvenir": {},
+  "AppreciationsEnseignantsFicheAvenir": [],
+  "Baccalaureat": {
+    "EDSScolaritePremiere1LibelleBCN": "SCIENCES ECONOMIQUES ET SOCIALES",
+    "EDSScolaritePremiere2LibelleBCN": "MATHEMATIQUES",
+    "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+    "EDSScolariteTerminale1Libelle": "Sciences Economiques et Sociales Spécialité",
+    "EDSScolariteTerminale2Libelle": "Sciences de la vie et de la Terre Spécialité",
+    "EDSScolaritePremiere1Libelle": "Sciences Economiques et Sociales Spécialité",
+    "EDSScolaritePremiere2Libelle": "Mathématiques Spécialité",
+    "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+  },
+  "NotesBaccalaureat": [
+    {
+      "EpreuveLibelle": "Sciences de la Vie et de la Terre",
+      "NoteEpreuve": "9,0"
+    },
+    {
+      "EpreuveLibelle": "Français écrit",
+      "NoteEpreuve": "9,0"
+    },
+    {
+      "EpreuveLibelle": "Français oral",
+      "NoteEpreuve": "15,0"
+    },
+    {
+      "EpreuveLibelle": "Mathématiques (EDS suivi uniquement en Première)",
+      "NoteEpreuve": "9,4"
+    }
+  ],
+  "DonneesVoeux": {}
+}

@@ -1,0 +1,378 @@
+{
+  "DonneesCandidats": {
+    "NumeroDossierCandidat": 1308385,
+    "NomCandidat": "HUBERT",
+    "PrenomCandidat": "Sélène",
+    "DateNaissance": "06/11/2007"
+  },
+  "Scolarite": [
+    {
+      "AnneeScolaireLibelle": "2025-2026",
+      "ScolariteFrancaiseLibelle": "Scolarité française",
+      "NiveauEtudeLibelle": "1ère année d'études supérieures",
+      "TypeFormationLibelle": "Diplômes d'université ou d'établissement",
+      "TypeEtablissementorigineLibelle": "Université",
+      "NomEtablissementOrigine": "Ecole des Mines de Saint-Etienne",
+      "CommuneEtablissementOrigineLibelle": "Saint-Etienne",
+      "PaysEtablissementorigineLibelle": "France"
+    },
+    {
+      "ScolariteFrancaiseLibelle": "Scolarité française"
+    }
+  ],
+  "BulletinsScolaires": [
+    {
+      "AnneeLibelle": "2024-2025",
+      "BulletinsScolairesAnnee": {
+        "SerieLibelle": "Série Générale",
+        "BulletinsScolairesSeries": [
+          {
+            "TrimestreLibelle": "Premier trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "13,17",
+                "MoyenneclasseCandidat": "14,89",
+                "MoyenneBasseClasseduCandidat": "9,33",
+                "MoyenneHauteClasseduCandidat": "19,33",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Attitude très positive . C'est bien. Continuez ainsi."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "16,32",
+                "MoyenneclasseCandidat": "14,90",
+                "MoyenneBasseClasseduCandidat": "8,93",
+                "MoyenneHauteClasseduCandidat": "19,48",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Très bon trimestre !"
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "17,14",
+                "MoyenneclasseCandidat": "16,20",
+                "MoyenneBasseClasseduCandidat": "10,29",
+                "MoyenneHauteClasseduCandidat": "19,71",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Très bon trimestre. Elève sérieuse et participative. Il faut continuer ainsi."
+              },
+              {
+                "MatiereBulletinLibelle": "Philosophie",
+                "MoyenneduCandidat": "17,75",
+                "MoyenneclasseCandidat": "14,11",
+                "MoyenneBasseClasseduCandidat": "9,88",
+                "MoyenneHauteClasseduCandidat": "18,50",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Excellent trimestre. Sélène travaille avec sérieux et grande efficacité. Le cours est maîtrisé et les analyses des sujets sont pertinentes."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Expertes",
+                "MoyenneduCandidat": "14,47",
+                "MoyenneclasseCandidat": "13,74",
+                "MoyenneBasseClasseduCandidat": "10,86",
+                "MoyenneHauteClasseduCandidat": "18,93",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Résultats satisfaisants. Sélène fournit un travail sérieux. Il faut poursuivre les efforts entrepris, c'est bien."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Second trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Mathématiques Expertes",
+                "MoyenneduCandidat": "12,75",
+                "MoyenneclasseCandidat": "13,90",
+                "MoyenneBasseClasseduCandidat": "9,75",
+                "MoyenneHauteClasseduCandidat": "18,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble fragile, en baisse. Sélène fait preuve de sérieux dans son travail. Elle doit gagner en confiance et demander de l'aide pour dépasser ses difficultés."
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "14,36",
+                "MoyenneclasseCandidat": "14,97",
+                "MoyenneBasseClasseduCandidat": "10,14",
+                "MoyenneHauteClasseduCandidat": "17,86",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Bon trimestre dans l'ensemble. Sélène fournit un travail sérieux. Il faut continuer ainsi."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "11,97",
+                "MoyenneclasseCandidat": "15,26",
+                "MoyenneBasseClasseduCandidat": "10,79",
+                "MoyenneHauteClasseduCandidat": "19,57",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Des résultats en nette baisse et devenus trop justes dans l'ensemble."
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "14,06",
+                "MoyenneclasseCandidat": "15,26",
+                "MoyenneBasseClasseduCandidat": "11,56",
+                "MoyenneHauteClasseduCandidat": "18,25",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Travail sérieux. Très bon état d'esprit. continuez ainsi."
+              },
+              {
+                "MatiereBulletinLibelle": "Philosophie",
+                "MoyenneduCandidat": "16,20",
+                "MoyenneclasseCandidat": "13,14",
+                "MoyenneBasseClasseduCandidat": "8,20",
+                "MoyenneHauteClasseduCandidat": "17,40",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Sélène confirme son sérieux  ainsi que ses très bonnes capacités d'analyse. Excellent trimestre."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Troisième trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "17,71",
+                "MoyenneclasseCandidat": "16,73",
+                "MoyenneBasseClasseduCandidat": "9,79",
+                "MoyenneHauteClasseduCandidat": "19,43",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Très bon trimestre. Sélène est discrète en classe mais fait preuve d'une très bonne implication dans son travail."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "10,74",
+                "MoyenneclasseCandidat": "14,17",
+                "MoyenneBasseClasseduCandidat": "10,26",
+                "MoyenneHauteClasseduCandidat": "18,41",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Des résultats devenus trop justes."
+              },
+              {
+                "MatiereBulletinLibelle": "Philosophie",
+                "MoyenneduCandidat": "13,50",
+                "MoyenneclasseCandidat": "13,33",
+                "MoyenneBasseClasseduCandidat": "9,00",
+                "MoyenneHauteClasseduCandidat": "19,50",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un bon trimestre grâce à un travail sérieux et de bonnes capacités d'analyse.Sélène est toujours soucieuse de bien faire."
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "12,17",
+                "MoyenneclasseCandidat": "14,60",
+                "MoyenneBasseClasseduCandidat": "10,25",
+                "MoyenneHauteClasseduCandidat": "19,33",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Élève sérieuse qui s'investit. Très bon état d'esprit."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Expertes",
+                "MoyenneduCandidat": "10,20",
+                "MoyenneclasseCandidat": "11,34",
+                "MoyenneBasseClasseduCandidat": "6,70",
+                "MoyenneHauteClasseduCandidat": "18,70",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Sélène fournit un travail sérieux. Elle devra gagner en confiance et participer pour s'assurer de la maîtrise des notions."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "AnneeLibelle": "2023-2024",
+      "BulletinsScolairesAnnee": {
+        "SerieLibelle": "Série Générale",
+        "BulletinsScolairesSeries": [
+          {
+            "TrimestreLibelle": "Premier trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "16,91",
+                "MoyenneclasseCandidat": "14,38",
+                "MoyenneBasseClasseduCandidat": "8,94",
+                "MoyenneHauteClasseduCandidat": "18,31",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Excellent trimestre. Sélène est une élève intéressée, motivée et très sérieuse. Il faut continuer ainsi."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "16,06",
+                "MoyenneclasseCandidat": "15,10",
+                "MoyenneBasseClasseduCandidat": "9,88",
+                "MoyenneHauteClasseduCandidat": "19,56",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Très bon trimestre, Sélène est une élève sérieuse et travailleuse. A poursuivre !"
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "13,83",
+                "MoyenneclasseCandidat": "13,58",
+                "MoyenneBasseClasseduCandidat": "9,11",
+                "MoyenneHauteClasseduCandidat": "18,97",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Sélène est impliquée en classe et dans son travail personnel. Il faut poursuivre avec rigueur les efforts de travail pour progresser encore."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "16,91",
+                "MoyenneclasseCandidat": "14,19",
+                "MoyenneBasseClasseduCandidat": "8,66",
+                "MoyenneHauteClasseduCandidat": "19,44",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Très bon trimestre. Des progrès sont constatés. Le travail est très sérieux. Il faut continuer dans ce sens."
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "15,79",
+                "MoyenneclasseCandidat": "14,88",
+                "MoyenneBasseClasseduCandidat": "12,29",
+                "MoyenneHauteClasseduCandidat": "19,71",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Très bon travail. Je t'encourage à participer encore plus à l'oral en classe."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Troisième trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "17,84",
+                "MoyenneclasseCandidat": "14,97",
+                "MoyenneBasseClasseduCandidat": "8,19",
+                "MoyenneHauteClasseduCandidat": "19,38",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Très bon trimestre ! Sélène a fait preuve d'un très bon investissement toute l'année. Je te félicite !"
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "13,87",
+                "MoyenneclasseCandidat": "13,35",
+                "MoyenneBasseClasseduCandidat": "7,20",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Sélène a été sérieuse tout au long de l'année et a travaillé avec courage et détermination. Poursuivez ainsi !"
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "17,69",
+                "MoyenneclasseCandidat": "14,36",
+                "MoyenneBasseClasseduCandidat": "7,81",
+                "MoyenneHauteClasseduCandidat": "18,78",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "De gros progrès ce trimestre. Très bonne année scolaire dans l'ensemble."
+              },
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "17,45",
+                "MoyenneclasseCandidat": "15,17",
+                "MoyenneBasseClasseduCandidat": "7,00",
+                "MoyenneHauteClasseduCandidat": "18,64",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Excellent trimestre. Une belle progression réalisée durant toute l'année scolaire. Bravo Sélène."
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "17,17",
+                "MoyenneclasseCandidat": "15,16",
+                "MoyenneBasseClasseduCandidat": "11,00",
+                "MoyenneHauteClasseduCandidat": "19,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Dans la continuité des efforts fournis cette année, le travail, l'attitude et la participation orale active sont exemplaires."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Second trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "13,79",
+                "MoyenneclasseCandidat": "13,54",
+                "MoyenneBasseClasseduCandidat": "8,95",
+                "MoyenneHauteClasseduCandidat": "18,95",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un bon trimestre. Poursuivez vos efforts de travail sérieux sans vous décourager !"
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "15,34",
+                "MoyenneclasseCandidat": "13,73",
+                "MoyenneBasseClasseduCandidat": "6,50",
+                "MoyenneHauteClasseduCandidat": "18,47",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Bon trimestre. Le travail fourni est sérieux et régulier. Il faut continuer ainsi."
+              },
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "16,52",
+                "MoyenneclasseCandidat": "14,35",
+                "MoyenneBasseClasseduCandidat": "7,40",
+                "MoyenneHauteClasseduCandidat": "18,55",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Excellent trimestre. Sélène est une élève sérieuse, motivée et volontaire. Elle mérite de réussir."
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "17,61",
+                "MoyenneclasseCandidat": "14,65",
+                "MoyenneBasseClasseduCandidat": "9,56",
+                "MoyenneHauteClasseduCandidat": "18,28",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Très bon travail. Une attitude de classe appropriée. Tu peux participer encore plus activement en classe."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "13,75",
+                "MoyenneclasseCandidat": "14,99",
+                "MoyenneBasseClasseduCandidat": "7,44",
+                "MoyenneHauteClasseduCandidat": "19,50",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Résultats satisfaisants. Sélène est une élève sérieuse et investie. A poursuivre !"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "FicheAvenir": {},
+  "AppreciationsEnseignantsFicheAvenir": [],
+  "Baccalaureat": {
+    "EDSScolaritePremiere1LibelleBCN": "MATHEMATIQUES",
+    "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE",
+    "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+    "EDSScolariteTerminale1Libelle": "Mathématiques Spécialité",
+    "EDSScolariteTerminale2Libelle": "Physique-Chimie Spécialité",
+    "EDSScolaritePremiere1Libelle": "Mathématiques Spécialité",
+    "EDSScolaritePremiere2Libelle": "Physique-Chimie Spécialité",
+    "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+  },
+  "NotesBaccalaureat": [
+    {
+      "EpreuveLibelle": "Mathématiques",
+      "NoteEpreuve": "14,0"
+    },
+    {
+      "EpreuveLibelle": "Physique-Chimie",
+      "NoteEpreuve": "14,0"
+    },
+    {
+      "EpreuveLibelle": "Français écrit",
+      "NoteEpreuve": "17,0"
+    },
+    {
+      "EpreuveLibelle": "Français oral",
+      "NoteEpreuve": "17,0"
+    },
+    {
+      "EpreuveLibelle": "Sciences de la Vie et de la Terre  (EDS suivi uniquement en Première)",
+      "NoteEpreuve": "16,7"
+    }
+  ],
+  "DonneesVoeux": {
+    "LettreDeMotivation": "Actuellement étudiante en Cycle Préparatoire Ingénierie et Santé à l'École des Mines de Saint‑Étienne, où je suis un double parcours associant un enseignement de type PCSI et une licence Sciences pour la Santé, je souhaite intégrer une CPGE BCPST afin de poursuivre une formation scientifique exigeante centrée sur les sciences du vivant. Ce cursus m'a permis d'acquérir rigueur, méthode et capacité à gérer une charge de travail soutenue.<br /> <br /> En terminale, j'ai suivi les spécialités Maths et Physique‑Chimie, l'option Maths expertes, ainsi qu'un cursus franco‑américain Dual Diploma en ingénierie. J'y ai développé autonomie, esprit d'analyse et aisance en anglais. Mes expériences - stage en pharmacie, ateliers scientifiques à CentraleSupélec, engagement à la Croix‑Rouge - ont confirmé mon intérêt pour les biotechnologies et mon projet de devenir ingénieure dans ce domaine.<br /> <br /> Le Lycée Chaptal représente pour moi un cadre idéal : une BCPST reconnue pour son exigence, la qualité de son accompagnement et son environnement de travail structuré. L'esprit d'émulation propre à Chaptal, la dynamique scientifique de l'établissement et la proximité des grands centres universitaires parisiens constituent des atouts majeurs pour progresser et atteindre un haut niveau.<br /> <br /> Motivée, sérieuse et persévérante, je suis prête à m'investir pleinement dans cette formation exigeante.<br />  "
+  }
+}

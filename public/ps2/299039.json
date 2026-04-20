@@ -1,0 +1,332 @@
+{
+  "DonneesCandidats": {
+    "NumeroDossierCandidat": 299039,
+    "NomCandidat": "TALEB",
+    "PrenomCandidat": "Bayan",
+    "DateNaissance": "05/08/2008"
+  },
+  "Scolarite": [
+    {
+      "AnneeScolaireLibelle": "2025-2026",
+      "ScolariteFrancaiseLibelle": "Scolarité française",
+      "NiveauEtudeLibelle": "Terminale",
+      "TypeFormationLibelle": "Terminale",
+      "TypeClasseLibelle": "Générale",
+      "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+      "NomEtablissementOrigine": "Lycée Robert Doisneau",
+      "CommuneEtablissementOrigineLibelle": "Corbeil-Essonnes",
+      "PaysEtablissementorigineLibelle": "France"
+    },
+    {
+      "ScolariteFrancaiseLibelle": "Scolarité française"
+    }
+  ],
+  "BulletinsScolaires": [
+    {
+      "AnneeLibelle": "2025-2026",
+      "BulletinsScolairesAnnee": {
+        "SerieLibelle": "Série Générale",
+        "BulletinsScolairesSeries": [
+          {
+            "TrimestreLibelle": "Premier trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "9,57",
+                "MoyenneclasseCandidat": "11,11",
+                "MoyenneBasseClasseduCandidat": "2,96",
+                "MoyenneHauteClasseduCandidat": "18,26",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un trimestre correct. Votre implication en classe est remarquable. Il faut maintenant accentuer le travail personnel pour acquérir des automatismes. Je vous y encourage vivement."
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "12,72",
+                "MoyenneclasseCandidat": "14,11",
+                "MoyenneBasseClasseduCandidat": "11,37",
+                "MoyenneHauteClasseduCandidat": "17,33",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un assez bon premier trimestre. Ton travail et ton attitude en classe sont relativement sérieux. Il me semble cependant que tu pourrais intensifier tes efforts dans la matière, et prendre la parole en classe pour progresser."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "10,25",
+                "MoyenneclasseCandidat": "11,59",
+                "MoyenneBasseClasseduCandidat": "6,97",
+                "MoyenneHauteClasseduCandidat": "19,52",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Vous êtes capable de mieux : vos raisonnements sont fins, mais beaucoup d'imprécisions persistent. En terminale, il n’y a pas de place pour l’approximation. Avec plus de rigueur et de soin, vos résultats pourraient être excellents."
+              },
+              {
+                "MatiereBulletinLibelle": "Philosophie",
+                "MoyenneduCandidat": "8,00",
+                "MoyenneclasseCandidat": "10,43",
+                "MoyenneBasseClasseduCandidat": "5,67",
+                "MoyenneHauteClasseduCandidat": "17,70",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Elève discret, le manque de travail limite pour l'instant les résultats."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Second trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "10,57",
+                "MoyenneclasseCandidat": "13,65",
+                "MoyenneBasseClasseduCandidat": "9,50",
+                "MoyenneHauteClasseduCandidat": "18,29",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un assez bon second trimestre. Les résultats sont en baisse car les exigences sont en hausse, mais ton travail reste sérieux. Il faut cependant absolument participer davantage en classe, pour travailler ton anglais oral au maximum."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "13,13",
+                "MoyenneclasseCandidat": "11,28",
+                "MoyenneBasseClasseduCandidat": "4,16",
+                "MoyenneHauteClasseduCandidat": "18,97",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Des progrès sont visibles et doivent être poursuivis. Vous avez bien saisi les enjeux de la terminale et les méthodes à appliquer. Vous êtes capable de mieux : vos facultés de compréhension sont solides, il reste à travailler la précision de vos écrits."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "9,27",
+                "MoyenneclasseCandidat": "10,86",
+                "MoyenneBasseClasseduCandidat": "3,01",
+                "MoyenneHauteClasseduCandidat": "18,90",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Des résultats fragiles. Du sérieux en classe mais un travail personnel qui semble insuffisant. Il faut vous remobiliser rapidement, vous en êtes capable."
+              },
+              {
+                "MatiereBulletinLibelle": "Philosophie",
+                "MoyenneduCandidat": "11,46",
+                "MoyenneclasseCandidat": "12,72",
+                "MoyenneBasseClasseduCandidat": "10,36",
+                "MoyenneHauteClasseduCandidat": "16,62",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble sérieux. Vous pouvez cependant consolider votre niveau à l'écrit en vous concentrant sur la méthode, pour approfondir. Je compte sur vous!"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "AnneeLibelle": "2024-2025",
+      "BulletinsScolairesAnnee": {
+        "SerieLibelle": "Série Générale",
+        "BulletinsScolairesSeries": [
+          {
+            "TrimestreLibelle": "Second trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "10,57",
+                "MoyenneclasseCandidat": "13,05",
+                "MoyenneBasseClasseduCandidat": "8,50",
+                "MoyenneHauteClasseduCandidat": "17,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Lensemble est très encourageant! Vous avez gagné en confiance à loral comme à lécrit. Il faut désormais approfondir vos analyses pour gagner en efficacité. Continuez ainsi!"
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "14,67",
+                "MoyenneclasseCandidat": "16,54",
+                "MoyenneBasseClasseduCandidat": "8,67",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Trimestre très satisfaisant. Élève très motivé et investi. De plus, la participation est régulière et de qualité. Continuez ainsi !"
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "13,18",
+                "MoyenneclasseCandidat": "12,39",
+                "MoyenneBasseClasseduCandidat": "8,72",
+                "MoyenneHauteClasseduCandidat": "16,67",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "C'est un bon trimestre : de nets progrès, des résultats très satisfaisants, de l'implication en classe. Il faut poursuivre sur cette dynamique !"
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "7,64",
+                "MoyenneclasseCandidat": "11,31",
+                "MoyenneBasseClasseduCandidat": "7,22",
+                "MoyenneHauteClasseduCandidat": "18,61",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Les difficultés  persistent, surtout dans la compréhension des leçons. Vous devez aussi rester concentré en classe ."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "11,28",
+                "MoyenneclasseCandidat": "12,36",
+                "MoyenneBasseClasseduCandidat": "5,15",
+                "MoyenneHauteClasseduCandidat": "17,79",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un ensemble tout juste satisfaisant, lié à un devoir échoué.\nBayan est un élève sérieux, sa participation en classe est plus présente mais l'investissement personnel est sans doute à parfaire.\n\nLa spécialité en terminale peut s'avérer difficile."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Troisième trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "11,33",
+                "MoyenneclasseCandidat": "13,38",
+                "MoyenneBasseClasseduCandidat": "8,50",
+                "MoyenneHauteClasseduCandidat": "17,89",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Lensemble est irrégulier. Vous avez fourni des efforts mais votre travail personnel manque dapprofondissement et de méthode. Toutefois, vous avez assimilé les méthodes du baccalauréat et cest encourageant. Il faut désormais apprendre vos cours."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "9,29",
+                "MoyenneclasseCandidat": "12,34",
+                "MoyenneBasseClasseduCandidat": "4,80",
+                "MoyenneHauteClasseduCandidat": "18,12",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un dernier trimestre en net retrait et désormais fragile. Malgré une attitude sérieuse et un investissement relativement régulier, Bayan semble ne pas fournir assez de travail personnel pour progresser. La poursuite de la spécialité s'annonce compliquée."
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "9,39",
+                "MoyenneclasseCandidat": "12,89",
+                "MoyenneBasseClasseduCandidat": "8,79",
+                "MoyenneHauteClasseduCandidat": "18,86",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Résultats du trimestre en progrès mais l'ensemble reste insuffisant par manque de travail régulier"
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "12,68",
+                "MoyenneclasseCandidat": "11,16",
+                "MoyenneBasseClasseduCandidat": "6,11",
+                "MoyenneHauteClasseduCandidat": "16,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un trimestre satisfaisant : des résultats corrects, une attitude positive en classe et du sérieux."
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "10,50",
+                "MoyenneclasseCandidat": "14,82",
+                "MoyenneBasseClasseduCandidat": "4,57",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble assez juste, malgré une attitude volontaire et des efforts. Vous devez maintenant intensifier le travail personnel afin de progresser plus rapidement. Courage, vous en êtes capable."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Premier trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "10,44",
+                "MoyenneclasseCandidat": "13,07",
+                "MoyenneBasseClasseduCandidat": "9,71",
+                "MoyenneHauteClasseduCandidat": "16,22",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Malgré une bonne volonté évidente, les résultats restent fragiles, notamment à lécrit. Il faut travailler avec davantage de rigueur et surtout, approfondissez vos travaux écrits pour progresser. Vous êtes tout à fait capable de réussir. Courage !"
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "13,20",
+                "MoyenneclasseCandidat": "15,76",
+                "MoyenneBasseClasseduCandidat": "9,50",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un bon trimestre. Votre enthousiasme et votre curiosité vous ont permis de consolider les acquis de bases de la langue anglaise. Fournissez davantage d'efforts afin d'améliorer votre niveau. Vous pouvez atteindre un excellent niveau!"
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "8,00",
+                "MoyenneclasseCandidat": "12,93",
+                "MoyenneBasseClasseduCandidat": "2,50",
+                "MoyenneHauteClasseduCandidat": "19,70",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Résultats insuffisants en raison d'un manque de travail personnel. Il est essentiel de fournir des efforts supplémentaires pour progresser au deuxième trimestre."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "8,27",
+                "MoyenneclasseCandidat": "12,49",
+                "MoyenneBasseClasseduCandidat": "8,27",
+                "MoyenneHauteClasseduCandidat": "16,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "C'est un trimestre inquiétant : les résultats sont bien trop justes, l'implication et la concentration en classe sont peu soutenues. Il faut impérativement réagir de façon positive afin de progresser au deuxième trimestre. Vous en êtes capable."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "10,25",
+                "MoyenneclasseCandidat": "12,48",
+                "MoyenneBasseClasseduCandidat": "6,60",
+                "MoyenneHauteClasseduCandidat": "16,50",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un trimestre convenable. L'attitude en cours semble être de plus en plus active, et le travail personnel semble s'être régularisé. Osez néanmoins demander de l'aide lorsque vous en avez besoin. Gardez cet esprit, vos résultats s'amélioreront rapidement."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "FicheAvenir": {
+    "NiveauClasseCode": 3
+  },
+  "AppreciationsEnseignantsFicheAvenir": [
+    {
+      "MatiereFicheAvenirLibelle": "Philosophie",
+      "MatiereFicheAvenirLibelleBCN": "PHILOSOPHIE",
+      "AppreciationFicheAvenir": "TF"
+    },
+    {
+      "MatiereFicheAvenirLibelle": "Langue vivante A",
+      "MatiereFicheAvenirLibelleBCN": "LANGUE VIVANTE 1",
+      "AppreciationFicheAvenir": "Ensemble correct."
+    },
+    {
+      "MatiereFicheAvenirLibelle": "Mathématiques Spécialité",
+      "MatiereFicheAvenirLibelleBCN": "MATHEMATIQUES",
+      "AppreciationFicheAvenir": "Des résultats fragiles. L'ensemble manque d'approfondissement et de rigueur. Du sérieux en classe."
+    },
+    {
+      "MatiereFicheAvenirLibelle": "Sciences de la vie et de la Terre Spécialité",
+      "MatiereFicheAvenirLibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+      "AppreciationFicheAvenir": "Des progrès tout au long de l'année, avec du sérieux les méthodes de travail ont été bien assimilées mais pourraient être encore approfondies."
+    }
+  ],
+  "Baccalaureat": {
+    "EDSScolaritePremiere1LibelleBCN": "MATHEMATIQUES",
+    "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE",
+    "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+    "EDSScolariteTerminale1Libelle": "Mathématiques Spécialité",
+    "EDSScolariteTerminale2Libelle": "Sciences de la vie et de la Terre Spécialité",
+    "EDSScolaritePremiere1Libelle": "Mathématiques Spécialité",
+    "EDSScolaritePremiere2Libelle": "Physique-Chimie Spécialité",
+    "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+  },
+  "NotesBaccalaureat": [
+    {
+      "EpreuveLibelle": "Mathématiques"
+    },
+    {
+      "EpreuveLibelle": "Sciences de la Vie et de la Terre"
+    },
+    {
+      "EpreuveLibelle": "Français écrit",
+      "NoteEpreuve": "10,0"
+    },
+    {
+      "EpreuveLibelle": "Français oral",
+      "NoteEpreuve": "10,0"
+    },
+    {
+      "EpreuveLibelle": "Physique-Chimie  (EDS suivi uniquement en Première)",
+      "NoteEpreuve": "8,4"
+    }
+  ],
+  "DonneesVoeux": {
+    "LettreDeMotivation": "Actuellement en Terminale avec la spécialité SVT, je souhaite intégrer la Licence BCPST afin de poursuivre mon parcours dans les sciences du vivant. Mon intérêt pour la biologie s'est approfondi lors d'un stage en laboratoire, au cours duquel j'ai découvert la rigueur de la démarche expérimentale et le plaisir d'observer le monde du vivant à une autre échelle. Cette expérience a renforcé mon envie d'aller plus loin dans la compréhension des mécanismes biologiques, chimiques et environnementaux.<br /> Ma spécialité SVT m'a permis de développer une solide culture scientifique ainsi qu'une capacité d'analyse et de synthèse que je souhaite approfondir. La BCPST m'attire car elle offre une formation pluridisciplinaire exigeante, alliant biologie, chimie, physique et sciences de la Terre, qui correspond pleinement à ma curiosité intellectuelle.<br /> Si mon projet professionnel est encore en construction, cette licence me permettra d'explorer différentes voies recherchées, grandes écoles, enseignement et de définir mon orientation avec des bases solides et une vision claire du monde scientifique.<br /> Curieux, rigoureux et motivé, je suis prêt à m'investir pleinement dans cette formation.<br /> Veuillez agréer, Madame, Monsieur, l'expression de mes sincères salutations.<br /> Bayan Taleb."
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "DonneesCandidats": {
+    "NumeroDossierCandidat": 160400,
+    "NomCandidat": "PAMIES",
+    "PrenomCandidat": "Madeleine",
+    "DateNaissance": "22/04/2008"
+  },
+  "Scolarite": [
+    {
+      "AnneeScolaireLibelle": "2025-2026",
+      "ScolariteFrancaiseLibelle": "Scolarité française",
+      "NiveauEtudeLibelle": "Terminale",
+      "TypeFormationLibelle": "Terminale",
+      "TypeClasseLibelle": "Générale",
+      "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+      "NomEtablissementOrigine": "Lycée Notre Dame du Grandchamp",
+      "CommuneEtablissementOrigineLibelle": "Versailles",
+      "PaysEtablissementorigineLibelle": "France"
+    },
+    {
+      "ScolariteFrancaiseLibelle": "Scolarité française"
+    }
+  ],
+  "BulletinsScolaires": [
+    {
+      "AnneeLibelle": "2024-2025",
+      "BulletinsScolairesAnnee": {
+        "SerieLibelle": "Série Générale",
+        "BulletinsScolairesSeries": [
+          {
+            "TrimestreLibelle": "Premier semestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "15,12",
+                "MoyenneclasseCandidat": "12,25",
+                "MoyenneBasseClasseduCandidat": "7,59",
+                "MoyenneHauteClasseduCandidat": "18,38",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un bon niveau sur l'ensemble des compétences avec de la pertinence dans les interventions orales. Je vous encourage à les poursuivre. Vous pouvez être moteur pour la classe!"
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "12,74",
+                "MoyenneclasseCandidat": "12,20",
+                "MoyenneBasseClasseduCandidat": "7,90",
+                "MoyenneHauteClasseduCandidat": "17,91",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "L'ensemble est satisfaisant. Le travail personnel est sérieux mais manque encore de recul. Continuez ainsi en approfondissant bien la compréhension des notions."
+              },
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "12,83",
+                "MoyenneclasseCandidat": "12,88",
+                "MoyenneBasseClasseduCandidat": "8,58",
+                "MoyenneHauteClasseduCandidat": "18,42",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un assez bon ensemble. Madeleine est une élève sérieuse et appliquée. Pour progresser, n'hésitez pas à participer davantage à l'oral et approfondissez encore mieux certaines notions."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "14,81",
+                "MoyenneclasseCandidat": "11,14",
+                "MoyenneBasseClasseduCandidat": "5,32",
+                "MoyenneHauteClasseduCandidat": "18,87",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Madeleine a réalisé un bon semestre. Elève sérieuse et rigoureuse, elle participe activement. Poursuivre ainsi."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "16,25",
+                "MoyenneclasseCandidat": "13,90",
+                "MoyenneBasseClasseduCandidat": "8,04",
+                "MoyenneHauteClasseduCandidat": "17,60",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Des résultats satisfaisants. Vous êtes une élève attentive et sérieuse. Mes compliments pour ce travail de qualité et votre attitude positive."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Second semestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "11,95",
+                "MoyenneclasseCandidat": "13,28",
+                "MoyenneBasseClasseduCandidat": "7,74",
+                "MoyenneHauteClasseduCandidat": "17,42",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Assez bon semestre. Des résultats encourageants qui sont la preuve d'un travail régulier et rigoureux. Une attitude positive en classe. C'est bien Madeleine."
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "13,38",
+                "MoyenneclasseCandidat": "11,49",
+                "MoyenneBasseClasseduCandidat": "6,30",
+                "MoyenneHauteClasseduCandidat": "18,76",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un niveau d'ensemble qui reste satisfaisant ce semestre malgré une baisse des résultats. Je vous encourage maintenant à intensifier vos interventions en classe pour gagner en aisance."
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "12,63",
+                "MoyenneclasseCandidat": "11,86",
+                "MoyenneBasseClasseduCandidat": "6,12",
+                "MoyenneHauteClasseduCandidat": "17,72",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Résultats satisfaisants. Travail sérieux et écoute attentive en classe."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "18,97",
+                "MoyenneclasseCandidat": "15,17",
+                "MoyenneBasseClasseduCandidat": "6,58",
+                "MoyenneHauteClasseduCandidat": "18,97",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un niveau solide, les raisonnements sont pertinents et les connaissances maitrisées. Madeleine est une élève sérieuse en classe et dans son travail personnel."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "15,72",
+                "MoyenneclasseCandidat": "11,40",
+                "MoyenneBasseClasseduCandidat": "5,41",
+                "MoyenneHauteClasseduCandidat": "19,12",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Madeleine a de nouveau réalisé un très bon semestre. Sa participation est active et pertinente et ses écrits rigoureux."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "AnneeLibelle": "2025-2026",
+      "BulletinsScolairesAnnee": {
+        "SerieLibelle": "Série Générale",
+        "BulletinsScolairesSeries": [
+          {
+            "TrimestreLibelle": "Premier trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "16,78",
+                "MoyenneclasseCandidat": "14,23",
+                "MoyenneBasseClasseduCandidat": "3,57",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un très bon niveau d'anglais et une attitude positive. La qualité du travail personnel est remarquable."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Expertes",
+                "MoyenneduCandidat": "12,08",
+                "MoyenneclasseCandidat": "12,78",
+                "MoyenneBasseClasseduCandidat": "8,24",
+                "MoyenneHauteClasseduCandidat": "19,74",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Bel investissement en classe et travail sérieux. Continuez ainsi."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "16,09",
+                "MoyenneclasseCandidat": "13,63",
+                "MoyenneBasseClasseduCandidat": "5,22",
+                "MoyenneHauteClasseduCandidat": "17,29",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Très bon trimestre. Madeleine fournit un travail de grande qualité. Les raisonnements sont matures et les connaissances maitrisées. Bravo."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "16,88",
+                "MoyenneclasseCandidat": "12,62",
+                "MoyenneBasseClasseduCandidat": "5,71",
+                "MoyenneHauteClasseduCandidat": "19,48",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un très bon premier trimestre. Le travail est efficace et clair, et les raisonnements sont réfléchis."
+              },
+              {
+                "MatiereBulletinLibelle": "Philosophie",
+                "MoyenneduCandidat": "14,83",
+                "MoyenneclasseCandidat": "13,68",
+                "MoyenneBasseClasseduCandidat": "6,45",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un trimestre très satisfaisant. Madeleine est une élève très sérieuse mais discrète. N'hésitez pas à participer davantage et à poursuivre vos efforts."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Second trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "14,35",
+                "MoyenneclasseCandidat": "13,58",
+                "MoyenneBasseClasseduCandidat": "7,91",
+                "MoyenneHauteClasseduCandidat": "16,96",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Les raisonnements sont toujours pertinents et la réflexion est fine. Madeleine a fourni un travail sérieux ce trimestre. Il faut poursuivre dans cette voie."
+              },
+              {
+                "MatiereBulletinLibelle": "Philosophie",
+                "MoyenneduCandidat": "14,91",
+                "MoyenneclasseCandidat": "16,16",
+                "MoyenneBasseClasseduCandidat": "8,33",
+                "MoyenneHauteClasseduCandidat": "18,94",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un trimestre très satisfaisant. Madeleine est une élève sérieuse et impliquée dans son travail écrit. Poursuivez ainsi et n'hésitez pas à participer davantage."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Expertes",
+                "MoyenneduCandidat": "12,75",
+                "MoyenneclasseCandidat": "13,56",
+                "MoyenneBasseClasseduCandidat": "7,13",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un bon trimestre. Madeleine est toujours très attentive et fournit un travail réfléchi et efficace. Continuez ainsi."
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "15,54",
+                "MoyenneclasseCandidat": "14,96",
+                "MoyenneBasseClasseduCandidat": "4,77",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Beaucoup de sérieux dans le travail, interventions pertinentes en cours et un niveau satisfaisant."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "15,60",
+                "MoyenneclasseCandidat": "13,70",
+                "MoyenneBasseClasseduCandidat": "5,17",
+                "MoyenneHauteClasseduCandidat": "19,56",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un bon niveau. Madeleine est impliquée en cours et fournit un travail sérieux et clair. Elle a un bon niveau de maîtrise des compétences mathématiques."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "FicheAvenir": {
+    "NiveauClasseCode": 5
+  },
+  "AppreciationsEnseignantsFicheAvenir": [
+    {
+      "MatiereFicheAvenirLibelle": "Philosophie",
+      "MatiereFicheAvenirLibelleBCN": "PHILOSOPHIE",
+      "AppreciationFicheAvenir": "Madeleine est une élève sérieuse et impliquée dans son travail écrit."
+    },
+    {
+      "MatiereFicheAvenirLibelle": "Langue vivante A",
+      "MatiereFicheAvenirLibelleBCN": "LANGUE VIVANTE 1",
+      "AppreciationFicheAvenir": "Élève sérieuse et rigoureuse qui s'implique régulièrement dans le travail de classe. Ses interventions sont pertinentes et témoignent de son intérêt pour les activités proposées. Son engagement et son attitude constructive sont à souligner"
+    },
+    {
+      "MatiereFicheAvenirLibelle": "Mathématiques Spécialité",
+      "MatiereFicheAvenirLibelleBCN": "MATHEMATIQUES",
+      "AppreciationFicheAvenir": "Un très bon niveau. Madeleine est impliquée en cours, fournit un travail sérieux et rigoureux, et ses raisonnements sont réfléchis et clairs. Elle a un bon niveau de maîtrise des compétences mathématiques."
+    },
+    {
+      "MatiereFicheAvenirLibelle": "Sciences de la vie et de la Terre Spécialité",
+      "MatiereFicheAvenirLibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+      "AppreciationFicheAvenir": "Un très bon ensemble. Le questionnement est mature et la réflexion est pertinente. Le travail est de qualité. De belles capacités pour les SVT."
+    },
+    {
+      "MatiereFicheAvenirLibelle": "Mathématiques Expertes",
+      "MatiereFicheAvenirLibelleBCN": "MATHEMATIQUES EXPERTES",
+      "AppreciationFicheAvenir": "Une belle implication en cours, un travail toujours sérieux et efficace et une réflexion pertinente. Une belle motivation."
+    }
+  ],
+  "Baccalaureat": {
+    "EDSScolaritePremiere1LibelleBCN": "MATHEMATIQUES",
+    "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE",
+    "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+    "EDSScolariteTerminale1Libelle": "Mathématiques Spécialité",
+    "EDSScolariteTerminale2Libelle": "Sciences de la vie et de la Terre Spécialité",
+    "EDSScolaritePremiere1Libelle": "Mathématiques Spécialité",
+    "EDSScolaritePremiere2Libelle": "Physique-Chimie Spécialité",
+    "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+  },
+  "NotesBaccalaureat": [
+    {
+      "EpreuveLibelle": "Mathématiques"
+    },
+    {
+      "EpreuveLibelle": "Sciences de la Vie et de la Terre"
+    },
+    {
+      "EpreuveLibelle": "Français écrit",
+      "NoteEpreuve": "10,0"
+    },
+    {
+      "EpreuveLibelle": "Français oral",
+      "NoteEpreuve": "14,0"
+    },
+    {
+      "EpreuveLibelle": "Physique-Chimie  (EDS suivi uniquement en Première)",
+      "NoteEpreuve": "12,7"
+    }
+  ],
+  "DonneesVoeux": {
+    "LettreDeMotivation": "Madame, Monsieur,<br /> Elève de terminale générale au lycée Notre-Dame du Grandchamp à Versailles, j'ai choisi sans hésiter les trois spécialités scientifiques en classe de première, puis j'ai poursuivi cette année avec les mathématiques et les sciences et vie de la terre, ainsi que les mathématiques expertes.<br /> N'ayant malheureusement pas pu venir à vos portes ouvertes, je me suis renseignée sur le lycée Chaptal via votre site et les avis en ligne, et je souhaite vivement intégrer votre classe préparatoire BCPST.<br /> Passionnée par les sciences depuis le collège, mon objectif est de faire de la recherche, sur un domaine qui reste à préciser. Idéalement, j'aimerais accéder aux écoles normales supérieures, via le concours ou sur dossier en qualité d'élève. Je suis aujourd'hui intéressée par les géosciences et la biologie cellulaire, et je pense que le parcours complet de la classe préparatoire BCPST au lycée Chaptal me permettra de définir plus précisément mes domaines d'intérêt.<br /> \"Sérieuse\" selon les mots de mes professeurs, je suis consciente que la classe préparatoire BCPST représente beaucoup de travail et je pense être prête pour ces deux années de formation d'excellence.<br /> Je reste à votre disposition pour tout renseignement que vous jugerez utile et je vous prie d'agréer, Madame, Monsieur, l'expression de mes sentiments les meilleurs."
+  }
+}

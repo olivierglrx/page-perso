@@ -1,0 +1,353 @@
+{
+  "DonneesCandidats": {
+    "NumeroDossierCandidat": 1200416,
+    "NomCandidat": "SALLAMI",
+    "PrenomCandidat": "Isra",
+    "DateNaissance": "07/04/2007"
+  },
+  "Scolarite": [
+    {
+      "AnneeScolaireLibelle": "2025-2026",
+      "ScolariteFrancaiseLibelle": "Scolarité française",
+      "NiveauEtudeLibelle": "1ère année d'études supérieures",
+      "TypeFormationLibelle": "Licence",
+      "FormationScolariteLibelle": "Licence - Arts-lettres-langues",
+      "FiliereScolariteCode": 2029,
+      "TypeEtablissementorigineLibelle": "Université",
+      "NomEtablissementOrigine": "INALCO",
+      "CommuneEtablissementOrigineLibelle": "Paris 13e  Arrondissement",
+      "PaysEtablissementorigineLibelle": "France"
+    },
+    {
+      "ScolariteFrancaiseLibelle": "Scolarité française"
+    }
+  ],
+  "BulletinsScolaires": [
+    {
+      "AnneeLibelle": "2023-2024",
+      "BulletinsScolairesAnnee": {
+        "SerieLibelle": "Série Générale",
+        "BulletinsScolairesSeries": [
+          {
+            "TrimestreLibelle": "Premier trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "6,41",
+                "MoyenneclasseCandidat": "8,56",
+                "MoyenneBasseClasseduCandidat": "2,05",
+                "MoyenneHauteClasseduCandidat": "19,67",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Isra est discrète en classe mais semble sérieuse. Le niveau n'est bien sûr pas suffisant pour l'instant..."
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "15,72",
+                "MoyenneclasseCandidat": "13,82",
+                "MoyenneBasseClasseduCandidat": "6,22",
+                "MoyenneHauteClasseduCandidat": "18,93",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Très bon trimestre dans l'ensemble. Elève sérieuse et investie dans son travail personnel. Il vous faudra cependant participer davantage à l'oral afin d'exploiter vos acquis."
+              },
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "11,86",
+                "MoyenneclasseCandidat": "11,61",
+                "MoyenneBasseClasseduCandidat": "6,36",
+                "MoyenneHauteClasseduCandidat": "16,64",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un ensemble assez irrégulier : vous avez fourni des efforts pour surmonter vos difficultés et avez déjà un peu progressé, il faut poursuivre ainsi au deuxième trimestre."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "11,60",
+                "MoyenneclasseCandidat": "13,08",
+                "MoyenneBasseClasseduCandidat": "5,32",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un trimestre correct. Il faut qu'Isra continue avec ce sérieux. Je suis sûre qu'elle va progresser maintenant qu'elle a compris ce qu'on attendait d'elle en Première. N'hésitez pas à poser des questions dès que cela vous semble nécessaire."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "10,43",
+                "MoyenneclasseCandidat": "12,64",
+                "MoyenneBasseClasseduCandidat": "5,83",
+                "MoyenneHauteClasseduCandidat": "19,71",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Moyen. Accentuer la participation orale."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Troisième trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "15,06",
+                "MoyenneclasseCandidat": "12,53",
+                "MoyenneBasseClasseduCandidat": "4,00",
+                "MoyenneHauteClasseduCandidat": "19,31",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un très bon trimestre. Isra fait preuve de sérieux et de régularité. Un investissement plus régulier à l'oral est nécessaire cependant."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "11,52",
+                "MoyenneclasseCandidat": "13,47",
+                "MoyenneBasseClasseduCandidat": "5,33",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Convenable. Des efforts de participation orale."
+              },
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "10,11",
+                "MoyenneclasseCandidat": "10,21",
+                "MoyenneBasseClasseduCandidat": "5,56",
+                "MoyenneHauteClasseduCandidat": "16,89",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un ensemble un peu plus en retrait, notamment dû à des notes plus décevantes à des contrôles de connaissances : c'est dommage, je suis sûr que vous auriez pu progresser davantage, mais votre travail a tout de même été globalement sérieux."
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "7,08",
+                "MoyenneclasseCandidat": "6,97",
+                "MoyenneBasseClasseduCandidat": "0,00",
+                "MoyenneHauteClasseduCandidat": "19,56",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Isra est discrète. Elle à un niveau un peu faible globalement !"
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "14,85",
+                "MoyenneclasseCandidat": "10,87",
+                "MoyenneBasseClasseduCandidat": "3,71",
+                "MoyenneHauteClasseduCandidat": "18,04",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Encore un très bon trimestre. Isra progresse grâce à un travail dynamique et sérieux. Il faut qu'elle continue comme ça en Terminale !"
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Second trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "14,03",
+                "MoyenneclasseCandidat": "12,66",
+                "MoyenneBasseClasseduCandidat": "7,33",
+                "MoyenneHauteClasseduCandidat": "18,51",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un bon trimestre dans l'ensemble, les résultats sont satisfaisants et l'implication en classe est noté. Une participation orale plus régulière vous permettra de vous améliorer davantage."
+              },
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "13,86",
+                "MoyenneclasseCandidat": "11,56",
+                "MoyenneBasseClasseduCandidat": "3,16",
+                "MoyenneHauteClasseduCandidat": "18,82",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un bon trimestre, vous avez bien progressé grâce à un travail sérieux tout au long de la période : poursuivez ainsi, c'est très encourageant !"
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "12,68",
+                "MoyenneclasseCandidat": "12,54",
+                "MoyenneBasseClasseduCandidat": "5,09",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Assez bien. En progrès."
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "7,75",
+                "MoyenneclasseCandidat": "7,98",
+                "MoyenneBasseClasseduCandidat": "0,38",
+                "MoyenneHauteClasseduCandidat": "19,19",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Isra est discrète. Le niveau est assez faible."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "17,31",
+                "MoyenneclasseCandidat": "12,97",
+                "MoyenneBasseClasseduCandidat": "5,31",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Quelle belle progression par rapport au premier trimestre ! Isra a une démarche sérieuse et autonome qui lui permet d'acquérir les bases de la spécialité. Je la félicite, c'est très prometteur !"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "AnneeLibelle": "2024-2025",
+      "BulletinsScolairesAnnee": {
+        "SerieLibelle": "Série Générale",
+        "BulletinsScolairesSeries": [
+          {
+            "TrimestreLibelle": "Second trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Philosophie",
+                "MoyenneduCandidat": "12,67",
+                "MoyenneclasseCandidat": "12,11",
+                "MoyenneBasseClasseduCandidat": "7,67",
+                "MoyenneHauteClasseduCandidat": "16,33",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble correct."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "12,60",
+                "MoyenneclasseCandidat": "11,72",
+                "MoyenneBasseClasseduCandidat": "1,18",
+                "MoyenneHauteClasseduCandidat": "18,14",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Bien que très discrète en classe, les résultats d'Isra sont plus qu'honorables et en augmentation par rapport au premier trimestre. Il faut continuer ainsi en essayant de participer un peu plus."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "15,18",
+                "MoyenneclasseCandidat": "9,14",
+                "MoyenneBasseClasseduCandidat": "0,00",
+                "MoyenneHauteClasseduCandidat": "15,19",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Des résultats très satisfaisants et un investissement exemplaire pour Isra. Son argumentation est pertinente et rigoureuse malgré des oublis et maladresses. Veille à être plus précise dans la mise en relation pour parfaire tes écrits. Continue ainsi !"
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "16,20",
+                "MoyenneclasseCandidat": "14,76",
+                "MoyenneBasseClasseduCandidat": "8,58",
+                "MoyenneHauteClasseduCandidat": "19,45",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un très bon trimestre. Isra a fournit des efforts réguliers ce trimestre qu'il faudra solidifier avec une participation plus active en classe au prochain trimestre."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Troisième trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "13,07",
+                "MoyenneclasseCandidat": "9,01",
+                "MoyenneBasseClasseduCandidat": "0,00",
+                "MoyenneHauteClasseduCandidat": "14,52",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Des résultats à nouveau satisfaisants. Des écrits argumentés avec des savoirs pertinents prouvant le sérieux du travail accompli malgré des défauts de méthode. Veille à expliciter les liens et à illustrer tes propos. Mes félicitations pour ton année !"
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "14,08",
+                "MoyenneclasseCandidat": "12,05",
+                "MoyenneBasseClasseduCandidat": "0,74",
+                "MoyenneHauteClasseduCandidat": "19,02",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Isra a su maintenir un bon niveau tout au long de lannée, malgré un petit relâchement en fin dannée (bavardages). Malgré cela, tu as toujours travaillé avec sérieux. Bravo pour cela, et bon courage !"
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "15,90",
+                "MoyenneclasseCandidat": "13,43",
+                "MoyenneBasseClasseduCandidat": "4,11",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un ensemble solide avec beaucoup de sérieux et d'investissement. Une participation plus active vous aurait cependant permis d'exploiter vos capacités."
+              },
+              {
+                "MatiereBulletinLibelle": "Philosophie",
+                "MoyenneduCandidat": "12,00",
+                "MoyenneclasseCandidat": "11,35",
+                "MoyenneBasseClasseduCandidat": "7,00",
+                "MoyenneHauteClasseduCandidat": "15,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Très bon ensemble."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Premier trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Philosophie",
+                "MoyenneduCandidat": "11,80",
+                "MoyenneclasseCandidat": "13,12",
+                "MoyenneBasseClasseduCandidat": "9,00",
+                "MoyenneHauteClasseduCandidat": "16,43",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Bon premier trimestre dans l'ensemble. Sollicitez-moi, venez prendre conseils pour améliorer votre travail"
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "13,08",
+                "MoyenneclasseCandidat": "9,37",
+                "MoyenneBasseClasseduCandidat": "0,00",
+                "MoyenneHauteClasseduCandidat": "17,12",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Des résultats très honorables. Isra est sérieuse et déterminée. Des notions clés maîtrisées argumentent ses réflexions et déjà de nets progrès de démarche sont visibles. Sois attentive à l'analyse des consignes et persévère. Je te fais confiance !"
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "13,74",
+                "MoyenneclasseCandidat": "13,22",
+                "MoyenneBasseClasseduCandidat": "2,33",
+                "MoyenneHauteClasseduCandidat": "18,67",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Isra est une élève sérieuse et studieuse, mais qui gagnerait à s'impliquer davantage en classe pour partager ses idées. Attention également à être plus rigoureuse dans la rédaction des copies pour refléter pleinement tes capacités. Continue tes efforts !"
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "14,69",
+                "MoyenneclasseCandidat": "13,99",
+                "MoyenneBasseClasseduCandidat": "6,23",
+                "MoyenneHauteClasseduCandidat": "18,65",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un bon trimestre. Isra est une élève sérieuse et discrète, toujours investie dans son travail personnel à l'écrit. Un investissement plus régulier à l'oral vous permettra de progresser davantage."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "FicheAvenir": {},
+  "AppreciationsEnseignantsFicheAvenir": [],
+  "Baccalaureat": {
+    "EDSScolaritePremiere1LibelleBCN": "MATHEMATIQUES",
+    "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE",
+    "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+    "EDSScolariteTerminale1Libelle": "Mathématiques Spécialité",
+    "EDSScolariteTerminale2Libelle": "Sciences de la vie et de la Terre Spécialité",
+    "EDSScolaritePremiere1Libelle": "Mathématiques Spécialité",
+    "EDSScolaritePremiere2Libelle": "Physique-Chimie Spécialité",
+    "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+  },
+  "NotesBaccalaureat": [
+    {
+      "EpreuveLibelle": "Mathématiques",
+      "NoteEpreuve": "8,0"
+    },
+    {
+      "EpreuveLibelle": "Sciences de la Vie et de la Terre",
+      "NoteEpreuve": "14,0"
+    },
+    {
+      "EpreuveLibelle": "Français écrit",
+      "NoteEpreuve": "12,0"
+    },
+    {
+      "EpreuveLibelle": "Français oral",
+      "NoteEpreuve": "12,0"
+    },
+    {
+      "EpreuveLibelle": "Physique-Chimie  (EDS suivi uniquement en Première)",
+      "NoteEpreuve": "7,1"
+    }
+  ],
+  "DonneesVoeux": {
+    "LettreDeMotivation": "J'ai effectué ma scolarité au lycée Honoré de Balzac à Mitry-Mory, où j'ai suivi les spécialités SVT, mathématiques et physique-chimie. Cet enseignement m'a permis d'acquérir des bases scientifiques solides, ainsi que rigueur, méthode et capacité de travail, indispensables pour intégrer une classe préparatoire scientifique.<br /> <br /> Au cours de mon parcours, j'ai développé un intérêt marqué pour les sciences du vivant, en lien avec la SVT, et pour les approches quantitatives apportées par les mathématiques et la physique-chimie. Cette complémentarité m'a permis d'aborder les phénomènes biologiques avec une vision globale et analytique.<br /> <br /> Mon expérience personnelle, marquée par plusieurs hospitalisations durant mon enfance, a renforcé ma curiosité pour le fonctionnement du vivant et les mécanismes biologiques, contribuant à construire un projet d'orientation réfléchi vers les domaines scientifiques.<br /> <br /> Après le lycée, j'ai intégré une LAS, qui m'a permis de consolider mes connaissances et de confirmer mon souhait de m'engager dans un parcours exigeant.<br /> <br /> La classe préparatoire BCPST correspond à mes attentes par l'intensité de sa formation et la diversité des disciplines étudiées. Sérieuse, motivée et persévérante, je suis prête à m'investir pleinement afin de développer mes capacités et construire un projet scientifique ambitieux.<br />"
+  }
+}

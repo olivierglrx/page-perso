@@ -1,0 +1,350 @@
+{
+  "DonneesCandidats": {
+    "NumeroDossierCandidat": 789012,
+    "NomCandidat": "JOURDAN",
+    "PrenomCandidat": "Noah Sebastien",
+    "DateNaissance": "19/08/2008"
+  },
+  "Scolarite": [
+    {
+      "AnneeScolaireLibelle": "2025-2026",
+      "ScolariteFrancaiseLibelle": "Scolarité française",
+      "NiveauEtudeLibelle": "Terminale",
+      "TypeFormationLibelle": "Terminale",
+      "TypeClasseLibelle": "Générale",
+      "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+      "NomEtablissementOrigine": "Lycée Marcel Cachin",
+      "CommuneEtablissementOrigineLibelle": "Saint-Ouen-sur-Seine",
+      "PaysEtablissementorigineLibelle": "France"
+    },
+    {
+      "ScolariteFrancaiseLibelle": "Scolarité française"
+    }
+  ],
+  "BulletinsScolaires": [
+    {
+      "AnneeLibelle": "2024-2025",
+      "BulletinsScolairesAnnee": {
+        "SerieLibelle": "Série Générale",
+        "BulletinsScolairesSeries": [
+          {
+            "TrimestreLibelle": "Second trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "14,50",
+                "MoyenneclasseCandidat": "12,20",
+                "MoyenneBasseClasseduCandidat": "3,00",
+                "MoyenneHauteClasseduCandidat": "17,33",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un bon trimestre. Poursuis tes efforts."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "17,60",
+                "MoyenneclasseCandidat": "11,98",
+                "MoyenneBasseClasseduCandidat": "4,00",
+                "MoyenneHauteClasseduCandidat": "17,60",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Très bon ensemble aves des résultats qui progressent. Noah est sérieux et pleinement investi dans son travail. Les écrits sont de qualité, c'est très bien!"
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "15,89",
+                "MoyenneclasseCandidat": "12,36",
+                "MoyenneBasseClasseduCandidat": "5,96",
+                "MoyenneHauteClasseduCandidat": "18,10",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un très bon deuxième trimestre! Tes résultats sont le reflet de ton sérieux et de ton travail personnel. Tu sais travailler en autonomie et prendre de l'avance sur tes camarades. Continue sur cette voie Noah!"
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "11,43",
+                "MoyenneclasseCandidat": "13,20",
+                "MoyenneBasseClasseduCandidat": "7,33",
+                "MoyenneHauteClasseduCandidat": "18,06",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Le travail est assez bon dans l'ensemble. C'est encourageant pour le prochain trimestre."
+              },
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "11,40",
+                "MoyenneclasseCandidat": "11,77",
+                "MoyenneBasseClasseduCandidat": "7,85",
+                "MoyenneHauteClasseduCandidat": "16,92",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble correct et assez sérieux (malgré le manque d'attention parfois...). Vous pourrez toutefois progresser en approfondissant votre travail. Bravo pour votre participation!"
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Troisième trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "17,89",
+                "MoyenneclasseCandidat": "14,84",
+                "MoyenneBasseClasseduCandidat": "10,20",
+                "MoyenneHauteClasseduCandidat": "19,10",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un excellent dernier trimestre qui vient conclure une année de première très réussie. Les compétences attendues en spécialité sont bien acquises. Bravo!"
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "14,83",
+                "MoyenneclasseCandidat": "12,87",
+                "MoyenneBasseClasseduCandidat": "9,33",
+                "MoyenneHauteClasseduCandidat": "18,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Bon trimestre. Il faut continuer ainsi."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "14,24",
+                "MoyenneclasseCandidat": "10,96",
+                "MoyenneBasseClasseduCandidat": "5,67",
+                "MoyenneHauteClasseduCandidat": "16,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Très bonne année scolaire. Noah a fait preuve de sérieux tout au long de l'année. Les écrits sont de qualité. C'est très bien, il faudra poursuivre dans cette voie l'année prochaine!"
+              },
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "12,67",
+                "MoyenneclasseCandidat": "11,26",
+                "MoyenneBasseClasseduCandidat": "5,43",
+                "MoyenneHauteClasseduCandidat": "18,48",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble satisfaisant avec un investissement sérieux et régulier."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "7,33",
+                "MoyenneclasseCandidat": "13,59",
+                "MoyenneBasseClasseduCandidat": "5,00",
+                "MoyenneHauteClasseduCandidat": "19,43",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Petite baisse tout au long du trimestre, mais le travail reste sérieux."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Premier trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "16,96",
+                "MoyenneclasseCandidat": "13,08",
+                "MoyenneBasseClasseduCandidat": "8,33",
+                "MoyenneHauteClasseduCandidat": "18,23",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un très bon premier trimestre avec des résultats constants. Tes travaux sont bien rédigés et tu as montré que tu as les compétences attendues d'un élève de première spécialité. En plus de cela tu sais être autonome dans ton travail. Bravo Noah!"
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "11,08",
+                "MoyenneclasseCandidat": "14,55",
+                "MoyenneBasseClasseduCandidat": "9,00",
+                "MoyenneHauteClasseduCandidat": "18,50",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Noah a commencé l'année tout en douceur, mais la fin de ce trimestre est satisfaisante. II faut continuer ainsi, c'est encourageant !"
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "14,33",
+                "MoyenneclasseCandidat": "10,55",
+                "MoyenneBasseClasseduCandidat": "3,67",
+                "MoyenneHauteClasseduCandidat": "16,67",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Bon ensemble avec une attitude sérieuse. Il faut poursuivre dans cette voie en étant encore plus dynamique en classe."
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "12,00",
+                "MoyenneclasseCandidat": "12,37",
+                "MoyenneBasseClasseduCandidat": "9,17",
+                "MoyenneHauteClasseduCandidat": "16,50",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "L'ensemble est satisfaisant. Poursuis tes efforts."
+              },
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "12,80",
+                "MoyenneclasseCandidat": "12,71",
+                "MoyenneBasseClasseduCandidat": "8,28",
+                "MoyenneHauteClasseduCandidat": "16,06",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble assez satisfaisant avec un bon investissement en classe malgré des moments d'inattention. En approfondissant votre travail personnel, vous pourrez obtenir un meilleur niveau en français."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "AnneeLibelle": "2025-2026",
+      "BulletinsScolairesAnnee": {
+        "SerieLibelle": "Série Générale",
+        "BulletinsScolairesSeries": [
+          {
+            "TrimestreLibelle": "Premier trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "12,53",
+                "MoyenneclasseCandidat": "11,74",
+                "MoyenneBasseClasseduCandidat": "6,88",
+                "MoyenneHauteClasseduCandidat": "18,25",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Bon trimestre, vous faites preuve d'un grand sérieux autant dans l'attitude, en réduisant les bavardages, que dans le travail, personnel et en classe. Continuez ainsi !"
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "12,81",
+                "MoyenneclasseCandidat": "11,76",
+                "MoyenneBasseClasseduCandidat": "6,62",
+                "MoyenneHauteClasseduCandidat": "18,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un bilan encourageant, vous savez faire preuve de sérieux et votre participation a gagné en régularité et en pertinence, même si vos lacunes linguistiques sont encore présentes et doivent être progressivement comblées grâce à un travail rigoureux. Continuez sur votre lancée et progressez à la hauteur des attendus, je vous en sais capable !"
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                "MoyenneduCandidat": "16,43",
+                "MoyenneclasseCandidat": "16,17",
+                "MoyenneBasseClasseduCandidat": "14,44",
+                "MoyenneHauteClasseduCandidat": "18,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Noah s'applique au travail ce qui vient de payer au dernier contrôle. II faut poursuivre ses efforts."
+              },
+              {
+                "MatiereBulletinLibelle": "Philosophie",
+                "MoyenneduCandidat": "16,22",
+                "MoyenneclasseCandidat": "13,89",
+                "MoyenneBasseClasseduCandidat": "6,00",
+                "MoyenneHauteClasseduCandidat": "18,72",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un excellent trimesre ! Noah participe en cours et formule des réflexions pertinentes. Son travail est toujours fait avec sérieux et méthode, lui permettant de maîtrisant les attentes du cours. Continuez ainsi !"
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "15,00",
+                "MoyenneclasseCandidat": "11,64",
+                "MoyenneBasseClasseduCandidat": "5,50",
+                "MoyenneHauteClasseduCandidat": "16,54",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Très bon ensemble. Noah a de belles capacités capacités rédactionnelles et d'analyse. La participation est pertinente. Il faut poursuivre dans cette voie en cherchant à encore s'améliorer. C'est très bien!"
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Second trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "10,66",
+                "MoyenneclasseCandidat": "10,63",
+                "MoyenneBasseClasseduCandidat": "4,51",
+                "MoyenneHauteClasseduCandidat": "17,76",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un bilan une nouvelle fois encourageant grâce à votre présence active en classe, vous avez su maintenir une participation régulière et pertinente pendant les phases d'activités, ce qui est prometteur. L'écrit pêche toujours en raison de fragilités linguistiques tenaces qu'il vous faut combler avec un travail rigoureux et constant afin de gagner en aisance d'expression, orale comme écrite. L'année n'est pas encore terminée, vous savez quoi faire pour progresser à la hauteur de votre potentiel !"
+              },
+              {
+                "MatiereBulletinLibelle": "Philosophie",
+                "MoyenneduCandidat": "15,00",
+                "MoyenneclasseCandidat": "12,54",
+                "MoyenneBasseClasseduCandidat": "5,05",
+                "MoyenneHauteClasseduCandidat": "17,81",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Excellent bilan ! Noah est très impliqué en cours et participe bien. L'écrit est également rigoureux, méthodique et bien argumenté, témoignant de réelles capacités de travail. Continuez ainsi, vous pouvez faire encore mieux !"
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                "MoyenneduCandidat": "17,00",
+                "MoyenneclasseCandidat": "16,94",
+                "MoyenneBasseClasseduCandidat": "16,33",
+                "MoyenneHauteClasseduCandidat": "19,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Le travail est assez bon dans l'ensemble. C'est encourageant pour le prochain trimestre."
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "11,58",
+                "MoyenneclasseCandidat": "10,01",
+                "MoyenneBasseClasseduCandidat": "4,41",
+                "MoyenneHauteClasseduCandidat": "16,32",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Bon trimestre dans l'ensemble, vous êtes impliqué et sérieux, comme au trimestre précédent. Il est aussi à noter que les bavardages ont diminué. Continuez ainsi."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "12,00",
+                "MoyenneclasseCandidat": "10,93",
+                "MoyenneBasseClasseduCandidat": "7,00",
+                "MoyenneHauteClasseduCandidat": "15,67",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Une légère baisse dans les résultats ce trimestre. Noah possède de belles capacités tant à l'écrit qu'au niveau de sa participation en classe mais doit améliorer les méthodes de travail (faire des fiches, apprendre les schémas bilan, faire les sujets des années précédentes...) pour pouvoir progresser. Il est capable de beaucoup mieux!"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "FicheAvenir": {
+    "NiveauClasseCode": 4
+  },
+  "AppreciationsEnseignantsFicheAvenir": [
+    {
+      "MatiereFicheAvenirLibelle": "Philosophie",
+      "MatiereFicheAvenirLibelleBCN": "PHILOSOPHIE",
+      "AppreciationFicheAvenir": "Excellent bilan ! Elève très impliqué en cours, qui participe bien. L'écrit est également rigoureux, méthodique et bien argumenté, témoignant de réelles capacités de travail. Continuez ainsi, vous pouvez faire encore mieux !"
+    },
+    {
+      "MatiereFicheAvenirLibelle": "Langue vivante A",
+      "MatiereFicheAvenirLibelleBCN": "LANGUE VIVANTE 1",
+      "AppreciationFicheAvenir": "Bilan encourageant sur l'année, la participation orale est restée régulière et pertinente et la bonne volonté est de mise. Les fragilités linguistiques sont encore bien présentes et doivent faire l'objet d'un travail sérieux, rigoureux et appliqué pour qu'elles puissent être comblées à l'avenir !"
+    },
+    {
+      "MatiereFicheAvenirLibelle": "Physique-Chimie Spécialité",
+      "MatiereFicheAvenirLibelleBCN": "PHYSIQUE-CHIMIE",
+      "AppreciationFicheAvenir": "Une attitude très positive vis à vis du travail, qui est sérieux et très régulier. Tout est mis en œuvre pour réussir et les résultats suivent malgré l'augmentation du rythme de travail au cours de l'année."
+    },
+    {
+      "MatiereFicheAvenirLibelle": "Sciences de la vie et de la Terre Spécialité",
+      "MatiereFicheAvenirLibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+      "AppreciationFicheAvenir": "Assez bon ensemble. Noah a su rester sérieux et investi tout au long de l'année. Les capacités attendues en classe de terminale sont acquises."
+    }
+  ],
+  "Baccalaureat": {
+    "EDSScolaritePremiere1LibelleBCN": "MATHEMATIQUES",
+    "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE",
+    "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+    "EDSScolariteTerminale1Libelle": "Physique-Chimie Spécialité",
+    "EDSScolariteTerminale2Libelle": "Sciences de la vie et de la Terre Spécialité",
+    "EDSScolaritePremiere1Libelle": "Mathématiques Spécialité",
+    "EDSScolaritePremiere2Libelle": "Physique-Chimie Spécialité",
+    "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+  },
+  "NotesBaccalaureat": [
+    {
+      "EpreuveLibelle": "Physique-Chimie"
+    },
+    {
+      "EpreuveLibelle": "Sciences de la Vie et de la Terre"
+    },
+    {
+      "EpreuveLibelle": "Français écrit",
+      "NoteEpreuve": "7,0"
+    },
+    {
+      "EpreuveLibelle": "Français oral",
+      "NoteEpreuve": "12,0"
+    },
+    {
+      "EpreuveLibelle": "Mathématiques (EDS suivi uniquement en Première)",
+      "NoteEpreuve": "10,0"
+    }
+  ],
+  "DonneesVoeux": {
+    "LettreDeMotivation": "Mon projet d'intégrer la prépa BCPST au lycée Chaptal a pour but un projet clair : devenir vétérinaire  . Ce projet n'est pas né d'une envie soudaine , mais de ma passion constante pour les sciences du vivant et des animaux , qui est associé à mes spécialités physique-chimie et sciences de la vie et de la terre dans lesquelles j'obtiens des bons résultats et qui me permettront d'accéder à la majeur santé .<br /> Lors de ma visite au lycée Chaptal , j'ai pu échanger avec des enseignants . Cette expérience m'a confirmé que l'organisation du lycée et ses cours en présentiel correspond à la façon dont je travaille : avec méthode et régularité<br /> Sa fais maintenant huit ans que je pratique le Double Dutch en club . Titulaire  du titre de champion de France j'ai appris à gérer la pression , à m'entraîner sur la durée et à progresser collectivement. Ces exigences rejoignent celle de la BCPST,  prépa qui demande un engagement soutenu et une capacité à tenir dans la durée.<br /> Intégrer la BCPST  représente pour moi la première étape concrète vers le métier de vétérinaire ."
+  }
+}

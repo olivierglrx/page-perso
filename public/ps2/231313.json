@@ -1,0 +1,332 @@
+{
+  "DonneesCandidats": {
+    "NumeroDossierCandidat": 231313,
+    "NomCandidat": "ROUSSEAU",
+    "PrenomCandidat": "Alice",
+    "DateNaissance": "21/07/2009"
+  },
+  "Scolarite": [
+    {
+      "AnneeScolaireLibelle": "2025-2026",
+      "ScolariteFrancaiseLibelle": "Scolarité française",
+      "NiveauEtudeLibelle": "Terminale",
+      "TypeFormationLibelle": "Terminale",
+      "TypeClasseLibelle": "Générale",
+      "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+      "NomEtablissementOrigine": "Lycée Sevigne",
+      "CommuneEtablissementOrigineLibelle": "Paris  5e  Arrondissement",
+      "PaysEtablissementorigineLibelle": "France"
+    },
+    {
+      "ScolariteFrancaiseLibelle": "Scolarité française"
+    }
+  ],
+  "BulletinsScolaires": [
+    {
+      "AnneeLibelle": "2024-2025",
+      "BulletinsScolairesAnnee": {
+        "SerieLibelle": "Série Générale",
+        "BulletinsScolairesSeries": [
+          {
+            "TrimestreLibelle": "Premier trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "19,00",
+                "MoyenneclasseCandidat": "19,38",
+                "MoyenneBasseClasseduCandidat": "17,00",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Elève en section internationale, niveau bilingue."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "11,69",
+                "MoyenneclasseCandidat": "14,05",
+                "MoyenneBasseClasseduCandidat": "8,13",
+                "MoyenneHauteClasseduCandidat": "18,05",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Alice a des capacités mais elle ne peut plus se reposer sur ses acquis, il va falloir qu'elle produise un travail moins superficiel et plus rigoureux. Il faudra aussi qu'elle bavarde moins pendant les cours et qu'elle soit plus attentive en classe. Une réaction s'impose."
+              },
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "14,67",
+                "MoyenneclasseCandidat": "14,16",
+                "MoyenneBasseClasseduCandidat": "10,71",
+                "MoyenneHauteClasseduCandidat": "17,45",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un trimestre satisfaisant, marqué par un travail régulier et une sensibilité personnelle dont Alice sait rendre compte. Il faut poursuivre dans cette voie, en approfondissant l'analyse des oeuvres étudiées."
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "10,34",
+                "MoyenneclasseCandidat": "13,43",
+                "MoyenneBasseClasseduCandidat": "8,92",
+                "MoyenneHauteClasseduCandidat": "16,85",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Malgré des résultats encore un peu juste, le sérieux et le travail d'Alice commencent à payer en fin de trimestre. Il faut poursuivre vos efforts et ne surtout pas vous décourager. Vous pouvez encore progresser."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "14,02",
+                "MoyenneclasseCandidat": "14,36",
+                "MoyenneBasseClasseduCandidat": "11,45",
+                "MoyenneHauteClasseduCandidat": "17,82",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Alice est intéressée et engagée. Son travail en classe est sérieux et approfondi. Son travail personnel est un peu irrégulier ce qui explique que des notions ne soient pas maitrisées. La méthodologie d'exploitation de documents doit également être mieux maitrisée pour continuer à progresser."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Second trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "12,38",
+                "MoyenneclasseCandidat": "13,53",
+                "MoyenneBasseClasseduCandidat": "7,25",
+                "MoyenneHauteClasseduCandidat": "18,29",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Alice a intensifié ses efforts et les résultats, même s'ils sont trop irréguliers, progressent un peu. Il faudra qu'elle approfondisse encore son travail et qu'elle tâche d'avoir une compréhension plus fine du cours et des concepts étudiés pour progresser encore."
+              },
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "14,08",
+                "MoyenneclasseCandidat": "14,09",
+                "MoyenneBasseClasseduCandidat": "10,38",
+                "MoyenneHauteClasseduCandidat": "16,42",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Des résultats qui restent satisfaisants de la part d'une élève sérieuse et attentive. Les efforts sont à porter à l'écrit (dissertation) où il s'agit de mieux cerner les enjeux des questions posées pour mieux y répondre. Bonne maitrise des textes étudiés."
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "9,28",
+                "MoyenneclasseCandidat": "14,89",
+                "MoyenneBasseClasseduCandidat": "9,28",
+                "MoyenneHauteClasseduCandidat": "17,22",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble encore trop faible. Alice doit redoubler d'efforts et ne surtout pas se décourager. Vous pouvez encore progresser."
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "20,00",
+                "MoyenneclasseCandidat": "19,91",
+                "MoyenneBasseClasseduCandidat": "19,00",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Élève en section bilingue."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "14,03",
+                "MoyenneclasseCandidat": "13,90",
+                "MoyenneBasseClasseduCandidat": "10,74",
+                "MoyenneHauteClasseduCandidat": "16,65",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Alice continue à fournir un travail régulier et à s'investir en classe. Il faudrait maintenant qu'elle intensifie ses efforts et approfondisse sa compréhension des notions pour progresser."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Troisième trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "13,50",
+                "MoyenneclasseCandidat": "14,95",
+                "MoyenneBasseClasseduCandidat": "9,00",
+                "MoyenneHauteClasseduCandidat": "18,50",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Le travail reste assez sérieux même s'il aurait pu encore être approfondi. Alice doit montrer un peu plus de détermination si elle veut voir ses résultats vraiment progresser. En conséquence de quoi le niveau est correct mais sans plus."
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "19,00",
+                "MoyenneclasseCandidat": "19,81",
+                "MoyenneBasseClasseduCandidat": "19,00",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Elève en section bilingue."
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "11,72",
+                "MoyenneclasseCandidat": "14,45",
+                "MoyenneBasseClasseduCandidat": "11,72",
+                "MoyenneHauteClasseduCandidat": "17,64",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Une légère progression ce trimestre. Alice doit poursuivre ses efforts, vous êtes encore capable de progresser."
+              },
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "14,73",
+                "MoyenneclasseCandidat": "14,86",
+                "MoyenneBasseClasseduCandidat": "11,45",
+                "MoyenneHauteClasseduCandidat": "17,45",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Des résultats qui sont restés assez satisfaisants, tout au long de l'année. Le travail d'Alice est sérieux, même s'il manque parfois d'approfondissement."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "13,90",
+                "MoyenneclasseCandidat": "13,94",
+                "MoyenneBasseClasseduCandidat": "7,71",
+                "MoyenneHauteClasseduCandidat": "17,32",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un trimestre un peu décevant pour Alice qui a été moins investie et dont le travail a été un peu moins régulier et moins approfondi. Devant des sujets plus âpres, elle est pourtant capable de réussir en redoublant d'efforts. Le bilan est toutefois positif: Alice a acquis des compétences solides."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "AnneeLibelle": "2025-2026",
+      "BulletinsScolairesAnnee": {
+        "SerieLibelle": "Série Générale",
+        "BulletinsScolairesSeries": [
+          {
+            "TrimestreLibelle": "Second trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "11,35",
+                "MoyenneclasseCandidat": "14,04",
+                "MoyenneBasseClasseduCandidat": "4,50",
+                "MoyenneHauteClasseduCandidat": "19,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Des résultats en retrait pour Alice, qui ne profite pas toujours du cours pour montrer son travail ce qui permettrait de l'aider à régler les difficultés qu'elle peut rencontrer. Les notions importantes sont comprises cependant et elle a les capacités pour réussir par la suite."
+              },
+              {
+                "MatiereBulletinLibelle": "Philosophie",
+                "MoyenneduCandidat": "12,17",
+                "MoyenneclasseCandidat": "15,06",
+                "MoyenneBasseClasseduCandidat": "11,33",
+                "MoyenneHauteClasseduCandidat": "18,33",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Malgré le sérieux d'Alice en classe, les résultats son modestes. Il faut consolider l'assimilation des connaissances et renforcer les méthodes pour avancer. Alice en a toutes les capacités !"
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "15,82",
+                "MoyenneclasseCandidat": "15,12",
+                "MoyenneBasseClasseduCandidat": "9,02",
+                "MoyenneHauteClasseduCandidat": "18,82",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un bon trimestre, avec un travail régulier, des connaissances solides et une attitude exemplaire. Avec une telle dynamique, Alice devrait obtenir des résultats admirables au bac."
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "20,00",
+                "MoyenneclasseCandidat": "20,00",
+                "MoyenneBasseClasseduCandidat": "20,00",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "ELEVE EN SECTION BILINGUE. VOIR APPROFONDISSEMENT CULTURELLE ET LINGUISTIQUE."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Premier trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Philosophie",
+                "MoyenneduCandidat": "13,17",
+                "MoyenneclasseCandidat": "14,02",
+                "MoyenneBasseClasseduCandidat": "11,33",
+                "MoyenneHauteClasseduCandidat": "17,33",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un très bon investissement en classe et des résultats tout à fait encourageants. Poursuivez vos efforts, maintenez votre participation et votre travail portera ses fruits à l'écrit."
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "20,00",
+                "MoyenneclasseCandidat": "20,00",
+                "MoyenneBasseClasseduCandidat": "20,00",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Elève en section bilingue. Voir appréciation 'APPROFONDISSEMENT LINGUISTIQUE ET CULTURELLE'."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "12,62",
+                "MoyenneclasseCandidat": "14,01",
+                "MoyenneBasseClasseduCandidat": "8,90",
+                "MoyenneHauteClasseduCandidat": "18,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un assez bon ensemble pour Alice qui fait preuve d'une très belle attitude en classe et montre une bonne compréhension des notions abordées. Pour progresser, elle ne doit pas hésiter à poser davantage de questions ce qui lui permettra de mieux identifier ses difficultés en amont des évaluations."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "17,01",
+                "MoyenneclasseCandidat": "15,89",
+                "MoyenneBasseClasseduCandidat": "11,99",
+                "MoyenneHauteClasseduCandidat": "19,12",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un très bon trimestre. Alice est une élève régulière, rigoureuse et positive. Elle a obtenu cette excellente moyenne à la force de travail et d'attention aux conseils, et je la félicite pour tous les efforts auxquels elle a consenti."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "FicheAvenir": {
+    "NiveauClasseCode": 5
+  },
+  "AppreciationsEnseignantsFicheAvenir": [
+    {
+      "MatiereFicheAvenirLibelle": "Philosophie",
+      "MatiereFicheAvenirLibelleBCN": "PHILOSOPHIE",
+      "AppreciationFicheAvenir": "Alice est une élève sérieuse ; ses résultats au deuxième trimestre ne manifestent pas pleinement ses aptitudes. Elle est mobilisée et au travail. Les devoirs de plus grande ampleur ont été plus difficiles à appréhender pour elle. Compte tenu de ses capacités, de son désir de réussir et de son implication, on peut nourrir des espérances raisonnables. Elle devrait s'épanouir tout à fait dans une filière ajustée à ses projets et avec un encadrement rapproché."
+    },
+    {
+      "MatiereFicheAvenirLibelle": "Langue vivante A",
+      "MatiereFicheAvenirLibelleBCN": "LANGUE VIVANTE 1",
+      "AppreciationFicheAvenir": "Très bonne maîtrise de la langue anglaise. De bonnes capacités d'expression orale et écrite, de compréhension orale et écrite, et de raisonnement. Des interventions pertinentes et riches en vocabulaire.\nElève en section internationale, niveau bilingue.\n"
+    },
+    {
+      "MatiereFicheAvenirLibelle": "Mathématiques Spécialité",
+      "MatiereFicheAvenirLibelleBCN": "MATHEMATIQUES",
+      "AppreciationFicheAvenir": "Elève investie dans son travail personnel et dans sa participation en classe, qui montre une compréhension solide des notions importantes à l'oral, qu'elle a encore parfois des difficultés à concrétiser à l'écrit. Sa très grande rigueur dans le travail personnel et son désir de réussir seront des atouts importants pour la suite de ses études."
+    },
+    {
+      "MatiereFicheAvenirLibelle": "Sciences de la vie et de la Terre Spécialité",
+      "MatiereFicheAvenirLibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+      "AppreciationFicheAvenir": "Alice est une très bonne élève, particulièrement organisée et rigoureuse. Elle a atteint un très bon niveau scolaire grâce à un travail d'une grande régularité, et son attitude altruiste, enthousiaste et curieuse a été un moteur très important dans la dynamique de classe."
+    }
+  ],
+  "Baccalaureat": {
+    "EDSScolaritePremiere1LibelleBCN": "MATHEMATIQUES",
+    "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE",
+    "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+    "EDSScolariteTerminale1Libelle": "Mathématiques Spécialité",
+    "EDSScolariteTerminale2Libelle": "Sciences de la vie et de la Terre Spécialité",
+    "EDSScolaritePremiere1Libelle": "Mathématiques Spécialité",
+    "EDSScolaritePremiere2Libelle": "Physique-Chimie Spécialité",
+    "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+  },
+  "NotesBaccalaureat": [
+    {
+      "EpreuveLibelle": "Mathématiques"
+    },
+    {
+      "EpreuveLibelle": "Sciences de la Vie et de la Terre"
+    },
+    {
+      "EpreuveLibelle": "Français écrit",
+      "NoteEpreuve": "14,0"
+    },
+    {
+      "EpreuveLibelle": "Français oral",
+      "NoteEpreuve": "12,0"
+    },
+    {
+      "EpreuveLibelle": "Physique-Chimie  (EDS suivi uniquement en Première)",
+      "NoteEpreuve": "10,5"
+    }
+  ],
+  "DonneesVoeux": {
+    "LettreDeMotivation": "Actuellement en terminale générale au lycée Sévigné à Paris, je souhaite intégrer la classe préparatoire BCPST du lycée Chaptal. Passionnée par la biologie, je souhaite exercer un métier à dominante biologie ou géologie, mais je suis encore indécise sur le choix de l'école. <br /> Bilingue, ma préparation au Bac Français International Américain m'a enrichie d'une ouverture sur le monde, m'a dotée d'une capacité à considérer différents points de vue et m'a entraînée à fournir une grande quantité de travail. La spécialité SVT, enseignée en anglais, a été un déclic car elle m'a apporté rigueur et esprit de synthèse. J'attache beaucoup d'importance à l'humain, une bonne relation avec mes professeurs est essentielle pour moi. En tant que déléguée de ma classe cette année, j'ai veillé à ce que l'entraide et la bienveillance entre élèves prévalent. Pour la suite de mes études, je recherche un environnement à taille humaine, bienfaisant, exigeant positivement, mais surtout qui saura m'encadrer, m'accompagner et me soutenir pour donner le meilleur de moi-même. Ayant étudié en détail les matières enseignées, je suis consciente des défis intellectuels qui m'attendent et je suis prête à les relever : la SVT, la chimie, les langues étant mes matières préférées. Les années exigeantes de classe préparatoire me seront utiles pour toute ma carrière professionnelle.<br /> En espérant que ma candidature retiendra votre attention, veuillez agréer mes salutations distinguées."
+  }
+}

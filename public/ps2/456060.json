@@ -1,0 +1,305 @@
+{
+  "DonneesCandidats": {
+    "NumeroDossierCandidat": 456060,
+    "NomCandidat": "BOUZELATENE",
+    "PrenomCandidat": "Gregory",
+    "DateNaissance": "17/07/2008"
+  },
+  "Scolarite": [
+    {
+      "AnneeScolaireLibelle": "2025-2026",
+      "ScolariteFrancaiseLibelle": "Scolarité française",
+      "NiveauEtudeLibelle": "Terminale",
+      "TypeFormationLibelle": "Terminale",
+      "TypeClasseLibelle": "Générale",
+      "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+      "NomEtablissementOrigine": "Lycée Richelieu",
+      "CommuneEtablissementOrigineLibelle": "Rueil-Malmaison",
+      "PaysEtablissementorigineLibelle": "France"
+    },
+    {
+      "ScolariteFrancaiseLibelle": "Scolarité française"
+    }
+  ],
+  "BulletinsScolaires": [
+    {
+      "AnneeLibelle": "2024-2025",
+      "BulletinsScolairesAnnee": {
+        "SerieLibelle": "Série Générale",
+        "BulletinsScolairesSeries": [
+          {
+            "TrimestreLibelle": "Second semestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "8,10",
+                "MoyenneclasseCandidat": "15,84",
+                "MoyenneBasseClasseduCandidat": "8,10",
+                "MoyenneHauteClasseduCandidat": "19,68",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Des résultats en progrès certes, mais pas encore au niveau attendu en fin de Première"
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "17,06",
+                "MoyenneclasseCandidat": "15,33",
+                "MoyenneBasseClasseduCandidat": "7,70",
+                "MoyenneHauteClasseduCandidat": "19,85",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Attitude sérieuse et volontaire. Les notions sont bien maitrisées, le travail est régulier. C'est un bon deuxième semestre."
+              },
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "7,82",
+                "MoyenneclasseCandidat": "12,57",
+                "MoyenneBasseClasseduCandidat": "6,60",
+                "MoyenneHauteClasseduCandidat": "19,40",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Peu de progrès ce semestre. Il faut cesser de tergiverser! Consacrez-vous activement à vos révisions. Vous pouvez faire bien mieux, notamment à l'oral."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "12,31",
+                "MoyenneclasseCandidat": "12,73",
+                "MoyenneBasseClasseduCandidat": "6,27",
+                "MoyenneHauteClasseduCandidat": "18,11",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un assez bon semestre avec des progrès grâce à un travail sérieux. La rigueur à l'écrit et les méthodes doivent être encore travaillées."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "15,00",
+                "MoyenneclasseCandidat": "13,22",
+                "MoyenneBasseClasseduCandidat": "3,60",
+                "MoyenneHauteClasseduCandidat": "19,30",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un bon semestre avec une apprentissage du cours et des méthodes la plupart du temps sérieux ! Tu n'exploites pas ton potentiel au maximum et te repose su tes acquis certains. Tu dois être plus rigoureux dans tes raisonnements et ne pas te précipiter dans tes productions !\nContinue avec ce sérieux !"
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Premier semestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "7,29",
+                "MoyenneclasseCandidat": "11,86",
+                "MoyenneBasseClasseduCandidat": "7,29",
+                "MoyenneHauteClasseduCandidat": "16,59",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble insuffisant à l'écrit. Il faut reprendre le cours à la maison et approfondir les connaissances. Votre sérieux en classe doit vous permettre de progresser, mais il faut être plus dynamique!"
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "6,19",
+                "MoyenneclasseCandidat": "15,41",
+                "MoyenneBasseClasseduCandidat": "6,19",
+                "MoyenneHauteClasseduCandidat": "19,82",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un semestre inquiétant, vous devez absolument réagir!"
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "10,72",
+                "MoyenneclasseCandidat": "11,33",
+                "MoyenneBasseClasseduCandidat": "5,46",
+                "MoyenneHauteClasseduCandidat": "18,29",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble moyen mais le travail est sérieux avec de la motivation. Tu dois améliorer ton écrit (rigueur et précision) pour progresser. Persévère !"
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "18,01",
+                "MoyenneclasseCandidat": "14,74",
+                "MoyenneBasseClasseduCandidat": "5,70",
+                "MoyenneHauteClasseduCandidat": "19,14",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Attitude sérieuse et volontaire. Le travail est sérieux et régulier sur l'ensemble du semestre. Un bon bilan annuel"
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "13,60",
+                "MoyenneclasseCandidat": "13,73",
+                "MoyenneBasseClasseduCandidat": "3,70",
+                "MoyenneHauteClasseduCandidat": "19,20",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Moyenne de DS : 14.25\nUn bon semestre grâce à un apprentissage sérieux du cours et un travail constant en classe. Il faut cependant prendre plus son temps dans les raisonnements qui sont parfois trop partiels et imprécis ! Tu es capable de faire bien mieux au second semestre en gagnant en rigueur !\nContinue ainsi."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "AnneeLibelle": "2025-2026",
+      "BulletinsScolairesAnnee": {
+        "SerieLibelle": "Série Générale",
+        "BulletinsScolairesSeries": [
+          {
+            "TrimestreLibelle": "Premier trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "14,80",
+                "MoyenneclasseCandidat": "11,11",
+                "MoyenneBasseClasseduCandidat": "0,80",
+                "MoyenneHauteClasseduCandidat": "18,60",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un bon trimestre grâce à un sérieux et une bonne participation en classe ! Il faut continuer ainsi pour la suite de l'année ! Il faut néanmoins être plus rigoureux et attentif à tes productions écrites et bien te relire pour éviter les étourderies qui sont évitables ! \nPoursuis avec cette attitude positive et cette envie de progresser pour réussir !"
+              },
+              {
+                "MatiereBulletinLibelle": "Philosophie",
+                "MoyenneduCandidat": "8,00",
+                "MoyenneclasseCandidat": "11,78",
+                "MoyenneBasseClasseduCandidat": "5,50",
+                "MoyenneHauteClasseduCandidat": "17,56",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un trimestre fragile. Des efforts sont fournis dans le suivi du cours pour comprendre les contenus, mais il faut travailler en profondeur l'assimilation rigoureuse et soigner avec une très grande vigilance la rédaction. Vous avez les capacités pour progresser et il ne faut pas se laisser gagner par le découragement face à la difficulté de la nouvelle discipline."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Expertes",
+                "MoyenneduCandidat": "14,00",
+                "MoyenneclasseCandidat": "15,21",
+                "MoyenneBasseClasseduCandidat": "7,75",
+                "MoyenneHauteClasseduCandidat": "19,25",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Bon travail! Des progrès sur le trimestre. Poursuivez vos efforts"
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "10,44",
+                "MoyenneclasseCandidat": "12,84",
+                "MoyenneBasseClasseduCandidat": "4,64",
+                "MoyenneHauteClasseduCandidat": "18,40",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un ensemble un peu juste  mais Grégory a réalisé des efforts considérables et les  progrès  sont significatifs. Je vous félicite et vous encourage à poursuivre  ainsi, voire plus!"
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "12,33",
+                "MoyenneclasseCandidat": "13,12",
+                "MoyenneBasseClasseduCandidat": "3,45",
+                "MoyenneHauteClasseduCandidat": "18,44",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Assez bon trimestre.  Élève volontaire, du sérieux.  Des efforts de participation. En travaillant les méthodes Gregory doit pouvoir progresser."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Second trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "14,60",
+                "MoyenneclasseCandidat": "11,54",
+                "MoyenneBasseClasseduCandidat": "0,20",
+                "MoyenneHauteClasseduCandidat": "18,80",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un bon trimestre avec des progrès au niveau de la rédaction et de la rigueur attendu en terminale. Le travail en classe est plutôt sérieux et l'envie d'aller plus loin dans les exercices est remarquable. Il faut tout de même s'assurer de suivre les explications de rédaction lors des corrections. Poursuis avec cet état d'esprit et cette envie de bien faire !\nBravo !"
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Expertes",
+                "MoyenneduCandidat": "12,50",
+                "MoyenneclasseCandidat": "13,87",
+                "MoyenneBasseClasseduCandidat": "6,50",
+                "MoyenneHauteClasseduCandidat": "19,63",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Du sérieux et de la régularité. Poursuivez vos efforts"
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "8,13",
+                "MoyenneclasseCandidat": "13,15",
+                "MoyenneBasseClasseduCandidat": "4,80",
+                "MoyenneHauteClasseduCandidat": "19,77",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un ensemble  irrégulier  face aux  exigences croissantes"
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "12,47",
+                "MoyenneclasseCandidat": "15,53",
+                "MoyenneBasseClasseduCandidat": "3,42",
+                "MoyenneHauteClasseduCandidat": "19,58",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Assez bon trimestre, Gregory s'est montré investi. Il a les capacités pour progresser davantage : un approfondissement du travail personnel le lui permettra."
+              },
+              {
+                "MatiereBulletinLibelle": "Philosophie",
+                "MoyenneduCandidat": "8,32",
+                "MoyenneclasseCandidat": "11,97",
+                "MoyenneBasseClasseduCandidat": "7,89",
+                "MoyenneHauteClasseduCandidat": "16,16",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un ensemble qui reste fragile. Des efforts d'attention louables sont fournis dans le suivi du cours, mais les difficultés à l'écrit demeurent persistantes. Il faut redoubler d'efforts en travaillant à votre rythme, sans vous décourager en entrant dans le dernier trimestre."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "FicheAvenir": {
+    "NiveauClasseCode": 4
+  },
+  "AppreciationsEnseignantsFicheAvenir": [
+    {
+      "MatiereFicheAvenirLibelle": "Philosophie",
+      "MatiereFicheAvenirLibelleBCN": "PHILOSOPHIE",
+      "AppreciationFicheAvenir": "Un niveau fragile qui s'explique par des difficultés dans la rédaction. Toutefois, l'attitude reste positive avec des efforts de compréhension des contenus dans le suivi du cours."
+    },
+    {
+      "MatiereFicheAvenirLibelle": "Langue vivante A",
+      "MatiereFicheAvenirLibelleBCN": "LANGUE VIVANTE 1",
+      "AppreciationFicheAvenir": "Un ensemble trop  juste mais des efforts ont été fournis et des progrès significatifs ont été accomplis tout au long de l'année"
+    },
+    {
+      "MatiereFicheAvenirLibelle": "Mathématiques Spécialité",
+      "MatiereFicheAvenirLibelleBCN": "MATHEMATIQUES",
+      "AppreciationFicheAvenir": "Un très bon niveau d'ensemble, les connaissances et les méthodes sont bien assimilées, la participation en classe est très bonne. Les conseils prodigués tout au long de l'année ont été suivis et mis en application. Une attitude toujours positive. Ta grande curiosité, ton sérieux, ta volonté ainsi que tes réelles capacités de travail te permettront de réussir dans une voie sélective. Participation aux olympiades de 1ʳᵉ."
+    },
+    {
+      "MatiereFicheAvenirLibelle": "Physique-Chimie Spécialité",
+      "MatiereFicheAvenirLibelleBCN": "PHYSIQUE-CHIMIE",
+      "AppreciationFicheAvenir": "Assez bon trimestre pour Gregory, qui s'est montré particulièrement investi. Doté des capacités nécessaires, il progressera davantage en approfondissant son travail personnel, ce qui lui ouvrira de belles opportunités en études supérieures."
+    },
+    {
+      "MatiereFicheAvenirLibelle": "Mathématiques Expertes",
+      "MatiereFicheAvenirLibelleBCN": "MATHEMATIQUES EXPERTES",
+      "AppreciationFicheAvenir": "Niveau honorable. Un travail régulier dans l'ensemble."
+    }
+  ],
+  "Baccalaureat": {
+    "EDSScolaritePremiere1LibelleBCN": "MATHEMATIQUES",
+    "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE",
+    "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+    "EDSScolariteTerminale1Libelle": "Mathématiques Spécialité",
+    "EDSScolariteTerminale2Libelle": "Physique-Chimie Spécialité",
+    "EDSScolaritePremiere1Libelle": "Mathématiques Spécialité",
+    "EDSScolaritePremiere2Libelle": "Physique-Chimie Spécialité",
+    "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+  },
+  "NotesBaccalaureat": [
+    {
+      "EpreuveLibelle": "Mathématiques"
+    },
+    {
+      "EpreuveLibelle": "Physique-Chimie"
+    },
+    {
+      "EpreuveLibelle": "Français écrit",
+      "NoteEpreuve": "8,0"
+    },
+    {
+      "EpreuveLibelle": "Français oral",
+      "NoteEpreuve": "11,0"
+    },
+    {
+      "EpreuveLibelle": "Sciences de la Vie et de la Terre  (EDS suivi uniquement en Première)",
+      "NoteEpreuve": "11,6"
+    }
+  ],
+  "DonneesVoeux": {
+    "LettreDeMotivation": "Bonjour Madame, Monsieur, je suis en terminale générale avec les spécialités Mathématiques et Physique-Chimie. Ma spécialisation de première est la SVT. J'aimerais intégrer votre CPGE BCPST pour continuer mon parcours jusqu'en école vétérinaire.<br /> <br /> Je n'ai pas peur d'une grande charge de travail et je suis capable de rester concentré pendant longtemps, cela me permet de travailler sur une longue durée. Connaissant la grande charge de travail d'une CPGE, ces qualités me permettraient d'avoir de bonnes notes. N'ayant pas gardé la spécialité SVT en terminale, je sais qu'il va falloir rattraper un potentiel retard. En revanche, en mathématiques, ayant pris la spécialité et l'option Math expertes, je pourrai avoir de très bonnes notes. Lors du bac blanc, j'ai su travailler efficacement avec des notes montant à plus de 17 dans les deux spécialités.<br /> En plus de tout cela, je suis quelqu'un de naturellement calme et je ne stresse presque jamais, me permettant de garder une lucidité durant les DS ou les grandes épreuves. Cela me permet aussi un travail plus rapide et plus efficace.<br /> Je suis aussi très investi, je participe à la radio du lycée et ai fait le concours d'éloquence de mon lycée. En plus de cela, je suis inscrit à l'association sportive de mon lycée et ai reçu un diplôme d'arbitre national lors d'une compétition de badminton. Je sais donc gérer des situations compliquées, suivre et faire suivre des règles.<br /> <br /> J'espère pouvoir rentrer dans votre CPGE BCPST.<br /> Merci de votre compréhension."
+  }
+}

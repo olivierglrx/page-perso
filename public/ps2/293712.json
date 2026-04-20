@@ -1,0 +1,350 @@
+{
+  "DonneesCandidats": {
+    "NumeroDossierCandidat": 293712,
+    "NomCandidat": "SNAIDER",
+    "PrenomCandidat": "Lola",
+    "DateNaissance": "06/11/2008"
+  },
+  "Scolarite": [
+    {
+      "AnneeScolaireLibelle": "2025-2026",
+      "ScolariteFrancaiseLibelle": "Scolarité française",
+      "NiveauEtudeLibelle": "Terminale",
+      "TypeFormationLibelle": "Terminale",
+      "TypeClasseLibelle": "Générale",
+      "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+      "NomEtablissementOrigine": "Lycée Victor Hugo",
+      "CommuneEtablissementOrigineLibelle": "Paris  3e  Arrondissement",
+      "PaysEtablissementorigineLibelle": "France"
+    },
+    {
+      "ScolariteFrancaiseLibelle": "Scolarité française"
+    }
+  ],
+  "BulletinsScolaires": [
+    {
+      "AnneeLibelle": "2024-2025",
+      "BulletinsScolairesAnnee": {
+        "SerieLibelle": "Série Générale",
+        "BulletinsScolairesSeries": [
+          {
+            "TrimestreLibelle": "Premier trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "15,00",
+                "MoyenneclasseCandidat": "12,20",
+                "MoyenneBasseClasseduCandidat": "6,10",
+                "MoyenneHauteClasseduCandidat": "16,80",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Très bon trimestre. Lola est une élève sérieuse et investie qui fournit un travail de qualité."
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "13,90",
+                "MoyenneclasseCandidat": "13,50",
+                "MoyenneBasseClasseduCandidat": "5,20",
+                "MoyenneHauteClasseduCandidat": "18,50",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un ensemble très convenable ce trimestre. Le travail est sérieux et régulier. Il faut maintenant être plus méthodique et rigoureuse."
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "20,00",
+                "MoyenneclasseCandidat": "19,40",
+                "MoyenneBasseClasseduCandidat": "19,00",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Excellente maîtrise de la langue à l'écrit et à l'oral"
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "16,00",
+                "MoyenneclasseCandidat": "14,70",
+                "MoyenneBasseClasseduCandidat": "9,00",
+                "MoyenneHauteClasseduCandidat": "19,50",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Bon trimestre, bon oral, poursuivez !"
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "17,00",
+                "MoyenneclasseCandidat": "14,00",
+                "MoyenneBasseClasseduCandidat": "10,50",
+                "MoyenneHauteClasseduCandidat": "17,50",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Très bon trimestre. Élève très impliquée dans son travail. Attitude positive. Lola est volontaire et persévérante. Les acquis sont solides."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Second trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "15,00",
+                "MoyenneclasseCandidat": "13,60",
+                "MoyenneBasseClasseduCandidat": "8,50",
+                "MoyenneHauteClasseduCandidat": "18,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Encore un très bon trimestre. Lola a fait preuve de sérieux et de régularité dans son travail et son investissement en classe."
+              },
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "13,00",
+                "MoyenneclasseCandidat": "12,50",
+                "MoyenneBasseClasseduCandidat": "6,60",
+                "MoyenneHauteClasseduCandidat": "17,30",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Même s'il est en deçà du précédent, c'est un trimestre tout à fait satisfaisant. Lola est toujours aussi sérieuse et investie."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "17,00",
+                "MoyenneclasseCandidat": "13,10",
+                "MoyenneBasseClasseduCandidat": "4,00",
+                "MoyenneHauteClasseduCandidat": "19,50",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Très bon trimestre !"
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "20,00",
+                "MoyenneclasseCandidat": "19,40",
+                "MoyenneBasseClasseduCandidat": "17,00",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Excellente maîtrise de la langue à l'écrit et à l'oral"
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "13,00",
+                "MoyenneclasseCandidat": "11,20",
+                "MoyenneBasseClasseduCandidat": "2,90",
+                "MoyenneHauteClasseduCandidat": "18,90",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble convenable ce trimestre. Il faut travailler plus en profondeur et plus rapidement. ."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Troisième trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "15,90",
+                "MoyenneclasseCandidat": "12,90",
+                "MoyenneBasseClasseduCandidat": "9,70",
+                "MoyenneHauteClasseduCandidat": "16,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Excellent trimestre, marqué par une belle progression des résultats. Bravo pour votre attitude très positive tout au long de l'année."
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "11,10",
+                "MoyenneclasseCandidat": "12,50",
+                "MoyenneBasseClasseduCandidat": "6,10",
+                "MoyenneHauteClasseduCandidat": "19,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "L'ensemble est correct. Le travail est sérieux mais l'écrit doit être plus solide."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "14,00",
+                "MoyenneclasseCandidat": "13,50",
+                "MoyenneBasseClasseduCandidat": "5,50",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Bon trimestre dans l'ensemble."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "14,80",
+                "MoyenneclasseCandidat": "13,40",
+                "MoyenneBasseClasseduCandidat": "9,30",
+                "MoyenneHauteClasseduCandidat": "17,30",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Travail sérieux. Résultats très satisfaisants tout au long de l'année. Les acquis sont solides."
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "20,00",
+                "MoyenneclasseCandidat": "20,00",
+                "MoyenneBasseClasseduCandidat": "19,00",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Excellence maîtrise de la langue à l'écrit et à l'oral"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "AnneeLibelle": "2025-2026",
+      "BulletinsScolairesAnnee": {
+        "SerieLibelle": "Série Générale",
+        "BulletinsScolairesSeries": [
+          {
+            "TrimestreLibelle": "Premier trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Philosophie",
+                "MoyenneduCandidat": "11,40",
+                "MoyenneclasseCandidat": "11,80",
+                "MoyenneBasseClasseduCandidat": "8,00",
+                "MoyenneHauteClasseduCandidat": "15,90",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Du sérieux. Résultats honorables."
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "12,80",
+                "MoyenneclasseCandidat": "11,20",
+                "MoyenneBasseClasseduCandidat": "4,30",
+                "MoyenneHauteClasseduCandidat": "17,90",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Les résultats sont très irréguliers. Le travail est sérieux. L'ensemble est très convenable ce trimestre mis à part le dernier dernier devoir de mécanique ( car les fondations mathématiques manquent parfois de solidité)."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "16,30",
+                "MoyenneclasseCandidat": "14,80",
+                "MoyenneBasseClasseduCandidat": "11,40",
+                "MoyenneHauteClasseduCandidat": "18,70",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Trimestre de grande qualité. Beaucoup de sérieux dans la posture et un investissement dans le travail régulier. Bravo, continuez ainsi."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                "MoyenneduCandidat": "16,20",
+                "MoyenneclasseCandidat": "13,20",
+                "MoyenneBasseClasseduCandidat": "8,70",
+                "MoyenneHauteClasseduCandidat": "18,60",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Bon trimestre. ! Travail sérieux, et un vrai soucis de progrès."
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "20,00",
+                "MoyenneclasseCandidat": "19,90",
+                "MoyenneBasseClasseduCandidat": "19,00",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Excellente maîtrise de la langue à l'écrit et à l'oral"
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Second trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "20,00",
+                "MoyenneclasseCandidat": "20,00",
+                "MoyenneBasseClasseduCandidat": "20,00",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Excellente maîtrise de la langue italienne à l'écrit et à l'oral"
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Complémentaires",
+                "MoyenneduCandidat": "17,40",
+                "MoyenneclasseCandidat": "15,60",
+                "MoyenneBasseClasseduCandidat": "8,50",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Excellent trimestre ! Lola fournit un travail sérieux, plein de rigueur scientifique et de qualités de réflexion. Une participation pertinente. Bravo."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "18,30",
+                "MoyenneclasseCandidat": "15,90",
+                "MoyenneBasseClasseduCandidat": "12,20",
+                "MoyenneHauteClasseduCandidat": "19,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Excellent trimestre. Lola est une élève très sérieuse et très impliquée dans la discipline. Bravo!"
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "12,30",
+                "MoyenneclasseCandidat": "11,80",
+                "MoyenneBasseClasseduCandidat": "2,70",
+                "MoyenneHauteClasseduCandidat": "17,40",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un trimestre convenable. Le travail est toujours sérieux et régulier. Il faut gagner en confiance pour vous adapter à tous les types d'exercices."
+              },
+              {
+                "MatiereBulletinLibelle": "Philosophie",
+                "MoyenneduCandidat": "11,20",
+                "MoyenneclasseCandidat": "11,40",
+                "MoyenneBasseClasseduCandidat": "7,40",
+                "MoyenneHauteClasseduCandidat": "15,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Résultats en progrès vers la fin du trimestre."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "FicheAvenir": {
+    "NiveauClasseCode": 5
+  },
+  "AppreciationsEnseignantsFicheAvenir": [
+    {
+      "MatiereFicheAvenirLibelle": "Philosophie",
+      "MatiereFicheAvenirLibelleBCN": "PHILOSOPHIE",
+      "AppreciationFicheAvenir": "Du sérieux : élève qui saura trouver les voies de la réussite dans la filière choisie."
+    },
+    {
+      "MatiereFicheAvenirLibelle": "Langue vivante A",
+      "MatiereFicheAvenirLibelleBCN": "LANGUE VIVANTE 1",
+      "AppreciationFicheAvenir": "Excellente maîtrise de la langue italienne à l’écrit comme à l’oral, dans différents registres linguistiques. Excellente compréhension et analyse de textes littéraires. Productions écrites et orales de grande qualité, précises et pertinentes."
+    },
+    {
+      "MatiereFicheAvenirLibelle": "Physique-Chimie Spécialité",
+      "MatiereFicheAvenirLibelleBCN": "PHYSIQUE-CHIMIE",
+      "AppreciationFicheAvenir": "Le travail a été sérieux et régulier toute l'année. Une très bonne participation en TP."
+    },
+    {
+      "MatiereFicheAvenirLibelle": "Sciences de la vie et de la Terre Spécialité",
+      "MatiereFicheAvenirLibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+      "AppreciationFicheAvenir": "Un ensemble excellent. Elève très sérieuse et fortement impliquée dans la discipline."
+    }
+  ],
+  "Baccalaureat": {
+    "EDSScolaritePremiere1LibelleBCN": "MATHEMATIQUES",
+    "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE",
+    "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+    "EDSScolariteTerminale1Libelle": "Physique-Chimie Spécialité",
+    "EDSScolariteTerminale2Libelle": "Sciences de la vie et de la Terre Spécialité",
+    "EDSScolaritePremiere1Libelle": "Mathématiques Spécialité",
+    "EDSScolaritePremiere2Libelle": "Physique-Chimie Spécialité",
+    "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+  },
+  "NotesBaccalaureat": [
+    {
+      "EpreuveLibelle": "Physique-Chimie"
+    },
+    {
+      "EpreuveLibelle": "Sciences de la Vie et de la Terre"
+    },
+    {
+      "EpreuveLibelle": "Français écrit",
+      "NoteEpreuve": "11,0"
+    },
+    {
+      "EpreuveLibelle": "Français oral",
+      "NoteEpreuve": "20,0"
+    },
+    {
+      "EpreuveLibelle": "Mathématiques (EDS suivi uniquement en Première)",
+      "NoteEpreuve": "15,7"
+    }
+  ],
+  "DonneesVoeux": {
+    "LettreDeMotivation": "Madame, Monsieur,<br /> Guidée par un attrait pour les sciences et un projet construit pour l'avenir, je souhaite intégrer la classe préparatoire en filière BCPST du lycée Chaptal.<br /> Je m'intéresse particulièrement à votre établissement pour son enseignement exigeant, qui m'offrirait de vastes perspectives pour des études supérieures de haut niveau.<br /> Élève curieuse, j'ai pu découvrir à plusieurs occasions la recherche scientifique: au Collège de France, au Synchrotron Soleil ou encore à l'Institut Pasteur. Ces visites m'ont permis de développer une attirance pour ce domaine et l'acquisition de connaissances au-delà du programme autour des enjeux de la recherche fondamentale. C'est donc vers ces débouchés que s'oriente mon projet: intégrer une ENS en biologie ou chimie, une école d'ingénieurs, avec l'ambition de poursuivre vers la recherche et le doctorat.<br /> Ayant pratiqué le judo à haut niveau en structure et étant en section EsaBac, avec des heures de cours et des épreuves supplémentaires de baccalauréat en italien, j'ai appris à être autonome, à m'organiser et à gérer la pression pour performer en toutes circonstances.<br /> Je suis consciente de l'exigence que représente une CPGE scientifique et de la charge de travail qu'elle implique. Je suis prête à m'y adapter, poussée par une grande détermination dans tout ce que j'entreprends, je suis convaincue de trouver mon épanouissement dans votre établissement.<br /> Veuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées."
+  }
+}

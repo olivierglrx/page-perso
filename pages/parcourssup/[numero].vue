@@ -11,118 +11,200 @@
 
   <div v-else-if="isAuthenticated && data">
     <div class="p-6 max-w-5xl mx-auto space-y-6">
-      <div class="flex justify-between pt-6">
-        <NuxtLink
-          v-if="data.InfosSupplementaires?.['candidat précédent']"
-          class="text-blue-600 hover:underline"
-          :to="`/parcourssup/${data.InfosSupplementaires['candidat précédent']}`"
-        >
-          ← Candidat précédent
-        </NuxtLink>
-        <div></div>
-        <NuxtLink
-          v-if="data.InfosSupplementaires?.['candidat suivant']"
-          class="text-blue-600 hover:underline"
-          :to="`/parcourssup/${data.InfosSupplementaires['candidat suivant']}`"
-        >
-          Candidat suivant →
-        </NuxtLink>
-      </div>
       <CandidatHeader :candidat="data.DonneesCandidats" />
       <CandidatInfo :info="data.InfosSupplementaires" />
 
       <CandidatScolarite :scolarite="data.Scolarite" />
-      <CandidatLettremotivation :text="data.InfosSupplementaires['lettre']"/>
-      <CandidatAppreciations :appreciations="data.AppreciationsEnseignantsFicheAvenir" />
-
+      <CandidatLettremotivation :text="data.InfosSupplementaires['lettre']" />
+      <CandidatAppreciations
+        :appreciations="data.AppreciationsEnseignantsFicheAvenir"
+      />
       <CandidatBac :baccalaureat="data.Baccalaureat" />
       <CandidatNotesBac :notes="data.NotesBaccalaureat" />
       <CandidatBulletins :bulletins="data.BulletinsScolaires" />
     </div>
-    
   </div>
 </template>
 <script setup>
 import { useRoute } from "vue-router";
 import { ref, onMounted } from "vue";
 
-// Récupération du paramètre de la route
 const route = useRoute();
 const numero = route.params.numero;
 
-// Références réactives
 const inputPassword = ref("");
 const isAuthenticated = ref(false);
 const error = ref(false);
 const data = ref(null);
 const pendingAuth = ref(true);
 
-// Mot de passe attendu
-const PASSWORD = "chaptalPS2025!!";
+const PASSWORD = "chaptalPS2026!!";
 
-// Vérification du mot de passe
-const checkPassword = () => {
-  if (inputPassword.value === PASSWORD) {
-    localStorage.setItem("ps_auth", "true");
-    isAuthenticated.value = true;
-    error.value = false;
-    loadData(); // Chargement des données après authentification
-  } else {
-    error.value = true;
+const group = ref(null);
+const notealgo = ref(null);
+
+const loadgroup = async () => {
+  if (group.value) return;
+
+  try {
+    const res = await fetch(`/ps2/output.json`);
+    const datajson = await res.json();
+
+    if (datajson[numero]) {
+      group.value = datajson[numero][1];
+      notealgo.value = datajson[numero][0];
+    } else {
+      console.warn(
+        `Aucune donnée trouvée pour le numéro ${numero} dans output.json`,
+      );
+    }
+  } catch (e) {
+    console.error("Erreur de chargement output.json:", e);
   }
 };
 
-// Fonction de chargement des données candidat
 const loadData = async () => {
-  if (data.value) return; // Évite les rechargements multiples
+  if (data.value) return;
 
   try {
     const res = await fetch(`/ps2/${numero}.json`);
     const datajson = await res.json();
 
-    const allCandidats = datajson.exportDeDonnees.exportCandidats.flatMap(
-      (f) => f.candidats
-    );
+    const spepremiere = [
+      datajson?.Baccalaureat?.EDSScolaritePremiere1Libelle,
+      datajson?.Baccalaureat?.EDSScolaritePremiere2Libelle,
+      datajson?.Baccalaureat?.EDSScolaritePremiere3Libelle,
+    ];
 
-    const found = allCandidats.find(
-      (c) => c.DonneesCandidats?.NumeroDossierCandidat == numero
-    );
-   
+    const speterminale = [
+      datajson?.Baccalaureat?.EDSScolariteTerminale1Libelle,
+      datajson?.Baccalaureat?.EDSScolariteTerminale2Libelle,
+    ];
 
-    if (found) data.value = found;
+    const speabandonne = spepremiere.filter((x) => !speterminale.includes(x));
 
+    if (datajson.DonneesCandidats?.NumeroDossierCandidat == numero) {
+      const texte = (
+        datajson["lettre"] ??
+        datajson.DonneesVoeux?.LettreDeMotivation ??
+        ""
+      ).toLowerCase();
 
-    if (found) {
-      data.value.InfosSupplementaires = {
-        "Code candidat": datajson["Code candidat"],
-        "Groupe algorithmique": datajson["Groupe algorithmique"],
-        "Classement Algorithmique": datajson["Classement Algorithmique"],
-        "Remarques": datajson["Remarques"],
-        "Spe": datajson["Spe"],
-        "candidat précédent": datajson["candidat précédent"],
-        "candidat suivant": datajson["candidat suivant"],
-        'lettre' : datajson["lettre"],
-        'veto' : datajson["veto"],
-        'geol': datajson["geol"],
+      // ou en une seule variable si tu veux tester les deux
+      const contientVeto = ["veto", "véto", "veterinaire", "vétérinaire"].some(
+        (mot) => texte.includes(mot),
+      );
+      const contientGeol = ["geol", "géol", "geologie", "géologie"].some(
+        (mot) => texte.includes(mot),
+      );
+      const mots = [
+        "excellent",
+        "bravo",
+        "très bien",
+        "sérieux",
+        "sérieuse",
+        "motivation",
+      ];
+
+      // fonction pour normaliser (casse + accents)
+      const normalize = (str) =>
+        str
+          .toLowerCase()
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "");
+
+      const motsNormalises = mots.map(normalize);
+
+      const resultats = datajson.AppreciationsEnseignantsFicheAvenir.map(
+        (obj) => {
+          const texte = normalize(obj.AppreciationFicheAvenir ?? "");
+
+          const comptes = Object.fromEntries(
+            motsNormalises.map((mot, i) => [
+              mots[i], // garder la forme originale comme clé
+              (texte.match(new RegExp(mot, "g")) || []).length,
+            ]),
+          );
+
+          return {
+            ...obj,
+            comptes,
+          };
+        },
+      );
+      console.log("buletin", datajson.BulletinsScolairesAnnee);
+
+      const resultats2 = datajson.BulletinsScolairesAnnee.map((obj) => {
+        const texte = normalize(obj.AppreciationFicheAvenir ?? "");
+
+        const comptes = Object.fromEntries(
+          motsNormalises.map((mot, i) => [
+            mots[i], // garder la forme originale comme clé
+            (texte.match(new RegExp(mot, "g")) || []).length,
+          ]),
+        );
+
+        return {
+          ...obj,
+          comptes,
+        };
+      });
+
+      const total = Object.fromEntries(mots.map((m) => [m, 0]));
+
+      resultats.forEach((r) => {
+        mots.forEach((m) => {
+          total[m] += r.comptes[m];
+        });
+      });
+
+      console.log("total", total);
+
+      data.value = {
+        ...datajson,
+        InfosSupplementaires: {
+          "Code candidat": datajson.DonneesCandidats?.NumeroDossierCandidat,
+          "Groupe algorithmique": group.value ?? "N/A",
+          "Classement Algorithmique": notealgo.value ?? "N/A",
+          Remarques: total,
+          Spe: speterminale.filter(Boolean).join(", ") || "N/A",
+          speabandonne: speabandonne,
+          lettre:
+            datajson["lettre"] ?? datajson.DonneesVoeux?.LettreDeMotivation,
+          veto: contientVeto ? "Oui" : "Non",
+          geol: contientGeol ? "Oui" : "Non",
+        },
       };
-
     }
+
+    console.log(data.value);
   } catch (e) {
     console.error("Erreur de chargement ps.json:", e);
   }
 };
 
-// Initialisation à l'ouverture du composant
-onMounted(() => {
+const checkPassword = async () => {
+  if (inputPassword.value === PASSWORD) {
+    localStorage.setItem("ps_auth", "true");
+    isAuthenticated.value = true;
+    error.value = false;
+
+    await loadgroup();
+    await loadData();
+  } else {
+    error.value = true;
+  }
+};
+
+onMounted(async () => {
   if (localStorage.getItem("ps_auth") === "true") {
     isAuthenticated.value = true;
-    loadData(); // Chargement immédiat si déjà authentifié
+    await loadgroup();
+    await loadData();
   }
   pendingAuth.value = false;
-
 });
 
-// Métadonnées de la page
 definePageMeta({
   layout: "trombi",
 });

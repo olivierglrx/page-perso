@@ -1,0 +1,355 @@
+{
+  "DonneesCandidats": {
+    "NumeroDossierCandidat": 647090,
+    "NomCandidat": "CAPRIO",
+    "PrenomCandidat": "Philomene",
+    "DateNaissance": "09/08/2008"
+  },
+  "Scolarite": [
+    {
+      "AnneeScolaireLibelle": "2025-2026",
+      "ScolariteFrancaiseLibelle": "Scolarité française",
+      "NiveauEtudeLibelle": "Terminale",
+      "TypeFormationLibelle": "Terminale",
+      "TypeClasseLibelle": "Générale",
+      "TypeEtablissementorigineLibelle": "Lycée général et technologique",
+      "NomEtablissementOrigine": "Lycée Francoise Cabrini",
+      "CommuneEtablissementOrigineLibelle": "Noisy-le-Grand",
+      "PaysEtablissementorigineLibelle": "France"
+    },
+    {
+      "ScolariteFrancaiseLibelle": "Scolarité française"
+    }
+  ],
+  "BulletinsScolaires": [
+    {
+      "AnneeLibelle": "2025-2026",
+      "BulletinsScolairesAnnee": {
+        "SerieLibelle": "Série Générale",
+        "BulletinsScolairesSeries": [
+          {
+            "TrimestreLibelle": "Second trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Mathématiques Expertes",
+                "MoyenneduCandidat": "12,99",
+                "MoyenneclasseCandidat": "13,99",
+                "MoyenneBasseClasseduCandidat": "8,46",
+                "MoyenneHauteClasseduCandidat": "18,25",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Baisse sensible des résultats. Philomène semble moins intéressée par la matière ce trimestre."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "15,37",
+                "MoyenneclasseCandidat": "14,52",
+                "MoyenneBasseClasseduCandidat": "10,13",
+                "MoyenneHauteClasseduCandidat": "19,43",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Résultats très satisfaisants dans l'ensemble. Philomène est une élève sérieuse."
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "14,04",
+                "MoyenneclasseCandidat": "14,20",
+                "MoyenneBasseClasseduCandidat": "9,91",
+                "MoyenneHauteClasseduCandidat": "18,30",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble sérieux et efficace, continuez vos efforts avec confiance"
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "15,25",
+                "MoyenneclasseCandidat": "16,85",
+                "MoyenneBasseClasseduCandidat": "11,75",
+                "MoyenneHauteClasseduCandidat": "20,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un travail sérieux et des résultats corrects. Il conviendrait toutefois de s'impliquer davantage à l'oral afin de gagner en aisance et en efficacité."
+              },
+              {
+                "MatiereBulletinLibelle": "Philosophie",
+                "MoyenneduCandidat": "9,50",
+                "MoyenneclasseCandidat": "10,44",
+                "MoyenneBasseClasseduCandidat": "5,25",
+                "MoyenneHauteClasseduCandidat": "14,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Les références philosophiques ne sont pas bien maitrisées, il faut donc reprendre votre apprentissage pour renforcer votre compréhension du cours. Attention à la lisibilité de votre écriture qui se détériore en cours de devoir."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Premier trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Mathématiques Expertes",
+                "MoyenneduCandidat": "17,03",
+                "MoyenneclasseCandidat": "14,72",
+                "MoyenneBasseClasseduCandidat": "9,45",
+                "MoyenneHauteClasseduCandidat": "19,18",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Très bon travail"
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "15,44",
+                "MoyenneclasseCandidat": "16,34",
+                "MoyenneBasseClasseduCandidat": "10,78",
+                "MoyenneHauteClasseduCandidat": "19,43",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Un bilan plutôt positif de ce debut d'année. Eleve investie qui doit prendre confiance en elle et ne pas hésiter à se manifester en classe."
+              },
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "15,41",
+                "MoyenneclasseCandidat": "13,61",
+                "MoyenneBasseClasseduCandidat": "9,07",
+                "MoyenneHauteClasseduCandidat": "19,23",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Résultats très satisfaisants. Restez concentrée en classe."
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "14,50",
+                "MoyenneclasseCandidat": "14,29",
+                "MoyenneBasseClasseduCandidat": "6,75",
+                "MoyenneHauteClasseduCandidat": "19,13",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble satisfaisant beaucoup d'effort dans le travail mais la participation pourrait être un peu plus active, cela vous aiderait grandement."
+              },
+              {
+                "MatiereBulletinLibelle": "Philosophie",
+                "MoyenneduCandidat": "11,80",
+                "MoyenneclasseCandidat": "10,63",
+                "MoyenneBasseClasseduCandidat": "7,60",
+                "MoyenneHauteClasseduCandidat": "13,80",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Philomène pourrait participer davantage à l'oral. Une amélioration à l'écrit dans le dernier devoir. Efforts à poursuivre."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "AnneeLibelle": "2024-2025",
+      "BulletinsScolairesAnnee": {
+        "SerieLibelle": "Série Générale",
+        "BulletinsScolairesSeries": [
+          {
+            "TrimestreLibelle": "Premier trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "11,04",
+                "MoyenneclasseCandidat": "12,81",
+                "MoyenneBasseClasseduCandidat": "5,29",
+                "MoyenneHauteClasseduCandidat": "18,57",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Les résultats d'ensemble sont corrects. Philomène est capable de bien mieux."
+              },
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "13,00",
+                "MoyenneclasseCandidat": "11,09",
+                "MoyenneBasseClasseduCandidat": "7,67",
+                "MoyenneHauteClasseduCandidat": "16,33",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Travail très satisfaisant. Poursuivez vos efforts."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "14,35",
+                "MoyenneclasseCandidat": "11,38",
+                "MoyenneBasseClasseduCandidat": "6,92",
+                "MoyenneHauteClasseduCandidat": "15,73",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Bon trimestre. Philomène est impliquée, discrète, et sérieuse. Pour progresser, il faut approfondir la méthode afin de mieux cerner les attentes. Participer à l'oral vous permettra de renforcer vos compétences et de vous préparer au grand oral."
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "11,88",
+                "MoyenneclasseCandidat": "13,53",
+                "MoyenneBasseClasseduCandidat": "9,70",
+                "MoyenneHauteClasseduCandidat": "18,96",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble assez satisfaisant, l'écrit reste fragile par manque de rigueur mais vous êtes volontaire. N'hésitez pas à participer davantage en classe pour progresser. Poursuivez vos efforts dans la suite de l'année."
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "13,70",
+                "MoyenneclasseCandidat": "13,81",
+                "MoyenneBasseClasseduCandidat": "8,00",
+                "MoyenneHauteClasseduCandidat": "19,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Trimestre correct. Philomène est sérieuse. Elle devra retravailler le passage à l'écrit pour progresser en expression écrite. Elle devra accentuer sa participation orale."
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Troisième trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "15,76",
+                "MoyenneclasseCandidat": "12,80",
+                "MoyenneBasseClasseduCandidat": "4,61",
+                "MoyenneHauteClasseduCandidat": "18,63",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Très bon travail."
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "14,75",
+                "MoyenneclasseCandidat": "15,50",
+                "MoyenneBasseClasseduCandidat": "11,50",
+                "MoyenneHauteClasseduCandidat": "18,25",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Des résultats convenables. Philomène devra approfondir son travail personnel pour gagner en rigueur en expression."
+              },
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "15,78",
+                "MoyenneclasseCandidat": "13,50",
+                "MoyenneBasseClasseduCandidat": "8,89",
+                "MoyenneHauteClasseduCandidat": "16,95",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Excellents résultats. Le travail a été très sérieux et appliqué tout au long de l'année."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "15,05",
+                "MoyenneclasseCandidat": "11,55",
+                "MoyenneBasseClasseduCandidat": "6,21",
+                "MoyenneHauteClasseduCandidat": "16,41",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Belle année pour Philomène, marquée par de larges progrès. Elle a su tirer parti des conseils reçus pour évoluer et répondre aux attentes. Une dynamique positive à poursuivre."
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "12,23",
+                "MoyenneclasseCandidat": "12,80",
+                "MoyenneBasseClasseduCandidat": "7,03",
+                "MoyenneHauteClasseduCandidat": "17,37",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble satisfaisant, ce trimestre est l'image de du reste de l'année : sérieux"
+              }
+            ]
+          },
+          {
+            "TrimestreLibelle": "Second trimestre",
+            "BulletinsScolairesParPeriode": [
+              {
+                "MatiereBulletinLibelle": "Mathématiques Spécialité",
+                "MoyenneduCandidat": "12,31",
+                "MoyenneclasseCandidat": "13,23",
+                "MoyenneBasseClasseduCandidat": "7,92",
+                "MoyenneHauteClasseduCandidat": "19,18",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Les résultats sont convenables"
+              },
+              {
+                "MatiereBulletinLibelle": "Langue vivante A",
+                "MoyenneduCandidat": "13,32",
+                "MoyenneclasseCandidat": "13,82",
+                "MoyenneBasseClasseduCandidat": "8,43",
+                "MoyenneHauteClasseduCandidat": "18,67",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Trimestre correct. Philomène s'implique avec sérieux, elle devra intensifier ses efforts de participation. il faudra également travailler avec plus de rigueur en expression."
+              },
+              {
+                "MatiereBulletinLibelle": "Français",
+                "MoyenneduCandidat": "13,75",
+                "MoyenneclasseCandidat": "12,84",
+                "MoyenneBasseClasseduCandidat": "7,00",
+                "MoyenneHauteClasseduCandidat": "18,00",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Résultats satisfaisants. Le travail est sérieux. Poursuivez dans cette voie."
+              },
+              {
+                "MatiereBulletinLibelle": "Sciences de la vie et de la Terre Spécialité",
+                "MoyenneduCandidat": "10,72",
+                "MoyenneclasseCandidat": "11,97",
+                "MoyenneBasseClasseduCandidat": "7,31",
+                "MoyenneHauteClasseduCandidat": "17,90",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Le trimestre de Philomène est juste avec des résultats en baisse.Il est important de vous investir davantage en classe et d'appliquer les méthodes avec plus de rigueur. Continuez à poser des questions dès qu'un concept n'est pas clair pour progresser"
+              },
+              {
+                "MatiereBulletinLibelle": "Physique-Chimie Spécialité",
+                "MoyenneduCandidat": "13,80",
+                "MoyenneclasseCandidat": "13,64",
+                "MoyenneBasseClasseduCandidat": "8,70",
+                "MoyenneHauteClasseduCandidat": "17,27",
+                "TypedeSaisieCode": 1,
+                "AppreciationProfesseur": "Ensemble satisfaisant, vous progressez grâce à vos efforts et votre sérieux, il faut poursuivre ainsi."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "FicheAvenir": {
+    "NiveauClasseCode": 5
+  },
+  "AppreciationsEnseignantsFicheAvenir": [
+    {
+      "MatiereFicheAvenirLibelle": "Philosophie",
+      "MatiereFicheAvenirLibelleBCN": "PHILOSOPHIE",
+      "AppreciationFicheAvenir": "Philomène est une élève attentive et discrète. Il me semble que l'organisation du raisonnement à l'écrit est encore un peu difficile, et peut-être insuffisamment étayée par un travail suffisant sur le cours."
+    },
+    {
+      "MatiereFicheAvenirLibelle": "Langue vivante A",
+      "MatiereFicheAvenirLibelleBCN": "LANGUE VIVANTE 1",
+      "AppreciationFicheAvenir": "Un ensemble correct. Le travail est resté sérieux et l'investissement régulier tout au long de l'année."
+    },
+    {
+      "MatiereFicheAvenirLibelle": "Mathématiques Spécialité",
+      "MatiereFicheAvenirLibelleBCN": "MATHEMATIQUES",
+      "AppreciationFicheAvenir": "Résultats très satisfaisants dans l'ensemble. Elève investie."
+    },
+    {
+      "MatiereFicheAvenirLibelle": "Physique-Chimie Spécialité",
+      "MatiereFicheAvenirLibelleBCN": "PHYSIQUE-CHIMIE",
+      "AppreciationFicheAvenir": "Ensemble très satisfaisant pour une élève sérieuse et investie dans la spécialité. Ses interventions sont pertinentes et montre beaucoup de bon sens"
+    },
+    {
+      "MatiereFicheAvenirLibelle": "Mathématiques Expertes",
+      "MatiereFicheAvenirLibelleBCN": "MATHEMATIQUES EXPERTES",
+      "AppreciationFicheAvenir": "Des résultats convenables"
+    }
+  ],
+  "Baccalaureat": {
+    "EDSScolaritePremiere1LibelleBCN": "MATHEMATIQUES",
+    "EDSScolaritePremiere2LibelleBCN": "PHYSIQUE-CHIMIE",
+    "EDSScolaritePremiere3LibelleBCN": "SCIENCES DE LA VIE ET DE LA TERRE",
+    "EDSScolariteTerminale1Libelle": "Mathématiques Spécialité",
+    "EDSScolariteTerminale2Libelle": "Physique-Chimie Spécialité",
+    "EDSScolaritePremiere1Libelle": "Mathématiques Spécialité",
+    "EDSScolaritePremiere2Libelle": "Physique-Chimie Spécialité",
+    "EDSScolaritePremiere3Libelle": "Sciences de la vie et de la Terre Spécialité"
+  },
+  "NotesBaccalaureat": [
+    {
+      "EpreuveLibelle": "Mathématiques"
+    },
+    {
+      "EpreuveLibelle": "Physique-Chimie"
+    },
+    {
+      "EpreuveLibelle": "Français écrit",
+      "NoteEpreuve": "12,0"
+    },
+    {
+      "EpreuveLibelle": "Français oral",
+      "NoteEpreuve": "17,0"
+    },
+    {
+      "EpreuveLibelle": "Sciences de la Vie et de la Terre  (EDS suivi uniquement en Première)",
+      "NoteEpreuve": "13,4"
+    }
+  ],
+  "DonneesVoeux": {
+    "LettreDeMotivation": "Madame, Monsieur,  <br /> <br /> Actuellement en classe de Terminale au sein du lycée privé Françoise Cabrini avec les spécialités Mathématiques, Physique-Chimie et l'option Mathématiques Expertes, je me permets de vous adresser ma candidature pour intégrer la classe préparatoire BCPST de votre établissement pour l'année 2026-2027. <br /> <br /> Au cours de ma scolarité, j'ai développé un intérêt particulier pour les matières scientifiques, notamment les Sciences de la Vie et de la Terre. Ces disciplines m'ont permis d'acquérir des bases solides, des capacités d'analyse et de raisonnement ainsi qu'une méthode de travail efficace. <br /> <br /> Organisée et curieuse, je suis capable d'assimiler des connaissances complexes et de les mettre en application. Je suis également préparée et déterminée à assumer la charge de travail inhérente à de telles études. <br /> <br /> Je suis convaincue de détenir le niveau nécessaire pour postuler en BCPST. Mes résultats académiques notamment en Mathématiques, Physique-Chimie et SVT attestent de mon sérieux et de mes capacités dans l'ensemble des disciplines. <br /> <br /> Le lycée Chaptal, réputé pour la qualité de son enseignement représente pour moi l'opportunité de bénéficier d'une formation exigeante et reconnue pour préparer les concours dans les meilleures conditions. <br /> <br /> Motivée et prête à m'investir pleinement, je saurai répondre présente si vous m'accordez votre confiance pour rejoindre vos rangs. <br /> <br /> Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées. "
+  }
+}
