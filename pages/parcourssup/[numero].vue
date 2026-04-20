@@ -104,6 +104,8 @@ const loadData = async () => {
         "sérieux",
         "sérieuse",
         "motivation",
+        "bavardage",
+        "absent",
       ];
 
       // fonction pour normaliser (casse + accents)
@@ -132,23 +134,14 @@ const loadData = async () => {
           };
         },
       );
-      console.log("buletin", datajson.BulletinsScolairesAnnee);
-
-      const resultats2 = datajson.BulletinsScolairesAnnee.map((obj) => {
-        const texte = normalize(obj.AppreciationFicheAvenir ?? "");
-
-        const comptes = Object.fromEntries(
-          motsNormalises.map((mot, i) => [
-            mots[i], // garder la forme originale comme clé
-            (texte.match(new RegExp(mot, "g")) || []).length,
-          ]),
-        );
-
-        return {
-          ...obj,
-          comptes,
-        };
-      });
+      const texteGlobal = (datajson.BulletinsScolaires ?? [])
+        .flatMap(
+          (bulletin) =>
+            bulletin.BulletinsScolairesAnnee?.BulletinsScolairesSeries ?? [],
+        )
+        .flatMap((serie) => serie.BulletinsScolairesParPeriode ?? [])
+        .map((periode) => periode.AppreciationProfesseur ?? "")
+        .join(" ");
 
       const total = Object.fromEntries(mots.map((m) => [m, 0]));
 
@@ -158,7 +151,22 @@ const loadData = async () => {
         });
       });
 
-      console.log("total", total);
+      const normalizeText = (str) =>
+        str
+          .toLowerCase()
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "");
+
+      const texteGlobalNormalise = normalizeText(texteGlobal);
+
+      mots.forEach((m) => {
+        const motNormalise = normalizeText(m);
+        total[m] += (
+          texteGlobalNormalise.match(new RegExp(motNormalise, "g")) || []
+        ).length;
+      });
+
+      console.log(total);
 
       data.value = {
         ...datajson,
