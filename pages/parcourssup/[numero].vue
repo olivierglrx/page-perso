@@ -10,6 +10,7 @@
   />
 
   <div v-else-if="isAuthenticated && data">
+    <ColorMode />
     <div class="p-6 max-w-5xl mx-auto space-y-6">
       <CandidatHeader :candidat="data.DonneesCandidats" />
       <CandidatInfo :info="data.InfosSupplementaires" />
