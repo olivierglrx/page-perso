@@ -313,13 +313,13 @@ const selected = ref(k[0]);
 function onChange() {
   if (selected.value != "Tous") {
     dref2020.value = D2020.filter(
-      (x) => x["keywords"].indexOf(selected.value) > -1
+      (x) => x["keywords"].indexOf(selected.value) > -1,
     );
     dref2021.value = D2021.filter(
-      (x) => x["keywords"].indexOf(selected.value) > -1
+      (x) => x["keywords"].indexOf(selected.value) > -1,
     );
     dref2023.value = D2023.filter(
-      (x) => x["keywords"].indexOf(selected.value) > -1
+      (x) => x["keywords"].indexOf(selected.value) > -1,
     );
   } else {
     dref2020.value = D2020;
