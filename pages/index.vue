@@ -1,13 +1,7 @@
 <template>
   <Hero />
   <section id="cours">
-    <div class="md:w-9/12 mx-auto text-center">
-      <p>Bon courage aux 2eme année !</p>
-
-      <a href="/depart.jpg" target="_blank">
-        <img class="mx-auto" width="300" src="public/depart.jpg" alt="Aymen" />
-      </a>
-    </div>
+    <a href="/RCBCOR.pdf"> Correction révisions CB </a>
 
     <Titleheader title="Cours" />
 
