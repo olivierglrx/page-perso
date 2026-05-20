@@ -1,8 +1,8 @@
 ---
 published: false
-name: Chapitre 21 - DL
+name: Chapitre 20 - DL
 image: /public/Capture d'écran 2025-05-31 100015.png
-cours: /public/Cours DL.pdf
-TD: /public/TD 21.pdf
-TDcor: /public/td 21 cor.pdf
+cours: /public/DL 26.pdf
+TD: /public/td dl 26-1.pdf
+TDcor: /public/cor dL 26.pdf
 ---
