@@ -1,6 +1,6 @@
 ---
 published: true
-name: Chapitre 20 - Applications linéaires
+name: Chapitre 21 - Applications linéaires
 image: /public/Capture d'écran 2025-05-07 211441.png
 cours: /public/BCPST-2.pdf
 TDcor: /public/cor application linéaire.pdf

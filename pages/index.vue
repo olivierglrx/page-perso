@@ -1,7 +1,6 @@
 <template>
   <Hero />
   <section id="cours">
-    <a href="/RCBCOR.pdf"> Correction révisions CB </a>
 
     <Titleheader title="Cours" />
 
